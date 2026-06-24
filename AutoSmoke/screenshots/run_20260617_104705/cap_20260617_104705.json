@@ -1,9 +1,0 @@
-{
-  "schema": "capture/game_design_resolution/v1",
-  "timestamp": "2026-06-17T10:47:05.165+08:00",
-  "trigger": "request_file",
-  "coordinateSpace": "game_design_resolution",
-  "resolution": { "width": 1170, "height": 2532 },
-  "fileSize": 528755,
-  "filePath": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_104705\\cap_20260617_104705.png"
-}

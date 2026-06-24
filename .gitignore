@@ -12,3 +12,4 @@ AutoSmoke/metadata/ui_code_semantics_test.json
 
 # 截图
 *.png
+AutoSmoke/screenshots/
