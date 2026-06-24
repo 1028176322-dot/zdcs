@@ -1,0 +1,45 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "pay_btn",
+  "displayName": "pay_btn",
+  "drafts": {
+    "DRAFT_445af32e2e39": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MainActivity/PayBtn.prefab",
+      "prefabRoot": "PayBtn",
+      "path": "PayBtn",
+      "nodeName": "PayBtn",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "LayoutElement",
+        "HomeIconBaseUI",
+        "AssetRefData"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "pay_btn",
+      "displayName": "Pay按钮",
+      "chineseDescription": "PayBtn的Pay按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MainActivity/PayBtn.prefab」中的PayBtnPay按钮",
+      "suggestedTestId": "PayBtn.PayBtn",
+      "suggestedSemanticId": "PayBtn.Pay按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_445af32e2e39"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_445af32e2e39"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

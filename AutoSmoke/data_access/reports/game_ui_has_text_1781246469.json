@@ -1,0 +1,7491 @@
+{
+  "category": "has_text",
+  "description": "有文本元素",
+  "extract_time": "2026-06-12 14:41:09",
+  "game_coords": {
+    "left": 271,
+    "top": 51,
+    "right": 759,
+    "bottom": 761,
+    "width": 488,
+    "height": 710,
+    "timestamp": "2026-06-12T12:07:00"
+  },
+  "count": 202,
+  "elements": [
+    {
+      "name": "Text",
+      "type": "Text",
+      "text": "Debug",
+      "raw_text": "Debug",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9315,
+        "y": 0.979
+      },
+      "size_normalized": {
+        "w": 0.1111,
+        "h": 0.0342
+      },
+      "center_pixel": {
+        "x": 725.6,
+        "y": 746.1,
+        "game_x": 454.6,
+        "game_y": 695.1
+      },
+      "bbox_pixel": {
+        "left": 698.5,
+        "top": 734.0,
+        "right": 752.7,
+        "bottom": 758.3,
+        "width": 54.2,
+        "height": 24.3,
+        "game_left": 427.5,
+        "game_top": 683.0,
+        "game_right": 481.7,
+        "game_bottom": 707.3
+      },
+      "depth": 4,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "5",
+      "raw_text": "5",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.1029,
+        "y": 0.8166
+      },
+      "size_normalized": {
+        "w": 0.0154,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 321.2,
+        "y": 630.8,
+        "game_x": 50.2,
+        "game_y": 579.8
+      },
+      "bbox_pixel": {
+        "left": 317.5,
+        "top": 623.2,
+        "right": 325.0,
+        "bottom": 638.4,
+        "width": 7.5,
+        "height": 15.2,
+        "game_left": 46.5,
+        "game_top": 572.2,
+        "game_right": 54.0,
+        "game_bottom": 587.4
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "txt1",
+      "type": "Node",
+      "text": "将灯塔升到4级(4/4)",
+      "raw_text": "将灯塔升到4级(4/4)",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4351,
+        "y": 0.836
+      },
+      "size_normalized": {
+        "w": 0.6053,
+        "h": 0.0385
+      },
+      "center_pixel": {
+        "x": 483.3,
+        "y": 644.5,
+        "game_x": 212.3,
+        "game_y": 593.5
+      },
+      "bbox_pixel": {
+        "left": 335.6,
+        "top": 630.9,
+        "right": 631.0,
+        "bottom": 658.2,
+        "width": 295.4,
+        "height": 27.3,
+        "game_left": 64.6,
+        "game_top": 579.9,
+        "game_right": 360.0,
+        "game_bottom": 607.2
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "1",
+      "raw_text": "1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2087,
+        "y": 0.7599
+      },
+      "size_normalized": {
+        "w": 0.0154,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 372.8,
+        "y": 590.5,
+        "game_x": 101.8,
+        "game_y": 539.5
+      },
+      "bbox_pixel": {
+        "left": 369.1,
+        "top": 583.8,
+        "right": 376.6,
+        "bottom": 597.2,
+        "width": 7.5,
+        "height": 13.4,
+        "game_left": 98.1,
+        "game_top": 532.8,
+        "game_right": 105.6,
+        "game_bottom": 546.2
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "08:22",
+      "raw_text": "08:22",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2537,
+        "y": 0.0261
+      },
+      "size_normalized": {
+        "w": 0.1213,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 394.8,
+        "y": 69.5,
+        "game_x": 123.8,
+        "game_y": 18.5
+      },
+      "bbox_pixel": {
+        "left": 365.2,
+        "top": 60.4,
+        "right": 424.4,
+        "bottom": 78.6,
+        "width": 59.2,
+        "height": 18.2,
+        "game_left": 94.2,
+        "game_top": 9.4,
+        "game_right": 153.4,
+        "game_bottom": 27.6
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "0/26",
+      "raw_text": "0/26",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4647,
+        "y": 0.0252
+      },
+      "size_normalized": {
+        "w": 0.113,
+        "h": 0.0222
+      },
+      "center_pixel": {
+        "x": 497.8,
+        "y": 68.9,
+        "game_x": 226.8,
+        "game_y": 17.9
+      },
+      "bbox_pixel": {
+        "left": 470.2,
+        "top": 61.0,
+        "right": 525.3,
+        "bottom": 76.8,
+        "width": 55.2,
+        "height": 15.8,
+        "game_left": 199.2,
+        "game_top": 10.0,
+        "game_right": 254.3,
+        "game_bottom": 25.8
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5806,
+        "y": 0.0261
+      },
+      "size_normalized": {
+        "w": 0.0463,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 554.3,
+        "y": 69.5,
+        "game_x": 283.3,
+        "game_y": 18.5
+      },
+      "bbox_pixel": {
+        "left": 543.0,
+        "top": 61.9,
+        "right": 565.6,
+        "bottom": 77.1,
+        "width": 22.6,
+        "height": 15.2,
+        "game_left": 272.0,
+        "game_top": 10.9,
+        "game_right": 294.6,
+        "game_bottom": 26.1
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.6778,
+        "y": 0.0252
+      },
+      "size_normalized": {
+        "w": 0.1315,
+        "h": 0.0222
+      },
+      "center_pixel": {
+        "x": 601.8,
+        "y": 68.9,
+        "game_x": 330.8,
+        "game_y": 17.9
+      },
+      "bbox_pixel": {
+        "left": 569.7,
+        "top": 61.0,
+        "right": 633.8,
+        "bottom": 76.8,
+        "width": 64.2,
+        "height": 15.8,
+        "game_left": 298.7,
+        "game_top": 10.0,
+        "game_right": 362.8,
+        "game_bottom": 25.8
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Img",
+      "type": "Node",
+      "text": "常规活动",
+      "raw_text": "常规活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.105
+      },
+      "size_normalized": {
+        "w": 0.1407,
+        "h": 0.065
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 125.6,
+        "game_x": 445.1,
+        "game_y": 74.6
+      },
+      "bbox_pixel": {
+        "left": 681.7,
+        "top": 102.5,
+        "right": 750.4,
+        "bottom": 148.7,
+        "width": 68.7,
+        "height": 46.2,
+        "game_left": 410.7,
+        "game_top": 51.5,
+        "game_right": 479.4,
+        "game_bottom": 97.7
+      },
+      "depth": 6,
+      "children_count": 2
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "常规活动",
+      "raw_text": "常规活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.1049
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 125.5,
+        "game_x": 445.1,
+        "game_y": 74.5
+      },
+      "bbox_pixel": {
+        "left": 658.2,
+        "top": 86.6,
+        "right": 773.9,
+        "bottom": 164.3,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 387.2,
+        "game_top": 35.6,
+        "game_right": 502.9,
+        "game_bottom": 113.3
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Red_node",
+      "type": "Node",
+      "text": "常规活动",
+      "raw_text": "常规活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9454,
+        "y": 0.0853
+      },
+      "size_normalized": {
+        "w": 0.037,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 732.3,
+        "y": 111.6,
+        "game_x": 461.3,
+        "game_y": 60.6
+      },
+      "bbox_pixel": {
+        "left": 723.3,
+        "top": 105.5,
+        "right": 741.4,
+        "bottom": 117.7,
+        "width": 18.1,
+        "height": 12.2,
+        "game_left": 452.3,
+        "game_top": 54.5,
+        "game_right": 470.4,
+        "game_bottom": 66.7
+      },
+      "depth": 7,
+      "children_count": 1
+    },
+    {
+      "name": "2",
+      "type": "Node",
+      "text": "常规活动",
+      "raw_text": "常规活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9427,
+        "y": 0.0853
+      },
+      "size_normalized": {
+        "w": 0.0423,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 731.1,
+        "y": 111.6,
+        "game_x": 460.1,
+        "game_y": 60.6
+      },
+      "bbox_pixel": {
+        "left": 720.7,
+        "top": 105.5,
+        "right": 741.4,
+        "bottom": 117.7,
+        "width": 20.6,
+        "height": 12.2,
+        "game_left": 449.7,
+        "game_top": 54.5,
+        "game_right": 470.4,
+        "game_bottom": 66.7
+      },
+      "depth": 8,
+      "children_count": 1
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "3",
+      "raw_text": "3",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9427,
+        "y": 0.0841
+      },
+      "size_normalized": {
+        "w": 0.0145,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 731.1,
+        "y": 110.7,
+        "game_x": 460.1,
+        "game_y": 59.7
+      },
+      "bbox_pixel": {
+        "left": 727.5,
+        "top": 104.0,
+        "right": 734.6,
+        "bottom": 117.4,
+        "width": 7.1,
+        "height": 13.4,
+        "game_left": 456.5,
+        "game_top": 53.0,
+        "game_right": 463.6,
+        "game_bottom": 66.4
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "常规活动",
+      "raw_text": "常规活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.1273
+      },
+      "size_normalized": {
+        "w": 0.1128,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 141.4,
+        "game_x": 445.1,
+        "game_y": 90.4
+      },
+      "bbox_pixel": {
+        "left": 688.5,
+        "top": 134.7,
+        "right": 743.6,
+        "bottom": 148.1,
+        "width": 55.1,
+        "height": 13.4,
+        "game_left": 417.5,
+        "game_top": 83.7,
+        "game_right": 472.6,
+        "game_bottom": 97.1
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "超值活动",
+      "raw_text": "超值活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.1716
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 172.8,
+        "game_x": 445.1,
+        "game_y": 121.8
+      },
+      "bbox_pixel": {
+        "left": 658.2,
+        "top": 134.0,
+        "right": 773.9,
+        "bottom": 211.7,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 387.2,
+        "game_top": 83.0,
+        "game_right": 502.9,
+        "game_bottom": 160.7
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Red_node",
+      "type": "Node",
+      "text": "超值活动",
+      "raw_text": "超值活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9454,
+        "y": 0.1519
+      },
+      "size_normalized": {
+        "w": 0.037,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 732.3,
+        "y": 158.9,
+        "game_x": 461.3,
+        "game_y": 107.9
+      },
+      "bbox_pixel": {
+        "left": 723.3,
+        "top": 152.8,
+        "right": 741.4,
+        "bottom": 164.9,
+        "width": 18.1,
+        "height": 12.2,
+        "game_left": 452.3,
+        "game_top": 101.8,
+        "game_right": 470.4,
+        "game_bottom": 113.9
+      },
+      "depth": 7,
+      "children_count": 1
+    },
+    {
+      "name": "2",
+      "type": "Node",
+      "text": "超值活动",
+      "raw_text": "超值活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9427,
+        "y": 0.1519
+      },
+      "size_normalized": {
+        "w": 0.0423,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 731.1,
+        "y": 158.9,
+        "game_x": 460.1,
+        "game_y": 107.9
+      },
+      "bbox_pixel": {
+        "left": 720.7,
+        "top": 152.8,
+        "right": 741.4,
+        "bottom": 164.9,
+        "width": 20.6,
+        "height": 12.2,
+        "game_left": 449.7,
+        "game_top": 101.8,
+        "game_right": 470.4,
+        "game_bottom": 113.9
+      },
+      "depth": 8,
+      "children_count": 1
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "3",
+      "raw_text": "3",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9427,
+        "y": 0.1506
+      },
+      "size_normalized": {
+        "w": 0.0145,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 731.1,
+        "y": 158.0,
+        "game_x": 460.1,
+        "game_y": 107.0
+      },
+      "bbox_pixel": {
+        "left": 727.5,
+        "top": 151.3,
+        "right": 734.6,
+        "bottom": 164.6,
+        "width": 7.1,
+        "height": 13.4,
+        "game_left": 456.5,
+        "game_top": 100.3,
+        "game_right": 463.6,
+        "game_bottom": 113.6
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "text": "超值活动",
+      "raw_text": "超值活动",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.194
+      },
+      "size_normalized": {
+        "w": 0.1128,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 188.8,
+        "game_x": 445.1,
+        "game_y": 137.8
+      },
+      "bbox_pixel": {
+        "left": 688.5,
+        "top": 182.1,
+        "right": 743.6,
+        "bottom": 195.4,
+        "width": 55.1,
+        "height": 13.4,
+        "game_left": 417.5,
+        "game_top": 131.1,
+        "game_right": 472.6,
+        "game_bottom": 144.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "储值好礼",
+      "raw_text": "储值好礼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.2382
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 220.1,
+        "game_x": 445.1,
+        "game_y": 169.1
+      },
+      "bbox_pixel": {
+        "left": 658.2,
+        "top": 181.2,
+        "right": 773.9,
+        "bottom": 259.0,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 387.2,
+        "game_top": 130.2,
+        "game_right": 502.9,
+        "game_bottom": 208.0
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "text": "储值好礼",
+      "raw_text": "储值好礼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.2611
+      },
+      "size_normalized": {
+        "w": 0.1713,
+        "h": 0.0197
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 236.4,
+        "game_x": 445.1,
+        "game_y": 185.4
+      },
+      "bbox_pixel": {
+        "left": 674.3,
+        "top": 229.4,
+        "right": 757.9,
+        "bottom": 243.4,
+        "width": 83.6,
+        "height": 14.0,
+        "game_left": 403.3,
+        "game_top": 178.4,
+        "game_right": 486.9,
+        "game_bottom": 192.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Img",
+      "type": "Node",
+      "text": "七日登录",
+      "raw_text": "七日登录",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.3048
+      },
+      "size_normalized": {
+        "w": 0.1407,
+        "h": 0.065
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 267.4,
+        "game_x": 445.1,
+        "game_y": 216.4
+      },
+      "bbox_pixel": {
+        "left": 681.7,
+        "top": 244.3,
+        "right": 750.4,
+        "bottom": 290.5,
+        "width": 68.7,
+        "height": 46.2,
+        "game_left": 410.7,
+        "game_top": 193.3,
+        "game_right": 479.4,
+        "game_bottom": 239.5
+      },
+      "depth": 6,
+      "children_count": 2
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "七日登录",
+      "raw_text": "七日登录",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.3048
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 267.4,
+        "game_x": 445.1,
+        "game_y": 216.4
+      },
+      "bbox_pixel": {
+        "left": 658.2,
+        "top": 228.5,
+        "right": 773.9,
+        "bottom": 306.3,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 387.2,
+        "game_top": 177.5,
+        "game_right": 502.9,
+        "game_bottom": 255.3
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Red_node",
+      "type": "Node",
+      "text": "七日登录",
+      "raw_text": "七日登录",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9454,
+        "y": 0.2851
+      },
+      "size_normalized": {
+        "w": 0.037,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 732.3,
+        "y": 253.4,
+        "game_x": 461.3,
+        "game_y": 202.4
+      },
+      "bbox_pixel": {
+        "left": 723.3,
+        "top": 247.3,
+        "right": 741.4,
+        "bottom": 259.5,
+        "width": 18.1,
+        "height": 12.2,
+        "game_left": 452.3,
+        "game_top": 196.3,
+        "game_right": 470.4,
+        "game_bottom": 208.5
+      },
+      "depth": 7,
+      "children_count": 1
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "七日登录",
+      "raw_text": "七日登录",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9523,
+        "y": 0.2819
+      },
+      "size_normalized": {
+        "w": 0.0231,
+        "h": 0.0107
+      },
+      "center_pixel": {
+        "x": 735.7,
+        "y": 251.1,
+        "game_x": 464.7,
+        "game_y": 200.1
+      },
+      "bbox_pixel": {
+        "left": 730.1,
+        "top": 247.3,
+        "right": 741.4,
+        "bottom": 254.9,
+        "width": 11.3,
+        "height": 7.6,
+        "game_left": 459.1,
+        "game_top": 196.3,
+        "game_right": 470.4,
+        "game_bottom": 203.9
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "text": "七日登录",
+      "raw_text": "七日登录",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.912,
+        "y": 0.3279
+      },
+      "size_normalized": {
+        "w": 0.1128,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 716.1,
+        "y": 283.8,
+        "game_x": 445.1,
+        "game_y": 232.8
+      },
+      "bbox_pixel": {
+        "left": 688.5,
+        "top": 277.1,
+        "right": 743.6,
+        "bottom": 290.5,
+        "width": 55.1,
+        "height": 13.4,
+        "game_left": 417.5,
+        "game_top": 226.1,
+        "game_right": 472.6,
+        "game_bottom": 239.5
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Img",
+      "type": "Node",
+      "text": "最强霸主",
+      "raw_text": "最强霸主",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.105
+      },
+      "size_normalized": {
+        "w": 0.1407,
+        "h": 0.065
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 125.6,
+        "game_x": 367.4,
+        "game_y": 74.6
+      },
+      "bbox_pixel": {
+        "left": 604.0,
+        "top": 102.5,
+        "right": 672.7,
+        "bottom": 148.7,
+        "width": 68.7,
+        "height": 46.2,
+        "game_left": 333.0,
+        "game_top": 51.5,
+        "game_right": 401.7,
+        "game_bottom": 97.7
+      },
+      "depth": 6,
+      "children_count": 1
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "最强霸主",
+      "raw_text": "最强霸主",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.105
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 125.6,
+        "game_x": 367.4,
+        "game_y": 74.6
+      },
+      "bbox_pixel": {
+        "left": 580.5,
+        "top": 86.7,
+        "right": 696.2,
+        "bottom": 164.5,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 309.5,
+        "game_top": 35.7,
+        "game_right": 425.2,
+        "game_bottom": 113.5
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "text": "最强霸主",
+      "raw_text": "最强霸主",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.1282
+      },
+      "size_normalized": {
+        "w": 0.1128,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 142.0,
+        "game_x": 367.4,
+        "game_y": 91.0
+      },
+      "bbox_pixel": {
+        "left": 610.8,
+        "top": 135.3,
+        "right": 665.9,
+        "bottom": 148.7,
+        "width": 55.1,
+        "height": 13.4,
+        "game_left": 339.8,
+        "game_top": 84.3,
+        "game_right": 394.9,
+        "game_bottom": 97.7
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Img",
+      "type": "Node",
+      "text": "孤岛试炼",
+      "raw_text": "孤岛试炼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.1716
+      },
+      "size_normalized": {
+        "w": 0.1407,
+        "h": 0.065
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 172.8,
+        "game_x": 367.4,
+        "game_y": 121.8
+      },
+      "bbox_pixel": {
+        "left": 604.0,
+        "top": 149.8,
+        "right": 672.7,
+        "bottom": 195.9,
+        "width": 68.7,
+        "height": 46.2,
+        "game_left": 333.0,
+        "game_top": 98.8,
+        "game_right": 401.7,
+        "game_bottom": 144.9
+      },
+      "depth": 6,
+      "children_count": 2
+    },
+    {
+      "name": "Stone",
+      "type": "Node",
+      "text": "孤岛试炼",
+      "raw_text": "孤岛试炼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.1716
+      },
+      "size_normalized": {
+        "w": 0.237,
+        "h": 0.1095
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 172.8,
+        "game_x": 367.4,
+        "game_y": 121.8
+      },
+      "bbox_pixel": {
+        "left": 580.5,
+        "top": 134.0,
+        "right": 696.2,
+        "bottom": 211.7,
+        "width": 115.7,
+        "height": 77.8,
+        "game_left": 309.5,
+        "game_top": 83.0,
+        "game_right": 425.2,
+        "game_bottom": 160.7
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Red_node",
+      "type": "Node",
+      "text": "孤岛试炼",
+      "raw_text": "孤岛试炼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7861,
+        "y": 0.1519
+      },
+      "size_normalized": {
+        "w": 0.037,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 654.6,
+        "y": 158.9,
+        "game_x": 383.6,
+        "game_y": 107.9
+      },
+      "bbox_pixel": {
+        "left": 645.6,
+        "top": 152.8,
+        "right": 663.7,
+        "bottom": 164.9,
+        "width": 18.1,
+        "height": 12.2,
+        "game_left": 374.6,
+        "game_top": 101.8,
+        "game_right": 392.7,
+        "game_bottom": 113.9
+      },
+      "depth": 7,
+      "children_count": 1
+    },
+    {
+      "name": "2",
+      "type": "Node",
+      "text": "孤岛试炼",
+      "raw_text": "孤岛试炼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.783,
+        "y": 0.1519
+      },
+      "size_normalized": {
+        "w": 0.0432,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 653.1,
+        "y": 158.9,
+        "game_x": 382.1,
+        "game_y": 107.9
+      },
+      "bbox_pixel": {
+        "left": 642.6,
+        "top": 152.8,
+        "right": 663.7,
+        "bottom": 164.9,
+        "width": 21.1,
+        "height": 12.2,
+        "game_left": 371.6,
+        "game_top": 101.8,
+        "game_right": 392.7,
+        "game_bottom": 113.9
+      },
+      "depth": 8,
+      "children_count": 1
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "9",
+      "raw_text": "9",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.783,
+        "y": 0.1506
+      },
+      "size_normalized": {
+        "w": 0.0154,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 653.1,
+        "y": 158.0,
+        "game_x": 382.1,
+        "game_y": 107.0
+      },
+      "bbox_pixel": {
+        "left": 649.4,
+        "top": 151.3,
+        "right": 656.9,
+        "bottom": 164.6,
+        "width": 7.5,
+        "height": 13.4,
+        "game_left": 378.4,
+        "game_top": 100.3,
+        "game_right": 385.9,
+        "game_bottom": 113.6
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "孤岛试炼",
+      "raw_text": "孤岛试炼",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.1937
+      },
+      "size_normalized": {
+        "w": 0.1128,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 188.6,
+        "game_x": 367.4,
+        "game_y": 137.6
+      },
+      "bbox_pixel": {
+        "left": 610.8,
+        "top": 181.9,
+        "right": 665.9,
+        "bottom": 195.2,
+        "width": 55.1,
+        "height": 13.4,
+        "game_left": 339.8,
+        "game_top": 130.9,
+        "game_right": 394.9,
+        "game_bottom": 144.2
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "20:59:24",
+      "raw_text": "20:59:24",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7528,
+        "y": 0.2603
+      },
+      "size_normalized": {
+        "w": 0.1094,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 638.4,
+        "y": 235.8,
+        "game_x": 367.4,
+        "game_y": 184.8
+      },
+      "bbox_pixel": {
+        "left": 611.7,
+        "top": 229.1,
+        "right": 665.0,
+        "bottom": 242.5,
+        "width": 53.4,
+        "height": 13.4,
+        "game_left": 340.7,
+        "game_top": 178.1,
+        "game_right": 394.0,
+        "game_bottom": 191.5
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "168,292",
+      "raw_text": "168,292",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2865,
+        "y": 0.0564
+      },
+      "size_normalized": {
+        "w": 0.147,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 410.8,
+        "y": 91.1,
+        "game_x": 139.8,
+        "game_y": 40.1
+      },
+      "bbox_pixel": {
+        "left": 375.0,
+        "top": 85.0,
+        "right": 446.7,
+        "bottom": 97.1,
+        "width": 71.7,
+        "height": 12.2,
+        "game_left": 104.0,
+        "game_top": 34.0,
+        "game_right": 175.7,
+        "game_bottom": 46.1
+      },
+      "depth": 7,
+      "children_count": 1
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "VIP1",
+      "raw_text": "VIP1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.0774,
+        "y": 0.1293
+      },
+      "size_normalized": {
+        "w": 0.1176,
+        "h": 0.0492
+      },
+      "center_pixel": {
+        "x": 308.8,
+        "y": 142.8,
+        "game_x": 37.8,
+        "game_y": 91.8
+      },
+      "bbox_pixel": {
+        "left": 280.1,
+        "top": 125.3,
+        "right": 337.5,
+        "bottom": 160.3,
+        "width": 57.4,
+        "height": 34.9,
+        "game_left": 9.1,
+        "game_top": 74.3,
+        "game_right": 66.5,
+        "game_bottom": 109.3
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "VIP1",
+      "raw_text": "VIP1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.0773,
+        "y": 0.14
+      },
+      "size_normalized": {
+        "w": 0.0581,
+        "h": 0.0186
+      },
+      "center_pixel": {
+        "x": 308.7,
+        "y": 150.4,
+        "game_x": 37.7,
+        "game_y": 99.4
+      },
+      "bbox_pixel": {
+        "left": 294.6,
+        "top": 143.8,
+        "right": 322.9,
+        "bottom": 157.0,
+        "width": 28.4,
+        "height": 13.2,
+        "game_left": 23.6,
+        "game_top": 92.8,
+        "game_right": 51.9,
+        "game_bottom": 106.0
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "Red",
+      "type": "Node",
+      "text": "VIP1",
+      "raw_text": "VIP1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.111,
+        "y": 0.1124
+      },
+      "size_normalized": {
+        "w": 0.0093,
+        "h": 0.0043
+      },
+      "center_pixel": {
+        "x": 325.2,
+        "y": 130.8,
+        "game_x": 54.2,
+        "game_y": 79.8
+      },
+      "bbox_pixel": {
+        "left": 322.9,
+        "top": 129.3,
+        "right": 327.4,
+        "bottom": 132.3,
+        "width": 4.5,
+        "height": 3.0,
+        "game_left": 51.9,
+        "game_top": 78.3,
+        "game_right": 56.4,
+        "game_bottom": 81.3
+      },
+      "depth": 8,
+      "children_count": 1
+    },
+    {
+      "name": "BG1",
+      "type": "Node",
+      "text": "VIP1",
+      "raw_text": "VIP1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.111,
+        "y": 0.1145
+      },
+      "size_normalized": {
+        "w": 0.0231,
+        "h": 0.0107
+      },
+      "center_pixel": {
+        "x": 325.2,
+        "y": 132.3,
+        "game_x": 54.2,
+        "game_y": 81.3
+      },
+      "bbox_pixel": {
+        "left": 319.5,
+        "top": 128.5,
+        "right": 330.8,
+        "bottom": 136.1,
+        "width": 11.3,
+        "height": 7.6,
+        "game_left": 48.5,
+        "game_top": 77.5,
+        "game_right": 59.8,
+        "game_bottom": 85.1
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "BG",
+      "type": "Node",
+      "text": "邮件",
+      "raw_text": "邮件",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.839
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0338
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 646.7,
+        "game_x": 454.0,
+        "game_y": 595.7
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 634.7,
+        "right": 750.3,
+        "bottom": 658.7,
+        "width": 50.6,
+        "height": 24.0,
+        "game_left": 428.7,
+        "game_top": 583.7,
+        "game_right": 479.3,
+        "game_bottom": 607.7
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "邮件",
+      "raw_text": "邮件",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.8301
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0479
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 640.4,
+        "game_x": 454.0,
+        "game_y": 589.4
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 623.4,
+        "right": 750.3,
+        "bottom": 657.4,
+        "width": 50.6,
+        "height": 34.0,
+        "game_left": 428.7,
+        "game_top": 572.4,
+        "game_right": 479.3,
+        "game_bottom": 606.4
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "邮件",
+      "raw_text": "邮件",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.8464
+      },
+      "size_normalized": {
+        "w": 0.1111,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 651.9,
+        "game_x": 454.0,
+        "game_y": 600.9
+      },
+      "bbox_pixel": {
+        "left": 697.9,
+        "top": 644.3,
+        "right": 752.1,
+        "bottom": 659.5,
+        "width": 54.2,
+        "height": 15.2,
+        "game_left": 426.9,
+        "game_top": 593.3,
+        "game_right": 481.1,
+        "game_bottom": 608.5
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Red_node",
+      "type": "Node",
+      "text": "邮件",
+      "raw_text": "邮件",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9702,
+        "y": 0.8254
+      },
+      "size_normalized": {
+        "w": 0.037,
+        "h": 0.0171
+      },
+      "center_pixel": {
+        "x": 744.5,
+        "y": 637.1,
+        "game_x": 473.5,
+        "game_y": 586.1
+      },
+      "bbox_pixel": {
+        "left": 735.4,
+        "top": 631.0,
+        "right": 753.5,
+        "bottom": 643.1,
+        "width": 18.1,
+        "height": 12.2,
+        "game_left": 464.4,
+        "game_top": 580.0,
+        "game_right": 482.5,
+        "game_bottom": 592.1
+      },
+      "depth": 6,
+      "children_count": 1
+    },
+    {
+      "name": "1",
+      "type": "Node",
+      "text": "邮件",
+      "raw_text": "邮件",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9771,
+        "y": 0.8222
+      },
+      "size_normalized": {
+        "w": 0.0231,
+        "h": 0.0107
+      },
+      "center_pixel": {
+        "x": 747.8,
+        "y": 634.8,
+        "game_x": 476.8,
+        "game_y": 583.8
+      },
+      "bbox_pixel": {
+        "left": 742.2,
+        "top": 631.0,
+        "right": 753.5,
+        "bottom": 638.6,
+        "width": 11.3,
+        "height": 7.6,
+        "game_left": 471.2,
+        "game_top": 580.0,
+        "game_right": 482.5,
+        "game_bottom": 587.6
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "BG",
+      "type": "Node",
+      "text": "背包",
+      "raw_text": "背包",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.7875
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0338
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 610.1,
+        "game_x": 454.0,
+        "game_y": 559.1
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 598.1,
+        "right": 750.3,
+        "bottom": 622.1,
+        "width": 50.6,
+        "height": 24.0,
+        "game_left": 428.7,
+        "game_top": 547.1,
+        "game_right": 479.3,
+        "game_bottom": 571.1
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "背包",
+      "raw_text": "背包",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.7749
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0479
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 601.2,
+        "game_x": 454.0,
+        "game_y": 550.2
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 584.2,
+        "right": 750.3,
+        "bottom": 618.2,
+        "width": 50.6,
+        "height": 34.0,
+        "game_left": 428.7,
+        "game_top": 533.2,
+        "game_right": 479.3,
+        "game_bottom": 567.2
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "背包",
+      "raw_text": "背包",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.7949
+      },
+      "size_normalized": {
+        "w": 0.1111,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 615.4,
+        "game_x": 454.0,
+        "game_y": 564.4
+      },
+      "bbox_pixel": {
+        "left": 697.9,
+        "top": 607.8,
+        "right": 752.1,
+        "bottom": 623.0,
+        "width": 54.2,
+        "height": 15.2,
+        "game_left": 426.9,
+        "game_top": 556.8,
+        "game_right": 481.1,
+        "game_bottom": 572.0
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "BG",
+      "type": "Node",
+      "text": "商店",
+      "raw_text": "商店",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.736
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0338
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 573.6,
+        "game_x": 454.0,
+        "game_y": 522.6
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 561.6,
+        "right": 750.3,
+        "bottom": 585.6,
+        "width": 50.6,
+        "height": 24.0,
+        "game_left": 428.7,
+        "game_top": 510.6,
+        "game_right": 479.3,
+        "game_bottom": 534.6
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "商店",
+      "raw_text": "商店",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.7221
+      },
+      "size_normalized": {
+        "w": 0.1037,
+        "h": 0.0479
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 563.7,
+        "game_x": 454.0,
+        "game_y": 512.7
+      },
+      "bbox_pixel": {
+        "left": 699.7,
+        "top": 546.7,
+        "right": 750.3,
+        "bottom": 580.7,
+        "width": 50.6,
+        "height": 34.0,
+        "game_left": 428.7,
+        "game_top": 495.7,
+        "game_right": 479.3,
+        "game_bottom": 529.7
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "商店",
+      "raw_text": "商店",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9304,
+        "y": 0.7434
+      },
+      "size_normalized": {
+        "w": 0.1111,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 725.0,
+        "y": 578.8,
+        "game_x": 454.0,
+        "game_y": 527.8
+      },
+      "bbox_pixel": {
+        "left": 697.9,
+        "top": 571.2,
+        "right": 752.1,
+        "bottom": 586.4,
+        "width": 54.2,
+        "height": 15.2,
+        "game_left": 426.9,
+        "game_top": 520.2,
+        "game_right": 481.1,
+        "game_bottom": 535.4
+      },
+      "depth": 6,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "2",
+      "raw_text": "2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.971,
+        "y": 0.6614
+      },
+      "size_normalized": {
+        "w": 0.0154,
+        "h": 0.0188
+      },
+      "center_pixel": {
+        "x": 744.9,
+        "y": 520.6,
+        "game_x": 473.9,
+        "game_y": 469.6
+      },
+      "bbox_pixel": {
+        "left": 741.1,
+        "top": 513.9,
+        "right": 748.6,
+        "bottom": 527.3,
+        "width": 7.5,
+        "height": 13.4,
+        "game_left": 470.1,
+        "game_top": 462.9,
+        "game_right": 477.6,
+        "game_bottom": 476.3
+      },
+      "depth": 8,
+      "children_count": 0
+    },
+    {
+      "name": "scroll_rect",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3023,
+        "y": 0.9085
+      },
+      "size_normalized": {
+        "w": 0.8481,
+        "h": 0.0462
+      },
+      "center_pixel": {
+        "x": 123.5,
+        "y": 696.0,
+        "game_x": -147.5,
+        "game_y": 645.0
+      },
+      "bbox_pixel": {
+        "left": -83.5,
+        "top": 679.6,
+        "right": 330.4,
+        "bottom": 712.4,
+        "width": 413.9,
+        "height": 32.8,
+        "game_left": -354.5,
+        "game_top": 628.6,
+        "game_right": 59.4,
+        "game_bottom": 661.4
+      },
+      "depth": 10,
+      "children_count": 1
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2384,
+        "y": 0.8854
+      },
+      "size_normalized": {
+        "w": 0.7407,
+        "h": 0.0
+      },
+      "center_pixel": {
+        "x": 154.7,
+        "y": 679.6,
+        "game_x": -116.3,
+        "game_y": 628.6
+      },
+      "bbox_pixel": {
+        "left": -26.1,
+        "top": 679.6,
+        "right": 335.4,
+        "bottom": 679.6,
+        "width": 361.5,
+        "height": 0.0,
+        "game_left": -297.1,
+        "game_top": 628.6,
+        "game_right": 64.4,
+        "game_bottom": 628.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "topPoint",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3023,
+        "y": 0.7179
+      },
+      "size_normalized": {
+        "w": 0.0926,
+        "h": 0.0428
+      },
+      "center_pixel": {
+        "x": 123.5,
+        "y": 560.7,
+        "game_x": -147.5,
+        "game_y": 509.7
+      },
+      "bbox_pixel": {
+        "left": 100.9,
+        "top": 545.6,
+        "right": 146.1,
+        "bottom": 575.9,
+        "width": 45.2,
+        "height": 30.4,
+        "game_left": -170.1,
+        "game_top": 494.6,
+        "game_right": -124.9,
+        "game_bottom": 524.9
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "scroll_rect",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5459,
+        "y": 0.9085
+      },
+      "size_normalized": {
+        "w": 0.8481,
+        "h": 0.0462
+      },
+      "center_pixel": {
+        "x": 537.4,
+        "y": 696.0,
+        "game_x": 266.4,
+        "game_y": 645.0
+      },
+      "bbox_pixel": {
+        "left": 330.4,
+        "top": 679.6,
+        "right": 744.3,
+        "bottom": 712.4,
+        "width": 413.9,
+        "height": 32.8,
+        "game_left": 59.4,
+        "game_top": 628.6,
+        "game_right": 473.3,
+        "game_bottom": 661.4
+      },
+      "depth": 10,
+      "children_count": 1
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4922,
+        "y": 0.8854
+      },
+      "size_normalized": {
+        "w": 0.7407,
+        "h": 0.0
+      },
+      "center_pixel": {
+        "x": 511.2,
+        "y": 679.6,
+        "game_x": 240.2,
+        "game_y": 628.6
+      },
+      "bbox_pixel": {
+        "left": 330.4,
+        "top": 679.6,
+        "right": 691.9,
+        "bottom": 679.6,
+        "width": 361.5,
+        "height": 0.0,
+        "game_left": 59.4,
+        "game_top": 628.6,
+        "game_right": 420.9,
+        "game_bottom": 628.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "topPoint",
+      "type": "Node",
+      "text": "当前暂无消息",
+      "raw_text": "当前暂无消息",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5459,
+        "y": 0.7179
+      },
+      "size_normalized": {
+        "w": 0.0926,
+        "h": 0.0428
+      },
+      "center_pixel": {
+        "x": 537.4,
+        "y": 560.7,
+        "game_x": 266.4,
+        "game_y": 509.7
+      },
+      "bbox_pixel": {
+        "left": 514.8,
+        "top": 545.6,
+        "right": 560.0,
+        "bottom": 575.9,
+        "width": 45.2,
+        "height": 30.4,
+        "game_left": 243.8,
+        "game_top": 494.6,
+        "game_right": 289.0,
+        "game_bottom": 524.9
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "HightLight",
+      "type": "Node",
+      "text": "您还未加入联盟",
+      "raw_text": "您还未加入联盟",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5394,
+        "y": 0.8801
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0068
+      },
+      "center_pixel": {
+        "x": 534.2,
+        "y": 675.9,
+        "game_x": 263.2,
+        "game_y": 624.9
+      },
+      "bbox_pixel": {
+        "left": 516.4,
+        "top": 673.5,
+        "right": 552.1,
+        "bottom": 678.3,
+        "width": 35.7,
+        "height": 4.9,
+        "game_left": 245.4,
+        "game_top": 622.5,
+        "game_right": 281.1,
+        "game_bottom": 627.3
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "BattleStatus",
+      "type": "Node",
+      "text": "Lv.1",
+      "raw_text": "Lv.1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5,
+        "y": 0.9664
+      },
+      "size_normalized": {
+        "w": 0.0926,
+        "h": 0.0428
+      },
+      "center_pixel": {
+        "x": 515.0,
+        "y": 737.2,
+        "game_x": 244.0,
+        "game_y": 686.2
+      },
+      "bbox_pixel": {
+        "left": 492.4,
+        "top": 722.0,
+        "right": 537.6,
+        "bottom": 752.3,
+        "width": 45.2,
+        "height": 30.4,
+        "game_left": 221.4,
+        "game_top": 671.0,
+        "game_right": 266.6,
+        "game_bottom": 701.3
+      },
+      "depth": 8,
+      "children_count": 1
+    },
+    {
+      "name": "sp_yuan",
+      "type": "Node",
+      "text": "#MiniGame_Name_Button_Text",
+      "raw_text": "#MiniGame_Name_Button_Text",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5,
+        "y": 0.9514
+      },
+      "size_normalized": {
+        "w": 0.1704,
+        "h": 0.0685
+      },
+      "center_pixel": {
+        "x": 515.0,
+        "y": 726.5,
+        "game_x": 244.0,
+        "game_y": 675.5
+      },
+      "bbox_pixel": {
+        "left": 473.4,
+        "top": 702.2,
+        "right": 556.6,
+        "bottom": 750.8,
+        "width": 83.1,
+        "height": 48.6,
+        "game_left": 202.4,
+        "game_top": 651.2,
+        "game_right": 285.6,
+        "game_bottom": 699.8
+      },
+      "depth": 9,
+      "children_count": 1
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "#MiniGame_Name_Button_Text",
+      "raw_text": "#MiniGame_Name_Button_Text",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5093,
+        "y": 0.9681
+      },
+      "size_normalized": {
+        "w": 0.1278,
+        "h": 0.0548
+      },
+      "center_pixel": {
+        "x": 519.5,
+        "y": 738.4,
+        "game_x": 248.5,
+        "game_y": 687.4
+      },
+      "bbox_pixel": {
+        "left": 488.3,
+        "top": 718.9,
+        "right": 550.7,
+        "bottom": 757.8,
+        "width": 62.4,
+        "height": 38.9,
+        "game_left": 217.3,
+        "game_top": 667.9,
+        "game_right": 279.7,
+        "game_bottom": 706.8
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "sp_mask",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5305
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.3595
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 427.7,
+        "game_x": -149.1,
+        "game_y": 376.7
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 300.0,
+        "right": 270.5,
+        "bottom": 555.3,
+        "width": 297.3,
+        "height": 255.2,
+        "game_left": -297.8,
+        "game_top": 249.0,
+        "game_right": -0.5,
+        "game_bottom": 504.3
+      },
+      "depth": 6,
+      "children_count": 1
+    },
+    {
+      "name": "Group",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6065
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.5115
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 481.6,
+        "game_x": -149.1,
+        "game_y": 430.6
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 300.0,
+        "right": 270.5,
+        "bottom": 663.2,
+        "width": 297.3,
+        "height": 363.2,
+        "game_left": -297.8,
+        "game_top": 249.0,
+        "game_right": -0.5,
+        "game_bottom": 612.2
+      },
+      "depth": 7,
+      "children_count": 5
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4094
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.1174
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 341.7,
+        "game_x": -149.1,
+        "game_y": 290.7
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 300.0,
+        "right": 270.5,
+        "bottom": 383.4,
+        "width": 297.3,
+        "height": 83.3,
+        "game_left": -297.8,
+        "game_top": 249.0,
+        "game_right": -0.5,
+        "game_bottom": 332.4
+      },
+      "depth": 8,
+      "children_count": 2
+    },
+    {
+      "name": "subject",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.3632
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 308.8,
+        "game_x": -149.1,
+        "game_y": 257.8
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 300.0,
+        "right": 270.5,
+        "bottom": 317.7,
+        "width": 297.3,
+        "height": 17.6,
+        "game_left": -297.8,
+        "game_top": 249.0,
+        "game_right": -0.5,
+        "game_bottom": 266.7
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "sp_icon",
+      "type": "Node",
+      "text": "建造队列",
+      "raw_text": "建造队列",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5811,
+        "y": 0.3632
+      },
+      "size_normalized": {
+        "w": 0.0537,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": -12.6,
+        "y": 308.8,
+        "game_x": -283.6,
+        "game_y": 257.8
+      },
+      "bbox_pixel": {
+        "left": -25.7,
+        "top": 300.0,
+        "right": 0.5,
+        "bottom": 317.7,
+        "width": 26.2,
+        "height": 17.6,
+        "game_left": -296.7,
+        "game_top": 249.0,
+        "game_right": -270.5,
+        "game_bottom": 266.7
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "建造队列",
+      "raw_text": "建造队列",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2764,
+        "y": 0.3632
+      },
+      "size_normalized": {
+        "w": 0.551,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 136.1,
+        "y": 308.8,
+        "game_x": -134.9,
+        "game_y": 257.8
+      },
+      "bbox_pixel": {
+        "left": 1.7,
+        "top": 299.7,
+        "right": 270.5,
+        "bottom": 318.0,
+        "width": 268.9,
+        "height": 18.2,
+        "game_left": -269.3,
+        "game_top": 248.7,
+        "game_right": -0.5,
+        "game_bottom": 267.0
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4234
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0894
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 351.6,
+        "game_x": -149.1,
+        "game_y": 300.6
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 319.9,
+        "right": 270.5,
+        "bottom": 383.4,
+        "width": 297.3,
+        "height": 63.5,
+        "game_left": -297.8,
+        "game_top": 268.9,
+        "game_right": -0.5,
+        "game_bottom": 332.4
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 334.3,
+        "game_x": -149.1,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 319.9,
+        "right": 265.6,
+        "bottom": 348.7,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 268.9,
+        "game_right": -5.4,
+        "game_bottom": 297.7
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 334.3,
+        "game_x": -271.3,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 324.3,
+        "right": 14.6,
+        "bottom": 344.3,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 273.3,
+        "game_right": -256.4,
+        "game_bottom": 293.3
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "blue",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 334.3,
+        "game_x": -271.3,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 324.3,
+        "right": 14.6,
+        "bottom": 344.3,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 273.3,
+        "game_right": -256.4,
+        "game_bottom": 293.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 334.3,
+        "game_x": -271.3,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 324.3,
+        "right": 14.6,
+        "bottom": 344.3,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 273.3,
+        "game_right": -256.4,
+        "game_bottom": 293.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.3905
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 328.2,
+        "game_x": -149.1,
+        "game_y": 277.2
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 320.6,
+        "right": 219.0,
+        "bottom": 335.8,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 269.6,
+        "game_right": -52.0,
+        "game_bottom": 284.8
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "空闲",
+      "raw_text": "空闲",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4071
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 340.1,
+        "game_x": -149.1,
+        "game_y": 289.1
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 331.0,
+        "right": 219.0,
+        "bottom": 349.2,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 280.0,
+        "game_right": -52.0,
+        "game_bottom": 298.2
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 334.3,
+        "game_x": -28.0,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 323.8,
+        "right": 260.9,
+        "bottom": 344.8,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 272.8,
+        "game_right": -10.1,
+        "game_bottom": 293.8
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.399
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 334.3,
+        "game_x": -149.1,
+        "game_y": 283.3
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 319.9,
+        "right": 265.6,
+        "bottom": 348.7,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 268.9,
+        "game_right": -5.4,
+        "game_bottom": 297.7
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "1",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 368.9,
+        "game_x": -149.1,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 354.5,
+        "right": 265.6,
+        "bottom": 383.4,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 303.5,
+        "game_right": -5.4,
+        "game_bottom": 332.4
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 368.9,
+        "game_x": -271.3,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 358.9,
+        "right": 14.6,
+        "bottom": 379.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 307.9,
+        "game_right": -256.4,
+        "game_bottom": 328.0
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "yellow",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 368.9,
+        "game_x": -271.3,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 358.9,
+        "right": 14.6,
+        "bottom": 379.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 307.9,
+        "game_right": -256.4,
+        "game_bottom": 328.0
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 368.9,
+        "game_x": -271.3,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 358.9,
+        "right": 14.6,
+        "bottom": 379.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 307.9,
+        "game_right": -256.4,
+        "game_bottom": 328.0
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4392
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 362.9,
+        "game_x": -149.1,
+        "game_y": 311.9
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 355.3,
+        "right": 219.0,
+        "bottom": 370.5,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 304.3,
+        "game_right": -52.0,
+        "game_bottom": 319.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "<color=#e24848>购买队列</color>",
+      "raw_text": "<color=#e24848>购买队列</color>",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4559
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 374.7,
+        "game_x": -149.1,
+        "game_y": 323.7
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 365.6,
+        "right": 219.0,
+        "bottom": 383.8,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 314.6,
+        "game_right": -52.0,
+        "game_bottom": 332.8
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 368.9,
+        "game_x": -28.0,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 358.5,
+        "right": 260.9,
+        "bottom": 379.4,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 307.5,
+        "game_right": -10.1,
+        "game_bottom": 328.4
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4478
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 368.9,
+        "game_x": -149.1,
+        "game_y": 317.9
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 354.5,
+        "right": 265.6,
+        "bottom": 383.4,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 303.5,
+        "game_right": -5.4,
+        "game_bottom": 332.4
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "1",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5058
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0686
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 410.1,
+        "game_x": -149.1,
+        "game_y": 359.1
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 385.8,
+        "right": 270.5,
+        "bottom": 434.5,
+        "width": 297.3,
+        "height": 48.7,
+        "game_left": -297.8,
+        "game_top": 334.8,
+        "game_right": -0.5,
+        "game_bottom": 383.5
+      },
+      "depth": 8,
+      "children_count": 2
+    },
+    {
+      "name": "subject",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.4839
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 394.6,
+        "game_x": -149.1,
+        "game_y": 343.6
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 385.8,
+        "right": 270.5,
+        "bottom": 403.4,
+        "width": 297.3,
+        "height": 17.6,
+        "game_left": -297.8,
+        "game_top": 334.8,
+        "game_right": -0.5,
+        "game_bottom": 352.4
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "sp_icon",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5811,
+        "y": 0.4839
+      },
+      "size_normalized": {
+        "w": 0.0537,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": -12.6,
+        "y": 394.6,
+        "game_x": -283.6,
+        "game_y": 343.6
+      },
+      "bbox_pixel": {
+        "left": -25.7,
+        "top": 385.8,
+        "right": 0.5,
+        "bottom": 403.4,
+        "width": 26.2,
+        "height": 17.6,
+        "game_left": -296.7,
+        "game_top": 334.8,
+        "game_right": -270.5,
+        "game_bottom": 352.4
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2764,
+        "y": 0.4839
+      },
+      "size_normalized": {
+        "w": 0.551,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 136.1,
+        "y": 394.6,
+        "game_x": -134.9,
+        "game_y": 343.6
+      },
+      "bbox_pixel": {
+        "left": 1.7,
+        "top": 385.5,
+        "right": 270.5,
+        "bottom": 403.7,
+        "width": 268.9,
+        "height": 18.2,
+        "game_left": -269.3,
+        "game_top": 334.5,
+        "game_right": -0.5,
+        "game_bottom": 352.7
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 420.1,
+        "game_x": -149.1,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 405.6,
+        "right": 270.5,
+        "bottom": 434.5,
+        "width": 297.3,
+        "height": 28.9,
+        "game_left": -297.8,
+        "game_top": 354.6,
+        "game_right": -0.5,
+        "game_bottom": 383.5
+      },
+      "depth": 9,
+      "children_count": 1
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 420.1,
+        "game_x": -149.1,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 405.6,
+        "right": 265.6,
+        "bottom": 434.5,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 354.6,
+        "game_right": -5.4,
+        "game_bottom": 383.5
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 420.1,
+        "game_x": -271.3,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 410.0,
+        "right": 14.6,
+        "bottom": 430.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 359.0,
+        "game_right": -256.4,
+        "game_bottom": 379.1
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "blue",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 420.1,
+        "game_x": -271.3,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 410.0,
+        "right": 14.6,
+        "bottom": 430.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 359.0,
+        "game_right": -256.4,
+        "game_bottom": 379.1
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 420.1,
+        "game_x": -271.3,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 410.0,
+        "right": 14.6,
+        "bottom": 430.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 359.0,
+        "game_right": -256.4,
+        "game_bottom": 379.1
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5112
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 414.0,
+        "game_x": -149.1,
+        "game_y": 363.0
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 406.4,
+        "right": 219.0,
+        "bottom": 421.6,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 355.4,
+        "game_right": -52.0,
+        "game_bottom": 370.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "空闲",
+      "raw_text": "空闲",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5279
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 425.8,
+        "game_x": -149.1,
+        "game_y": 374.8
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 416.7,
+        "right": 219.0,
+        "bottom": 434.9,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 365.7,
+        "game_right": -52.0,
+        "game_bottom": 383.9
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 420.1,
+        "game_x": -28.0,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 409.6,
+        "right": 260.9,
+        "bottom": 430.5,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 358.6,
+        "game_right": -10.1,
+        "game_bottom": 379.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "士兵训练",
+      "raw_text": "士兵训练",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5198
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 420.1,
+        "game_x": -149.1,
+        "game_y": 369.1
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 405.6,
+        "right": 265.6,
+        "bottom": 434.5,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 354.6,
+        "game_right": -5.4,
+        "game_bottom": 383.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "2",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6022
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.1174
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 478.6,
+        "game_x": -149.1,
+        "game_y": 427.6
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 436.9,
+        "right": 270.5,
+        "bottom": 520.2,
+        "width": 297.3,
+        "height": 83.3,
+        "game_left": -297.8,
+        "game_top": 385.9,
+        "game_right": -0.5,
+        "game_bottom": 469.2
+      },
+      "depth": 8,
+      "children_count": 2
+    },
+    {
+      "name": "subject",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.556
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 445.7,
+        "game_x": -149.1,
+        "game_y": 394.7
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 436.9,
+        "right": 270.5,
+        "bottom": 454.5,
+        "width": 297.3,
+        "height": 17.6,
+        "game_left": -297.8,
+        "game_top": 385.9,
+        "game_right": -0.5,
+        "game_bottom": 403.5
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "sp_icon",
+      "type": "Node",
+      "text": "科技研究",
+      "raw_text": "科技研究",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5811,
+        "y": 0.556
+      },
+      "size_normalized": {
+        "w": 0.0537,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": -12.6,
+        "y": 445.7,
+        "game_x": -283.6,
+        "game_y": 394.7
+      },
+      "bbox_pixel": {
+        "left": -25.7,
+        "top": 436.9,
+        "right": 0.5,
+        "bottom": 454.5,
+        "width": 26.2,
+        "height": 17.6,
+        "game_left": -296.7,
+        "game_top": 385.9,
+        "game_right": -270.5,
+        "game_bottom": 403.5
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "科技研究",
+      "raw_text": "科技研究",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2764,
+        "y": 0.556
+      },
+      "size_normalized": {
+        "w": 0.551,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 136.1,
+        "y": 445.7,
+        "game_x": -134.9,
+        "game_y": 394.7
+      },
+      "bbox_pixel": {
+        "left": 1.7,
+        "top": 436.6,
+        "right": 270.5,
+        "bottom": 454.8,
+        "width": 268.9,
+        "height": 18.2,
+        "game_left": -269.3,
+        "game_top": 385.6,
+        "game_right": -0.5,
+        "game_bottom": 403.8
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6162
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0894
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 488.5,
+        "game_x": -149.1,
+        "game_y": 437.5
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 456.8,
+        "right": 270.5,
+        "bottom": 520.2,
+        "width": 297.3,
+        "height": 63.5,
+        "game_left": -297.8,
+        "game_top": 405.8,
+        "game_right": -0.5,
+        "game_bottom": 469.2
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 471.2,
+        "game_x": -149.1,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 456.8,
+        "right": 265.6,
+        "bottom": 485.6,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 405.8,
+        "game_right": -5.4,
+        "game_bottom": 434.6
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 471.2,
+        "game_x": -271.3,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 461.2,
+        "right": 14.6,
+        "bottom": 481.2,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 410.2,
+        "game_right": -256.4,
+        "game_bottom": 430.2
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "blue",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 471.2,
+        "game_x": -271.3,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 461.2,
+        "right": 14.6,
+        "bottom": 481.2,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 410.2,
+        "game_right": -256.4,
+        "game_bottom": 430.2
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 471.2,
+        "game_x": -271.3,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 461.2,
+        "right": 14.6,
+        "bottom": 481.2,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 410.2,
+        "game_right": -256.4,
+        "game_bottom": 430.2
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5833
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 465.1,
+        "game_x": -149.1,
+        "game_y": 414.1
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 457.5,
+        "right": 219.0,
+        "bottom": 472.7,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 406.5,
+        "game_right": -52.0,
+        "game_bottom": 421.7
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "空闲",
+      "raw_text": "空闲",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5999
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 477.0,
+        "game_x": -149.1,
+        "game_y": 426.0
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 467.8,
+        "right": 219.0,
+        "bottom": 486.1,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 416.8,
+        "game_right": -52.0,
+        "game_bottom": 435.1
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 471.2,
+        "game_x": -28.0,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 460.7,
+        "right": 260.9,
+        "bottom": 481.7,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 409.7,
+        "game_right": -10.1,
+        "game_bottom": 430.7
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "队列1",
+      "raw_text": "队列1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.5918
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 471.2,
+        "game_x": -149.1,
+        "game_y": 420.2
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 456.8,
+        "right": 265.6,
+        "bottom": 485.6,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 405.8,
+        "game_right": -5.4,
+        "game_bottom": 434.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "1",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 505.8,
+        "game_x": -149.1,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 491.4,
+        "right": 265.6,
+        "bottom": 520.2,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 440.4,
+        "game_right": -5.4,
+        "game_bottom": 469.2
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 505.8,
+        "game_x": -271.3,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 495.8,
+        "right": 14.6,
+        "bottom": 515.8,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 444.8,
+        "game_right": -256.4,
+        "game_bottom": 464.8
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "yellow",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 505.8,
+        "game_x": -271.3,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 495.8,
+        "right": 14.6,
+        "bottom": 515.8,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 444.8,
+        "game_right": -256.4,
+        "game_bottom": 464.8
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 505.8,
+        "game_x": -271.3,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 495.8,
+        "right": 14.6,
+        "bottom": 515.8,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 444.8,
+        "game_right": -256.4,
+        "game_bottom": 464.8
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.632
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 499.7,
+        "game_x": -149.1,
+        "game_y": 448.7
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 492.1,
+        "right": 219.0,
+        "bottom": 507.3,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 441.1,
+        "game_right": -52.0,
+        "game_bottom": 456.3
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "<color=#e24848>购买队列</color>",
+      "raw_text": "<color=#e24848>购买队列</color>",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6487
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 511.6,
+        "game_x": -149.1,
+        "game_y": 460.6
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 502.5,
+        "right": 219.0,
+        "bottom": 520.7,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 451.5,
+        "game_right": -52.0,
+        "game_bottom": 469.7
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 505.8,
+        "game_x": -28.0,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 495.3,
+        "right": 260.9,
+        "bottom": 516.3,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 444.3,
+        "game_right": -10.1,
+        "game_bottom": 465.3
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "队列2",
+      "raw_text": "队列2",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6406
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 505.8,
+        "game_x": -149.1,
+        "game_y": 454.8
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 491.4,
+        "right": 265.6,
+        "bottom": 520.2,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 440.4,
+        "game_right": -5.4,
+        "game_bottom": 469.2
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "3",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6986
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0686
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 547.0,
+        "game_x": -149.1,
+        "game_y": 496.0
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 522.7,
+        "right": 270.5,
+        "bottom": 571.4,
+        "width": 297.3,
+        "height": 48.7,
+        "game_left": -297.8,
+        "game_top": 471.7,
+        "game_right": -0.5,
+        "game_bottom": 520.4
+      },
+      "depth": 8,
+      "children_count": 2
+    },
+    {
+      "name": "subject",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.6767
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 531.5,
+        "game_x": -149.1,
+        "game_y": 480.5
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 522.7,
+        "right": 270.5,
+        "bottom": 540.3,
+        "width": 297.3,
+        "height": 17.6,
+        "game_left": -297.8,
+        "game_top": 471.7,
+        "game_right": -0.5,
+        "game_bottom": 489.3
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "sp_icon",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5811,
+        "y": 0.6767
+      },
+      "size_normalized": {
+        "w": 0.0537,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": -12.6,
+        "y": 531.5,
+        "game_x": -283.6,
+        "game_y": 480.5
+      },
+      "bbox_pixel": {
+        "left": -25.7,
+        "top": 522.7,
+        "right": 0.5,
+        "bottom": 540.3,
+        "width": 26.2,
+        "height": 17.6,
+        "game_left": -296.7,
+        "game_top": 471.7,
+        "game_right": -270.5,
+        "game_bottom": 489.3
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2764,
+        "y": 0.6767
+      },
+      "size_normalized": {
+        "w": 0.551,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 136.1,
+        "y": 531.5,
+        "game_x": -134.9,
+        "game_y": 480.5
+      },
+      "bbox_pixel": {
+        "left": 1.7,
+        "top": 522.4,
+        "right": 270.5,
+        "bottom": 540.6,
+        "width": 268.9,
+        "height": 18.2,
+        "game_left": -269.3,
+        "game_top": 471.4,
+        "game_right": -0.5,
+        "game_bottom": 489.6
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 556.9,
+        "game_x": -149.1,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 542.5,
+        "right": 270.5,
+        "bottom": 571.4,
+        "width": 297.3,
+        "height": 28.9,
+        "game_left": -297.8,
+        "game_top": 491.5,
+        "game_right": -0.5,
+        "game_bottom": 520.4
+      },
+      "depth": 9,
+      "children_count": 1
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 556.9,
+        "game_x": -149.1,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 542.5,
+        "right": 265.6,
+        "bottom": 571.4,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 491.5,
+        "game_right": -5.4,
+        "game_bottom": 520.4
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 556.9,
+        "game_x": -271.3,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 546.9,
+        "right": 14.6,
+        "bottom": 567.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 495.9,
+        "game_right": -256.4,
+        "game_bottom": 516.0
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "blue",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 556.9,
+        "game_x": -271.3,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 546.9,
+        "right": 14.6,
+        "bottom": 567.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 495.9,
+        "game_right": -256.4,
+        "game_bottom": 516.0
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 556.9,
+        "game_x": -271.3,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 546.9,
+        "right": 14.6,
+        "bottom": 567.0,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 495.9,
+        "game_right": -256.4,
+        "game_bottom": 516.0
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.704
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 550.9,
+        "game_x": -149.1,
+        "game_y": 499.9
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 543.3,
+        "right": 219.0,
+        "bottom": 558.5,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 492.3,
+        "game_right": -52.0,
+        "game_bottom": 507.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "<color=#88e44a>可捐献25/25</color>",
+      "raw_text": "<color=#88e44a>可捐献25/25</color>",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7207
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 562.7,
+        "game_x": -149.1,
+        "game_y": 511.7
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 553.6,
+        "right": 219.0,
+        "bottom": 571.8,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 502.6,
+        "game_right": -52.0,
+        "game_bottom": 520.8
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 556.9,
+        "game_x": -28.0,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 546.5,
+        "right": 260.9,
+        "bottom": 567.4,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 495.5,
+        "game_right": -10.1,
+        "game_bottom": 516.4
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "联盟捐献",
+      "raw_text": "联盟捐献",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7126
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 556.9,
+        "game_x": -149.1,
+        "game_y": 505.9
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 542.5,
+        "right": 265.6,
+        "bottom": 571.4,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 491.5,
+        "game_right": -5.4,
+        "game_bottom": 520.4
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "4",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.795
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.1174
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 615.5,
+        "game_x": -149.1,
+        "game_y": 564.5
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 573.8,
+        "right": 270.5,
+        "bottom": 657.1,
+        "width": 297.3,
+        "height": 83.3,
+        "game_left": -297.8,
+        "game_top": 522.8,
+        "game_right": -0.5,
+        "game_bottom": 606.1
+      },
+      "depth": 8,
+      "children_count": 2
+    },
+    {
+      "name": "subject",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7487
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 582.6,
+        "game_x": -149.1,
+        "game_y": 531.6
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 573.8,
+        "right": 270.5,
+        "bottom": 591.4,
+        "width": 297.3,
+        "height": 17.6,
+        "game_left": -297.8,
+        "game_top": 522.8,
+        "game_right": -0.5,
+        "game_bottom": 540.4
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "sp_icon",
+      "type": "Node",
+      "text": "酒馆招募",
+      "raw_text": "酒馆招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5811,
+        "y": 0.7487
+      },
+      "size_normalized": {
+        "w": 0.0537,
+        "h": 0.0248
+      },
+      "center_pixel": {
+        "x": -12.6,
+        "y": 582.6,
+        "game_x": -283.6,
+        "game_y": 531.6
+      },
+      "bbox_pixel": {
+        "left": -25.7,
+        "top": 573.8,
+        "right": 0.5,
+        "bottom": 591.4,
+        "width": 26.2,
+        "height": 17.6,
+        "game_left": -296.7,
+        "game_top": 522.8,
+        "game_right": -270.5,
+        "game_bottom": 540.4
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "酒馆招募",
+      "raw_text": "酒馆招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.2764,
+        "y": 0.7487
+      },
+      "size_normalized": {
+        "w": 0.551,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 136.1,
+        "y": 582.6,
+        "game_x": -134.9,
+        "game_y": 531.6
+      },
+      "bbox_pixel": {
+        "left": 1.7,
+        "top": 573.5,
+        "right": 270.5,
+        "bottom": 591.7,
+        "width": 268.9,
+        "height": 18.2,
+        "game_left": -269.3,
+        "game_top": 522.5,
+        "game_right": -0.5,
+        "game_bottom": 540.7
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "content",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.809
+      },
+      "size_normalized": {
+        "w": 0.6093,
+        "h": 0.0894
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 625.4,
+        "game_x": -149.1,
+        "game_y": 574.4
+      },
+      "bbox_pixel": {
+        "left": -26.8,
+        "top": 593.6,
+        "right": 270.5,
+        "bottom": 657.1,
+        "width": 297.3,
+        "height": 63.5,
+        "game_left": -297.8,
+        "game_top": 542.6,
+        "game_right": -0.5,
+        "game_bottom": 606.1
+      },
+      "depth": 9,
+      "children_count": 2
+    },
+    {
+      "name": "0",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 608.1,
+        "game_x": -149.1,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 593.6,
+        "right": 265.6,
+        "bottom": 622.5,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 542.6,
+        "game_right": -5.4,
+        "game_bottom": 571.5
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 608.1,
+        "game_x": -271.3,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 598.0,
+        "right": 14.6,
+        "bottom": 618.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 547.0,
+        "game_right": -256.4,
+        "game_bottom": 567.1
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "blue",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 608.1,
+        "game_x": -271.3,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 598.0,
+        "right": 14.6,
+        "bottom": 618.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 547.0,
+        "game_right": -256.4,
+        "game_bottom": 567.1
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 608.1,
+        "game_x": -271.3,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 598.0,
+        "right": 14.6,
+        "bottom": 618.1,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 547.0,
+        "game_right": -256.4,
+        "game_bottom": 567.1
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.776
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 602.0,
+        "game_x": -149.1,
+        "game_y": 551.0
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 594.4,
+        "right": 219.0,
+        "bottom": 609.6,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 543.4,
+        "game_right": -52.0,
+        "game_bottom": 558.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "<color=#88e44a>免费招募</color>",
+      "raw_text": "<color=#88e44a>免费招募</color>",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7927
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 613.8,
+        "game_x": -149.1,
+        "game_y": 562.8
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 604.7,
+        "right": 219.0,
+        "bottom": 623.0,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 553.7,
+        "game_right": -52.0,
+        "game_bottom": 572.0
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 608.1,
+        "game_x": -28.0,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 597.6,
+        "right": 260.9,
+        "bottom": 618.5,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 546.6,
+        "game_right": -10.1,
+        "game_bottom": 567.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "英雄招募",
+      "raw_text": "英雄招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.7846
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 608.1,
+        "game_x": -149.1,
+        "game_y": 557.1
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 593.6,
+        "right": 265.6,
+        "bottom": 622.5,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 542.6,
+        "game_right": -5.4,
+        "game_bottom": 571.5
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "1",
+      "type": "Node",
+      "text": "请在右上角设置中开启选项",
+      "raw_text": "请在右上角设置中开启选项",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 642.7,
+        "game_x": -149.1,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 628.3,
+        "right": 265.6,
+        "bottom": 657.1,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 577.3,
+        "game_right": -5.4,
+        "game_bottom": 606.1
+      },
+      "depth": 10,
+      "children_count": 5
+    },
+    {
+      "name": "bg",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 642.7,
+        "game_x": -271.3,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 632.7,
+        "right": 14.6,
+        "bottom": 652.7,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 581.7,
+        "game_right": -256.4,
+        "game_bottom": 601.7
+      },
+      "depth": 11,
+      "children_count": 2
+    },
+    {
+      "name": "yellow",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 642.7,
+        "game_x": -271.3,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 632.7,
+        "right": 14.6,
+        "bottom": 652.7,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 581.7,
+        "game_right": -256.4,
+        "game_bottom": 601.7
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.5559,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.0611,
+        "h": 0.0282
+      },
+      "center_pixel": {
+        "x": -0.3,
+        "y": 642.7,
+        "game_x": -271.3,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": -15.2,
+        "top": 632.7,
+        "right": 14.6,
+        "bottom": 652.7,
+        "width": 29.8,
+        "height": 20.0,
+        "game_left": -286.2,
+        "game_top": 581.7,
+        "game_right": -256.4,
+        "game_bottom": 601.7
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.8248
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 636.6,
+        "game_x": -149.1,
+        "game_y": 585.6
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 629.0,
+        "right": 219.0,
+        "bottom": 644.2,
+        "width": 194.3,
+        "height": 15.2,
+        "game_left": -246.3,
+        "game_top": 578.0,
+        "game_right": -52.0,
+        "game_bottom": 593.2
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "text": "<color=#88e44a>免费招募</color>",
+      "raw_text": "<color=#88e44a>免费招募</color>",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.8415
+      },
+      "size_normalized": {
+        "w": 0.3981,
+        "h": 0.0257
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 648.5,
+        "game_x": -149.1,
+        "game_y": 597.5
+      },
+      "bbox_pixel": {
+        "left": 24.7,
+        "top": 639.4,
+        "right": 219.0,
+        "bottom": 657.6,
+        "width": 194.3,
+        "height": 18.2,
+        "game_left": -246.3,
+        "game_top": 588.4,
+        "game_right": -52.0,
+        "game_bottom": 606.6
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "button_go",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": -0.0573,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.0731,
+        "h": 0.0295
+      },
+      "center_pixel": {
+        "x": 243.0,
+        "y": 642.7,
+        "game_x": -28.0,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": 225.2,
+        "top": 632.2,
+        "right": 260.9,
+        "bottom": 653.2,
+        "width": 35.7,
+        "height": 21.0,
+        "game_left": -45.8,
+        "game_top": 581.2,
+        "game_right": -10.1,
+        "game_bottom": 602.2
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "Click",
+      "type": "Node",
+      "text": "岛民招募",
+      "raw_text": "岛民招募",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": -0.3056,
+        "y": 0.8334
+      },
+      "size_normalized": {
+        "w": 0.5891,
+        "h": 0.0406
+      },
+      "center_pixel": {
+        "x": 121.9,
+        "y": 642.7,
+        "game_x": -149.1,
+        "game_y": 591.7
+      },
+      "bbox_pixel": {
+        "left": -21.8,
+        "top": 628.3,
+        "right": 265.6,
+        "bottom": 657.1,
+        "width": 287.5,
+        "height": 28.9,
+        "game_left": -292.8,
+        "game_top": 577.3,
+        "game_right": -5.4,
+        "game_bottom": 606.1
+      },
+      "depth": 11,
+      "children_count": 0
+    },
+    {
+      "name": "icon",
+      "type": "Node",
+      "text": "背包",
+      "raw_text": "背包",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.1106,
+        "y": 0.0285
+      },
+      "size_normalized": {
+        "w": 0.2213,
+        "h": 0.0565
+      },
+      "center_pixel": {
+        "x": 325.0,
+        "y": 71.2,
+        "game_x": 54.0,
+        "game_y": 20.2
+      },
+      "bbox_pixel": {
+        "left": 271.0,
+        "top": 51.2,
+        "right": 379.0,
+        "bottom": 91.3,
+        "width": 108.0,
+        "height": 40.1,
+        "game_left": -0.0,
+        "game_top": 0.2,
+        "game_right": 108.0,
+        "game_bottom": 40.3
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Title",
+      "type": "Node",
+      "text": "背包",
+      "raw_text": "背包",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.1331,
+        "y": 0.0269
+      },
+      "size_normalized": {
+        "w": 0.1663,
+        "h": 0.0528
+      },
+      "center_pixel": {
+        "x": 336.0,
+        "y": 70.1,
+        "game_x": 65.0,
+        "game_y": 19.1
+      },
+      "bbox_pixel": {
+        "left": 295.4,
+        "top": 51.4,
+        "right": 376.5,
+        "bottom": 88.8,
+        "width": 81.1,
+        "height": 37.5,
+        "game_left": 24.4,
+        "game_top": 0.4,
+        "game_right": 105.5,
+        "game_bottom": 37.8
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "特殊",
+      "raw_text": "特殊",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.1067,
+        "y": 0.081
+      },
+      "size_normalized": {
+        "w": 0.1778,
+        "h": 0.0389
+      },
+      "center_pixel": {
+        "x": 323.1,
+        "y": 108.5,
+        "game_x": 52.1,
+        "game_y": 57.5
+      },
+      "bbox_pixel": {
+        "left": 279.7,
+        "top": 94.7,
+        "right": 366.4,
+        "bottom": 122.3,
+        "width": 86.8,
+        "height": 27.6,
+        "game_left": 8.7,
+        "game_top": 43.7,
+        "game_right": 95.4,
+        "game_bottom": 71.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "TextOff",
+      "type": "Node",
+      "text": "资源",
+      "raw_text": "资源",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.3031,
+        "y": 0.0842
+      },
+      "size_normalized": {
+        "w": 0.1778,
+        "h": 0.0325
+      },
+      "center_pixel": {
+        "x": 418.9,
+        "y": 110.8,
+        "game_x": 147.9,
+        "game_y": 59.8
+      },
+      "bbox_pixel": {
+        "left": 375.6,
+        "top": 99.3,
+        "right": 462.3,
+        "bottom": 122.3,
+        "width": 86.8,
+        "height": 23.1,
+        "game_left": 104.6,
+        "game_top": 48.3,
+        "game_right": 191.3,
+        "game_bottom": 71.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "TextOff",
+      "type": "Node",
+      "text": "加速",
+      "raw_text": "加速",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4996,
+        "y": 0.0842
+      },
+      "size_normalized": {
+        "w": 0.1778,
+        "h": 0.0325
+      },
+      "center_pixel": {
+        "x": 514.8,
+        "y": 110.8,
+        "game_x": 243.8,
+        "game_y": 59.8
+      },
+      "bbox_pixel": {
+        "left": 471.4,
+        "top": 99.3,
+        "right": 558.2,
+        "bottom": 122.3,
+        "width": 86.8,
+        "height": 23.1,
+        "game_left": 200.4,
+        "game_top": 48.3,
+        "game_right": 287.2,
+        "game_bottom": 71.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "TextOff",
+      "type": "Node",
+      "text": "英雄",
+      "raw_text": "英雄",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.6961,
+        "y": 0.0842
+      },
+      "size_normalized": {
+        "w": 0.1778,
+        "h": 0.0325
+      },
+      "center_pixel": {
+        "x": 610.7,
+        "y": 110.8,
+        "game_x": 339.7,
+        "game_y": 59.8
+      },
+      "bbox_pixel": {
+        "left": 567.3,
+        "top": 99.3,
+        "right": 654.1,
+        "bottom": 122.3,
+        "width": 86.8,
+        "height": 23.1,
+        "game_left": 296.3,
+        "game_top": 48.3,
+        "game_right": 383.1,
+        "game_bottom": 71.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "TextOff",
+      "type": "Node",
+      "text": "装备",
+      "raw_text": "装备",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.8926,
+        "y": 0.0842
+      },
+      "size_normalized": {
+        "w": 0.1778,
+        "h": 0.0325
+      },
+      "center_pixel": {
+        "x": 706.6,
+        "y": 110.8,
+        "game_x": 435.6,
+        "game_y": 59.8
+      },
+      "bbox_pixel": {
+        "left": 663.2,
+        "top": 99.3,
+        "right": 750.0,
+        "bottom": 122.3,
+        "width": 86.8,
+        "height": 23.1,
+        "game_left": 392.2,
+        "game_top": 48.3,
+        "game_right": 479.0,
+        "game_bottom": 71.3
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "Quality",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.137,
+        "y": 0.1691
+      },
+      "size_normalized": {
+        "w": 0.1741,
+        "h": 0.0839
+      },
+      "center_pixel": {
+        "x": 337.9,
+        "y": 171.1,
+        "game_x": 66.9,
+        "game_y": 120.1
+      },
+      "bbox_pixel": {
+        "left": 295.4,
+        "top": 141.3,
+        "right": 380.3,
+        "bottom": 200.9,
+        "width": 84.9,
+        "height": 59.5,
+        "game_left": 24.4,
+        "game_top": 90.3,
+        "game_right": 109.3,
+        "game_bottom": 149.9
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.137,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1667,
+        "h": 0.077
+      },
+      "center_pixel": {
+        "x": 337.9,
+        "y": 169.3,
+        "game_x": 66.9,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 297.2,
+        "top": 141.9,
+        "right": 378.5,
+        "bottom": 196.6,
+        "width": 81.3,
+        "height": 54.7,
+        "game_left": 26.2,
+        "game_top": 90.9,
+        "game_right": 107.5,
+        "game_bottom": 145.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "text": "1",
+      "raw_text": "1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2123,
+        "y": 0.1994
+      },
+      "size_normalized": {
+        "w": 0.0128,
+        "h": 0.0154
+      },
+      "center_pixel": {
+        "x": 374.6,
+        "y": 192.6,
+        "game_x": 103.6,
+        "game_y": 141.6
+      },
+      "bbox_pixel": {
+        "left": 371.5,
+        "top": 187.1,
+        "right": 377.7,
+        "bottom": 198.1,
+        "width": 6.3,
+        "height": 10.9,
+        "game_left": 100.5,
+        "game_top": 136.1,
+        "game_right": 106.7,
+        "game_bottom": 147.1
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Select",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.137,
+        "y": 0.1691
+      },
+      "size_normalized": {
+        "w": 0.0926,
+        "h": 0.0428
+      },
+      "center_pixel": {
+        "x": 337.9,
+        "y": 171.1,
+        "game_x": 66.9,
+        "game_y": 120.1
+      },
+      "bbox_pixel": {
+        "left": 315.3,
+        "top": 155.9,
+        "right": 360.5,
+        "bottom": 186.3,
+        "width": 45.2,
+        "height": 30.4,
+        "game_left": 44.3,
+        "game_top": 104.9,
+        "game_right": 89.5,
+        "game_bottom": 135.3
+      },
+      "depth": 13,
+      "children_count": 2
+    },
+    {
+      "name": "icon_1",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.033,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.0815,
+        "h": 0.1266
+      },
+      "center_pixel": {
+        "x": 287.1,
+        "y": 169.3,
+        "game_x": 16.1,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 267.2,
+        "top": 124.3,
+        "right": 307.0,
+        "bottom": 214.3,
+        "width": 39.8,
+        "height": 89.9,
+        "game_left": -3.8,
+        "game_top": 73.3,
+        "game_right": 36.0,
+        "game_bottom": 163.3
+      },
+      "depth": 14,
+      "children_count": 0
+    },
+    {
+      "name": "icon_2",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2402,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.0815,
+        "h": 0.1266
+      },
+      "center_pixel": {
+        "x": 388.2,
+        "y": 169.3,
+        "game_x": 117.2,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 368.4,
+        "top": 124.3,
+        "right": 408.1,
+        "bottom": 214.3,
+        "width": 39.8,
+        "height": 89.9,
+        "game_left": 97.4,
+        "game_top": 73.3,
+        "game_right": 137.1,
+        "game_bottom": 163.3
+      },
+      "depth": 14,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.137,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1852,
+        "h": 0.0856
+      },
+      "center_pixel": {
+        "x": 337.9,
+        "y": 169.3,
+        "game_x": 66.9,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 292.7,
+        "top": 138.9,
+        "right": 383.1,
+        "bottom": 199.6,
+        "width": 90.4,
+        "height": 60.8,
+        "game_left": 21.7,
+        "game_top": 87.9,
+        "game_right": 112.1,
+        "game_bottom": 148.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Quality",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.3786,
+        "y": 0.1691
+      },
+      "size_normalized": {
+        "w": 0.1741,
+        "h": 0.0839
+      },
+      "center_pixel": {
+        "x": 455.7,
+        "y": 171.1,
+        "game_x": 184.7,
+        "game_y": 120.1
+      },
+      "bbox_pixel": {
+        "left": 413.3,
+        "top": 141.3,
+        "right": 498.2,
+        "bottom": 200.9,
+        "width": 84.9,
+        "height": 59.5,
+        "game_left": 142.3,
+        "game_top": 90.3,
+        "game_right": 227.2,
+        "game_bottom": 149.9
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.3786,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1667,
+        "h": 0.077
+      },
+      "center_pixel": {
+        "x": 455.7,
+        "y": 169.3,
+        "game_x": 184.7,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 415.1,
+        "top": 141.9,
+        "right": 496.4,
+        "bottom": 196.6,
+        "width": 81.3,
+        "height": 54.7,
+        "game_left": 144.1,
+        "game_top": 90.9,
+        "game_right": 225.4,
+        "game_bottom": 145.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "text": "3",
+      "raw_text": "3",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4496,
+        "y": 0.1994
+      },
+      "size_normalized": {
+        "w": 0.0214,
+        "h": 0.0154
+      },
+      "center_pixel": {
+        "x": 490.4,
+        "y": 192.6,
+        "game_x": 219.4,
+        "game_y": 141.6
+      },
+      "bbox_pixel": {
+        "left": 485.2,
+        "top": 187.1,
+        "right": 495.6,
+        "bottom": 198.1,
+        "width": 10.4,
+        "height": 10.9,
+        "game_left": 214.2,
+        "game_top": 136.1,
+        "game_right": 224.6,
+        "game_bottom": 147.1
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.3786,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1852,
+        "h": 0.0856
+      },
+      "center_pixel": {
+        "x": 455.7,
+        "y": 169.3,
+        "game_x": 184.7,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 410.6,
+        "top": 138.9,
+        "right": 500.9,
+        "bottom": 199.6,
+        "width": 90.4,
+        "height": 60.8,
+        "game_left": 139.6,
+        "game_top": 87.9,
+        "game_right": 229.9,
+        "game_bottom": 148.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Quality",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.6201,
+        "y": 0.1691
+      },
+      "size_normalized": {
+        "w": 0.1741,
+        "h": 0.0839
+      },
+      "center_pixel": {
+        "x": 573.6,
+        "y": 171.1,
+        "game_x": 302.6,
+        "game_y": 120.1
+      },
+      "bbox_pixel": {
+        "left": 531.1,
+        "top": 141.3,
+        "right": 616.1,
+        "bottom": 200.9,
+        "width": 84.9,
+        "height": 59.5,
+        "game_left": 260.1,
+        "game_top": 90.3,
+        "game_right": 345.1,
+        "game_bottom": 149.9
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.6201,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1667,
+        "h": 0.077
+      },
+      "center_pixel": {
+        "x": 573.6,
+        "y": 169.3,
+        "game_x": 302.6,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 533.0,
+        "top": 141.9,
+        "right": 614.3,
+        "bottom": 196.6,
+        "width": 81.3,
+        "height": 54.7,
+        "game_left": 262.0,
+        "game_top": 90.9,
+        "game_right": 343.3,
+        "game_bottom": 145.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "text": "1",
+      "raw_text": "1",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.6954,
+        "y": 0.1994
+      },
+      "size_normalized": {
+        "w": 0.0128,
+        "h": 0.0154
+      },
+      "center_pixel": {
+        "x": 610.3,
+        "y": 192.6,
+        "game_x": 339.3,
+        "game_y": 141.6
+      },
+      "bbox_pixel": {
+        "left": 607.2,
+        "top": 187.1,
+        "right": 613.5,
+        "bottom": 198.1,
+        "width": 6.3,
+        "height": 10.9,
+        "game_left": 336.2,
+        "game_top": 136.1,
+        "game_right": 342.5,
+        "game_bottom": 147.1
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.6201,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1852,
+        "h": 0.0856
+      },
+      "center_pixel": {
+        "x": 573.6,
+        "y": 169.3,
+        "game_x": 302.6,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 528.4,
+        "top": 138.9,
+        "right": 618.8,
+        "bottom": 199.6,
+        "width": 90.4,
+        "height": 60.8,
+        "game_left": 257.4,
+        "game_top": 87.9,
+        "game_right": 347.8,
+        "game_bottom": 148.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Quality",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.8617,
+        "y": 0.1691
+      },
+      "size_normalized": {
+        "w": 0.1741,
+        "h": 0.0839
+      },
+      "center_pixel": {
+        "x": 691.5,
+        "y": 171.1,
+        "game_x": 420.5,
+        "game_y": 120.1
+      },
+      "bbox_pixel": {
+        "left": 649.0,
+        "top": 141.3,
+        "right": 734.0,
+        "bottom": 200.9,
+        "width": 84.9,
+        "height": 59.5,
+        "game_left": 378.0,
+        "game_top": 90.3,
+        "game_right": 463.0,
+        "game_bottom": 149.9
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.8617,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1667,
+        "h": 0.077
+      },
+      "center_pixel": {
+        "x": 691.5,
+        "y": 169.3,
+        "game_x": 420.5,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 650.8,
+        "top": 141.9,
+        "right": 732.2,
+        "bottom": 196.6,
+        "width": 81.3,
+        "height": 54.7,
+        "game_left": 379.8,
+        "game_top": 90.9,
+        "game_right": 461.2,
+        "game_bottom": 145.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "text": "3",
+      "raw_text": "3",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9327,
+        "y": 0.1994
+      },
+      "size_normalized": {
+        "w": 0.0214,
+        "h": 0.0154
+      },
+      "center_pixel": {
+        "x": 726.1,
+        "y": 192.6,
+        "game_x": 455.1,
+        "game_y": 141.6
+      },
+      "bbox_pixel": {
+        "left": 720.9,
+        "top": 187.1,
+        "right": 731.3,
+        "bottom": 198.1,
+        "width": 10.4,
+        "height": 10.9,
+        "game_left": 449.9,
+        "game_top": 136.1,
+        "game_right": 460.3,
+        "game_bottom": 147.1
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "TopBg",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.8608,
+        "y": 0.1359
+      },
+      "size_normalized": {
+        "w": 0.1526,
+        "h": 0.0205
+      },
+      "center_pixel": {
+        "x": 691.1,
+        "y": 147.5,
+        "game_x": 420.1,
+        "game_y": 96.5
+      },
+      "bbox_pixel": {
+        "left": 653.8,
+        "top": 140.2,
+        "right": 728.3,
+        "bottom": 154.8,
+        "width": 74.5,
+        "height": 14.5,
+        "game_left": 382.8,
+        "game_top": 89.2,
+        "game_right": 457.3,
+        "game_bottom": 103.8
+      },
+      "depth": 13,
+      "children_count": 1
+    },
+    {
+      "name": "TxtTop",
+      "type": "Node",
+      "text": "8小时",
+      "raw_text": "8小时",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.8608,
+        "y": 0.1408
+      },
+      "size_normalized": {
+        "w": 0.1526,
+        "h": 0.0235
+      },
+      "center_pixel": {
+        "x": 691.1,
+        "y": 151.0,
+        "game_x": 420.1,
+        "game_y": 100.0
+      },
+      "bbox_pixel": {
+        "left": 653.8,
+        "top": 142.6,
+        "right": 728.3,
+        "bottom": 159.4,
+        "width": 74.5,
+        "height": 16.7,
+        "game_left": 382.8,
+        "game_top": 91.6,
+        "game_right": 457.3,
+        "game_bottom": 108.4
+      },
+      "depth": 14,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "text": "Lv.99",
+      "raw_text": "Lv.99",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.8617,
+        "y": 0.1666
+      },
+      "size_normalized": {
+        "w": 0.1852,
+        "h": 0.0856
+      },
+      "center_pixel": {
+        "x": 691.5,
+        "y": 169.3,
+        "game_x": 420.5,
+        "game_y": 118.3
+      },
+      "bbox_pixel": {
+        "left": 646.3,
+        "top": 138.9,
+        "right": 736.7,
+        "bottom": 199.6,
+        "width": 90.4,
+        "height": 60.8,
+        "game_left": 375.3,
+        "game_top": 87.9,
+        "game_right": 465.7,
+        "game_bottom": 148.6
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "Line",
+      "type": "Node",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5,
+        "y": 0.7505
+      },
+      "size_normalized": {
+        "w": 0.9259,
+        "h": 0.0017
+      },
+      "center_pixel": {
+        "x": 515.0,
+        "y": 583.9,
+        "game_x": 244.0,
+        "game_y": 532.9
+      },
+      "bbox_pixel": {
+        "left": 289.1,
+        "top": 583.3,
+        "right": 740.9,
+        "bottom": 584.5,
+        "width": 451.9,
+        "height": 1.2,
+        "game_left": 18.1,
+        "game_top": 532.3,
+        "game_right": 469.9,
+        "game_bottom": 533.5
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "Title",
+      "type": "Node",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4651,
+        "y": 0.777
+      },
+      "size_normalized": {
+        "w": 0.8566,
+        "h": 0.0371
+      },
+      "center_pixel": {
+        "x": 498.0,
+        "y": 602.6,
+        "game_x": 227.0,
+        "game_y": 551.6
+      },
+      "bbox_pixel": {
+        "left": 289.0,
+        "top": 589.5,
+        "right": 707.0,
+        "bottom": 615.8,
+        "width": 418.0,
+        "height": 26.3,
+        "game_left": 18.0,
+        "game_top": 538.5,
+        "game_right": 436.0,
+        "game_bottom": 564.8
+      },
+      "depth": 9,
+      "children_count": 0
+    },
+    {
+      "name": "ScrollView",
+      "type": "ScrollRect",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.4956,
+        "y": 0.8259
+      },
+      "size_normalized": {
+        "w": 0.9207,
+        "h": 0.0629
+      },
+      "center_pixel": {
+        "x": 512.9,
+        "y": 637.4,
+        "game_x": 241.9,
+        "game_y": 586.4
+      },
+      "bbox_pixel": {
+        "left": 288.2,
+        "top": 615.1,
+        "right": 737.5,
+        "bottom": 659.8,
+        "width": 449.3,
+        "height": 44.7,
+        "game_left": 17.2,
+        "game_top": 564.1,
+        "game_right": 466.5,
+        "game_bottom": 608.8
+      },
+      "depth": 9,
+      "children_count": 1
+    },
+    {
+      "name": "Viewport",
+      "type": "Mask",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4956,
+        "y": 0.8259
+      },
+      "size_normalized": {
+        "w": 0.9207,
+        "h": 0.0629
+      },
+      "center_pixel": {
+        "x": 512.9,
+        "y": 637.4,
+        "game_x": 241.9,
+        "game_y": 586.4
+      },
+      "bbox_pixel": {
+        "left": 288.2,
+        "top": 615.1,
+        "right": 737.5,
+        "bottom": 659.8,
+        "width": 449.3,
+        "height": 44.7,
+        "game_left": 17.2,
+        "game_top": 564.1,
+        "game_right": 466.5,
+        "game_bottom": 608.8
+      },
+      "depth": 10,
+      "children_count": 1
+    },
+    {
+      "name": "Content",
+      "type": "Node",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4956,
+        "y": 0.8061
+      },
+      "size_normalized": {
+        "w": 0.9207,
+        "h": 0.0233
+      },
+      "center_pixel": {
+        "x": 512.9,
+        "y": 623.3,
+        "game_x": 241.9,
+        "game_y": 572.3
+      },
+      "bbox_pixel": {
+        "left": 288.2,
+        "top": 615.1,
+        "right": 737.5,
+        "bottom": 631.6,
+        "width": 449.3,
+        "height": 16.5,
+        "game_left": 17.2,
+        "game_top": 564.1,
+        "game_right": 466.5,
+        "game_bottom": 580.6
+      },
+      "depth": 11,
+      "children_count": 1
+    },
+    {
+      "name": "Info",
+      "type": "Node",
+      "text": "将您的基地移动到联盟附近",
+      "raw_text": "将您的基地移动到联盟附近",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.4887,
+        "y": 0.8061
+      },
+      "size_normalized": {
+        "w": 0.9068,
+        "h": 0.0233
+      },
+      "center_pixel": {
+        "x": 509.5,
+        "y": 623.3,
+        "game_x": 238.5,
+        "game_y": 572.3
+      },
+      "bbox_pixel": {
+        "left": 288.2,
+        "top": 615.1,
+        "right": 730.7,
+        "bottom": 631.6,
+        "width": 442.5,
+        "height": 16.5,
+        "game_left": 17.2,
+        "game_top": 564.1,
+        "game_right": 459.7,
+        "game_bottom": 580.6
+      },
+      "depth": 12,
+      "children_count": 0
+    },
+    {
+      "name": "UsedBtn",
+      "type": "Node",
+      "text": "联盟迁城",
+      "raw_text": "联盟迁城",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.5,
+        "y": 0.9682
+      },
+      "size_normalized": {
+        "w": 0.438,
+        "h": 0.0749
+      },
+      "center_pixel": {
+        "x": 515.0,
+        "y": 738.5,
+        "game_x": 244.0,
+        "game_y": 687.5
+      },
+      "bbox_pixel": {
+        "left": 408.1,
+        "top": 711.9,
+        "right": 621.9,
+        "bottom": 765.0,
+        "width": 213.7,
+        "height": 53.2,
+        "game_left": 137.1,
+        "game_top": 660.9,
+        "game_right": 350.9,
+        "game_bottom": 714.0
+      },
+      "depth": 9,
+      "children_count": 1
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "text": "使用",
+      "raw_text": "使用",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5,
+        "y": 0.9645
+      },
+      "size_normalized": {
+        "w": 0.3704,
+        "h": 0.0599
+      },
+      "center_pixel": {
+        "x": 515.0,
+        "y": 735.8,
+        "game_x": 244.0,
+        "game_y": 684.8
+      },
+      "bbox_pixel": {
+        "left": 424.6,
+        "top": 714.5,
+        "right": 605.4,
+        "bottom": 757.0,
+        "width": 180.7,
+        "height": 42.5,
+        "game_left": 153.6,
+        "game_top": 663.5,
+        "game_right": 334.4,
+        "game_bottom": 706.0
+      },
+      "depth": 10,
+      "children_count": 0
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "text": "10.05M",
+      "raw_text": "10.05M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.3403,
+        "y": 0.0294
+      },
+      "size_normalized": {
+        "w": 0.1308,
+        "h": 0.0381
+      },
+      "center_pixel": {
+        "x": 437.1,
+        "y": 71.9,
+        "game_x": 166.1,
+        "game_y": 20.9
+      },
+      "bbox_pixel": {
+        "left": 405.2,
+        "top": 58.4,
+        "right": 469.0,
+        "bottom": 85.4,
+        "width": 63.8,
+        "height": 27.0,
+        "game_left": 134.2,
+        "game_top": 7.4,
+        "game_right": 198.0,
+        "game_bottom": 34.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "10.05M",
+      "raw_text": "10.05M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.2484,
+        "y": 0.028
+      },
+      "size_normalized": {
+        "w": 0.0463,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 392.2,
+        "y": 70.9,
+        "game_x": 121.2,
+        "game_y": 19.9
+      },
+      "bbox_pixel": {
+        "left": 380.9,
+        "top": 63.3,
+        "right": 403.5,
+        "bottom": 78.5,
+        "width": 22.6,
+        "height": 15.2,
+        "game_left": 109.9,
+        "game_top": 12.3,
+        "game_right": 132.5,
+        "game_bottom": 27.5
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "add",
+      "type": "Node",
+      "text": "10.05M",
+      "raw_text": "10.05M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.2614,
+        "y": 0.034
+      },
+      "size_normalized": {
+        "w": 0.1139,
+        "h": 0.0543
+      },
+      "center_pixel": {
+        "x": 398.6,
+        "y": 75.2,
+        "game_x": 127.6,
+        "game_y": 24.2
+      },
+      "bbox_pixel": {
+        "left": 370.8,
+        "top": 55.9,
+        "right": 426.4,
+        "bottom": 94.4,
+        "width": 55.6,
+        "height": 38.6,
+        "game_left": 99.8,
+        "game_top": 4.9,
+        "game_right": 155.4,
+        "game_bottom": 43.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.5289,
+        "y": 0.0294
+      },
+      "size_normalized": {
+        "w": 0.1308,
+        "h": 0.0381
+      },
+      "center_pixel": {
+        "x": 529.1,
+        "y": 71.9,
+        "game_x": 258.1,
+        "game_y": 20.9
+      },
+      "bbox_pixel": {
+        "left": 497.2,
+        "top": 58.4,
+        "right": 561.0,
+        "bottom": 85.4,
+        "width": 63.8,
+        "height": 27.0,
+        "game_left": 226.2,
+        "game_top": 7.4,
+        "game_right": 290.0,
+        "game_bottom": 34.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.437,
+        "y": 0.028
+      },
+      "size_normalized": {
+        "w": 0.0463,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 484.3,
+        "y": 70.9,
+        "game_x": 213.3,
+        "game_y": 19.9
+      },
+      "bbox_pixel": {
+        "left": 473.0,
+        "top": 63.3,
+        "right": 495.6,
+        "bottom": 78.5,
+        "width": 22.6,
+        "height": 15.2,
+        "game_left": 202.0,
+        "game_top": 12.3,
+        "game_right": 224.6,
+        "game_bottom": 27.5
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "add",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.45,
+        "y": 0.034
+      },
+      "size_normalized": {
+        "w": 0.1139,
+        "h": 0.0543
+      },
+      "center_pixel": {
+        "x": 490.6,
+        "y": 75.2,
+        "game_x": 219.6,
+        "game_y": 24.2
+      },
+      "bbox_pixel": {
+        "left": 462.8,
+        "top": 55.9,
+        "right": 518.4,
+        "bottom": 94.4,
+        "width": 55.6,
+        "height": 38.6,
+        "game_left": 191.8,
+        "game_top": 4.9,
+        "game_right": 247.4,
+        "game_bottom": 43.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.7175,
+        "y": 0.0294
+      },
+      "size_normalized": {
+        "w": 0.1308,
+        "h": 0.0381
+      },
+      "center_pixel": {
+        "x": 621.2,
+        "y": 71.9,
+        "game_x": 350.2,
+        "game_y": 20.9
+      },
+      "bbox_pixel": {
+        "left": 589.3,
+        "top": 58.4,
+        "right": 653.1,
+        "bottom": 85.4,
+        "width": 63.8,
+        "height": 27.0,
+        "game_left": 318.3,
+        "game_top": 7.4,
+        "game_right": 382.1,
+        "game_bottom": 34.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.6256,
+        "y": 0.028
+      },
+      "size_normalized": {
+        "w": 0.0463,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 576.3,
+        "y": 70.9,
+        "game_x": 305.3,
+        "game_y": 19.9
+      },
+      "bbox_pixel": {
+        "left": 565.0,
+        "top": 63.3,
+        "right": 587.6,
+        "bottom": 78.5,
+        "width": 22.6,
+        "height": 15.2,
+        "game_left": 294.0,
+        "game_top": 12.3,
+        "game_right": 316.6,
+        "game_bottom": 27.5
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "add",
+      "type": "Node",
+      "text": "10.2M",
+      "raw_text": "10.2M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.6386,
+        "y": 0.034
+      },
+      "size_normalized": {
+        "w": 0.1139,
+        "h": 0.0543
+      },
+      "center_pixel": {
+        "x": 582.6,
+        "y": 75.2,
+        "game_x": 311.6,
+        "game_y": 24.2
+      },
+      "bbox_pixel": {
+        "left": 554.9,
+        "top": 55.9,
+        "right": 610.4,
+        "bottom": 94.4,
+        "width": 55.6,
+        "height": 38.6,
+        "game_left": 283.9,
+        "game_top": 4.9,
+        "game_right": 339.4,
+        "game_bottom": 43.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "text": "10.02M",
+      "raw_text": "10.02M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.9061,
+        "y": 0.0294
+      },
+      "size_normalized": {
+        "w": 0.1308,
+        "h": 0.0381
+      },
+      "center_pixel": {
+        "x": 713.2,
+        "y": 71.9,
+        "game_x": 442.2,
+        "game_y": 20.9
+      },
+      "bbox_pixel": {
+        "left": 681.3,
+        "top": 58.4,
+        "right": 745.1,
+        "bottom": 85.4,
+        "width": 63.8,
+        "height": 27.0,
+        "game_left": 410.3,
+        "game_top": 7.4,
+        "game_right": 474.1,
+        "game_bottom": 34.4
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "text": "10.02M",
+      "raw_text": "10.02M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.8142,
+        "y": 0.028
+      },
+      "size_normalized": {
+        "w": 0.0463,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 668.4,
+        "y": 70.9,
+        "game_x": 397.4,
+        "game_y": 19.9
+      },
+      "bbox_pixel": {
+        "left": 657.1,
+        "top": 63.3,
+        "right": 679.6,
+        "bottom": 78.5,
+        "width": 22.6,
+        "height": 15.2,
+        "game_left": 386.1,
+        "game_top": 12.3,
+        "game_right": 408.6,
+        "game_bottom": 27.5
+      },
+      "depth": 7,
+      "children_count": 0
+    },
+    {
+      "name": "add",
+      "type": "Node",
+      "text": "10.02M",
+      "raw_text": "10.02M",
+      "visible": true,
+      "clickable": false,
+      "likely_clickable": false,
+      "pos_normalized": {
+        "x": 0.8272,
+        "y": 0.034
+      },
+      "size_normalized": {
+        "w": 0.1139,
+        "h": 0.0543
+      },
+      "center_pixel": {
+        "x": 674.7,
+        "y": 75.2,
+        "game_x": 403.7,
+        "game_y": 24.2
+      },
+      "bbox_pixel": {
+        "left": 646.9,
+        "top": 55.9,
+        "right": 702.5,
+        "bottom": 94.4,
+        "width": 55.6,
+        "height": 38.6,
+        "game_left": 375.9,
+        "game_top": 4.9,
+        "game_right": 431.5,
+        "game_bottom": 43.4
+      },
+      "depth": 7,
+      "children_count": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "islander_head",
+  "displayName": "islander_head",
+  "drafts": {
+    "DRAFT_6706bfd49f3b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/IslanderHead.prefab",
+      "prefabRoot": "IslanderHead",
+      "path": "IslanderHead",
+      "nodeName": "IslanderHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "islander_head",
+      "displayName": "IslanderHead",
+      "chineseDescription": "IslanderHead的IslanderHead",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/IslanderHead.prefab」中的IslanderHeadIslanderHead",
+      "suggestedTestId": "IslanderHead.IslanderHead",
+      "suggestedSemanticId": "IslanderHead.IslanderHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6706bfd49f3b"
+    },
+    "DRAFT_4276756b0848": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/IslanderHead.prefab",
+      "prefabRoot": "IslanderHead",
+      "path": "IslanderHead/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "islander_head",
+      "displayName": "Click",
+      "chineseDescription": "IslanderHead的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/IslanderHead.prefab」中的IslanderHeadClick",
+      "suggestedTestId": "IslanderHead.Click",
+      "suggestedSemanticId": "IslanderHead.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4276756b0848"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6706bfd49f3b",
+      "DRAFT_4276756b0848"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

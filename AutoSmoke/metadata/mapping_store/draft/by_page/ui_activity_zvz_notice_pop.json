@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_zvz_notice_pop",
+  "displayName": "ui_activity_zvz_notice_pop",
+  "drafts": {
+    "DRAFT_faf80a308d4a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZNoticePop.prefab",
+      "prefabRoot": "UIActivityZVZNoticePop",
+      "path": "UIActivityZVZNoticePop/Root/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_notice_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityZVZNoticePop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZNoticePop.prefab」中的UIActivityZVZNoticePop按钮",
+      "suggestedTestId": "UIActivityZVZNoticePop.Btn",
+      "suggestedSemanticId": "UIActivityZVZNoticePop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_faf80a308d4a"
+    },
+    "DRAFT_17d8d01e9cac": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZNoticePop.prefab",
+      "prefabRoot": "UIActivityZVZNoticePop",
+      "path": "UIActivityZVZNoticePop/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X3",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_notice_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityZVZNoticePop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZNoticePop.prefab」中的UIActivityZVZNoticePop关闭按钮",
+      "suggestedTestId": "UIActivityZVZNoticePop.CloseBtn",
+      "suggestedSemanticId": "UIActivityZVZNoticePop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17d8d01e9cac"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_faf80a308d4a",
+      "DRAFT_17d8d01e9cac"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

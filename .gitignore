@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+*.bak
+
+# 大文件 - 超过GitHub限制
+AutoSmoke/元数据/project_ui_inventory.json
+AutoSmoke/metadata/ui_code_semantics_test.json
+
+# 截图
+*.png

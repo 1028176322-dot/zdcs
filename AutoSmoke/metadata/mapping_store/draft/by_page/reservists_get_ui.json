@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "reservists_get_ui",
+  "displayName": "reservists_get_ui",
+  "drafts": {
+    "DRAFT_63b3b592472f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsGetUI.prefab",
+      "prefabRoot": "ReservistsGetUI",
+      "path": "ReservistsGetUI/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "reservists_get_ui",
+      "displayName": "Click",
+      "chineseDescription": "ReservistsGetUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsGetUI.prefab」中的ReservistsGetUIClick",
+      "suggestedTestId": "ReservistsGetUI.Click",
+      "suggestedSemanticId": "ReservistsGetUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_63b3b592472f"
+    },
+    "DRAFT_ed7fcbbbc60d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsGetUI.prefab",
+      "prefabRoot": "EXPORT_ReservistsGetUI",
+      "path": "EXPORT_ReservistsGetUI/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "reservists_get_ui",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_ReservistsGetUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsGetUI.prefab」中的EXPORT_ReservistsGetUIClick",
+      "suggestedTestId": "EXPORT_ReservistsGetUI.Click",
+      "suggestedSemanticId": "EXPORT_ReservistsGetUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ed7fcbbbc60d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_63b3b592472f",
+      "DRAFT_ed7fcbbbc60d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

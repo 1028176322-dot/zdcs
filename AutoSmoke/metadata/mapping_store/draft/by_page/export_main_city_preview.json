@@ -1,0 +1,69 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_preview",
+  "displayName": "export_main_city_preview",
+  "drafts": {
+    "DRAFT_fe83ce1eafbd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityPreview.prefab",
+      "prefabRoot": "EXPORT_MainCityPreview",
+      "path": "EXPORT_MainCityPreview/Root/Animation/BackGround/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_main_city_preview",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_MainCityPreview的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityPreview.prefab」中的EXPORT_MainCityPreview关闭按钮",
+      "suggestedTestId": "EXPORT_MainCityPreview.CloseBtn",
+      "suggestedSemanticId": "EXPORT_MainCityPreview.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe83ce1eafbd"
+    },
+    "DRAFT_cdf169f9aa1c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityPreview.prefab",
+      "prefabRoot": "EXPORT_MainCityPreview",
+      "path": "EXPORT_MainCityPreview/Root/Animation/Scroll/Viewport/Content/buildinglv_unlock/content/FuncInfo",
+      "nodeName": "FuncInfo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "MainCityPreviewFuncInfoItemUI",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_main_city_preview",
+      "displayName": "FuncInfo",
+      "chineseDescription": "EXPORT_MainCityPreview的FuncInfo",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityPreview.prefab」中的EXPORT_MainCityPreviewFuncInfo",
+      "suggestedTestId": "EXPORT_MainCityPreview.FuncInfo",
+      "suggestedSemanticId": "EXPORT_MainCityPreview.FuncInfo",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cdf169f9aa1c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fe83ce1eafbd",
+      "DRAFT_cdf169f9aa1c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

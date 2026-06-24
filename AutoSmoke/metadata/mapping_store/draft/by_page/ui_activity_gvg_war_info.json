@@ -1,0 +1,144 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_war_info",
+  "displayName": "ui_activity_gvg_war_info",
+  "drafts": {
+    "DRAFT_41f73cde86bd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab",
+      "prefabRoot": "UIActivityGVGWarInfo",
+      "path": "UIActivityGVGWarInfo/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_war_info",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityGVGWarInfo的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab」中的UIActivityGVGWarInfo关闭按钮",
+      "suggestedTestId": "UIActivityGVGWarInfo.CloseBtn",
+      "suggestedSemanticId": "UIActivityGVGWarInfo.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_41f73cde86bd"
+    },
+    "DRAFT_a1c9d0aa05d6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab",
+      "prefabRoot": "UIActivityGVGWarInfo",
+      "path": "UIActivityGVGWarInfo/Root/Rank/ScrollView/Viewport/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_war_info",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivityGVGWarInfo的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab」中的UIActivityGVGWarInfoHeadk1",
+      "suggestedTestId": "UIActivityGVGWarInfo.Head_k1",
+      "suggestedSemanticId": "UIActivityGVGWarInfo.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a1c9d0aa05d6"
+    },
+    "DRAFT_3c158ea05ef6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab",
+      "prefabRoot": "UIActivityGVGWarInfo",
+      "path": "UIActivityGVGWarInfo/Root/Rank/sp_di/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_war_info",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivityGVGWarInfo的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab」中的UIActivityGVGWarInfoHeadk1",
+      "suggestedTestId": "UIActivityGVGWarInfo.Head_k1",
+      "suggestedSemanticId": "UIActivityGVGWarInfo.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3c158ea05ef6"
+    },
+    "DRAFT_2c2fdc8ac4f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab",
+      "prefabRoot": "UIActivityGVGWarInfo",
+      "path": "UIActivityGVGWarInfo/Root/ExitBtn",
+      "nodeName": "ExitBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_war_info",
+      "displayName": "Exit按钮",
+      "chineseDescription": "UIActivityGVGWarInfo的Exit按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab」中的UIActivityGVGWarInfoExit按钮",
+      "suggestedTestId": "UIActivityGVGWarInfo.ExitBtn",
+      "suggestedSemanticId": "UIActivityGVGWarInfo.Exit按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2c2fdc8ac4f6"
+    },
+    "DRAFT_5254046684c4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab",
+      "prefabRoot": "UIActivityGVGWarInfo",
+      "path": "UIActivityGVGWarInfo/Root/RuleBtn",
+      "nodeName": "RuleBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_war_info",
+      "displayName": "Rule按钮",
+      "chineseDescription": "UIActivityGVGWarInfo的Rule按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGWarInfo.prefab」中的UIActivityGVGWarInfoRule按钮",
+      "suggestedTestId": "UIActivityGVGWarInfo.RuleBtn",
+      "suggestedSemanticId": "UIActivityGVGWarInfo.Rule按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5254046684c4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_41f73cde86bd",
+      "DRAFT_a1c9d0aa05d6",
+      "DRAFT_3c158ea05ef6",
+      "DRAFT_2c2fdc8ac4f6",
+      "DRAFT_5254046684c4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

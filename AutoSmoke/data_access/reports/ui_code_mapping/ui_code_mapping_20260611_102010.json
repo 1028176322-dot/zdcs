@@ -1,0 +1,214 @@
+{
+  "ui_class": {
+    "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+    "class": "MarineExplorationMain",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  "mapping_results": [
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_controls",
+      "type": "Unknown",
+      "likely_name_in_ui": "controls",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    }
+  ],
+  "timestamp": "20260611_102010"
+}

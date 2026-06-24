@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_seven_days_item",
+  "displayName": "ui_activity_seven_days_item",
+  "drafts": {
+    "DRAFT_fb9812dc00c3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySevenDaysItem.prefab",
+      "prefabRoot": "UIActivitySevenDaysItem",
+      "path": "UIActivitySevenDaysItem/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "ui_bg_1",
+      "clickable": true,
+      "pageId": "ui_activity_seven_days_item",
+      "displayName": "BG",
+      "chineseDescription": "UIActivitySevenDaysItem的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySevenDaysItem.prefab」中的UIActivitySevenDaysItemBG",
+      "suggestedTestId": "UIActivitySevenDaysItem.BG",
+      "suggestedSemanticId": "UIActivitySevenDaysItem.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb9812dc00c3"
+    },
+    "DRAFT_6fb12b1638e9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySevenDaysItem.prefab",
+      "prefabRoot": "UIActivitySevenDaysItem",
+      "path": "UIActivitySevenDaysItem/UIShopItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_seven_days_item",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivitySevenDaysItem的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySevenDaysItem.prefab」中的UIActivitySevenDaysItemClickContent",
+      "suggestedTestId": "UIActivitySevenDaysItem.ClickContent",
+      "suggestedSemanticId": "UIActivitySevenDaysItem.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6fb12b1638e9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fb9812dc00c3",
+      "DRAFT_6fb12b1638e9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

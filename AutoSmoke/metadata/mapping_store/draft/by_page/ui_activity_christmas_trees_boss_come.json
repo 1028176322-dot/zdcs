@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_boss_come",
+  "displayName": "ui_activity_christmas_trees_boss_come",
+  "drafts": {
+    "DRAFT_fa0d583158b7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBossCome.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBossCome",
+      "path": "UIActivityChristmasTreesBossCome/Root/BossCome/BG/TFWUIMask",
+      "nodeName": "TFWUIMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_boss_come",
+      "displayName": "TFWUIMask",
+      "chineseDescription": "UIActivityChristmasTreesBossCome的TFWUIMask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBossCome.prefab」中的UIActivityChristmasTreesBossComeTFWUIMask",
+      "suggestedTestId": "UIActivityChristmasTreesBossCome.TFWUIMask",
+      "suggestedSemanticId": "UIActivityChristmasTreesBossCome.TFWUIMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fa0d583158b7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fa0d583158b7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

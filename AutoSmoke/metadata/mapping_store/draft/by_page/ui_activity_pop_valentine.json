@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_valentine",
+  "displayName": "ui_activity_pop_valentine",
+  "drafts": {
+    "DRAFT_5daeb90acefa": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Valentine.prefab",
+      "prefabRoot": "UIActivityPop_Valentine",
+      "path": "UIActivityPop_Valentine/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_valentine",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_Valentine的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Valentine.prefab」中的UIActivityPop_Valentine项1",
+      "suggestedTestId": "UIActivityPop_Valentine.Item1",
+      "suggestedSemanticId": "UIActivityPop_Valentine.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5daeb90acefa"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5daeb90acefa"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

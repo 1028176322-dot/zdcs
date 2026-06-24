@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_player_rename",
+  "displayName": "ui_player_rename",
+  "drafts": {
+    "DRAFT_95eeb7fc6054": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab",
+      "prefabRoot": "UiPlayerRename",
+      "path": "UiPlayerRename/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_player_rename",
+      "displayName": "Mask",
+      "chineseDescription": "UiPlayerRename的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab」中的UiPlayerRenameMask",
+      "suggestedTestId": "UiPlayerRename.Mask",
+      "suggestedSemanticId": "UiPlayerRename.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_95eeb7fc6054"
+    },
+    "DRAFT_1267fbe41001": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab",
+      "prefabRoot": "UiPlayerRename",
+      "path": "UiPlayerRename/Root/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_player_rename",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UiPlayerRename的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab」中的UiPlayerRename关闭按钮",
+      "suggestedTestId": "UiPlayerRename.CloseBtn",
+      "suggestedSemanticId": "UiPlayerRename.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1267fbe41001"
+    },
+    "DRAFT_b8aa4f5621c0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab",
+      "prefabRoot": "UiPlayerRename",
+      "path": "UiPlayerRename/Root/Content/Input",
+      "nodeName": "Input",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "3_common_ui_bg_input_1",
+      "clickable": true,
+      "pageId": "ui_player_rename",
+      "displayName": "输入",
+      "chineseDescription": "UiPlayerRename的输入",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab」中的UiPlayerRename输入",
+      "suggestedTestId": "UiPlayerRename.Input",
+      "suggestedSemanticId": "UiPlayerRename.输入",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8aa4f5621c0"
+    },
+    "DRAFT_8c610f490038": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab",
+      "prefabRoot": "UiPlayerRename",
+      "path": "UiPlayerRename/Root/Content/OKBtn",
+      "nodeName": "OKBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_player_rename",
+      "displayName": "OK按钮",
+      "chineseDescription": "UiPlayerRename的OK按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab」中的UiPlayerRenameOK按钮",
+      "suggestedTestId": "UiPlayerRename.OKBtn",
+      "suggestedSemanticId": "UiPlayerRename.OK按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8c610f490038"
+    },
+    "DRAFT_ca4762d30136": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab",
+      "prefabRoot": "UiPlayerRename",
+      "path": "UiPlayerRename/Root/Content/FreeBtn",
+      "nodeName": "FreeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_player_rename",
+      "displayName": "Free按钮",
+      "chineseDescription": "UiPlayerRename的Free按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerRename.prefab」中的UiPlayerRenameFree按钮",
+      "suggestedTestId": "UiPlayerRename.FreeBtn",
+      "suggestedSemanticId": "UiPlayerRename.Free按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca4762d30136"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_95eeb7fc6054",
+      "DRAFT_1267fbe41001",
+      "DRAFT_b8aa4f5621c0",
+      "DRAFT_8c610f490038",
+      "DRAFT_ca4762d30136"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

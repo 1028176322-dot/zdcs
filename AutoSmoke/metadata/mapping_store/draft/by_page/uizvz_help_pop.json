@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uizvz_help_pop",
+  "displayName": "uizvz_help_pop",
+  "drafts": {
+    "DRAFT_3639bc5e8d4f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab",
+      "prefabRoot": "UIZVZHelpPop",
+      "path": "UIZVZHelpPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "uizvz_help_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIZVZHelpPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab」中的UIZVZHelpPop关闭按钮",
+      "suggestedTestId": "UIZVZHelpPop.CloseBtn",
+      "suggestedSemanticId": "UIZVZHelpPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3639bc5e8d4f"
+    },
+    "DRAFT_4b82d04528be": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab",
+      "prefabRoot": "UIZVZHelpPop",
+      "path": "UIZVZHelpPop/Root/Tab/tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_help_pop",
+      "displayName": "tab1",
+      "chineseDescription": "UIZVZHelpPop的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab」中的UIZVZHelpPoptab1",
+      "suggestedTestId": "UIZVZHelpPop.tab1",
+      "suggestedSemanticId": "UIZVZHelpPop.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4b82d04528be"
+    },
+    "DRAFT_6ff77549bc10": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab",
+      "prefabRoot": "UIZVZHelpPop",
+      "path": "UIZVZHelpPop/Root/Tab/tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_help_pop",
+      "displayName": "tab2",
+      "chineseDescription": "UIZVZHelpPop的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab」中的UIZVZHelpPoptab2",
+      "suggestedTestId": "UIZVZHelpPop.tab2",
+      "suggestedSemanticId": "UIZVZHelpPop.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6ff77549bc10"
+    },
+    "DRAFT_a45d6a51904e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab",
+      "prefabRoot": "UIZVZHelpPop",
+      "path": "UIZVZHelpPop/Root/Tab/tabs/tab3",
+      "nodeName": "tab3",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_help_pop",
+      "displayName": "tab3",
+      "chineseDescription": "UIZVZHelpPop的tab3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHelpPop.prefab」中的UIZVZHelpPoptab3",
+      "suggestedTestId": "UIZVZHelpPop.tab3",
+      "suggestedSemanticId": "UIZVZHelpPop.tab3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a45d6a51904e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3639bc5e8d4f",
+      "DRAFT_4b82d04528be",
+      "DRAFT_6ff77549bc10",
+      "DRAFT_a45d6a51904e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

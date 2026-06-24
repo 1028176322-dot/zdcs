@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_trial_tower_rank",
+  "displayName": "ui_trial_tower_rank",
+  "drafts": {
+    "DRAFT_29237572ab9b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab",
+      "prefabRoot": "UITrialTowerRank",
+      "path": "UITrialTowerRank/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_trial_tower_rank",
+      "displayName": "Mask",
+      "chineseDescription": "UITrialTowerRank的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab」中的UITrialTowerRankMask",
+      "suggestedTestId": "UITrialTowerRank.Mask",
+      "suggestedSemanticId": "UITrialTowerRank.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_29237572ab9b"
+    },
+    "DRAFT_5a70ebd80e2c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab",
+      "prefabRoot": "UITrialTowerRank",
+      "path": "UITrialTowerRank/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_trial_tower_rank",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITrialTowerRank的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab」中的UITrialTowerRank关闭按钮",
+      "suggestedTestId": "UITrialTowerRank.CloseBtn",
+      "suggestedSemanticId": "UITrialTowerRank.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5a70ebd80e2c"
+    },
+    "DRAFT_96acb239a0c6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab",
+      "prefabRoot": "UITrialTowerRank",
+      "path": "UITrialTowerRank/Root/Page/RankListScrollView/Mask/Content/Items/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "UITrialTowerRank的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab」中的UITrialTowerRankHeadk1",
+      "suggestedTestId": "UITrialTowerRank.Head_k1",
+      "suggestedSemanticId": "UITrialTowerRank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_96acb239a0c6"
+    },
+    "DRAFT_8ad67763af07": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab",
+      "prefabRoot": "UITrialTowerRank",
+      "path": "UITrialTowerRank/Root/Page/Me/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "UITrialTowerRank的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerRank.prefab」中的UITrialTowerRankHeadk1",
+      "suggestedTestId": "UITrialTowerRank.Head_k1",
+      "suggestedSemanticId": "UITrialTowerRank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8ad67763af07"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_29237572ab9b",
+      "DRAFT_5a70ebd80e2c",
+      "DRAFT_96acb239a0c6",
+      "DRAFT_8ad67763af07"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

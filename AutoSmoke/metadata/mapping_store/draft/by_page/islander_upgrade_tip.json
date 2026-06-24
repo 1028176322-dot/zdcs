@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "islander_upgrade_tip",
+  "displayName": "islander_upgrade_tip",
+  "drafts": {
+    "DRAFT_dccf6c9a4210": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab",
+      "prefabRoot": "IslanderUpgradeTip",
+      "path": "IslanderUpgradeTip/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "islander_upgrade_tip",
+      "displayName": "BG",
+      "chineseDescription": "IslanderUpgradeTip的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab」中的IslanderUpgradeTipBG",
+      "suggestedTestId": "IslanderUpgradeTip.BG",
+      "suggestedSemanticId": "IslanderUpgradeTip.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dccf6c9a4210"
+    },
+    "DRAFT_7ec377cf01f0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab",
+      "prefabRoot": "IslanderUpgradeTip",
+      "path": "IslanderUpgradeTip/Root/Content/IslanderHead",
+      "nodeName": "IslanderHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "islander_upgrade_tip",
+      "displayName": "IslanderHead",
+      "chineseDescription": "IslanderUpgradeTip的IslanderHead",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab」中的IslanderUpgradeTipIslanderHead",
+      "suggestedTestId": "IslanderUpgradeTip.IslanderHead",
+      "suggestedSemanticId": "IslanderUpgradeTip.IslanderHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7ec377cf01f0"
+    },
+    "DRAFT_769e5f25a15e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab",
+      "prefabRoot": "IslanderUpgradeTip",
+      "path": "IslanderUpgradeTip/Root/Content/IslanderHead/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "islander_upgrade_tip",
+      "displayName": "Click",
+      "chineseDescription": "IslanderUpgradeTip的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab」中的IslanderUpgradeTipClick",
+      "suggestedTestId": "IslanderUpgradeTip.Click",
+      "suggestedSemanticId": "IslanderUpgradeTip.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_769e5f25a15e"
+    },
+    "DRAFT_b307431b8c5d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab",
+      "prefabRoot": "IslanderUpgradeTip",
+      "path": "IslanderUpgradeTip/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "islander_upgrade_tip",
+      "displayName": "Click",
+      "chineseDescription": "IslanderUpgradeTip的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Islander/IslanderUpgradeTip.prefab」中的IslanderUpgradeTipClick",
+      "suggestedTestId": "IslanderUpgradeTip.Click",
+      "suggestedSemanticId": "IslanderUpgradeTip.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b307431b8c5d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dccf6c9a4210",
+      "DRAFT_7ec377cf01f0",
+      "DRAFT_769e5f25a15e",
+      "DRAFT_b307431b8c5d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "prop_item",
+  "displayName": "prop_item",
+  "drafts": {
+    "DRAFT_103d558616fb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/New/PropItem.prefab",
+      "prefabRoot": "PropItem",
+      "path": "PropItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "prop_item",
+      "displayName": "ClickContent",
+      "chineseDescription": "PropItem的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/New/PropItem.prefab」中的PropItemClickContent",
+      "suggestedTestId": "PropItem.ClickContent",
+      "suggestedSemanticId": "PropItem.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_103d558616fb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_103d558616fb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

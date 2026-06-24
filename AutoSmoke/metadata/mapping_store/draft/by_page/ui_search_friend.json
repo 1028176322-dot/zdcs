@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_search_friend",
+  "displayName": "ui_search_friend",
+  "drafts": {
+    "DRAFT_0c50be517b73": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UISearchFriend的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriend关闭按钮",
+      "suggestedTestId": "UISearchFriend.CloseBtn",
+      "suggestedSemanticId": "UISearchFriend.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0c50be517b73"
+    },
+    "DRAFT_2d05f3eb56b7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/Input",
+      "nodeName": "Input",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "3_common_dropdown_2",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "输入",
+      "chineseDescription": "UISearchFriend的输入",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriend输入",
+      "suggestedTestId": "UISearchFriend.Input",
+      "suggestedSemanticId": "UISearchFriend.输入",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d05f3eb56b7"
+    },
+    "DRAFT_37eceb915774": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/SearchBtn",
+      "nodeName": "SearchBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_xiao",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "Search按钮",
+      "chineseDescription": "UISearchFriend的Search按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriendSearch按钮",
+      "suggestedTestId": "UISearchFriend.SearchBtn",
+      "suggestedSemanticId": "UISearchFriend.Search按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_37eceb915774"
+    },
+    "DRAFT_deebc9cbbdbc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/ScrollView/Viewport/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "Headk1",
+      "chineseDescription": "UISearchFriend的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriendHeadk1",
+      "suggestedTestId": "UISearchFriend.Head_k1",
+      "suggestedSemanticId": "UISearchFriend.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_deebc9cbbdbc"
+    },
+    "DRAFT_2e050d88b6ec": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/ScrollView/Viewport/Content/Item/WhishperBtn",
+      "nodeName": "WhishperBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "Whishper按钮",
+      "chineseDescription": "UISearchFriend的Whishper按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriendWhishper按钮",
+      "suggestedTestId": "UISearchFriend.WhishperBtn",
+      "suggestedSemanticId": "UISearchFriend.Whishper按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2e050d88b6ec"
+    },
+    "DRAFT_e40f858268d2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab",
+      "prefabRoot": "UISearchFriend",
+      "path": "UISearchFriend/Root/ScrollView/Viewport/Content/Item/check",
+      "nodeName": "check",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "ui_search_friend",
+      "displayName": "check",
+      "chineseDescription": "UISearchFriend的check",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UISearchFriend.prefab」中的UISearchFriendcheck",
+      "suggestedTestId": "UISearchFriend.check",
+      "suggestedSemanticId": "UISearchFriend.check",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e40f858268d2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0c50be517b73",
+      "DRAFT_2d05f3eb56b7",
+      "DRAFT_37eceb915774",
+      "DRAFT_deebc9cbbdbc",
+      "DRAFT_2e050d88b6ec",
+      "DRAFT_e40f858268d2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

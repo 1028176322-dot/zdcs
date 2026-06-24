@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uigvg_gather_building",
+  "displayName": "uigvg_gather_building",
+  "drafts": {
+    "DRAFT_b13c4a83dae4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Top/ShareBtn",
+      "nodeName": "ShareBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_Btn_Common_Share",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "Share按钮",
+      "chineseDescription": "UIGVGGatherBuilding的Share按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingShare按钮",
+      "suggestedTestId": "UIGVGGatherBuilding.ShareBtn",
+      "suggestedSemanticId": "UIGVGGatherBuilding.Share按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b13c4a83dae4"
+    },
+    "DRAFT_21cd649cdf0c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Top/StarBtn",
+      "nodeName": "StarBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_Btn_Common_star",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "Star按钮",
+      "chineseDescription": "UIGVGGatherBuilding的Star按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingStar按钮",
+      "suggestedTestId": "UIGVGGatherBuilding.StarBtn",
+      "suggestedSemanticId": "UIGVGGatherBuilding.Star按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21cd649cdf0c"
+    },
+    "DRAFT_355689bf377c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Content/Gatherer/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "Headk1",
+      "chineseDescription": "UIGVGGatherBuilding的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingHeadk1",
+      "suggestedTestId": "UIGVGGatherBuilding.Head_k1",
+      "suggestedSemanticId": "UIGVGGatherBuilding.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_355689bf377c"
+    },
+    "DRAFT_d4cb5ce950e8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Button/NoPeopleGatherBtn",
+      "nodeName": "NoPeopleGatherBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "NoPeopleGather按钮",
+      "chineseDescription": "UIGVGGatherBuilding的NoPeopleGather按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingNoPeopleGather按钮",
+      "suggestedTestId": "UIGVGGatherBuilding.NoPeopleGatherBtn",
+      "suggestedSemanticId": "UIGVGGatherBuilding.NoPeopleGather按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4cb5ce950e8"
+    },
+    "DRAFT_f087f376583f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Button/EnemyOccupiedBtn",
+      "nodeName": "EnemyOccupiedBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "EnemyOccupied按钮",
+      "chineseDescription": "UIGVGGatherBuilding的EnemyOccupied按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingEnemyOccupied按钮",
+      "suggestedTestId": "UIGVGGatherBuilding.EnemyOccupiedBtn",
+      "suggestedSemanticId": "UIGVGGatherBuilding.EnemyOccupied按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f087f376583f"
+    },
+    "DRAFT_5b232904e5cf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab",
+      "prefabRoot": "UIGVGGatherBuilding",
+      "path": "UIGVGGatherBuilding/Root/BG/Button/GatherBtn",
+      "nodeName": "GatherBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "uigvg_gather_building",
+      "displayName": "Gather按钮",
+      "chineseDescription": "UIGVGGatherBuilding的Gather按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGGatherBuilding.prefab」中的UIGVGGatherBuildingGather按钮",
+      "suggestedTestId": "UIGVGGatherBuilding.GatherBtn",
+      "suggestedSemanticId": "UIGVGGatherBuilding.Gather按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5b232904e5cf"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b13c4a83dae4",
+      "DRAFT_21cd649cdf0c",
+      "DRAFT_355689bf377c",
+      "DRAFT_d4cb5ce950e8",
+      "DRAFT_f087f376583f",
+      "DRAFT_5b232904e5cf"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

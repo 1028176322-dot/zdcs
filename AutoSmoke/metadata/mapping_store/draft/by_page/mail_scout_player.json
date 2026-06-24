@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_scout_player",
+  "displayName": "mail_scout_player",
+  "drafts": {
+    "DRAFT_efa3fddf5e31": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_player.prefab",
+      "prefabRoot": "mail_scout_player",
+      "path": "mail_scout_player/sp_di/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_scout_player",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_scout_player的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_player.prefab」中的mail_scout_playerHeadk1",
+      "suggestedTestId": "mail_scout_player.Head_k1",
+      "suggestedSemanticId": "mail_scout_player.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_efa3fddf5e31"
+    },
+    "DRAFT_21bbdac35514": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_player.prefab",
+      "prefabRoot": "mail_scout_player",
+      "path": "mail_scout_player/sp_di/coordinates",
+      "nodeName": "coordinates",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_scout_player",
+      "displayName": "S99 X操作按钮",
+      "chineseDescription": "mail_scout_player的S99 X操作按钮，文字「S99 X」",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_player.prefab」中的mail_scout_playerS99 X操作按钮，含文字「S99 X」",
+      "suggestedTestId": "mail_scout_player.coordinates.S99X",
+      "suggestedSemanticId": "mail_scout_player.coordinates.S99 X",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21bbdac35514"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_efa3fddf5e31",
+      "DRAFT_21bbdac35514"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

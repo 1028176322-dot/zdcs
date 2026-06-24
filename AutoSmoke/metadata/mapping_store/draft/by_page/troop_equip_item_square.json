@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "troop_equip_item_square",
+  "displayName": "troop_equip_item_square",
+  "drafts": {
+    "DRAFT_dd99c8c4a15d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/New/TroopEquipItemSquare.prefab",
+      "prefabRoot": "TroopEquipItemSquare",
+      "path": "TroopEquipItemSquare/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "troop_equip_item_square",
+      "displayName": "ClickContent",
+      "chineseDescription": "TroopEquipItemSquare的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/New/TroopEquipItemSquare.prefab」中的TroopEquipItemSquareClickContent",
+      "suggestedTestId": "TroopEquipItemSquare.ClickContent",
+      "suggestedSemanticId": "TroopEquipItemSquare.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd99c8c4a15d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dd99c8c4a15d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "table_view",
+  "displayName": "table_view",
+  "drafts": {
+    "DRAFT_5b2192114ee8": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/TableView.prefab",
+      "prefabRoot": "TableView",
+      "path": "TableView/OptionsPanel/StartClearingButton",
+      "nodeName": "StartClearingButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button"
+      ],
+      "spriteName": "plus",
+      "clickable": true,
+      "pageId": "table_view",
+      "displayName": "StartClearing按钮",
+      "chineseDescription": "TableView的StartClearing按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/TableView.prefab」中的TableViewStartClearing按钮",
+      "suggestedTestId": "TableView.StartClearingButton",
+      "suggestedSemanticId": "TableView.StartClearing按钮",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5b2192114ee8"
+    },
+    "DRAFT_38b8dd7f47c4": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/TableView.prefab",
+      "prefabRoot": "TableView",
+      "path": "TableView/OptionsPanel/StopClearingButton",
+      "nodeName": "StopClearingButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button"
+      ],
+      "spriteName": "plus",
+      "clickable": true,
+      "pageId": "table_view",
+      "displayName": "StopClearing按钮",
+      "chineseDescription": "TableView的StopClearing按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/TableView.prefab」中的TableViewStopClearing按钮",
+      "suggestedTestId": "TableView.StopClearingButton",
+      "suggestedSemanticId": "TableView.StopClearing按钮",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_38b8dd7f47c4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5b2192114ee8",
+      "DRAFT_38b8dd7f47c4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_exchange_banner",
+  "displayName": "ui_activity_exchange_banner",
+  "drafts": {
+    "DRAFT_0373c9baa0ac": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityExchangeBanner.prefab",
+      "prefabRoot": "UIActivityExchangeBanner",
+      "path": "UIActivityExchangeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_exchange_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityExchangeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityExchangeBanner.prefab」中的UIActivityExchangeBannerInfo",
+      "suggestedTestId": "UIActivityExchangeBanner.Info",
+      "suggestedSemanticId": "UIActivityExchangeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0373c9baa0ac"
+    },
+    "DRAFT_7405ce9e9403": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityExchangeBanner.prefab",
+      "prefabRoot": "UIActivityExchangeBanner",
+      "path": "UIActivityExchangeBanner/Remind",
+      "nodeName": "Remind",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "UIMask",
+      "clickable": true,
+      "pageId": "ui_activity_exchange_banner",
+      "displayName": "Remind",
+      "chineseDescription": "UIActivityExchangeBanner的Remind",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityExchangeBanner.prefab」中的UIActivityExchangeBannerRemind",
+      "suggestedTestId": "UIActivityExchangeBanner.Remind",
+      "suggestedSemanticId": "UIActivityExchangeBanner.Remind",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7405ce9e9403"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0373c9baa0ac",
+      "DRAFT_7405ce9e9403"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

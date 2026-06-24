@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_hud_button",
+  "displayName": "main_ciry_hud_button",
+  "drafts": {
+    "DRAFT_f90ceb6e427a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHudButton.prefab",
+      "prefabRoot": "MainCiryHudButton",
+      "path": "MainCiryHudButton/CloneItem",
+      "nodeName": "CloneItem",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "MainCityOperationBtnItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "main_ciry_hud_button",
+      "displayName": "Clone项",
+      "chineseDescription": "MainCiryHudButton的Clone项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHudButton.prefab」中的MainCiryHudButtonClone项",
+      "suggestedTestId": "MainCiryHudButton.CloneItem",
+      "suggestedSemanticId": "MainCiryHudButton.Clone项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f90ceb6e427a"
+    },
+    "DRAFT_bf38bf67b378": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryHudButton.prefab",
+      "prefabRoot": "EXPORT_MainCiryHudButton",
+      "path": "EXPORT_MainCiryHudButton/CloneItem",
+      "nodeName": "CloneItem",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "MainCityOperationBtnItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "main_ciry_hud_button",
+      "displayName": "Clone项",
+      "chineseDescription": "EXPORT_MainCiryHudButton的Clone项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryHudButton.prefab」中的EXPORT_MainCiryHudButtonClone项",
+      "suggestedTestId": "EXPORT_MainCiryHudButton.CloneItem",
+      "suggestedSemanticId": "EXPORT_MainCiryHudButton.Clone项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bf38bf67b378"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f90ceb6e427a",
+      "DRAFT_bf38bf67b378"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

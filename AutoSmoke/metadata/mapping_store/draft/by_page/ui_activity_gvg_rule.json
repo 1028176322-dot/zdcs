@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_rule",
+  "displayName": "ui_activity_gvg_rule",
+  "drafts": {
+    "DRAFT_782e2298884c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab",
+      "prefabRoot": "UIActivityGVGRule",
+      "path": "UIActivityGVGRule/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_rule",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityGVGRule的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab」中的UIActivityGVGRule关闭按钮",
+      "suggestedTestId": "UIActivityGVGRule.CloseBtn",
+      "suggestedSemanticId": "UIActivityGVGRule.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_782e2298884c"
+    },
+    "DRAFT_7ec46eebf18d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab",
+      "prefabRoot": "UIActivityGVGRule",
+      "path": "UIActivityGVGRule/Root/Tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_rule",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityGVGRule的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab」中的UIActivityGVGRuletab1",
+      "suggestedTestId": "UIActivityGVGRule.tab1",
+      "suggestedSemanticId": "UIActivityGVGRule.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7ec46eebf18d"
+    },
+    "DRAFT_72d02f79b05f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab",
+      "prefabRoot": "UIActivityGVGRule",
+      "path": "UIActivityGVGRule/Root/Tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_rule",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityGVGRule的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGRule.prefab」中的UIActivityGVGRuletab2",
+      "suggestedTestId": "UIActivityGVGRule.tab2",
+      "suggestedSemanticId": "UIActivityGVGRule.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_72d02f79b05f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_782e2298884c",
+      "DRAFT_7ec46eebf18d",
+      "DRAFT_72d02f79b05f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

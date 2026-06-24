@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_easter",
+  "displayName": "ui_activity_pop_easter",
+  "drafts": {
+    "DRAFT_624d568a0c1a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Easter.prefab",
+      "prefabRoot": "UIActivityPop_Easter",
+      "path": "UIActivityPop_Easter/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_easter",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_Easter的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Easter.prefab」中的UIActivityPop_Easter项1",
+      "suggestedTestId": "UIActivityPop_Easter.Item1",
+      "suggestedSemanticId": "UIActivityPop_Easter.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_624d568a0c1a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_624d568a0c1a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

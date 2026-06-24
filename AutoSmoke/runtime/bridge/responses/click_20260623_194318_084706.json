@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_194318_084706",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T19:43:18",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6441694,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

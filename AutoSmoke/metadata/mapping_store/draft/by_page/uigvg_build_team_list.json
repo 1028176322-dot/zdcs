@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uigvg_build_team_list",
+  "displayName": "uigvg_build_team_list",
+  "drafts": {
+    "DRAFT_ee319e323a0c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab",
+      "prefabRoot": "UIGVGBuildTeamList",
+      "path": "UIGVGBuildTeamList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "uigvg_build_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGVGBuildTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab」中的UIGVGBuildTeamList关闭按钮",
+      "suggestedTestId": "UIGVGBuildTeamList.CloseBtn",
+      "suggestedSemanticId": "UIGVGBuildTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ee319e323a0c"
+    },
+    "DRAFT_0bf07812052c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab",
+      "prefabRoot": "UIGVGBuildTeamList",
+      "path": "UIGVGBuildTeamList/Root/Add/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uigvg_build_team_list",
+      "displayName": "BG",
+      "chineseDescription": "UIGVGBuildTeamList的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab」中的UIGVGBuildTeamListBG",
+      "suggestedTestId": "UIGVGBuildTeamList.BG",
+      "suggestedSemanticId": "UIGVGBuildTeamList.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0bf07812052c"
+    },
+    "DRAFT_af974d70c482": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab",
+      "prefabRoot": "UIGVGBuildTeamList",
+      "path": "UIGVGBuildTeamList/Root/RankList/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uigvg_build_team_list",
+      "displayName": "Headk1",
+      "chineseDescription": "UIGVGBuildTeamList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab」中的UIGVGBuildTeamListHeadk1",
+      "suggestedTestId": "UIGVGBuildTeamList.Head_k1",
+      "suggestedSemanticId": "UIGVGBuildTeamList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af974d70c482"
+    },
+    "DRAFT_5f9049909e7b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab",
+      "prefabRoot": "UIGVGBuildTeamList",
+      "path": "UIGVGBuildTeamList/Root/RankList/Item/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "uigvg_build_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGVGBuildTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGVGBuildTeamList.prefab」中的UIGVGBuildTeamList关闭按钮",
+      "suggestedTestId": "UIGVGBuildTeamList.CloseBtn",
+      "suggestedSemanticId": "UIGVGBuildTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5f9049909e7b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ee319e323a0c",
+      "DRAFT_0bf07812052c",
+      "DRAFT_af974d70c482",
+      "DRAFT_5f9049909e7b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

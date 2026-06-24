@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "troop_equip_intensify_tip_ui",
+  "displayName": "troop_equip_intensify_tip_ui",
+  "drafts": {
+    "DRAFT_c54be02a9f10": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopEquip/TroopEquipIntensifyTipUI.prefab",
+      "prefabRoot": "TroopEquipIntensifyTipUI",
+      "path": "TroopEquipIntensifyTipUI/Root/Content/touch",
+      "nodeName": "touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "tc_bg",
+      "clickable": true,
+      "pageId": "troop_equip_intensify_tip_ui",
+      "displayName": "touch",
+      "chineseDescription": "TroopEquipIntensifyTipUI的touch",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopEquip/TroopEquipIntensifyTipUI.prefab」中的TroopEquipIntensifyTipUItouch",
+      "suggestedTestId": "TroopEquipIntensifyTipUI.touch",
+      "suggestedSemanticId": "TroopEquipIntensifyTipUI.touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c54be02a9f10"
+    },
+    "DRAFT_77998933d82e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopEquip/EXPORT_TroopEquipIntensifyTipUI.prefab",
+      "prefabRoot": "EXPORT_TroopEquipIntensifyTipUI",
+      "path": "EXPORT_TroopEquipIntensifyTipUI/Root/Content/touch",
+      "nodeName": "touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "tc_bg",
+      "clickable": true,
+      "pageId": "troop_equip_intensify_tip_ui",
+      "displayName": "touch",
+      "chineseDescription": "EXPORT_TroopEquipIntensifyTipUI的touch",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopEquip/EXPORT_TroopEquipIntensifyTipUI.prefab」中的EXPORT_TroopEquipIntensifyTipUItouch",
+      "suggestedTestId": "EXPORT_TroopEquipIntensifyTipUI.touch",
+      "suggestedSemanticId": "EXPORT_TroopEquipIntensifyTipUI.touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_77998933d82e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c54be02a9f10",
+      "DRAFT_77998933d82e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

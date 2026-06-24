@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_open_music",
+  "displayName": "ui_activity_open_music",
+  "drafts": {
+    "DRAFT_afa2984a7f98": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab",
+      "prefabRoot": "UIActivityOpen_Music",
+      "path": "UIActivityOpen_Music/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_open_music",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityOpen_Music的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab」中的UIActivityOpen_MusicGo按钮",
+      "suggestedTestId": "UIActivityOpen_Music.GoBtn",
+      "suggestedSemanticId": "UIActivityOpen_Music.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_afa2984a7f98"
+    },
+    "DRAFT_58f5b50c8c21": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab",
+      "prefabRoot": "UIActivityOpen_Music",
+      "path": "UIActivityOpen_Music/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_open_music",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityOpen_Music的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab」中的UIActivityOpen_Music关闭按钮",
+      "suggestedTestId": "UIActivityOpen_Music.CloseBtn",
+      "suggestedSemanticId": "UIActivityOpen_Music.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_58f5b50c8c21"
+    },
+    "DRAFT_8df6ffedbc58": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab",
+      "prefabRoot": "UIActivityOpen_Music",
+      "path": "UIActivityOpen_Music/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_open_music",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityOpen_Music的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Music.prefab」中的UIActivityOpen_Music项1",
+      "suggestedTestId": "UIActivityOpen_Music.Item1",
+      "suggestedSemanticId": "UIActivityOpen_Music.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8df6ffedbc58"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_afa2984a7f98",
+      "DRAFT_58f5b50c8c21",
+      "DRAFT_8df6ffedbc58"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

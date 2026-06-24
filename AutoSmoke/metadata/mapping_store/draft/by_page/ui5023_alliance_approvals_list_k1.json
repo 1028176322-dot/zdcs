@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui5023_alliance_approvals_list_k1",
+  "displayName": "ui5023_alliance_approvals_list_k1",
+  "drafts": {
+    "DRAFT_8b20f37603db": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab",
+      "prefabRoot": "UI5023AllianceApprovalsList_k1",
+      "path": "UI5023AllianceApprovalsList_k1/Animation/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui5023_alliance_approvals_list_k1",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UI5023AllianceApprovalsList_k1的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab」中的UI5023AllianceApprovalsList_k1关闭按钮",
+      "suggestedTestId": "UI5023AllianceApprovalsList_k1.CloseBtn",
+      "suggestedSemanticId": "UI5023AllianceApprovalsList_k1.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8b20f37603db"
+    },
+    "DRAFT_239353417017": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab",
+      "prefabRoot": "UI5023AllianceApprovalsList_k1",
+      "path": "UI5023AllianceApprovalsList_k1/Animation/Cont1/ScrollRect/Grid/ItemList/CH",
+      "nodeName": "CH",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_player_check_green",
+      "clickable": true,
+      "pageId": "ui5023_alliance_approvals_list_k1",
+      "displayName": "CH",
+      "chineseDescription": "UI5023AllianceApprovalsList_k1的CH",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab」中的UI5023AllianceApprovalsList_k1CH",
+      "suggestedTestId": "UI5023AllianceApprovalsList_k1.CH",
+      "suggestedSemanticId": "UI5023AllianceApprovalsList_k1.CH",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_239353417017"
+    },
+    "DRAFT_378cf7cf622e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab",
+      "prefabRoot": "UI5023AllianceApprovalsList_k1",
+      "path": "UI5023AllianceApprovalsList_k1/Animation/Cont1/ScrollRect/Grid/ItemList/Wrong",
+      "nodeName": "Wrong",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui5023_alliance_approvals_list_k1",
+      "displayName": "Wrong",
+      "chineseDescription": "UI5023AllianceApprovalsList_k1的Wrong",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab」中的UI5023AllianceApprovalsList_k1Wrong",
+      "suggestedTestId": "UI5023AllianceApprovalsList_k1.Wrong",
+      "suggestedSemanticId": "UI5023AllianceApprovalsList_k1.Wrong",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_378cf7cf622e"
+    },
+    "DRAFT_d4e9aa33418e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab",
+      "prefabRoot": "UI5023AllianceApprovalsList_k1",
+      "path": "UI5023AllianceApprovalsList_k1/Animation/Cont1/ScrollRect/Grid/ItemList/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui5023_alliance_approvals_list_k1",
+      "displayName": "Headk1",
+      "chineseDescription": "UI5023AllianceApprovalsList_k1的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UI5023AllianceApprovalsList_k1.prefab」中的UI5023AllianceApprovalsList_k1Headk1",
+      "suggestedTestId": "UI5023AllianceApprovalsList_k1.Head_k1",
+      "suggestedSemanticId": "UI5023AllianceApprovalsList_k1.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4e9aa33418e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_8b20f37603db",
+      "DRAFT_239353417017",
+      "DRAFT_378cf7cf622e",
+      "DRAFT_d4e9aa33418e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

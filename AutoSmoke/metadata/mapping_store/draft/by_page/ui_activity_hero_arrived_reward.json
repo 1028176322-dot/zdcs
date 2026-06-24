@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_hero_arrived_reward",
+  "displayName": "ui_activity_hero_arrived_reward",
+  "drafts": {
+    "DRAFT_1a800e7d946b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab",
+      "prefabRoot": "UIActivityHeroArrivedReward",
+      "path": "UIActivityHeroArrivedReward/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_hero_arrived_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityHeroArrivedReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab」中的UIActivityHeroArrivedReward关闭按钮",
+      "suggestedTestId": "UIActivityHeroArrivedReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityHeroArrivedReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1a800e7d946b"
+    },
+    "DRAFT_99cfebc877ff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab",
+      "prefabRoot": "UIActivityHeroArrivedReward",
+      "path": "UIActivityHeroArrivedReward/Root/BG/Content/Scroll/Mask/TimeChoose/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_hero_arrived_reward",
+      "displayName": "Tab1",
+      "chineseDescription": "UIActivityHeroArrivedReward的Tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab」中的UIActivityHeroArrivedRewardTab1",
+      "suggestedTestId": "UIActivityHeroArrivedReward.Tab1",
+      "suggestedSemanticId": "UIActivityHeroArrivedReward.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_99cfebc877ff"
+    },
+    "DRAFT_73ef2e1d3a9d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab",
+      "prefabRoot": "UIActivityHeroArrivedReward",
+      "path": "UIActivityHeroArrivedReward/Root/BG/Content/Scroll/Mask/TimeChoose/Tab1/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_hero_arrived_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityHeroArrivedReward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab」中的UIActivityHeroArrivedRewardClickContent",
+      "suggestedTestId": "UIActivityHeroArrivedReward.ClickContent",
+      "suggestedSemanticId": "UIActivityHeroArrivedReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_73ef2e1d3a9d"
+    },
+    "DRAFT_3122cef3c76b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab",
+      "prefabRoot": "UIActivityHeroArrivedReward",
+      "path": "UIActivityHeroArrivedReward/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_hero_arrived_reward",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityHeroArrivedReward的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityHeroArrivedReward.prefab」中的UIActivityHeroArrivedReward按钮",
+      "suggestedTestId": "UIActivityHeroArrivedReward.Btn",
+      "suggestedSemanticId": "UIActivityHeroArrivedReward.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3122cef3c76b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1a800e7d946b",
+      "DRAFT_99cfebc877ff",
+      "DRAFT_73ef2e1d3a9d",
+      "DRAFT_3122cef3c76b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

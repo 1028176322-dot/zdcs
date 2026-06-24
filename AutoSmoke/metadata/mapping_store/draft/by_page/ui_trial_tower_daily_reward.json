@@ -1,0 +1,96 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_trial_tower_daily_reward",
+  "displayName": "ui_trial_tower_daily_reward",
+  "drafts": {
+    "DRAFT_0a0658cabcec": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab",
+      "prefabRoot": "UITrialTowerDailyReward",
+      "path": "UITrialTowerDailyReward/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_trial_tower_daily_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITrialTowerDailyReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab」中的UITrialTowerDailyReward关闭按钮",
+      "suggestedTestId": "UITrialTowerDailyReward.CloseBtn",
+      "suggestedSemanticId": "UITrialTowerDailyReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0a0658cabcec"
+    },
+    "DRAFT_c9f6371b08a0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab",
+      "prefabRoot": "UITrialTowerDailyReward",
+      "path": "UITrialTowerDailyReward/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_trial_tower_daily_reward",
+      "displayName": "按钮",
+      "chineseDescription": "UITrialTowerDailyReward的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab」中的UITrialTowerDailyReward按钮",
+      "suggestedTestId": "UITrialTowerDailyReward.Btn",
+      "suggestedSemanticId": "UITrialTowerDailyReward.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c9f6371b08a0"
+    },
+    "DRAFT_31fd1c3e99d8": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab",
+      "prefabRoot": "UITrialTowerDailyReward",
+      "path": "UITrialTowerDailyReward/Root/BG/ReceivedBtn",
+      "nodeName": "ReceivedBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "button_gray",
+      "clickable": true,
+      "pageId": "ui_trial_tower_daily_reward",
+      "displayName": "Received按钮",
+      "chineseDescription": "UITrialTowerDailyReward的Received按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerDailyReward.prefab」中的UITrialTowerDailyRewardReceived按钮",
+      "suggestedTestId": "UITrialTowerDailyReward.ReceivedBtn",
+      "suggestedSemanticId": "UITrialTowerDailyReward.Received按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_31fd1c3e99d8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0a0658cabcec",
+      "DRAFT_c9f6371b08a0",
+      "DRAFT_31fd1c3e99d8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

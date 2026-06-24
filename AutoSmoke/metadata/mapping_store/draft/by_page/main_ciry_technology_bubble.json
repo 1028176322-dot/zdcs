@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_technology_bubble",
+  "displayName": "main_ciry_technology_bubble",
+  "drafts": {
+    "DRAFT_ab947b40f7a4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTechnologyBubble.prefab",
+      "prefabRoot": "MainCiryTechnologyBubble",
+      "path": "MainCiryTechnologyBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_technology_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryTechnologyBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTechnologyBubble.prefab」中的MainCiryTechnologyBubbletipsdi",
+      "suggestedTestId": "MainCiryTechnologyBubble.tips_di",
+      "suggestedSemanticId": "MainCiryTechnologyBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ab947b40f7a4"
+    },
+    "DRAFT_d58f1dfa1483": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTechnologyBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryTechnologyBubble",
+      "path": "EXPORT_MainCiryTechnologyBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_technology_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryTechnologyBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTechnologyBubble.prefab」中的EXPORT_MainCiryTechnologyBubbletipsdi",
+      "suggestedTestId": "EXPORT_MainCiryTechnologyBubble.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryTechnologyBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d58f1dfa1483"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ab947b40f7a4",
+      "DRAFT_d58f1dfa1483"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

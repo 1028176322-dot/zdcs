@@ -1,0 +1,42 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_online_reward",
+  "displayName": "export_main_city_online_reward",
+  "drafts": {
+    "DRAFT_4cc741aaf136": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityOnlineReward.prefab",
+      "prefabRoot": "EXPORT_MainCityOnlineReward",
+      "path": "EXPORT_MainCityOnlineReward/Root/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_main_city_online_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_MainCityOnlineReward的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityOnlineReward.prefab」中的EXPORT_MainCityOnlineRewardClickContent",
+      "suggestedTestId": "EXPORT_MainCityOnlineReward.ClickContent",
+      "suggestedSemanticId": "EXPORT_MainCityOnlineReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4cc741aaf136"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4cc741aaf136"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

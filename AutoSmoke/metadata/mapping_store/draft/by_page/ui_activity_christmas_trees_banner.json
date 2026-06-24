@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_banner",
+  "displayName": "ui_activity_christmas_trees_banner",
+  "drafts": {
+    "DRAFT_bf83f20cf321": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBanner.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBanner",
+      "path": "UIActivityChristmasTreesBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityChristmasTreesBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBanner.prefab」中的UIActivityChristmasTreesBannerInfo",
+      "suggestedTestId": "UIActivityChristmasTreesBanner.Info",
+      "suggestedSemanticId": "UIActivityChristmasTreesBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bf83f20cf321"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bf83f20cf321"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

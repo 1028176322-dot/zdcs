@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "common_btn_res_red",
+  "displayName": "common_btn_res_red",
+  "drafts": {
+    "DRAFT_b9777335300b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/Button/Common_Btn_Res_Red.prefab",
+      "prefabRoot": "Common_Btn_Res_Red",
+      "path": "Common_Btn_Res_Red",
+      "nodeName": "Common_Btn_Res_Red",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_red_da",
+      "clickable": true,
+      "pageId": "common_btn_res_red",
+      "displayName": "Common按钮ResRed",
+      "chineseDescription": "Common_Btn_Res_Red的Common按钮ResRed，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/Button/Common_Btn_Res_Red.prefab」中的Common_Btn_Res_RedCommon按钮ResRed",
+      "suggestedTestId": "Common_Btn_Res_Red.Common_Btn_Res_Red",
+      "suggestedSemanticId": "Common_Btn_Res_Red.Common按钮ResRed",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b9777335300b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b9777335300b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

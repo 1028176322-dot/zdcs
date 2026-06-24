@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uizvz_rule",
+  "displayName": "uizvz_rule",
+  "drafts": {
+    "DRAFT_677f0d1515e2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZRule.prefab",
+      "prefabRoot": "UIZVZRule",
+      "path": "UIZVZRule/Root/BG/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X3",
+      "clickable": true,
+      "pageId": "uizvz_rule",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIZVZRule的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZRule.prefab」中的UIZVZRule关闭按钮",
+      "suggestedTestId": "UIZVZRule.CloseBtn",
+      "suggestedSemanticId": "UIZVZRule.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_677f0d1515e2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_677f0d1515e2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

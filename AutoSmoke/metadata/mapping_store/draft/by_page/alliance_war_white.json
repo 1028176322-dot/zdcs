@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "alliance_war_white",
+  "displayName": "alliance_war_white",
+  "drafts": {
+    "DRAFT_2ffbe613488a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/AllianceWar_White.prefab",
+      "prefabRoot": "AllianceWar_White",
+      "path": "AllianceWar_White",
+      "nodeName": "AllianceWar_White",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWEmpty4Raycast",
+        "TFWUIMaskLayer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "alliance_war_white",
+      "displayName": "AllianceWarWhite",
+      "chineseDescription": "AllianceWar_White的AllianceWarWhite",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/AllianceWar_White.prefab」中的AllianceWar_WhiteAllianceWarWhite",
+      "suggestedTestId": "AllianceWar_White.AllianceWar_White",
+      "suggestedSemanticId": "AllianceWar_White.AllianceWarWhite",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2ffbe613488a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2ffbe613488a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_reward_gather",
+  "displayName": "mail_reward_gather",
+  "drafts": {
+    "DRAFT_97e6e5c5faf8": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_reward_gather.prefab",
+      "prefabRoot": "mail_reward_gather",
+      "path": "mail_reward_gather/Scroll/View/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_reward_gather",
+      "displayName": "ClickContent",
+      "chineseDescription": "mail_reward_gather的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_reward_gather.prefab」中的mail_reward_gatherClickContent",
+      "suggestedTestId": "mail_reward_gather.ClickContent",
+      "suggestedSemanticId": "mail_reward_gather.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97e6e5c5faf8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_97e6e5c5faf8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

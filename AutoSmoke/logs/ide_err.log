@@ -1,0 +1,246 @@
+E:\zdcs\AutoSmoke\autosmoke_web_ide.py:51: DeprecationWarning: The '__version__' attribute is deprecated and will be removed in Flask 3.2. Use feature detection or 'importlib.metadata.version("flask")' instead.
+  ver = getattr(pkg, "__version__", "?")
+2026-06-17 11:02:58,668 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.190:5000
+2026-06-17 11:02:58,668 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-17 11:03:02,698 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:02] "GET / HTTP/1.1" 200 -
+2026-06-17 11:03:02,946 - INFO - 虚拟屏幕偏移: (-1920, 0)
+2026-06-17 11:03:02,946 - INFO - CoordinateMapper 初始化: GV=(309,73,1012,872) GC=(185,43,517,761) GR=1170x2532 scale=(0.2838,0.2836)
+2026-06-17 11:03:02,947 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:02] "GET /api/status HTTP/1.1" 200 -
+2026-06-17 11:03:03,098 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:03] "GET /api/metadata HTTP/1.1" 200 -
+2026-06-17 11:03:03,103 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:03] "GET /api/deploy_check HTTP/1.1" 200 -
+2026-06-17 11:03:03,616 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:03,855 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:04,096 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/mapping/list HTTP/1.1" 200 -
+2026-06-17 11:03:04,096 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/mapping/drafts?keyword= HTTP/1.1" 200 -
+2026-06-17 11:03:04,100 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/report/list HTTP/1.1" 200 -
+2026-06-17 11:03:04,101 - INFO - 截取全屏...
+2026-06-17 11:03:04,101 - INFO - Unity日志采集器已启动: C:\Users\Administrator\AppData\Local\Unity\Editor\Editor.log
+2026-06-17 11:03:04,177 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/anomaly/log HTTP/1.1" 200 -
+2026-06-17 11:03:04,191 - INFO - 裁剪 GameView 面板: (309, 73, 1012, 872)
+2026-06-17 11:03:04,192 - INFO - 裁剪 gameContent 区域: (185, 43, 517, 761)
+2026-06-17 11:03:04,211 - INFO - 纯游戏内容截图已保存: E:\zdcs\AutoSmoke\screenshots\run_20260617_110304\game_content_20260617_110304.png (332x718)
+2026-06-17 11:03:04,223 - INFO - GameView 面板截图已保存: E:\zdcs\AutoSmoke\screenshots\run_20260617_110304\game_view_20260617_110304.png
+2026-06-17 11:03:04,225 - INFO - 元数据已保存: E:\zdcs\AutoSmoke\screenshots\run_20260617_110304\metadata_20260617_110304.json
+2026-06-17 11:03:04,229 - INFO - 分析 GameView 截图: 332x718, 设计分辨率: 1170x2532, 比例: 0.4621
+2026-06-17 11:03:04,230 - INFO - 第一层 - GameView 面板区域: {'left': 0, 'top': 0, 'width': 332, 'height': 718}
+2026-06-17 11:03:04,231 - INFO - 检测到工具栏高度: 7 像素
+2026-06-17 11:03:04,231 - INFO - 第二层 - 渲染容器区域: {'left': 0, 'top': 7, 'width': 332, 'height': 711}
+2026-06-17 11:03:04,231 - INFO - 按渲染区比例预计算内容区域: left=1, top=7, width=329, height=711, source=aspect_fit:height_limited
+2026-06-17 11:03:04,231 - INFO - 检测到游戏画面顶部: y=7
+2026-06-17 11:03:04,231 - INFO - contentTop 使用图像检测: y=7 (deviation=0px ≤ 8px)
+2026-06-17 11:03:04,232 - INFO - 图像检测内容水平边界: left=0, right=332, width=332
+2026-06-17 11:03:04,232 - INFO - 使用图像检测左右边界校正内容区域: left=0, right=332, width=332
+2026-06-17 11:03:04,232 - ERROR - 截图高度不足! contentTop=7, contentBottom=725 > imageHeight=718, 缺失 7px
+2026-06-17 11:03:04,232 - INFO - 第三层 - 游戏内容区域: {'left': 0, 'top': 7, 'width': 332, 'height': 718}
+2026-06-17 11:03:04,232 - INFO -   反算: contentWidth=332, contentHeight=718, contentBottom=725
+2026-06-17 11:03:04,232 - INFO - 缩放比例: scaleX=0.2838, scaleY=0.2836
+2026-06-17 11:03:04,234 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "POST /api/relocate HTTP/1.1" 200 -
+2026-06-17 11:03:04,414 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/case/list HTTP/1.1" 200 -
+2026-06-17 11:03:04,495 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/login/check HTTP/1.1" 200 -
+2026-06-17 11:03:04,541 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/state/diff HTTP/1.1" 200 -
+2026-06-17 11:03:04,603 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/page_graph/info HTTP/1.1" 200 -
+2026-06-17 11:03:04,606 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:04] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:03:05,066 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:05] "GET /api/ui/enhance/status HTTP/1.1" 200 -
+2026-06-17 11:03:05,070 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:05] "GET /api/unity/bridge/status HTTP/1.1" 200 -
+2026-06-17 11:03:07,966 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:07] "GET /api/anomaly/check HTTP/1.1" 200 -
+2026-06-17 11:03:10,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:10] "POST /api/runtime_ui/refresh HTTP/1.1" 200 -
+2026-06-17 11:03:17,152 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:18,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:03:20,473 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:03:20,547 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:20] "POST /api/mapping/runtime_match HTTP/1.1" 200 -
+2026-06-17 11:03:21,140 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:21,320 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:21] "GET /api/mapping/drafts?keyword= HTTP/1.1" 200 -
+2026-06-17 11:03:25,405 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:25,635 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:25] "GET /api/mapping/drafts?keyword= HTTP/1.1" 200 -
+2026-06-17 11:03:33,105 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:03:34,847 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:34,859 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:34] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/LeftDown/LeftContent_1/RewardHint HTTP/1.1" 200 -
+2026-06-17 11:03:35,421 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:35,850 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:36,690 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:03:36,712 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:36] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:03:36,718 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:36] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110335_highlight.png?t=1781665416715 HTTP/1.1" 200 -
+2026-06-17 11:03:45,380 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:45,391 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:45] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/BurialRoot/Icon_bg HTTP/1.1" 200 -
+2026-06-17 11:03:47,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:03:49,317 - INFO - 截图请求已写入: C:\Users\Administrator\.autosmoke\capture_request.json
+2026-06-17 11:03:49,621 - INFO - 截图完成: E:\zdcs\AutoSmoke\screenshots\run_20260617_110349\cap_20260617_110349.png
+2026-06-17 11:03:49,621 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:49] "GET /api/capture HTTP/1.1" 200 -
+2026-06-17 11:03:49,624 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:49] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_110349\\cap_20260617_110349.png?t=1781665429623 HTTP/1.1" 200 -
+2026-06-17 11:03:50,780 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:51,124 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:51,991 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:03:52,005 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:52] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:03:52,009 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:52] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110350_highlight.png?t=1781665432007 HTTP/1.1" 200 -
+2026-06-17 11:03:52,601 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:52,615 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:52] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/BurialRoot/Icon_bg HTTP/1.1" 200 -
+2026-06-17 11:03:53,179 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:53,567 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:03:54,379 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:03:54,392 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:54] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:03:54,395 - INFO - 127.0.0.1 - - [17/Jun/2026 11:03:54] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110353_highlight.png?t=1781665434393 HTTP/1.1" 200 -
+2026-06-17 11:04:03,099 - INFO - 127.0.0.1 - - [17/Jun/2026 11:04:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:04:17,789 - INFO - 127.0.0.1 - - [17/Jun/2026 11:04:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:04:33,099 - INFO - 127.0.0.1 - - [17/Jun/2026 11:04:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:04:47,786 - INFO - 127.0.0.1 - - [17/Jun/2026 11:04:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:05:03,106 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:05:17,786 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:05:33,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:05:47,793 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:05:55,173 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:05:55,183 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:55] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_ArtifactParts/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:05:56,281 - INFO - 截图请求已写入: C:\Users\Administrator\.autosmoke\capture_request.json
+2026-06-17 11:05:56,585 - INFO - 截图完成: E:\zdcs\AutoSmoke\screenshots\run_20260617_110556\cap_20260617_110556.png
+2026-06-17 11:05:56,585 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:56] "GET /api/capture HTTP/1.1" 200 -
+2026-06-17 11:05:56,890 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:56] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_110556\\cap_20260617_110556.png?t=1781665556587 HTTP/1.1" 200 -
+2026-06-17 11:05:57,412 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:05:57,791 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:05:58,583 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:05:58,596 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:58] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:05:58,599 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:58] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110557_highlight.png?t=1781665558597 HTTP/1.1" 200 -
+2026-06-17 11:05:59,166 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:05:59,176 - INFO - 127.0.0.1 - - [17/Jun/2026 11:05:59] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_ArtifactParts/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:05:59,731 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:00,103 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:00,879 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:06:00,895 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:00] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:06:00,899 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:00] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110559_highlight.png?t=1781665560897 HTTP/1.1" 200 -
+2026-06-17 11:06:02,567 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:02,577 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:02] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_TroopEquip/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:06:02,795 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:06:05,666 - INFO - 截图请求已写入: C:\Users\Administrator\.autosmoke\capture_request.json
+2026-06-17 11:06:05,971 - INFO - 截图完成: E:\zdcs\AutoSmoke\screenshots\run_20260617_110605\cap_20260617_110605.png
+2026-06-17 11:06:05,971 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:05] "GET /api/capture HTTP/1.1" 200 -
+2026-06-17 11:06:05,973 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:05] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_110605\\cap_20260617_110605.png?t=1781665565972 HTTP/1.1" 200 -
+2026-06-17 11:06:07,044 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:07,415 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:08,204 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:06:08,216 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:08] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:06:08,220 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:08] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110607_highlight.png?t=1781665568217 HTTP/1.1" 200 -
+2026-06-17 11:06:08,785 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:08,796 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:08] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_TroopEquip/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:06:09,371 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:09,714 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:06:10,528 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:06:10,541 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:10] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:06:10,544 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:10] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_110609_highlight.png?t=1781665570543 HTTP/1.1" 200 -
+2026-06-17 11:06:18,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:06:32,783 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:06:48,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:06:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:07:02,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:07:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:07:18,093 - INFO - 127.0.0.1 - - [17/Jun/2026 11:07:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:07:32,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:07:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:07:48,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:07:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:08:02,797 - INFO - 127.0.0.1 - - [17/Jun/2026 11:08:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:08:18,104 - INFO - 127.0.0.1 - - [17/Jun/2026 11:08:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:08:32,784 - INFO - 127.0.0.1 - - [17/Jun/2026 11:08:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:08:48,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:08:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:09:02,797 - INFO - 127.0.0.1 - - [17/Jun/2026 11:09:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:09:18,098 - INFO - 127.0.0.1 - - [17/Jun/2026 11:09:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:09:32,795 - INFO - 127.0.0.1 - - [17/Jun/2026 11:09:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:09:48,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:09:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:10:02,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:10:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:10:18,094 - INFO - 127.0.0.1 - - [17/Jun/2026 11:10:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:10:32,787 - INFO - 127.0.0.1 - - [17/Jun/2026 11:10:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:10:48,094 - INFO - 127.0.0.1 - - [17/Jun/2026 11:10:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:11:02,787 - INFO - 127.0.0.1 - - [17/Jun/2026 11:11:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:11:18,107 - INFO - 127.0.0.1 - - [17/Jun/2026 11:11:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:11:32,797 - INFO - 127.0.0.1 - - [17/Jun/2026 11:11:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:11:48,108 - INFO - 127.0.0.1 - - [17/Jun/2026 11:11:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:12:02,791 - INFO - 127.0.0.1 - - [17/Jun/2026 11:12:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:12:18,088 - INFO - 127.0.0.1 - - [17/Jun/2026 11:12:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:12:32,792 - INFO - 127.0.0.1 - - [17/Jun/2026 11:12:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:12:48,098 - INFO - 127.0.0.1 - - [17/Jun/2026 11:12:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:13:02,789 - INFO - 127.0.0.1 - - [17/Jun/2026 11:13:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:13:18,093 - INFO - 127.0.0.1 - - [17/Jun/2026 11:13:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:13:32,794 - INFO - 127.0.0.1 - - [17/Jun/2026 11:13:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:13:48,100 - INFO - 127.0.0.1 - - [17/Jun/2026 11:13:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:14:02,789 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:02] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:14:18,096 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:14:32,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:32] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:14:48,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:14:57,336 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:14:57,347 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:57] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_HeroEquip/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:14:58,511 - INFO - 截图请求已写入: C:\Users\Administrator\.autosmoke\capture_request.json
+2026-06-17 11:14:58,816 - INFO - 截图完成: E:\zdcs\AutoSmoke\screenshots\run_20260617_111458\cap_20260617_111458.png
+2026-06-17 11:14:58,816 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:58] "GET /api/capture HTTP/1.1" 200 -
+2026-06-17 11:14:58,820 - INFO - 127.0.0.1 - - [17/Jun/2026 11:14:58] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_111458\\cap_20260617_111458.png?t=1781666098819 HTTP/1.1" 200 -
+2026-06-17 11:14:59,912 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:00,312 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:01,285 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:15:01,298 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:01] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:15:01,302 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:01] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_111459_highlight.png?t=1781666101300 HTTP/1.1" 200 -
+2026-06-17 11:15:01,935 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:01,950 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:01] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_HeroEquip/UsedBtn HTTP/1.1" 200 -
+2026-06-17 11:15:02,566 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:03,021 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:15:03,030 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:03,874 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:15:03,887 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:03] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:15:04,199 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:04] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_111502_highlight.png?t=1781666103889 HTTP/1.1" 200 -
+2026-06-17 11:15:17,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:15:33,087 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:15:39,271 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:39,281 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:39] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/LeftDown/LeftContent_1/RewardHint HTTP/1.1" 200 -
+2026-06-17 11:15:39,885 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:40,248 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:41,152 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:15:41,164 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:41] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:15:41,167 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:41] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_111539_highlight.png?t=1781666141166 HTTP/1.1" 200 -
+2026-06-17 11:15:42,088 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:42,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:42] "GET /api/mapping/get?path=Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/LeftDown/LeftContent_1/RewardHint HTTP/1.1" 200 -
+2026-06-17 11:15:42,399 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:42,806 - INFO - 已加载 20149 个元素映射
+2026-06-17 11:15:43,702 - INFO - 已保存 20149 个元素映射
+2026-06-17 11:15:43,720 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:43] "POST /api/mapping/highlight HTTP/1.1" 200 -
+2026-06-17 11:15:44,040 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:44] "GET /api/screenshot/E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_111542_highlight.png?t=1781666143722 HTTP/1.1" 200 -
+2026-06-17 11:15:47,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:15:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:16:03,103 - INFO - 127.0.0.1 - - [17/Jun/2026 11:16:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:16:17,796 - INFO - 127.0.0.1 - - [17/Jun/2026 11:16:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:16:33,094 - INFO - 127.0.0.1 - - [17/Jun/2026 11:16:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:16:47,793 - INFO - 127.0.0.1 - - [17/Jun/2026 11:16:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:17:03,342 - INFO - 127.0.0.1 - - [17/Jun/2026 11:17:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:17:03,345 - INFO - 虚拟屏幕偏移: (-1920, 0)
+2026-06-17 11:17:03,345 - INFO - CoordinateMapper 初始化: GV=(309,73,1012,872) GC=(185,43,517,761) GR=1170x2532 scale=(0.2838,0.2836)
+2026-06-17 11:17:03,353 - INFO - 虚拟屏幕偏移: (-1920, 0)
+2026-06-17 11:17:03,353 - INFO - CoordinateMapper 初始化: GV=(309,73,1012,872) GC=(185,43,517,761) GR=1170x2532 scale=(0.2838,0.2836)
+2026-06-17 11:17:03,356 - INFO - 截图请求已写入: C:\Users\Administrator\.autosmoke\capture_request.json
+2026-06-17 11:17:03,763 - INFO - 截图完成: E:\zdcs\AutoSmoke\screenshots\run_20260617_111703\cap_20260617_111703.png
+2026-06-17 11:17:06,372 - INFO - 127.0.0.1 - - [17/Jun/2026 11:17:06] "GET /api/precheck HTTP/1.1" 200 -
+2026-06-17 11:17:17,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:17:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:17:33,100 - INFO - 127.0.0.1 - - [17/Jun/2026 11:17:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:17:47,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:17:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:18:03,099 - INFO - 127.0.0.1 - - [17/Jun/2026 11:18:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:18:17,784 - INFO - 127.0.0.1 - - [17/Jun/2026 11:18:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:18:33,108 - INFO - 127.0.0.1 - - [17/Jun/2026 11:18:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:18:47,792 - INFO - 127.0.0.1 - - [17/Jun/2026 11:18:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:19:03,099 - INFO - 127.0.0.1 - - [17/Jun/2026 11:19:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:19:17,790 - INFO - 127.0.0.1 - - [17/Jun/2026 11:19:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:19:33,110 - INFO - 127.0.0.1 - - [17/Jun/2026 11:19:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:19:47,791 - INFO - 127.0.0.1 - - [17/Jun/2026 11:19:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:20:03,104 - INFO - 127.0.0.1 - - [17/Jun/2026 11:20:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:20:17,792 - INFO - 127.0.0.1 - - [17/Jun/2026 11:20:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:20:33,098 - INFO - 127.0.0.1 - - [17/Jun/2026 11:20:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:20:47,792 - INFO - 127.0.0.1 - - [17/Jun/2026 11:20:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:21:03,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:21:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:21:17,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:21:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:21:33,105 - INFO - 127.0.0.1 - - [17/Jun/2026 11:21:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:21:47,787 - INFO - 127.0.0.1 - - [17/Jun/2026 11:21:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:22:03,099 - INFO - 127.0.0.1 - - [17/Jun/2026 11:22:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:22:17,792 - INFO - 127.0.0.1 - - [17/Jun/2026 11:22:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:22:33,139 - INFO - 127.0.0.1 - - [17/Jun/2026 11:22:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:22:47,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:22:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:23:03,105 - INFO - 127.0.0.1 - - [17/Jun/2026 11:23:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:23:17,782 - INFO - 127.0.0.1 - - [17/Jun/2026 11:23:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:23:33,102 - INFO - 127.0.0.1 - - [17/Jun/2026 11:23:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:23:47,788 - INFO - 127.0.0.1 - - [17/Jun/2026 11:23:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:24:03,100 - INFO - 127.0.0.1 - - [17/Jun/2026 11:24:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:24:17,794 - INFO - 127.0.0.1 - - [17/Jun/2026 11:24:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:24:33,095 - INFO - 127.0.0.1 - - [17/Jun/2026 11:24:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:24:47,786 - INFO - 127.0.0.1 - - [17/Jun/2026 11:24:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:25:03,106 - INFO - 127.0.0.1 - - [17/Jun/2026 11:25:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:25:17,791 - INFO - 127.0.0.1 - - [17/Jun/2026 11:25:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-17 11:25:33,090 - INFO - 127.0.0.1 - - [17/Jun/2026 11:25:33] "GET /api/ide/status HTTP/1.1" 200 -

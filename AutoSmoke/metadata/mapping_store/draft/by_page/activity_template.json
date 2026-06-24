@@ -1,0 +1,42 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "activity_template",
+  "displayName": "activity_template",
+  "drafts": {
+    "DRAFT_5e9276c19e79": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/ActivityTemplate.prefab",
+      "prefabRoot": "ActivityTemplate",
+      "path": "ActivityTemplate",
+      "nodeName": "ActivityTemplate",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "activity_template",
+      "displayName": "ActivityTemplate",
+      "chineseDescription": "ActivityTemplate的ActivityTemplate",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/ActivityTemplate.prefab」中的ActivityTemplateActivityTemplate",
+      "suggestedTestId": "ActivityTemplate.ActivityTemplate",
+      "suggestedSemanticId": "ActivityTemplate.ActivityTemplate",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5e9276c19e79"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5e9276c19e79"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

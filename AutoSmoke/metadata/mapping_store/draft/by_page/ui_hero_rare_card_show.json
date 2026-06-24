@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_rare_card_show",
+  "displayName": "ui_hero_rare_card_show",
+  "drafts": {
+    "DRAFT_fbd2052c0008": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_RareCard_Show.prefab",
+      "prefabRoot": "UIHero_RareCard_Show",
+      "path": "UIHero_RareCard_Show/Root/Close_tech",
+      "nodeName": "Close_tech",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "White100",
+      "clickable": true,
+      "pageId": "ui_hero_rare_card_show",
+      "displayName": "关闭tech",
+      "chineseDescription": "UIHero_RareCard_Show的关闭tech，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_RareCard_Show.prefab」中的UIHero_RareCard_Show关闭tech",
+      "suggestedTestId": "UIHero_RareCard_Show.Close_tech",
+      "suggestedSemanticId": "UIHero_RareCard_Show.关闭tech",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fbd2052c0008"
+    },
+    "DRAFT_8bf1d20522fd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_RareCard_Show.prefab",
+      "prefabRoot": "UIHero_RareCard_Show",
+      "path": "UIHero_RareCard_Show/Root/Content/card_bg",
+      "nodeName": "card_bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "Animation",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_rare_card_show",
+      "displayName": "cardbg",
+      "chineseDescription": "UIHero_RareCard_Show的cardbg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_RareCard_Show.prefab」中的UIHero_RareCard_Showcardbg",
+      "suggestedTestId": "UIHero_RareCard_Show.card_bg",
+      "suggestedSemanticId": "UIHero_RareCard_Show.cardbg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8bf1d20522fd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fbd2052c0008",
+      "DRAFT_8bf1d20522fd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

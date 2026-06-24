@@ -1,0 +1,370 @@
+{
+  "run_id": "20260617_181429",
+  "created_at": "2026-06-17T18:14:29",
+  "updated_at": "2026-06-17T18:26:36",
+  "stages": {
+    "evidence": {
+      "status": "completed",
+      "desc": "收集 Excel 文本、表格、图片证据",
+      "started_at": "2026-06-17T18:26:31",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\evidence_collector.py 神器界面.html",
+      "returncode": 0,
+      "output_tail": [],
+      "finished_at": "2026-06-17T18:26:31",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/evidence.json OK",
+          "evidence_count=1"
+        ]
+      }
+    },
+    "vision": {
+      "status": "completed",
+      "desc": "图片识别或生成 Agent handoff 请求",
+      "started_at": "2026-06-17T18:26:31",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\image_analyzer.py --limit 0",
+      "returncode": 0,
+      "output_tail": [
+        "[image_analyzer] done processed=0 remaining_requests=0 no_image_skip_bridge"
+      ],
+      "finished_at": "2026-06-17T18:26:31",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/evidence.json OK",
+          "evidence_count=1",
+          "image_count=0 vision_status={}"
+        ]
+      }
+    },
+    "blocks": {
+      "status": "completed",
+      "desc": "聚合 evidence 为文档块",
+      "started_at": "2026-06-17T18:26:31",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\block_builder.py",
+      "returncode": 0,
+      "output_tail": [
+        "[block_builder] blocks=1 types={'config_table': 1} status={'ready': 1}",
+        "[block_builder] output=D:\\工作助手\\输出\\神器界面功能\\DATA\\blocks.json"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/blocks.json OK",
+          "block_count=1 types={'config_table': 1} status={'ready': 1}"
+        ]
+      }
+    },
+    "facts": {
+      "status": "completed",
+      "desc": "从 evidence 提取 facts",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\fact_extractor.py",
+      "returncode": 0,
+      "output_tail": [],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/facts.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/fact_quality.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/unconverted_evidence_report.json OK"
+        ]
+      }
+    },
+    "structure": {
+      "status": "completed",
+      "desc": "构建 node / ui / flow 结构",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\structure_builder.py",
+      "returncode": 0,
+      "output_tail": [],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/nodes.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/ui.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/flows.json OK"
+        ]
+      }
+    },
+    "source_index": {
+      "status": "completed",
+      "desc": "构建 source_index.json 来源索引",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\source_index_builder.py",
+      "returncode": 0,
+      "output_tail": [
+        "[source_index_builder] written 1 entries to D:\\工作助手\\输出\\神器界面功能\\DATA\\source_index.json"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/source_index.json OK"
+        ]
+      }
+    },
+    "fact_package": {
+      "status": "completed",
+      "desc": "构建 fact_package.json 统一输出",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\fact_package_builder.py",
+      "returncode": 0,
+      "output_tail": [
+        "[fact_package_builder] written to D:\\工作助手\\输出\\神器界面功能\\DATA\\fact_package.json",
+        "[fact_package_builder] fact_entries=5",
+        "[fact_package_builder] fact_objects=5",
+        "[fact_package_builder] relation_facts=0",
+        "[fact_package_builder] source_index=1",
+        "[fact_package_builder] fact_quality=PASS"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/fact_package.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/fact_quality.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/relation_facts.json OK"
+        ]
+      }
+    },
+    "validate_new": {
+      "status": "completed",
+      "desc": "验证新产物 fact_package.json / fact_quality.json / relation_facts.json / source_index.json",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\validate_new_schemas.py --data-dir D:\\工作助手\\输出\\神器界面功能\\DATA",
+      "returncode": 0,
+      "output_tail": [
+        "",
+        "============================================================",
+        "Current DATA Schema Validation",
+        "============================================================",
+        "Status: PASS",
+        "Data: D:\\工作助手\\输出\\神器界面功能\\DATA",
+        "- fact_package.json: PASS ",
+        "- fact_quality.json: PASS ",
+        "- relation_facts.json: PASS ",
+        "- source_index.json: PASS ",
+        "Result: D:\\工作助手\\输出\\神器界面功能\\DATA\\current_data_schema_validation_result.json"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/fact_package.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/fact_quality.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/relation_facts.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/source_index.json OK",
+          "fact_package.json 验证通过：fact_entries=5, fact_objects=5, relation_facts=0, source_index=1",
+          "fact_quality.json 验证通过",
+          "relation_facts.json 验证通过：count=0",
+          "source_index.json 验证通过：count=1",
+          "当前 DATA schema 校验通过"
+        ]
+      }
+    },
+    "relation_quality_summary": {
+      "status": "completed",
+      "desc": "P1: 生成 relation_quality_summary.json 质量摘要",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\relation_quality_summary_builder.py",
+      "returncode": 0,
+      "output_tail": [
+        "[relation_quality_summary_builder] total=0 pass=0 partial=0 failed=0 ratio=1.0 admission=RELATION_BLOCKED"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "relation_quality_summary.json 验证通过: total=0, admission=RELATION_BLOCKED"
+        ]
+      }
+    },
+    "reader_contract_validate": {
+      "status": "completed",
+      "desc": "验证 Reader evidence -> fact 覆盖闭环",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\reader_contract_validator.py --workspace D:\\工作助手\\输出\\神器界面功能 --out D:\\工作助手\\输出\\神器界面功能\\DATA\\reader_contract_validation_result.json",
+      "returncode": 0,
+      "output_tail": [
+        "reader_contract_validation.status=PASS report=D:\\工作助手\\输出\\神器界面功能\\DATA\\reader_contract_validation_result.json"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "reader_contract_validation=PASS",
+          "unconverted_evidence_report=PASS"
+        ]
+      }
+    },
+    "fact_filter": {
+      "status": "completed",
+      "desc": "过滤非业务 fact，生成 fact_filter_report.json",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\fact_filter.py",
+      "returncode": 0,
+      "output_tail": [
+        "fact_filter=PASS included=2 excluded=3"
+      ],
+      "finished_at": "2026-06-17T18:26:32",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/fact_filter_report.json OK",
+          "fact_filter=PASS included=2 excluded=3"
+        ]
+      }
+    },
+    "business_semantic_plan": {
+      "status": "completed",
+      "desc": "AI 生成结构化业务模型 structured_business_model.json",
+      "started_at": "2026-06-17T18:26:32",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\business_semantic_planner.py",
+      "returncode": 0,
+      "output_tail": [
+        "business_semantic_plan=PASS parts=1 flows=1 configs=1 exceptions=0 questions=0 wiki_evidence=EMPTY"
+      ],
+      "finished_at": "2026-06-17T18:26:35",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/structured_business_model.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/07_wiki_evidence_package.json OK",
+          "structured_business_model=PASS flows=1 configs=1 questions=0",
+          "wiki_evidence=EMPTY evidence_count=0"
+        ]
+      }
+    },
+    "business_model_validate": {
+      "status": "completed",
+      "desc": "验证结构化业务模型的证据、推理边界和阶段归属",
+      "started_at": "2026-06-17T18:26:35",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\business_model_validator.py",
+      "returncode": 0,
+      "output_tail": [
+        "business_model_validation=PASS delivery_grade=QA_READY summary={'PASS': 43, 'WARN': 0, 'FAIL': 0}"
+      ],
+      "finished_at": "2026-06-17T18:26:35",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_model_validation.json OK",
+          "business_model_validation=PASS delivery_grade=QA_READY"
+        ]
+      }
+    },
+    "business_reading_render": {
+      "status": "completed",
+      "desc": "从结构化模型渲染正式业务阅读 Markdown",
+      "started_at": "2026-06-17T18:26:35",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\business_reading_renderer.py",
+      "returncode": 0,
+      "output_tail": [
+        "business_reading_render=PASS rendered_items=2"
+      ],
+      "finished_at": "2026-06-17T18:26:35",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading.md OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading_render_report.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/business_claims.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/slot_mapping.json OK",
+          "business_reading_render=PASS rendered_items=2"
+        ]
+      }
+    },
+    "business_reading_validate": {
+      "status": "completed",
+      "desc": "验证 business_reading.md 没有绕过模型",
+      "started_at": "2026-06-17T18:26:35",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\business_reading_validator.py",
+      "returncode": 0,
+      "output_tail": [
+        "business_reading_validation=PASS {'PASS': 17, 'WARN': 0, 'FAIL': 0}"
+      ],
+      "finished_at": "2026-06-17T18:26:36",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/fact_filter_report.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/structured_business_model.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_model_validation.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading_render_report.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/business_claims.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/slot_mapping.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading.md OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading_validation.json OK",
+          "business_reading=PASS rendered_items=2 validation=PASS"
+        ]
+      }
+    },
+    "business_regression_assertions": {
+      "status": "completed",
+      "desc": "执行通用样本回归断言",
+      "started_at": "2026-06-17T18:26:36",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\business_regression_assertions.py",
+      "returncode": 0,
+      "output_tail": [
+        "business_regression_assertions=SKIP matched_rule="
+      ],
+      "finished_at": "2026-06-17T18:26:36",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_regression_assertions.json OK",
+          "business_regression_assertions=SKIP matched_rule="
+        ]
+      }
+    },
+    "generic_content_guard": {
+      "status": "completed",
+      "desc": "扫描 release 可见内容通用化状态",
+      "started_at": "2026-06-17T18:26:36",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\generic_content_guard.py --root D:\\工作助手\\QA_AUTO_DocReader_V4.2 --out D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\generic_content_guard.json",
+      "returncode": 0,
+      "output_tail": [
+        "generic_content_guard.status=PASS delivery_grade=QA_READY local_private_terms_loaded=true report=D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\generic_content_guard.json"
+      ],
+      "finished_at": "2026-06-17T18:26:36",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "generic_content_guard=PASS delivery_grade=QA_READY"
+        ]
+      }
+    },
+    "validate": {
+      "status": "completed",
+      "desc": "执行 Reader + Handoff 最终交付验收",
+      "started_at": "2026-06-17T18:26:36",
+      "command": "C:\\Users\\a\\AppData\\Local\\Programs\\Python\\Python312\\python.exe D:\\工作助手\\QA_AUTO_DocReader_V4.2\\TOOLS\\validator.py",
+      "returncode": 0,
+      "output_tail": [],
+      "finished_at": "2026-06-17T18:26:36",
+      "validation": {
+        "ok": true,
+        "messages": [
+          "D:/工作助手/输出/神器界面功能/DATA/pipeline_state.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/fact_package.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/source_index.json OK",
+          "D:/工作助手/输出/神器界面功能/DATA/relation_quality_summary.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/fact_filter_report.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/structured_business_model.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_model_validation.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading_render_report.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/business_claims.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/legacy_debug/slot_mapping.json OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading.md OK",
+          "D:/工作助手/输出/神器界面功能/HANDOFF_OUTPUT/business_reading_validation.json OK",
+          "business_reading=PASS rendered_items=2 validation=PASS"
+        ]
+      }
+    }
+  }
+}

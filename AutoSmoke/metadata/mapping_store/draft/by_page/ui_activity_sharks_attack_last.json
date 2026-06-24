@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_sharks_attack_last",
+  "displayName": "ui_activity_sharks_attack_last",
+  "drafts": {
+    "DRAFT_3983acf57114": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackLast.prefab",
+      "prefabRoot": "UIActivitySharksAttackLast",
+      "path": "UIActivitySharksAttackLast/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_last",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivitySharksAttackLast的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackLast.prefab」中的UIActivitySharksAttackLast关闭按钮",
+      "suggestedTestId": "UIActivitySharksAttackLast.CloseBtn",
+      "suggestedSemanticId": "UIActivitySharksAttackLast.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3983acf57114"
+    },
+    "DRAFT_87a00d0b2f03": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackLast.prefab",
+      "prefabRoot": "UIActivitySharksAttackLast",
+      "path": "UIActivitySharksAttackLast/Root/BG/Rank/Bg/Scroll/View/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_last",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivitySharksAttackLast的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackLast.prefab」中的UIActivitySharksAttackLastHeadk1",
+      "suggestedTestId": "UIActivitySharksAttackLast.Head_k1",
+      "suggestedSemanticId": "UIActivitySharksAttackLast.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_87a00d0b2f03"
+    },
+    "DRAFT_6765f1b5fdbc": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackLast.prefab",
+      "prefabRoot": "EXPORT_UIActivitySharksAttackLast",
+      "path": "EXPORT_UIActivitySharksAttackLast/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_last",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivitySharksAttackLast的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackLast.prefab」中的EXPORT_UIActivitySharksAttackLast关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivitySharksAttackLast.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivitySharksAttackLast.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6765f1b5fdbc"
+    },
+    "DRAFT_1d3b091cce86": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackLast.prefab",
+      "prefabRoot": "EXPORT_UIActivitySharksAttackLast",
+      "path": "EXPORT_UIActivitySharksAttackLast/Root/BG/Rank/Bg/Scroll/View/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_last",
+      "displayName": "Headk1",
+      "chineseDescription": "EXPORT_UIActivitySharksAttackLast的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackLast.prefab」中的EXPORT_UIActivitySharksAttackLastHeadk1",
+      "suggestedTestId": "EXPORT_UIActivitySharksAttackLast.Head_k1",
+      "suggestedSemanticId": "EXPORT_UIActivitySharksAttackLast.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d3b091cce86"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3983acf57114",
+      "DRAFT_87a00d0b2f03",
+      "DRAFT_6765f1b5fdbc",
+      "DRAFT_1d3b091cce86"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

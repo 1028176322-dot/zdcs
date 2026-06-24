@@ -1,0 +1,68 @@
+{
+  "testId": "bag.food.source_button",
+  "semanticId": "bag.food.source_button",
+  "targetName": "背包粮食途径按钮",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_2",
+    "pageId": "bag",
+    "elementType": "item_cell"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+    "screenRect": [
+      476,
+      20,
+      693,
+      129
+    ],
+    "matchScore": "",
+    "confirmedTestId": "bag.food.source_button",
+    "formalRef": "formal://bag/bag.food.source_button",
+    "evidenceRef": "EVIDENCE_bag.food.source_button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.top_res.item_2.cell.png",
+    "screenRectUsed": [
+      476,
+      20,
+      693,
+      129
+    ],
+    "confirmedTestId": "bag.food.source_button",
+    "formalRef": "formal://bag/bag.food.source_button",
+    "evidenceRef": "EVIDENCE_bag.food.source_button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "clickResult": "OK",
+      "error": "AutoSmokeClickInjector did not write click_result.json",
+      "eventReceiverMatched": true,
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2/text",
+      "injectorResultRecovered": true,
+      "instanceId": -13430878,
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+      "screenPoint": [
+        584,
+        2457
+      ],
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2"
+    },
+    "confirmedTestId": "bag.food.source_button",
+    "formalRef": "formal://bag/bag.food.source_button",
+    "evidenceRef": "EVIDENCE_bag.food.source_button"
+  },
+  "displayName": "背包-粮食途径按钮",
+  "pageId": "bag",
+  "role": "item",
+  "elementType": "item_cell",
+  "evidenceRef": "EVIDENCE_bag.food.source_button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

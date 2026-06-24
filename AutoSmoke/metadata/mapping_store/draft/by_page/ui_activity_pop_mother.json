@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_mother",
+  "displayName": "ui_activity_pop_mother",
+  "drafts": {
+    "DRAFT_772ecdcd6832": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Mother.prefab",
+      "prefabRoot": "UIActivityPop_Mother",
+      "path": "UIActivityPop_Mother/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_mother",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_Mother的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Mother.prefab」中的UIActivityPop_Mother项1",
+      "suggestedTestId": "UIActivityPop_Mother.Item1",
+      "suggestedSemanticId": "UIActivityPop_Mother.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_772ecdcd6832"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_772ecdcd6832"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

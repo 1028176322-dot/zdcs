@@ -1,0 +1,171 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_promote",
+  "displayName": "ui_alliance_promote",
+  "drafts": {
+    "DRAFT_acdd4cd9daa9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAlliancePromote的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromote关闭按钮",
+      "suggestedTestId": "UIAlliancePromote.CloseBtn",
+      "suggestedSemanticId": "UIAlliancePromote.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_acdd4cd9daa9"
+    },
+    "DRAFT_4985b6d27d00": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/Promote/Switch",
+      "nodeName": "Switch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "Switch",
+      "chineseDescription": "UIAlliancePromote的Switch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromoteSwitch",
+      "suggestedTestId": "UIAlliancePromote.Switch",
+      "suggestedSemanticId": "UIAlliancePromote.Switch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4985b6d27d00"
+    },
+    "DRAFT_c783313c20c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/Promote/Input",
+      "nodeName": "Input",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "输入",
+      "chineseDescription": "UIAlliancePromote的输入",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromote输入",
+      "suggestedTestId": "UIAlliancePromote.Input",
+      "suggestedSemanticId": "UIAlliancePromote.输入",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c783313c20c1"
+    },
+    "DRAFT_4b6fa26769f2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/KickPlayer/Switch",
+      "nodeName": "Switch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "Switch",
+      "chineseDescription": "UIAlliancePromote的Switch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromoteSwitch",
+      "suggestedTestId": "UIAlliancePromote.Switch",
+      "suggestedSemanticId": "UIAlliancePromote.Switch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4b6fa26769f2"
+    },
+    "DRAFT_837c06b0d7b2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/KickPlayer/Time/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Image"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "Click",
+      "chineseDescription": "UIAlliancePromote的Click",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromoteClick",
+      "suggestedTestId": "UIAlliancePromote.Click",
+      "suggestedSemanticId": "UIAlliancePromote.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_837c06b0d7b2"
+    },
+    "DRAFT_b1224aac173d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab",
+      "prefabRoot": "UIAlliancePromote",
+      "path": "UIAlliancePromote/Root/BG/Btn/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_promote",
+      "displayName": "按钮",
+      "chineseDescription": "UIAlliancePromote的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePromote.prefab」中的UIAlliancePromote按钮",
+      "suggestedTestId": "UIAlliancePromote.Button",
+      "suggestedSemanticId": "UIAlliancePromote.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b1224aac173d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_acdd4cd9daa9",
+      "DRAFT_4985b6d27d00",
+      "DRAFT_c783313c20c1",
+      "DRAFT_4b6fa26769f2",
+      "DRAFT_837c06b0d7b2",
+      "DRAFT_b1224aac173d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

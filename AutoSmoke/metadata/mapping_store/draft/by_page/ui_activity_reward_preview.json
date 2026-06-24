@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_reward_preview",
+  "displayName": "ui_activity_reward_preview",
+  "drafts": {
+    "DRAFT_0416af217c7f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityRewardPreview.prefab",
+      "prefabRoot": "UIActivityRewardPreview",
+      "path": "UIActivityRewardPreview/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_reward_preview",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityRewardPreview的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityRewardPreview.prefab」中的UIActivityRewardPreview关闭按钮",
+      "suggestedTestId": "UIActivityRewardPreview.CloseBtn",
+      "suggestedSemanticId": "UIActivityRewardPreview.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0416af217c7f"
+    },
+    "DRAFT_25b91f7da749": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityRewardPreview.prefab",
+      "prefabRoot": "UIActivityRewardPreview",
+      "path": "UIActivityRewardPreview/Root/Top/UIShopItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_reward_preview",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityRewardPreview的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityRewardPreview.prefab」中的UIActivityRewardPreviewClickContent",
+      "suggestedTestId": "UIActivityRewardPreview.ClickContent",
+      "suggestedSemanticId": "UIActivityRewardPreview.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_25b91f7da749"
+    },
+    "DRAFT_17caface214a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityRewardPreview.prefab",
+      "prefabRoot": "EXPORT_UIActivityRewardPreview",
+      "path": "EXPORT_UIActivityRewardPreview/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_reward_preview",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityRewardPreview的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityRewardPreview.prefab」中的EXPORT_UIActivityRewardPreview关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityRewardPreview.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityRewardPreview.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17caface214a"
+    },
+    "DRAFT_866aacfb6069": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityRewardPreview.prefab",
+      "prefabRoot": "EXPORT_UIActivityRewardPreview",
+      "path": "EXPORT_UIActivityRewardPreview/Root/Top/UIShopItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_reward_preview",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivityRewardPreview的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityRewardPreview.prefab」中的EXPORT_UIActivityRewardPreviewClickContent",
+      "suggestedTestId": "EXPORT_UIActivityRewardPreview.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivityRewardPreview.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_866aacfb6069"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0416af217c7f",
+      "DRAFT_25b91f7da749",
+      "DRAFT_17caface214a",
+      "DRAFT_866aacfb6069"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

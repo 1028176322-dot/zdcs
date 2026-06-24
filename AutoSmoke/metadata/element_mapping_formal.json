@@ -1,0 +1,1901 @@
+{
+  "schema_version": "element_mapping_formal.v1",
+  "feature_name": "AutoSmoke",
+  "exported_at": "2026-06-24T11:40:49",
+  "mappings": {
+    "bag.prop_item.click_area": {
+      "testId": "bag.prop_item.click_area",
+      "semanticId": "bag.prop_item.click_area",
+      "targetName": "背包道具点击区",
+      "displayName": "背包-道具点击区",
+      "chineseDescription": "背包界面中可点击的道具格子集合",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "locator": {
+        "type": "dynamicList",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content"
+      },
+      "collection": {
+        "type": "dynamic_list",
+        "collectionId": "collection.bag.prop_item.click_area",
+        "containerPath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content",
+        "itemPattern": "Item(Clone)/PropItem_{index}/ClickContent",
+        "semanticPattern": "bag.prop_item_{index}.click_area",
+        "targetNamePattern": "背包第{index}个道具点击区",
+        "indexBase": 1,
+        "visibleInstanceCount": 4,
+        "visibleIndices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "visibleRuntimePaths": [
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent"
+        ],
+        "requiresScrollForMissingIndex": true
+      },
+      "reviewStatus": "template",
+      "source": "dynamic_collection_generated",
+      "exportedAt": "2026-06-18T15:01:26",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content",
+      "revalidateDeltaPx": null,
+      "evidenceRef": "EVIDENCE_bag.prop_item.click_area"
+    },
+    "bag.equipment.tab.button": {
+      "testId": "bag.equipment.tab.button",
+      "semanticId": "bag.equipment.tab.button",
+      "targetName": "背包装备页签按钮",
+      "displayName": "背包-装备页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/4",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            936,
+            152,
+            1153,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/4",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+            "instanceId": -13432664,
+            "nodeName": "4",
+            "text": "",
+            "screenRect": [
+              940,
+              172,
+              1148,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.equipment.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:46:10",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-18T16:46:10",
+      "semanticSyncedBy": "target_workbench",
+      "revalidateStatus": "ok",
+      "semanticMigratedAt": "2026-06-18T16:53:47"
+    },
+    "bag.gold.source_button": {
+      "testId": "bag.gold.source_button",
+      "semanticId": "bag.gold.source_button",
+      "targetName": "背包金币途径按钮",
+      "displayName": "背包-金币途径按钮",
+      "chineseDescription": "背包界面的金币途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "text",
+          "value": ""
+        },
+        {
+          "type": "screenRect",
+          "value": []
+        }
+      ],
+      "reviewStatus": "manual",
+      "source": "manual_corrected",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_1",
+      "revalidateDeltaPx": null,
+      "evidenceRef": "EVIDENCE_bag.gold.source_button",
+      "globalScope": "top_bar",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.food.source_button": {
+      "testId": "bag.food.source_button",
+      "semanticId": "bag.food.source_button",
+      "targetName": "背包粮食途径按钮",
+      "displayName": "背包-粮食途径按钮",
+      "pageId": "bag",
+      "role": "item",
+      "elementType": "item_cell",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_2",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            476,
+            20,
+            693,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_2",
+            "nodeName": "ResItem_2",
+            "text": "",
+            "screenRect": [
+              476,
+              20,
+              693,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.food.source_button",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_2",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.iron.source_button": {
+      "testId": "bag.iron.source_button",
+      "semanticId": "bag.iron.source_button",
+      "targetName": "背包铁矿途径按钮",
+      "displayName": "背包-铁矿途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_4",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            918,
+            20,
+            1134,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_4",
+            "nodeName": "ResItem_4",
+            "text": "",
+            "screenRect": [
+              918,
+              20,
+              1134,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.iron.source_button",
+      "targetNameEditedAt": "2026-06-18T12:13:36",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_4",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar"
+    },
+    "bag.wood.source_button": {
+      "testId": "bag.wood.source_button",
+      "semanticId": "bag.wood.source_button",
+      "targetName": "背包木材途径按钮",
+      "displayName": "背包-木材途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_3",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            697,
+            20,
+            914,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_3",
+            "nodeName": "ResItem_3",
+            "text": "",
+            "screenRect": [
+              697,
+              20,
+              914,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.wood.source_button",
+      "targetNameEditedAt": "2026-06-18T12:59:37",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_3",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar"
+    },
+    "bag.prop_item_1.click_area": {
+      "testId": "bag.prop_item_1.click_area",
+      "semanticId": "bag.prop_item_1.click_area",
+      "targetName": "背包第1个道具点击区",
+      "displayName": "背包-第1个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            30,
+            292,
+            290,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+            "nodeName": "PropItem_1",
+            "text": "",
+            "screenRect": [
+              30,
+              292,
+              290,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area",
+      "targetNameEditedAt": "2026-06-18T14:49:56",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第1个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_2.click_area": {
+      "testId": "bag.prop_item_2.click_area",
+      "semanticId": "bag.prop_item_2.click_area",
+      "targetName": "背包第2个道具点击区",
+      "displayName": "背包-第2个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            313,
+            292,
+            573,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+            "nodeName": "PropItem_2",
+            "text": "",
+            "screenRect": [
+              313,
+              292,
+              573,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area",
+      "targetNameEditedAt": "2026-06-18T14:50:50",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第2个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_3.click_area": {
+      "testId": "bag.prop_item_3.click_area",
+      "semanticId": "bag.prop_item_3.click_area",
+      "targetName": "背包第3个道具点击区",
+      "displayName": "背包-第3个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            596,
+            292,
+            856,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+            "nodeName": "PropItem_3",
+            "text": "",
+            "screenRect": [
+              596,
+              292,
+              856,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area",
+      "targetNameEditedAt": "2026-06-18T14:50:59",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第3个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_4.click_area": {
+      "testId": "bag.prop_item_4.click_area",
+      "semanticId": "bag.prop_item_4.click_area",
+      "targetName": "背包第4个道具点击区",
+      "displayName": "背包-第4个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            878,
+            292,
+            1138,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+            "nodeName": "PropItem_4",
+            "text": "",
+            "screenRect": [
+              878,
+              292,
+              1138,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area",
+      "targetNameEditedAt": "2026-06-18T14:52:15",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.back.button": {
+      "testId": "bag.back.button",
+      "semanticId": "bag.back.button",
+      "targetName": "背包返回按钮",
+      "displayName": "背包-返回按钮",
+      "pageId": "bag",
+      "role": "back",
+      "elementType": "Button",
+      "elementPath": "UIShop/Root/BtnClose",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/BtnClose",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+            "instanceId": -13430986,
+            "nodeName": "BtnClose",
+            "text": "",
+            "screenRect": [
+              21,
+              2397,
+              131,
+              2493
+            ],
+            "pageId": "BtnClose",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.back.button",
+      "targetNameEditedAt": "2026-06-18T14:57:30",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/BtnClose",
+      "revalidateDeltaPx": null,
+      "globalScope": "navigation"
+    },
+    "bag.use.button": {
+      "testId": "bag.use.button",
+      "semanticId": "bag.use.button",
+      "targetName": "背包道具使用按钮",
+      "displayName": "背包-使用按钮",
+      "pageId": "bag",
+      "role": "use",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+            "instanceId": -13430044,
+            "nodeName": "UsedBtn",
+            "text": "",
+            "screenRect": [
+              380,
+              2376,
+              790,
+              2527
+            ],
+            "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.use.button",
+      "targetNameEditedAt": "2026-06-18T15:46:03",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.special.tab.button": {
+      "testId": "bag.special.tab.button",
+      "semanticId": "bag.special.tab.button",
+      "targetName": "背包特殊页签按钮",
+      "displayName": "背包-特殊页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/0",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            16,
+            152,
+            233,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/0",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+            "instanceId": -13426612,
+            "nodeName": "0",
+            "text": "",
+            "screenRect": [
+              16,
+              152,
+              233,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.special.tab.button",
+      "targetNameEditedAt": "2026-06-18T15:47:22",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.resource.tab.button": {
+      "testId": "bag.resource.tab.button",
+      "semanticId": "bag.resource.tab.button",
+      "targetName": "背包资源页签按钮",
+      "displayName": "背包-资源页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/1",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            246,
+            152,
+            463,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/1",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+            "instanceId": -13432406,
+            "nodeName": "1",
+            "text": "",
+            "screenRect": [
+              251,
+              172,
+              459,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.resource.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:16:22",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.speedup.tab.button": {
+      "testId": "bag.speedup.tab.button",
+      "semanticId": "bag.speedup.tab.button",
+      "targetName": "背包加速页签按钮",
+      "displayName": "背包-加速页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/2",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            476,
+            152,
+            693,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/2",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+            "instanceId": -13432492,
+            "nodeName": "2",
+            "text": "",
+            "screenRect": [
+              481,
+              172,
+              689,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.speedup.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:22:25",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.hero.tab.button": {
+      "testId": "bag.hero.tab.button",
+      "semanticId": "bag.hero.tab.button",
+      "targetName": "背包英雄页签按钮",
+      "displayName": "背包-英雄页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/3",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            706,
+            152,
+            923,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/3",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+            "instanceId": -13432578,
+            "nodeName": "3",
+            "text": "",
+            "screenRect": [
+              710,
+              172,
+              918,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.hero.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:34:11",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.player_power.text": {
+      "testId": "character_info.player_power.text",
+      "semanticId": "character_info.player_power.text",
+      "targetName": "角色信息界面玩家战力文本",
+      "displayName": "角色信息-玩家战力文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "UIHeroNew_heroList/Content/imgSoldier",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Img"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            119,
+            1153,
+            1051,
+            1466
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Img",
+            "clickTargetNode": "",
+            "instanceId": -6441350,
+            "nodeName": "Img",
+            "text": "",
+            "screenRect": [
+              119,
+              1153,
+              1051,
+              1466
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T16:39:07"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_power.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "UI_Player_1",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    "character_info.main_character_model.model": {
+      "testId": "character_info.main_character_model.model",
+      "semanticId": "character_info.main_character_model.model",
+      "targetName": "主角信息界面主角动画模型",
+      "displayName": "主角信息-主角动画模型",
+      "pageId": "character_info",
+      "role": "model",
+      "elementType": "Model",
+      "elementPath": "UIActivityMinigame/Content",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/HeroSpine"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            0,
+            457,
+            1170,
+            1730
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/HeroSpine",
+            "clickTargetNode": "",
+            "instanceId": -6441358,
+            "nodeName": "HeroSpine",
+            "text": "",
+            "screenRect": [
+              0,
+              457,
+              1170,
+              1730
+            ],
+            "pageId": "HeroSpine",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:14:25"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.main_character_model.model",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T17:18:52",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T17:18:52",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.personalization_settings.button": {
+      "testId": "character_info.personalization_settings.button",
+      "semanticId": "character_info.personalization_settings.button",
+      "targetName": "角色信息界面个性设置按钮",
+      "displayName": "角色信息-个性设置按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Info/Head",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/Head/Head_k1/Mask/Icon",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+            "instanceId": -6441524,
+            "nodeName": "Icon",
+            "text": "",
+            "screenRect": [
+              85,
+              1987,
+              280,
+              2182
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:34:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.personalization_settings.button",
+      "targetNameEditedAt": "2026-06-23T17:47:07",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T17:47:07",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.level.text": {
+      "testId": "character_info.level.text",
+      "semanticId": "character_info.level.text",
+      "targetName": "角色信息界面玩家灯塔等级文本",
+      "displayName": "角色信息-等级文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/LevelText"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            50,
+            2204,
+            320,
+            2285
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/LevelText",
+            "clickTargetNode": "",
+            "instanceId": -6441622,
+            "nodeName": "LevelText",
+            "text": "Lv:18",
+            "screenRect": [
+              50,
+              2204,
+              320,
+              2285
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:59:27"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.level.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Lv:18",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:37:09",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:37:09",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_name.text": {
+      "testId": "character_info.player_name.text",
+      "semanticId": "character_info.player_name.text",
+      "targetName": "角色信息界面玩家名称文本",
+      "displayName": "角色信息-玩家名称文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/Name",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/Name"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            378,
+            1944,
+            971,
+            2031
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/Name",
+            "clickTargetNode": "",
+            "instanceId": -6441586,
+            "nodeName": "Name",
+            "text": "Player205",
+            "screenRect": [
+              378,
+              1944,
+              971,
+              2031
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:28:26"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_name.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Player205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:38:43",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:38:43",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.gender.text": {
+      "testId": "character_info.gender.text",
+      "semanticId": "character_info.gender.text",
+      "targetName": "角色信息界面性别文本",
+      "displayName": "角色信息-性别文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/TxtSex"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            354,
+            2098,
+            513,
+            2172
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/TxtSex",
+            "clickTargetNode": "",
+            "instanceId": -6441660,
+            "nodeName": "TxtSex",
+            "text": "性别：",
+            "screenRect": [
+              354,
+              2098,
+              513,
+              2172
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:43:32"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.gender.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "性别：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:53:02",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:53:02",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.gender.button": {
+      "testId": "character_info.gender.button",
+      "semanticId": "character_info.gender.button",
+      "targetName": "角色信息界面性别图标按钮",
+      "displayName": "角色信息-性别按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/TxtSex/man_button",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+            "instanceId": -6441670,
+            "nodeName": "man_button",
+            "text": "",
+            "screenRect": [
+              528,
+              2116,
+              559,
+              2164
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:54:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.gender.button",
+      "targetNameEditedAt": "2026-06-23T18:55:13",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:55:13",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_rename.button": {
+      "testId": "character_info.player_rename.button",
+      "semanticId": "character_info.player_rename.button",
+      "targetName": "角色信息界面玩家改名按钮",
+      "displayName": "角色信息-玩家改名按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/RenameBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+            "instanceId": -6441694,
+            "nodeName": "RenameBtn",
+            "text": "",
+            "screenRect": [
+              1009,
+              1948,
+              1103,
+              2042
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:54:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.player_rename.button",
+      "targetNameEditedAt": "2026-06-23T19:50:13",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T19:50:13",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.power.icon": {
+      "testId": "character_info.power.icon",
+      "semanticId": "character_info.power.icon",
+      "targetName": "角色信息界面战力图标",
+      "displayName": "角色信息-战力图标",
+      "pageId": "character_info",
+      "role": "icon",
+      "elementType": "Icon",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Left/Damage/Icon"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            345,
+            1383,
+            443,
+            1481
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Left/Damage/Icon",
+            "clickTargetNode": "",
+            "instanceId": -6771026,
+            "nodeName": "Icon",
+            "text": "",
+            "screenRect": [
+              345,
+              1383,
+              443,
+              1481
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.power.icon",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "3_common_fighting_bg_1",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T19:57:51",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T19:57:51",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_server_id.text": {
+      "testId": "character_info.player_server_id.text",
+      "semanticId": "character_info.player_server_id.text",
+      "targetName": "角色信息界面玩家所在服务器ID文本",
+      "displayName": "角色信息-玩家所在服务器ID文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/ServerMSG",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/ServerMSG"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            53,
+            1797,
+            394,
+            1880
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/ServerMSG",
+            "clickTargetNode": "",
+            "instanceId": -6770920,
+            "nodeName": "ServerMSG",
+            "text": "",
+            "screenRect": [
+              53,
+              1797,
+              394,
+              1880
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_server_id.text",
+      "targetNameEditedAt": "2026-06-23T20:07:50",
+      "targetNameEditedBy": "target_workbench_repair",
+      "semanticSyncedAt": "2026-06-23T20:07:50",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.id_label.text": {
+      "testId": "character_info.id_label.text",
+      "semanticId": "character_info.id_label.text",
+      "targetName": "角色信息界面ID标题文本",
+      "displayName": "角色信息-ID标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/ID/IDTitle"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            353,
+            2040,
+            455,
+            2114
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/IDTitle",
+            "clickTargetNode": "",
+            "instanceId": -6771198,
+            "nodeName": "IDTitle",
+            "text": "ID：",
+            "screenRect": [
+              353,
+              2040,
+              455,
+              2114
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.id_label.text",
+      "targetNameEditedAt": "2026-06-23T20:07:50",
+      "targetNameEditedBy": "target_workbench_repair",
+      "semanticSyncedAt": "2026-06-23T20:07:50",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.id.text": {
+      "testId": "character_info.id.text",
+      "semanticId": "character_info.id.text",
+      "targetName": "角色信息界面玩家角色id文本",
+      "displayName": "角色信息-玩家角色id文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/ID/IDTitle/ID"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            484,
+            2040,
+            574,
+            2114
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/IDTitle/ID",
+            "clickTargetNode": "",
+            "instanceId": -6771210,
+            "nodeName": "ID",
+            "text": "205",
+            "screenRect": [
+              484,
+              2040,
+              574,
+              2114
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.id.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:27:34",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:27:34",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.id.button": {
+      "testId": "character_info.id.button",
+      "semanticId": "character_info.id.button",
+      "targetName": "角色信息界面玩家id复制按钮",
+      "displayName": "角色信息-玩家角色id按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/CopyBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+            "instanceId": -6771242,
+            "nodeName": "CopyBtn",
+            "text": "",
+            "screenRect": [
+              1014,
+              2040,
+              1100,
+              2126
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.id.button",
+      "targetNameEditedAt": "2026-06-23T20:28:57",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:28:57",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.flag.button": {
+      "testId": "character_info.flag.button",
+      "semanticId": "character_info.flag.button",
+      "targetName": "角色信息界面旗帜图标按钮",
+      "displayName": "角色信息-旗帜按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Right/Country/text/Flag",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Country/text/Flag",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+            "instanceId": -6771408,
+            "nodeName": "Flag",
+            "text": "",
+            "screenRect": [
+              542,
+              2238,
+              593,
+              2276
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.flag.button",
+      "targetNameEditedAt": "2026-06-23T20:31:01",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.ranking.button": {
+      "testId": "character_info.ranking.button",
+      "semanticId": "character_info.ranking.button",
+      "targetName": "角色信息界面排行榜按钮",
+      "displayName": "角色信息-排行榜按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/RankBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/RankBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+            "instanceId": -6771562,
+            "nodeName": "RankBtn",
+            "text": "",
+            "screenRect": [
+              200,
+              2360,
+              372,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.ranking.button",
+      "targetNameEditedAt": "2026-06-23T20:34:01",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.friend.button": {
+      "testId": "character_info.friend.button",
+      "semanticId": "character_info.friend.button",
+      "targetName": "角色信息界面好友按钮",
+      "displayName": "角色信息-好友按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/FriendBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/FriendBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+            "instanceId": -6771590,
+            "nodeName": "FriendBtn",
+            "text": "",
+            "screenRect": [
+              446,
+              2360,
+              618,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.friend.button",
+      "targetNameEditedAt": "2026-06-23T20:35:05",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.country_label.text": {
+      "testId": "character_info.country_label.text",
+      "semanticId": "character_info.country_label.text",
+      "targetName": "角色信息界面国家标题文本",
+      "displayName": "角色信息-国家标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/Country/text"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            356,
+            2214,
+            515,
+            2288
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Country/text",
+            "clickTargetNode": "",
+            "instanceId": -6771398,
+            "nodeName": "text",
+            "text": "国家：",
+            "screenRect": [
+              356,
+              2214,
+              515,
+              2288
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.country_label.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "国家：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:29:57",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T09:42:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.alliance.text": {
+      "testId": "character_info.alliance.text",
+      "semanticId": "character_info.alliance.text",
+      "targetName": "角色信息界面联盟文本",
+      "displayName": "角色信息-联盟文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/Alliance/Txt"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            357,
+            2156,
+            520,
+            2230
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Alliance/Txt",
+            "clickTargetNode": "",
+            "instanceId": -6771138,
+            "nodeName": "Txt",
+            "text": "联盟:",
+            "screenRect": [
+              357,
+              2156,
+              520,
+              2230
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.alliance.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "联盟:",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:00:25",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T09:42:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.buff.button": {
+      "testId": "character_info.buff.button",
+      "semanticId": "character_info.buff.button",
+      "targetName": "角色信息界面增益按钮",
+      "displayName": "角色信息-增益按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/BagBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+            "instanceId": -6771640,
+            "nodeName": "BagBtn",
+            "text": "",
+            "screenRect": [
+              696,
+              2360,
+              868,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-24T09:47:49"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.buff.button",
+      "targetNameEditedAt": "2026-06-24T09:49:19",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.customer_service.button": {
+      "testId": "character_info.customer_service.button",
+      "semanticId": "character_info.customer_service.button",
+      "targetName": "角色信息界面客服按钮",
+      "displayName": "角色信息-客服按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ServiceButton",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/ServiceButton",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+            "instanceId": -2852014,
+            "nodeName": "ServiceButton",
+            "text": "",
+            "screenRect": [
+              1010,
+              216,
+              1131,
+              339
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-18T17:48:02"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.customer_service.button",
+      "targetNameEditedAt": "2026-06-23T15:51:41",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "ui.skin.button": {
+      "testId": "ui.skin.button",
+      "semanticId": "ui.skin.button",
+      "targetName": "UI皮肤按钮",
+      "displayName": "UI-皮肤按钮",
+      "pageId": "ui",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/SkinBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/SkinBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+            "instanceId": -7588974,
+            "nodeName": "SkinBtn",
+            "text": "",
+            "screenRect": [
+              946,
+              2360,
+              1117,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-24T10:29:31"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_ui.skin.button"
+    }
+  }
+}

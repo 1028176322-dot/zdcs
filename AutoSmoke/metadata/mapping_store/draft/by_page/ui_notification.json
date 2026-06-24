@@ -1,0 +1,115 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_notification",
+  "displayName": "ui_notification",
+  "drafts": {
+    "DRAFT_4be961fb16d3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab",
+      "prefabRoot": "UINotification",
+      "path": "UINotification/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_notification",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UINotification的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab」中的UINotification关闭按钮",
+      "suggestedTestId": "UINotification.CloseBtn",
+      "suggestedSemanticId": "UINotification.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4be961fb16d3"
+    },
+    "DRAFT_1d1c85bb8648": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab",
+      "prefabRoot": "UINotification",
+      "path": "UINotification/Root/Scroll/Mask/Content/Item/Switch/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "ClickAudio",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_notification",
+      "displayName": "按钮",
+      "chineseDescription": "UINotification的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab」中的UINotification按钮",
+      "suggestedTestId": "UINotification.Btn",
+      "suggestedSemanticId": "UINotification.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d1c85bb8648"
+    },
+    "DRAFT_25ad3529912a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab",
+      "prefabRoot": "UINotification",
+      "path": "UINotification/Root/Scroll/Mask/Content/Item/SwitchTabs/Switch_On",
+      "nodeName": "Switch_On",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_notification",
+      "displayName": "SwitchOn",
+      "chineseDescription": "UINotification的SwitchOn",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab」中的UINotificationSwitchOn",
+      "suggestedTestId": "UINotification.Switch_On",
+      "suggestedSemanticId": "UINotification.SwitchOn",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_25ad3529912a"
+    },
+    "DRAFT_973882544cf6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab",
+      "prefabRoot": "UINotification",
+      "path": "UINotification/Root/Scroll/Mask/Content/Item/SwitchTabs/Switch_Off",
+      "nodeName": "Switch_Off",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_notification",
+      "displayName": "SwitchOff",
+      "chineseDescription": "UINotification的SwitchOff",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UINotification.prefab」中的UINotificationSwitchOff",
+      "suggestedTestId": "UINotification.Switch_Off",
+      "suggestedSemanticId": "UINotification.SwitchOff",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_973882544cf6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4be961fb16d3",
+      "DRAFT_1d1c85bb8648",
+      "DRAFT_25ad3529912a",
+      "DRAFT_973882544cf6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

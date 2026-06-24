@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "head_k1",
+  "displayName": "head_k1",
+  "drafts": {
+    "DRAFT_434fa6a92458": {
+      "assetPath": "Assets/NewGameDemo/Res/PlayerUI/Head_k1.prefab",
+      "prefabRoot": "Head_k1",
+      "path": "Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "head_k1",
+      "displayName": "Headk1",
+      "chineseDescription": "Head_k1的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/PlayerUI/Head_k1.prefab」中的Head_k1Headk1",
+      "suggestedTestId": "Head_k1.Head_k1",
+      "suggestedSemanticId": "Head_k1.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_434fa6a92458"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_434fa6a92458"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

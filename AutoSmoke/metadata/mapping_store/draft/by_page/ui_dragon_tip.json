@@ -1,0 +1,140 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_dragon_tip",
+  "displayName": "ui_dragon_tip",
+  "drafts": {
+    "DRAFT_9122dfd536cb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab",
+      "prefabRoot": "UIDragonTip",
+      "path": "UIDragonTip/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_dragon_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDragonTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab」中的UIDragonTip关闭按钮",
+      "suggestedTestId": "UIDragonTip.CloseBtn",
+      "suggestedSemanticId": "UIDragonTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9122dfd536cb"
+    },
+    "DRAFT_0b8504c331b0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab",
+      "prefabRoot": "UIDragonTip",
+      "path": "UIDragonTip/Root/Grid/Item1/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_tip",
+      "displayName": "item",
+      "chineseDescription": "UIDragonTip的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab」中的UIDragonTipitem",
+      "suggestedTestId": "UIDragonTip.item",
+      "suggestedSemanticId": "UIDragonTip.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0b8504c331b0"
+    },
+    "DRAFT_9b4171af38c0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab",
+      "prefabRoot": "UIDragonTip",
+      "path": "UIDragonTip/Root/Grid/Item2/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_tip",
+      "displayName": "item",
+      "chineseDescription": "UIDragonTip的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab」中的UIDragonTipitem",
+      "suggestedTestId": "UIDragonTip.item",
+      "suggestedSemanticId": "UIDragonTip.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9b4171af38c0"
+    },
+    "DRAFT_c9b594325a00": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab",
+      "prefabRoot": "UIDragonTip",
+      "path": "UIDragonTip/Root/Grid/Item3/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_tip",
+      "displayName": "item",
+      "chineseDescription": "UIDragonTip的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab」中的UIDragonTipitem",
+      "suggestedTestId": "UIDragonTip.item",
+      "suggestedSemanticId": "UIDragonTip.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c9b594325a00"
+    },
+    "DRAFT_2e8f777378e9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab",
+      "prefabRoot": "UIDragonTip",
+      "path": "UIDragonTip/Root/Grid/Item4/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_tip",
+      "displayName": "item",
+      "chineseDescription": "UIDragonTip的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Dragon/UIDragonTip.prefab」中的UIDragonTipitem",
+      "suggestedTestId": "UIDragonTip.item",
+      "suggestedSemanticId": "UIDragonTip.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2e8f777378e9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9122dfd536cb",
+      "DRAFT_0b8504c331b0",
+      "DRAFT_9b4171af38c0",
+      "DRAFT_c9b594325a00",
+      "DRAFT_2e8f777378e9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

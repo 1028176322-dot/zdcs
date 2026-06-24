@@ -1,0 +1,11 @@
+{
+  "schema_version": "generic_content_guard.v1",
+  "generated_at": "2026-06-17T18:26:36",
+  "status": "PASS",
+  "delivery_grade": "QA_READY",
+  "local_private_terms_loaded": true,
+  "local_private_terms_count": 4,
+  "release_mode_without_private_terms": false,
+  "allow_missing_private_terms": false,
+  "hits": []
+}

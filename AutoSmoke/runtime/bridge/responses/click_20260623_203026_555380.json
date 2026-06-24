@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_203026_555380",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T20:30:26",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6771408,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

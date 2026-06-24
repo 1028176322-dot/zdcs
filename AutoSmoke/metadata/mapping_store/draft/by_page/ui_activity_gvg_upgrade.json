@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_upgrade",
+  "displayName": "ui_activity_gvg_upgrade",
+  "drafts": {
+    "DRAFT_1e594bcc6651": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGUpgrade.prefab",
+      "prefabRoot": "UIActivityGVGUpgrade",
+      "path": "UIActivityGVGUpgrade/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_upgrade",
+      "displayName": "Touch",
+      "chineseDescription": "UIActivityGVGUpgrade的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGUpgrade.prefab」中的UIActivityGVGUpgradeTouch",
+      "suggestedTestId": "UIActivityGVGUpgrade.Touch",
+      "suggestedSemanticId": "UIActivityGVGUpgrade.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e594bcc6651"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1e594bcc6651"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

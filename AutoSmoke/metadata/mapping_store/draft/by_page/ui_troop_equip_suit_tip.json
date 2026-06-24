@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_equip_suit_tip",
+  "displayName": "ui_troop_equip_suit_tip",
+  "drafts": {
+    "DRAFT_2651d2f1c807": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_TroopEquipSuitTip.prefab",
+      "prefabRoot": "Ui_TroopEquipSuitTip",
+      "path": "Ui_TroopEquipSuitTip/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_equip_suit_tip",
+      "displayName": "Touch",
+      "chineseDescription": "Ui_TroopEquipSuitTip的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_TroopEquipSuitTip.prefab」中的Ui_TroopEquipSuitTipTouch",
+      "suggestedTestId": "Ui_TroopEquipSuitTip.Touch",
+      "suggestedSemanticId": "Ui_TroopEquipSuitTip.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2651d2f1c807"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2651d2f1c807"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_bubble_tip_new",
+  "displayName": "ui_bubble_tip_new",
+  "drafts": {
+    "DRAFT_0c102c2aa099": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab",
+      "prefabRoot": "Ui_BubbleTipNew",
+      "path": "Ui_BubbleTipNew/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip_new",
+      "displayName": "Touch",
+      "chineseDescription": "Ui_BubbleTipNew的Touch",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab」中的Ui_BubbleTipNewTouch",
+      "suggestedTestId": "Ui_BubbleTipNew.Touch",
+      "suggestedSemanticId": "Ui_BubbleTipNew.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0c102c2aa099"
+    },
+    "DRAFT_54e9fac1efb7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab",
+      "prefabRoot": "Ui_BubbleTipNew",
+      "path": "Ui_BubbleTipNew/Touch/0/SpecialList/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip_new",
+      "displayName": "项",
+      "chineseDescription": "Ui_BubbleTipNew的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab」中的Ui_BubbleTipNew项",
+      "suggestedTestId": "Ui_BubbleTipNew.Item",
+      "suggestedSemanticId": "Ui_BubbleTipNew.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_54e9fac1efb7"
+    },
+    "DRAFT_89639069bb05": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab",
+      "prefabRoot": "Ui_BubbleTipNew",
+      "path": "Ui_BubbleTipNew/Touch/0/ItemList/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip_new",
+      "displayName": "项",
+      "chineseDescription": "Ui_BubbleTipNew的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab」中的Ui_BubbleTipNew项",
+      "suggestedTestId": "Ui_BubbleTipNew.Item",
+      "suggestedSemanticId": "Ui_BubbleTipNew.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_89639069bb05"
+    },
+    "DRAFT_b3b204a25925": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab",
+      "prefabRoot": "Ui_BubbleTipNew",
+      "path": "Ui_BubbleTipNew/Touch/0/BtnGoto/BtnGoto",
+      "nodeName": "BtnGoto",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_bubble_tip_new",
+      "displayName": "按钮Goto",
+      "chineseDescription": "Ui_BubbleTipNew的按钮Goto，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Other/Ui_BubbleTipNew.prefab」中的Ui_BubbleTipNew按钮Goto",
+      "suggestedTestId": "Ui_BubbleTipNew.BtnGoto",
+      "suggestedSemanticId": "Ui_BubbleTipNew.按钮Goto",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b3b204a25925"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0c102c2aa099",
+      "DRAFT_54e9fac1efb7",
+      "DRAFT_89639069bb05",
+      "DRAFT_b3b204a25925"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

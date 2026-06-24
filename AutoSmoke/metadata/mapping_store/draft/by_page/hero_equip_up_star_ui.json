@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_equip_up_star_ui",
+  "displayName": "hero_equip_up_star_ui",
+  "drafts": {
+    "DRAFT_230f29901677": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipUpStarUI.prefab",
+      "prefabRoot": "HeroEquipUpStarUI",
+      "path": "HeroEquipUpStarUI/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "hero_equip_up_star_ui",
+      "displayName": "BG",
+      "chineseDescription": "HeroEquipUpStarUI的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipUpStarUI.prefab」中的HeroEquipUpStarUIBG",
+      "suggestedTestId": "HeroEquipUpStarUI.BG",
+      "suggestedSemanticId": "HeroEquipUpStarUI.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_230f29901677"
+    },
+    "DRAFT_e1370b95478f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipUpStarUI.prefab",
+      "prefabRoot": "HeroEquipUpStarUI",
+      "path": "HeroEquipUpStarUI/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "hero_equip_up_star_ui",
+      "displayName": "Click",
+      "chineseDescription": "HeroEquipUpStarUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipUpStarUI.prefab」中的HeroEquipUpStarUIClick",
+      "suggestedTestId": "HeroEquipUpStarUI.Click",
+      "suggestedSemanticId": "HeroEquipUpStarUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e1370b95478f"
+    },
+    "DRAFT_b9dade4378c3": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroEquip/EXPORT_HeroEquipUpStarUI.prefab",
+      "prefabRoot": "EXPORT_HeroEquipUpStarUI",
+      "path": "EXPORT_HeroEquipUpStarUI/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "hero_equip_up_star_ui",
+      "displayName": "BG",
+      "chineseDescription": "EXPORT_HeroEquipUpStarUI的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroEquip/EXPORT_HeroEquipUpStarUI.prefab」中的EXPORT_HeroEquipUpStarUIBG",
+      "suggestedTestId": "EXPORT_HeroEquipUpStarUI.BG",
+      "suggestedSemanticId": "EXPORT_HeroEquipUpStarUI.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b9dade4378c3"
+    },
+    "DRAFT_1cf72b8250c2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroEquip/EXPORT_HeroEquipUpStarUI.prefab",
+      "prefabRoot": "EXPORT_HeroEquipUpStarUI",
+      "path": "EXPORT_HeroEquipUpStarUI/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "hero_equip_up_star_ui",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_HeroEquipUpStarUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroEquip/EXPORT_HeroEquipUpStarUI.prefab」中的EXPORT_HeroEquipUpStarUIClick",
+      "suggestedTestId": "EXPORT_HeroEquipUpStarUI.Click",
+      "suggestedSemanticId": "EXPORT_HeroEquipUpStarUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1cf72b8250c2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_230f29901677",
+      "DRAFT_e1370b95478f",
+      "DRAFT_b9dade4378c3",
+      "DRAFT_1cf72b8250c2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

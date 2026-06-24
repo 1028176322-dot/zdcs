@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_battle_arena_form",
+  "displayName": "ui_battle_arena_form",
+  "drafts": {
+    "DRAFT_fd2b6b8cb142": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaForm.prefab",
+      "prefabRoot": "UIBattleArenaForm",
+      "path": "UIBattleArenaForm/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_battle_arena_form",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIBattleArenaForm的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaForm.prefab」中的UIBattleArenaForm关闭按钮",
+      "suggestedTestId": "UIBattleArenaForm.CloseBtn",
+      "suggestedSemanticId": "UIBattleArenaForm.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fd2b6b8cb142"
+    },
+    "DRAFT_625ed6700c0f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaForm.prefab",
+      "prefabRoot": "UIBattleArenaForm",
+      "path": "UIBattleArenaForm/Root/Animation/content/Top/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_form",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBattleArenaForm的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaForm.prefab」中的UIBattleArenaFormHeadk1",
+      "suggestedTestId": "UIBattleArenaForm.Head_k1",
+      "suggestedSemanticId": "UIBattleArenaForm.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_625ed6700c0f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fd2b6b8cb142",
+      "DRAFT_625ed6700c0f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

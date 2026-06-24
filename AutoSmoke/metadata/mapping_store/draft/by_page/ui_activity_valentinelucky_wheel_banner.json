@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_valentinelucky_wheel_banner",
+  "displayName": "ui_activity_valentinelucky_wheel_banner",
+  "drafts": {
+    "DRAFT_d99bef0ed2dd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineluckyWheelBanner.prefab",
+      "prefabRoot": "UIActivityValentineluckyWheelBanner",
+      "path": "UIActivityValentineluckyWheelBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_valentinelucky_wheel_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityValentineluckyWheelBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineluckyWheelBanner.prefab」中的UIActivityValentineluckyWheelBannerInfo",
+      "suggestedTestId": "UIActivityValentineluckyWheelBanner.Info",
+      "suggestedSemanticId": "UIActivityValentineluckyWheelBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d99bef0ed2dd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d99bef0ed2dd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

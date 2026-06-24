@@ -1,0 +1,116 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_occupying_list",
+  "displayName": "ui_throne_occupying_list",
+  "drafts": {
+    "DRAFT_af0eb5860750": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab",
+      "prefabRoot": "UIThroneOccupyingList",
+      "path": "UIThroneOccupyingList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_throne_occupying_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneOccupyingList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab」中的UIThroneOccupyingList关闭按钮",
+      "suggestedTestId": "UIThroneOccupyingList.CloseBtn",
+      "suggestedSemanticId": "UIThroneOccupyingList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af0eb5860750"
+    },
+    "DRAFT_c90bec33d8af": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab",
+      "prefabRoot": "UIThroneOccupyingList",
+      "path": "UIThroneOccupyingList/Root/ScrollView/ViewPort/Content/Item/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_throne_occupying_list",
+      "displayName": "按钮",
+      "chineseDescription": "UIThroneOccupyingList的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab」中的UIThroneOccupyingList按钮",
+      "suggestedTestId": "UIThroneOccupyingList.Button",
+      "suggestedSemanticId": "UIThroneOccupyingList.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c90bec33d8af"
+    },
+    "DRAFT_186fd42f52ef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab",
+      "prefabRoot": "UIThroneOccupyingList",
+      "path": "UIThroneOccupyingList/Root/ScrollView/ViewPort/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_occupying_list",
+      "displayName": "Headk1",
+      "chineseDescription": "UIThroneOccupyingList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab」中的UIThroneOccupyingListHeadk1",
+      "suggestedTestId": "UIThroneOccupyingList.Head_k1",
+      "suggestedSemanticId": "UIThroneOccupyingList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_186fd42f52ef"
+    },
+    "DRAFT_703d8adee1c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab",
+      "prefabRoot": "UIThroneOccupyingList",
+      "path": "UIThroneOccupyingList/Root/ScrollView/ViewPort/Content/Item/NoOneHead",
+      "nodeName": "NoOneHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_occupying_list",
+      "displayName": "NoOneHead",
+      "chineseDescription": "UIThroneOccupyingList的NoOneHead",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneOccupyingList.prefab」中的UIThroneOccupyingListNoOneHead",
+      "suggestedTestId": "UIThroneOccupyingList.NoOneHead",
+      "suggestedSemanticId": "UIThroneOccupyingList.NoOneHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_703d8adee1c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_af0eb5860750",
+      "DRAFT_c90bec33d8af",
+      "DRAFT_186fd42f52ef",
+      "DRAFT_703d8adee1c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

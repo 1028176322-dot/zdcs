@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_permission",
+  "displayName": "ui_alliance_permission",
+  "drafts": {
+    "DRAFT_134fcbfa0555": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePermission.prefab",
+      "prefabRoot": "UIAlliancePermission",
+      "path": "UIAlliancePermission/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_permission",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAlliancePermission的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePermission.prefab」中的UIAlliancePermission关闭按钮",
+      "suggestedTestId": "UIAlliancePermission.CloseBtn",
+      "suggestedSemanticId": "UIAlliancePermission.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_134fcbfa0555"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_134fcbfa0555"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

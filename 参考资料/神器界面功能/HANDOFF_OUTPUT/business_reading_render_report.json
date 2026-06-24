@@ -1,0 +1,52 @@
+{
+  "schema_version": "business_reading.render_report.v2",
+  "generated_at": "2026-06-17T18:26:35",
+  "status": "PASS",
+  "source": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\structured_business_model.json",
+  "rendered_item_count": 2,
+  "value_asset_count": 2,
+  "value_assets": [
+    {
+      "rule_name": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "value_expression": "3 个",
+      "unit": "个",
+      "value_status": "已确定",
+      "config_source": "",
+      "source_line": "",
+      "asset_id": "VALUE_0001"
+    },
+    {
+      "rule_name": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "value_expression": "1 个",
+      "unit": "个",
+      "value_status": "已确定",
+      "config_source": "",
+      "source_line": "",
+      "asset_id": "VALUE_0002"
+    }
+  ],
+  "rendered_ids": [
+    "CONFIG_001",
+    "STEP_001"
+  ],
+  "human_reading_without_inline_sources": true,
+  "format_version": "human_review_fixed.v1",
+  "fixed_sections": [
+    "活动定位与核心目标",
+    "活动开启前",
+    "召唤建筑与放置",
+    "刷怪倒计时与波次刷新",
+    "怪物停留与状态推进",
+    "玩家攻击与战斗结算",
+    "每波结束与完美防御",
+    "积分与排行",
+    "宝箱掉落与采集",
+    "活动成功、失败与重置",
+    "奖励发放",
+    "联盟限制与成员变更",
+    "界面、文本与提示",
+    "配置与数值字段",
+    "边界与异常",
+    "当前待确认项"
+  ]
+}

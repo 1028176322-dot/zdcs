@@ -1,0 +1,95 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_altar_reward_list",
+  "displayName": "ui_altar_reward_list",
+  "drafts": {
+    "DRAFT_185e53e39777": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab",
+      "prefabRoot": "UIAltarRewardList",
+      "path": "UIAltarRewardList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_altar_reward_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAltarRewardList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab」中的UIAltarRewardList关闭按钮",
+      "suggestedTestId": "UIAltarRewardList.CloseBtn",
+      "suggestedSemanticId": "UIAltarRewardList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_185e53e39777"
+    },
+    "DRAFT_4db8eb3a4ac0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab",
+      "prefabRoot": "UIAltarRewardList",
+      "path": "UIAltarRewardList/Root/ScrollView/ViewPort/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_altar_reward_list",
+      "displayName": "项",
+      "chineseDescription": "UIAltarRewardList的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab」中的UIAltarRewardList项",
+      "suggestedTestId": "UIAltarRewardList.Item",
+      "suggestedSemanticId": "UIAltarRewardList.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4db8eb3a4ac0"
+    },
+    "DRAFT_d0996f073d64": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab",
+      "prefabRoot": "UIAltarRewardList",
+      "path": "UIAltarRewardList/Root/ScrollView/ViewPort/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_altar_reward_list",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIAltarRewardList的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAltarRewardList.prefab」中的UIAltarRewardListClickContent",
+      "suggestedTestId": "UIAltarRewardList.ClickContent",
+      "suggestedSemanticId": "UIAltarRewardList.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0996f073d64"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_185e53e39777",
+      "DRAFT_4db8eb3a4ac0",
+      "DRAFT_d0996f073d64"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

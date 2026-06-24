@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_fortress_fight_my_integral",
+  "displayName": "ui_activity_fortress_fight_my_integral",
+  "drafts": {
+    "DRAFT_a004722e40f5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightMyIntegral.prefab",
+      "prefabRoot": "UIActivityFortressFightMyIntegral",
+      "path": "UIActivityFortressFightMyIntegral/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_my_integral",
+      "displayName": "Mask",
+      "chineseDescription": "UIActivityFortressFightMyIntegral的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightMyIntegral.prefab」中的UIActivityFortressFightMyIntegralMask",
+      "suggestedTestId": "UIActivityFortressFightMyIntegral.Mask",
+      "suggestedSemanticId": "UIActivityFortressFightMyIntegral.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a004722e40f5"
+    },
+    "DRAFT_66b139894a5e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightMyIntegral.prefab",
+      "prefabRoot": "UIActivityFortressFightMyIntegral",
+      "path": "UIActivityFortressFightMyIntegral/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_my_integral",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityFortressFightMyIntegral的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightMyIntegral.prefab」中的UIActivityFortressFightMyIntegral关闭按钮",
+      "suggestedTestId": "UIActivityFortressFightMyIntegral.CloseBtn",
+      "suggestedSemanticId": "UIActivityFortressFightMyIntegral.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_66b139894a5e"
+    },
+    "DRAFT_a6d4d711b2d1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityFortressFightMyIntegral.prefab",
+      "prefabRoot": "EXPORT_UIActivityFortressFightMyIntegral",
+      "path": "EXPORT_UIActivityFortressFightMyIntegral/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_my_integral",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_UIActivityFortressFightMyIntegral的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityFortressFightMyIntegral.prefab」中的EXPORT_UIActivityFortressFightMyIntegralMask",
+      "suggestedTestId": "EXPORT_UIActivityFortressFightMyIntegral.Mask",
+      "suggestedSemanticId": "EXPORT_UIActivityFortressFightMyIntegral.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a6d4d711b2d1"
+    },
+    "DRAFT_0323337ce258": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityFortressFightMyIntegral.prefab",
+      "prefabRoot": "EXPORT_UIActivityFortressFightMyIntegral",
+      "path": "EXPORT_UIActivityFortressFightMyIntegral/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_my_integral",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityFortressFightMyIntegral的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityFortressFightMyIntegral.prefab」中的EXPORT_UIActivityFortressFightMyIntegral关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityFortressFightMyIntegral.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityFortressFightMyIntegral.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0323337ce258"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a004722e40f5",
+      "DRAFT_66b139894a5e",
+      "DRAFT_a6d4d711b2d1",
+      "DRAFT_0323337ce258"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

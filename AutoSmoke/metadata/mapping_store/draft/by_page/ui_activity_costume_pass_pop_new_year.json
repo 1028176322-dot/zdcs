@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_pop_new_year",
+  "displayName": "ui_activity_costume_pass_pop_new_year",
+  "drafts": {
+    "DRAFT_fe53082bfc56": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_NewYear",
+      "path": "UIActivityCostumePassPop_NewYear/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_new_year",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_NewYear的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab」中的UIActivityCostumePassPop_NewYearClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_NewYear.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_NewYear.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe53082bfc56"
+    },
+    "DRAFT_d74409f7773f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_NewYear",
+      "path": "UIActivityCostumePassPop_NewYear/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_new_year",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_NewYear的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab」中的UIActivityCostumePassPop_NewYearClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_NewYear.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_NewYear.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d74409f7773f"
+    },
+    "DRAFT_5f6cd8ac8f73": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_NewYear",
+      "path": "UIActivityCostumePassPop_NewYear/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_new_year",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityCostumePassPop_NewYear的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab」中的UIActivityCostumePassPop_NewYearGet按钮",
+      "suggestedTestId": "UIActivityCostumePassPop_NewYear.GetBtn",
+      "suggestedSemanticId": "UIActivityCostumePassPop_NewYear.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5f6cd8ac8f73"
+    },
+    "DRAFT_f4543ccbfcc5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_NewYear",
+      "path": "UIActivityCostumePassPop_NewYear/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_new_year",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityCostumePassPop_NewYear的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_NewYear.prefab」中的UIActivityCostumePassPop_NewYearTips",
+      "suggestedTestId": "UIActivityCostumePassPop_NewYear.Tips",
+      "suggestedSemanticId": "UIActivityCostumePassPop_NewYear.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f4543ccbfcc5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fe53082bfc56",
+      "DRAFT_d74409f7773f",
+      "DRAFT_5f6cd8ac8f73",
+      "DRAFT_f4543ccbfcc5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

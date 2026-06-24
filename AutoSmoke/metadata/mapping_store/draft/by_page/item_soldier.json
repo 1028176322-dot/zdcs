@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "item_soldier",
+  "displayName": "item_soldier",
+  "drafts": {
+    "DRAFT_b0afce8cc636": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/ItemSoldier.prefab",
+      "prefabRoot": "ItemSoldier",
+      "path": "ItemSoldier",
+      "nodeName": "ItemSoldier",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "item_soldier",
+      "displayName": "项Soldier",
+      "chineseDescription": "ItemSoldier的项Soldier",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/ItemSoldier.prefab」中的ItemSoldier项Soldier",
+      "suggestedTestId": "ItemSoldier.ItemSoldier",
+      "suggestedSemanticId": "ItemSoldier.项Soldier",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b0afce8cc636"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b0afce8cc636"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_invitation_pop",
+  "displayName": "ui_invitation_pop",
+  "drafts": {
+    "DRAFT_ca093e1fea86": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab",
+      "prefabRoot": "UIInvitationPop",
+      "path": "UIInvitationPop/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_invitation_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIInvitationPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab」中的UIInvitationPop关闭按钮",
+      "suggestedTestId": "UIInvitationPop.CloseBtn",
+      "suggestedSemanticId": "UIInvitationPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca093e1fea86"
+    },
+    "DRAFT_876d99f4339b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab",
+      "prefabRoot": "UIInvitationPop",
+      "path": "UIInvitationPop/Root/BG/CodeBG/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "TFWinputField"
+      ],
+      "spriteName": "UI_Img_Invitation_BG4",
+      "clickable": true,
+      "pageId": "ui_invitation_pop",
+      "displayName": "BG",
+      "chineseDescription": "UIInvitationPop的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab」中的UIInvitationPopBG",
+      "suggestedTestId": "UIInvitationPop.BG",
+      "suggestedSemanticId": "UIInvitationPop.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_876d99f4339b"
+    },
+    "DRAFT_125c8460aee2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab",
+      "prefabRoot": "UIInvitationPop",
+      "path": "UIInvitationPop/Root/BG/CodeBG/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_invitation_pop",
+      "displayName": "Num",
+      "chineseDescription": "UIInvitationPop的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab」中的UIInvitationPopNum",
+      "suggestedTestId": "UIInvitationPop.Num",
+      "suggestedSemanticId": "UIInvitationPop.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_125c8460aee2"
+    },
+    "DRAFT_a671758f6b5f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab",
+      "prefabRoot": "UIInvitationPop",
+      "path": "UIInvitationPop/Root/BG/ServiceBtn",
+      "nodeName": "ServiceBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_btn_set_contact 1",
+      "clickable": true,
+      "pageId": "character_info",
+      "displayName": "角色信息-客服按钮",
+      "chineseDescription": "UIInvitationPop的Service按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab」中的UIInvitationPopService按钮",
+      "suggestedTestId": "UIInvitationPop.ServiceBtn",
+      "suggestedSemanticId": "UIInvitationPop.Service按钮",
+      "role": "button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a671758f6b5f",
+      "testId": "character_info.customer_service.button",
+      "semanticId": "character_info.customer_service.button",
+      "targetName": "角色信息界面客服按钮",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_character_info.customer_service.button",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "DRAFT_935dce679a96": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab",
+      "prefabRoot": "UIInvitationPop",
+      "path": "UIInvitationPop/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_invitation_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIInvitationPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationPop.prefab」中的UIInvitationPop按钮",
+      "suggestedTestId": "UIInvitationPop.Btn",
+      "suggestedSemanticId": "UIInvitationPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_935dce679a96"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ca093e1fea86",
+      "DRAFT_876d99f4339b",
+      "DRAFT_125c8460aee2",
+      "DRAFT_a671758f6b5f",
+      "DRAFT_935dce679a96"
+    ]
+  },
+  "updated_at": "2026-06-24T10:00:32",
+  "count": 5
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_month_card",
+  "displayName": "main_ciry_month_card",
+  "drafts": {
+    "DRAFT_175a56d97ab9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryMonthCard.prefab",
+      "prefabRoot": "MainCiryMonthCard",
+      "path": "MainCiryMonthCard/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_month_card",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryMonthCard的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryMonthCard.prefab」中的MainCiryMonthCardtipsdi",
+      "suggestedTestId": "MainCiryMonthCard.tips_di",
+      "suggestedSemanticId": "MainCiryMonthCard.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_175a56d97ab9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_175a56d97ab9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_daily_custom_gift_banner",
+  "displayName": "ui_activity_daily_custom_gift_banner",
+  "drafts": {
+    "DRAFT_055b44465d47": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab",
+      "prefabRoot": "UIActivityDailyCustomGiftBanner",
+      "path": "UIActivityDailyCustomGiftBanner/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_daily_custom_gift_banner",
+      "displayName": "Diamond",
+      "chineseDescription": "UIActivityDailyCustomGiftBanner的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab」中的UIActivityDailyCustomGiftBannerDiamond",
+      "suggestedTestId": "UIActivityDailyCustomGiftBanner.Diamond",
+      "suggestedSemanticId": "UIActivityDailyCustomGiftBanner.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_055b44465d47"
+    },
+    "DRAFT_3e4aa68644fd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab",
+      "prefabRoot": "UIActivityDailyCustomGiftBanner",
+      "path": "UIActivityDailyCustomGiftBanner/Diamond/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "+",
+      "clickable": true,
+      "pageId": "ui_activity_daily_custom_gift_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityDailyCustomGiftBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab」中的UIActivityDailyCustomGiftBannerAdd",
+      "suggestedTestId": "UIActivityDailyCustomGiftBanner.Add",
+      "suggestedSemanticId": "UIActivityDailyCustomGiftBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3e4aa68644fd"
+    },
+    "DRAFT_0236ebfb65a2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab",
+      "prefabRoot": "UIActivityDailyCustomGiftBanner",
+      "path": "UIActivityDailyCustomGiftBanner/Info_bak",
+      "nodeName": "Info_bak",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_daily_custom_gift_banner",
+      "displayName": "Infobak",
+      "chineseDescription": "UIActivityDailyCustomGiftBanner的Infobak",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDailyCustomGiftBanner.prefab」中的UIActivityDailyCustomGiftBannerInfobak",
+      "suggestedTestId": "UIActivityDailyCustomGiftBanner.Info_bak",
+      "suggestedSemanticId": "UIActivityDailyCustomGiftBanner.Infobak",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0236ebfb65a2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_055b44465d47",
+      "DRAFT_3e4aa68644fd",
+      "DRAFT_0236ebfb65a2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

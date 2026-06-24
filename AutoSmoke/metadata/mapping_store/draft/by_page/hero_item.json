@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_item",
+  "displayName": "hero_item",
+  "drafts": {
+    "DRAFT_7796e036c9e0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/HeroItem.prefab",
+      "prefabRoot": "HeroItem",
+      "path": "HeroItem",
+      "nodeName": "HeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_item",
+      "displayName": "Hero项",
+      "chineseDescription": "HeroItem的Hero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/HeroItem.prefab」中的HeroItemHero项",
+      "suggestedTestId": "HeroItem.HeroItem",
+      "suggestedSemanticId": "HeroItem.Hero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7796e036c9e0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7796e036c9e0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

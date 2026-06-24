@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_common_download",
+  "displayName": "export_common_download",
+  "drafts": {
+    "DRAFT_a860981a0a23": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Common/EXPORT_Common_Download.prefab",
+      "prefabRoot": "EXPORT_Common_Download",
+      "path": "EXPORT_Common_Download/Root/BtnConfirm",
+      "nodeName": "BtnConfirm",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "export_common_download",
+      "displayName": "按钮确认",
+      "chineseDescription": "EXPORT_Common_Download的按钮确认，用于确认操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Common/EXPORT_Common_Download.prefab」中的EXPORT_Common_Download按钮确认",
+      "suggestedTestId": "EXPORT_Common_Download.BtnConfirm",
+      "suggestedSemanticId": "EXPORT_Common_Download.按钮确认",
+      "role": "confirm_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a860981a0a23"
+    },
+    "DRAFT_866d77a8463b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Common/EXPORT_Common_Download.prefab",
+      "prefabRoot": "EXPORT_Common_Download",
+      "path": "EXPORT_Common_Download/Root/BtnCancel",
+      "nodeName": "BtnCancel",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_red_da",
+      "clickable": true,
+      "pageId": "export_common_download",
+      "displayName": "按钮取消",
+      "chineseDescription": "EXPORT_Common_Download的按钮取消",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Common/EXPORT_Common_Download.prefab」中的EXPORT_Common_Download按钮取消",
+      "suggestedTestId": "EXPORT_Common_Download.BtnCancel",
+      "suggestedSemanticId": "EXPORT_Common_Download.按钮取消",
+      "role": "cancel_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_866d77a8463b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a860981a0a23",
+      "DRAFT_866d77a8463b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

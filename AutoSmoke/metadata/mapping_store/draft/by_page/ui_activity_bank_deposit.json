@@ -1,0 +1,169 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_bank_deposit",
+  "displayName": "ui_activity_bank_deposit",
+  "drafts": {
+    "DRAFT_77605677c29c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/BG/DownBG/Choose/BtnAdd",
+      "nodeName": "BtnAdd",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "按钮Add",
+      "chineseDescription": "UIActivityBankDeposit的按钮Add，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDeposit按钮Add",
+      "suggestedTestId": "UIActivityBankDeposit.BtnAdd",
+      "suggestedSemanticId": "UIActivityBankDeposit.按钮Add",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_77605677c29c"
+    },
+    "DRAFT_6cb46f48eb5a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/BG/DownBG/Choose/BtnReduce",
+      "nodeName": "BtnReduce",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "按钮Reduce",
+      "chineseDescription": "UIActivityBankDeposit的按钮Reduce，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDeposit按钮Reduce",
+      "suggestedTestId": "UIActivityBankDeposit.BtnReduce",
+      "suggestedSemanticId": "UIActivityBankDeposit.按钮Reduce",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6cb46f48eb5a"
+    },
+    "DRAFT_2fbf3bcffc14": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/BG/DownBG/Choose/Number/BG/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityBankDeposit的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDepositNum",
+      "suggestedTestId": "UIActivityBankDeposit.Num",
+      "suggestedSemanticId": "UIActivityBankDeposit.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2fbf3bcffc14"
+    },
+    "DRAFT_268e3e610f12": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/BG/BtnGroup/DepositBtn",
+      "nodeName": "DepositBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "Deposit按钮",
+      "chineseDescription": "UIActivityBankDeposit的Deposit按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDepositDeposit按钮",
+      "suggestedTestId": "UIActivityBankDeposit.DepositBtn",
+      "suggestedSemanticId": "UIActivityBankDeposit.Deposit按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_268e3e610f12"
+    },
+    "DRAFT_09983eecc42a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/BG/BtnGroup/FetchBtn",
+      "nodeName": "FetchBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "Fetch按钮",
+      "chineseDescription": "UIActivityBankDeposit的Fetch按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDepositFetch按钮",
+      "suggestedTestId": "UIActivityBankDeposit.FetchBtn",
+      "suggestedSemanticId": "UIActivityBankDeposit.Fetch按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_09983eecc42a"
+    },
+    "DRAFT_e36d1213b1e6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab",
+      "prefabRoot": "UIActivityBankDeposit",
+      "path": "UIActivityBankDeposit/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_bank_deposit",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityBankDeposit的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankDeposit.prefab」中的UIActivityBankDeposit关闭按钮",
+      "suggestedTestId": "UIActivityBankDeposit.CloseBtn",
+      "suggestedSemanticId": "UIActivityBankDeposit.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e36d1213b1e6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_77605677c29c",
+      "DRAFT_6cb46f48eb5a",
+      "DRAFT_2fbf3bcffc14",
+      "DRAFT_268e3e610f12",
+      "DRAFT_09983eecc42a",
+      "DRAFT_e36d1213b1e6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_solider_tip",
+  "displayName": "ui_solider_tip",
+  "drafts": {
+    "DRAFT_b8f7aef0c431": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UISoliderTip.prefab",
+      "prefabRoot": "UISoliderTip",
+      "path": "UISoliderTip/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_solider_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UISoliderTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UISoliderTip.prefab」中的UISoliderTip关闭按钮",
+      "suggestedTestId": "UISoliderTip.CloseBtn",
+      "suggestedSemanticId": "UISoliderTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8f7aef0c431"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b8f7aef0c431"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

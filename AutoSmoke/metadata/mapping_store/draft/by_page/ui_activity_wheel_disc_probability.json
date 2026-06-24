@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_wheel_disc_probability",
+  "displayName": "ui_activity_wheel_disc_probability",
+  "drafts": {
+    "DRAFT_b371bb3aa74c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/ActivityPay/UIActivityWheelDiscProbability.prefab",
+      "prefabRoot": "UIActivityWheelDiscProbability",
+      "path": "UIActivityWheelDiscProbability/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_wheel_disc_probability",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityWheelDiscProbability的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/ActivityPay/UIActivityWheelDiscProbability.prefab」中的UIActivityWheelDiscProbability关闭按钮",
+      "suggestedTestId": "UIActivityWheelDiscProbability.CloseBtn",
+      "suggestedSemanticId": "UIActivityWheelDiscProbability.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b371bb3aa74c"
+    },
+    "DRAFT_b43c2d22db04": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/ActivityPay/UIActivityWheelDiscProbability.prefab",
+      "prefabRoot": "UIActivityWheelDiscProbability",
+      "path": "UIActivityWheelDiscProbability/Root/Bg/Scroll/View/Content/ProbabilityCont/ItemContent/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wheel_disc_probability",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityWheelDiscProbability的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/ActivityPay/UIActivityWheelDiscProbability.prefab」中的UIActivityWheelDiscProbabilityClickContent",
+      "suggestedTestId": "UIActivityWheelDiscProbability.ClickContent",
+      "suggestedSemanticId": "UIActivityWheelDiscProbability.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b43c2d22db04"
+    },
+    "DRAFT_eda88bbc5619": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivityWheelDiscProbability.prefab",
+      "prefabRoot": "EXPORT_UIActivityWheelDiscProbability",
+      "path": "EXPORT_UIActivityWheelDiscProbability/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_wheel_disc_probability",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityWheelDiscProbability的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivityWheelDiscProbability.prefab」中的EXPORT_UIActivityWheelDiscProbability关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityWheelDiscProbability.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityWheelDiscProbability.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eda88bbc5619"
+    },
+    "DRAFT_b405e21d9a79": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivityWheelDiscProbability.prefab",
+      "prefabRoot": "EXPORT_UIActivityWheelDiscProbability",
+      "path": "EXPORT_UIActivityWheelDiscProbability/Root/Bg/Scroll/View/Content/ProbabilityCont/ItemContent/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wheel_disc_probability",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivityWheelDiscProbability的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivityWheelDiscProbability.prefab」中的EXPORT_UIActivityWheelDiscProbabilityClickContent",
+      "suggestedTestId": "EXPORT_UIActivityWheelDiscProbability.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivityWheelDiscProbability.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b405e21d9a79"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b371bb3aa74c",
+      "DRAFT_b43c2d22db04",
+      "DRAFT_eda88bbc5619",
+      "DRAFT_b405e21d9a79"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

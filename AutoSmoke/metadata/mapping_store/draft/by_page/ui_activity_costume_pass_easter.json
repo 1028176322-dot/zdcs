@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_easter",
+  "displayName": "ui_activity_costume_pass_easter",
+  "drafts": {
+    "DRAFT_844b5ec400f4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab",
+      "prefabRoot": "UIActivityCostumePass_Easter",
+      "path": "UIActivityCostumePass_Easter/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_easter",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_Easter的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab」中的UIActivityCostumePass_EasterItems",
+      "suggestedTestId": "UIActivityCostumePass_Easter.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_Easter.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_844b5ec400f4"
+    },
+    "DRAFT_6cdee25fe423": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab",
+      "prefabRoot": "UIActivityCostumePass_Easter",
+      "path": "UIActivityCostumePass_Easter/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_easter",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_Easter的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab」中的UIActivityCostumePass_EasterNode2",
+      "suggestedTestId": "UIActivityCostumePass_Easter.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_Easter.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6cdee25fe423"
+    },
+    "DRAFT_8642571ba791": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab",
+      "prefabRoot": "UIActivityCostumePass_Easter",
+      "path": "UIActivityCostumePass_Easter/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_easter",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_Easter的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab」中的UIActivityCostumePass_EasterNode3",
+      "suggestedTestId": "UIActivityCostumePass_Easter.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_Easter.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8642571ba791"
+    },
+    "DRAFT_6085500d2f7d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab",
+      "prefabRoot": "UIActivityCostumePass_Easter",
+      "path": "UIActivityCostumePass_Easter/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_easter",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_Easter的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab」中的UIActivityCostumePass_EasterAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_Easter.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Easter.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6085500d2f7d"
+    },
+    "DRAFT_1e14ea1cbe5b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab",
+      "prefabRoot": "UIActivityCostumePass_Easter",
+      "path": "UIActivityCostumePass_Easter/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_easter",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_Easter的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Easter.prefab」中的UIActivityCostumePass_Easter购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_Easter.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Easter.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e14ea1cbe5b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_844b5ec400f4",
+      "DRAFT_6cdee25fe423",
+      "DRAFT_8642571ba791",
+      "DRAFT_6085500d2f7d",
+      "DRAFT_1e14ea1cbe5b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

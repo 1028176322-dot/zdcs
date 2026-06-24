@@ -1,0 +1,44 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "on_sale_btn",
+  "displayName": "on_sale_btn",
+  "drafts": {
+    "DRAFT_bfaa55b55749": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MainActivity/OnSaleBtn.prefab",
+      "prefabRoot": "OnSaleBtn",
+      "path": "OnSaleBtn",
+      "nodeName": "OnSaleBtn",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "LayoutElement",
+        "HomeIconBaseUI"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "on_sale_btn",
+      "displayName": "OnSale按钮",
+      "chineseDescription": "OnSaleBtn的OnSale按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MainActivity/OnSaleBtn.prefab」中的OnSaleBtnOnSale按钮",
+      "suggestedTestId": "OnSaleBtn.OnSaleBtn",
+      "suggestedSemanticId": "OnSaleBtn.OnSale按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bfaa55b55749"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bfaa55b55749"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

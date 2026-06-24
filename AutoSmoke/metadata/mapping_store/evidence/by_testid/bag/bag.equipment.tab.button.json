@@ -1,0 +1,59 @@
+{
+  "testId": "bag.equipment.tab.button",
+  "semanticId": "bag.equipment.tab.button",
+  "targetName": "背包装备页签按钮",
+  "structure": {
+    "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/4",
+    "pageId": "bag",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Root/Shop/Tab/Tab/View/Content/4",
+    "screenRect": [
+      936,
+      152,
+      1153,
+      254
+    ],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/bag.equipment.tab.button.png",
+    "screenRectUsed": [
+      940,
+      172,
+      1148,
+      254
+    ]
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4/Off/TextOff",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13432650,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+      "screenPoint": [
+        1044,
+        2329
+      ],
+      "injectorResultRecovered": true
+    }
+  },
+  "semanticMigratedAt": "2026-06-18T16:53:47",
+  "displayName": "背包-装备页签按钮",
+  "pageId": "bag",
+  "role": "tab",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.equipment.tab.button",
+  "updated_at": "2026-06-23T10:14:40"
+}

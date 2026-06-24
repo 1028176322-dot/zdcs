@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_newbie_banner",
+  "displayName": "ui_activity_costume_pass_newbie_banner",
+  "drafts": {
+    "DRAFT_11aa5b1ee66a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBannerInfo",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.Info",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_11aa5b1ee66a"
+    },
+    "DRAFT_59944164ec73": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/UseItem/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBannerNum",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.Num",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_59944164ec73"
+    },
+    "DRAFT_628639282775": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/UseItem/Num/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_plus_green",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBannerAdd",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.Add",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_628639282775"
+    },
+    "DRAFT_516876929355": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/UseItem/ItemBtn",
+      "nodeName": "ItemBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "项按钮",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的项按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBanner项按钮",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.ItemBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.项按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_516876929355"
+    },
+    "DRAFT_2144b58074bd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/BuyGift/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBanner购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2144b58074bd"
+    },
+    "DRAFT_40743c9479a2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewbieBanner",
+      "path": "UIActivityCostumePass_NewbieBanner/BuyGift/CityIcon",
+      "nodeName": "CityIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_RedBG",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_newbie_banner",
+      "displayName": "City图标",
+      "chineseDescription": "UIActivityCostumePass_NewbieBanner的City图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewbieBanner.prefab」中的UIActivityCostumePass_NewbieBannerCity图标",
+      "suggestedTestId": "UIActivityCostumePass_NewbieBanner.CityIcon",
+      "suggestedSemanticId": "UIActivityCostumePass_NewbieBanner.City图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_40743c9479a2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_11aa5b1ee66a",
+      "DRAFT_59944164ec73",
+      "DRAFT_628639282775",
+      "DRAFT_516876929355",
+      "DRAFT_2144b58074bd",
+      "DRAFT_40743c9479a2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

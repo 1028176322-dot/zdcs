@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_level_up_reward_bubble",
+  "displayName": "main_ciry_level_up_reward_bubble",
+  "drafts": {
+    "DRAFT_b6fa2dbdd390": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryLevelUpRewardBubble.prefab",
+      "prefabRoot": "MainCiryLevelUpRewardBubble",
+      "path": "MainCiryLevelUpRewardBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_level_up_reward_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryLevelUpRewardBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryLevelUpRewardBubble.prefab」中的MainCiryLevelUpRewardBubbletipsdi",
+      "suggestedTestId": "MainCiryLevelUpRewardBubble.tips_di",
+      "suggestedSemanticId": "MainCiryLevelUpRewardBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b6fa2dbdd390"
+    },
+    "DRAFT_e2a4aad3b3e0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryLevelUpRewardBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryLevelUpRewardBubble",
+      "path": "EXPORT_MainCiryLevelUpRewardBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_level_up_reward_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryLevelUpRewardBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryLevelUpRewardBubble.prefab」中的EXPORT_MainCiryLevelUpRewardBubbletipsdi",
+      "suggestedTestId": "EXPORT_MainCiryLevelUpRewardBubble.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryLevelUpRewardBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e2a4aad3b3e0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b6fa2dbdd390",
+      "DRAFT_e2a4aad3b3e0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

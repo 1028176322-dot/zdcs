@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tower_battle_boss",
+  "displayName": "tower_battle_boss",
+  "drafts": {
+    "DRAFT_1844783ccbe3": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBoss.prefab",
+      "prefabRoot": "TowerBattleBoss",
+      "path": "TowerBattleBoss/Root/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "tower_battle_boss",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TowerBattleBoss的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBoss.prefab」中的TowerBattleBoss关闭按钮",
+      "suggestedTestId": "TowerBattleBoss.CloseBtn",
+      "suggestedSemanticId": "TowerBattleBoss.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1844783ccbe3"
+    },
+    "DRAFT_f1e19ed460b1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBoss.prefab",
+      "prefabRoot": "TowerBattleBoss",
+      "path": "TowerBattleBoss/Root/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "tower_battle_boss",
+      "displayName": "Click",
+      "chineseDescription": "TowerBattleBoss的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBoss.prefab」中的TowerBattleBossClick",
+      "suggestedTestId": "TowerBattleBoss.Click",
+      "suggestedSemanticId": "TowerBattleBoss.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f1e19ed460b1"
+    },
+    "DRAFT_39605c7186d4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBoss.prefab",
+      "prefabRoot": "EXPORT_TowerBattleBoss",
+      "path": "EXPORT_TowerBattleBoss/Root/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "tower_battle_boss",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_TowerBattleBoss的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBoss.prefab」中的EXPORT_TowerBattleBoss关闭按钮",
+      "suggestedTestId": "EXPORT_TowerBattleBoss.CloseBtn",
+      "suggestedSemanticId": "EXPORT_TowerBattleBoss.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_39605c7186d4"
+    },
+    "DRAFT_24263605a0b2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBoss.prefab",
+      "prefabRoot": "EXPORT_TowerBattleBoss",
+      "path": "EXPORT_TowerBattleBoss/Root/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "tower_battle_boss",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_TowerBattleBoss的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBoss.prefab」中的EXPORT_TowerBattleBossClick",
+      "suggestedTestId": "EXPORT_TowerBattleBoss.Click",
+      "suggestedSemanticId": "EXPORT_TowerBattleBoss.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24263605a0b2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1844783ccbe3",
+      "DRAFT_f1e19ed460b1",
+      "DRAFT_39605c7186d4",
+      "DRAFT_24263605a0b2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

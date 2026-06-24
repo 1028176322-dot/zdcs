@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_fate_gear_choose_reward",
+  "displayName": "ui_activity_fate_gear_choose_reward",
+  "drafts": {
+    "DRAFT_6b817c231659": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab",
+      "prefabRoot": "UIActivityFateGearChooseReward",
+      "path": "UIActivityFateGearChooseReward/Root/Animation/content/BackGround/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_choose_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityFateGearChooseReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab」中的UIActivityFateGearChooseReward关闭按钮",
+      "suggestedTestId": "UIActivityFateGearChooseReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityFateGearChooseReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6b817c231659"
+    },
+    "DRAFT_e9d781798e8b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab",
+      "prefabRoot": "UIActivityFateGearChooseReward",
+      "path": "UIActivityFateGearChooseReward/Root/Animation/content/BackGround/ScrollView/mask/group/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "UIGridItem",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_choose_reward",
+      "displayName": "item",
+      "chineseDescription": "UIActivityFateGearChooseReward的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab」中的UIActivityFateGearChooseRewarditem",
+      "suggestedTestId": "UIActivityFateGearChooseReward.item",
+      "suggestedSemanticId": "UIActivityFateGearChooseReward.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e9d781798e8b"
+    },
+    "DRAFT_b580df4da710": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab",
+      "prefabRoot": "UIActivityFateGearChooseReward",
+      "path": "UIActivityFateGearChooseReward/Root/Animation/content/BackGround/ScrollView/mask/group/item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_choose_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityFateGearChooseReward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab」中的UIActivityFateGearChooseRewardClickContent",
+      "suggestedTestId": "UIActivityFateGearChooseReward.ClickContent",
+      "suggestedSemanticId": "UIActivityFateGearChooseReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b580df4da710"
+    },
+    "DRAFT_da3c03a4abeb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab",
+      "prefabRoot": "UIActivityFateGearChooseReward",
+      "path": "UIActivityFateGearChooseReward/Root/Animation/content/BackGround/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_choose_reward",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIActivityFateGearChooseReward的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearChooseReward.prefab」中的UIActivityFateGearChooseRewardCommon按钮",
+      "suggestedTestId": "UIActivityFateGearChooseReward.CommonBtn",
+      "suggestedSemanticId": "UIActivityFateGearChooseReward.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_da3c03a4abeb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6b817c231659",
+      "DRAFT_e9d781798e8b",
+      "DRAFT_b580df4da710",
+      "DRAFT_da3c03a4abeb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

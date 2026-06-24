@@ -1,0 +1,150 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_theme",
+  "displayName": "ui_activity_theme",
+  "drafts": {
+    "DRAFT_91f9d6d7170c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab",
+      "prefabRoot": "UIActivityTheme",
+      "path": "UIActivityTheme/Root/Tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_TabCommon",
+      "clickable": true,
+      "pageId": "ui_activity_theme",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityTheme的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab」中的UIActivityThemetab1",
+      "suggestedTestId": "UIActivityTheme.tab1",
+      "suggestedSemanticId": "UIActivityTheme.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91f9d6d7170c"
+    },
+    "DRAFT_e1becee7bee7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab",
+      "prefabRoot": "UIActivityTheme",
+      "path": "UIActivityTheme/Root/Tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_TabCommon",
+      "clickable": true,
+      "pageId": "ui_activity_theme",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityTheme的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab」中的UIActivityThemetab2",
+      "suggestedTestId": "UIActivityTheme.tab2",
+      "suggestedSemanticId": "UIActivityTheme.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e1becee7bee7"
+    },
+    "DRAFT_a70d9773f66c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab",
+      "prefabRoot": "UIActivityTheme",
+      "path": "UIActivityTheme/Root/Tabs/tab3",
+      "nodeName": "tab3",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_TabCommon",
+      "clickable": true,
+      "pageId": "ui_activity_theme",
+      "displayName": "tab3",
+      "chineseDescription": "UIActivityTheme的tab3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab」中的UIActivityThemetab3",
+      "suggestedTestId": "UIActivityTheme.tab3",
+      "suggestedSemanticId": "UIActivityTheme.tab3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a70d9773f66c"
+    },
+    "DRAFT_d0d791cd03dc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab",
+      "prefabRoot": "UIActivityTheme",
+      "path": "UIActivityTheme/Root/Exchange/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_theme",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityTheme的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab」中的UIActivityThemeItems",
+      "suggestedTestId": "UIActivityTheme.Items",
+      "suggestedSemanticId": "UIActivityTheme.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0d791cd03dc"
+    },
+    "DRAFT_f38209492f8b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab",
+      "prefabRoot": "UIActivityTheme",
+      "path": "UIActivityTheme/Root/Exchange/ScrollView/Touch/content/Items/Item/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_theme",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityTheme的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTheme.prefab」中的UIActivityTheme按钮",
+      "suggestedTestId": "UIActivityTheme.Button",
+      "suggestedSemanticId": "UIActivityTheme.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f38209492f8b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_91f9d6d7170c",
+      "DRAFT_e1becee7bee7",
+      "DRAFT_a70d9773f66c",
+      "DRAFT_d0d791cd03dc",
+      "DRAFT_f38209492f8b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

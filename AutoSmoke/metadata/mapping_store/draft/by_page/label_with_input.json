@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "label_with_input",
+  "displayName": "label_with_input",
+  "drafts": {
+    "DRAFT_6d1579c8e0aa": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/LabelWithInput.prefab",
+      "prefabRoot": "LabelWithInput",
+      "path": "LabelWithInput/InputField",
+      "nodeName": "InputField",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "InputField",
+        "LayoutElement",
+        "InputFieldInScrollRectFixer"
+      ],
+      "spriteName": "top-to-bottom-gradient",
+      "clickable": true,
+      "pageId": "label_with_input",
+      "displayName": "输入Field",
+      "chineseDescription": "LabelWithInput的输入Field",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/LabelWithInput.prefab」中的LabelWithInput输入Field",
+      "suggestedTestId": "LabelWithInput.InputField",
+      "suggestedSemanticId": "LabelWithInput.输入Field",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6d1579c8e0aa"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6d1579c8e0aa"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

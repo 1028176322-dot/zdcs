@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "emoji_list_popup",
+  "displayName": "emoji_list_popup",
+  "drafts": {
+    "DRAFT_054c25f486dd": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/emojiListPopup.prefab",
+      "prefabRoot": "emojiListPopup",
+      "path": "emojiListPopup/itemToClone/emojiIconItem",
+      "nodeName": "emojiIconItem",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "emoji_list_popup",
+      "displayName": "emoji图标项",
+      "chineseDescription": "emojiListPopup的emoji图标项，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/emojiListPopup.prefab」中的emojiListPopupemoji图标项",
+      "suggestedTestId": "emojiListPopup.emojiIconItem",
+      "suggestedSemanticId": "emojiListPopup.emoji图标项",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_054c25f486dd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_054c25f486dd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

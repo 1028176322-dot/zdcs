@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "floor_node_top",
+  "displayName": "floor_node_top",
+  "drafts": {
+    "DRAFT_af33ba457391": {
+      "assetPath": "Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Top.prefab",
+      "prefabRoot": "FloorNode_Top",
+      "path": "FloorNode_Top/CanvasRoot/BtnInfo",
+      "nodeName": "BtnInfo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_info",
+      "clickable": true,
+      "pageId": "floor_node_top",
+      "displayName": "按钮Info",
+      "chineseDescription": "FloorNode_Top的按钮Info，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Top.prefab」中的FloorNode_Top按钮Info",
+      "suggestedTestId": "FloorNode_Top.BtnInfo",
+      "suggestedSemanticId": "FloorNode_Top.按钮Info",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af33ba457391"
+    },
+    "DRAFT_6647723aa33c": {
+      "assetPath": "Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Top.prefab",
+      "prefabRoot": "FloorNode_Top",
+      "path": "FloorNode_Top/CanvasRoot/GetRewardBtn",
+      "nodeName": "GetRewardBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "floor_node_top",
+      "displayName": "GetReward按钮",
+      "chineseDescription": "FloorNode_Top的GetReward按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Top.prefab」中的FloorNode_TopGetReward按钮",
+      "suggestedTestId": "FloorNode_Top.GetRewardBtn",
+      "suggestedSemanticId": "FloorNode_Top.GetReward按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6647723aa33c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_af33ba457391",
+      "DRAFT_6647723aa33c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

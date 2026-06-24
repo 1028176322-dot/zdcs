@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_new_role_banner",
+  "displayName": "ui_activity_new_role_banner",
+  "drafts": {
+    "DRAFT_e246a5f649bc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewRoleBanner.prefab",
+      "prefabRoot": "UIActivityNewRoleBanner",
+      "path": "UIActivityNewRoleBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_new_role_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityNewRoleBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewRoleBanner.prefab」中的UIActivityNewRoleBannerInfo",
+      "suggestedTestId": "UIActivityNewRoleBanner.Info",
+      "suggestedSemanticId": "UIActivityNewRoleBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e246a5f649bc"
+    },
+    "DRAFT_9d7e81518b6d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewRoleBanner.prefab",
+      "prefabRoot": "UIActivityNewRoleBanner",
+      "path": "UIActivityNewRoleBanner/CreateBtn",
+      "nodeName": "CreateBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_new_role_banner",
+      "displayName": "Create按钮",
+      "chineseDescription": "UIActivityNewRoleBanner的Create按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewRoleBanner.prefab」中的UIActivityNewRoleBannerCreate按钮",
+      "suggestedTestId": "UIActivityNewRoleBanner.CreateBtn",
+      "suggestedSemanticId": "UIActivityNewRoleBanner.Create按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9d7e81518b6d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e246a5f649bc",
+      "DRAFT_9d7e81518b6d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

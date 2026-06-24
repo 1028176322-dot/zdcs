@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tech_speed_tip",
+  "displayName": "tech_speed_tip",
+  "drafts": {
+    "DRAFT_ab414604eb10": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechSpeedTip.prefab",
+      "prefabRoot": "TechSpeedTip",
+      "path": "TechSpeedTip/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close2",
+      "clickable": true,
+      "pageId": "tech_speed_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TechSpeedTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechSpeedTip.prefab」中的TechSpeedTip关闭按钮",
+      "suggestedTestId": "TechSpeedTip.CloseBtn",
+      "suggestedSemanticId": "TechSpeedTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ab414604eb10"
+    },
+    "DRAFT_9f0ee682ca4e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechSpeedTip.prefab",
+      "prefabRoot": "EXPORT_TechSpeedTip",
+      "path": "EXPORT_TechSpeedTip/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "tech_speed_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_TechSpeedTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechSpeedTip.prefab」中的EXPORT_TechSpeedTip关闭按钮",
+      "suggestedTestId": "EXPORT_TechSpeedTip.CloseBtn",
+      "suggestedSemanticId": "EXPORT_TechSpeedTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9f0ee682ca4e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ab414604eb10",
+      "DRAFT_9f0ee682ca4e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

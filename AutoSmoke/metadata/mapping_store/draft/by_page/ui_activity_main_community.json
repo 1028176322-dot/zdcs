@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_main_community",
+  "displayName": "ui_activity_main_community",
+  "drafts": {
+    "DRAFT_74550945e62d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab",
+      "prefabRoot": "UIActivityMainCommunity",
+      "path": "UIActivityMainCommunity/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_main_community",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityMainCommunity的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab」中的UIActivityMainCommunity关闭按钮",
+      "suggestedTestId": "UIActivityMainCommunity.CloseBtn",
+      "suggestedSemanticId": "UIActivityMainCommunity.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_74550945e62d"
+    },
+    "DRAFT_d0bb9524163f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab",
+      "prefabRoot": "UIActivityMainCommunity",
+      "path": "UIActivityMainCommunity/BG/Content/Tips_button",
+      "nodeName": "Tips_button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tips_green",
+      "clickable": true,
+      "pageId": "ui_activity_main_community",
+      "displayName": "Tipsbutton",
+      "chineseDescription": "UIActivityMainCommunity的Tipsbutton，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab」中的UIActivityMainCommunityTipsbutton",
+      "suggestedTestId": "UIActivityMainCommunity.Tips_button",
+      "suggestedSemanticId": "UIActivityMainCommunity.Tipsbutton",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0bb9524163f"
+    },
+    "DRAFT_e762bde2415b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab",
+      "prefabRoot": "UIActivityMainCommunity",
+      "path": "UIActivityMainCommunity/BG/BindTipPanel/FaceBook/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_btn_activity_fb",
+      "clickable": true,
+      "pageId": "ui_activity_main_community",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityMainCommunity的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab」中的UIActivityMainCommunity按钮",
+      "suggestedTestId": "UIActivityMainCommunity.Button",
+      "suggestedSemanticId": "UIActivityMainCommunity.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e762bde2415b"
+    },
+    "DRAFT_fe03ac440997": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab",
+      "prefabRoot": "UIActivityMainCommunity",
+      "path": "UIActivityMainCommunity/BG/BindTipPanel/Discord/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_btn_activity_discord",
+      "clickable": true,
+      "pageId": "ui_activity_main_community",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityMainCommunity的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMainCommunity.prefab」中的UIActivityMainCommunity按钮",
+      "suggestedTestId": "UIActivityMainCommunity.Button",
+      "suggestedSemanticId": "UIActivityMainCommunity.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe03ac440997"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_74550945e62d",
+      "DRAFT_d0bb9524163f",
+      "DRAFT_e762bde2415b",
+      "DRAFT_fe03ac440997"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

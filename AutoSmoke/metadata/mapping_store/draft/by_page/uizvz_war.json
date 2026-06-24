@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uizvz_war",
+  "displayName": "uizvz_war",
+  "drafts": {
+    "DRAFT_eae3f2fdeb5c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/Content/DownBG/King/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZWar的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWarHeadk1",
+      "suggestedTestId": "UIZVZWar.Head_k1",
+      "suggestedSemanticId": "UIZVZWar.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eae3f2fdeb5c"
+    },
+    "DRAFT_096faa52608d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/AllianceInfo/CheckBtn",
+      "nodeName": "CheckBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "Check按钮",
+      "chineseDescription": "UIZVZWar的Check按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWarCheck按钮",
+      "suggestedTestId": "UIZVZWar.CheckBtn",
+      "suggestedSemanticId": "UIZVZWar.Check按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_096faa52608d"
+    },
+    "DRAFT_7bfb7526be5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/Btns/Btn_blue",
+      "nodeName": "Btn_blue",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "按钮blue",
+      "chineseDescription": "UIZVZWar的按钮blue，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWar按钮blue",
+      "suggestedTestId": "UIZVZWar.Btn_blue",
+      "suggestedSemanticId": "UIZVZWar.按钮blue",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7bfb7526be5e"
+    },
+    "DRAFT_8f09138f51e7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/Btns/Btn_Move",
+      "nodeName": "Btn_Move",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "按钮Move",
+      "chineseDescription": "UIZVZWar的按钮Move，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWar按钮Move",
+      "suggestedTestId": "UIZVZWar.Btn_Move",
+      "suggestedSemanticId": "UIZVZWar.按钮Move",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8f09138f51e7"
+    },
+    "DRAFT_0f55739d407b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/Btns/Btn_war",
+      "nodeName": "Btn_war",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "按钮war",
+      "chineseDescription": "UIZVZWar的按钮war，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWar按钮war",
+      "suggestedTestId": "UIZVZWar.Btn_war",
+      "suggestedSemanticId": "UIZVZWar.按钮war",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f55739d407b"
+    },
+    "DRAFT_66324c89b319": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab",
+      "prefabRoot": "UIZVZWar",
+      "path": "UIZVZWar/Root/BG/NoInvite/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Go",
+      "clickable": true,
+      "pageId": "uizvz_war",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIZVZWar的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZWar.prefab」中的UIZVZWarGo按钮",
+      "suggestedTestId": "UIZVZWar.GoBtn",
+      "suggestedSemanticId": "UIZVZWar.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_66324c89b319"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_eae3f2fdeb5c",
+      "DRAFT_096faa52608d",
+      "DRAFT_7bfb7526be5e",
+      "DRAFT_8f09138f51e7",
+      "DRAFT_0f55739d407b",
+      "DRAFT_66324c89b319"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

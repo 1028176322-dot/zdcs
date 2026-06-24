@@ -1,0 +1,145 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_nest_guard",
+  "displayName": "ui_activity_nest_guard",
+  "drafts": {
+    "DRAFT_653484dc72b1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab",
+      "prefabRoot": "UIActivityNestGuard",
+      "path": "UIActivityNestGuard/Pages/Detail/Top/UseBtn",
+      "nodeName": "UseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard",
+      "displayName": "使用按钮",
+      "chineseDescription": "UIActivityNestGuard的使用按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab」中的UIActivityNestGuard使用按钮",
+      "suggestedTestId": "UIActivityNestGuard.UseBtn",
+      "suggestedSemanticId": "UIActivityNestGuard.使用按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_653484dc72b1"
+    },
+    "DRAFT_165947ea4935": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab",
+      "prefabRoot": "UIActivityNestGuard",
+      "path": "UIActivityNestGuard/Pages/Detail/Top/Item/Item_new",
+      "nodeName": "Item_new",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard",
+      "displayName": "项new",
+      "chineseDescription": "UIActivityNestGuard的项new",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab」中的UIActivityNestGuard项new",
+      "suggestedTestId": "UIActivityNestGuard.Item_new",
+      "suggestedSemanticId": "UIActivityNestGuard.项new",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_165947ea4935"
+    },
+    "DRAFT_411107521c21": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab",
+      "prefabRoot": "UIActivityNestGuard",
+      "path": "UIActivityNestGuard/Pages/Detail/Top/Item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityNestGuard的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab」中的UIActivityNestGuardClickContent",
+      "suggestedTestId": "UIActivityNestGuard.ClickContent",
+      "suggestedSemanticId": "UIActivityNestGuard.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_411107521c21"
+    },
+    "DRAFT_6b950899d4d5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab",
+      "prefabRoot": "UIActivityNestGuard",
+      "path": "UIActivityNestGuard/Pages/Detail/RallyBtn",
+      "nodeName": "RallyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard",
+      "displayName": "Rally按钮",
+      "chineseDescription": "UIActivityNestGuard的Rally按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab」中的UIActivityNestGuardRally按钮",
+      "suggestedTestId": "UIActivityNestGuard.RallyBtn",
+      "suggestedSemanticId": "UIActivityNestGuard.Rally按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6b950899d4d5"
+    },
+    "DRAFT_b0467eabe329": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab",
+      "prefabRoot": "UIActivityNestGuard",
+      "path": "UIActivityNestGuard/Pages/Detail/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityNestGuard的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuard.prefab」中的UIActivityNestGuardGo按钮",
+      "suggestedTestId": "UIActivityNestGuard.GoBtn",
+      "suggestedSemanticId": "UIActivityNestGuard.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b0467eabe329"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_653484dc72b1",
+      "DRAFT_165947ea4935",
+      "DRAFT_411107521c21",
+      "DRAFT_6b950899d4d5",
+      "DRAFT_b0467eabe329"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

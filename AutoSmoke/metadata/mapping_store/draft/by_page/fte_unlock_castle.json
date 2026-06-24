@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "fte_unlock_castle",
+  "displayName": "fte_unlock_castle",
+  "drafts": {
+    "DRAFT_583bcecedd36": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GameChapter/fte_UnlockCastle.prefab",
+      "prefabRoot": "fte_UnlockCastle",
+      "path": "fte_UnlockCastle/Root/black_bg/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "fte_unlock_castle",
+      "displayName": "Common按钮",
+      "chineseDescription": "fte_UnlockCastle的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GameChapter/fte_UnlockCastle.prefab」中的fte_UnlockCastleCommon按钮",
+      "suggestedTestId": "fte_UnlockCastle.CommonBtn",
+      "suggestedSemanticId": "fte_UnlockCastle.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_583bcecedd36"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_583bcecedd36"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

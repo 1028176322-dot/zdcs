@@ -1,0 +1,95 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_announcement_entrance",
+  "displayName": "ui_announcement_entrance",
+  "drafts": {
+    "DRAFT_9b55cdeb219a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab",
+      "prefabRoot": "UIAnnouncementEntrance",
+      "path": "UIAnnouncementEntrance/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_announcement_entrance",
+      "displayName": "Mask",
+      "chineseDescription": "UIAnnouncementEntrance的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab」中的UIAnnouncementEntranceMask",
+      "suggestedTestId": "UIAnnouncementEntrance.Mask",
+      "suggestedSemanticId": "UIAnnouncementEntrance.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9b55cdeb219a"
+    },
+    "DRAFT_8fa5e86bc114": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab",
+      "prefabRoot": "UIAnnouncementEntrance",
+      "path": "UIAnnouncementEntrance/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_announcement_entrance",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAnnouncementEntrance的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab」中的UIAnnouncementEntrance关闭按钮",
+      "suggestedTestId": "UIAnnouncementEntrance.CloseBtn",
+      "suggestedSemanticId": "UIAnnouncementEntrance.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8fa5e86bc114"
+    },
+    "DRAFT_a2cd0ac9c902": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab",
+      "prefabRoot": "UIAnnouncementEntrance",
+      "path": "UIAnnouncementEntrance/Root/BG/Scroll/view/content/items/banner",
+      "nodeName": "banner",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "LayoutElement",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWRawImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_announcement_entrance",
+      "displayName": "banner",
+      "chineseDescription": "UIAnnouncementEntrance的banner",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIAnnouncementEntrance.prefab」中的UIAnnouncementEntrancebanner",
+      "suggestedTestId": "UIAnnouncementEntrance.banner",
+      "suggestedSemanticId": "UIAnnouncementEntrance.banner",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a2cd0ac9c902"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9b55cdeb219a",
+      "DRAFT_8fa5e86bc114",
+      "DRAFT_a2cd0ac9c902"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

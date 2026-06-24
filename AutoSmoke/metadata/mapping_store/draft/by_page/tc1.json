@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tc1",
+  "displayName": "tc1",
+  "drafts": {
+    "DRAFT_07d77d9399b6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GameChapter/tc1.prefab",
+      "prefabRoot": "tc1",
+      "path": "tc1/Root/Train",
+      "nodeName": "Train",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Animation",
+        "EventTriggerListener",
+        "TFWImage",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_btn_Menu_yellow",
+      "clickable": true,
+      "pageId": "tc1",
+      "displayName": "Train",
+      "chineseDescription": "tc1的Train",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GameChapter/tc1.prefab」中的tc1Train",
+      "suggestedTestId": "tc1.Train",
+      "suggestedSemanticId": "tc1.Train",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_07d77d9399b6"
+    },
+    "DRAFT_3148fdc7ae41": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GameChapter/tc1.prefab",
+      "prefabRoot": "tc1",
+      "path": "tc1/Root/exit",
+      "nodeName": "exit",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "btn_back_2",
+      "clickable": true,
+      "pageId": "tc1",
+      "displayName": "exit",
+      "chineseDescription": "tc1的exit",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GameChapter/tc1.prefab」中的tc1exit",
+      "suggestedTestId": "tc1.exit",
+      "suggestedSemanticId": "tc1.exit",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3148fdc7ae41"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_07d77d9399b6",
+      "DRAFT_3148fdc7ae41"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

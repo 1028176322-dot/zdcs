@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_supplement_pop",
+  "displayName": "ui_supplement_pop",
+  "drafts": {
+    "DRAFT_90a4ed982a66": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab",
+      "prefabRoot": "UISupplementPop",
+      "path": "UISupplementPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_supplement_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UISupplementPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab」中的UISupplementPop关闭按钮",
+      "suggestedTestId": "UISupplementPop.CloseBtn",
+      "suggestedSemanticId": "UISupplementPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_90a4ed982a66"
+    },
+    "DRAFT_e5aa90de686d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab",
+      "prefabRoot": "UISupplementPop",
+      "path": "UISupplementPop/Root/Recharge/ReduceBtn",
+      "nodeName": "ReduceBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_reduce_blue",
+      "clickable": true,
+      "pageId": "ui_supplement_pop",
+      "displayName": "Reduce按钮",
+      "chineseDescription": "UISupplementPop的Reduce按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab」中的UISupplementPopReduce按钮",
+      "suggestedTestId": "UISupplementPop.ReduceBtn",
+      "suggestedSemanticId": "UISupplementPop.Reduce按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5aa90de686d"
+    },
+    "DRAFT_ae9730bde68c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab",
+      "prefabRoot": "UISupplementPop",
+      "path": "UISupplementPop/Root/Recharge/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_supplement_pop",
+      "displayName": "Add按钮",
+      "chineseDescription": "UISupplementPop的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab」中的UISupplementPopAdd按钮",
+      "suggestedTestId": "UISupplementPop.AddBtn",
+      "suggestedSemanticId": "UISupplementPop.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ae9730bde68c"
+    },
+    "DRAFT_d8588cf977bb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab",
+      "prefabRoot": "UISupplementPop",
+      "path": "UISupplementPop/Root/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_supplement_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UISupplementPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AccountWarning/UISupplementPop.prefab」中的UISupplementPop按钮",
+      "suggestedTestId": "UISupplementPop.Btn",
+      "suggestedSemanticId": "UISupplementPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d8588cf977bb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_90a4ed982a66",
+      "DRAFT_e5aa90de686d",
+      "DRAFT_ae9730bde68c",
+      "DRAFT_d8588cf977bb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

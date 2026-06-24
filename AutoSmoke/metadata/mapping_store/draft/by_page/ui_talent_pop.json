@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_talent_pop",
+  "displayName": "ui_talent_pop",
+  "drafts": {
+    "DRAFT_ca9703156dcd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab",
+      "prefabRoot": "UITalentPop",
+      "path": "UITalentPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_talent_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITalentPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab」中的UITalentPop关闭按钮",
+      "suggestedTestId": "UITalentPop.CloseBtn",
+      "suggestedSemanticId": "UITalentPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca9703156dcd"
+    },
+    "DRAFT_b7d02ee980d6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab",
+      "prefabRoot": "UITalentPop",
+      "path": "UITalentPop/Root/UnLight/Scroll/Mask/Content/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "CommonItem",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_talent_pop",
+      "displayName": "item",
+      "chineseDescription": "UITalentPop的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab」中的UITalentPopitem",
+      "suggestedTestId": "UITalentPop.item",
+      "suggestedSemanticId": "UITalentPop.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b7d02ee980d6"
+    },
+    "DRAFT_080b17cbb802": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab",
+      "prefabRoot": "UITalentPop",
+      "path": "UITalentPop/Root/UnLight/LightBtn",
+      "nodeName": "LightBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_talent_pop",
+      "displayName": "Light按钮",
+      "chineseDescription": "UITalentPop的Light按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentPop.prefab」中的UITalentPopLight按钮",
+      "suggestedTestId": "UITalentPop.LightBtn",
+      "suggestedSemanticId": "UITalentPop.Light按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_080b17cbb802"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ca9703156dcd",
+      "DRAFT_b7d02ee980d6",
+      "DRAFT_080b17cbb802"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

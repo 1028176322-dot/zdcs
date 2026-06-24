@@ -1,0 +1,82 @@
+{
+  "schema_version": "business_reading.fact_filter.v2",
+  "generated_at": "2026-06-17T18:26:32",
+  "status": "PASS",
+  "feature_name": "神器界面功能",
+  "included_count": 2,
+  "excluded_count": 3,
+  "included": [
+    {
+      "fact_id": "FACT_0002",
+      "fact_type": "trigger_condition",
+      "route": "business_candidate",
+      "reason": "business_semantic_candidate",
+      "content": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "fact_status": "CLEAR",
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "evidence_excerpt": [
+        "C 海神三叉戟 🔱 ⚔️ 10000 +8000 i 🔱 ➜ 暴击! 基础属性 品质升级 0 / 0 💠 进阶结晶 0 / 10 强 化 进 阶 每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。 神器组件 · 6 孔位 升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+      ]
+    },
+    {
+      "fact_id": "FACT_0004",
+      "fact_type": "system_process",
+      "route": "business_candidate",
+      "reason": "business_semantic_candidate",
+      "content": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+      "fact_status": "CLEAR",
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "evidence_excerpt": [
+        "C 海神三叉戟 🔱 ⚔️ 10000 +8000 i 🔱 ➜ 暴击! 基础属性 品质升级 0 / 0 💠 进阶结晶 0 / 10 强 化 进 阶 每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。 神器组件 · 6 孔位 升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "fact_id": "FACT_0001",
+      "fact_type": "config_value",
+      "route": "excluded_non_business",
+      "reason": "label_without_semantics",
+      "content": "神器组件 · 6 孔位",
+      "fact_status": "CLEAR",
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "evidence_excerpt": [
+        "C 海神三叉戟 🔱 ⚔️ 10000 +8000 i 🔱 ➜ 暴击! 基础属性 品质升级 0 / 0 💠 进阶结晶 0 / 10 强 化 进 阶 每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。 神器组件 · 6 孔位 升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+      ]
+    },
+    {
+      "fact_id": "FACT_0003",
+      "fact_type": "ui_text",
+      "route": "excluded_non_business",
+      "reason": "label_without_semantics",
+      "content": "神器技能 · 按品质排序",
+      "fact_status": "CLEAR",
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "evidence_excerpt": [
+        "C 海神三叉戟 🔱 ⚔️ 10000 +8000 i 🔱 ➜ 暴击! 基础属性 品质升级 0 / 0 💠 进阶结晶 0 / 10 强 化 进 阶 每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。 神器组件 · 6 孔位 升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+      ]
+    },
+    {
+      "fact_id": "FACT_0005",
+      "fact_type": "ui_text",
+      "route": "excluded_non_business",
+      "reason": "label_without_semantics",
+      "content": "技能",
+      "fact_status": "CLEAR",
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "evidence_excerpt": [
+        "C 海神三叉戟 🔱 ⚔️ 10000 +8000 i 🔱 ➜ 暴击! 基础属性 品质升级 0 / 0 💠 进阶结晶 0 / 10 强 化 进 阶 每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。 神器组件 · 6 孔位 升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+      ]
+    }
+  ]
+}

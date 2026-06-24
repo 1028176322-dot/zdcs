@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_act_calendar_tip1",
+  "displayName": "ui_act_calendar_tip1",
+  "drafts": {
+    "DRAFT_a64b90f7a341": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIActCalendarTip1.prefab",
+      "prefabRoot": "UIActCalendarTip1",
+      "path": "UIActCalendarTip1/Root",
+      "nodeName": "Root",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_act_calendar_tip1",
+      "displayName": "Root",
+      "chineseDescription": "UIActCalendarTip1的Root",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIActCalendarTip1.prefab」中的UIActCalendarTip1Root",
+      "suggestedTestId": "UIActCalendarTip1.Root",
+      "suggestedSemanticId": "UIActCalendarTip1.Root",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a64b90f7a341"
+    },
+    "DRAFT_a3c6b5600b5f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIActCalendarTip1.prefab",
+      "prefabRoot": "UIActCalendarTip1",
+      "path": "UIActCalendarTip1/Root/Tip/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_act_calendar_tip1",
+      "displayName": "按钮",
+      "chineseDescription": "UIActCalendarTip1的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIActCalendarTip1.prefab」中的UIActCalendarTip1按钮",
+      "suggestedTestId": "UIActCalendarTip1.Button",
+      "suggestedSemanticId": "UIActCalendarTip1.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a3c6b5600b5f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a64b90f7a341",
+      "DRAFT_a3c6b5600b5f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

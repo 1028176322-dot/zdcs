@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-06-24 11:24:23",
+  "source": "E:\\zdcs\\AutoSmoke\\元数据\\enhanced_ui_tree.json",
+  "stats": {
+    "file": "E:\\zdcs\\AutoSmoke\\元数据\\enhanced_ui_tree.json",
+    "nodeCount": 10759,
+    "pageCount": 0,
+    "missingPageId": 1,
+    "missingPath": 0,
+    "missingScreenRect": 200,
+    "errorCount": 0,
+    "warningCount": 201,
+    "errors": [],
+    "warnings": [
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "节点缺少screenRect，将在运行态匹配阶段补齐",
+      "nodes文件缺少pageId"
+    ],
+    "schemaVersion": "enhanced_ui_tree/v1"
+  },
+  "payload": {
+    "success": true,
+    "mode": "project",
+    "source": "E:\\zdcs\\AutoSmoke\\元数据\\enhanced_ui_tree.json",
+    "sourceDir": "E:\\zdcs\\AutoSmoke\\元数据",
+    "info": {
+      "file": "E:\\zdcs\\AutoSmoke\\元数据\\enhanced_ui_tree.json",
+      "nodeCount": 10759,
+      "pageCount": 0,
+      "missingPageId": 1,
+      "missingPath": 0,
+      "missingScreenRect": 200,
+      "errorCount": 0,
+      "warningCount": 201,
+      "errors": [],
+      "warnings": [
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "节点缺少screenRect，将在运行态匹配阶段补齐",
+        "nodes文件缺少pageId"
+      ],
+      "schemaVersion": "enhanced_ui_tree/v1"
+    },
+    "checked": [
+      "E:\\zdcs\\AutoSmoke\\元数据\\enhanced_ui_tree.json"
+    ]
+  }
+}

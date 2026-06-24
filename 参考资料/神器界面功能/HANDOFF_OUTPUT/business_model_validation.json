@@ -1,0 +1,276 @@
+{
+  "schema_version": "business_model.validation.v1",
+  "generated_at": "2026-06-17T18:26:35",
+  "status": "PASS",
+  "delivery_grade": "QA_READY",
+  "confirmation_policy": "OPEN_QUESTIONS_ARE_NON_BLOCKING_CONFIRMATION_ITEMS",
+  "confirmation_required_count": 0,
+  "validation_confirmation_count": 0,
+  "validation_confirmation_items": [],
+  "summary": {
+    "PASS": 43,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "check": "file_exists",
+      "status": "PASS",
+      "target": "structured_business_model.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\structured_business_model.json"
+    },
+    {
+      "check": "file_exists",
+      "status": "PASS",
+      "target": "fact_package.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\DATA\\fact_package.json"
+    },
+    {
+      "check": "file_exists",
+      "status": "PASS",
+      "target": "source_index.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\DATA\\source_index.json"
+    },
+    {
+      "check": "file_exists",
+      "status": "PASS",
+      "target": "fact_filter_report.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\fact_filter_report.json"
+    },
+    {
+      "check": "schema",
+      "status": "PASS",
+      "target": "structured_business_model.json",
+      "detail": ""
+    },
+    {
+      "check": "model_not_empty",
+      "status": "PASS",
+      "target": "structured_business_model.json",
+      "detail": "items=2"
+    },
+    {
+      "check": "statement_has_fact_ids",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。"
+    },
+    {
+      "check": "statement_has_evidence_refs",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。"
+    },
+    {
+      "check": "kind_stage_consistency",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": ""
+    },
+    {
+      "check": "fact_ids_exist",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "not_from_excluded_fact",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "excluded_fact_ids=[]"
+    },
+    {
+      "check": "evidence_refs_exist",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "evidence_refs_from_facts",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "outside=[]"
+    },
+    {
+      "check": "no_new_grounding_tokens",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "missing_tokens=[]"
+    },
+    {
+      "check": "unsupported_clauses",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "unsupported=[]"
+    },
+    {
+      "check": "variable_fixedness",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "ok"
+    },
+    {
+      "check": "wiki_evidence_for_public_rule",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "ok"
+    },
+    {
+      "check": "stage_grounded",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "stage=state_change"
+    },
+    {
+      "check": "stage_conflict",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": ""
+    },
+    {
+      "check": "uncertain_only_open_questions",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "ok"
+    },
+    {
+      "check": "config_not_action",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "ok"
+    },
+    {
+      "check": "no_project_noise",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "ok"
+    },
+    {
+      "check": "direct_support_slots",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": ""
+    },
+    {
+      "check": "direct_support_grounded",
+      "status": "PASS",
+      "target": "FLOW_001/STEP_001",
+      "detail": "direct statement must be covered by fact/evidence text"
+    },
+    {
+      "check": "statement_has_fact_ids",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。"
+    },
+    {
+      "check": "statement_has_evidence_refs",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。"
+    },
+    {
+      "check": "kind_stage_consistency",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": ""
+    },
+    {
+      "check": "fact_ids_exist",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "not_from_excluded_fact",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "excluded_fact_ids=[]"
+    },
+    {
+      "check": "evidence_refs_exist",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "missing=[]"
+    },
+    {
+      "check": "evidence_refs_from_facts",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "outside=[]"
+    },
+    {
+      "check": "no_new_grounding_tokens",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "missing_tokens=[]"
+    },
+    {
+      "check": "unsupported_clauses",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "unsupported=[]"
+    },
+    {
+      "check": "variable_fixedness",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "ok"
+    },
+    {
+      "check": "wiki_evidence_for_public_rule",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "ok"
+    },
+    {
+      "check": "stage_grounded",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "stage=config_constraint"
+    },
+    {
+      "check": "stage_conflict",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": ""
+    },
+    {
+      "check": "uncertain_only_open_questions",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "ok"
+    },
+    {
+      "check": "config_not_action",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "ok"
+    },
+    {
+      "check": "no_project_noise",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "ok"
+    },
+    {
+      "check": "direct_support_slots",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": ""
+    },
+    {
+      "check": "direct_support_grounded",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": "direct statement must be covered by fact/evidence text"
+    },
+    {
+      "check": "logic_closure",
+      "status": "PASS",
+      "target": "structured_business_model.json",
+      "detail": "ok"
+    }
+  ],
+  "qa_ready_blocker_count": 0
+}

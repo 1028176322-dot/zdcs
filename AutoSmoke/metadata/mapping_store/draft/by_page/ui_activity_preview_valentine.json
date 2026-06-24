@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_preview_valentine",
+  "displayName": "ui_activity_preview_valentine",
+  "drafts": {
+    "DRAFT_e76949e49221": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Valentine.prefab",
+      "prefabRoot": "UIActivityPreview_Valentine",
+      "path": "UIActivityPreview_Valentine/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_preview_valentine",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityPreview_Valentine的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Valentine.prefab」中的UIActivityPreview_ValentineGo按钮",
+      "suggestedTestId": "UIActivityPreview_Valentine.GoBtn",
+      "suggestedSemanticId": "UIActivityPreview_Valentine.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e76949e49221"
+    },
+    "DRAFT_78d9174e3c5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Valentine.prefab",
+      "prefabRoot": "UIActivityPreview_Valentine",
+      "path": "UIActivityPreview_Valentine/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_preview_valentine",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityPreview_Valentine的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Valentine.prefab」中的UIActivityPreview_Valentine关闭按钮",
+      "suggestedTestId": "UIActivityPreview_Valentine.CloseBtn",
+      "suggestedSemanticId": "UIActivityPreview_Valentine.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_78d9174e3c5e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e76949e49221",
+      "DRAFT_78d9174e3c5e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

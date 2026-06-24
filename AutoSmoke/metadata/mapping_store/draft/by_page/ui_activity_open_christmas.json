@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_open_christmas",
+  "displayName": "ui_activity_open_christmas",
+  "drafts": {
+    "DRAFT_86b42cfc05cf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab",
+      "prefabRoot": "UIActivityOpen_Christmas",
+      "path": "UIActivityOpen_Christmas/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_open_christmas",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityOpen_Christmas的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab」中的UIActivityOpen_ChristmasGo按钮",
+      "suggestedTestId": "UIActivityOpen_Christmas.GoBtn",
+      "suggestedSemanticId": "UIActivityOpen_Christmas.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_86b42cfc05cf"
+    },
+    "DRAFT_eb795af7242b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab",
+      "prefabRoot": "UIActivityOpen_Christmas",
+      "path": "UIActivityOpen_Christmas/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_open_christmas",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityOpen_Christmas的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab」中的UIActivityOpen_Christmas关闭按钮",
+      "suggestedTestId": "UIActivityOpen_Christmas.CloseBtn",
+      "suggestedSemanticId": "UIActivityOpen_Christmas.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb795af7242b"
+    },
+    "DRAFT_90ffa9f86f58": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab",
+      "prefabRoot": "UIActivityOpen_Christmas",
+      "path": "UIActivityOpen_Christmas/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_open_christmas",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityOpen_Christmas的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Christmas.prefab」中的UIActivityOpen_Christmas项1",
+      "suggestedTestId": "UIActivityOpen_Christmas.Item1",
+      "suggestedSemanticId": "UIActivityOpen_Christmas.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_90ffa9f86f58"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_86b42cfc05cf",
+      "DRAFT_eb795af7242b",
+      "DRAFT_90ffa9f86f58"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

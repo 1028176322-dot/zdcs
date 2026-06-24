@@ -1,0 +1,19 @@
+{
+  "total": 2,
+  "passed": 1,
+  "failed": 1,
+  "results": [
+    {
+      "case_id": "TC001",
+      "name": "测试1",
+      "result": true,
+      "error_message": ""
+    },
+    {
+      "case_id": "TC002",
+      "name": "测试2",
+      "result": false,
+      "error_message": "断言失败: 期望文本未找到"
+    }
+  ]
+}

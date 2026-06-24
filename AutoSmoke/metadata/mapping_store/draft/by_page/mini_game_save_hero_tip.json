@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mini_game_save_hero_tip",
+  "displayName": "mini_game_save_hero_tip",
+  "drafts": {
+    "DRAFT_a7ef2e899482": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameSaveHeroTip.prefab",
+      "prefabRoot": "MiniGameSaveHeroTip",
+      "path": "MiniGameSaveHeroTip/centre_other/animation/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "mini_game_save_hero_tip",
+      "displayName": "按钮",
+      "chineseDescription": "MiniGameSaveHeroTip的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameSaveHeroTip.prefab」中的MiniGameSaveHeroTip按钮",
+      "suggestedTestId": "MiniGameSaveHeroTip.Btn",
+      "suggestedSemanticId": "MiniGameSaveHeroTip.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a7ef2e899482"
+    },
+    "DRAFT_7067639896db": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameSaveHeroTip.prefab",
+      "prefabRoot": "EXPORT_MiniGameSaveHeroTip",
+      "path": "EXPORT_MiniGameSaveHeroTip/centre_other/animation/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "mini_game_save_hero_tip",
+      "displayName": "按钮",
+      "chineseDescription": "EXPORT_MiniGameSaveHeroTip的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameSaveHeroTip.prefab」中的EXPORT_MiniGameSaveHeroTip按钮",
+      "suggestedTestId": "EXPORT_MiniGameSaveHeroTip.Btn",
+      "suggestedSemanticId": "EXPORT_MiniGameSaveHeroTip.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7067639896db"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a7ef2e899482",
+      "DRAFT_7067639896db"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

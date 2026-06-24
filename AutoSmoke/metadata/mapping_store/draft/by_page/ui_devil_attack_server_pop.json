@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_devil_attack_server_pop",
+  "displayName": "ui_devil_attack_server_pop",
+  "drafts": {
+    "DRAFT_6d3b3663c196": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackServerPop.prefab",
+      "prefabRoot": "UIDevilAttackServerPop",
+      "path": "UIDevilAttackServerPop/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_devil_attack_server_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDevilAttackServerPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackServerPop.prefab」中的UIDevilAttackServerPop关闭按钮",
+      "suggestedTestId": "UIDevilAttackServerPop.CloseBtn",
+      "suggestedSemanticId": "UIDevilAttackServerPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6d3b3663c196"
+    },
+    "DRAFT_8e5233396fab": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackServerPop.prefab",
+      "prefabRoot": "UIDevilAttackServerPop",
+      "path": "UIDevilAttackServerPop/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_devil_attack_server_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIDevilAttackServerPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackServerPop.prefab」中的UIDevilAttackServerPop按钮",
+      "suggestedTestId": "UIDevilAttackServerPop.Btn",
+      "suggestedSemanticId": "UIDevilAttackServerPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8e5233396fab"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6d3b3663c196",
+      "DRAFT_8e5233396fab"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

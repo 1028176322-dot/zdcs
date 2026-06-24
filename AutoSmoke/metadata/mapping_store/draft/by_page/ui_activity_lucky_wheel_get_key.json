@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_lucky_wheel_get_key",
+  "displayName": "ui_activity_lucky_wheel_get_key",
+  "drafts": {
+    "DRAFT_ae20618b5df9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab",
+      "prefabRoot": "UIActivityLuckyWheelGetKey",
+      "path": "UIActivityLuckyWheelGetKey/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_get_key",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityLuckyWheelGetKey的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab」中的UIActivityLuckyWheelGetKey关闭按钮",
+      "suggestedTestId": "UIActivityLuckyWheelGetKey.CloseBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelGetKey.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ae20618b5df9"
+    },
+    "DRAFT_d18428548781": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab",
+      "prefabRoot": "UIActivityLuckyWheelGetKey",
+      "path": "UIActivityLuckyWheelGetKey/Root/BG/ItemGrid/Item/cont/BuyOneBtn",
+      "nodeName": "BuyOneBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_get_key",
+      "displayName": "购买One按钮",
+      "chineseDescription": "UIActivityLuckyWheelGetKey的购买One按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab」中的UIActivityLuckyWheelGetKey购买One按钮",
+      "suggestedTestId": "UIActivityLuckyWheelGetKey.BuyOneBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelGetKey.购买One按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d18428548781"
+    },
+    "DRAFT_646a2418ff71": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab",
+      "prefabRoot": "UIActivityLuckyWheelGetKey",
+      "path": "UIActivityLuckyWheelGetKey/Root/BG/ItemGrid/Item/cont/quickBtn",
+      "nodeName": "quickBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_get_key",
+      "displayName": "quick按钮",
+      "chineseDescription": "UIActivityLuckyWheelGetKey的quick按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab」中的UIActivityLuckyWheelGetKeyquick按钮",
+      "suggestedTestId": "UIActivityLuckyWheelGetKey.quickBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelGetKey.quick按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_646a2418ff71"
+    },
+    "DRAFT_fe7b36782da3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab",
+      "prefabRoot": "UIActivityLuckyWheelGetKey",
+      "path": "UIActivityLuckyWheelGetKey/Root/BG/ScrollView/ViewPort/Content/Item1/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_get_key",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityLuckyWheelGetKey的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelGetKey.prefab」中的UIActivityLuckyWheelGetKey按钮",
+      "suggestedTestId": "UIActivityLuckyWheelGetKey.Button",
+      "suggestedSemanticId": "UIActivityLuckyWheelGetKey.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe7b36782da3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ae20618b5df9",
+      "DRAFT_d18428548781",
+      "DRAFT_646a2418ff71",
+      "DRAFT_fe7b36782da3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

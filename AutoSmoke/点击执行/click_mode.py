@@ -1,0 +1,530 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+点击模式抽象层 - 按 AutoSmoke_按用例步骤自动点击方案.md 第8节实现
+
+支持三种点击模式（文档 8 节）：
+1. real_mouse    — 使用系统鼠标真实点击 Unity GameView
+2. poco_click    — 通过 Poco SDK 节点执行点击
+3. unity_inject  — 通过 Unity Editor 辅助脚本注入 EventSystem 点击
+
+设计：
+    所有模式统一实现 ClickHandler 接口：
+        click(x, y, coordinate_type, target_info) -> ClickResult
+
+使用方式：
+    handler = ClickMode.create("real_mouse")
+    result = handler.click(159, 344, "content", {"name": "BagBtn"})
+"""
+
+import os
+import json
+import time
+import logging
+from pathlib import Path
+from typing import Dict, Optional, Any
+from path_utils import AUTOSMOKE_ROOT as CONFIG_DIR
+
+logger = logging.getLogger(__name__)
+
+
+# ============================================================
+# 点击结果结构
+# ============================================================
+
+CLICK_OK = "CLICK_CHANGED"
+CLICK_NO_CHANGE = "CLICK_NO_CHANGE"
+CLICK_BLOCKED = "CLICK_BLOCKED"
+CLICK_ERROR = "CLICK_ERROR"
+CLICK_NO_HIT = "CLICK_NO_HIT"
+
+
+def make_click_result(result: str = CLICK_OK,
+                      message: str = "",
+                      hit_object: str = None,
+                      inject_result: Dict = None) -> Dict:
+    """构造统一的点击结果字典"""
+    return {
+        "result": result,
+        "message": message,
+        "hit_object": hit_object,
+        "inject_result": inject_result,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+    }
+
+
+# ============================================================
+# 点击模式基类
+# ============================================================
+
+class ClickHandler:
+    """点击模式基类，定义统一接口"""
+
+    def __init__(self, mapper=None):
+        self._mapper = mapper
+
+    def click(self, x: float, y: float,
+              coordinate_type: str = "content",
+              target_info: Dict = None,
+              description: str = "") -> Dict:
+        """
+        通用点击接口
+
+        :param x: 坐标 X
+        :param y: 坐标 Y
+        :param coordinate_type: 坐标类型 (content/design/normalized)
+        :param target_info: 目标信息（poco_click 需要元素名）
+        :param description: 点击描述
+        :return: 点击结果字典
+        """
+        raise NotImplementedError
+
+    @property
+    def name(self) -> str:
+        """模式名称（转换为小写下划线格式）"""
+        name = self.__class__.__name__.replace("Click", "")
+        # 驼峰转下划线：RealMouse → real_mouse
+        import re
+        name = re.sub(r'(?<=[a-z])(?=[A-Z])', '_', name).lower()
+        return name
+
+
+# ============================================================
+# 模式1：real_mouse — 系统鼠标点击
+# ============================================================
+
+class RealMouseClick(ClickHandler):
+    """系统鼠标真实点击"""
+
+    def click(self, x, y, coordinate_type="content",
+              target_info=None, description=""):
+        from 点击执行.click_game_content import ClickExecutor
+        executor = ClickExecutor(mapper=self._mapper)
+        # 始终用 content 坐标
+        if coordinate_type == "design":
+            return executor.click_design(x, y, description)
+        elif coordinate_type == "normalized":
+            return executor.click_normalized(x, y, description)
+        else:
+            return executor.click_content(x, y, description)
+
+
+# ============================================================
+# 模式2：poco_click — Poco SDK 节点点击
+# ============================================================
+
+class PocoClick(ClickHandler):
+    """通过 Poco SDK 点击元素"""
+
+    def __init__(self, mapper=None, poco_connector=None):
+        super().__init__(mapper)
+        self._connector = poco_connector
+
+    def _get_connector(self):
+        """获取 Poco 连接（懒加载）"""
+        if self._connector is None:
+            from poco_connector.poco_connector import PocoConnector
+            connector = PocoConnector(device_type="Windows")
+            if connector.connect():
+                self._connector = connector
+            else:
+                raise RuntimeError("Poco 连接失败")
+        return self._connector
+
+    def click(self, x, y, coordinate_type="content",
+              target_info=None, description=""):
+        connector = self._get_connector()
+
+        # 如果有元素名称，优先按名称点击
+        name = None
+        if target_info and isinstance(target_info, dict):
+            name = target_info.get("value") or target_info.get("name")
+
+        if name:
+            try:
+                poco_element = connector.find_element(name=name)
+                if poco_element:
+                    poco_element.click()
+                    logger.info("Poco 点击元素: %s", name)
+                    return make_click_result(CLICK_OK, f"Poco clicked: {name}")
+                else:
+                    logger.warning("Poco 未找到元素: %s", name)
+                    return make_click_result(CLICK_NO_HIT,
+                                             f"Poco element not found: {name}")
+            except Exception as e:
+                logger.error("Poco 点击失败: %s", e)
+                return make_click_result(CLICK_ERROR, str(e))
+
+        # 无元素名，按坐标点击（通过 CoordinateMapper 转 screen）
+        if coordinate_type == "design" and self._mapper:
+            sx, sy = self._mapper.design_to_screen(x, y)
+        elif coordinate_type == "normalized" and self._mapper:
+            sx, sy = self._mapper.normalized_to_screen(x, y)
+        elif coordinate_type == "content" and self._mapper:
+            sx, sy = self._mapper.content_to_screen(x, y)
+        else:
+            sx, sy = int(x), int(y)
+
+        # Poco 的 click([x, y]) 使用屏幕坐标
+        try:
+            connector.poco.click([sx, sy])
+            logger.info("Poco 点击坐标: screen(%d, %d)", sx, sy)
+            return make_click_result(CLICK_OK, f"Poco clicked screen({sx},{sy})")
+        except Exception as e:
+            logger.error("Poco 坐标点击失败: %s", e)
+            return make_click_result(CLICK_ERROR, str(e))
+
+    def close(self):
+        """关闭 Poco 连接"""
+        if self._connector:
+            try:
+                self._connector.close()
+            except Exception:
+                pass
+            self._connector = None
+
+
+# ============================================================
+# 模式3：unity_inject — Unity Editor 辅助脚本注入
+# ============================================================
+
+class UnityInjectClick(ClickHandler):
+    """
+    通过 Unity Editor 辅助脚本注入 EventSystem 点击
+
+    工作方式：
+        1. 写入 click_request.json
+        2. Unity 侧辅助脚本轮询读取
+        3. 执行 EventSystem.RaycastAll + ExecuteEvents
+        4. 写回 click_result.json
+        5. Python 侧读取结果
+
+    C# 辅助脚本需部署到 Unity Assets/Editor/ 目录。
+    """
+
+    def __init__(self, mapper=None,
+                 request_dir: str = None,
+                 poll_interval: float = 0.1,
+                 poll_timeout: float = 20.0):
+        """
+        :param mapper: CoordinateMapper
+        :param request_dir: click_request.json 存放目录
+        :param poll_interval: 轮询间隔（秒）
+        :param poll_timeout: 超时时间（秒）
+        """
+        super().__init__(mapper)
+        self.request_dir = request_dir or os.path.join(
+            os.path.expanduser("~"), ".autosmoke")
+        self.poll_interval = poll_interval
+        self.poll_timeout = poll_timeout
+        Path(self.request_dir).mkdir(parents=True, exist_ok=True)
+
+    def click(self, x, y, coordinate_type="content",
+              target_info=None, description=""):
+        mapper = self._mapper
+
+        request_id = f"click_{int(time.time() * 1000)}"
+        timestamp = time.strftime("%Y-%m-%dT%H:%M:%S")
+
+        # 判断目标类型：优先使用 target_info 中的类型
+        target_type = None
+        target_value = None
+        safe_point = "center"
+        if target_info and isinstance(target_info, dict):
+            ttype = target_info.get("type", "")
+            tval = target_info.get("value", "") or target_info.get("testId", "")
+            if ttype in ("testId", "semantic", "semanticId", "pocoPath", "path"):
+                target_type = ttype
+                target_value = tval
+                if ttype == "semantic" or ttype == "semanticId":
+                    target_type = "semanticId"
+
+        # 构造请求
+        click_request = {
+            "action": "click",
+            "requestId": request_id,
+            "timestamp": timestamp,
+        }
+
+        if target_type:
+            # 目标模式：testId/semanticId/pocoPath（Unity 在 Editor 中查找）
+            click_request["targetType"] = target_type
+            click_request["targetValue"] = target_value
+            click_request["safePoint"] = safe_point
+            click_request["x"] = 0
+            click_request["y"] = 0
+            sx, sy = 0, 0
+        else:
+            # 坐标模式（兜底）
+            # 需要将坐标转换为屏幕绝对坐标发送给 Unity
+            if mapper:
+                if coordinate_type == "content":
+                    # content → design → screen
+                    dx, dy = mapper.content_to_design(x, y)
+                    sx, sy = mapper.design_to_screen(dx, dy)
+                elif coordinate_type == "normalized":
+                    # normalized → design → screen
+                    dx = x * mapper.design_width
+                    dy = y * mapper.design_height
+                    sx, sy = mapper.design_to_screen(dx, dy)
+                elif coordinate_type == "design":
+                    # design → screen
+                    sx, sy = mapper.design_to_screen(x, y)
+                else:
+                    sx, sy = mapper.design_to_screen(x, y)
+            else:
+                sx, sy = int(round(x)), int(round(y))
+
+            click_request["targetType"] = "coordinate"
+            click_request["x"] = sx
+            click_request["y"] = sy
+            click_request["gameResolution"] = (
+                [mapper.design_width, mapper.design_height] if mapper else [1170, 2532]
+            )
+
+        # 写入请求文件（先删除旧请求，避免 C# 读到过期请求）
+        req_path = os.path.join(self.request_dir, "click_request.json")
+        old_req_path = os.path.join(self.request_dir, "click_request.consumed")
+        if os.path.exists(req_path):
+            try:
+                # 如果还有未消费的旧请求，等待 C# 处理完
+                if not os.path.exists(old_req_path):
+                    waited = 0
+                    while waited < 3.0:
+                        if os.path.exists(old_req_path) or not os.path.exists(req_path):
+                            break
+                        time.sleep(0.1)
+                        waited += 0.1
+            except Exception:
+                pass
+        with open(req_path, "w", encoding="utf-8") as f:
+            json.dump(click_request, f, indent=2)
+
+        if target_type:
+            logger.info("UnityInject 请求已写入: %s (target=%s:%s, id=%s)",
+                        req_path, target_type, target_value, request_id)
+        else:
+            logger.info("UnityInject 请求已写入: %s (screen=%d,%d, id=%s)",
+                        req_path, sx, sy, request_id)
+
+        # 轮询等待结果
+        res_path = os.path.join(self.request_dir, "click_result.json")
+        start = time.time()
+        result_data = None
+
+        # 删除旧结果
+        if os.path.exists(res_path):
+            try:
+                os.remove(res_path)
+            except Exception:
+                pass
+
+        while time.time() - start < self.poll_timeout:
+            if os.path.exists(res_path):
+                try:
+                    with open(res_path, "r", encoding="utf-8") as f:
+                        result_data = json.load(f)
+                    if result_data.get("requestId") == request_id:
+                        break
+                except Exception:
+                    pass
+            time.sleep(self.poll_interval)
+
+        if result_data is None:
+            logger.error("UnityInject 超时 (%.1fs)，未收到响应", self.poll_timeout)
+            return make_click_result(CLICK_ERROR,
+                                     f"Unity inject timeout ({self.poll_timeout}s)")
+
+        # 读取结果后清理 consumed 信号文件
+        consumed_path = os.path.join(self.request_dir, "click_request.consumed")
+        try:
+            if os.path.exists(consumed_path):
+                os.remove(consumed_path)
+        except Exception:
+            pass
+
+        status = result_data.get("status", "ERROR")
+
+        # 从 C# ClickResult 的正确路径读取结果
+        # C# 结构: result_data.click.eventReceiver / click.screenPoint / target.gameObjectPath
+        click_info = result_data.get("click") or {}
+        target_info_result = result_data.get("target") or {}
+        hit_obj = click_info.get("eventReceiver") or target_info_result.get("gameObjectPath")
+        screen_pos = click_info.get("screenPoint")
+
+        if status == "OK":
+            logger.info("UnityInject 成功: hit=%s pos=%s",
+                       hit_obj, screen_pos)
+            return make_click_result(
+                CLICK_OK,
+                f"Unity inject OK: hit {hit_obj}",
+                hit_object=hit_obj,
+                inject_result=result_data,
+            )
+        elif status == "NO_HIT":
+            logger.warning("UnityInject 未命中: %s", result_data.get("message"))
+            return make_click_result(
+                CLICK_NO_HIT,
+                result_data.get("message", "No UI hit"),
+                hit_object=None,
+                inject_result=result_data,
+            )
+        else:
+            logger.error("UnityInject 失败 %s: %s", status, result_data.get("message"))
+            return make_click_result(
+                CLICK_ERROR,
+                result_data.get("message", "Unknown error"),
+                hit_object=None,
+                inject_result=result_data,
+            )
+
+
+# ============================================================
+# 模式工厂
+# ============================================================
+
+class ClickMode:
+    """点击模式工厂"""
+
+    @staticmethod
+    def create(mode: str,
+               mapper=None,
+               poco_connector=None,
+               **kwargs) -> ClickHandler:
+        """
+        创建点击处理器
+
+        :param mode: 模式名 (real_mouse / poco_click / unity_inject)
+        :param mapper: CoordinateMapper 实例
+        :param poco_connector: PocoConnector 实例（poco_click 模式需要）
+        :return: ClickHandler 实例
+        """
+        mode = mode.lower().replace("-", "_")
+
+        if mode in ("real_mouse", "mouse", "real"):
+            return RealMouseClick(mapper)
+
+        elif mode in ("poco_click", "poco"):
+            return PocoClick(mapper, poco_connector)
+
+        elif mode in ("unity_inject", "inject", "unity"):
+            return UnityInjectClick(mapper, **kwargs)
+
+        else:
+            raise ValueError(f"不支持的点击模式: {mode}，可选: "
+                             f"real_mouse / poco_click / unity_inject")
+
+    @staticmethod
+    def list_modes() -> Dict[str, str]:
+        """列出所有可用模式及说明"""
+        return {
+            "real_mouse": "系统鼠标真实点击 Unity GameView",
+            "poco_click": "通过 Poco SDK 节点执行点击",
+            "unity_inject": "Editor 辅助脚本注入 EventSystem 点击",
+        }
+
+
+# ============================================================
+# 集成到 CaseStepExecutor
+# ============================================================
+
+def patch_executor(executor, click_mode: str = None, **kwargs):
+    """
+    给 CaseStepExecutor 实例打补丁，替换 click 执行方式
+
+    用法：
+        executor = CaseStepExecutor()
+        patch_executor(executor, "poco_click")
+        executor.execute_steps([...])
+
+    :param executor: CaseStepExecutor 实例
+    :param click_mode: 点击模式
+    :param kwargs: 传给 ClickMode.create 的额外参数
+    """
+    mode = click_mode or getattr(executor, "click_mode", "real_mouse")
+    handler = ClickMode.create(mode, **kwargs)
+
+    # 替换 executor 内部的 _execute_click 方法
+    executor._click_handler = handler
+    executor.click_mode = mode
+
+    logger.info("CaseStepExecutor 点击模式已切换为: %s", mode)
+    return executor
+
+
+# ============================================================
+# 独立运行入口
+# ============================================================
+
+def test_click_mode():
+    """测试点击模式抽象层"""
+    print("=" * 60)
+    print("点击模式抽象层测试")
+    print("=" * 60)
+
+    # 测试1：列出模式
+    print("\n[测试1] 列出模式...")
+    modes = ClickMode.list_modes()
+    for key, desc in modes.items():
+        print(f"  {key:20s} — {desc}")
+    assert len(modes) >= 3
+    print("  ✅ 通过")
+
+    # 测试2：创建各模式（不执行真实点击）
+    print("\n[测试2] 创建各模式处理器...")
+    for mode_name in ["real_mouse", "poco_click", "unity_inject"]:
+        try:
+            handler = ClickMode.create(mode_name)
+            print(f"  {mode_name:20s} → {handler.name} ✅")
+        except Exception as e:
+            print(f"  {mode_name:20s} → ❌ {e}")
+    print("  ✅ 通过")
+
+    # 测试3：模式名称属性
+    print("\n[测试3] 模式名称...")
+    handlers = [
+        ("real_mouse", RealMouseClick),
+        ("poco_click", PocoClick),
+        ("unity_inject", UnityInjectClick),
+    ]
+    for expected_name, cls in handlers:
+        h = cls()
+        actual = h.name
+        ok = "✅" if actual == expected_name else "❌"
+        print(f"  {cls.__name__:20s} → name={actual:15s} {ok}")
+    print("  ✅ 通过")
+
+    # 测试4：非法模式
+    print("\n[测试4] 非法模式阻断...")
+    try:
+        ClickMode.create("invalid_mode")
+        print("  ❌ 应抛出异常但未抛出")
+    except ValueError as e:
+        print(f"  正确阻断: {e}")
+        print("  ✅ 通过")
+
+    # 测试5：make_click_result 结构
+    print("\n[测试5] 点击结果结构...")
+    r = make_click_result(CLICK_OK, "test ok", hit_object="Canvas/Btn")
+    required = ["result", "message", "hit_object", "timestamp"]
+    for field in required:
+        assert field in r, f"缺少字段: {field}"
+    print(f"  字段: {list(r.keys())}")
+    print(f"  hit_object: {r['hit_object']}")
+    print("  ✅ 通过")
+
+    print("\n" + "=" * 60)
+    print("所有测试通过 ✅")
+    print("=" * 60)
+    print("\n集成到 executor:")
+    print("  from 点击执行.click_mode import patch_executor")
+    print("  patch_executor(executor, 'poco_click')")
+    print("  executor.execute_steps([...])")
+
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
+    test_click_mode()

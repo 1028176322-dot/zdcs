@@ -1,0 +1,56 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.gender.button",
+  "testId": "character_info.gender.button",
+  "semanticId": "character_info.gender.button",
+  "targetName": "角色信息界面性别图标按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_184752_highlight.png",
+    "screenRectUsed": [
+      528,
+      2116,
+      559,
+      2164
+    ],
+    "confirmedTestId": "character_info.gender.button",
+    "formalRef": "formal://character_info/character_info.gender.button",
+    "evidenceRef": "EVIDENCE_character_info.gender.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6441670,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+      "screenPoint": [
+        543,
+        392
+      ],
+      "injectorResultRecovered": true
+    }
+  },
+  "updated_at": "2026-06-23T18:55:19",
+  "displayName": "角色信息-性别按钮",
+  "role": "button",
+  "elementType": "Button"
+}

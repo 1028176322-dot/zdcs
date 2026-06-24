@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_cross_server_invade",
+  "displayName": "ui_cross_server_invade",
+  "drafts": {
+    "DRAFT_5a7540dd9cc3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/uiCrossServerInvade.prefab",
+      "prefabRoot": "uiCrossServerInvade",
+      "path": "uiCrossServerInvade/Root/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "CanvasGroup",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_cross_server_invade",
+      "displayName": "Bg",
+      "chineseDescription": "uiCrossServerInvade的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/uiCrossServerInvade.prefab」中的uiCrossServerInvadeBg",
+      "suggestedTestId": "uiCrossServerInvade.Bg",
+      "suggestedSemanticId": "uiCrossServerInvade.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5a7540dd9cc3"
+    },
+    "DRAFT_c03017c681c6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/uiCrossServerInvade.prefab",
+      "prefabRoot": "uiCrossServerInvade",
+      "path": "uiCrossServerInvade/Root/Bg/Icon",
+      "nodeName": "Icon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_cross_server_invade",
+      "displayName": "图标",
+      "chineseDescription": "uiCrossServerInvade的图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/uiCrossServerInvade.prefab」中的uiCrossServerInvade图标",
+      "suggestedTestId": "uiCrossServerInvade.Icon",
+      "suggestedSemanticId": "uiCrossServerInvade.图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c03017c681c6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5a7540dd9cc3",
+      "DRAFT_c03017c681c6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

@@ -1,0 +1,16 @@
+# 设备配置
+# Android真机: Android:///设备序列号
+# 模拟器:    Android:///127.0.0.1:5037/模拟器序列号
+# Windows:   Windows:///
+
+device:
+  uri: "Android:///192.168.1.100:5555"   # 改成你的设备IP
+  package: "com.yourgame.packagename"     # 改成游戏包名
+  poco_port: 5001                         # Poco默认端口
+
+# 多设备（SLG多账号测试用）
+# devices:
+#   - uri: "Android:///emulator-5554"
+#     package: "com.yourgame.packagename"
+#   - uri: "Android:///emulator-5556"
+#     package: "com.yourgame.packagename"

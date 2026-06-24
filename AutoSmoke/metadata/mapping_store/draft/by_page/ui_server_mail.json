@@ -1,0 +1,192 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_server_mail",
+  "displayName": "ui_server_mail",
+  "drafts": {
+    "DRAFT_61d494cda3cf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "关闭按钮",
+      "chineseDescription": "uiServerMail的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMail关闭按钮",
+      "suggestedTestId": "uiServerMail.CloseBtn",
+      "suggestedSemanticId": "uiServerMail.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_61d494cda3cf"
+    },
+    "DRAFT_fe46c7c386da": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/btn_send",
+      "nodeName": "btn_send",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "btnsend",
+      "chineseDescription": "uiServerMail的btnsend，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMailbtnsend",
+      "suggestedTestId": "uiServerMail.btn_send",
+      "suggestedSemanticId": "uiServerMail.btnsend",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe46c7c386da"
+    },
+    "DRAFT_88ba43910ae0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/sp_input_title_di/input_title",
+      "nodeName": "input_title",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "inputtitle",
+      "chineseDescription": "uiServerMail的inputtitle",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMailinputtitle",
+      "suggestedTestId": "uiServerMail.input_title",
+      "suggestedSemanticId": "uiServerMail.inputtitle",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_88ba43910ae0"
+    },
+    "DRAFT_047e890a2f17": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/InputCheckValid",
+      "nodeName": "InputCheckValid",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "输入CheckValid",
+      "chineseDescription": "uiServerMail的输入CheckValid",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMail输入CheckValid",
+      "suggestedTestId": "uiServerMail.InputCheckValid",
+      "suggestedSemanticId": "uiServerMail.输入CheckValid",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_047e890a2f17"
+    },
+    "DRAFT_0f24b7d21d9a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/InputCheckInvalid",
+      "nodeName": "InputCheckInvalid",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "输入CheckInvalid",
+      "chineseDescription": "uiServerMail的输入CheckInvalid",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMail输入CheckInvalid",
+      "suggestedTestId": "uiServerMail.InputCheckInvalid",
+      "suggestedSemanticId": "uiServerMail.输入CheckInvalid",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f24b7d21d9a"
+    },
+    "DRAFT_246eeea3f60b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/sp_di/panel_list/sp_input_describe_di",
+      "nodeName": "sp_input_describe_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "TFWImage"
+      ],
+      "spriteName": "tongyong_cilck",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "spinputdescribedi",
+      "chineseDescription": "uiServerMail的spinputdescribedi",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMailspinputdescribedi",
+      "suggestedTestId": "uiServerMail.sp_input_describe_di",
+      "suggestedSemanticId": "uiServerMail.spinputdescribedi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_246eeea3f60b"
+    },
+    "DRAFT_0e0e948eafa2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab",
+      "prefabRoot": "uiServerMail",
+      "path": "uiServerMail/content/centre_other/sp_di/panel_list/sp_input_describe_show",
+      "nodeName": "sp_input_describe_show",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListenerWithoutDrag"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_server_mail",
+      "displayName": "spinputdescribeshow",
+      "chineseDescription": "uiServerMail的spinputdescribeshow",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/uiServerMail.prefab」中的uiServerMailspinputdescribeshow",
+      "suggestedTestId": "uiServerMail.sp_input_describe_show",
+      "suggestedSemanticId": "uiServerMail.spinputdescribeshow",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0e0e948eafa2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_61d494cda3cf",
+      "DRAFT_fe46c7c386da",
+      "DRAFT_88ba43910ae0",
+      "DRAFT_047e890a2f17",
+      "DRAFT_0f24b7d21d9a",
+      "DRAFT_246eeea3f60b",
+      "DRAFT_0e0e948eafa2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 7
+}

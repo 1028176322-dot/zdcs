@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_devil_attack_come",
+  "displayName": "ui_devil_attack_come",
+  "drafts": {
+    "DRAFT_d27bc0672bb9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackCome.prefab",
+      "prefabRoot": "UIDevilAttackCome",
+      "path": "UIDevilAttackCome/Root/BG/TFWUIMask",
+      "nodeName": "TFWUIMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener",
+        "TFWUIMaskLayer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_devil_attack_come",
+      "displayName": "TFWUIMask",
+      "chineseDescription": "UIDevilAttackCome的TFWUIMask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackCome.prefab」中的UIDevilAttackComeTFWUIMask",
+      "suggestedTestId": "UIDevilAttackCome.TFWUIMask",
+      "suggestedSemanticId": "UIDevilAttackCome.TFWUIMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d27bc0672bb9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d27bc0672bb9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

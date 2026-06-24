@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_gain",
+  "displayName": "ui_throne_gain",
+  "drafts": {
+    "DRAFT_5555dd42693c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneGain.prefab",
+      "prefabRoot": "UIThroneGain",
+      "path": "UIThroneGain/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_throne_gain",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneGain的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneGain.prefab」中的UIThroneGain关闭按钮",
+      "suggestedTestId": "UIThroneGain.CloseBtn",
+      "suggestedSemanticId": "UIThroneGain.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5555dd42693c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5555dd42693c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

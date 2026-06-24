@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_monopoly_roll_pop",
+  "displayName": "ui_activity_monopoly_roll_pop",
+  "drafts": {
+    "DRAFT_0c8ad20aba02": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab",
+      "prefabRoot": "UIActivityMonopolyRollPop",
+      "path": "UIActivityMonopolyRollPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_roll_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityMonopolyRollPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab」中的UIActivityMonopolyRollPop关闭按钮",
+      "suggestedTestId": "UIActivityMonopolyRollPop.CloseBtn",
+      "suggestedSemanticId": "UIActivityMonopolyRollPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0c8ad20aba02"
+    },
+    "DRAFT_d292bde11ded": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab",
+      "prefabRoot": "UIActivityMonopolyRollPop",
+      "path": "UIActivityMonopolyRollPop/Root/Item_new",
+      "nodeName": "Item_new",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_roll_pop",
+      "displayName": "项new",
+      "chineseDescription": "UIActivityMonopolyRollPop的项new",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab」中的UIActivityMonopolyRollPop项new",
+      "suggestedTestId": "UIActivityMonopolyRollPop.Item_new",
+      "suggestedSemanticId": "UIActivityMonopolyRollPop.项new",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d292bde11ded"
+    },
+    "DRAFT_0986f7036e6f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab",
+      "prefabRoot": "UIActivityMonopolyRollPop",
+      "path": "UIActivityMonopolyRollPop/Root/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_roll_pop",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityMonopolyRollPop的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab」中的UIActivityMonopolyRollPopClickContent",
+      "suggestedTestId": "UIActivityMonopolyRollPop.ClickContent",
+      "suggestedSemanticId": "UIActivityMonopolyRollPop.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0986f7036e6f"
+    },
+    "DRAFT_9249bd6f8bd3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab",
+      "prefabRoot": "UIActivityMonopolyRollPop",
+      "path": "UIActivityMonopolyRollPop/Root/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_roll_pop",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityMonopolyRollPop的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyRollPop.prefab」中的UIActivityMonopolyRollPopGet按钮",
+      "suggestedTestId": "UIActivityMonopolyRollPop.GetBtn",
+      "suggestedSemanticId": "UIActivityMonopolyRollPop.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9249bd6f8bd3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0c8ad20aba02",
+      "DRAFT_d292bde11ded",
+      "DRAFT_0986f7036e6f",
+      "DRAFT_9249bd6f8bd3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

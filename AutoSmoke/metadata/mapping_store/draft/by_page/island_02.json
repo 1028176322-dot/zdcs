@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "island_02",
+  "displayName": "island_02",
+  "drafts": {
+    "DRAFT_38e1f1adccdf": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Task/Island_02.prefab",
+      "prefabRoot": "Island_02",
+      "path": "Island_02/ClickMask",
+      "nodeName": "ClickMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "island_02",
+      "displayName": "ClickMask",
+      "chineseDescription": "Island_02的ClickMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Task/Island_02.prefab」中的Island_02ClickMask",
+      "suggestedTestId": "Island_02.ClickMask",
+      "suggestedSemanticId": "Island_02.ClickMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_38e1f1adccdf"
+    },
+    "DRAFT_00cc3b4c4414": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_Island_02.prefab",
+      "prefabRoot": "EXPORT_Island_02",
+      "path": "EXPORT_Island_02/ClickMask",
+      "nodeName": "ClickMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "island_02",
+      "displayName": "ClickMask",
+      "chineseDescription": "EXPORT_Island_02的ClickMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_Island_02.prefab」中的EXPORT_Island_02ClickMask",
+      "suggestedTestId": "EXPORT_Island_02.ClickMask",
+      "suggestedSemanticId": "EXPORT_Island_02.ClickMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_00cc3b4c4414"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_38e1f1adccdf",
+      "DRAFT_00cc3b4c4414"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

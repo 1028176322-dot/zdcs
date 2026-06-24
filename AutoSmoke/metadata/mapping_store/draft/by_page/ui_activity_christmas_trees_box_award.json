@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_box_award",
+  "displayName": "ui_activity_christmas_trees_box_award",
+  "drafts": {
+    "DRAFT_c312e9f14957": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBoxAward",
+      "path": "UIActivityChristmasTreesBoxAward/Root/Content/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_box_award",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChristmasTreesBoxAward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab」中的UIActivityChristmasTreesBoxAward关闭按钮",
+      "suggestedTestId": "UIActivityChristmasTreesBoxAward.CloseBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesBoxAward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c312e9f14957"
+    },
+    "DRAFT_86aa0f2c96f8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBoxAward",
+      "path": "UIActivityChristmasTreesBoxAward/Root/Content/content/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_box_award",
+      "displayName": "项",
+      "chineseDescription": "UIActivityChristmasTreesBoxAward的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab」中的UIActivityChristmasTreesBoxAward项",
+      "suggestedTestId": "UIActivityChristmasTreesBoxAward.Item",
+      "suggestedSemanticId": "UIActivityChristmasTreesBoxAward.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_86aa0f2c96f8"
+    },
+    "DRAFT_55722b2f59a0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBoxAward",
+      "path": "UIActivityChristmasTreesBoxAward/Root/Content/content/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_box_award",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityChristmasTreesBoxAward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab」中的UIActivityChristmasTreesBoxAwardClickContent",
+      "suggestedTestId": "UIActivityChristmasTreesBoxAward.ClickContent",
+      "suggestedSemanticId": "UIActivityChristmasTreesBoxAward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_55722b2f59a0"
+    },
+    "DRAFT_b3a87b09acc1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesBoxAward",
+      "path": "UIActivityChristmasTreesBoxAward/Root/Content/Btnconfirm",
+      "nodeName": "Btnconfirm",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_box_award",
+      "displayName": "Btnconfirm",
+      "chineseDescription": "UIActivityChristmasTreesBoxAward的Btnconfirm，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesBoxAward.prefab」中的UIActivityChristmasTreesBoxAwardBtnconfirm",
+      "suggestedTestId": "UIActivityChristmasTreesBoxAward.Btnconfirm",
+      "suggestedSemanticId": "UIActivityChristmasTreesBoxAward.Btnconfirm",
+      "role": "confirm_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b3a87b09acc1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c312e9f14957",
+      "DRAFT_86aa0f2c96f8",
+      "DRAFT_55722b2f59a0",
+      "DRAFT_b3a87b09acc1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

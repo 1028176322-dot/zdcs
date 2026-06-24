@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "game_introduce",
+  "displayName": "game_introduce",
+  "drafts": {
+    "DRAFT_ace80516fac7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/GameIntroduce.prefab",
+      "prefabRoot": "GameIntroduce",
+      "path": "GameIntroduce/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "game_introduce",
+      "displayName": "关闭按钮",
+      "chineseDescription": "GameIntroduce的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/GameIntroduce.prefab」中的GameIntroduce关闭按钮",
+      "suggestedTestId": "GameIntroduce.CloseBtn",
+      "suggestedSemanticId": "GameIntroduce.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ace80516fac7"
+    },
+    "DRAFT_0012ba81c7de": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/GameIntroduce.prefab",
+      "prefabRoot": "GameIntroduce",
+      "path": "GameIntroduce/Root/Tab/tab_1",
+      "nodeName": "tab_1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "GameIntroduceTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "game_introduce",
+      "displayName": "tab1",
+      "chineseDescription": "GameIntroduce的tab1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/GameIntroduce.prefab」中的GameIntroducetab1",
+      "suggestedTestId": "GameIntroduce.tab_1",
+      "suggestedSemanticId": "GameIntroduce.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0012ba81c7de"
+    },
+    "DRAFT_58dc61bfcb94": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_GameIntroduce.prefab",
+      "prefabRoot": "EXPORT_GameIntroduce",
+      "path": "EXPORT_GameIntroduce/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "game_introduce",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_GameIntroduce的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_GameIntroduce.prefab」中的EXPORT_GameIntroduce关闭按钮",
+      "suggestedTestId": "EXPORT_GameIntroduce.CloseBtn",
+      "suggestedSemanticId": "EXPORT_GameIntroduce.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_58dc61bfcb94"
+    },
+    "DRAFT_b673de4a65b2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_GameIntroduce.prefab",
+      "prefabRoot": "EXPORT_GameIntroduce",
+      "path": "EXPORT_GameIntroduce/Root/Tab/tab_1",
+      "nodeName": "tab_1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "GameIntroduceTab",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "game_introduce",
+      "displayName": "tab1",
+      "chineseDescription": "EXPORT_GameIntroduce的tab1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_GameIntroduce.prefab」中的EXPORT_GameIntroducetab1",
+      "suggestedTestId": "EXPORT_GameIntroduce.tab_1",
+      "suggestedSemanticId": "EXPORT_GameIntroduce.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b673de4a65b2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ace80516fac7",
+      "DRAFT_0012ba81c7de",
+      "DRAFT_58dc61bfcb94",
+      "DRAFT_b673de4a65b2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

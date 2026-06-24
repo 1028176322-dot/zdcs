@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_protect_infomation",
+  "displayName": "ui_protect_infomation",
+  "drafts": {
+    "DRAFT_08c71c35afd7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab",
+      "prefabRoot": "UIProtectInfomation",
+      "path": "UIProtectInfomation/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_protect_infomation",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIProtectInfomation的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab」中的UIProtectInfomation关闭按钮",
+      "suggestedTestId": "UIProtectInfomation.CloseBtn",
+      "suggestedSemanticId": "UIProtectInfomation.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08c71c35afd7"
+    },
+    "DRAFT_7874a1f667f7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab",
+      "prefabRoot": "UIProtectInfomation",
+      "path": "UIProtectInfomation/Root/Btns/RenBtn",
+      "nodeName": "RenBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_protect_infomation",
+      "displayName": "Ren按钮",
+      "chineseDescription": "UIProtectInfomation的Ren按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab」中的UIProtectInfomationRen按钮",
+      "suggestedTestId": "UIProtectInfomation.RenBtn",
+      "suggestedSemanticId": "UIProtectInfomation.Ren按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7874a1f667f7"
+    },
+    "DRAFT_e12b3b11f612": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab",
+      "prefabRoot": "UIProtectInfomation",
+      "path": "UIProtectInfomation/Root/Btns/GreenBtn",
+      "nodeName": "GreenBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_protect_infomation",
+      "displayName": "Green按钮",
+      "chineseDescription": "UIProtectInfomation的Green按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectInfomation.prefab」中的UIProtectInfomationGreen按钮",
+      "suggestedTestId": "UIProtectInfomation.GreenBtn",
+      "suggestedSemanticId": "UIProtectInfomation.Green按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e12b3b11f612"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_08c71c35afd7",
+      "DRAFT_7874a1f667f7",
+      "DRAFT_e12b3b11f612"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

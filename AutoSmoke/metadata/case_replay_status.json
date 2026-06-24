@@ -1,0 +1,261 @@
+{
+  "schema_version": "case_replay_status.v1",
+  "updated_at": "2026-06-18T11:23:13",
+  "cases": {
+    "P1_REPLAY_LINK": {
+      "caseId": "P1_REPLAY_LINK",
+      "runId": "run_20260618_110326",
+      "result": "PASS",
+      "testIds": [
+        "ui_shop.top_res.item_1.cell"
+      ],
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "resultPath": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260618_110326\\case_result_P1_REPLAY_LINK_110330.json",
+      "mappingGate": {
+        "passed": true,
+        "checks": [
+          {
+            "stepIndex": 0,
+            "stepText": "click testId(\"ui_shop.top_res.item_1.cell\")",
+            "testId": "ui_shop.top_res.item_1.cell",
+            "status": "passed",
+            "checks": [
+              {
+                "name": "reviewStatus",
+                "passed": true,
+                "value": "click_confirmed",
+                "required": [
+                  "case_verified",
+                  "click_confirmed",
+                  "manual_confirmed"
+                ]
+              },
+              {
+                "name": "evidenceRef",
+                "passed": true,
+                "value": "EVIDENCE_ui_shop.top_res.item_1.cell"
+              },
+              {
+                "name": "locator",
+                "passed": true,
+                "value": {
+                  "type": "runtimePath",
+                  "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+                }
+              },
+              {
+                "name": "versionRevalidation",
+                "passed": true,
+                "value": "not_required"
+              }
+            ]
+          }
+        ],
+        "blockers": []
+      },
+      "updatedAt": "2026-06-18T11:03:30",
+      "linkedTargets": [
+        "runtime.647b3c9358",
+        "case.d5979892afa5",
+        "repair.47dcb3a0dbb9"
+      ]
+    },
+    "P1_REPLAY_LINK_2": {
+      "caseId": "P1_REPLAY_LINK_2",
+      "runId": "run_20260618_110439",
+      "result": "PASS",
+      "testIds": [
+        "ui_shop.top_res.item_1.cell"
+      ],
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "resultPath": "",
+      "mappingGate": {},
+      "updatedAt": "2026-06-18T11:19:51",
+      "linkedTargets": [
+        "runtime.647b3c9358",
+        "case.d5979892afa5"
+      ]
+    },
+    "PRODUCTIZED_GATE_PASS": {
+      "caseId": "PRODUCTIZED_GATE_PASS",
+      "runId": "run_20260618_112030",
+      "result": "FAIL",
+      "testIds": [
+        "ui_shop.top_res.item_1.cell"
+      ],
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "resultPath": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260618_112030\\case_result_PRODUCTIZED_GATE_PASS_112030.json",
+      "mappingGate": {
+        "passed": true,
+        "checks": [
+          {
+            "stepIndex": 0,
+            "stepText": "click testId(\"ui_shop.top_res.item_1.cell\")",
+            "testId": "ui_shop.top_res.item_1.cell",
+            "status": "passed",
+            "checks": [
+              {
+                "name": "reviewStatus",
+                "passed": true,
+                "value": "click_confirmed",
+                "required": [
+                  "case_verified",
+                  "click_confirmed",
+                  "manual_confirmed"
+                ]
+              },
+              {
+                "name": "evidenceRef",
+                "passed": true,
+                "value": "EVIDENCE_ui_shop.top_res.item_1.cell"
+              },
+              {
+                "name": "locator",
+                "passed": true,
+                "value": {
+                  "type": "runtimePath",
+                  "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+                }
+              },
+              {
+                "name": "versionRevalidation",
+                "passed": true,
+                "value": "ok"
+              }
+            ]
+          }
+        ],
+        "blockers": []
+      },
+      "updatedAt": "2026-06-18T11:20:30",
+      "linkedTargets": [
+        "runtime.647b3c9358",
+        "case.d5979892afa5"
+      ]
+    },
+    "PRODUCTIZED_GATE_PASS_2": {
+      "caseId": "PRODUCTIZED_GATE_PASS_2",
+      "runId": "run_20260618_112231",
+      "result": "FAIL",
+      "testIds": [
+        "ui_shop.top_res.item_1.cell"
+      ],
+      "total": 1,
+      "passed": 0,
+      "failed": 1,
+      "resultPath": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260618_112231\\case_result_PRODUCTIZED_GATE_PASS_2_112231.json",
+      "mappingGate": {
+        "passed": true,
+        "checks": [
+          {
+            "stepIndex": 0,
+            "stepText": "click testId(\"ui_shop.top_res.item_1.cell\")",
+            "testId": "ui_shop.top_res.item_1.cell",
+            "status": "passed",
+            "checks": [
+              {
+                "name": "reviewStatus",
+                "passed": true,
+                "value": "click_confirmed",
+                "required": [
+                  "case_verified",
+                  "click_confirmed",
+                  "manual_confirmed"
+                ]
+              },
+              {
+                "name": "evidenceRef",
+                "passed": true,
+                "value": "EVIDENCE_ui_shop.top_res.item_1.cell"
+              },
+              {
+                "name": "locator",
+                "passed": true,
+                "value": {
+                  "type": "runtimePath",
+                  "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+                }
+              },
+              {
+                "name": "versionRevalidation",
+                "passed": true,
+                "value": "ok"
+              }
+            ]
+          }
+        ],
+        "blockers": []
+      },
+      "updatedAt": "2026-06-18T11:22:31",
+      "linkedTargets": [
+        "runtime.647b3c9358",
+        "case.d5979892afa5"
+      ]
+    },
+    "PRODUCTIZED_GATE_PASS_3": {
+      "caseId": "PRODUCTIZED_GATE_PASS_3",
+      "runId": "run_20260618_112309",
+      "result": "PASS",
+      "testIds": [
+        "ui_shop.top_res.item_1.cell"
+      ],
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "resultPath": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260618_112309\\case_result_PRODUCTIZED_GATE_PASS_3_112313.json",
+      "mappingGate": {
+        "passed": true,
+        "checks": [
+          {
+            "stepIndex": 0,
+            "stepText": "click testId(\"ui_shop.top_res.item_1.cell\")",
+            "testId": "ui_shop.top_res.item_1.cell",
+            "status": "passed",
+            "checks": [
+              {
+                "name": "reviewStatus",
+                "passed": true,
+                "value": "click_confirmed",
+                "required": [
+                  "case_verified",
+                  "click_confirmed",
+                  "manual_confirmed"
+                ]
+              },
+              {
+                "name": "evidenceRef",
+                "passed": true,
+                "value": "EVIDENCE_ui_shop.top_res.item_1.cell"
+              },
+              {
+                "name": "locator",
+                "passed": true,
+                "value": {
+                  "type": "runtimePath",
+                  "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+                }
+              },
+              {
+                "name": "versionRevalidation",
+                "passed": true,
+                "value": "ok"
+              }
+            ]
+          }
+        ],
+        "blockers": []
+      },
+      "updatedAt": "2026-06-18T11:23:13",
+      "linkedTargets": [
+        "runtime.647b3c9358",
+        "case.d5979892afa5"
+      ]
+    }
+  }
+}

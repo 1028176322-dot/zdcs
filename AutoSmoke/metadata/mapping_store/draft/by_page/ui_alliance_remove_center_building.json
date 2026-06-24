@@ -1,0 +1,147 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_remove_center_building",
+  "displayName": "ui_alliance_remove_center_building",
+  "drafts": {
+    "DRAFT_0cbae6139440": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab",
+      "prefabRoot": "UIAllianceRemoveCenterBuilding",
+      "path": "UIAllianceRemoveCenterBuilding/centre_other/animation/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_remove_center_building",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceRemoveCenterBuilding的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab」中的UIAllianceRemoveCenterBuilding关闭按钮",
+      "suggestedTestId": "UIAllianceRemoveCenterBuilding.CloseBtn",
+      "suggestedSemanticId": "UIAllianceRemoveCenterBuilding.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0cbae6139440"
+    },
+    "DRAFT_b18eea1704cd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab",
+      "prefabRoot": "UIAllianceRemoveCenterBuilding",
+      "path": "UIAllianceRemoveCenterBuilding/centre_other/animation/Button/BtnCancel",
+      "nodeName": "BtnCancel",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "ui_alliance_remove_center_building",
+      "displayName": "按钮取消",
+      "chineseDescription": "UIAllianceRemoveCenterBuilding的按钮取消",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab」中的UIAllianceRemoveCenterBuilding按钮取消",
+      "suggestedTestId": "UIAllianceRemoveCenterBuilding.BtnCancel",
+      "suggestedSemanticId": "UIAllianceRemoveCenterBuilding.按钮取消",
+      "role": "cancel_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b18eea1704cd"
+    },
+    "DRAFT_d3e2994e3aa8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab",
+      "prefabRoot": "UIAllianceRemoveCenterBuilding",
+      "path": "UIAllianceRemoveCenterBuilding/centre_other/animation/Button/UseBtn",
+      "nodeName": "UseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_green_da",
+      "clickable": true,
+      "pageId": "ui_alliance_remove_center_building",
+      "displayName": "使用按钮",
+      "chineseDescription": "UIAllianceRemoveCenterBuilding的使用按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab」中的UIAllianceRemoveCenterBuilding使用按钮",
+      "suggestedTestId": "UIAllianceRemoveCenterBuilding.UseBtn",
+      "suggestedSemanticId": "UIAllianceRemoveCenterBuilding.使用按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d3e2994e3aa8"
+    },
+    "DRAFT_22535e5fc0c3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab",
+      "prefabRoot": "UIAllianceRemoveCenterBuilding",
+      "path": "UIAllianceRemoveCenterBuilding/centre_other/animation/Button/UseBtn1",
+      "nodeName": "UseBtn1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_green_da",
+      "clickable": true,
+      "pageId": "ui_alliance_remove_center_building",
+      "displayName": "使用按钮1",
+      "chineseDescription": "UIAllianceRemoveCenterBuilding的使用按钮1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab」中的UIAllianceRemoveCenterBuilding使用按钮1",
+      "suggestedTestId": "UIAllianceRemoveCenterBuilding.UseBtn1",
+      "suggestedSemanticId": "UIAllianceRemoveCenterBuilding.使用按钮1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_22535e5fc0c3"
+    },
+    "DRAFT_3e389dbe45cd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab",
+      "prefabRoot": "UIAllianceRemoveCenterBuilding",
+      "path": "UIAllianceRemoveCenterBuilding/centre_other/animation/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_remove_center_building",
+      "displayName": "项",
+      "chineseDescription": "UIAllianceRemoveCenterBuilding的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceRemoveCenterBuilding.prefab」中的UIAllianceRemoveCenterBuilding项",
+      "suggestedTestId": "UIAllianceRemoveCenterBuilding.Item",
+      "suggestedSemanticId": "UIAllianceRemoveCenterBuilding.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3e389dbe45cd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0cbae6139440",
+      "DRAFT_b18eea1704cd",
+      "DRAFT_d3e2994e3aa8",
+      "DRAFT_22535e5fc0c3",
+      "DRAFT_3e389dbe45cd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

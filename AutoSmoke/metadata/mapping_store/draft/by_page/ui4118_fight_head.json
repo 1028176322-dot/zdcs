@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui4118_fight_head",
+  "displayName": "ui4118_fight_head",
+  "drafts": {
+    "DRAFT_9f216a863d5c": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/ui4118FightHead.prefab",
+      "prefabRoot": "ui4118FightHead",
+      "path": "ui4118FightHead/content/cont_head/sp_head_di",
+      "nodeName": "sp_head_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UISprite",
+      "clickable": true,
+      "pageId": "ui4118_fight_head",
+      "displayName": "spheaddi",
+      "chineseDescription": "ui4118FightHead的spheaddi",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/ui4118FightHead.prefab」中的ui4118FightHeadspheaddi",
+      "suggestedTestId": "ui4118FightHead.sp_head_di",
+      "suggestedSemanticId": "ui4118FightHead.spheaddi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9f216a863d5c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9f216a863d5c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_spring_festival_banner",
+  "displayName": "ui_activity_costume_pass_spring_festival_banner",
+  "drafts": {
+    "DRAFT_53c540961580": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBannerInfo",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.Info",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_53c540961580"
+    },
+    "DRAFT_cc0a7b0d5904": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/UseItem/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBannerNum",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.Num",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cc0a7b0d5904"
+    },
+    "DRAFT_97bb2617cef3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/UseItem/Num/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_plus_green",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBannerAdd",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.Add",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97bb2617cef3"
+    },
+    "DRAFT_c3cd7e390c80": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/UseItem/ItemBtn",
+      "nodeName": "ItemBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "项按钮",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的项按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBanner项按钮",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.ItemBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.项按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c3cd7e390c80"
+    },
+    "DRAFT_d24007d6e6ee": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/BuyGift/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBanner购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d24007d6e6ee"
+    },
+    "DRAFT_e77528d9827e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestivalBanner",
+      "path": "UIActivityCostumePass_SpringFestivalBanner/BuyGift/CityIcon",
+      "nodeName": "CityIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_RedBG",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival_banner",
+      "displayName": "City图标",
+      "chineseDescription": "UIActivityCostumePass_SpringFestivalBanner的City图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestivalBanner.prefab」中的UIActivityCostumePass_SpringFestivalBannerCity图标",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestivalBanner.CityIcon",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestivalBanner.City图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e77528d9827e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_53c540961580",
+      "DRAFT_cc0a7b0d5904",
+      "DRAFT_97bb2617cef3",
+      "DRAFT_c3cd7e390c80",
+      "DRAFT_d24007d6e6ee",
+      "DRAFT_e77528d9827e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

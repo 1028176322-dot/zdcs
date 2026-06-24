@@ -1,0 +1,58 @@
+{
+  "schema_version": "semantic_mapping_rules.v1",
+  "updated_at": "2026-06-18T11:58:49",
+  "rules": [
+    {
+      "ruleId": "RULE_UI_SHOP_TOP_RES_ITEM_1_GOLD_SOURCE",
+      "created_at": "2026-06-18T11:58:49",
+      "createdAt": "2026-06-18T11:58:49",
+      "source": "manual_corrected",
+      "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+      "testId": "ui_shop.top_res.item_1.cell",
+      "semanticId": "bag.gold.source_button",
+      "targetName": "背包金币途径按钮",
+      "displayName": "背包-金币途径按钮",
+      "pageId": "bag",
+      "rule_type": "fixed_slot",
+      "role": "resource_source",
+      "elementType": "Button",
+      "match": {
+        "node_regex": "\\w+_(\\d+)$",
+        "pageId": "bag",
+        "path_contains": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1"
+      },
+      "slot_mapping": {
+        "1": {
+          "targetName": "背包金币途径按钮",
+          "semanticId": "bag.gold.source_button",
+          "testId": "ui_shop.top_res.item_1.cell",
+          "role": "resource_source",
+          "elementType": "Button",
+          "status": "enabled"
+        }
+      },
+      "text_rule": {
+        "chineseDescription": "背包界面的金币途径按钮",
+        "path_hint": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+        "name_hint": "",
+        "text_hint": "",
+        "class_hint": ""
+      },
+      "raw": {
+        "role": "resource_source",
+        "targetName": "背包金币途径按钮",
+        "chineseDescription": "背包界面的金币途径按钮",
+        "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+        "displayName": "背包-金币途径按钮",
+        "source": "manual_corrected",
+        "description": "背包界面的金币途径按钮",
+        "ruleId": "RULE_UI_SHOP_TOP_RES_ITEM_1_GOLD_SOURCE",
+        "elementType": "Button",
+        "ruleType": "fixed_slot",
+        "semanticId": "bag.gold.source_button",
+        "testId": "ui_shop.top_res.item_1.cell",
+        "pageId": "bag"
+      }
+    }
+  ]
+}

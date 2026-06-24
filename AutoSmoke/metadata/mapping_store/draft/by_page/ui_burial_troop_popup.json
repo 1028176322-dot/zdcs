@@ -1,0 +1,143 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_burial_troop_popup",
+  "displayName": "ui_burial_troop_popup",
+  "drafts": {
+    "DRAFT_18d41fe8173d": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab",
+      "prefabRoot": "UIBurialTroopPopup",
+      "path": "UIBurialTroopPopup/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_burial_troop_popup",
+      "displayName": "Mask",
+      "chineseDescription": "UIBurialTroopPopup的Mask",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab」中的UIBurialTroopPopupMask",
+      "suggestedTestId": "UIBurialTroopPopup.Mask",
+      "suggestedSemanticId": "UIBurialTroopPopup.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_18d41fe8173d"
+    },
+    "DRAFT_f2cda4570378": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab",
+      "prefabRoot": "UIBurialTroopPopup",
+      "path": "UIBurialTroopPopup/centre_other/animation/ContentDetail/RssDetail/Scroll/Mask/Content/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_troop_popup",
+      "displayName": "item",
+      "chineseDescription": "UIBurialTroopPopup的item",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab」中的UIBurialTroopPopupitem",
+      "suggestedTestId": "UIBurialTroopPopup.item",
+      "suggestedSemanticId": "UIBurialTroopPopup.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f2cda4570378"
+    },
+    "DRAFT_dd8b5a30536b": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab",
+      "prefabRoot": "UIBurialTroopPopup",
+      "path": "UIBurialTroopPopup/centre_other/animation/ContentDetail/RssDetail/Scroll/Mask/Content/item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_troop_popup",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIBurialTroopPopup的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab」中的UIBurialTroopPopupClickContent",
+      "suggestedTestId": "UIBurialTroopPopup.ClickContent",
+      "suggestedSemanticId": "UIBurialTroopPopup.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd8b5a30536b"
+    },
+    "DRAFT_210958c88e6a": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab",
+      "prefabRoot": "UIBurialTroopPopup",
+      "path": "UIBurialTroopPopup/centre_other/animation/ContentDetail/Image/Toggle",
+      "nodeName": "Toggle",
+      "componentTypes": [
+        "RectTransform",
+        "TFWToggle",
+        "HorizontalLayoutGroup",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_troop_popup",
+      "displayName": "开关",
+      "chineseDescription": "UIBurialTroopPopup的开关",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab」中的UIBurialTroopPopup开关",
+      "suggestedTestId": "UIBurialTroopPopup.Toggle",
+      "suggestedSemanticId": "UIBurialTroopPopup.开关",
+      "role": "toggle",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_210958c88e6a"
+    },
+    "DRAFT_5eaf9aabedf9": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab",
+      "prefabRoot": "UIBurialTroopPopup",
+      "path": "UIBurialTroopPopup/centre_other/animation/events/Tabs/btn_1",
+      "nodeName": "btn_1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_troop_popup",
+      "displayName": "btn1",
+      "chineseDescription": "UIBurialTroopPopup的btn1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIBurialTroopPopup.prefab」中的UIBurialTroopPopupbtn1",
+      "suggestedTestId": "UIBurialTroopPopup.btn_1",
+      "suggestedSemanticId": "UIBurialTroopPopup.btn1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5eaf9aabedf9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_18d41fe8173d",
+      "DRAFT_f2cda4570378",
+      "DRAFT_dd8b5a30536b",
+      "DRAFT_210958c88e6a",
+      "DRAFT_5eaf9aabedf9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

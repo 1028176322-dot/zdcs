@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "world_mini_map",
+  "displayName": "world_mini_map",
+  "drafts": {
+    "DRAFT_a07415f9471d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/MiniMap/WorldMiniMap.prefab",
+      "prefabRoot": "WorldMiniMap",
+      "path": "WorldMiniMap/touchArea",
+      "nodeName": "touchArea",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BoxCollider2D"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "world_mini_map",
+      "displayName": "touchArea",
+      "chineseDescription": "WorldMiniMap的touchArea",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/MiniMap/WorldMiniMap.prefab」中的WorldMiniMaptouchArea",
+      "suggestedTestId": "WorldMiniMap.touchArea",
+      "suggestedSemanticId": "WorldMiniMap.touchArea",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a07415f9471d"
+    },
+    "DRAFT_677d0394e518": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/MiniMap/WorldMiniMap.prefab",
+      "prefabRoot": "WorldMiniMap",
+      "path": "WorldMiniMap/GVGBuild/Down",
+      "nodeName": "Down",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "world_mini_map",
+      "displayName": "Down",
+      "chineseDescription": "WorldMiniMap的Down",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/MiniMap/WorldMiniMap.prefab」中的WorldMiniMapDown",
+      "suggestedTestId": "WorldMiniMap.Down",
+      "suggestedSemanticId": "WorldMiniMap.Down",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_677d0394e518"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a07415f9471d",
+      "DRAFT_677d0394e518"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

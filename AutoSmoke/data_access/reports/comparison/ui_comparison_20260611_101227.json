@@ -1,0 +1,2223 @@
+{
+  "only_in_static": [
+    {
+      "name": "hitbackground",
+      "details": [
+        {
+          "class": "GuideStoryNarrationUI",
+          "file": "Game\\Guid\\UI\\GuideStoryNarrationUI.cs",
+          "field": "_hitBackground",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "chapterrewardshowitem",
+      "details": [
+        {
+          "class": "UIKingdomTask_ChapterTaskPage",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskPage.cs",
+          "field": "_chapterRewardShowItem",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "previewclickevtlistener",
+      "details": [
+        {
+          "class": "UITradeBoxItem",
+          "file": "Game\\TradeShip\\UI\\UITradeBoxItem.cs",
+          "field": "m_previewClickEvtListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "close",
+      "details": [
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_closeBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_closeBtn",
+          "handler": "OnClickOpenHandle"
+        }
+      ]
+    },
+    {
+      "name": "desc",
+      "details": [
+        {
+          "class": "UITroopCasualtiesModule",
+          "file": "Game\\Report\\UI\\Modules\\UITroopCasualtiesModule.cs",
+          "field": "m_descButton",
+          "handler": ""
+        },
+        {
+          "class": "UITroopCasualtiesModule",
+          "file": "Game\\Report\\UI\\Modules\\UITroopCasualtiesModule.cs",
+          "field": "m_descButton",
+          "handler": "HandleTipsClicked"
+        }
+      ]
+    },
+    {
+      "name": "listener",
+      "details": [
+        {
+          "class": "UIActivitySharksAttackConditionItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackConditionItem.cs",
+          "field": "m_listener",
+          "handler": ""
+        },
+        {
+          "class": "UIActivitySharksAttackConditionItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackConditionItem.cs",
+          "field": "m_listener",
+          "handler": "OnClick"
+        },
+        {
+          "class": "UIActivitySharksAttackDifficultyItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackDifficultyItem.cs",
+          "field": "m_listener",
+          "handler": ""
+        },
+        {
+          "class": "UIActivitySharksAttackDifficultyItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackDifficultyItem.cs",
+          "field": "m_listener",
+          "handler": "OnClick"
+        },
+        {
+          "class": "UIActivityWheelDiscChangeHeroItem",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscChangeHeroItem.cs",
+          "field": "m_listener",
+          "handler": ""
+        },
+        {
+          "class": "UIActivityWheelDiscChangeHeroItem",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscChangeHeroItem.cs",
+          "field": "m_listener",
+          "handler": "OnClick"
+        }
+      ]
+    },
+    {
+      "name": "bggo2",
+      "details": [
+        {
+          "class": "UIActivitySharksAttackBossHint",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackBossHint.cs",
+          "field": "m_bgGo2",
+          "handler": ""
+        },
+        {
+          "class": "UIActivitySharksAttackBossHint",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackBossHint.cs",
+          "field": "m_bgGo2",
+          "handler": "OnClickBg2Handler"
+        }
+      ]
+    },
+    {
+      "name": "pagetipbtn2",
+      "details": [
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "PageTipBtn2",
+          "handler": ""
+        },
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "PageTipBtn2",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "btncheck",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnCheckEventListener",
+          "handler": "OnClickHeroInfoHandler"
+        }
+      ]
+    },
+    {
+      "name": "touchnode",
+      "details": [
+        {
+          "class": "UIKingdomTask_DailyTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTask.cs",
+          "field": "touchNode",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "swith",
+      "details": [
+        {
+          "class": "SwitchMapUI",
+          "file": "Game\\MiniGame\\UI\\SwitchMapUI.cs",
+          "field": "_swithBtn",
+          "handler": "InvokeSwitchEvent"
+        }
+      ]
+    },
+    {
+      "name": "btngoto",
+      "details": [
+        {
+          "class": "UIActivityGatheringMonster",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonster.cs",
+          "field": "btnGoto",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "seriousinjurysymbol",
+      "details": [
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_seriousInjurySymbol",
+          "handler": ""
+        },
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_seriousInjurySymbol",
+          "handler": "HandleTips3Clicked"
+        }
+      ]
+    },
+    {
+      "name": "quickcoolcosteventtriggerlistener",
+      "details": [
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "QuickCoolCostEventTriggerListener",
+          "handler": ""
+        },
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "QuickCoolCostEventTriggerListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "onclickbacklistener2",
+      "details": [
+        {
+          "class": "HeroDrawShowCardOneUI",
+          "file": "Game\\HeroRecruit\\UI\\HeroDrawShowCardOneUI.cs",
+          "field": "_onclickBackListener2",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "controls",
+      "details": [
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickCallbtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickPosbtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickPosbtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickRewardBtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickMonsterTipsBtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickBossTipsBtn"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "_controls",
+          "handler": "OnClickInfoClick);\n\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "_controls",
+          "handler": "OnClickUseBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "_controls",
+          "handler": "OnClickGoBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIActivityGatheringMonsterAwardData",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterAward.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivityGatheringMonsterIntegralData",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterIntegral.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivityGatheringMonsterRankingData",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterRanking.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivityGatheringMonsterRankingData",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterRanking.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOpenBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOrderBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickOrderBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickCancelBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickJoinAllianceBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickMonsterBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickRewardBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickGradeSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickLevelSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickPeopleBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickCoolingBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickGoBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "(g"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickTimeModelBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "//     OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "//     OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "//     OnClickOpenTimePicker"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickGradeSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "OnClickLevelSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "//         OnClickGradeSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "_controls",
+          "handler": "//         OnClickLevelSelectedBtn"
+        },
+        {
+          "class": "UIActivitySharksAttackRankPopupData",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackRank.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivitySharksAttackRankPopupData",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackRank.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivitySharksAttackReward",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackReward.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIActivityStrikeBackRewardPopupData",
+          "file": "Game\\Activity\\UI\\UIActivityStrikeBackReward.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIEquipParticularData",
+          "file": "Game\\HeroEquipment\\UI\\UIEquipParticular.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyPopupData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensifyTipPopData",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensifyTip.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MiniGameMainUI",
+          "file": "Game\\MiniGame\\UI\\MiniGameMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MiniGameStart",
+          "file": "Game\\MiniGame\\UI\\MiniGameStart.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIMarineExplorationGetData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationGet.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIMarineExplorationGetData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationGet.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "MarineExplorationMain",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UnchartedBattleUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedBattleUI.cs",
+          "field": "_controls",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "_controls",
+          "handler": "OnClickFreeBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "_controls",
+          "handler": "OnClickBuyBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "_controls",
+          "handler": "OnClickLevelGiftBgBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "_controls",
+          "handler": "OnClickDailyGiftBtn);\n        }\n\n        protected override void RegisterEvent()\n        {\n            EventMgr.RegisterEvent(TEventType.OnUpdateGiftNtf"
+        }
+      ]
+    },
+    {
+      "name": "info",
+      "details": [
+        {
+          "class": "UIBuffSourceModule",
+          "file": "Game\\Report\\UI\\Modules\\UIBuffSourceModule.cs",
+          "field": "m_infoButton",
+          "handler": ""
+        },
+        {
+          "class": "UIBuffSourceModule",
+          "file": "Game\\Report\\UI\\Modules\\UIBuffSourceModule.cs",
+          "field": "m_infoButton",
+          "handler": "HandleOpenInfoClicked"
+        },
+        {
+          "class": "UICompositeModule",
+          "file": "Game\\Report\\UI\\Modules\\UICompositeModule.cs",
+          "field": "m_infoButton",
+          "handler": ""
+        },
+        {
+          "class": "UICompositeModule",
+          "file": "Game\\Report\\UI\\Modules\\UICompositeModule.cs",
+          "field": "m_infoButton",
+          "handler": "HandleOpenInfoClicked"
+        },
+        {
+          "class": "UITroopCasualtiesModule",
+          "file": "Game\\Report\\UI\\Modules\\UITroopCasualtiesModule.cs",
+          "field": "m_infoButton",
+          "handler": ""
+        },
+        {
+          "class": "UITroopCasualtiesModule",
+          "file": "Game\\Report\\UI\\Modules\\UITroopCasualtiesModule.cs",
+          "field": "m_infoButton",
+          "handler": "HandleOpenInfoClicked"
+        }
+      ]
+    },
+    {
+      "name": "disablelistener",
+      "details": [
+        {
+          "class": "UIActivitySharksAttackGarrisonDetailsItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackGarrisonDetailsItem.cs",
+          "field": "m_disableListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "enablelistener",
+      "details": [
+        {
+          "class": "UIActivitySharksAttackGarrisonDetailsItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackGarrisonDetailsItem.cs",
+          "field": "m_enableListener",
+          "handler": ""
+        },
+        {
+          "class": "UIActivitySharksAttackGarrisonDetailsItem",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackGarrisonDetailsItem.cs",
+          "field": "m_enableListener",
+          "handler": "OnClickEnableHandler"
+        }
+      ]
+    },
+    {
+      "name": "deathsymbol",
+      "details": [
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_deathSymbol",
+          "handler": ""
+        },
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_deathSymbol",
+          "handler": "HandleTips2Clicked"
+        }
+      ]
+    },
+    {
+      "name": "qualityprobabilityeventtriggerlistener",
+      "details": [
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "QualityProbabilityEventTriggerListener",
+          "handler": ""
+        },
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "QualityProbabilityEventTriggerListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "troops_new",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "troops_newEventListener",
+          "handler": "OnTroopsNewBtnClicked"
+        }
+      ]
+    },
+    {
+      "name": "btnclose",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "btnCloseEventListener",
+          "handler": "OnBackBtnClicked"
+        }
+      ]
+    },
+    {
+      "name": "tipsclosebg",
+      "details": [
+        {
+          "class": "UIChangeTroopEquips",
+          "file": "Game\\TroopsEquip\\UI\\UIChangeTroopEquips.cs",
+          "field": "m_tipsCloseBgEventListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "rewardclick",
+      "details": [
+        {
+          "class": "UIActivityBoneyardRewardInfo",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyardRewardInfo.cs",
+          "field": "m_rewardClick",
+          "handler": ""
+        },
+        {
+          "class": "UIActivityBoneyardRewardInfo",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyardRewardInfo.cs",
+          "field": "m_rewardClick",
+          "handler": "OnBoneWaveRewardsClick"
+        }
+      ]
+    },
+    {
+      "name": "addship",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "addShipBtnEventListener",
+          "handler": "GoGetMoreTroop"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "testButton",
+          "handler": "OnTestBtnClick"
+        }
+      ]
+    },
+    {
+      "name": "open",
+      "details": [
+        {
+          "class": "UIAltarListTitleItem",
+          "file": "Game\\AllianceWar\\UI\\UIAltarListTitleItem.cs",
+          "field": "m_openBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIAltarListTitleItem",
+          "file": "Game\\AllianceWar\\UI\\UIAltarListTitleItem.cs",
+          "field": "m_openBtn",
+          "handler": "OnClickOpenHandler"
+        },
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_openBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_openBtn",
+          "handler": "OnClickOpenHandle"
+        }
+      ]
+    },
+    {
+      "name": "boxclickevtlistener",
+      "details": [
+        {
+          "class": "UITradeBoxItem",
+          "file": "Game\\TradeShip\\UI\\UITradeBoxItem.cs",
+          "field": "BoxClickEvtListener",
+          "handler": ""
+        },
+        {
+          "class": "UITradeBoxItem",
+          "file": "Game\\TradeShip\\UI\\UITradeBoxItem.cs",
+          "field": "BoxClickEvtListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "btnten",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnTenEventListener",
+          "handler": "OnClickGachaTenHandler"
+        }
+      ]
+    },
+    {
+      "name": "tipgo",
+      "details": [
+        {
+          "class": "UIKingdomTask_DailyTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTask.cs",
+          "field": "tipGo",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "btnone",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnOneEventListener",
+          "handler": "OnClickGachaHandler"
+        }
+      ]
+    },
+    {
+      "name": "skill",
+      "details": [
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_skillBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_skillBtn",
+          "handler": "OnClickSkillHandle"
+        }
+      ]
+    },
+    {
+      "name": "slotobj",
+      "details": [
+        {
+          "class": "UIChangeTroopArtifacts",
+          "file": "Game\\TroopsArtifact\\UI\\UIChangeTroopArtifacts.cs",
+          "field": "slotObj",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "equip",
+      "details": [
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_equipBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIScoutDefensiveMailModuleItem",
+          "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+          "field": "m_equipBtn",
+          "handler": "OnClickEquipHandle"
+        }
+      ]
+    },
+    {
+      "name": "skipbtnlistener",
+      "details": [
+        {
+          "class": "GuideSpecialSkipTimeLine",
+          "file": "Game\\Guid\\UI\\GuideSpecialSkipTimeLine.cs",
+          "field": "_skipBtnListener",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "armysymbol",
+      "details": [
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_armySymbol",
+          "handler": ""
+        },
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_armySymbol",
+          "handler": "HandleTips1Clicked"
+        }
+      ]
+    },
+    {
+      "name": "targettrigger",
+      "details": [
+        {
+          "class": "BaseGuideUI",
+          "file": "Game\\Guid\\UI\\BaseGuideUI.cs",
+          "field": "targetTrigger",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "getreward",
+      "details": [
+        {
+          "class": "UIKingdomTask_ChapterTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+          "field": "_getRewardBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_ChapterTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+          "field": "_getRewardBtn",
+          "handler": "OnBtnGetRewardClick"
+        },
+        {
+          "class": "UIKingdomTask_DailyTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTaskItem.cs",
+          "field": "_getRewardBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_KingdomTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+          "field": "_getRewardBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_KingdomTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+          "field": "_getRewardBtn",
+          "handler": "OnBtnGetRewardClick"
+        }
+      ]
+    },
+    {
+      "name": "minorwoundsymbol",
+      "details": [
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_minorWoundSymbol",
+          "handler": ""
+        },
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_minorWoundSymbol",
+          "handler": "HandleTips4Clicked"
+        }
+      ]
+    },
+    {
+      "name": "btninfo",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnInfoEventListener",
+          "handler": "OnClickInfoHandler"
+        }
+      ]
+    },
+    {
+      "name": "btnchange",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnChangeEventListener",
+          "handler": "OnClickHeroSwitchHandler"
+        }
+      ]
+    },
+    {
+      "name": "mainquestitem",
+      "details": [
+        {
+          "class": "UIKingdomTask_KingdomTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTask.cs",
+          "field": "_mainQuestItem",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIKingdomTask_KingdomTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTask.cs",
+          "field": "_mainQuestItem",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "signclick",
+      "details": [
+        {
+          "class": "UIActivityBoneyardRewardInfo",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyardRewardInfo.cs",
+          "field": "m_signClick",
+          "handler": ""
+        },
+        {
+          "class": "UIActivityBoneyardRewardInfo",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyardRewardInfo.cs",
+          "field": "m_signClick",
+          "handler": "OnBoneWaveRewardsClick"
+        }
+      ]
+    },
+    {
+      "name": "btngo",
+      "details": [
+        {
+          "class": "UIActivityGatheringMonsterIntegralData",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterIntegral.cs",
+          "field": "btnGo",
+          "handler": "Unknown"
+        },
+        {
+          "class": "AllianceConveneMailModule",
+          "file": "Game\\Mail\\UI\\Modules\\AllianceConveneMailModule.cs",
+          "field": "m_btnGO",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "bgclosebubble",
+      "details": [
+        {
+          "class": "UIKingdomTask_ChapterTaskPage",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskPage.cs",
+          "field": "bgCloseBubble",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIKingdomTask_DailyTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTask.cs",
+          "field": "bgCloseBubble",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "go",
+      "details": [
+        {
+          "class": "UIAltarListPortItem",
+          "file": "Game\\AllianceWar\\UI\\UIAltarListPortItem.cs",
+          "field": "m_goBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIAltarListPortItem",
+          "file": "Game\\AllianceWar\\UI\\UIAltarListPortItem.cs",
+          "field": "m_goBtn",
+          "handler": "OnClickCoordinatesHandler"
+        },
+        {
+          "class": "UIUnchartedSettlementData",
+          "file": "Game\\Uncharted\\UI\\UnchartedSettlementUI.cs",
+          "field": "goBtn",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "buy",
+      "details": [
+        {
+          "class": "UIActivityWheelDiscGiftItem",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscGiftItem.cs",
+          "field": "m_buyBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIActivityWheelDiscGiftItem",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscGiftItem.cs",
+          "field": "m_buyBtn",
+          "handler": "OnClickBuyHandler"
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "details": [
+        {
+          "class": "UIPlayerInfoMailModule",
+          "file": "Game\\Mail\\UI\\Modules\\UIPlayerInfoMailModule.cs",
+          "field": "m_head",
+          "handler": ""
+        },
+        {
+          "class": "UIPlayerInfoMailModule",
+          "file": "Game\\Mail\\UI\\Modules\\UIPlayerInfoMailModule.cs",
+          "field": "m_head",
+          "handler": "OnClickHeadHandle"
+        },
+        {
+          "class": "UIRankReportModuleItem",
+          "file": "Game\\Report\\UI\\UIRankReportModuleItem.cs",
+          "field": "m_head",
+          "handler": ""
+        },
+        {
+          "class": "UISharkRankReportModuleItem",
+          "file": "Game\\Report\\UI\\UISharkRankReportModuleItem.cs",
+          "field": "m_head",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "child",
+      "details": [
+        {
+          "class": "TroopsMainUIData",
+          "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+          "field": "child",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "uihelper",
+      "details": [
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "UIHelper",
+          "handler": "clickGo"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivityDragonLair",
+          "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIActivitySharksAttack",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+          "field": "UIHelper",
+          "handler": "btn"
+        },
+        {
+          "class": "UIMarineExplorationRecycleData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationRecycle.cs",
+          "field": "UIHelper",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIMarineExplorationRecycleData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationRecycle.cs",
+          "field": "UIHelper",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIMarineExplorationRecycleData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationRecycle.cs",
+          "field": "UIHelper",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIMarineExplorationRecycleData",
+          "file": "Game\\SeaExploration\\UI\\MarineExplorationRecycle.cs",
+          "field": "UIHelper",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        },
+        {
+          "class": "UIVipData",
+          "file": "Game\\VIP\\UI\\UIVip.cs",
+          "field": "UIHelper",
+          "handler": "_controls"
+        }
+      ]
+    },
+    {
+      "name": "goto",
+      "details": [
+        {
+          "class": "UIKingdomTask_ChapterTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_ChapterTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": "OnBtnGoOnClick"
+        },
+        {
+          "class": "UIKingdomTask_DailyTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_DailyTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIKingdomTask_KingdomTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIKingdomTask_KingdomTaskItem",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+          "field": "_gotoBtn",
+          "handler": "OnBtnGoOnClick"
+        }
+      ]
+    },
+    {
+      "name": "taskbg",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "taskBgBtnEventListener",
+          "handler": "OnTreasureBtnClicked"
+        }
+      ]
+    },
+    {
+      "name": "idletower",
+      "details": [
+        {
+          "class": "UnchartedMainUI",
+          "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+          "field": "idleTowerEventListener",
+          "handler": "OnIdleTowerBtnClicked"
+        }
+      ]
+    },
+    {
+      "name": "btnbuy",
+      "details": [
+        {
+          "class": "UIActivityWheelDisc",
+          "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+          "field": "btnBuyEventListener",
+          "handler": "OnClickGiftHandler"
+        }
+      ]
+    },
+    {
+      "name": "clickgo",
+      "details": [
+        {
+          "class": "UIActivityBoneyard",
+          "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+          "field": "clickGo",
+          "handler": "(g"
+        }
+      ]
+    },
+    {
+      "name": "awardpoint",
+      "details": [
+        {
+          "class": "UIKingdomTask_DailyTask",
+          "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTask.cs",
+          "field": "awardPoint",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "remainingsymbol",
+      "details": [
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_remainingSymbol",
+          "handler": ""
+        },
+        {
+          "class": "UICasualtiesDetailsModule",
+          "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+          "field": "m_remainingSymbol",
+          "handler": "HandleTips5Clicked"
+        }
+      ]
+    },
+    {
+      "name": "onclickbacklistener1",
+      "details": [
+        {
+          "class": "HeroDrawShowCardOneUI",
+          "file": "Game\\HeroRecruit\\UI\\HeroDrawShowCardOneUI.cs",
+          "field": "_onclickBackListener1",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "heroitem",
+      "details": [
+        {
+          "class": "UIHeroEquipIntensify",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify_LineUp.cs",
+          "field": "heroItem",
+          "handler": "Unknown"
+        },
+        {
+          "class": "UIHeroEquipIntensify",
+          "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify_LineUp.cs",
+          "field": "heroItem",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "jumptopos",
+      "details": [
+        {
+          "class": "UIScoutPlayerInfoMailModule",
+          "file": "Game\\Mail\\UI\\Modules\\UIScoutPlayerInfoMailModule.cs",
+          "field": "_jumpToPos",
+          "handler": ""
+        },
+        {
+          "class": "UIScoutPlayerInfoMailModule",
+          "file": "Game\\Mail\\UI\\Modules\\UIScoutPlayerInfoMailModule.cs",
+          "field": "_jumpToPos",
+          "handler": "OnClickCoordinate"
+        }
+      ]
+    },
+    {
+      "name": "skip",
+      "details": [
+        {
+          "class": "GuideSpecialSkipTimeLine",
+          "file": "Game\\Guid\\UI\\GuideSpecialSkipTimeLine.cs",
+          "field": "_skipBtn",
+          "handler": "Unknown"
+        }
+      ]
+    },
+    {
+      "name": "pagetipbtn1",
+      "details": [
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "PageTipBtn1",
+          "handler": ""
+        },
+        {
+          "class": "UITradeShip",
+          "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+          "field": "PageTipBtn1",
+          "handler": ""
+        }
+      ]
+    },
+    {
+      "name": "bggo1",
+      "details": [
+        {
+          "class": "UIActivitySharksAttackBossHint",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackBossHint.cs",
+          "field": "m_bgGo1",
+          "handler": ""
+        },
+        {
+          "class": "UIActivitySharksAttackBossHint",
+          "file": "Game\\Activity\\UI\\UIActivitySharksAttackBossHint.cs",
+          "field": "m_bgGo1",
+          "handler": "OnClickBg1Handler"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "details": [
+        {
+          "class": "UICompositeModule",
+          "file": "Game\\Report\\UI\\Modules\\UICompositeModule.cs",
+          "field": "m_switchButton",
+          "handler": ""
+        },
+        {
+          "class": "UICompositeModule",
+          "file": "Game\\Report\\UI\\Modules\\UICompositeModule.cs",
+          "field": "m_switchButton",
+          "handler": "HandleSwitchClicked"
+        }
+      ]
+    },
+    {
+      "name": "btnget",
+      "details": [
+        {
+          "class": "UIActivityGatheringMonster",
+          "file": "Game\\Activity\\UI\\UIActivityGatheringMonster.cs",
+          "field": "btnGet",
+          "handler": "Unknown"
+        }
+      ]
+    }
+  ],
+  "only_in_runtime": [
+    {
+      "name": "composebuttonfly",
+      "details": {
+        "name": "composeButtonFly",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/composeButtonFly",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "paybtn(clone)",
+      "details": {
+        "name": "PayBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "popupgiftbtn(clone)",
+      "details": {
+        "name": "PopUpGiftBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "tipnode_hudbutton",
+      "details": {
+        "name": "TipNode_HudButton",
+        "type": "",
+        "path": "<Root>/MainCityRoot_3D_2(Clone)/Buildings/tradingship_19/TipNode_HudButton",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "onsalebtn(clone)",
+      "details": {
+        "name": "OnSaleBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/OnSaleBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "button_go",
+      "details": {
+        "name": "button_go",
+        "type": "",
+        "path": "<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/button_go",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "bagbtn",
+      "details": {
+        "name": "BagBtn",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/BagBtn/BagBtn",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "effect_paybtn01",
+      "details": {
+        "name": "Effect_PayBtn01",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)/Img/Effect_PayBtn01",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "buffbtn",
+      "details": {
+        "name": "BuffBtn",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/BuffLayout/BuffBtn",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "btn_layout",
+      "details": {
+        "name": "Btn_layout",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Btn_layout",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "effect_paybtn02",
+      "details": {
+        "name": "Effect_PayBtn02",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)/Effect_PayBtn02",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "shopbtn",
+      "details": {
+        "name": "ShopBtn",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/ShopBtn",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "bestoverlordbtn(clone)",
+      "details": {
+        "name": "BestOverlordBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/BestOverlordBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "vipbtn",
+      "details": {
+        "name": "VipBtn",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Btn_layout/VipBtn",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "btnshow",
+      "details": {
+        "name": "BtnShow",
+        "type": "",
+        "path": "<Root>/UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "sevendaybtn(clone)",
+      "details": {
+        "name": "SevenDayBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/SevenDayBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "mailbtn",
+      "details": {
+        "name": "MailBtn",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/MailBtn",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "button",
+      "details": {
+        "name": "Button",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/BuffLayout/BuffIcon/Button",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "activitybtn(clone)",
+      "details": {
+        "name": "ActivityBtn(Clone)",
+        "type": "",
+        "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "in_both": [
+    {
+      "name": "click",
+      "static": [
+        {
+          "class": "UIHeroSkillIcon",
+          "file": "Game\\Mail\\UI\\UIHeroSkillIcon.cs",
+          "field": "m_clickBtn",
+          "handler": ""
+        },
+        {
+          "class": "UIHeroSkillIcon",
+          "file": "Game\\Mail\\UI\\UIHeroSkillIcon.cs",
+          "field": "m_clickBtn",
+          "handler": "HandleSkillClicked"
+        }
+      ],
+      "runtime": {
+        "name": "Click",
+        "type": "",
+        "path": "<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/Click",
+        "clickable": true,
+        "pos": [
+          0,
+          0
+        ],
+        "size": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "static_count": 67,
+    "runtime_count": 20,
+    "only_in_static_count": 66,
+    "only_in_runtime_count": 19,
+    "in_both_count": 1
+  }
+}

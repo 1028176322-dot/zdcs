@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_banner",
+  "displayName": "ui_activity_gvg_banner",
+  "drafts": {
+    "DRAFT_fe600bbc4b8e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGBanner.prefab",
+      "prefabRoot": "UIActivityGVGBanner",
+      "path": "UIActivityGVGBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityGVGBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGBanner.prefab」中的UIActivityGVGBannerInfo",
+      "suggestedTestId": "UIActivityGVGBanner.Info",
+      "suggestedSemanticId": "UIActivityGVGBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe600bbc4b8e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fe600bbc4b8e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_battle_pass_banner",
+  "displayName": "ui_activity_battle_pass_banner",
+  "drafts": {
+    "DRAFT_c74696b976fa": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab",
+      "prefabRoot": "UIActivityBattlePassBanner",
+      "path": "UIActivityBattlePassBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_battle_pass_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityBattlePassBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab」中的UIActivityBattlePassBannerInfo",
+      "suggestedTestId": "UIActivityBattlePassBanner.Info",
+      "suggestedSemanticId": "UIActivityBattlePassBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c74696b976fa"
+    },
+    "DRAFT_fb931f1330d5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab",
+      "prefabRoot": "UIActivityBattlePassBanner",
+      "path": "UIActivityBattlePassBanner/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_battle_pass_banner",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityBattlePassBanner的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab」中的UIActivityBattlePassBanner按钮",
+      "suggestedTestId": "UIActivityBattlePassBanner.Button",
+      "suggestedSemanticId": "UIActivityBattlePassBanner.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb931f1330d5"
+    },
+    "DRAFT_85900f45a078": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab",
+      "prefabRoot": "UIActivityBattlePassBanner",
+      "path": "UIActivityBattlePassBanner/Button/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_battle_pass_banner",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityBattlePassBanner的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab」中的UIActivityBattlePassBannerTips",
+      "suggestedTestId": "UIActivityBattlePassBanner.Tips",
+      "suggestedSemanticId": "UIActivityBattlePassBanner.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_85900f45a078"
+    },
+    "DRAFT_0da29dab82b0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab",
+      "prefabRoot": "UIActivityBattlePassBanner",
+      "path": "UIActivityBattlePassBanner/Button1",
+      "nodeName": "Button1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_battle_pass_banner",
+      "displayName": "按钮1",
+      "chineseDescription": "UIActivityBattlePassBanner的按钮1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBattlePassBanner.prefab」中的UIActivityBattlePassBanner按钮1",
+      "suggestedTestId": "UIActivityBattlePassBanner.Button1",
+      "suggestedSemanticId": "UIActivityBattlePassBanner.按钮1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0da29dab82b0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c74696b976fa",
+      "DRAFT_fb931f1330d5",
+      "DRAFT_85900f45a078",
+      "DRAFT_0da29dab82b0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

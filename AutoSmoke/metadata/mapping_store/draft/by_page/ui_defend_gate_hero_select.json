@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_defend_gate_hero_select",
+  "displayName": "ui_defend_gate_hero_select",
+  "drafts": {
+    "DRAFT_b4b750f08667": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab",
+      "prefabRoot": "UIDefendGateHeroSelect",
+      "path": "UIDefendGateHeroSelect/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_defend_gate_hero_select",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDefendGateHeroSelect的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab」中的UIDefendGateHeroSelect关闭按钮",
+      "suggestedTestId": "UIDefendGateHeroSelect.CloseBtn",
+      "suggestedSemanticId": "UIDefendGateHeroSelect.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b4b750f08667"
+    },
+    "DRAFT_c84f3baf974b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab",
+      "prefabRoot": "UIDefendGateHeroSelect",
+      "path": "UIDefendGateHeroSelect/Root/Content/ListBG/Scroll",
+      "nodeName": "Scroll",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWScrollRect",
+        "ExpandCircularScrollView",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "Background",
+      "clickable": true,
+      "pageId": "ui_defend_gate_hero_select",
+      "displayName": "Scroll",
+      "chineseDescription": "UIDefendGateHeroSelect的Scroll",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab」中的UIDefendGateHeroSelectScroll",
+      "suggestedTestId": "UIDefendGateHeroSelect.Scroll",
+      "suggestedSemanticId": "UIDefendGateHeroSelect.Scroll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c84f3baf974b"
+    },
+    "DRAFT_fe3fde7f1ce1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab",
+      "prefabRoot": "UIDefendGateHeroSelect",
+      "path": "UIDefendGateHeroSelect/Root/Content/ListBG/Scroll/ViewPort/Content/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIDefendGateHeroSelect_HeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_defend_gate_hero_select",
+      "displayName": "项",
+      "chineseDescription": "UIDefendGateHeroSelect的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab」中的UIDefendGateHeroSelect项",
+      "suggestedTestId": "UIDefendGateHeroSelect.Item",
+      "suggestedSemanticId": "UIDefendGateHeroSelect.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe3fde7f1ce1"
+    },
+    "DRAFT_cbb86fb8745e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab",
+      "prefabRoot": "UIDefendGateHeroSelect",
+      "path": "UIDefendGateHeroSelect/Root/OkBtn",
+      "nodeName": "OkBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_defend_gate_hero_select",
+      "displayName": "Ok按钮",
+      "chineseDescription": "UIDefendGateHeroSelect的Ok按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateHeroSelect.prefab」中的UIDefendGateHeroSelectOk按钮",
+      "suggestedTestId": "UIDefendGateHeroSelect.OkBtn",
+      "suggestedSemanticId": "UIDefendGateHeroSelect.Ok按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cbb86fb8745e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b4b750f08667",
+      "DRAFT_c84f3baf974b",
+      "DRAFT_fe3fde7f1ce1",
+      "DRAFT_cbb86fb8745e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_fte_select",
+  "displayName": "export_fte_select",
+  "drafts": {
+    "DRAFT_448e5380f5d1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab",
+      "prefabRoot": "EXPORT_Fte_Select",
+      "path": "EXPORT_Fte_Select/centre_other/BlackMask",
+      "nodeName": "BlackMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_fte_select",
+      "displayName": "BlackMask",
+      "chineseDescription": "EXPORT_Fte_Select的BlackMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab」中的EXPORT_Fte_SelectBlackMask",
+      "suggestedTestId": "EXPORT_Fte_Select.BlackMask",
+      "suggestedSemanticId": "EXPORT_Fte_Select.BlackMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_448e5380f5d1"
+    },
+    "DRAFT_1ef87b33d570": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab",
+      "prefabRoot": "EXPORT_Fte_Select",
+      "path": "EXPORT_Fte_Select/centre_other/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_fte_select",
+      "displayName": "mask",
+      "chineseDescription": "EXPORT_Fte_Select的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab」中的EXPORT_Fte_Selectmask",
+      "suggestedTestId": "EXPORT_Fte_Select.mask",
+      "suggestedSemanticId": "EXPORT_Fte_Select.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ef87b33d570"
+    },
+    "DRAFT_d252dbeefef8": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab",
+      "prefabRoot": "EXPORT_Fte_Select",
+      "path": "EXPORT_Fte_Select/centre_other/BG/bg/Option1",
+      "nodeName": "Option1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_bg_18",
+      "clickable": true,
+      "pageId": "export_fte_select",
+      "displayName": "Option1",
+      "chineseDescription": "EXPORT_Fte_Select的Option1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab」中的EXPORT_Fte_SelectOption1",
+      "suggestedTestId": "EXPORT_Fte_Select.Option1",
+      "suggestedSemanticId": "EXPORT_Fte_Select.Option1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d252dbeefef8"
+    },
+    "DRAFT_d4220297da5e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab",
+      "prefabRoot": "EXPORT_Fte_Select",
+      "path": "EXPORT_Fte_Select/centre_other/BG/bg/Option2",
+      "nodeName": "Option2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_bg_18",
+      "clickable": true,
+      "pageId": "export_fte_select",
+      "displayName": "Option2",
+      "chineseDescription": "EXPORT_Fte_Select的Option2",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Guide/EXPORT_Fte_Select.prefab」中的EXPORT_Fte_SelectOption2",
+      "suggestedTestId": "EXPORT_Fte_Select.Option2",
+      "suggestedSemanticId": "EXPORT_Fte_Select.Option2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4220297da5e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_448e5380f5d1",
+      "DRAFT_1ef87b33d570",
+      "DRAFT_d252dbeefef8",
+      "DRAFT_d4220297da5e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

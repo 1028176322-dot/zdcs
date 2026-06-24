@@ -1,0 +1,87 @@
+{
+  "schema_version": "reader_contract_validation.v1",
+  "generated_at": "2026-06-17T18:26:32",
+  "status": "PASS",
+  "delivery_policy": "STRICT_FULL_READER",
+  "input_suffixes": [
+    ".html"
+  ],
+  "workspace": "D:\\工作助手\\输出\\神器界面功能",
+  "checks": [
+    {
+      "check": "evidence_non_empty",
+      "status": "PASS",
+      "detail": 1
+    },
+    {
+      "check": "fact_entries_non_empty",
+      "status": "PASS",
+      "detail": 5
+    },
+    {
+      "check": "unconverted_evidence_report_status",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "FACT_0001.source_refs_non_empty",
+      "status": "PASS",
+      "detail": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "check": "FACT_0001.source_refs_in_source_index",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "FACT_0002.source_refs_non_empty",
+      "status": "PASS",
+      "detail": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "check": "FACT_0002.source_refs_in_source_index",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "FACT_0003.source_refs_non_empty",
+      "status": "PASS",
+      "detail": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "check": "FACT_0003.source_refs_in_source_index",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "FACT_0004.source_refs_non_empty",
+      "status": "PASS",
+      "detail": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "check": "FACT_0004.source_refs_in_source_index",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "FACT_0005.source_refs_non_empty",
+      "status": "PASS",
+      "detail": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "check": "FACT_0005.source_refs_in_source_index",
+      "status": "PASS",
+      "detail": []
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_gather",
+  "displayName": "mail_gather",
+  "drafts": {
+    "DRAFT_27da88e829fb": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_gather.prefab",
+      "prefabRoot": "mail_gather",
+      "path": "mail_gather/cont2/grid_head/sp_icon_item",
+      "nodeName": "sp_icon_item",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_gather",
+      "displayName": "spiconitem",
+      "chineseDescription": "mail_gather的spiconitem，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_gather.prefab」中的mail_gatherspiconitem",
+      "suggestedTestId": "mail_gather.sp_icon_item",
+      "suggestedSemanticId": "mail_gather.spiconitem",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_27da88e829fb"
+    },
+    "DRAFT_82aa932f28f9": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_gather.prefab",
+      "prefabRoot": "mail_gather",
+      "path": "mail_gather/cont3/btn_blue",
+      "nodeName": "btn_blue",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_gather",
+      "displayName": "btnblue",
+      "chineseDescription": "mail_gather的btnblue，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_gather.prefab」中的mail_gatherbtnblue",
+      "suggestedTestId": "mail_gather.btn_blue",
+      "suggestedSemanticId": "mail_gather.btnblue",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_82aa932f28f9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_27da88e829fb",
+      "DRAFT_82aa932f28f9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

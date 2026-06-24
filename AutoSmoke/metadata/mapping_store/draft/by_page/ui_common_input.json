@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_common_input",
+  "displayName": "ui_common_input",
+  "drafts": {
+    "DRAFT_32a342da92b0": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab",
+      "prefabRoot": "UICommonInput",
+      "path": "UICommonInput/CentreOther/Animation/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_common_input",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UICommonInput的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab」中的UICommonInput关闭按钮",
+      "suggestedTestId": "UICommonInput.CloseBtn",
+      "suggestedSemanticId": "UICommonInput.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_32a342da92b0"
+    },
+    "DRAFT_b70e1114575e": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab",
+      "prefabRoot": "UICommonInput",
+      "path": "UICommonInput/CentreOther/Animation/Input/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_input",
+      "displayName": "Num",
+      "chineseDescription": "UICommonInput的Num",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab」中的UICommonInputNum",
+      "suggestedTestId": "UICommonInput.Num",
+      "suggestedSemanticId": "UICommonInput.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b70e1114575e"
+    },
+    "DRAFT_d943a253b7ea": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab",
+      "prefabRoot": "UICommonInput",
+      "path": "UICommonInput/CentreOther/Animation/Input2/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_input",
+      "displayName": "Num",
+      "chineseDescription": "UICommonInput的Num",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab」中的UICommonInputNum",
+      "suggestedTestId": "UICommonInput.Num",
+      "suggestedSemanticId": "UICommonInput.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d943a253b7ea"
+    },
+    "DRAFT_d0b49773a572": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab",
+      "prefabRoot": "UICommonInput",
+      "path": "UICommonInput/CentreOther/Animation/BtnConfirm",
+      "nodeName": "BtnConfirm",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_common_input",
+      "displayName": "按钮确认",
+      "chineseDescription": "UICommonInput的按钮确认，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Common/UICommonInput.prefab」中的UICommonInput按钮确认",
+      "suggestedTestId": "UICommonInput.BtnConfirm",
+      "suggestedSemanticId": "UICommonInput.按钮确认",
+      "role": "confirm_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0b49773a572"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_32a342da92b0",
+      "DRAFT_b70e1114575e",
+      "DRAFT_d943a253b7ea",
+      "DRAFT_d0b49773a572"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

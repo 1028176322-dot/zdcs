@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_equip_damage_tip",
+  "displayName": "hero_equip_damage_tip",
+  "drafts": {
+    "DRAFT_296dbb1fc138": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab",
+      "prefabRoot": "HeroEquipDamageTip",
+      "path": "HeroEquipDamageTip/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "hero_equip_damage_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "HeroEquipDamageTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab」中的HeroEquipDamageTip关闭按钮",
+      "suggestedTestId": "HeroEquipDamageTip.CloseBtn",
+      "suggestedSemanticId": "HeroEquipDamageTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_296dbb1fc138"
+    },
+    "DRAFT_791b9c8a56b4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab",
+      "prefabRoot": "HeroEquipDamageTip",
+      "path": "HeroEquipDamageTip/Root/Content/ListBG/Scroll/Mask/Content/ItemNew",
+      "nodeName": "ItemNew",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "hero_equip_damage_tip",
+      "displayName": "项New",
+      "chineseDescription": "HeroEquipDamageTip的项New",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab」中的HeroEquipDamageTip项New",
+      "suggestedTestId": "HeroEquipDamageTip.ItemNew",
+      "suggestedSemanticId": "HeroEquipDamageTip.项New",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_791b9c8a56b4"
+    },
+    "DRAFT_24c5ca55bcf1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab",
+      "prefabRoot": "HeroEquipDamageTip",
+      "path": "HeroEquipDamageTip/Root/Content/ListBG/Scroll/Mask/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_equip_damage_tip",
+      "displayName": "ClickContent",
+      "chineseDescription": "HeroEquipDamageTip的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipDamageTip.prefab」中的HeroEquipDamageTipClickContent",
+      "suggestedTestId": "HeroEquipDamageTip.ClickContent",
+      "suggestedSemanticId": "HeroEquipDamageTip.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24c5ca55bcf1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_296dbb1fc138",
+      "DRAFT_791b9c8a56b4",
+      "DRAFT_24c5ca55bcf1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

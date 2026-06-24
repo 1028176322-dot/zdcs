@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_easter_spring_up_pop",
+  "displayName": "ui_easter_spring_up_pop",
+  "drafts": {
+    "DRAFT_f0e30a3b753f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab",
+      "prefabRoot": "UIEasterSpringUpPop",
+      "path": "UIEasterSpringUpPop/Root/tc/Button_information",
+      "nodeName": "Button_information",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_set3",
+      "clickable": true,
+      "pageId": "ui_easter_spring_up_pop",
+      "displayName": "按钮information",
+      "chineseDescription": "UIEasterSpringUpPop的按钮information，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab」中的UIEasterSpringUpPop按钮information",
+      "suggestedTestId": "UIEasterSpringUpPop.Button_information",
+      "suggestedSemanticId": "UIEasterSpringUpPop.按钮information",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f0e30a3b753f"
+    },
+    "DRAFT_6158d11a125a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab",
+      "prefabRoot": "UIEasterSpringUpPop",
+      "path": "UIEasterSpringUpPop/Root/tc/buy/Scroll_rect/mask/Grid/item/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "CommonItem",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_up_pop",
+      "displayName": "item",
+      "chineseDescription": "UIEasterSpringUpPop的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab」中的UIEasterSpringUpPopitem",
+      "suggestedTestId": "UIEasterSpringUpPop.item",
+      "suggestedSemanticId": "UIEasterSpringUpPop.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6158d11a125a"
+    },
+    "DRAFT_0b0035dd3acb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab",
+      "prefabRoot": "UIEasterSpringUpPop",
+      "path": "UIEasterSpringUpPop/Root/tc/button_close",
+      "nodeName": "button_close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio",
+        "LayoutElement"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_easter_spring_up_pop",
+      "displayName": "buttonclose",
+      "chineseDescription": "UIEasterSpringUpPop的buttonclose，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab」中的UIEasterSpringUpPopbuttonclose",
+      "suggestedTestId": "UIEasterSpringUpPop.button_close",
+      "suggestedSemanticId": "UIEasterSpringUpPop.buttonclose",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0b0035dd3acb"
+    },
+    "DRAFT_537b57528809": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab",
+      "prefabRoot": "UIEasterSpringUpPop",
+      "path": "UIEasterSpringUpPop/Root/tc/UpBtn",
+      "nodeName": "UpBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_ye_small",
+      "clickable": true,
+      "pageId": "ui_easter_spring_up_pop",
+      "displayName": "Up按钮",
+      "chineseDescription": "UIEasterSpringUpPop的Up按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPop.prefab」中的UIEasterSpringUpPopUp按钮",
+      "suggestedTestId": "UIEasterSpringUpPop.UpBtn",
+      "suggestedSemanticId": "UIEasterSpringUpPop.Up按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_537b57528809"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f0e30a3b753f",
+      "DRAFT_6158d11a125a",
+      "DRAFT_0b0035dd3acb",
+      "DRAFT_537b57528809"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

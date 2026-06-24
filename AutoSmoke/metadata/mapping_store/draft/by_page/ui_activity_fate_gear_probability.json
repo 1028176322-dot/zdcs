@@ -1,0 +1,96 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_fate_gear_probability",
+  "displayName": "ui_activity_fate_gear_probability",
+  "drafts": {
+    "DRAFT_215eece3462e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab",
+      "prefabRoot": "UIActivityFateGearProbability",
+      "path": "UIActivityFateGearProbability/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_probability",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityFateGearProbability的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab」中的UIActivityFateGearProbability关闭按钮",
+      "suggestedTestId": "UIActivityFateGearProbability.CloseBtn",
+      "suggestedSemanticId": "UIActivityFateGearProbability.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_215eece3462e"
+    },
+    "DRAFT_2570c87230f9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab",
+      "prefabRoot": "UIActivityFateGearProbability",
+      "path": "UIActivityFateGearProbability/Root/Animation/content/list/Viewport/Content/Item/items/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_probability",
+      "displayName": "项",
+      "chineseDescription": "UIActivityFateGearProbability的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab」中的UIActivityFateGearProbability项",
+      "suggestedTestId": "UIActivityFateGearProbability.Item",
+      "suggestedSemanticId": "UIActivityFateGearProbability.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2570c87230f9"
+    },
+    "DRAFT_ece606061609": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab",
+      "prefabRoot": "UIActivityFateGearProbability",
+      "path": "UIActivityFateGearProbability/Root/Animation/content/list/Viewport/Content/Item/items/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_probability",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityFateGearProbability的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearProbability.prefab」中的UIActivityFateGearProbabilityClickContent",
+      "suggestedTestId": "UIActivityFateGearProbability.ClickContent",
+      "suggestedSemanticId": "UIActivityFateGearProbability.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ece606061609"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_215eece3462e",
+      "DRAFT_2570c87230f9",
+      "DRAFT_ece606061609"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

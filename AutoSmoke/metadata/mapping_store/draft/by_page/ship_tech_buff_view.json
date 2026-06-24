@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ship_tech_buff_view",
+  "displayName": "ship_tech_buff_view",
+  "drafts": {
+    "DRAFT_818f71e4f4cb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/ShipTechBuffView.prefab",
+      "prefabRoot": "ShipTechBuffView",
+      "path": "ShipTechBuffView/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "ship_tech_buff_view",
+      "displayName": "Mask",
+      "chineseDescription": "ShipTechBuffView的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/ShipTechBuffView.prefab」中的ShipTechBuffViewMask",
+      "suggestedTestId": "ShipTechBuffView.Mask",
+      "suggestedSemanticId": "ShipTechBuffView.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_818f71e4f4cb"
+    },
+    "DRAFT_e141c054e2e2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/ShipTechBuffView.prefab",
+      "prefabRoot": "ShipTechBuffView",
+      "path": "ShipTechBuffView/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ship_tech_buff_view",
+      "displayName": "关闭按钮",
+      "chineseDescription": "ShipTechBuffView的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/ShipTechBuffView.prefab」中的ShipTechBuffView关闭按钮",
+      "suggestedTestId": "ShipTechBuffView.CloseBtn",
+      "suggestedSemanticId": "ShipTechBuffView.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e141c054e2e2"
+    },
+    "DRAFT_eb929da6181d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_ShipTechBuffView.prefab",
+      "prefabRoot": "EXPORT_ShipTechBuffView",
+      "path": "EXPORT_ShipTechBuffView/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "ship_tech_buff_view",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_ShipTechBuffView的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_ShipTechBuffView.prefab」中的EXPORT_ShipTechBuffViewMask",
+      "suggestedTestId": "EXPORT_ShipTechBuffView.Mask",
+      "suggestedSemanticId": "EXPORT_ShipTechBuffView.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb929da6181d"
+    },
+    "DRAFT_1fe5dcda585e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_ShipTechBuffView.prefab",
+      "prefabRoot": "EXPORT_ShipTechBuffView",
+      "path": "EXPORT_ShipTechBuffView/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ship_tech_buff_view",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_ShipTechBuffView的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_ShipTechBuffView.prefab」中的EXPORT_ShipTechBuffView关闭按钮",
+      "suggestedTestId": "EXPORT_ShipTechBuffView.CloseBtn",
+      "suggestedSemanticId": "EXPORT_ShipTechBuffView.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1fe5dcda585e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_818f71e4f4cb",
+      "DRAFT_e141c054e2e2",
+      "DRAFT_eb929da6181d",
+      "DRAFT_1fe5dcda585e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

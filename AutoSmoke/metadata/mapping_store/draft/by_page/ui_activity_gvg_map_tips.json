@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_map_tips",
+  "displayName": "ui_activity_gvg_map_tips",
+  "drafts": {
+    "DRAFT_ae538146d343": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMapTips.prefab",
+      "prefabRoot": "UIActivityGVGMapTips",
+      "path": "UIActivityGVGMapTips/Root/Content",
+      "nodeName": "Content",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_map_tips",
+      "displayName": "Content",
+      "chineseDescription": "UIActivityGVGMapTips的Content",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMapTips.prefab」中的UIActivityGVGMapTipsContent",
+      "suggestedTestId": "UIActivityGVGMapTips.Content",
+      "suggestedSemanticId": "UIActivityGVGMapTips.Content",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ae538146d343"
+    },
+    "DRAFT_05c283a62ae5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMapTips.prefab",
+      "prefabRoot": "UIActivityGVGMapTips",
+      "path": "UIActivityGVGMapTips/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back_2",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_map_tips",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityGVGMapTips的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMapTips.prefab」中的UIActivityGVGMapTips关闭按钮",
+      "suggestedTestId": "UIActivityGVGMapTips.CloseBtn",
+      "suggestedSemanticId": "UIActivityGVGMapTips.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_05c283a62ae5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ae538146d343",
+      "DRAFT_05c283a62ae5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

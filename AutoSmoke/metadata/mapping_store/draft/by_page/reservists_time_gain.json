@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "reservists_time_gain",
+  "displayName": "reservists_time_gain",
+  "drafts": {
+    "DRAFT_0d0d9374f2e0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsTimeGain.prefab",
+      "prefabRoot": "ReservistsTimeGain",
+      "path": "ReservistsTimeGain/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "reservists_time_gain",
+      "displayName": "关闭按钮",
+      "chineseDescription": "ReservistsTimeGain的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsTimeGain.prefab」中的ReservistsTimeGain关闭按钮",
+      "suggestedTestId": "ReservistsTimeGain.CloseBtn",
+      "suggestedSemanticId": "ReservistsTimeGain.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0d0d9374f2e0"
+    },
+    "DRAFT_3106f6991bb1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsTimeGain.prefab",
+      "prefabRoot": "ReservistsTimeGain",
+      "path": "ReservistsTimeGain/Root/Animation/content/List/Mask/Content/Item/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_green",
+      "clickable": true,
+      "pageId": "reservists_time_gain",
+      "displayName": "按钮",
+      "chineseDescription": "ReservistsTimeGain的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Reservists/ReservistsTimeGain.prefab」中的ReservistsTimeGain按钮",
+      "suggestedTestId": "ReservistsTimeGain.Btn",
+      "suggestedSemanticId": "ReservistsTimeGain.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3106f6991bb1"
+    },
+    "DRAFT_a9f4782ab644": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsTimeGain.prefab",
+      "prefabRoot": "EXPORT_ReservistsTimeGain",
+      "path": "EXPORT_ReservistsTimeGain/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "reservists_time_gain",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_ReservistsTimeGain的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsTimeGain.prefab」中的EXPORT_ReservistsTimeGain关闭按钮",
+      "suggestedTestId": "EXPORT_ReservistsTimeGain.CloseBtn",
+      "suggestedSemanticId": "EXPORT_ReservistsTimeGain.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a9f4782ab644"
+    },
+    "DRAFT_deaecd800daa": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsTimeGain.prefab",
+      "prefabRoot": "EXPORT_ReservistsTimeGain",
+      "path": "EXPORT_ReservistsTimeGain/Root/Animation/content/List/Mask/Content/Item/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_green",
+      "clickable": true,
+      "pageId": "reservists_time_gain",
+      "displayName": "按钮",
+      "chineseDescription": "EXPORT_ReservistsTimeGain的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Reservists/EXPORT_ReservistsTimeGain.prefab」中的EXPORT_ReservistsTimeGain按钮",
+      "suggestedTestId": "EXPORT_ReservistsTimeGain.Btn",
+      "suggestedSemanticId": "EXPORT_ReservistsTimeGain.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_deaecd800daa"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0d0d9374f2e0",
+      "DRAFT_3106f6991bb1",
+      "DRAFT_a9f4782ab644",
+      "DRAFT_deaecd800daa"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

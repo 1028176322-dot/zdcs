@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_module_ranking",
+  "displayName": "mail_module_ranking",
+  "drafts": {
+    "DRAFT_3d14eb6caa58": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_Ranking.prefab",
+      "prefabRoot": "MailModule_Ranking",
+      "path": "MailModule_Ranking/Scroll/View/Content/Item/bg/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_module_ranking",
+      "displayName": "Headk1",
+      "chineseDescription": "MailModule_Ranking的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_Ranking.prefab」中的MailModule_RankingHeadk1",
+      "suggestedTestId": "MailModule_Ranking.Head_k1",
+      "suggestedSemanticId": "MailModule_Ranking.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3d14eb6caa58"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3d14eb6caa58"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

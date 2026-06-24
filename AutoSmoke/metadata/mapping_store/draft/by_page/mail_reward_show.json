@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_reward_show",
+  "displayName": "mail_reward_show",
+  "drafts": {
+    "DRAFT_96c43aec2b15": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_reward_show.prefab",
+      "prefabRoot": "mail_reward_show",
+      "path": "mail_reward_show/Scroll/View/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_reward_show",
+      "displayName": "ClickContent",
+      "chineseDescription": "mail_reward_show的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_reward_show.prefab」中的mail_reward_showClickContent",
+      "suggestedTestId": "mail_reward_show.ClickContent",
+      "suggestedSemanticId": "mail_reward_show.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_96c43aec2b15"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_96c43aec2b15"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "ui_id": "UI_0001",
+    "ui_name": "神器技能 · 按品质排序",
+    "ui_type": "page",
+    "source_image": [],
+    "jump_to": [],
+    "fact_ref": [
+      "FACT_0003"
+    ],
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "ui_id": "UI_0002",
+    "ui_name": "技能",
+    "ui_type": "page",
+    "source_image": [],
+    "jump_to": [],
+    "fact_ref": [
+      "FACT_0005"
+    ],
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95
+  }
+]

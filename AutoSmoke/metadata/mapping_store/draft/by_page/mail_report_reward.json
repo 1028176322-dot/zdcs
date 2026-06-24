@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_report_reward",
+  "displayName": "mail_report_reward",
+  "drafts": {
+    "DRAFT_78a5ce8307e8": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Reward.prefab",
+      "prefabRoot": "Mail_Report_Reward",
+      "path": "Mail_Report_Reward/ScrollView/Viewport/Content/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "CommonItem",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_reward",
+      "displayName": "item",
+      "chineseDescription": "Mail_Report_Reward的item",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Reward.prefab」中的Mail_Report_Rewarditem",
+      "suggestedTestId": "Mail_Report_Reward.item",
+      "suggestedSemanticId": "Mail_Report_Reward.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_78a5ce8307e8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_78a5ce8307e8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_unlock",
+  "displayName": "ui_alliance_unlock",
+  "drafts": {
+    "DRAFT_e56f3b9915e5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab",
+      "prefabRoot": "UIAllianceUnlock",
+      "path": "UIAllianceUnlock/Root/Tips_bg/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_unlock",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIAllianceUnlock的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab」中的UIAllianceUnlockGo按钮",
+      "suggestedTestId": "UIAllianceUnlock.GoBtn",
+      "suggestedSemanticId": "UIAllianceUnlock.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e56f3b9915e5"
+    },
+    "DRAFT_da2989bd6365": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab",
+      "prefabRoot": "UIAllianceUnlock",
+      "path": "UIAllianceUnlock/Root/Tips_bg/JoinBtn",
+      "nodeName": "JoinBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_alliance_unlock",
+      "displayName": "Join按钮",
+      "chineseDescription": "UIAllianceUnlock的Join按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab」中的UIAllianceUnlockJoin按钮",
+      "suggestedTestId": "UIAllianceUnlock.JoinBtn",
+      "suggestedSemanticId": "UIAllianceUnlock.Join按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_da2989bd6365"
+    },
+    "DRAFT_16f7364f9a7a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab",
+      "prefabRoot": "UIAllianceUnlock",
+      "path": "UIAllianceUnlock/Root/Tips_bg/UpgradeBtn",
+      "nodeName": "UpgradeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_unlock",
+      "displayName": "Upgrade按钮",
+      "chineseDescription": "UIAllianceUnlock的Upgrade按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab」中的UIAllianceUnlockUpgrade按钮",
+      "suggestedTestId": "UIAllianceUnlock.UpgradeBtn",
+      "suggestedSemanticId": "UIAllianceUnlock.Upgrade按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16f7364f9a7a"
+    },
+    "DRAFT_deaa83046f27": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab",
+      "prefabRoot": "UIAllianceUnlock",
+      "path": "UIAllianceUnlock/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back_2",
+      "clickable": true,
+      "pageId": "ui_alliance_unlock",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIAllianceUnlock的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIAllianceUnlock.prefab」中的UIAllianceUnlock按钮关闭",
+      "suggestedTestId": "UIAllianceUnlock.BtnClose",
+      "suggestedSemanticId": "UIAllianceUnlock.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_deaa83046f27"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e56f3b9915e5",
+      "DRAFT_da2989bd6365",
+      "DRAFT_16f7364f9a7a",
+      "DRAFT_deaa83046f27"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

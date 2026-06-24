@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_burial_defend_reward",
+  "displayName": "ui_activity_burial_defend_reward",
+  "drafts": {
+    "DRAFT_83d8b7c608dc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBurialDefendReward.prefab",
+      "prefabRoot": "UIActivityBurialDefendReward",
+      "path": "UIActivityBurialDefendReward/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_burial_defend_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityBurialDefendReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBurialDefendReward.prefab」中的UIActivityBurialDefendReward关闭按钮",
+      "suggestedTestId": "UIActivityBurialDefendReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityBurialDefendReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_83d8b7c608dc"
+    },
+    "DRAFT_7743ff39aeb3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBurialDefendReward.prefab",
+      "prefabRoot": "UIActivityBurialDefendReward",
+      "path": "UIActivityBurialDefendReward/Root/DefendReward/ScrollView/ViewPort/Content/Items/Item/ReceiveBtn",
+      "nodeName": "ReceiveBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_burial_defend_reward",
+      "displayName": "Receive按钮",
+      "chineseDescription": "UIActivityBurialDefendReward的Receive按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBurialDefendReward.prefab」中的UIActivityBurialDefendRewardReceive按钮",
+      "suggestedTestId": "UIActivityBurialDefendReward.ReceiveBtn",
+      "suggestedSemanticId": "UIActivityBurialDefendReward.Receive按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7743ff39aeb3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_83d8b7c608dc",
+      "DRAFT_7743ff39aeb3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

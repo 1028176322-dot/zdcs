@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.power.icon",
+  "testId": "character_info.power.icon",
+  "semanticId": "character_info.power.icon",
+  "targetName": "角色信息界面战力图标",
+  "displayName": "角色信息-战力图标",
+  "pageId": "character_info",
+  "role": "icon",
+  "elementType": "Icon",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+    "pageId": "character_info",
+    "elementType": "Icon"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Left/Damage/Icon",
+    "screenRect": [
+      345,
+      1383,
+      443,
+      1481
+    ]
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+    "highlightImage": "screenshots/mapping_review/20260623_195705_highlight.png",
+    "screenRectUsed": [
+      345,
+      1383,
+      443,
+      1481
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T19:57:05",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T19:57:24",
+    "confirmedTestId": "character_info.power.icon",
+    "formalRef": "formal://character_info/character_info.power.icon",
+    "evidenceRef": "EVIDENCE_character_info.power.icon"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "",
+    "spriteName": "3_common_fighting_bg_1",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T19:57:56"
+}

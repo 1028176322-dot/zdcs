@@ -1,0 +1,62 @@
+{
+  "schema_version": "business_understanding.model.v1",
+  "model_version": "business_understanding.v1",
+  "feature_name": "神器界面功能",
+  "generated_at": "2026-06-17T18:26:35",
+  "input_fact_hash": "sha256:16e12513f508f8c3bf826812af030d20a5f73d22dc18af6c4d3f29c84b069def",
+  "business_flows": [
+    {
+      "flow_id": "FLOW_001",
+      "name": "主业务链路",
+      "flow_type": "main",
+      "steps": [
+        {
+          "step_id": "STEP_001",
+          "order": 2,
+          "stage": "state_change",
+          "step_type": "business_rule",
+          "statement": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+          "fact_ids": [
+            "FACT_0004"
+          ],
+          "evidence_refs": [
+            "EVD_0001"
+          ],
+          "support": "direct",
+          "support_slots": [
+            {
+              "slot": "state_change",
+              "fact_id": "FACT_0004",
+              "quote": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。"
+            }
+          ],
+          "certainty": "confirmed"
+        }
+      ]
+    }
+  ],
+  "config_constraints": [
+    {
+      "item_id": "CONFIG_001",
+      "stage": "config_constraint",
+      "statement": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "fact_ids": [
+        "FACT_0002"
+      ],
+      "evidence_refs": [
+        "EVD_0001"
+      ],
+      "support": "direct",
+      "support_slots": [
+        {
+          "slot": "open_condition",
+          "fact_id": "FACT_0002",
+          "quote": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。"
+        }
+      ],
+      "certainty": "confirmed"
+    }
+  ],
+  "exceptions": [],
+  "open_questions": []
+}

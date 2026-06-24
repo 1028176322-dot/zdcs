@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_open_spring_festival",
+  "displayName": "ui_activity_open_spring_festival",
+  "drafts": {
+    "DRAFT_81226f5731ae": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab",
+      "prefabRoot": "UIActivityOpen_SpringFestival",
+      "path": "UIActivityOpen_SpringFestival/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_open_spring_festival",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityOpen_SpringFestival的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab」中的UIActivityOpen_SpringFestivalGo按钮",
+      "suggestedTestId": "UIActivityOpen_SpringFestival.GoBtn",
+      "suggestedSemanticId": "UIActivityOpen_SpringFestival.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_81226f5731ae"
+    },
+    "DRAFT_ed46618c45a6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab",
+      "prefabRoot": "UIActivityOpen_SpringFestival",
+      "path": "UIActivityOpen_SpringFestival/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_open_spring_festival",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityOpen_SpringFestival的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab」中的UIActivityOpen_SpringFestival关闭按钮",
+      "suggestedTestId": "UIActivityOpen_SpringFestival.CloseBtn",
+      "suggestedSemanticId": "UIActivityOpen_SpringFestival.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ed46618c45a6"
+    },
+    "DRAFT_c4f617876f31": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab",
+      "prefabRoot": "UIActivityOpen_SpringFestival",
+      "path": "UIActivityOpen_SpringFestival/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_open_spring_festival",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityOpen_SpringFestival的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_SpringFestival.prefab」中的UIActivityOpen_SpringFestival项1",
+      "suggestedTestId": "UIActivityOpen_SpringFestival.Item1",
+      "suggestedSemanticId": "UIActivityOpen_SpringFestival.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c4f617876f31"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_81226f5731ae",
+      "DRAFT_ed46618c45a6",
+      "DRAFT_c4f617876f31"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

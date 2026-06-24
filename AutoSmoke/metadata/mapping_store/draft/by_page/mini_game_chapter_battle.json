@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mini_game_chapter_battle",
+  "displayName": "mini_game_chapter_battle",
+  "drafts": {
+    "DRAFT_150103752007": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab",
+      "prefabRoot": "MiniGameChapterBattle",
+      "path": "MiniGameChapterBattle/Root/BtnBack",
+      "nodeName": "BtnBack",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_Mini_Btn_Back",
+      "clickable": true,
+      "pageId": "mini_game_chapter_battle",
+      "displayName": "按钮返回",
+      "chineseDescription": "MiniGameChapterBattle的按钮返回，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab」中的MiniGameChapterBattle按钮返回",
+      "suggestedTestId": "MiniGameChapterBattle.BtnBack",
+      "suggestedSemanticId": "MiniGameChapterBattle.按钮返回",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_150103752007"
+    },
+    "DRAFT_8f7d348dcb5c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab",
+      "prefabRoot": "MiniGameChapterBattle",
+      "path": "MiniGameChapterBattle/Root/BtnReset",
+      "nodeName": "BtnReset",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_Mini_Btn_Reset",
+      "clickable": true,
+      "pageId": "mini_game_chapter_battle",
+      "displayName": "按钮Reset",
+      "chineseDescription": "MiniGameChapterBattle的按钮Reset，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab」中的MiniGameChapterBattle按钮Reset",
+      "suggestedTestId": "MiniGameChapterBattle.BtnReset",
+      "suggestedSemanticId": "MiniGameChapterBattle.按钮Reset",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8f7d348dcb5c"
+    },
+    "DRAFT_153a5574ba58": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab",
+      "prefabRoot": "MiniGameChapterBattle",
+      "path": "MiniGameChapterBattle/Root/BtnTestSucc",
+      "nodeName": "BtnTestSucc",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "mini_game_chapter_battle",
+      "displayName": "按钮TestSucc",
+      "chineseDescription": "MiniGameChapterBattle的按钮TestSucc，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab」中的MiniGameChapterBattle按钮TestSucc",
+      "suggestedTestId": "MiniGameChapterBattle.BtnTestSucc",
+      "suggestedSemanticId": "MiniGameChapterBattle.按钮TestSucc",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_153a5574ba58"
+    },
+    "DRAFT_f021c9d5bd15": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab",
+      "prefabRoot": "MiniGameChapterBattle",
+      "path": "MiniGameChapterBattle/Root/BtnTestFailed",
+      "nodeName": "BtnTestFailed",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_red",
+      "clickable": true,
+      "pageId": "mini_game_chapter_battle",
+      "displayName": "按钮TestFailed",
+      "chineseDescription": "MiniGameChapterBattle的按钮TestFailed，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab」中的MiniGameChapterBattle按钮TestFailed",
+      "suggestedTestId": "MiniGameChapterBattle.BtnTestFailed",
+      "suggestedSemanticId": "MiniGameChapterBattle.按钮TestFailed",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f021c9d5bd15"
+    },
+    "DRAFT_4b90aacc3a95": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab",
+      "prefabRoot": "MiniGameChapterBattle",
+      "path": "MiniGameChapterBattle/Root/BtnReset (1)",
+      "nodeName": "BtnReset (1)",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_Mini_Btn_Set",
+      "clickable": true,
+      "pageId": "mini_game_chapter_battle",
+      "displayName": "按钮Reset1",
+      "chineseDescription": "MiniGameChapterBattle的按钮Reset1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterBattle.prefab」中的MiniGameChapterBattle按钮Reset1",
+      "suggestedTestId": "MiniGameChapterBattle.BtnReset(1)",
+      "suggestedSemanticId": "MiniGameChapterBattle.按钮Reset1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4b90aacc3a95"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_150103752007",
+      "DRAFT_8f7d348dcb5c",
+      "DRAFT_153a5574ba58",
+      "DRAFT_f021c9d5bd15",
+      "DRAFT_4b90aacc3a95"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

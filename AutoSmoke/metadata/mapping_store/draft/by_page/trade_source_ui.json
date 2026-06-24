@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "trade_source_ui",
+  "displayName": "trade_source_ui",
+  "drafts": {
+    "DRAFT_6e84ec569e29": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeSourceUI.prefab",
+      "prefabRoot": "TradeSourceUI",
+      "path": "TradeSourceUI/Root/Animation/BackGround/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_source_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TradeSourceUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeSourceUI.prefab」中的TradeSourceUI关闭按钮",
+      "suggestedTestId": "TradeSourceUI.CloseBtn",
+      "suggestedSemanticId": "TradeSourceUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6e84ec569e29"
+    },
+    "DRAFT_a0d365004bde": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeSourceUI.prefab",
+      "prefabRoot": "TradeSourceUI",
+      "path": "TradeSourceUI/Root/Animation/BackGround/ItemBox",
+      "nodeName": "ItemBox",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "trade_source_ui",
+      "displayName": "项Box",
+      "chineseDescription": "TradeSourceUI的项Box",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeSourceUI.prefab」中的TradeSourceUI项Box",
+      "suggestedTestId": "TradeSourceUI.ItemBox",
+      "suggestedSemanticId": "TradeSourceUI.项Box",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a0d365004bde"
+    },
+    "DRAFT_4c3f45156b27": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeSourceUI.prefab",
+      "prefabRoot": "Export_TradeSourceUI",
+      "path": "Export_TradeSourceUI/Root/Animation/BackGround/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_source_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Export_TradeSourceUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeSourceUI.prefab」中的Export_TradeSourceUI关闭按钮",
+      "suggestedTestId": "Export_TradeSourceUI.CloseBtn",
+      "suggestedSemanticId": "Export_TradeSourceUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4c3f45156b27"
+    },
+    "DRAFT_6407038e032f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeSourceUI.prefab",
+      "prefabRoot": "Export_TradeSourceUI",
+      "path": "Export_TradeSourceUI/Root/Animation/BackGround/ItemBox",
+      "nodeName": "ItemBox",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "trade_source_ui",
+      "displayName": "项Box",
+      "chineseDescription": "Export_TradeSourceUI的项Box",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeSourceUI.prefab」中的Export_TradeSourceUI项Box",
+      "suggestedTestId": "Export_TradeSourceUI.ItemBox",
+      "suggestedSemanticId": "Export_TradeSourceUI.项Box",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6407038e032f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6e84ec569e29",
+      "DRAFT_a0d365004bde",
+      "DRAFT_4c3f45156b27",
+      "DRAFT_6407038e032f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_public_lock",
+  "displayName": "ui_public_lock",
+  "drafts": {
+    "DRAFT_b921c5724199": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab",
+      "prefabRoot": "UIPublicLock",
+      "path": "UIPublicLock/sp_mask",
+      "nodeName": "sp_mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "RawImage",
+        "UIBlurScreenShot",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_public_lock",
+      "displayName": "spmask",
+      "chineseDescription": "UIPublicLock的spmask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab」中的UIPublicLockspmask",
+      "suggestedTestId": "UIPublicLock.sp_mask",
+      "suggestedSemanticId": "UIPublicLock.spmask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b921c5724199"
+    },
+    "DRAFT_f0e54dc3c7dd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab",
+      "prefabRoot": "UIPublicLock",
+      "path": "UIPublicLock/Root/Content/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_public_lock",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIPublicLock的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab」中的UIPublicLockCommon按钮",
+      "suggestedTestId": "UIPublicLock.CommonBtn",
+      "suggestedSemanticId": "UIPublicLock.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f0e54dc3c7dd"
+    },
+    "DRAFT_3e66ee83c8ff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab",
+      "prefabRoot": "UIPublicLock",
+      "path": "UIPublicLock/ClickMask",
+      "nodeName": "ClickMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UIMask",
+      "clickable": true,
+      "pageId": "ui_public_lock",
+      "displayName": "ClickMask",
+      "chineseDescription": "UIPublicLock的ClickMask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIPublicLock.prefab」中的UIPublicLockClickMask",
+      "suggestedTestId": "UIPublicLock.ClickMask",
+      "suggestedSemanticId": "UIPublicLock.ClickMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3e66ee83c8ff"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b921c5724199",
+      "DRAFT_f0e54dc3c7dd",
+      "DRAFT_3e66ee83c8ff"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_monopoly_banner",
+  "displayName": "ui_activity_monopoly_banner",
+  "drafts": {
+    "DRAFT_ebe4db087bff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyBanner.prefab",
+      "prefabRoot": "UIActivityMonopolyBanner",
+      "path": "UIActivityMonopolyBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityMonopolyBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyBanner.prefab」中的UIActivityMonopolyBannerInfo",
+      "suggestedTestId": "UIActivityMonopolyBanner.Info",
+      "suggestedSemanticId": "UIActivityMonopolyBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ebe4db087bff"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ebe4db087bff"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

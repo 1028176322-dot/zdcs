@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_skill_item",
+  "displayName": "hero_skill_item",
+  "drafts": {
+    "DRAFT_65e58e0b616f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/HeroSkillItem.prefab",
+      "prefabRoot": "HeroSkillItem",
+      "path": "HeroSkillItem/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_skill_item",
+      "displayName": "Click",
+      "chineseDescription": "HeroSkillItem的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/HeroSkillItem.prefab」中的HeroSkillItemClick",
+      "suggestedTestId": "HeroSkillItem.Click",
+      "suggestedSemanticId": "HeroSkillItem.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_65e58e0b616f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_65e58e0b616f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

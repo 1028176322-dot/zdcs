@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_islander_upgrade",
+  "displayName": "export_main_city_islander_upgrade",
+  "drafts": {
+    "DRAFT_112ddd20d817": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderUpgrade",
+      "path": "EXPORT_MainCityIslanderUpgrade/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "export_main_city_islander_upgrade",
+      "displayName": "BG",
+      "chineseDescription": "EXPORT_MainCityIslanderUpgrade的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab」中的EXPORT_MainCityIslanderUpgradeBG",
+      "suggestedTestId": "EXPORT_MainCityIslanderUpgrade.BG",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderUpgrade.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_112ddd20d817"
+    },
+    "DRAFT_c57aa084cfa9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderUpgrade",
+      "path": "EXPORT_MainCityIslanderUpgrade/Root/Content/IslanderHead",
+      "nodeName": "IslanderHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_main_city_islander_upgrade",
+      "displayName": "IslanderHead",
+      "chineseDescription": "EXPORT_MainCityIslanderUpgrade的IslanderHead",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab」中的EXPORT_MainCityIslanderUpgradeIslanderHead",
+      "suggestedTestId": "EXPORT_MainCityIslanderUpgrade.IslanderHead",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderUpgrade.IslanderHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c57aa084cfa9"
+    },
+    "DRAFT_d35dfdc21f5d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderUpgrade",
+      "path": "EXPORT_MainCityIslanderUpgrade/Root/Content/IslanderHead/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "export_main_city_islander_upgrade",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_MainCityIslanderUpgrade的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab」中的EXPORT_MainCityIslanderUpgradeClick",
+      "suggestedTestId": "EXPORT_MainCityIslanderUpgrade.Click",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderUpgrade.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d35dfdc21f5d"
+    },
+    "DRAFT_8548c8eb5b05": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderUpgrade",
+      "path": "EXPORT_MainCityIslanderUpgrade/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "export_main_city_islander_upgrade",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_MainCityIslanderUpgrade的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderUpgrade.prefab」中的EXPORT_MainCityIslanderUpgradeClick",
+      "suggestedTestId": "EXPORT_MainCityIslanderUpgrade.Click",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderUpgrade.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8548c8eb5b05"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_112ddd20d817",
+      "DRAFT_c57aa084cfa9",
+      "DRAFT_d35dfdc21f5d",
+      "DRAFT_8548c8eb5b05"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

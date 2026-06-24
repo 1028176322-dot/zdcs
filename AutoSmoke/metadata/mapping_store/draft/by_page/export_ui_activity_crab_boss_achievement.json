@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_ui_activity_crab_boss_achievement",
+  "displayName": "export_ui_activity_crab_boss_achievement",
+  "drafts": {
+    "DRAFT_65fc180d7933": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab",
+      "prefabRoot": "EXPORT_UIActivityCrabBossAchievement",
+      "path": "EXPORT_UIActivityCrabBossAchievement/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "export_ui_activity_crab_boss_achievement",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_UIActivityCrabBossAchievement的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab」中的EXPORT_UIActivityCrabBossAchievementMask",
+      "suggestedTestId": "EXPORT_UIActivityCrabBossAchievement.Mask",
+      "suggestedSemanticId": "EXPORT_UIActivityCrabBossAchievement.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_65fc180d7933"
+    },
+    "DRAFT_34feda7fd8b4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab",
+      "prefabRoot": "EXPORT_UIActivityCrabBossAchievement",
+      "path": "EXPORT_UIActivityCrabBossAchievement/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_ui_activity_crab_boss_achievement",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityCrabBossAchievement的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab」中的EXPORT_UIActivityCrabBossAchievement关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityCrabBossAchievement.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityCrabBossAchievement.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_34feda7fd8b4"
+    },
+    "DRAFT_4a7af14a2564": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab",
+      "prefabRoot": "EXPORT_UIActivityCrabBossAchievement",
+      "path": "EXPORT_UIActivityCrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/AwardScroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_ui_activity_crab_boss_achievement",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivityCrabBossAchievement的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab」中的EXPORT_UIActivityCrabBossAchievementClickContent",
+      "suggestedTestId": "EXPORT_UIActivityCrabBossAchievement.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivityCrabBossAchievement.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4a7af14a2564"
+    },
+    "DRAFT_262e45654c8a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab",
+      "prefabRoot": "EXPORT_UIActivityCrabBossAchievement",
+      "path": "EXPORT_UIActivityCrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/BtnGet",
+      "nodeName": "BtnGet",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_xiao",
+      "clickable": true,
+      "pageId": "export_ui_activity_crab_boss_achievement",
+      "displayName": "按钮Get",
+      "chineseDescription": "EXPORT_UIActivityCrabBossAchievement的按钮Get，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab」中的EXPORT_UIActivityCrabBossAchievement按钮Get",
+      "suggestedTestId": "EXPORT_UIActivityCrabBossAchievement.BtnGet",
+      "suggestedSemanticId": "EXPORT_UIActivityCrabBossAchievement.按钮Get",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_262e45654c8a"
+    },
+    "DRAFT_88e4da11d2ce": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab",
+      "prefabRoot": "EXPORT_UIActivityCrabBossAchievement",
+      "path": "EXPORT_UIActivityCrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/BtnGray",
+      "nodeName": "BtnGray",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_gray_xiao",
+      "clickable": true,
+      "pageId": "export_ui_activity_crab_boss_achievement",
+      "displayName": "按钮Gray",
+      "chineseDescription": "EXPORT_UIActivityCrabBossAchievement的按钮Gray，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCrabBossAchievement.prefab」中的EXPORT_UIActivityCrabBossAchievement按钮Gray",
+      "suggestedTestId": "EXPORT_UIActivityCrabBossAchievement.BtnGray",
+      "suggestedSemanticId": "EXPORT_UIActivityCrabBossAchievement.按钮Gray",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_88e4da11d2ce"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_65fc180d7933",
+      "DRAFT_34feda7fd8b4",
+      "DRAFT_4a7af14a2564",
+      "DRAFT_262e45654c8a",
+      "DRAFT_88e4da11d2ce"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

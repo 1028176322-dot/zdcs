@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_minigame_banner",
+  "displayName": "ui_activity_minigame_banner",
+  "drafts": {
+    "DRAFT_4da884ed6e53": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameBanner.prefab",
+      "prefabRoot": "UIActivityMinigameBanner",
+      "path": "UIActivityMinigameBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_minigame_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityMinigameBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameBanner.prefab」中的UIActivityMinigameBannerInfo",
+      "suggestedTestId": "UIActivityMinigameBanner.Info",
+      "suggestedSemanticId": "UIActivityMinigameBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4da884ed6e53"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4da884ed6e53"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

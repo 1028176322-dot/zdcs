@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_camp_ties",
+  "displayName": "ui_camp_ties",
+  "drafts": {
+    "DRAFT_ac0fa6e85566": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/CampTies/UICampTies.prefab",
+      "prefabRoot": "UICampTies",
+      "path": "UICampTies/Animation/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_camp_ties",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UICampTies的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/CampTies/UICampTies.prefab」中的UICampTies按钮关闭",
+      "suggestedTestId": "UICampTies.BtnClose",
+      "suggestedSemanticId": "UICampTies.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ac0fa6e85566"
+    },
+    "DRAFT_13c69e90cb76": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/CampTies/UICampTies.prefab",
+      "prefabRoot": "UICampTies",
+      "path": "UICampTies/Animation/BG/NextSection/NextBtn",
+      "nodeName": "NextBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_camp_ties",
+      "displayName": "下一步按钮",
+      "chineseDescription": "UICampTies的下一步按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/CampTies/UICampTies.prefab」中的UICampTies下一步按钮",
+      "suggestedTestId": "UICampTies.NextBtn",
+      "suggestedSemanticId": "UICampTies.下一步按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_13c69e90cb76"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ac0fa6e85566",
+      "DRAFT_13c69e90cb76"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

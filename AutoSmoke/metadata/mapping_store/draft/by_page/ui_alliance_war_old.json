@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_war_old",
+  "displayName": "ui_alliance_war_old",
+  "drafts": {
+    "DRAFT_b3beef7b9c5c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Top/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Info按钮",
+      "chineseDescription": "UIAllianceWarOld的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldInfo按钮",
+      "suggestedTestId": "UIAllianceWarOld.InfoBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b3beef7b9c5c"
+    },
+    "DRAFT_6aed0640bf38": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Top/StarBtn",
+      "nodeName": "StarBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_Common_star",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Star按钮",
+      "chineseDescription": "UIAllianceWarOld的Star按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldStar按钮",
+      "suggestedTestId": "UIAllianceWarOld.StarBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Star按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6aed0640bf38"
+    },
+    "DRAFT_d944a2cdd3c7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Top/ShareBtn",
+      "nodeName": "ShareBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_Share",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Share按钮",
+      "chineseDescription": "UIAllianceWarOld的Share按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldShare按钮",
+      "suggestedTestId": "UIAllianceWarOld.ShareBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Share按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d944a2cdd3c7"
+    },
+    "DRAFT_fc0c2d007bff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Button/BtnGroup/RankBtn",
+      "nodeName": "RankBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Rank按钮",
+      "chineseDescription": "UIAllianceWarOld的Rank按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldRank按钮",
+      "suggestedTestId": "UIAllianceWarOld.RankBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Rank按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fc0c2d007bff"
+    },
+    "DRAFT_ba346a0e2b4e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Button/BtnGroup/AttackBtn",
+      "nodeName": "AttackBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_red",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Attack按钮",
+      "chineseDescription": "UIAllianceWarOld的Attack按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldAttack按钮",
+      "suggestedTestId": "UIAllianceWarOld.AttackBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Attack按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ba346a0e2b4e"
+    },
+    "DRAFT_16456cff6f4f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab",
+      "prefabRoot": "UIAllianceWarOld",
+      "path": "UIAllianceWarOld/Root/BG/Button/BtnGroup/CollectBtn",
+      "nodeName": "CollectBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_war_old",
+      "displayName": "Collect按钮",
+      "chineseDescription": "UIAllianceWarOld的Collect按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarOld.prefab」中的UIAllianceWarOldCollect按钮",
+      "suggestedTestId": "UIAllianceWarOld.CollectBtn",
+      "suggestedSemanticId": "UIAllianceWarOld.Collect按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16456cff6f4f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b3beef7b9c5c",
+      "DRAFT_6aed0640bf38",
+      "DRAFT_d944a2cdd3c7",
+      "DRAFT_fc0c2d007bff",
+      "DRAFT_ba346a0e2b4e",
+      "DRAFT_16456cff6f4f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

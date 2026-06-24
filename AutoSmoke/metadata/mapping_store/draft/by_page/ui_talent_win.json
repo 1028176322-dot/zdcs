@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_talent_win",
+  "displayName": "ui_talent_win",
+  "drafts": {
+    "DRAFT_9d5a6e68b70f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentWin.prefab",
+      "prefabRoot": "UITalentWin",
+      "path": "UITalentWin/Root/Black",
+      "nodeName": "Black",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_talent_win",
+      "displayName": "Black",
+      "chineseDescription": "UITalentWin的Black",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITalentWin.prefab」中的UITalentWinBlack",
+      "suggestedTestId": "UITalentWin.Black",
+      "suggestedSemanticId": "UITalentWin.Black",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9d5a6e68b70f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9d5a6e68b70f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

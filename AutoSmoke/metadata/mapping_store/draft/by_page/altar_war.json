@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "altar_war",
+  "displayName": "altar_war",
+  "drafts": {
+    "DRAFT_d906b1fda140": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/AltarWar.prefab",
+      "prefabRoot": "AltarWar",
+      "path": "AltarWar",
+      "nodeName": "AltarWar",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_Map_Gather_BgBlue",
+      "clickable": true,
+      "pageId": "altar_war",
+      "displayName": "AltarWar",
+      "chineseDescription": "AltarWar的AltarWar",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/AltarWar.prefab」中的AltarWarAltarWar",
+      "suggestedTestId": "AltarWar.AltarWar",
+      "suggestedSemanticId": "AltarWar.AltarWar",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d906b1fda140"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d906b1fda140"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

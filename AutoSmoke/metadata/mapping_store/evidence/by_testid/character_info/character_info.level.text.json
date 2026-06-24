@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.level.text",
+  "testId": "character_info.level.text",
+  "semanticId": "character_info.level.text",
+  "targetName": "角色信息界面等级文本",
+  "displayName": "角色信息-等级文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Info/LevelText",
+    "screenRect": [
+      50,
+      2204,
+      320,
+      2285
+    ]
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+    "highlightImage": "screenshots/mapping_review/20260623_181801_highlight.png",
+    "screenRectUsed": [
+      50,
+      2204,
+      320,
+      2285
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T18:18:02",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T18:22:53",
+    "confirmedTestId": "character_info.level.text",
+    "formalRef": "formal://character_info/character_info.level.text",
+    "evidenceRef": "EVIDENCE_character_info.level.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "Lv:18",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T18:22:59"
+}

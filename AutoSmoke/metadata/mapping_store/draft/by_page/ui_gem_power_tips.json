@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_gem_power_tips",
+  "displayName": "ui_gem_power_tips",
+  "drafts": {
+    "DRAFT_fff467acf2ef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab",
+      "prefabRoot": "UIGemPowerTips",
+      "path": "UIGemPowerTips/Root/BG/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "bottom_02",
+      "clickable": true,
+      "pageId": "ui_gem_power_tips",
+      "displayName": "BG",
+      "chineseDescription": "UIGemPowerTips的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab」中的UIGemPowerTipsBG",
+      "suggestedTestId": "UIGemPowerTips.BG",
+      "suggestedSemanticId": "UIGemPowerTips.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fff467acf2ef"
+    },
+    "DRAFT_efa7cbdbe8f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab",
+      "prefabRoot": "UIGemPowerTips",
+      "path": "UIGemPowerTips/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_gem_power_tips",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGemPowerTips的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab」中的UIGemPowerTips关闭按钮",
+      "suggestedTestId": "UIGemPowerTips.CloseBtn",
+      "suggestedSemanticId": "UIGemPowerTips.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_efa7cbdbe8f6"
+    },
+    "DRAFT_4499976997fe": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab",
+      "prefabRoot": "UIGemPowerTips",
+      "path": "UIGemPowerTips/Root/UPBefore/TipsBtn",
+      "nodeName": "TipsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_gem_power_tips",
+      "displayName": "Tips按钮",
+      "chineseDescription": "UIGemPowerTips的Tips按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemPowerTips.prefab」中的UIGemPowerTipsTips按钮",
+      "suggestedTestId": "UIGemPowerTips.TipsBtn",
+      "suggestedSemanticId": "UIGemPowerTips.Tips按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4499976997fe"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fff467acf2ef",
+      "DRAFT_efa7cbdbe8f6",
+      "DRAFT_4499976997fe"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

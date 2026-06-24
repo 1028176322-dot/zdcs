@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_message_simple_confirm_box",
+  "displayName": "ui_message_simple_confirm_box",
+  "drafts": {
+    "DRAFT_95859aa52fd1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab",
+      "prefabRoot": "Ui_MessageSimpleConfirmBox",
+      "path": "Ui_MessageSimpleConfirmBox/BgClose",
+      "nodeName": "BgClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_message_simple_confirm_box",
+      "displayName": "Bg关闭",
+      "chineseDescription": "Ui_MessageSimpleConfirmBox的Bg关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab」中的Ui_MessageSimpleConfirmBoxBg关闭",
+      "suggestedTestId": "Ui_MessageSimpleConfirmBox.BgClose",
+      "suggestedSemanticId": "Ui_MessageSimpleConfirmBox.Bg关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_95859aa52fd1"
+    },
+    "DRAFT_7d03d6e2dbdf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab",
+      "prefabRoot": "Ui_MessageSimpleConfirmBox",
+      "path": "Ui_MessageSimpleConfirmBox/CentreOther/Board/Content/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_message_simple_confirm_box",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Ui_MessageSimpleConfirmBox的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab」中的Ui_MessageSimpleConfirmBox关闭按钮",
+      "suggestedTestId": "Ui_MessageSimpleConfirmBox.CloseBtn",
+      "suggestedSemanticId": "Ui_MessageSimpleConfirmBox.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7d03d6e2dbdf"
+    },
+    "DRAFT_e289b39911eb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab",
+      "prefabRoot": "Ui_MessageSimpleConfirmBox",
+      "path": "Ui_MessageSimpleConfirmBox/CentreOther/Board/Content/ButtonGroup/BtnGoldM2",
+      "nodeName": "BtnGoldM2",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "ui_message_simple_confirm_box",
+      "displayName": "按钮GoldM2",
+      "chineseDescription": "Ui_MessageSimpleConfirmBox的按钮GoldM2，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_MessageSimpleConfirmBox.prefab」中的Ui_MessageSimpleConfirmBox按钮GoldM2",
+      "suggestedTestId": "Ui_MessageSimpleConfirmBox.BtnGoldM2",
+      "suggestedSemanticId": "Ui_MessageSimpleConfirmBox.按钮GoldM2",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e289b39911eb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_95859aa52fd1",
+      "DRAFT_7d03d6e2dbdf",
+      "DRAFT_e289b39911eb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

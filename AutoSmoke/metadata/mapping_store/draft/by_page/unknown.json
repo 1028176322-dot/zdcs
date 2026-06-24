@@ -1,0 +1,112 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "unknown",
+  "displayName": "unknown",
+  "drafts": {
+    "DRAFT_9fdc0a38bad2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigame.prefab",
+      "prefabRoot": "UIActivityMinigame",
+      "path": "UIActivityMinigame/Content",
+      "nodeName": "Content",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener",
+        "GridLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "unknown",
+      "displayName": "ui-英雄操作组件",
+      "chineseDescription": "UIActivityMinigame的Content",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigame.prefab」中的UIActivityMinigameContent",
+      "suggestedTestId": "UIActivityMinigame.Content",
+      "suggestedSemanticId": "UIActivityMinigame.Content",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9fdc0a38bad2",
+      "targetName": "主角信息界面主角动画模型",
+      "semanticId": "",
+      "elementType": "unknown",
+      "semanticSyncedAt": "2026-06-23T17:16:20",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "DRAFT_50bdaa65d157": {
+      "path": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+      "elementPath": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+      "targetId": "runtime.8956e15bf8",
+      "targetName": "ui入口按钮",
+      "semanticId": "ui.entry.button",
+      "testId": "ui.entry.button",
+      "displayName": "ui-入口按钮",
+      "pageId": "unknown",
+      "role": "button",
+      "elementType": "Button",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button"
+      },
+      "source": "target_workbench",
+      "reviewStatus": "click_confirmed",
+      "verify_status": "click_confirmed",
+      "confidence": 0.3,
+      "draftId": "DRAFT_50bdaa65d157"
+    },
+    "DRAFT_fd11ffb77c56": {
+      "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+      "targetId": "runtime.ec3e22c26d",
+      "targetName": "ui入口图标",
+      "semanticId": "ui.entry.icon",
+      "testId": "ui.entry.icon",
+      "displayName": "ui-入口图标",
+      "pageId": "unknown",
+      "role": "icon",
+      "elementType": "Icon",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn"
+      },
+      "source": "target_workbench",
+      "reviewStatus": "click_confirmed",
+      "verify_status": "click_confirmed",
+      "confidence": 0.5,
+      "draftId": "DRAFT_fd11ffb77c56"
+    },
+    "DRAFT_953af5618db1": {
+      "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+      "targetId": "runtime.fd6dbbe629",
+      "targetName": "ui入口图标",
+      "semanticId": "ui.entry.icon",
+      "testId": "ui.entry.icon.953af5",
+      "displayName": "ui-入口图标",
+      "pageId": "unknown",
+      "role": "icon",
+      "elementType": "Icon",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn"
+      },
+      "source": "target_workbench",
+      "reviewStatus": "click_confirmed",
+      "verify_status": "click_confirmed",
+      "confidence": 0.5,
+      "draftId": "DRAFT_953af5618db1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9fdc0a38bad2"
+    ],
+    "click_confirmed": [
+      "DRAFT_50bdaa65d157",
+      "DRAFT_fd11ffb77c56",
+      "DRAFT_953af5618db1"
+    ]
+  },
+  "updated_at": "2026-06-24T10:44:02",
+  "count": 4
+}

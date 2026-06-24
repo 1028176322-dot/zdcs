@@ -1,0 +1,168 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "report_journal",
+  "displayName": "report_journal",
+  "drafts": {
+    "DRAFT_92b293d46899": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab",
+      "prefabRoot": "ReportJournal",
+      "path": "ReportJournal/Root/Bg/TitleBg/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "按钮关闭",
+      "chineseDescription": "ReportJournal的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab」中的ReportJournal按钮关闭",
+      "suggestedTestId": "ReportJournal.BtnClose",
+      "suggestedSemanticId": "ReportJournal.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_92b293d46899"
+    },
+    "DRAFT_21309a458a27": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab",
+      "prefabRoot": "ReportJournal",
+      "path": "ReportJournal/Root/Bg/Bg/Top/TabAll",
+      "nodeName": "TabAll",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "TabAll",
+      "chineseDescription": "ReportJournal的TabAll",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab」中的ReportJournalTabAll",
+      "suggestedTestId": "ReportJournal.TabAll",
+      "suggestedSemanticId": "ReportJournal.TabAll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21309a458a27"
+    },
+    "DRAFT_b487ecc74588": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab",
+      "prefabRoot": "ReportJournal",
+      "path": "ReportJournal/Root/Bg/Scroll/View/Content/RoundInfoRoot/RoundInfo",
+      "nodeName": "RoundInfo",
+      "componentTypes": [
+        "RectTransform",
+        "VerticalLayoutGroup",
+        "TFWTab",
+        "ContentSizeFitter",
+        "ReportRoundInfo"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "RoundInfo",
+      "chineseDescription": "ReportJournal的RoundInfo",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Report/ReportJournal.prefab」中的ReportJournalRoundInfo",
+      "suggestedTestId": "ReportJournal.RoundInfo",
+      "suggestedSemanticId": "ReportJournal.RoundInfo",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b487ecc74588"
+    },
+    "DRAFT_a9be6775d489": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab",
+      "prefabRoot": "EXPORT_ReportJournal",
+      "path": "EXPORT_ReportJournal/Root/Bg/TitleBg/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "按钮关闭",
+      "chineseDescription": "EXPORT_ReportJournal的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab」中的EXPORT_ReportJournal按钮关闭",
+      "suggestedTestId": "EXPORT_ReportJournal.BtnClose",
+      "suggestedSemanticId": "EXPORT_ReportJournal.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a9be6775d489"
+    },
+    "DRAFT_38b82de8fa43": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab",
+      "prefabRoot": "EXPORT_ReportJournal",
+      "path": "EXPORT_ReportJournal/Root/Bg/Bg/Top/TabAll",
+      "nodeName": "TabAll",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "TabAll",
+      "chineseDescription": "EXPORT_ReportJournal的TabAll",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab」中的EXPORT_ReportJournalTabAll",
+      "suggestedTestId": "EXPORT_ReportJournal.TabAll",
+      "suggestedSemanticId": "EXPORT_ReportJournal.TabAll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_38b82de8fa43"
+    },
+    "DRAFT_914b6cc4a2e2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab",
+      "prefabRoot": "EXPORT_ReportJournal",
+      "path": "EXPORT_ReportJournal/Root/Bg/Scroll/View/Content/RoundInfoRoot/RoundInfo",
+      "nodeName": "RoundInfo",
+      "componentTypes": [
+        "RectTransform",
+        "VerticalLayoutGroup",
+        "TFWTab",
+        "ContentSizeFitter",
+        "ReportRoundInfo",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_journal",
+      "displayName": "RoundInfo",
+      "chineseDescription": "EXPORT_ReportJournal的RoundInfo",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportJournal.prefab」中的EXPORT_ReportJournalRoundInfo",
+      "suggestedTestId": "EXPORT_ReportJournal.RoundInfo",
+      "suggestedSemanticId": "EXPORT_ReportJournal.RoundInfo",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_914b6cc4a2e2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_92b293d46899",
+      "DRAFT_21309a458a27",
+      "DRAFT_b487ecc74588",
+      "DRAFT_a9be6775d489",
+      "DRAFT_38b82de8fa43",
+      "DRAFT_914b6cc4a2e2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

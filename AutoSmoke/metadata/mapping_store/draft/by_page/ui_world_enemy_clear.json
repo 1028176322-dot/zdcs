@@ -1,0 +1,149 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_world_enemy_clear",
+  "displayName": "ui_world_enemy_clear",
+  "drafts": {
+    "DRAFT_5767689e5ecb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab",
+      "prefabRoot": "UIWorldEnemyClear",
+      "path": "UIWorldEnemyClear/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_world_enemy_clear",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIWorldEnemyClear的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab」中的UIWorldEnemyClear关闭按钮",
+      "suggestedTestId": "UIWorldEnemyClear.CloseBtn",
+      "suggestedSemanticId": "UIWorldEnemyClear.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5767689e5ecb"
+    },
+    "DRAFT_1ecb08dba42c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab",
+      "prefabRoot": "UIWorldEnemyClear",
+      "path": "UIWorldEnemyClear/Root/Animation/content/information/button_Tips",
+      "nodeName": "button_Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_world_enemy_clear",
+      "displayName": "buttonTips",
+      "chineseDescription": "UIWorldEnemyClear的buttonTips，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab」中的UIWorldEnemyClearbuttonTips",
+      "suggestedTestId": "UIWorldEnemyClear.button_Tips",
+      "suggestedSemanticId": "UIWorldEnemyClear.buttonTips",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ecb08dba42c"
+    },
+    "DRAFT_4eb5eab05fee": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab",
+      "prefabRoot": "UIWorldEnemyClear",
+      "path": "UIWorldEnemyClear/Root/Animation/content/information/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_world_enemy_clear",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIWorldEnemyClear的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab」中的UIWorldEnemyClearCommon按钮",
+      "suggestedTestId": "UIWorldEnemyClear.CommonBtn",
+      "suggestedSemanticId": "UIWorldEnemyClear.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4eb5eab05fee"
+    },
+    "DRAFT_5ed9c5dff32f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab",
+      "prefabRoot": "UIWorldEnemyClear",
+      "path": "UIWorldEnemyClear/Root/Animation/content/hero_bg/Scroll/ViewPort/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_world_enemy_clear",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIWorldEnemyClear的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab」中的UIWorldEnemyClearClickContent",
+      "suggestedTestId": "UIWorldEnemyClear.ClickContent",
+      "suggestedSemanticId": "UIWorldEnemyClear.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5ed9c5dff32f"
+    },
+    "DRAFT_e68594c9ac2b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab",
+      "prefabRoot": "UIWorldEnemyClear",
+      "path": "UIWorldEnemyClear/Root/Animation/content/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye_small",
+      "clickable": true,
+      "pageId": "ui_world_enemy_clear",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIWorldEnemyClear的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyClear.prefab」中的UIWorldEnemyClearGo按钮",
+      "suggestedTestId": "UIWorldEnemyClear.GoBtn",
+      "suggestedSemanticId": "UIWorldEnemyClear.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e68594c9ac2b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5767689e5ecb",
+      "DRAFT_1ecb08dba42c",
+      "DRAFT_4eb5eab05fee",
+      "DRAFT_5ed9c5dff32f",
+      "DRAFT_e68594c9ac2b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

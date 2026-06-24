@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_zvz_pop",
+  "displayName": "ui_activity_zvz_pop",
+  "drafts": {
+    "DRAFT_31ea187ad359": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZPop.prefab",
+      "prefabRoot": "UIActivityZVZPop",
+      "path": "UIActivityZVZPop/Root/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityZVZPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZPop.prefab」中的UIActivityZVZPop按钮",
+      "suggestedTestId": "UIActivityZVZPop.Btn",
+      "suggestedSemanticId": "UIActivityZVZPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_31ea187ad359"
+    },
+    "DRAFT_77dcf02ffa01": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZPop.prefab",
+      "prefabRoot": "UIActivityZVZPop",
+      "path": "UIActivityZVZPop/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_close",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityZVZPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIActivityZVZPop.prefab」中的UIActivityZVZPop关闭按钮",
+      "suggestedTestId": "UIActivityZVZPop.CloseBtn",
+      "suggestedSemanticId": "UIActivityZVZPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_77dcf02ffa01"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_31ea187ad359",
+      "DRAFT_77dcf02ffa01"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

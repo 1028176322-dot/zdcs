@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_overlap_model_select",
+  "displayName": "ui_overlap_model_select",
+  "drafts": {
+    "DRAFT_2371a127ffd2": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIOverlapModelSelect.prefab",
+      "prefabRoot": "UIOverlapModelSelect",
+      "path": "UIOverlapModelSelect/Root/cont1/Content/Item/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "ui_overlap_model_select",
+      "displayName": "BG",
+      "chineseDescription": "UIOverlapModelSelect的BG",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIOverlapModelSelect.prefab」中的UIOverlapModelSelectBG",
+      "suggestedTestId": "UIOverlapModelSelect.BG",
+      "suggestedSemanticId": "UIOverlapModelSelect.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2371a127ffd2"
+    },
+    "DRAFT_a49293544126": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIOverlapModelSelect.prefab",
+      "prefabRoot": "UIOverlapModelSelect",
+      "path": "UIOverlapModelSelect/Root/cont2/scroll/mask/Content/Item/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "ui_overlap_model_select",
+      "displayName": "BG",
+      "chineseDescription": "UIOverlapModelSelect的BG",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIOverlapModelSelect.prefab」中的UIOverlapModelSelectBG",
+      "suggestedTestId": "UIOverlapModelSelect.BG",
+      "suggestedSemanticId": "UIOverlapModelSelect.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a49293544126"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2371a127ffd2",
+      "DRAFT_a49293544126"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

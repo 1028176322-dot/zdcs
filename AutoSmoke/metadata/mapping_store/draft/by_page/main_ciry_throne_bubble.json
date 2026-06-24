@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_throne_bubble",
+  "displayName": "main_ciry_throne_bubble",
+  "drafts": {
+    "DRAFT_51068a3f8851": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryThroneBubble.prefab",
+      "prefabRoot": "MainCiryThroneBubble",
+      "path": "MainCiryThroneBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_throne_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryThroneBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryThroneBubble.prefab」中的MainCiryThroneBubbletipsdi",
+      "suggestedTestId": "MainCiryThroneBubble.tips_di",
+      "suggestedSemanticId": "MainCiryThroneBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_51068a3f8851"
+    },
+    "DRAFT_2a0e89e395d1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryThroneBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryThroneBubble",
+      "path": "EXPORT_MainCiryThroneBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_throne_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryThroneBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryThroneBubble.prefab」中的EXPORT_MainCiryThroneBubbletipsdi",
+      "suggestedTestId": "EXPORT_MainCiryThroneBubble.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryThroneBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2a0e89e395d1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_51068a3f8851",
+      "DRAFT_2a0e89e395d1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

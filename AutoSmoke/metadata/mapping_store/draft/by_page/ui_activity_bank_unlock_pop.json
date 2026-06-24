@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_bank_unlock_pop",
+  "displayName": "ui_activity_bank_unlock_pop",
+  "drafts": {
+    "DRAFT_29212de70938": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankUnlockPop.prefab",
+      "prefabRoot": "UIActivityBankUnlockPop",
+      "path": "UIActivityBankUnlockPop/Root/BG/LockBtn",
+      "nodeName": "LockBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_bank_unlock_pop",
+      "displayName": "Lock按钮",
+      "chineseDescription": "UIActivityBankUnlockPop的Lock按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankUnlockPop.prefab」中的UIActivityBankUnlockPopLock按钮",
+      "suggestedTestId": "UIActivityBankUnlockPop.LockBtn",
+      "suggestedSemanticId": "UIActivityBankUnlockPop.Lock按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_29212de70938"
+    },
+    "DRAFT_bd7750a74c44": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankUnlockPop.prefab",
+      "prefabRoot": "UIActivityBankUnlockPop",
+      "path": "UIActivityBankUnlockPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_bank_unlock_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityBankUnlockPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityBankUnlockPop.prefab」中的UIActivityBankUnlockPop关闭按钮",
+      "suggestedTestId": "UIActivityBankUnlockPop.CloseBtn",
+      "suggestedSemanticId": "UIActivityBankUnlockPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bd7750a74c44"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_29212de70938",
+      "DRAFT_bd7750a74c44"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

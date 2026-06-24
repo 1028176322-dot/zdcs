@@ -1,0 +1,147 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_alliance_gift",
+  "displayName": "ui_throne_alliance_gift",
+  "drafts": {
+    "DRAFT_b42b1ad80857": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab",
+      "prefabRoot": "UIThroneAllianceGift",
+      "path": "UIThroneAllianceGift/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneAllianceGift的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab」中的UIThroneAllianceGift关闭按钮",
+      "suggestedTestId": "UIThroneAllianceGift.CloseBtn",
+      "suggestedSemanticId": "UIThroneAllianceGift.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b42b1ad80857"
+    },
+    "DRAFT_b1aeff2eeb95": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab",
+      "prefabRoot": "UIThroneAllianceGift",
+      "path": "UIThroneAllianceGift/Root/Title/Tip",
+      "nodeName": "Tip",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift",
+      "displayName": "Tip",
+      "chineseDescription": "UIThroneAllianceGift的Tip",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab」中的UIThroneAllianceGiftTip",
+      "suggestedTestId": "UIThroneAllianceGift.Tip",
+      "suggestedSemanticId": "UIThroneAllianceGift.Tip",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b1aeff2eeb95"
+    },
+    "DRAFT_62b6b15ad972": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab",
+      "prefabRoot": "UIThroneAllianceGift",
+      "path": "UIThroneAllianceGift/Root/Title/Record",
+      "nodeName": "Record",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_rename",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift",
+      "displayName": "Record",
+      "chineseDescription": "UIThroneAllianceGift的Record",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab」中的UIThroneAllianceGiftRecord",
+      "suggestedTestId": "UIThroneAllianceGift.Record",
+      "suggestedSemanticId": "UIThroneAllianceGift.Record",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_62b6b15ad972"
+    },
+    "DRAFT_1f05003d594e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab",
+      "prefabRoot": "UIThroneAllianceGift",
+      "path": "UIThroneAllianceGift/Root/Model/Item/BG1",
+      "nodeName": "BG1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRawImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift",
+      "displayName": "BG1",
+      "chineseDescription": "UIThroneAllianceGift的BG1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab」中的UIThroneAllianceGiftBG1",
+      "suggestedTestId": "UIThroneAllianceGift.BG1",
+      "suggestedSemanticId": "UIThroneAllianceGift.BG1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1f05003d594e"
+    },
+    "DRAFT_bbd9765392df": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab",
+      "prefabRoot": "UIThroneAllianceGift",
+      "path": "UIThroneAllianceGift/Root/Model/Item/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift",
+      "displayName": "按钮",
+      "chineseDescription": "UIThroneAllianceGift的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGift.prefab」中的UIThroneAllianceGift按钮",
+      "suggestedTestId": "UIThroneAllianceGift.Button",
+      "suggestedSemanticId": "UIThroneAllianceGift.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bbd9765392df"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b42b1ad80857",
+      "DRAFT_b1aeff2eeb95",
+      "DRAFT_62b6b15ad972",
+      "DRAFT_1f05003d594e",
+      "DRAFT_bbd9765392df"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

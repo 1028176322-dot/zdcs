@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "artifac_info_quality5",
+  "displayName": "artifac_info_quality5",
+  "drafts": {
+    "DRAFT_e25002b9e71b": {
+      "assetPath": "Assets/NewGameDemo/Res/VFXBaseRes/EXPORT_ArtifactMainUI/pre/artifacInfo_quality5.prefab",
+      "prefabRoot": "artifacInfo_quality5",
+      "path": "artifacInfo_quality5/ef/UI_SQ_sancaji",
+      "nodeName": "UI_SQ_sancaji",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "Animator",
+        "ParticleSystem",
+        "ParticleSystemRenderer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "artifac_info_quality5",
+      "displayName": "UISQsancaji",
+      "chineseDescription": "artifacInfo_quality5的UISQsancaji",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/VFXBaseRes/EXPORT_ArtifactMainUI/pre/artifacInfo_quality5.prefab」中的artifacInfo_quality5UISQsancaji",
+      "suggestedTestId": "artifacInfo_quality5.UI_SQ_sancaji",
+      "suggestedSemanticId": "artifacInfo_quality5.UISQsancaji",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e25002b9e71b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e25002b9e71b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

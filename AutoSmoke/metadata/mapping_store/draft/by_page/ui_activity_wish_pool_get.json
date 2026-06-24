@@ -1,0 +1,192 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_wish_pool_get",
+  "displayName": "ui_activity_wish_pool_get",
+  "drafts": {
+    "DRAFT_0ff929334669": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityWishPoolGet的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGet关闭按钮",
+      "suggestedTestId": "UIActivityWishPoolGet.CloseBtn",
+      "suggestedSemanticId": "UIActivityWishPoolGet.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0ff929334669"
+    },
+    "DRAFT_21c3e8e42e18": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/Item/cont/Button/Cost",
+      "nodeName": "Cost",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "Cost",
+      "chineseDescription": "UIActivityWishPoolGet的Cost",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGetCost",
+      "suggestedTestId": "UIActivityWishPoolGet.Cost",
+      "suggestedSemanticId": "UIActivityWishPoolGet.Cost",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21c3e8e42e18"
+    },
+    "DRAFT_8f22f2947374": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/Item/cont/Button/AdBuy",
+      "nodeName": "AdBuy",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "Ad购买",
+      "chineseDescription": "UIActivityWishPoolGet的Ad购买",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGetAd购买",
+      "suggestedTestId": "UIActivityWishPoolGet.AdBuy",
+      "suggestedSemanticId": "UIActivityWishPoolGet.Ad购买",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8f22f2947374"
+    },
+    "DRAFT_4aa411ace4c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/Item/cont/Button/Desc",
+      "nodeName": "Desc",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "Desc",
+      "chineseDescription": "UIActivityWishPoolGet的Desc",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGetDesc",
+      "suggestedTestId": "UIActivityWishPoolGet.Desc",
+      "suggestedSemanticId": "UIActivityWishPoolGet.Desc",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4aa411ace4c1"
+    },
+    "DRAFT_f325f2a4c1af": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/Item/cont/Button/Money",
+      "nodeName": "Money",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "Money",
+      "chineseDescription": "UIActivityWishPoolGet的Money",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGetMoney",
+      "suggestedTestId": "UIActivityWishPoolGet.Money",
+      "suggestedSemanticId": "UIActivityWishPoolGet.Money",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f325f2a4c1af"
+    },
+    "DRAFT_febacd86213a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/Item/cont/quickBtn",
+      "nodeName": "quickBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "quick按钮",
+      "chineseDescription": "UIActivityWishPoolGet的quick按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGetquick按钮",
+      "suggestedTestId": "UIActivityWishPoolGet.quickBtn",
+      "suggestedSemanticId": "UIActivityWishPoolGet.quick按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_febacd86213a"
+    },
+    "DRAFT_b05e6c346b79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab",
+      "prefabRoot": "UIActivityWishPoolGet",
+      "path": "UIActivityWishPoolGet/Root/BG/ScrollView/ViewPort/Content/Item1/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_wish_pool_get",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityWishPoolGet的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityWishPoolGet.prefab」中的UIActivityWishPoolGet按钮",
+      "suggestedTestId": "UIActivityWishPoolGet.Button",
+      "suggestedSemanticId": "UIActivityWishPoolGet.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b05e6c346b79"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0ff929334669",
+      "DRAFT_21c3e8e42e18",
+      "DRAFT_8f22f2947374",
+      "DRAFT_4aa411ace4c1",
+      "DRAFT_f325f2a4c1af",
+      "DRAFT_febacd86213a",
+      "DRAFT_b05e6c346b79"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 7
+}

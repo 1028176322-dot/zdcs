@@ -1,0 +1,21 @@
+{
+  "schema_version": "batch_replay_status.v1",
+  "updated_at": "2026-06-18T11:19:51",
+  "batches": {
+    "manual_import_check": {
+      "batchName": "manual_import_check",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\screenshots\\manual_import_check\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 1,
+      "passedSteps": 1,
+      "failedSteps": 0,
+      "linkedTargets": [
+        "case.d5979892afa5",
+        "runtime.647b3c9358"
+      ],
+      "updatedAt": "2026-06-18T11:19:51"
+    }
+  }
+}

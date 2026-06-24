@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_honor_draw_card",
+  "displayName": "ui_hero_honor_draw_card",
+  "drafts": {
+    "DRAFT_0fe198281356": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroHonorDrawCard.prefab",
+      "prefabRoot": "UIHeroHonorDrawCard",
+      "path": "UIHeroHonorDrawCard/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_honor_draw_card",
+      "displayName": "Click",
+      "chineseDescription": "UIHeroHonorDrawCard的Click",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroHonorDrawCard.prefab」中的UIHeroHonorDrawCardClick",
+      "suggestedTestId": "UIHeroHonorDrawCard.Click",
+      "suggestedSemanticId": "UIHeroHonorDrawCard.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0fe198281356"
+    },
+    "DRAFT_cf39528612ab": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroHonorDrawCard.prefab",
+      "prefabRoot": "UIHeroHonorDrawCard",
+      "path": "UIHeroHonorDrawCard/Root/Jump",
+      "nodeName": "Jump",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_honor_draw_card",
+      "displayName": "Jump",
+      "chineseDescription": "UIHeroHonorDrawCard的Jump",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroHonorDrawCard.prefab」中的UIHeroHonorDrawCardJump",
+      "suggestedTestId": "UIHeroHonorDrawCard.Jump",
+      "suggestedSemanticId": "UIHeroHonorDrawCard.Jump",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cf39528612ab"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0fe198281356",
+      "DRAFT_cf39528612ab"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

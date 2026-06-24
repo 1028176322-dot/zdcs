@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_camp_tips",
+  "displayName": "ui_camp_tips",
+  "drafts": {
+    "DRAFT_20b119c0669c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopsPage/UICampTips.prefab",
+      "prefabRoot": "UICampTips",
+      "path": "UICampTips/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_camp_tips",
+      "displayName": "Touch",
+      "chineseDescription": "UICampTips的Touch",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopsPage/UICampTips.prefab」中的UICampTipsTouch",
+      "suggestedTestId": "UICampTips.Touch",
+      "suggestedSemanticId": "UICampTips.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_20b119c0669c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_20b119c0669c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

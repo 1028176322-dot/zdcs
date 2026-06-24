@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "island_03",
+  "displayName": "island_03",
+  "drafts": {
+    "DRAFT_7d7c5dc0efa4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Task/Island_03.prefab",
+      "prefabRoot": "Island_03",
+      "path": "Island_03/ClickMask",
+      "nodeName": "ClickMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "island_03",
+      "displayName": "ClickMask",
+      "chineseDescription": "Island_03的ClickMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Task/Island_03.prefab」中的Island_03ClickMask",
+      "suggestedTestId": "Island_03.ClickMask",
+      "suggestedSemanticId": "Island_03.ClickMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7d7c5dc0efa4"
+    },
+    "DRAFT_6dff5a70e19e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_Island_03.prefab",
+      "prefabRoot": "EXPORT_Island_03",
+      "path": "EXPORT_Island_03/ClickMask",
+      "nodeName": "ClickMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "island_03",
+      "displayName": "ClickMask",
+      "chineseDescription": "EXPORT_Island_03的ClickMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_Island_03.prefab」中的EXPORT_Island_03ClickMask",
+      "suggestedTestId": "EXPORT_Island_03.ClickMask",
+      "suggestedSemanticId": "EXPORT_Island_03.ClickMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6dff5a70e19e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7d7c5dc0efa4",
+      "DRAFT_6dff5a70e19e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

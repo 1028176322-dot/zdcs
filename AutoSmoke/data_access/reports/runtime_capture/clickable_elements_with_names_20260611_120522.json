@@ -1,0 +1,544 @@
+[
+  {
+    "name": "BtnShow",
+    "text": "Debug | Text: Debug",
+    "path": "/<Root>/UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow",
+    "type": "Button",
+    "parent_info": "UIRoot2/UIGmWindow",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "Image",
+      "Button",
+      "EventTriggerListener"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  },
+  {
+    "name": "ClickContent",
+    "text": "(无文本)",
+    "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/Scroll/View/Content/Item(Clone)/ItemNew/ClickContent",
+    "type": "Node",
+    "parent_info": "UIActivityMain/Pages/UIActivityExplorersTrial",
+    "components": [
+      "RectTransform",
+      "CanvasRenderer",
+      "TFWImage",
+      "TFWButton",
+      "EventTriggerListener",
+      "ClickAudio",
+      "ClickAudio"
+    ]
+  }
+]

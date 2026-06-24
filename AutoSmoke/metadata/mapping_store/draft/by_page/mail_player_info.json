@@ -1,0 +1,89 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_player_info",
+  "displayName": "mail_player_info",
+  "drafts": {
+    "DRAFT_03a410873ee0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab",
+      "prefabRoot": "mail_player_info",
+      "path": "mail_player_info/Head/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_player_info",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_player_info的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab」中的mail_player_infoHeadk1",
+      "suggestedTestId": "mail_player_info.Head_k1",
+      "suggestedSemanticId": "mail_player_info.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_03a410873ee0"
+    },
+    "DRAFT_1f3fa1b1ed31": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab",
+      "prefabRoot": "mail_player_info",
+      "path": "mail_player_info/Head/Name",
+      "nodeName": "Name",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_player_info",
+      "displayName": "Name操作按钮",
+      "chineseDescription": "mail_player_info的Name操作按钮，文字「Name」",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab」中的mail_player_infoName操作按钮，含文字「Name」",
+      "suggestedTestId": "mail_player_info.Name.Name",
+      "suggestedSemanticId": "mail_player_info.Name.Name",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1f3fa1b1ed31"
+    },
+    "DRAFT_d92e4f6f985d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab",
+      "prefabRoot": "mail_player_info",
+      "path": "mail_player_info/Head/Lv",
+      "nodeName": "Lv",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_player_info",
+      "displayName": "123操作按钮",
+      "chineseDescription": "mail_player_info的123操作按钮，文字「123」",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_player_info.prefab」中的mail_player_info123操作按钮，含文字「123」",
+      "suggestedTestId": "mail_player_info.Lv.123",
+      "suggestedSemanticId": "mail_player_info.Lv.123",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d92e4f6f985d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_03a410873ee0",
+      "DRAFT_1f3fa1b1ed31",
+      "DRAFT_d92e4f6f985d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

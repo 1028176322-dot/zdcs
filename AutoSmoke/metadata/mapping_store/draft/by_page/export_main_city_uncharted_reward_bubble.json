@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_uncharted_reward_bubble",
+  "displayName": "export_main_city_uncharted_reward_bubble",
+  "drafts": {
+    "DRAFT_0dfca441f503": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUnchartedRewardBubble.prefab",
+      "prefabRoot": "EXPORT_MainCityUnchartedRewardBubble",
+      "path": "EXPORT_MainCityUnchartedRewardBubble/RootNode",
+      "nodeName": "RootNode",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "export_main_city_uncharted_reward_bubble",
+      "displayName": "RootNode",
+      "chineseDescription": "EXPORT_MainCityUnchartedRewardBubble的RootNode",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUnchartedRewardBubble.prefab」中的EXPORT_MainCityUnchartedRewardBubbleRootNode",
+      "suggestedTestId": "EXPORT_MainCityUnchartedRewardBubble.RootNode",
+      "suggestedSemanticId": "EXPORT_MainCityUnchartedRewardBubble.RootNode",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0dfca441f503"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0dfca441f503"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_devil_stronghold",
+  "displayName": "ui_devil_stronghold",
+  "drafts": {
+    "DRAFT_152df83b55dc": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab",
+      "prefabRoot": "UIDevilStronghold",
+      "path": "UIDevilStronghold/Root/BG/Top/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_btn_tips_4",
+      "clickable": true,
+      "pageId": "ui_devil_stronghold",
+      "displayName": "Info按钮",
+      "chineseDescription": "UIDevilStronghold的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab」中的UIDevilStrongholdInfo按钮",
+      "suggestedTestId": "UIDevilStronghold.InfoBtn",
+      "suggestedSemanticId": "UIDevilStronghold.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_152df83b55dc"
+    },
+    "DRAFT_464f215fe83d": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab",
+      "prefabRoot": "UIDevilStronghold",
+      "path": "UIDevilStronghold/Root/BG/Top/StarBtn",
+      "nodeName": "StarBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_btn_tips_2",
+      "clickable": true,
+      "pageId": "ui_devil_stronghold",
+      "displayName": "Star按钮",
+      "chineseDescription": "UIDevilStronghold的Star按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab」中的UIDevilStrongholdStar按钮",
+      "suggestedTestId": "UIDevilStronghold.StarBtn",
+      "suggestedSemanticId": "UIDevilStronghold.Star按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_464f215fe83d"
+    },
+    "DRAFT_1fe55b65ca0f": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab",
+      "prefabRoot": "UIDevilStronghold",
+      "path": "UIDevilStronghold/Root/BG/Top/ShareBtn",
+      "nodeName": "ShareBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_tips_1",
+      "clickable": true,
+      "pageId": "ui_devil_stronghold",
+      "displayName": "Share按钮",
+      "chineseDescription": "UIDevilStronghold的Share按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab」中的UIDevilStrongholdShare按钮",
+      "suggestedTestId": "UIDevilStronghold.ShareBtn",
+      "suggestedSemanticId": "UIDevilStronghold.Share按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1fe55b65ca0f"
+    },
+    "DRAFT_580a0788b26a": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab",
+      "prefabRoot": "UIDevilStronghold",
+      "path": "UIDevilStronghold/Root/BG/Content/GoToBtn",
+      "nodeName": "GoToBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_devil_stronghold",
+      "displayName": "GoTo按钮",
+      "chineseDescription": "UIDevilStronghold的GoTo按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab」中的UIDevilStrongholdGoTo按钮",
+      "suggestedTestId": "UIDevilStronghold.GoToBtn",
+      "suggestedSemanticId": "UIDevilStronghold.GoTo按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_580a0788b26a"
+    },
+    "DRAFT_2ec4e699a879": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab",
+      "prefabRoot": "UIDevilStronghold",
+      "path": "UIDevilStronghold/Root/BG/events/Tabs/btn_1",
+      "nodeName": "btn_1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_devil_stronghold",
+      "displayName": "btn1",
+      "chineseDescription": "UIDevilStronghold的btn1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UIDevilStronghold.prefab」中的UIDevilStrongholdbtn1",
+      "suggestedTestId": "UIDevilStronghold.btn_1",
+      "suggestedSemanticId": "UIDevilStronghold.btn1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2ec4e699a879"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_152df83b55dc",
+      "DRAFT_464f215fe83d",
+      "DRAFT_1fe55b65ca0f",
+      "DRAFT_580a0788b26a",
+      "DRAFT_2ec4e699a879"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

@@ -1,0 +1,64 @@
+{
+  "testId": "bag.back.button",
+  "semanticId": "bag.back.button",
+  "targetName": "背包返回按钮",
+  "structure": {
+    "path": "UIShop/Root/BtnClose",
+    "pageId": "bag",
+    "elementType": "interactive_icon"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "bag.back.button",
+    "formalRef": "formal://bag/bag.back.button",
+    "evidenceRef": "EVIDENCE_bag.back.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.btn_close.button.png",
+    "screenRectUsed": [
+      21,
+      2397,
+      131,
+      2493
+    ],
+    "confirmedTestId": "bag.back.button",
+    "formalRef": "formal://bag/bag.back.button",
+    "evidenceRef": "EVIDENCE_bag.back.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13430986,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+      "screenPoint": [
+        75,
+        87
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.back.button",
+    "formalRef": "formal://bag/bag.back.button",
+    "evidenceRef": "EVIDENCE_bag.back.button"
+  },
+  "displayName": "背包-返回按钮",
+  "pageId": "bag",
+  "role": "back",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.back.button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

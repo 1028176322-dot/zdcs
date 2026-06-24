@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.main_character_model.model",
+  "testId": "character_info.main_character_model.model",
+  "semanticId": "character_info.main_character_model.model",
+  "targetName": "主角信息界面主角动画模型",
+  "displayName": "主角信息-主角动画模型",
+  "pageId": "character_info",
+  "role": "model",
+  "elementType": "Model",
+  "structure": {
+    "path": "UIActivityMinigame/Content",
+    "pageId": "character_info",
+    "elementType": "Model"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/HeroSpine",
+    "screenRect": [
+      0,
+      457,
+      1170,
+      1730
+    ]
+  },
+  "visual": {
+    "draftPath": "UIActivityMinigame/Content",
+    "highlightImage": "screenshots/mapping_review/20260618_174935_highlight.png",
+    "screenRectUsed": [
+      0,
+      457,
+      1170,
+      1730
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-18T17:49:37",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T17:15:23",
+    "confirmedTestId": "character_info.main_character_model.model",
+    "formalRef": "formal://character_info/character_info.main_character_model.model",
+    "evidenceRef": "EVIDENCE_character_info.main_character_model.model"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T17:29:41"
+}

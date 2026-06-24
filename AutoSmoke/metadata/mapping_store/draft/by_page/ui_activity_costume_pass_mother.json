@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_mother",
+  "displayName": "ui_activity_costume_pass_mother",
+  "drafts": {
+    "DRAFT_e9aa56f2413a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab",
+      "prefabRoot": "UIActivityCostumePass_Mother",
+      "path": "UIActivityCostumePass_Mother/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_mother",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_Mother的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab」中的UIActivityCostumePass_MotherItems",
+      "suggestedTestId": "UIActivityCostumePass_Mother.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_Mother.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e9aa56f2413a"
+    },
+    "DRAFT_19776543e5b1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab",
+      "prefabRoot": "UIActivityCostumePass_Mother",
+      "path": "UIActivityCostumePass_Mother/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "UI_Icon_Valentine29",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_mother",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_Mother的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab」中的UIActivityCostumePass_MotherNode2",
+      "suggestedTestId": "UIActivityCostumePass_Mother.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_Mother.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_19776543e5b1"
+    },
+    "DRAFT_c2f2a0ededc5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab",
+      "prefabRoot": "UIActivityCostumePass_Mother",
+      "path": "UIActivityCostumePass_Mother/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_mother",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_Mother的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab」中的UIActivityCostumePass_MotherNode3",
+      "suggestedTestId": "UIActivityCostumePass_Mother.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_Mother.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c2f2a0ededc5"
+    },
+    "DRAFT_769588123f79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab",
+      "prefabRoot": "UIActivityCostumePass_Mother",
+      "path": "UIActivityCostumePass_Mother/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_mother",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_Mother的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab」中的UIActivityCostumePass_MotherAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_Mother.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Mother.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_769588123f79"
+    },
+    "DRAFT_e32e3105bb55": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab",
+      "prefabRoot": "UIActivityCostumePass_Mother",
+      "path": "UIActivityCostumePass_Mother/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_mother",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_Mother的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Mother.prefab」中的UIActivityCostumePass_Mother购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_Mother.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Mother.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e32e3105bb55"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e9aa56f2413a",
+      "DRAFT_19776543e5b1",
+      "DRAFT_c2f2a0ededc5",
+      "DRAFT_769588123f79",
+      "DRAFT_e32e3105bb55"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

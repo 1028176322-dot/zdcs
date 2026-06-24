@@ -1,0 +1,188 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_pop",
+  "displayName": "ui_activity_gvg_pop",
+  "drafts": {
+    "DRAFT_6157f9c99581": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityGVGPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPop关闭按钮",
+      "suggestedTestId": "UIActivityGVGPop.CloseBtn",
+      "suggestedSemanticId": "UIActivityGVGPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6157f9c99581"
+    },
+    "DRAFT_954611fcd44d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Content/TimeChoose/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "Tab1",
+      "chineseDescription": "UIActivityGVGPop的Tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPopTab1",
+      "suggestedTestId": "UIActivityGVGPop.Tab1",
+      "suggestedSemanticId": "UIActivityGVGPop.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_954611fcd44d"
+    },
+    "DRAFT_301d041b1721": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Content/TimeChoose/Tab2",
+      "nodeName": "Tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "Tab2",
+      "chineseDescription": "UIActivityGVGPop的Tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPopTab2",
+      "suggestedTestId": "UIActivityGVGPop.Tab2",
+      "suggestedSemanticId": "UIActivityGVGPop.Tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_301d041b1721"
+    },
+    "DRAFT_4d59a923b59d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Content/TimeChoose/Tab3",
+      "nodeName": "Tab3",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "Tab3",
+      "chineseDescription": "UIActivityGVGPop的Tab3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPopTab3",
+      "suggestedTestId": "UIActivityGVGPop.Tab3",
+      "suggestedSemanticId": "UIActivityGVGPop.Tab3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4d59a923b59d"
+    },
+    "DRAFT_859943ffef29": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Content/TimeChoose/Tab4",
+      "nodeName": "Tab4",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "Tab4",
+      "chineseDescription": "UIActivityGVGPop的Tab4",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPopTab4",
+      "suggestedTestId": "UIActivityGVGPop.Tab4",
+      "suggestedSemanticId": "UIActivityGVGPop.Tab4",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_859943ffef29"
+    },
+    "DRAFT_dfaab99415e0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Content/TimeChoose/Tab5",
+      "nodeName": "Tab5",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "Tab5",
+      "chineseDescription": "UIActivityGVGPop的Tab5",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPopTab5",
+      "suggestedTestId": "UIActivityGVGPop.Tab5",
+      "suggestedSemanticId": "UIActivityGVGPop.Tab5",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dfaab99415e0"
+    },
+    "DRAFT_65317c3f1c91": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab",
+      "prefabRoot": "UIActivityGVGPop",
+      "path": "UIActivityGVGPop/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityGVGPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGPop.prefab」中的UIActivityGVGPop按钮",
+      "suggestedTestId": "UIActivityGVGPop.Btn",
+      "suggestedSemanticId": "UIActivityGVGPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_65317c3f1c91"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6157f9c99581",
+      "DRAFT_954611fcd44d",
+      "DRAFT_301d041b1721",
+      "DRAFT_4d59a923b59d",
+      "DRAFT_859943ffef29",
+      "DRAFT_dfaab99415e0",
+      "DRAFT_65317c3f1c91"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 7
+}

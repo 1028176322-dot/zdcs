@@ -1,0 +1,72 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_personal_rank",
+  "displayName": "mail_personal_rank",
+  "drafts": {
+    "DRAFT_93c8f4899e1a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_personal_rank.prefab",
+      "prefabRoot": "mail_personal_rank",
+      "path": "mail_personal_rank/ScrollView/Viewport/Content/Item/items/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "BoxCollider",
+        "CanvasRenderer",
+        "UIDragScrollView",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_personal_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_personal_rank的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_personal_rank.prefab」中的mail_personal_rankHeadk1",
+      "suggestedTestId": "mail_personal_rank.Head_k1",
+      "suggestedSemanticId": "mail_personal_rank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_93c8f4899e1a"
+    },
+    "DRAFT_37e7f19b327d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_personal_rank.prefab",
+      "prefabRoot": "mail_personal_rank",
+      "path": "mail_personal_rank/sp_di/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "BoxCollider",
+        "CanvasRenderer",
+        "ScrollViewProDragItem",
+        "TFWImage",
+        "SelfHeadIconCompent",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_personal_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_personal_rank的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_personal_rank.prefab」中的mail_personal_rankHeadk1",
+      "suggestedTestId": "mail_personal_rank.Head_k1",
+      "suggestedSemanticId": "mail_personal_rank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_37e7f19b327d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_93c8f4899e1a",
+      "DRAFT_37e7f19b327d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

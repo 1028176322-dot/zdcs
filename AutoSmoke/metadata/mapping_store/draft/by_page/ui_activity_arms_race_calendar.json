@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_arms_race_calendar",
+  "displayName": "ui_activity_arms_race_calendar",
+  "drafts": {
+    "DRAFT_357c15342641": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab",
+      "prefabRoot": "UIActivityArmsRaceCalendar",
+      "path": "UIActivityArmsRaceCalendar/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "tongyong_cilck",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_calendar",
+      "displayName": "Mask",
+      "chineseDescription": "UIActivityArmsRaceCalendar的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab」中的UIActivityArmsRaceCalendarMask",
+      "suggestedTestId": "UIActivityArmsRaceCalendar.Mask",
+      "suggestedSemanticId": "UIActivityArmsRaceCalendar.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_357c15342641"
+    },
+    "DRAFT_53a5554ab0db": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab",
+      "prefabRoot": "UIActivityArmsRaceCalendar",
+      "path": "UIActivityArmsRaceCalendar/Root/Bg_1/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_calendar",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityArmsRaceCalendar的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab」中的UIActivityArmsRaceCalendar关闭按钮",
+      "suggestedTestId": "UIActivityArmsRaceCalendar.CloseBtn",
+      "suggestedSemanticId": "UIActivityArmsRaceCalendar.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_53a5554ab0db"
+    },
+    "DRAFT_1f5f8ef8b38e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab",
+      "prefabRoot": "UIActivityArmsRaceCalendar",
+      "path": "UIActivityArmsRaceCalendar/Root/BtnTimeZone",
+      "nodeName": "BtnTimeZone",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_calendar",
+      "displayName": "按钮TimeZone",
+      "chineseDescription": "UIActivityArmsRaceCalendar的按钮TimeZone，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab」中的UIActivityArmsRaceCalendar按钮TimeZone",
+      "suggestedTestId": "UIActivityArmsRaceCalendar.BtnTimeZone",
+      "suggestedSemanticId": "UIActivityArmsRaceCalendar.按钮TimeZone",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1f5f8ef8b38e"
+    },
+    "DRAFT_88b785a4ac6b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab",
+      "prefabRoot": "UIActivityArmsRaceCalendar",
+      "path": "UIActivityArmsRaceCalendar/Root/BtnTimeZone/BtnTimeZoneIcon",
+      "nodeName": "BtnTimeZoneIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_8",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_calendar",
+      "displayName": "按钮TimeZone图标",
+      "chineseDescription": "UIActivityArmsRaceCalendar的按钮TimeZone图标，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceCalendar.prefab」中的UIActivityArmsRaceCalendar按钮TimeZone图标",
+      "suggestedTestId": "UIActivityArmsRaceCalendar.BtnTimeZoneIcon",
+      "suggestedSemanticId": "UIActivityArmsRaceCalendar.按钮TimeZone图标",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_88b785a4ac6b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_357c15342641",
+      "DRAFT_53a5554ab0db",
+      "DRAFT_1f5f8ef8b38e",
+      "DRAFT_88b785a4ac6b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

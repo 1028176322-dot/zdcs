@@ -1,0 +1,146 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "1401_ui_hero_demotion",
+  "displayName": "1401_ui_hero_demotion",
+  "drafts": {
+    "DRAFT_7ed82c2f2d7e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab",
+      "prefabRoot": "1401UI_hero_demotion",
+      "path": "1401UI_hero_demotion/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "1401_ui_hero_demotion",
+      "displayName": "关闭按钮",
+      "chineseDescription": "1401UI_hero_demotion的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab」中的1401UI_hero_demotion关闭按钮",
+      "suggestedTestId": "1401UI_hero_demotion.CloseBtn",
+      "suggestedSemanticId": "1401UI_hero_demotion.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7ed82c2f2d7e"
+    },
+    "DRAFT_930457c6127e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab",
+      "prefabRoot": "1401UI_hero_demotion",
+      "path": "1401UI_hero_demotion/Root/BG/Content/BG/Grid/item1",
+      "nodeName": "item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "CommonItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1401_ui_hero_demotion",
+      "displayName": "item1",
+      "chineseDescription": "1401UI_hero_demotion的item1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab」中的1401UI_hero_demotionitem1",
+      "suggestedTestId": "1401UI_hero_demotion.item1",
+      "suggestedSemanticId": "1401UI_hero_demotion.item1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_930457c6127e"
+    },
+    "DRAFT_32ba0d370c34": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab",
+      "prefabRoot": "1401UI_hero_demotion",
+      "path": "1401UI_hero_demotion/Root/BG/Content/BG/Grid/item2",
+      "nodeName": "item2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "CommonItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1401_ui_hero_demotion",
+      "displayName": "item2",
+      "chineseDescription": "1401UI_hero_demotion的item2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab」中的1401UI_hero_demotionitem2",
+      "suggestedTestId": "1401UI_hero_demotion.item2",
+      "suggestedSemanticId": "1401UI_hero_demotion.item2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_32ba0d370c34"
+    },
+    "DRAFT_f55ea3a933a2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab",
+      "prefabRoot": "1401UI_hero_demotion",
+      "path": "1401UI_hero_demotion/Root/BG/Content/Cancel",
+      "nodeName": "Cancel",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "1401_ui_hero_demotion",
+      "displayName": "取消",
+      "chineseDescription": "1401UI_hero_demotion的取消",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab」中的1401UI_hero_demotion取消",
+      "suggestedTestId": "1401UI_hero_demotion.Cancel",
+      "suggestedSemanticId": "1401UI_hero_demotion.取消",
+      "role": "cancel_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f55ea3a933a2"
+    },
+    "DRAFT_64eca39cc4cf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab",
+      "prefabRoot": "1401UI_hero_demotion",
+      "path": "1401UI_hero_demotion/Root/BG/Content/Confirm",
+      "nodeName": "Confirm",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "1401_ui_hero_demotion",
+      "displayName": "确认",
+      "chineseDescription": "1401UI_hero_demotion的确认，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1401UI_hero_demotion.prefab」中的1401UI_hero_demotion确认",
+      "suggestedTestId": "1401UI_hero_demotion.Confirm",
+      "suggestedSemanticId": "1401UI_hero_demotion.确认",
+      "role": "confirm_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_64eca39cc4cf"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7ed82c2f2d7e",
+      "DRAFT_930457c6127e",
+      "DRAFT_32ba0d370c34",
+      "DRAFT_f55ea3a933a2",
+      "DRAFT_64eca39cc4cf"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

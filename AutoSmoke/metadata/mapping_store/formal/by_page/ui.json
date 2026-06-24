@@ -1,0 +1,61 @@
+{
+  "schema_version": "element_mapping_formal.page.v1",
+  "pageId": "ui",
+  "displayName": "ui",
+  "mappings": {
+    "ui.skin.button": {
+      "testId": "ui.skin.button",
+      "semanticId": "ui.skin.button",
+      "targetName": "UI皮肤按钮",
+      "displayName": "UI-皮肤按钮",
+      "pageId": "ui",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/SkinBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/SkinBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+            "instanceId": -7588974,
+            "nodeName": "SkinBtn",
+            "text": "",
+            "screenRect": [
+              946,
+              2360,
+              1117,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-24T10:29:31"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_ui.skin.button"
+    }
+  },
+  "groups": {
+    "top_bar": [],
+    "tabs": [],
+    "content": [],
+    "bottom_actions": [],
+    "navigation": [],
+    "dialogs": [],
+    "list_templates": [],
+    "unknown": []
+  },
+  "updated_at": "2026-06-24T10:46:11",
+  "count": 1
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_new_growth_fund_preview",
+  "displayName": "ui_new_growth_fund_preview",
+  "drafts": {
+    "DRAFT_bdae3eeccea3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab",
+      "prefabRoot": "UINewGrowthFundPreview",
+      "path": "UINewGrowthFundPreview/Black",
+      "nodeName": "Black",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_new_growth_fund_preview",
+      "displayName": "Black",
+      "chineseDescription": "UINewGrowthFundPreview的Black",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab」中的UINewGrowthFundPreviewBlack",
+      "suggestedTestId": "UINewGrowthFundPreview.Black",
+      "suggestedSemanticId": "UINewGrowthFundPreview.Black",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bdae3eeccea3"
+    },
+    "DRAFT_3d8039b2058e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab",
+      "prefabRoot": "UINewGrowthFundPreview",
+      "path": "UINewGrowthFundPreview/Root/UIGrowthFundPop_1/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_new_growth_fund_preview",
+      "displayName": "ClickContent",
+      "chineseDescription": "UINewGrowthFundPreview的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab」中的UINewGrowthFundPreviewClickContent",
+      "suggestedTestId": "UINewGrowthFundPreview.ClickContent",
+      "suggestedSemanticId": "UINewGrowthFundPreview.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3d8039b2058e"
+    },
+    "DRAFT_6b66a42aaa57": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab",
+      "prefabRoot": "UINewGrowthFundPreview",
+      "path": "UINewGrowthFundPreview/Root/UIGrowthFundPop_1/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_new_growth_fund_preview",
+      "displayName": "ClickContent",
+      "chineseDescription": "UINewGrowthFundPreview的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab」中的UINewGrowthFundPreviewClickContent",
+      "suggestedTestId": "UINewGrowthFundPreview.ClickContent",
+      "suggestedSemanticId": "UINewGrowthFundPreview.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6b66a42aaa57"
+    },
+    "DRAFT_a6fa7c3f4335": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab",
+      "prefabRoot": "UINewGrowthFundPreview",
+      "path": "UINewGrowthFundPreview/Root/UIGrowthFundPop_1/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_new_growth_fund_preview",
+      "displayName": "Get按钮",
+      "chineseDescription": "UINewGrowthFundPreview的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab」中的UINewGrowthFundPreviewGet按钮",
+      "suggestedTestId": "UINewGrowthFundPreview.GetBtn",
+      "suggestedSemanticId": "UINewGrowthFundPreview.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a6fa7c3f4335"
+    },
+    "DRAFT_567ac3aa4560": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab",
+      "prefabRoot": "UINewGrowthFundPreview",
+      "path": "UINewGrowthFundPreview/Root/UIGrowthFundPop_1/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_new_growth_fund_preview",
+      "displayName": "Tips",
+      "chineseDescription": "UINewGrowthFundPreview的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UINewGrowthFundPreview.prefab」中的UINewGrowthFundPreviewTips",
+      "suggestedTestId": "UINewGrowthFundPreview.Tips",
+      "suggestedSemanticId": "UINewGrowthFundPreview.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_567ac3aa4560"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bdae3eeccea3",
+      "DRAFT_3d8039b2058e",
+      "DRAFT_6b66a42aaa57",
+      "DRAFT_a6fa7c3f4335",
+      "DRAFT_567ac3aa4560"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

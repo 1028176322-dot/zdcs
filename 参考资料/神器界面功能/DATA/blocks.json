@@ -1,0 +1,21 @@
+[
+  {
+    "block_id": "BLOCK_0001",
+    "block_type": "config_table",
+    "title": "C\n海神三叉戟\n🔱\n⚔️\n10000\n+8000\ni\n🔱\n➜\n暴击!\n基础属性\n品质升级\n0 / 0\n💠\n进阶结晶\n0 ",
+    "source_file": "神器界面.html",
+    "sheet_name": "",
+    "row_range": [
+      0,
+      0
+    ],
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "image_ref": [],
+    "header_text": [],
+    "summary": "config_table: C\n海神三叉戟\n🔱\n⚔️\n10000\n+8000\ni\n🔱\n➜\n暴击!\n基础属性\n品质升级\n0 / 0\n💠\n进阶结晶\n0 ",
+    "confidence": 0.95,
+    "status": "ready"
+  }
+]

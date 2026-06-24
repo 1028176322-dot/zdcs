@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_protect_recovder",
+  "displayName": "ui_protect_recovder",
+  "drafts": {
+    "DRAFT_1511f962bd69": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectRecovder.prefab",
+      "prefabRoot": "UIProtectRecovder",
+      "path": "UIProtectRecovder/Root/Title1/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_protect_recovder",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIProtectRecovder的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectRecovder.prefab」中的UIProtectRecovder关闭按钮",
+      "suggestedTestId": "UIProtectRecovder.CloseBtn",
+      "suggestedSemanticId": "UIProtectRecovder.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1511f962bd69"
+    },
+    "DRAFT_58779c4a336f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectRecovder.prefab",
+      "prefabRoot": "UIProtectRecovder",
+      "path": "UIProtectRecovder/Root/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_protect_recovder",
+      "displayName": "按钮",
+      "chineseDescription": "UIProtectRecovder的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ProtectionCover/UIProtectRecovder.prefab」中的UIProtectRecovder按钮",
+      "suggestedTestId": "UIProtectRecovder.Button",
+      "suggestedSemanticId": "UIProtectRecovder.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_58779c4a336f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1511f962bd69",
+      "DRAFT_58779c4a336f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

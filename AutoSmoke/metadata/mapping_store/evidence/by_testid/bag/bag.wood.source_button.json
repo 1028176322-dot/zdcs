@@ -1,0 +1,69 @@
+{
+  "testId": "bag.wood.source_button",
+  "semanticId": "bag.wood.source_button",
+  "targetName": "背包木材途径按钮",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_3",
+    "pageId": "bag",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+    "screenRect": [
+      697,
+      20,
+      914,
+      129
+    ],
+    "matchScore": "",
+    "confirmedTestId": "bag.wood.source_button",
+    "formalRef": "formal://bag/bag.wood.source_button",
+    "evidenceRef": "EVIDENCE_bag.wood.source_button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.bag.res_item_3.button.png",
+    "screenRectUsed": [
+      697,
+      20,
+      914,
+      129
+    ],
+    "confirmedTestId": "bag.wood.source_button",
+    "formalRef": "formal://bag/bag.wood.source_button",
+    "evidenceRef": "EVIDENCE_bag.wood.source_button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3/text",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13430914,
+      "error": "AutoSmokeClickInjector did not write click_result.json",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+      "screenPoint": [
+        805,
+        2457
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.wood.source_button",
+    "formalRef": "formal://bag/bag.wood.source_button",
+    "evidenceRef": "EVIDENCE_bag.wood.source_button"
+  },
+  "displayName": "背包-木材途径按钮",
+  "pageId": "bag",
+  "role": "resource_source",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.wood.source_button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_help",
+  "displayName": "ui_alliance_help",
+  "drafts": {
+    "DRAFT_2efe9fa7f50d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab",
+      "prefabRoot": "UIAllianceHelp",
+      "path": "UIAllianceHelp/Root/TopBar/TopResource/Coin",
+      "nodeName": "Coin",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_help",
+      "displayName": "Coin",
+      "chineseDescription": "UIAllianceHelp的Coin",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab」中的UIAllianceHelpCoin",
+      "suggestedTestId": "UIAllianceHelp.Coin",
+      "suggestedSemanticId": "UIAllianceHelp.Coin",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2efe9fa7f50d"
+    },
+    "DRAFT_93a81c5140b3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab",
+      "prefabRoot": "UIAllianceHelp",
+      "path": "UIAllianceHelp/Root/TopBar/TopResource/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_help",
+      "displayName": "Diamond",
+      "chineseDescription": "UIAllianceHelp的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab」中的UIAllianceHelpDiamond",
+      "suggestedTestId": "UIAllianceHelp.Diamond",
+      "suggestedSemanticId": "UIAllianceHelp.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_93a81c5140b3"
+    },
+    "DRAFT_96fe77827950": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab",
+      "prefabRoot": "UIAllianceHelp",
+      "path": "UIAllianceHelp/Root/TopBar/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_alliance_help",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceHelp的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab」中的UIAllianceHelp关闭按钮",
+      "suggestedTestId": "UIAllianceHelp.CloseBtn",
+      "suggestedSemanticId": "UIAllianceHelp.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_96fe77827950"
+    },
+    "DRAFT_e07a08baa12c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab",
+      "prefabRoot": "UIAllianceHelp",
+      "path": "UIAllianceHelp/Root/ScrollView/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_help",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceHelp的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab」中的UIAllianceHelpHeadk1",
+      "suggestedTestId": "UIAllianceHelp.Head_k1",
+      "suggestedSemanticId": "UIAllianceHelp.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e07a08baa12c"
+    },
+    "DRAFT_16411066047f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab",
+      "prefabRoot": "UIAllianceHelp",
+      "path": "UIAllianceHelp/Root/ScrollView/Item/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_help",
+      "displayName": "按钮",
+      "chineseDescription": "UIAllianceHelp的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelp.prefab」中的UIAllianceHelp按钮",
+      "suggestedTestId": "UIAllianceHelp.Button",
+      "suggestedSemanticId": "UIAllianceHelp.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16411066047f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2efe9fa7f50d",
+      "DRAFT_93a81c5140b3",
+      "DRAFT_96fe77827950",
+      "DRAFT_e07a08baa12c",
+      "DRAFT_16411066047f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_zvz_banner",
+  "displayName": "ui_activity_zvz_banner",
+  "drafts": {
+    "DRAFT_290aca2fe0bc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZBanner.prefab",
+      "prefabRoot": "UIActivityZVZBanner",
+      "path": "UIActivityZVZBanner/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_banner",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityZVZBanner的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZBanner.prefab」中的UIActivityZVZBanner按钮",
+      "suggestedTestId": "UIActivityZVZBanner.Btn",
+      "suggestedSemanticId": "UIActivityZVZBanner.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_290aca2fe0bc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_290aca2fe0bc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

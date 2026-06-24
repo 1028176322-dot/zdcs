@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_lottery",
+  "displayName": "ui_activity_lottery",
+  "drafts": {
+    "DRAFT_7ee26b7eaf07": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab",
+      "prefabRoot": "UIActivityLottery",
+      "path": "UIActivityLottery/number/Tipbtn",
+      "nodeName": "Tipbtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "2",
+      "clickable": true,
+      "pageId": "ui_activity_lottery",
+      "displayName": "Tipbtn",
+      "chineseDescription": "UIActivityLottery的Tipbtn，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab」中的UIActivityLotteryTipbtn",
+      "suggestedTestId": "UIActivityLottery.Tipbtn",
+      "suggestedSemanticId": "UIActivityLottery.Tipbtn",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7ee26b7eaf07"
+    },
+    "DRAFT_1be36eb504db": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab",
+      "prefabRoot": "UIActivityLottery",
+      "path": "UIActivityLottery/TipsBG/Cilck",
+      "nodeName": "Cilck",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lottery",
+      "displayName": "Cilck",
+      "chineseDescription": "UIActivityLottery的Cilck",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab」中的UIActivityLotteryCilck",
+      "suggestedTestId": "UIActivityLottery.Cilck",
+      "suggestedSemanticId": "UIActivityLottery.Cilck",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1be36eb504db"
+    },
+    "DRAFT_39faff890a62": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab",
+      "prefabRoot": "UIActivityLottery",
+      "path": "UIActivityLottery/StartBtn",
+      "nodeName": "StartBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lottery",
+      "displayName": "Start按钮",
+      "chineseDescription": "UIActivityLottery的Start按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLottery.prefab」中的UIActivityLotteryStart按钮",
+      "suggestedTestId": "UIActivityLottery.StartBtn",
+      "suggestedSemanticId": "UIActivityLottery.Start按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_39faff890a62"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7ee26b7eaf07",
+      "DRAFT_1be36eb504db",
+      "DRAFT_39faff890a62"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

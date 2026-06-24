@@ -1,0 +1,68 @@
+{
+  "testId": "bag.gold.source_button",
+  "semanticId": "bag.gold.source_button",
+  "targetName": "背包金币途径按钮",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+    "pageId": "bag",
+    "elementType": "item_cell"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+    "screenRect": [
+      256,
+      20,
+      472,
+      129
+    ],
+    "matchScore": 0.82,
+    "confirmedTestId": "bag.gold.source_button",
+    "formalRef": "formal://bag/bag.gold.source_button",
+    "evidenceRef": "EVIDENCE_bag.gold.source_button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.top_res.item_1.cell.png",
+    "screenRectUsed": [
+      256,
+      20,
+      472,
+      129
+    ],
+    "confirmedTestId": "bag.gold.source_button",
+    "formalRef": "formal://bag/bag.gold.source_button",
+    "evidenceRef": "EVIDENCE_bag.gold.source_button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "clickResult": "OK",
+      "error": "AutoSmokeClickInjector did not write click_result.json",
+      "eventReceiverMatched": true,
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1/text",
+      "injectorResultRecovered": true,
+      "instanceId": -13430842,
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+      "screenPoint": [
+        363,
+        2457
+      ],
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+    },
+    "confirmedTestId": "bag.gold.source_button",
+    "formalRef": "formal://bag/bag.gold.source_button",
+    "evidenceRef": "EVIDENCE_bag.gold.source_button"
+  },
+  "displayName": "背包-金币途径按钮",
+  "pageId": "bag",
+  "role": "resource_source",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.gold.source_button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

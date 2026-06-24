@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_endless_treasure_box_banner",
+  "displayName": "ui_activity_endless_treasure_box_banner",
+  "drafts": {
+    "DRAFT_d49968f9293b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab",
+      "prefabRoot": "UIActivityEndlessTreasureBoxBanner",
+      "path": "UIActivityEndlessTreasureBoxBanner/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_endless_treasure_box_banner",
+      "displayName": "Info按钮",
+      "chineseDescription": "UIActivityEndlessTreasureBoxBanner的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab」中的UIActivityEndlessTreasureBoxBannerInfo按钮",
+      "suggestedTestId": "UIActivityEndlessTreasureBoxBanner.InfoBtn",
+      "suggestedSemanticId": "UIActivityEndlessTreasureBoxBanner.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d49968f9293b"
+    },
+    "DRAFT_c6b2e8d8011e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab",
+      "prefabRoot": "UIActivityEndlessTreasureBoxBanner",
+      "path": "UIActivityEndlessTreasureBoxBanner/Items/Item1/FreeBtn",
+      "nodeName": "FreeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_activity_endless_treasure_box_banner",
+      "displayName": "Free按钮",
+      "chineseDescription": "UIActivityEndlessTreasureBoxBanner的Free按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab」中的UIActivityEndlessTreasureBoxBannerFree按钮",
+      "suggestedTestId": "UIActivityEndlessTreasureBoxBanner.FreeBtn",
+      "suggestedSemanticId": "UIActivityEndlessTreasureBoxBanner.Free按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c6b2e8d8011e"
+    },
+    "DRAFT_72b0f9dd806c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab",
+      "prefabRoot": "UIActivityEndlessTreasureBoxBanner",
+      "path": "UIActivityEndlessTreasureBoxBanner/Items/Item1/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_endless_treasure_box_banner",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityEndlessTreasureBoxBanner的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEndlessTreasureBoxBanner.prefab」中的UIActivityEndlessTreasureBoxBanner购买按钮",
+      "suggestedTestId": "UIActivityEndlessTreasureBoxBanner.BuyBtn",
+      "suggestedSemanticId": "UIActivityEndlessTreasureBoxBanner.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_72b0f9dd806c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d49968f9293b",
+      "DRAFT_c6b2e8d8011e",
+      "DRAFT_72b0f9dd806c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

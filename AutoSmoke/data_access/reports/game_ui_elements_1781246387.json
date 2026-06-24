@@ -1,0 +1,20 @@
+{
+  "extract_time": "2026-06-12 14:39:47",
+  "game_coords": {
+    "left": 271,
+    "top": 51,
+    "right": 759,
+    "bottom": 761,
+    "width": 488,
+    "height": 710,
+    "timestamp": "2026-06-12T12:07:00"
+  },
+  "total_elements": 0,
+  "statistics": {
+    "visible": 0,
+    "clickable": 0,
+    "has_text": 0,
+    "has_valid_coords": 0
+  },
+  "elements": []
+}

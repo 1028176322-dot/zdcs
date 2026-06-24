@@ -1,0 +1,1130 @@
+{
+  "schema_version": "element_mapping_formal.page.v1",
+  "pageId": "character_info",
+  "displayName": "角色信息界面",
+  "mappings": {
+    "character_info.player_power.text": {
+      "testId": "character_info.player_power.text",
+      "semanticId": "character_info.player_power.text",
+      "targetName": "角色信息界面玩家战力文本",
+      "displayName": "角色信息-玩家战力文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "UIHeroNew_heroList/Content/imgSoldier",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Img"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            119,
+            1153,
+            1051,
+            1466
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Img",
+            "clickTargetNode": "",
+            "instanceId": -6441350,
+            "nodeName": "Img",
+            "text": "",
+            "screenRect": [
+              119,
+              1153,
+              1051,
+              1466
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T16:39:07"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_power.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "UI_Player_1",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    "character_info.main_character_model.model": {
+      "testId": "character_info.main_character_model.model",
+      "semanticId": "character_info.main_character_model.model",
+      "targetName": "主角信息界面主角动画模型",
+      "displayName": "主角信息-主角动画模型",
+      "pageId": "character_info",
+      "role": "model",
+      "elementType": "Model",
+      "elementPath": "UIActivityMinigame/Content",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/HeroSpine"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            0,
+            457,
+            1170,
+            1730
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/HeroSpine",
+            "clickTargetNode": "",
+            "instanceId": -6441358,
+            "nodeName": "HeroSpine",
+            "text": "",
+            "screenRect": [
+              0,
+              457,
+              1170,
+              1730
+            ],
+            "pageId": "HeroSpine",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:14:25"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.main_character_model.model",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T17:18:52",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T17:18:52",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.personalization_settings.button": {
+      "testId": "character_info.personalization_settings.button",
+      "semanticId": "character_info.personalization_settings.button",
+      "targetName": "角色信息界面个性设置按钮",
+      "displayName": "角色信息-个性设置按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Info/Head",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/Head/Head_k1/Mask/Icon",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+            "instanceId": -6441524,
+            "nodeName": "Icon",
+            "text": "",
+            "screenRect": [
+              85,
+              1987,
+              280,
+              2182
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:34:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.personalization_settings.button",
+      "targetNameEditedAt": "2026-06-23T17:47:07",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T17:47:07",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.level.text": {
+      "testId": "character_info.level.text",
+      "semanticId": "character_info.level.text",
+      "targetName": "角色信息界面玩家灯塔等级文本",
+      "displayName": "角色信息-等级文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/LevelText"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            50,
+            2204,
+            320,
+            2285
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/LevelText",
+            "clickTargetNode": "",
+            "instanceId": -6441622,
+            "nodeName": "LevelText",
+            "text": "Lv:18",
+            "screenRect": [
+              50,
+              2204,
+              320,
+              2285
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T17:59:27"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.level.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Lv:18",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:37:09",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:37:09",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_name.text": {
+      "testId": "character_info.player_name.text",
+      "semanticId": "character_info.player_name.text",
+      "targetName": "角色信息界面玩家名称文本",
+      "displayName": "角色信息-玩家名称文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/Name",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/Name"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            378,
+            1944,
+            971,
+            2031
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/Name",
+            "clickTargetNode": "",
+            "instanceId": -6441586,
+            "nodeName": "Name",
+            "text": "Player205",
+            "screenRect": [
+              378,
+              1944,
+              971,
+              2031
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:28:26"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_name.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Player205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:38:43",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:38:43",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.gender.text": {
+      "testId": "character_info.gender.text",
+      "semanticId": "character_info.gender.text",
+      "targetName": "角色信息界面性别文本",
+      "displayName": "角色信息-性别文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/TxtSex"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            354,
+            2098,
+            513,
+            2172
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/TxtSex",
+            "clickTargetNode": "",
+            "instanceId": -6441660,
+            "nodeName": "TxtSex",
+            "text": "性别：",
+            "screenRect": [
+              354,
+              2098,
+              513,
+              2172
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:43:32"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.gender.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "性别：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T18:53:02",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:53:02",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.gender.button": {
+      "testId": "character_info.gender.button",
+      "semanticId": "character_info.gender.button",
+      "targetName": "角色信息界面性别图标按钮",
+      "displayName": "角色信息-性别按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/TxtSex/man_button",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+            "instanceId": -6441670,
+            "nodeName": "man_button",
+            "text": "",
+            "screenRect": [
+              528,
+              2116,
+              559,
+              2164
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:54:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.gender.button",
+      "targetNameEditedAt": "2026-06-23T18:55:13",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T18:55:13",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_rename.button": {
+      "testId": "character_info.player_rename.button",
+      "semanticId": "character_info.player_rename.button",
+      "targetName": "角色信息界面玩家改名按钮",
+      "displayName": "角色信息-玩家改名按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/RenameBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+            "instanceId": -6441694,
+            "nodeName": "RenameBtn",
+            "text": "",
+            "screenRect": [
+              1009,
+              1948,
+              1103,
+              2042
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T18:54:28"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.player_rename.button",
+      "targetNameEditedAt": "2026-06-23T19:50:13",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T19:50:13",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.power.icon": {
+      "testId": "character_info.power.icon",
+      "semanticId": "character_info.power.icon",
+      "targetName": "角色信息界面战力图标",
+      "displayName": "角色信息-战力图标",
+      "pageId": "character_info",
+      "role": "icon",
+      "elementType": "Icon",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Left/Damage/Icon"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            345,
+            1383,
+            443,
+            1481
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Left/Damage/Icon",
+            "clickTargetNode": "",
+            "instanceId": -6771026,
+            "nodeName": "Icon",
+            "text": "",
+            "screenRect": [
+              345,
+              1383,
+              443,
+              1481
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.power.icon",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "3_common_fighting_bg_1",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T19:57:51",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T19:57:51",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.player_server_id.text": {
+      "testId": "character_info.player_server_id.text",
+      "semanticId": "character_info.player_server_id.text",
+      "targetName": "角色信息界面玩家所在服务器ID文本",
+      "displayName": "角色信息-玩家所在服务器ID文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/ServerMSG",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Info/ServerMSG"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            53,
+            1797,
+            394,
+            1880
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Info/ServerMSG",
+            "clickTargetNode": "",
+            "instanceId": -6770920,
+            "nodeName": "ServerMSG",
+            "text": "",
+            "screenRect": [
+              53,
+              1797,
+              394,
+              1880
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.player_server_id.text",
+      "targetNameEditedAt": "2026-06-23T20:07:50",
+      "targetNameEditedBy": "target_workbench_repair",
+      "semanticSyncedAt": "2026-06-23T20:07:50",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.id_label.text": {
+      "testId": "character_info.id_label.text",
+      "semanticId": "character_info.id_label.text",
+      "targetName": "角色信息界面ID标题文本",
+      "displayName": "角色信息-ID标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/ID/IDTitle"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            353,
+            2040,
+            455,
+            2114
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/IDTitle",
+            "clickTargetNode": "",
+            "instanceId": -6771198,
+            "nodeName": "IDTitle",
+            "text": "ID：",
+            "screenRect": [
+              353,
+              2040,
+              455,
+              2114
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.id_label.text",
+      "targetNameEditedAt": "2026-06-23T20:07:50",
+      "targetNameEditedBy": "target_workbench_repair",
+      "semanticSyncedAt": "2026-06-23T20:07:50",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.id.text": {
+      "testId": "character_info.id.text",
+      "semanticId": "character_info.id.text",
+      "targetName": "角色信息界面玩家角色id文本",
+      "displayName": "角色信息-玩家角色id文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/ID/IDTitle/ID"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            484,
+            2040,
+            574,
+            2114
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/IDTitle/ID",
+            "clickTargetNode": "",
+            "instanceId": -6771210,
+            "nodeName": "ID",
+            "text": "205",
+            "screenRect": [
+              484,
+              2040,
+              574,
+              2114
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.id.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:27:34",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:27:34",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.id.button": {
+      "testId": "character_info.id.button",
+      "semanticId": "character_info.id.button",
+      "targetName": "角色信息界面玩家id复制按钮",
+      "displayName": "角色信息-玩家角色id按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/ID/CopyBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+            "instanceId": -6771242,
+            "nodeName": "CopyBtn",
+            "text": "",
+            "screenRect": [
+              1014,
+              2040,
+              1100,
+              2126
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.id.button",
+      "targetNameEditedAt": "2026-06-23T20:28:57",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:28:57",
+      "semanticSyncedBy": "target_workbench"
+    },
+    "character_info.flag.button": {
+      "testId": "character_info.flag.button",
+      "semanticId": "character_info.flag.button",
+      "targetName": "角色信息界面旗帜图标按钮",
+      "displayName": "角色信息-旗帜按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "UiPlayerMain/Content/Content/Right/Country/text/Flag",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Country/text/Flag",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+            "instanceId": -6771408,
+            "nodeName": "Flag",
+            "text": "",
+            "screenRect": [
+              542,
+              2238,
+              593,
+              2276
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.flag.button",
+      "targetNameEditedAt": "2026-06-23T20:31:01",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.ranking.button": {
+      "testId": "character_info.ranking.button",
+      "semanticId": "character_info.ranking.button",
+      "targetName": "角色信息界面排行榜按钮",
+      "displayName": "角色信息-排行榜按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/RankBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/RankBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+            "instanceId": -6771562,
+            "nodeName": "RankBtn",
+            "text": "",
+            "screenRect": [
+              200,
+              2360,
+              372,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.ranking.button",
+      "targetNameEditedAt": "2026-06-23T20:34:01",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.friend.button": {
+      "testId": "character_info.friend.button",
+      "semanticId": "character_info.friend.button",
+      "targetName": "角色信息界面好友按钮",
+      "displayName": "角色信息-好友按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/FriendBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/FriendBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+            "instanceId": -6771590,
+            "nodeName": "FriendBtn",
+            "text": "",
+            "screenRect": [
+              446,
+              2360,
+              618,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.friend.button",
+      "targetNameEditedAt": "2026-06-23T20:35:05",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-23T20:55:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.country_label.text": {
+      "testId": "character_info.country_label.text",
+      "semanticId": "character_info.country_label.text",
+      "targetName": "角色信息界面国家标题文本",
+      "displayName": "角色信息-国家标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/Country/text"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            356,
+            2214,
+            515,
+            2288
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Country/text",
+            "clickTargetNode": "",
+            "instanceId": -6771398,
+            "nodeName": "text",
+            "text": "国家：",
+            "screenRect": [
+              356,
+              2214,
+              515,
+              2288
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T20:26:21"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.country_label.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "国家：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:29:57",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T09:42:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.alliance.text": {
+      "testId": "character_info.alliance.text",
+      "semanticId": "character_info.alliance.text",
+      "targetName": "角色信息界面联盟文本",
+      "displayName": "角色信息-联盟文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "elementPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Content/Content/Right/Alliance/Txt"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            357,
+            2156,
+            520,
+            2230
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Right/Alliance/Txt",
+            "clickTargetNode": "",
+            "instanceId": -6771138,
+            "nodeName": "Txt",
+            "text": "联盟:",
+            "screenRect": [
+              357,
+              2156,
+              520,
+              2230
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-23T19:53:58"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_character_info.alliance.text",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "联盟:",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "targetNameEditedAt": "2026-06-23T20:00:25",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T09:42:00",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.buff.button": {
+      "testId": "character_info.buff.button",
+      "semanticId": "character_info.buff.button",
+      "targetName": "角色信息界面增益按钮",
+      "displayName": "角色信息-增益按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/BagBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+            "instanceId": -6771640,
+            "nodeName": "BagBtn",
+            "text": "",
+            "screenRect": [
+              696,
+              2360,
+              868,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-24T09:47:49"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.buff.button",
+      "targetNameEditedAt": "2026-06-24T09:49:19",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "character_info.customer_service.button": {
+      "testId": "character_info.customer_service.button",
+      "semanticId": "character_info.customer_service.button",
+      "targetName": "角色信息界面客服按钮",
+      "displayName": "角色信息-客服按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ServiceButton",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/ServiceButton",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+            "instanceId": -2852014,
+            "nodeName": "ServiceButton",
+            "text": "",
+            "screenRect": [
+              1010,
+              216,
+              1131,
+              339
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-18T17:48:02"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_character_info.customer_service.button",
+      "targetNameEditedAt": "2026-06-23T15:51:41",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "ui.skin.button": {
+      "testId": "ui.skin.button",
+      "semanticId": "ui.skin.button",
+      "targetName": "角色信息界面皮肤按钮",
+      "displayName": "角色信息-皮肤按钮",
+      "pageId": "character_info",
+      "role": "button",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/SkinBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Content/Content/Buttom/SkinBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+            "instanceId": -7588974,
+            "nodeName": "SkinBtn",
+            "text": "",
+            "screenRect": [
+              946,
+              2360,
+              1117,
+              2531
+            ],
+            "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
+            "capturedAt": "2026-06-24T10:29:31"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_ui.skin.button",
+      "targetNameEditedAt": "2026-06-24T10:50:53",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:50:53",
+      "semanticSyncedBy": "target_workbench"
+    }
+  },
+  "groups": {
+    "top_bar": [],
+    "tabs": [],
+    "content": [
+      "character_info.customer_service.button",
+      "character_info.player_power.text",
+      "character_info.main_character_model.model",
+      "character_info.personalization_settings.button",
+      "character_info.level.text",
+      "character_info.player_name.text",
+      "character_info.gender.text",
+      "character_info.gender.button",
+      "character_info.player_rename.button",
+      "character_info.power.icon",
+      "character_info.player_server_id.text",
+      "character_info.id_label.text",
+      "character_info.id.text",
+      "character_info.id.button",
+      "character_info.flag.button",
+      "character_info.country_label.text",
+      "character_info.alliance.text",
+      "character_info.buff.button"
+    ],
+    "bottom_actions": [
+      "character_info.ranking.button",
+      "character_info.friend.button"
+    ],
+    "navigation": [],
+    "dialogs": [],
+    "list_templates": [],
+    "unknown": []
+  },
+  "updated_at": "2026-06-24T10:50:53",
+  "count": 21
+}

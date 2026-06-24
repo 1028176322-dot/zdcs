@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_constellation_widget_node_white",
+  "displayName": "hero_constellation_widget_node_white",
+  "drafts": {
+    "DRAFT_0584b35d2012": {
+      "assetPath": "Assets/k1/Effects/Prefabs/UI/HeroConstellationWidget_node_white.prefab",
+      "prefabRoot": "HeroConstellationWidget_node_white",
+      "path": "HeroConstellationWidget_node_white",
+      "nodeName": "HeroConstellationWidget_node_white",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "tongyong_cilck",
+      "clickable": true,
+      "pageId": "hero_constellation_widget_node_white",
+      "displayName": "HeroConstellationWidgetnodewhite",
+      "chineseDescription": "HeroConstellationWidget_node_white的HeroConstellationWidgetnodewhite",
+      "reviewHint": "Prefab「Assets/k1/Effects/Prefabs/UI/HeroConstellationWidget_node_white.prefab」中的HeroConstellationWidget_node_whiteHeroConstellationWidgetnodewhite",
+      "suggestedTestId": "HeroConstellationWidget_node_white.HeroConstellationWidget_node_white",
+      "suggestedSemanticId": "HeroConstellationWidget_node_white.HeroConstellationWidgetnodewhite",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0584b35d2012"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0584b35d2012"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

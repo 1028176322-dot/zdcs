@@ -1,0 +1,90 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_share_gift_red_packet_thanks_gift_get",
+  "displayName": "ui_alliance_share_gift_red_packet_thanks_gift_get",
+  "drafts": {
+    "DRAFT_74e8d7488227": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketThanksGiftGet",
+      "path": "UIAllianceShareGiftRedPacketThanksGiftGet/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_thanks_gift_get",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceShareGiftRedPacketThanksGiftGet的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab」中的UIAllianceShareGiftRedPacketThanksGiftGet关闭按钮",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketThanksGiftGet.CloseBtn",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketThanksGiftGet.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_74e8d7488227"
+    },
+    "DRAFT_fcc1df2dcbb8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketThanksGiftGet",
+      "path": "UIAllianceShareGiftRedPacketThanksGiftGet/Root/Top/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_thanks_gift_get",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceShareGiftRedPacketThanksGiftGet的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab」中的UIAllianceShareGiftRedPacketThanksGiftGetHeadk1",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketThanksGiftGet.Head_k1",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketThanksGiftGet.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fcc1df2dcbb8"
+    },
+    "DRAFT_1cda632fe236": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketThanksGiftGet",
+      "path": "UIAllianceShareGiftRedPacketThanksGiftGet/Root/ScrollView/ViewPort/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_thanks_gift_get",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceShareGiftRedPacketThanksGiftGet的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketThanksGiftGet.prefab」中的UIAllianceShareGiftRedPacketThanksGiftGetHeadk1",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketThanksGiftGet.Head_k1",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketThanksGiftGet.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1cda632fe236"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_74e8d7488227",
+      "DRAFT_fcc1df2dcbb8",
+      "DRAFT_1cda632fe236"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

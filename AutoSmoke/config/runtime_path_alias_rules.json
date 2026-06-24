@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "runtime_path_alias_rules/v1",
+  "rules": [
+    {
+      "pattern": "/Item(Clone)",
+      "replace": "/Item"
+    },
+    {
+      "pattern": "/Item_",
+      "replace": "/Item"
+    },
+    {
+      "pattern": "tab1",
+      "replace": "tab_1"
+    }
+  ]
+}

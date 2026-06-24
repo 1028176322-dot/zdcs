@@ -1,0 +1,9 @@
+{
+  "schema_version": "reader.unconverted_evidence.v1",
+  "generated_at": "2026-06-17T18:26:32",
+  "status": "PASS",
+  "total_evidence": 1,
+  "business_evidence_count": 1,
+  "converted_business_evidence_count": 1,
+  "unconverted_business_evidence": []
+}

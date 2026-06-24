@@ -1,0 +1,169 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_growth_score_rank_pop",
+  "displayName": "ui_growth_score_rank_pop",
+  "drafts": {
+    "DRAFT_dcbd3ce60b50": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGrowthScoreRankPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPop关闭按钮",
+      "suggestedTestId": "UIGrowthScoreRankPop.CloseBtn",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dcbd3ce60b50"
+    },
+    "DRAFT_e59e9fd38572": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/Tab/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_Btn_Tab_White",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "tab1",
+      "chineseDescription": "UIGrowthScoreRankPop的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPoptab1",
+      "suggestedTestId": "UIGrowthScoreRankPop.tab1",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e59e9fd38572"
+    },
+    "DRAFT_176e62430d95": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/RankList/Items/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "Headk1",
+      "chineseDescription": "UIGrowthScoreRankPop的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPopHeadk1",
+      "suggestedTestId": "UIGrowthScoreRankPop.Head_k1",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_176e62430d95"
+    },
+    "DRAFT_8d452f4f9a01": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/RankList/Items/Item/StageIcon",
+      "nodeName": "StageIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "Stage图标",
+      "chineseDescription": "UIGrowthScoreRankPop的Stage图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPopStage图标",
+      "suggestedTestId": "UIGrowthScoreRankPop.StageIcon",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.Stage图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8d452f4f9a01"
+    },
+    "DRAFT_ca61c9ed6fe2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/SelfItem/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "Headk1",
+      "chineseDescription": "UIGrowthScoreRankPop的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPopHeadk1",
+      "suggestedTestId": "UIGrowthScoreRankPop.Head_k1",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca61c9ed6fe2"
+    },
+    "DRAFT_a61832c2ecec": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab",
+      "prefabRoot": "UIGrowthScoreRankPop",
+      "path": "UIGrowthScoreRankPop/Root/RankBG/SelfItem/StageIcon",
+      "nodeName": "StageIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_score_rank_pop",
+      "displayName": "Stage图标",
+      "chineseDescription": "UIGrowthScoreRankPop的Stage图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreRankPop.prefab」中的UIGrowthScoreRankPopStage图标",
+      "suggestedTestId": "UIGrowthScoreRankPop.StageIcon",
+      "suggestedSemanticId": "UIGrowthScoreRankPop.Stage图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a61832c2ecec"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dcbd3ce60b50",
+      "DRAFT_e59e9fd38572",
+      "DRAFT_176e62430d95",
+      "DRAFT_8d452f4f9a01",
+      "DRAFT_ca61c9ed6fe2",
+      "DRAFT_a61832c2ecec"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

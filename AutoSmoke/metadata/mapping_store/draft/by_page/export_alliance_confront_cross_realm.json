@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_alliance_confront_cross_realm",
+  "displayName": "export_alliance_confront_cross_realm",
+  "drafts": {
+    "DRAFT_318bef7aee5e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontCrossRealm",
+      "path": "EXPORT_AllianceConfrontCrossRealm/Root/Bg/Btn_Go",
+      "nodeName": "Btn_Go",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_15",
+      "clickable": true,
+      "pageId": "export_alliance_confront_cross_realm",
+      "displayName": "按钮Go",
+      "chineseDescription": "EXPORT_AllianceConfrontCrossRealm的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab」中的EXPORT_AllianceConfrontCrossRealm按钮Go",
+      "suggestedTestId": "EXPORT_AllianceConfrontCrossRealm.Btn_Go",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontCrossRealm.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_318bef7aee5e"
+    },
+    "DRAFT_9ce17c1c002e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontCrossRealm",
+      "path": "EXPORT_AllianceConfrontCrossRealm/Root/Bg/Btn_Info",
+      "nodeName": "Btn_Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_14",
+      "clickable": true,
+      "pageId": "export_alliance_confront_cross_realm",
+      "displayName": "按钮Info",
+      "chineseDescription": "EXPORT_AllianceConfrontCrossRealm的按钮Info，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab」中的EXPORT_AllianceConfrontCrossRealm按钮Info",
+      "suggestedTestId": "EXPORT_AllianceConfrontCrossRealm.Btn_Info",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontCrossRealm.按钮Info",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9ce17c1c002e"
+    },
+    "DRAFT_68a2ef52a3e3": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontCrossRealm",
+      "path": "EXPORT_AllianceConfrontCrossRealm/Root/Bg/Btn_Back",
+      "nodeName": "Btn_Back",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_17",
+      "clickable": true,
+      "pageId": "export_alliance_confront_cross_realm",
+      "displayName": "按钮返回",
+      "chineseDescription": "EXPORT_AllianceConfrontCrossRealm的按钮返回，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontCrossRealm.prefab」中的EXPORT_AllianceConfrontCrossRealm按钮返回",
+      "suggestedTestId": "EXPORT_AllianceConfrontCrossRealm.Btn_Back",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontCrossRealm.按钮返回",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_68a2ef52a3e3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_318bef7aee5e",
+      "DRAFT_9ce17c1c002e",
+      "DRAFT_68a2ef52a3e3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

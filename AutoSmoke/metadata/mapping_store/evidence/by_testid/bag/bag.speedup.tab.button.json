@@ -1,0 +1,69 @@
+{
+  "testId": "bag.speedup.tab.button",
+  "semanticId": "bag.speedup.tab.button",
+  "targetName": "背包加速页签按钮",
+  "structure": {
+    "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/2",
+    "pageId": "bag",
+    "elementType": "tab"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Root/Shop/Tab/Tab/View/Content/2",
+    "screenRect": [
+      476,
+      152,
+      693,
+      254
+    ],
+    "matchScore": "",
+    "confirmedTestId": "bag.speedup.tab.button",
+    "formalRef": "formal://bag/bag.speedup.tab.button",
+    "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.2.tab.png",
+    "screenRectUsed": [
+      481,
+      172,
+      689,
+      254
+    ],
+    "confirmedTestId": "bag.speedup.tab.button",
+    "formalRef": "formal://bag/bag.speedup.tab.button",
+    "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2/Off/TextOff",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13432478,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+      "screenPoint": [
+        584,
+        2329
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.speedup.tab.button",
+    "formalRef": "formal://bag/bag.speedup.tab.button",
+    "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+  },
+  "displayName": "背包-加速页签按钮",
+  "pageId": "bag",
+  "role": "tab",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.speedup.tab.button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

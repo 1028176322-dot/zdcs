@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_trial_tower_prepare",
+  "displayName": "ui_trial_tower_prepare",
+  "drafts": {
+    "DRAFT_3456a35eab18": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerPrepare.prefab",
+      "prefabRoot": "UITrialTowerPrepare",
+      "path": "UITrialTowerPrepare/Root/ReturnBtn",
+      "nodeName": "ReturnBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_prepare",
+      "displayName": "Return按钮",
+      "chineseDescription": "UITrialTowerPrepare的Return按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerPrepare.prefab」中的UITrialTowerPrepareReturn按钮",
+      "suggestedTestId": "UITrialTowerPrepare.ReturnBtn",
+      "suggestedSemanticId": "UITrialTowerPrepare.Return按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3456a35eab18"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3456a35eab18"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

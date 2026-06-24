@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "grow_fund",
+  "displayName": "grow_fund",
+  "drafts": {
+    "DRAFT_3ffc1137ccfd": {
+      "assetPath": "Assets/k1/Testprefab/Grow_fund.prefab",
+      "prefabRoot": "Grow_fund",
+      "path": "Grow_fund/BG/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "Animator",
+        "UIGrouthItem",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "grow_fund",
+      "displayName": "项",
+      "chineseDescription": "Grow_fund的项",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Grow_fund.prefab」中的Grow_fund项",
+      "suggestedTestId": "Grow_fund.Item",
+      "suggestedSemanticId": "Grow_fund.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3ffc1137ccfd"
+    },
+    "DRAFT_e319f14e071d": {
+      "assetPath": "Assets/k1/Testprefab/Grow_fund.prefab",
+      "prefabRoot": "Grow_fund",
+      "path": "Grow_fund/BG/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "grow_fund",
+      "displayName": "ClickContent",
+      "chineseDescription": "Grow_fund的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Grow_fund.prefab」中的Grow_fundClickContent",
+      "suggestedTestId": "Grow_fund.ClickContent",
+      "suggestedSemanticId": "Grow_fund.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e319f14e071d"
+    },
+    "DRAFT_ba5a20baba2f": {
+      "assetPath": "Assets/k1/Testprefab/Grow_fund.prefab",
+      "prefabRoot": "Grow_fund",
+      "path": "Grow_fund/BG/Buy_Btn",
+      "nodeName": "Buy_Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "grow_fund",
+      "displayName": "购买按钮",
+      "chineseDescription": "Grow_fund的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Grow_fund.prefab」中的Grow_fund购买按钮",
+      "suggestedTestId": "Grow_fund.Buy_Btn",
+      "suggestedSemanticId": "Grow_fund.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ba5a20baba2f"
+    },
+    "DRAFT_f6d1746998ae": {
+      "assetPath": "Assets/k1/Testprefab/Grow_fund.prefab",
+      "prefabRoot": "Grow_fund",
+      "path": "Grow_fund/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Canvas",
+        "GraphicRaycaster"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "grow_fund",
+      "displayName": "按钮关闭",
+      "chineseDescription": "Grow_fund的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Grow_fund.prefab」中的Grow_fund按钮关闭",
+      "suggestedTestId": "Grow_fund.BtnClose",
+      "suggestedSemanticId": "Grow_fund.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f6d1746998ae"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3ffc1137ccfd",
+      "DRAFT_e319f14e071d",
+      "DRAFT_ba5a20baba2f",
+      "DRAFT_f6d1746998ae"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

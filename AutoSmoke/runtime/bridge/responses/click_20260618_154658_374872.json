@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260618_154658_374872",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-18T15:46:58",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -13426580,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

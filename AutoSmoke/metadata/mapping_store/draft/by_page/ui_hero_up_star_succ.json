@@ -1,0 +1,91 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_up_star_succ",
+  "displayName": "ui_hero_up_star_succ",
+  "drafts": {
+    "DRAFT_14c90feafd79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab",
+      "prefabRoot": "UIHeroUpStarSucc",
+      "path": "UIHeroUpStarSucc/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_succ",
+      "displayName": "BG",
+      "chineseDescription": "UIHeroUpStarSucc的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab」中的UIHeroUpStarSuccBG",
+      "suggestedTestId": "UIHeroUpStarSucc.BG",
+      "suggestedSemanticId": "UIHeroUpStarSucc.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_14c90feafd79"
+    },
+    "DRAFT_ccbba1fbb3da": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab",
+      "prefabRoot": "UIHeroUpStarSucc",
+      "path": "UIHeroUpStarSucc/Root/Content/LeftHeroItem",
+      "nodeName": "LeftHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_succ",
+      "displayName": "LeftHero项",
+      "chineseDescription": "UIHeroUpStarSucc的LeftHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab」中的UIHeroUpStarSuccLeftHero项",
+      "suggestedTestId": "UIHeroUpStarSucc.LeftHeroItem",
+      "suggestedSemanticId": "UIHeroUpStarSucc.LeftHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ccbba1fbb3da"
+    },
+    "DRAFT_118788bd9ecd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab",
+      "prefabRoot": "UIHeroUpStarSucc",
+      "path": "UIHeroUpStarSucc/Root/Content/RightHeroItem",
+      "nodeName": "RightHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_succ",
+      "displayName": "RightHero项",
+      "chineseDescription": "UIHeroUpStarSucc的RightHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarSucc.prefab」中的UIHeroUpStarSuccRightHero项",
+      "suggestedTestId": "UIHeroUpStarSucc.RightHeroItem",
+      "suggestedSemanticId": "UIHeroUpStarSucc.RightHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_118788bd9ecd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_14c90feafd79",
+      "DRAFT_ccbba1fbb3da",
+      "DRAFT_118788bd9ecd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

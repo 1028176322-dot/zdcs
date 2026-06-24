@@ -1,0 +1,20 @@
+{
+  "overall_status": "PASS",
+  "total_facts": 5,
+  "avg_confidence": 0.95,
+  "low_confidence_count": 0,
+  "status_distribution": {
+    "CLEAR": 5,
+    "MISSING": 0,
+    "CONFLICT": 0,
+    "UNCERTAIN": 0
+  },
+  "summary": {
+    "conflict_count": 0,
+    "missing_count": 0,
+    "uncertain_count": 0,
+    "conflict_fact_ids": [],
+    "missing_fact_ids": [],
+    "uncertain_fact_ids": []
+  }
+}

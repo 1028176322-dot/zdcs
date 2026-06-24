@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.gender.text",
+  "testId": "character_info.gender.text",
+  "semanticId": "character_info.gender.text",
+  "targetName": "角色信息界面性别文本",
+  "displayName": "角色信息-性别文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Info/TxtSex",
+    "screenRect": [
+      354,
+      2098,
+      513,
+      2172
+    ]
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+    "highlightImage": "screenshots/mapping_review/20260623_183448_highlight.png",
+    "screenRectUsed": [
+      354,
+      2098,
+      513,
+      2172
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T18:34:49",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T18:44:23",
+    "confirmedTestId": "character_info.gender.text",
+    "formalRef": "formal://character_info/character_info.gender.text",
+    "evidenceRef": "EVIDENCE_character_info.gender.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "性别：",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T18:48:46"
+}

@@ -1,0 +1,12 @@
+{
+  "screen_x": -1649,
+  "screen_y": 94,
+  "screen_width": 488,
+  "screen_height": 690,
+  "render_x": 271,
+  "render_y": 51,
+  "render_width": 488,
+  "render_height": 690,
+  "method": "unity_reflection_viewInWindow",
+  "note": "screen_* 是游戏渲染区域的屏幕坐标，render_* 是截图坐标"
+}

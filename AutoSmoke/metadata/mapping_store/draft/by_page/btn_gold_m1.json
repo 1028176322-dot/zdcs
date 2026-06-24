@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "btn_gold_m1",
+  "displayName": "btn_gold_m1",
+  "drafts": {
+    "DRAFT_b43feedd8cd0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnGoldM1.prefab",
+      "prefabRoot": "BtnGoldM1",
+      "path": "BtnGoldM1",
+      "nodeName": "BtnGoldM1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "btn_gold_m1",
+      "displayName": "按钮GoldM1",
+      "chineseDescription": "BtnGoldM1的按钮GoldM1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnGoldM1.prefab」中的BtnGoldM1按钮GoldM1",
+      "suggestedTestId": "BtnGoldM1.BtnGoldM1",
+      "suggestedSemanticId": "BtnGoldM1.按钮GoldM1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b43feedd8cd0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b43feedd8cd0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_arena_box_tips",
+  "displayName": "ui_arena_box_tips",
+  "drafts": {
+    "DRAFT_09ac39967c17": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab",
+      "prefabRoot": "UIArenaBoxTips",
+      "path": "UIArenaBoxTips/Root",
+      "nodeName": "Root",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_arena_box_tips",
+      "displayName": "Root",
+      "chineseDescription": "UIArenaBoxTips的Root",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab」中的UIArenaBoxTipsRoot",
+      "suggestedTestId": "UIArenaBoxTips.Root",
+      "suggestedSemanticId": "UIArenaBoxTips.Root",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_09ac39967c17"
+    },
+    "DRAFT_e7db21344f54": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab",
+      "prefabRoot": "UIArenaBoxTips",
+      "path": "UIArenaBoxTips/Root/BG/uncommon/item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_arena_box_tips",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIArenaBoxTips的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab」中的UIArenaBoxTipsClickContent",
+      "suggestedTestId": "UIArenaBoxTips.ClickContent",
+      "suggestedSemanticId": "UIArenaBoxTips.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e7db21344f54"
+    },
+    "DRAFT_3601e4186789": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab",
+      "prefabRoot": "UIArenaBoxTips",
+      "path": "UIArenaBoxTips/Root/BG/common/item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_arena_box_tips",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIArenaBoxTips的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIArenaBoxTips.prefab」中的UIArenaBoxTipsClickContent",
+      "suggestedTestId": "UIArenaBoxTips.ClickContent",
+      "suggestedSemanticId": "UIArenaBoxTips.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3601e4186789"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_09ac39967c17",
+      "DRAFT_e7db21344f54",
+      "DRAFT_3601e4186789"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

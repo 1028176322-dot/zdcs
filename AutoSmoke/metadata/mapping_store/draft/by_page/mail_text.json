@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_text",
+  "displayName": "mail_text",
+  "drafts": {
+    "DRAFT_530873b0e386": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_text.prefab",
+      "prefabRoot": "mail_text",
+      "path": "mail_text/lab_describe",
+      "nodeName": "lab_describe",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_text",
+      "displayName": "件邮件操作按钮",
+      "chineseDescription": "mail_text的件邮件操作按钮，文字「件邮件」",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_text.prefab」中的mail_text件邮件操作按钮，含文字「件邮件」",
+      "suggestedTestId": "mail_text.lab_describe.件邮件",
+      "suggestedSemanticId": "mail_text.labdescribe.件邮件",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_530873b0e386"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_530873b0e386"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

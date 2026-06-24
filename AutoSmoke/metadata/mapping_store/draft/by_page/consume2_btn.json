@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "consume2_btn",
+  "displayName": "consume2_btn",
+  "drafts": {
+    "DRAFT_97f63b03bc9f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Button/Consume2Btn.prefab",
+      "prefabRoot": "Consume2Btn",
+      "path": "Consume2Btn",
+      "nodeName": "Consume2Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "consume2_btn",
+      "displayName": "Consume2按钮",
+      "chineseDescription": "Consume2Btn的Consume2按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Button/Consume2Btn.prefab」中的Consume2BtnConsume2按钮",
+      "suggestedTestId": "Consume2Btn.Consume2Btn",
+      "suggestedSemanticId": "Consume2Btn.Consume2按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97f63b03bc9f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_97f63b03bc9f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

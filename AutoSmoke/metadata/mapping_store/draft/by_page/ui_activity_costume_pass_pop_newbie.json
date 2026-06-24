@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_pop_newbie",
+  "displayName": "ui_activity_costume_pass_pop_newbie",
+  "drafts": {
+    "DRAFT_57628b266f25": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Newbie",
+      "path": "UIActivityCostumePassPop_Newbie/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_newbie",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Newbie的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab」中的UIActivityCostumePassPop_NewbieClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Newbie.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Newbie.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_57628b266f25"
+    },
+    "DRAFT_318ec774969d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Newbie",
+      "path": "UIActivityCostumePassPop_Newbie/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_newbie",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Newbie的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab」中的UIActivityCostumePassPop_NewbieClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Newbie.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Newbie.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_318ec774969d"
+    },
+    "DRAFT_b469d200cd11": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Newbie",
+      "path": "UIActivityCostumePassPop_Newbie/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_newbie",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityCostumePassPop_Newbie的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab」中的UIActivityCostumePassPop_NewbieGet按钮",
+      "suggestedTestId": "UIActivityCostumePassPop_Newbie.GetBtn",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Newbie.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b469d200cd11"
+    },
+    "DRAFT_4ac02c28f436": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Newbie",
+      "path": "UIActivityCostumePassPop_Newbie/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_newbie",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityCostumePassPop_Newbie的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Newbie.prefab」中的UIActivityCostumePassPop_NewbieTips",
+      "suggestedTestId": "UIActivityCostumePassPop_Newbie.Tips",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Newbie.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4ac02c28f436"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_57628b266f25",
+      "DRAFT_318ec774969d",
+      "DRAFT_b469d200cd11",
+      "DRAFT_4ac02c28f436"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

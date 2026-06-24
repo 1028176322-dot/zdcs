@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_obelisk_banner",
+  "displayName": "ui_activity_obelisk_banner",
+  "drafts": {
+    "DRAFT_fdc94a14fb40": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab",
+      "prefabRoot": "UIActivityObeliskBanner",
+      "path": "UIActivityObeliskBanner/Title/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_activity_obelisk_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityObeliskBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab」中的UIActivityObeliskBannerInfo",
+      "suggestedTestId": "UIActivityObeliskBanner.Info",
+      "suggestedSemanticId": "UIActivityObeliskBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fdc94a14fb40"
+    },
+    "DRAFT_d0133ce35b04": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab",
+      "prefabRoot": "UIActivityObeliskBanner",
+      "path": "UIActivityObeliskBanner/AwardBox/BoxContent/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_obelisk_banner",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityObeliskBanner的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab」中的UIActivityObeliskBannerClickContent",
+      "suggestedTestId": "UIActivityObeliskBanner.ClickContent",
+      "suggestedSemanticId": "UIActivityObeliskBanner.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0133ce35b04"
+    },
+    "DRAFT_16e948ad2930": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab",
+      "prefabRoot": "UIActivityObeliskBanner",
+      "path": "UIActivityObeliskBanner/AwardBox/BoxClick",
+      "nodeName": "BoxClick",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_activity_obelisk_banner",
+      "displayName": "BoxClick",
+      "chineseDescription": "UIActivityObeliskBanner的BoxClick",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObeliskBanner.prefab」中的UIActivityObeliskBannerBoxClick",
+      "suggestedTestId": "UIActivityObeliskBanner.BoxClick",
+      "suggestedSemanticId": "UIActivityObeliskBanner.BoxClick",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16e948ad2930"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fdc94a14fb40",
+      "DRAFT_d0133ce35b04",
+      "DRAFT_16e948ad2930"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

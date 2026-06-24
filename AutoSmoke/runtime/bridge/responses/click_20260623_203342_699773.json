@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_203342_699773",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T20:33:43",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6771562,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

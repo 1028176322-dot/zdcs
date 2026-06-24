@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "talent_node_big",
+  "displayName": "talent_node_big",
+  "drafts": {
+    "DRAFT_b13c78be9bab": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/TalentNodeBig.prefab",
+      "prefabRoot": "TalentNodeBig",
+      "path": "TalentNodeBig",
+      "nodeName": "TalentNodeBig",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "talent_node_big",
+      "displayName": "TalentNodeBig",
+      "chineseDescription": "TalentNodeBig的TalentNodeBig",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/TalentNodeBig.prefab」中的TalentNodeBigTalentNodeBig",
+      "suggestedTestId": "TalentNodeBig.TalentNodeBig",
+      "suggestedSemanticId": "TalentNodeBig.TalentNodeBig",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b13c78be9bab"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b13c78be9bab"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

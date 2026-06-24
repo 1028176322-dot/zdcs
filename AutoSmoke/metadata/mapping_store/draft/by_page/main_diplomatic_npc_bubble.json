@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_diplomatic_npc_bubble",
+  "displayName": "main_diplomatic_npc_bubble",
+  "drafts": {
+    "DRAFT_01c85b9b8099": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainDiplomaticNPCBubble.prefab",
+      "prefabRoot": "MainDiplomaticNPCBubble",
+      "path": "MainDiplomaticNPCBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_1",
+      "clickable": true,
+      "pageId": "main_diplomatic_npc_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainDiplomaticNPCBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainDiplomaticNPCBubble.prefab」中的MainDiplomaticNPCBubbletipsdi",
+      "suggestedTestId": "MainDiplomaticNPCBubble.tips_di",
+      "suggestedSemanticId": "MainDiplomaticNPCBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_01c85b9b8099"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_01c85b9b8099"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

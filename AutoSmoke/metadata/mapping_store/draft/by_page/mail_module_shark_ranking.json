@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_module_shark_ranking",
+  "displayName": "mail_module_shark_ranking",
+  "drafts": {
+    "DRAFT_1a8a562bca2e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_SharkRanking.prefab",
+      "prefabRoot": "MailModule_SharkRanking",
+      "path": "MailModule_SharkRanking/Scroll/View/Content/TopBg/Award/Scroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_module_shark_ranking",
+      "displayName": "ClickContent",
+      "chineseDescription": "MailModule_SharkRanking的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_SharkRanking.prefab」中的MailModule_SharkRankingClickContent",
+      "suggestedTestId": "MailModule_SharkRanking.ClickContent",
+      "suggestedSemanticId": "MailModule_SharkRanking.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1a8a562bca2e"
+    },
+    "DRAFT_b7687fe93135": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_SharkRanking.prefab",
+      "prefabRoot": "MailModule_SharkRanking",
+      "path": "MailModule_SharkRanking/Scroll/View/Content/Rank/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_module_shark_ranking",
+      "displayName": "Headk1",
+      "chineseDescription": "MailModule_SharkRanking的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_SharkRanking.prefab」中的MailModule_SharkRankingHeadk1",
+      "suggestedTestId": "MailModule_SharkRanking.Head_k1",
+      "suggestedSemanticId": "MailModule_SharkRanking.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b7687fe93135"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1a8a562bca2e",
+      "DRAFT_b7687fe93135"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

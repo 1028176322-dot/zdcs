@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "date_time_picker_dialog",
+  "displayName": "date_time_picker_dialog",
+  "drafts": {
+    "DRAFT_b11e1dc10398": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Resources/Com.ForbiddenByte.OSA/DateTimePickerDialog.prefab",
+      "prefabRoot": "DateTimePickerDialog",
+      "path": "DateTimePickerDialog/SelectButton",
+      "nodeName": "SelectButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "Shadow"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "date_time_picker_dialog",
+      "displayName": "Select按钮",
+      "chineseDescription": "DateTimePickerDialog的Select按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Resources/Com.ForbiddenByte.OSA/DateTimePickerDialog.prefab」中的DateTimePickerDialogSelect按钮",
+      "suggestedTestId": "DateTimePickerDialog.SelectButton",
+      "suggestedSemanticId": "DateTimePickerDialog.Select按钮",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b11e1dc10398"
+    },
+    "DRAFT_a535f764ec2e": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Resources/Com.ForbiddenByte.OSA/DateTimePickerDialog.prefab",
+      "prefabRoot": "DateTimePickerDialog",
+      "path": "DateTimePickerDialog/NowButton",
+      "nodeName": "NowButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "Shadow"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "date_time_picker_dialog",
+      "displayName": "Now按钮",
+      "chineseDescription": "DateTimePickerDialog的Now按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Resources/Com.ForbiddenByte.OSA/DateTimePickerDialog.prefab」中的DateTimePickerDialogNow按钮",
+      "suggestedTestId": "DateTimePickerDialog.NowButton",
+      "suggestedSemanticId": "DateTimePickerDialog.Now按钮",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a535f764ec2e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b11e1dc10398",
+      "DRAFT_a535f764ec2e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

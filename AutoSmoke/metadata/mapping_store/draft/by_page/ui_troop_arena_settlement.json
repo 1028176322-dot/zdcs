@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_arena_settlement",
+  "displayName": "ui_troop_arena_settlement",
+  "drafts": {
+    "DRAFT_b8aeee8dc2c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaSettlement.prefab",
+      "prefabRoot": "UITroopArenaSettlement",
+      "path": "UITroopArenaSettlement/Root/Group_cont/Content/reward_group/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_settlement",
+      "displayName": "ClickContent",
+      "chineseDescription": "UITroopArenaSettlement的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaSettlement.prefab」中的UITroopArenaSettlementClickContent",
+      "suggestedTestId": "UITroopArenaSettlement.ClickContent",
+      "suggestedSemanticId": "UITroopArenaSettlement.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8aeee8dc2c1"
+    },
+    "DRAFT_0472913d3362": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaSettlement.prefab",
+      "prefabRoot": "UITroopArenaSettlement",
+      "path": "UITroopArenaSettlement/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_settlement",
+      "displayName": "Touch",
+      "chineseDescription": "UITroopArenaSettlement的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaSettlement.prefab」中的UITroopArenaSettlementTouch",
+      "suggestedTestId": "UITroopArenaSettlement.Touch",
+      "suggestedSemanticId": "UITroopArenaSettlement.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0472913d3362"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b8aeee8dc2c1",
+      "DRAFT_0472913d3362"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

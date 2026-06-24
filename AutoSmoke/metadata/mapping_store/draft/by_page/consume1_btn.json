@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "consume1_btn",
+  "displayName": "consume1_btn",
+  "drafts": {
+    "DRAFT_00c1e24115da": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Button/Consume1Btn.prefab",
+      "prefabRoot": "Consume1Btn",
+      "path": "Consume1Btn",
+      "nodeName": "Consume1Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "consume1_btn",
+      "displayName": "Consume1按钮",
+      "chineseDescription": "Consume1Btn的Consume1按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Button/Consume1Btn.prefab」中的Consume1BtnConsume1按钮",
+      "suggestedTestId": "Consume1Btn.Consume1Btn",
+      "suggestedSemanticId": "Consume1Btn.Consume1按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_00c1e24115da"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_00c1e24115da"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

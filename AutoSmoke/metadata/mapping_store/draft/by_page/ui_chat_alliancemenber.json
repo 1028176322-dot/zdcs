@@ -1,0 +1,171 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_chat_alliancemenber",
+  "displayName": "ui_chat_alliancemenber",
+  "drafts": {
+    "DRAFT_59952f0b4578": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_quit_1",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIChatAlliancemenber的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenber按钮关闭",
+      "suggestedTestId": "UIChatAlliancemenber.BtnClose",
+      "suggestedSemanticId": "UIChatAlliancemenber.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_59952f0b4578"
+    },
+    "DRAFT_25ec04958ae5": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/Input",
+      "nodeName": "Input",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "3_common_ui_bg_input_1",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "输入",
+      "chineseDescription": "UIChatAlliancemenber的输入",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenber输入",
+      "suggestedTestId": "UIChatAlliancemenber.Input",
+      "suggestedSemanticId": "UIChatAlliancemenber.输入",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_25ec04958ae5"
+    },
+    "DRAFT_1b59fef5eb93": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/BtnFind",
+      "nodeName": "BtnFind",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "按钮Find",
+      "chineseDescription": "UIChatAlliancemenber的按钮Find，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenber按钮Find",
+      "suggestedTestId": "UIChatAlliancemenber.BtnFind",
+      "suggestedSemanticId": "UIChatAlliancemenber.按钮Find",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1b59fef5eb93"
+    },
+    "DRAFT_18bf564b2cf5": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/MemberList/Mask/Content/Member",
+      "nodeName": "Member",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_bar_white",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "Member",
+      "chineseDescription": "UIChatAlliancemenber的Member",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenberMember",
+      "suggestedTestId": "UIChatAlliancemenber.Member",
+      "suggestedSemanticId": "UIChatAlliancemenber.Member",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_18bf564b2cf5"
+    },
+    "DRAFT_13232853e84a": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/MemberList/Mask/Content/Member/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "Headk1",
+      "chineseDescription": "UIChatAlliancemenber的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenberHeadk1",
+      "suggestedTestId": "UIChatAlliancemenber.Head_k1",
+      "suggestedSemanticId": "UIChatAlliancemenber.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_13232853e84a"
+    },
+    "DRAFT_81f5a4bd7c5e": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab",
+      "prefabRoot": "UIChatAlliancemenber",
+      "path": "UIChatAlliancemenber/Root/MemberList/Mask/Content/Member/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_bar_white",
+      "clickable": true,
+      "pageId": "ui_chat_alliancemenber",
+      "displayName": "Click",
+      "chineseDescription": "UIChatAlliancemenber的Click",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatAlliancemenber.prefab」中的UIChatAlliancemenberClick",
+      "suggestedTestId": "UIChatAlliancemenber.Click",
+      "suggestedSemanticId": "UIChatAlliancemenber.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_81f5a4bd7c5e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_59952f0b4578",
+      "DRAFT_25ec04958ae5",
+      "DRAFT_1b59fef5eb93",
+      "DRAFT_18bf564b2cf5",
+      "DRAFT_13232853e84a",
+      "DRAFT_81f5a4bd7c5e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "info",
+  "displayName": "主角信息界面",
+  "drafts": {
+    "DRAFT_9fdc0a38bad2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigame.prefab",
+      "prefabRoot": "UIActivityMinigame",
+      "path": "UIActivityMinigame/Content",
+      "nodeName": "Content",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener",
+        "GridLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "info",
+      "displayName": "ui-英雄操作组件",
+      "chineseDescription": "UIActivityMinigame的Content",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigame.prefab」中的UIActivityMinigameContent",
+      "suggestedTestId": "UIActivityMinigame.Content",
+      "suggestedSemanticId": "UIActivityMinigame.Content",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9fdc0a38bad2",
+      "targetName": "主角信息界面主角动画模型",
+      "semanticId": "",
+      "elementType": "unknown",
+      "semanticSyncedAt": "2026-06-23T17:18:52",
+      "semanticSyncedBy": "target_workbench"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9fdc0a38bad2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

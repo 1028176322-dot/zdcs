@@ -1,0 +1,75 @@
+{
+  "evidenceRef": "EVIDENCE_ui.skin.button",
+  "testId": "ui.skin.button",
+  "semanticId": "ui.skin.button",
+  "targetName": "UI皮肤按钮",
+  "pageId": "ui",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/SkinBtn",
+    "pageId": "ui",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260624_101111_highlight.png",
+    "screenRectUsed": [
+      946,
+      2360,
+      1117,
+      2531
+    ]
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "clickResult": "OK",
+      "error": "",
+      "requestId": "click_20260624_104126_265833",
+      "timeoutSec": 8.0,
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+      "eventReceiverMatched": true,
+      "hitRuntimePath": "UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow/Text",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+      "screenPoint": [
+        1031,
+        86
+      ],
+      "debugOverlayBypassed": true,
+      "debugOverlayReceiver": "UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow/Text",
+      "injectorResultRecovered": true,
+      "debugOverlayBlock": {
+        "blocked": true,
+        "reason": "debug_overlay_coordinate_collision",
+        "screenPoint": [
+          1031.5,
+          2445.5
+        ],
+        "targetScreenRect": [
+          946,
+          2360,
+          1117,
+          2531
+        ],
+        "debugScreenRect": [
+          1025,
+          2436,
+          1155,
+          2522
+        ],
+        "hint": "Do not use coordinate fallback in the fixed Debug overlay area; use runtimePath click or hide Debug overlay first."
+      },
+      "debugOverlayBypassRequested": true
+    }
+  },
+  "updated_at": "2026-06-24T10:46:11",
+  "displayName": "UI-皮肤按钮"
+}

@@ -1,0 +1,165 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "item",
+  "displayName": "item",
+  "drafts": {
+    "DRAFT_b415f81ede6e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item/cont/Button/Cost",
+      "nodeName": "Cost",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "Cost",
+      "chineseDescription": "Item的Cost",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab」中的ItemCost",
+      "suggestedTestId": "Item.Cost",
+      "suggestedSemanticId": "Item.Cost",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b415f81ede6e"
+    },
+    "DRAFT_906725a7a6c9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item/cont/Button/AdBuy",
+      "nodeName": "AdBuy",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "Ad购买",
+      "chineseDescription": "Item的Ad购买",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab」中的ItemAd购买",
+      "suggestedTestId": "Item.AdBuy",
+      "suggestedSemanticId": "Item.Ad购买",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_906725a7a6c9"
+    },
+    "DRAFT_a578a262e961": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item/cont/Button/Desc",
+      "nodeName": "Desc",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "Desc",
+      "chineseDescription": "Item的Desc",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab」中的ItemDesc",
+      "suggestedTestId": "Item.Desc",
+      "suggestedSemanticId": "Item.Desc",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a578a262e961"
+    },
+    "DRAFT_0e39ad059631": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item/cont/Button/Money",
+      "nodeName": "Money",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "Money",
+      "chineseDescription": "Item的Money",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab」中的ItemMoney",
+      "suggestedTestId": "Item.Money",
+      "suggestedSemanticId": "Item.Money",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0e39ad059631"
+    },
+    "DRAFT_b27aa107a178": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item/cont/quickBtn",
+      "nodeName": "quickBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "quick按钮",
+      "chineseDescription": "Item的quick按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/GiftPop/Item.prefab」中的Itemquick按钮",
+      "suggestedTestId": "Item.quickBtn",
+      "suggestedSemanticId": "Item.quick按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b27aa107a178"
+    },
+    "DRAFT_ecdda59aea5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Item.prefab",
+      "prefabRoot": "Item",
+      "path": "Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item",
+      "displayName": "项",
+      "chineseDescription": "Item的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Item.prefab」中的Item项",
+      "suggestedTestId": "Item.Item",
+      "suggestedSemanticId": "Item.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ecdda59aea5e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b415f81ede6e",
+      "DRAFT_906725a7a6c9",
+      "DRAFT_a578a262e961",
+      "DRAFT_0e39ad059631",
+      "DRAFT_b27aa107a178",
+      "DRAFT_ecdda59aea5e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

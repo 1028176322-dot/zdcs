@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.player_power.text",
+  "testId": "character_info.player_power.text",
+  "semanticId": "character_info.player_power.text",
+  "targetName": "角色信息界面玩家战力文本",
+  "displayName": "角色信息-玩家战力文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "UIHeroNew_heroList/Content/imgSoldier",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Img",
+    "screenRect": [
+      119,
+      1153,
+      1051,
+      1466
+    ]
+  },
+  "visual": {
+    "draftPath": "UIHeroNew_heroList/Content/imgSoldier",
+    "highlightImage": "mapping_store/evidence/assets/highlights/character_info.player_power.text.png",
+    "screenRectUsed": [
+      119,
+      1153,
+      1051,
+      1466
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T16:29:00",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T17:07:11",
+    "confirmedTestId": "character_info.player_power.text",
+    "formalRef": "formal://character_info/character_info.player_power.text",
+    "evidenceRef": "EVIDENCE_character_info.player_power.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "",
+    "spriteName": "UI_Player_1",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T17:07:17"
+}

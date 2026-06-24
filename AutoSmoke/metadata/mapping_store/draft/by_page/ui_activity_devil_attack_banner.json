@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_devil_attack_banner",
+  "displayName": "ui_activity_devil_attack_banner",
+  "drafts": {
+    "DRAFT_b12985ad7eb9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackBanner.prefab",
+      "prefabRoot": "UIActivityDevilAttackBanner",
+      "path": "UIActivityDevilAttackBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_devil_attack_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityDevilAttackBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackBanner.prefab」中的UIActivityDevilAttackBannerInfo",
+      "suggestedTestId": "UIActivityDevilAttackBanner.Info",
+      "suggestedSemanticId": "UIActivityDevilAttackBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b12985ad7eb9"
+    },
+    "DRAFT_1512d558fdd3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackBanner.prefab",
+      "prefabRoot": "UIActivityDevilAttackBanner",
+      "path": "UIActivityDevilAttackBanner/Server",
+      "nodeName": "Server",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_devil_attack_banner",
+      "displayName": "Server",
+      "chineseDescription": "UIActivityDevilAttackBanner的Server",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackBanner.prefab」中的UIActivityDevilAttackBannerServer",
+      "suggestedTestId": "UIActivityDevilAttackBanner.Server",
+      "suggestedSemanticId": "UIActivityDevilAttackBanner.Server",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1512d558fdd3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b12985ad7eb9",
+      "DRAFT_1512d558fdd3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_fortress_team_list",
+  "displayName": "ui_alliance_fortress_team_list",
+  "drafts": {
+    "DRAFT_1e20a5e5f76f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceFortressTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamList关闭按钮",
+      "suggestedTestId": "UIAllianceFortressTeamList.CloseBtn",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e20a5e5f76f"
+    },
+    "DRAFT_89e3642221c7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/Add/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "BG",
+      "chineseDescription": "UIAllianceFortressTeamList的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamListBG",
+      "suggestedTestId": "UIAllianceFortressTeamList.BG",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_89e3642221c7"
+    },
+    "DRAFT_2894020575ac": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/RankList/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceFortressTeamList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamListHeadk1",
+      "suggestedTestId": "UIAllianceFortressTeamList.Head_k1",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2894020575ac"
+    },
+    "DRAFT_4e8fc6f181f2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/RankList/Item/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_red_xiao",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceFortressTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamList关闭按钮",
+      "suggestedTestId": "UIAllianceFortressTeamList.CloseBtn",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4e8fc6f181f2"
+    },
+    "DRAFT_4b0dbece8ac4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/UITroopTip/Layout/Tips/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "Tips",
+      "chineseDescription": "UIAllianceFortressTeamList的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamListTips",
+      "suggestedTestId": "UIAllianceFortressTeamList.Tips",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4b0dbece8ac4"
+    },
+    "DRAFT_e14bba9979c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab",
+      "prefabRoot": "UIAllianceFortressTeamList",
+      "path": "UIAllianceFortressTeamList/Root/UITroopTip/Layout/TipsBG/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_fortress_team_list",
+      "displayName": "Mask",
+      "chineseDescription": "UIAllianceFortressTeamList的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceFortressTeamList.prefab」中的UIAllianceFortressTeamListMask",
+      "suggestedTestId": "UIAllianceFortressTeamList.Mask",
+      "suggestedSemanticId": "UIAllianceFortressTeamList.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e14bba9979c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1e20a5e5f76f",
+      "DRAFT_89e3642221c7",
+      "DRAFT_2894020575ac",
+      "DRAFT_4e8fc6f181f2",
+      "DRAFT_4b0dbece8ac4",
+      "DRAFT_e14bba9979c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

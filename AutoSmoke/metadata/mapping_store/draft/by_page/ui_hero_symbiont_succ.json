@@ -1,0 +1,91 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_symbiont_succ",
+  "displayName": "ui_hero_symbiont_succ",
+  "drafts": {
+    "DRAFT_d029342e3e65": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab",
+      "prefabRoot": "UIHeroSymbiontSucc",
+      "path": "UIHeroSymbiontSucc/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_succ",
+      "displayName": "BG",
+      "chineseDescription": "UIHeroSymbiontSucc的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab」中的UIHeroSymbiontSuccBG",
+      "suggestedTestId": "UIHeroSymbiontSucc.BG",
+      "suggestedSemanticId": "UIHeroSymbiontSucc.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d029342e3e65"
+    },
+    "DRAFT_b7117595061e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab",
+      "prefabRoot": "UIHeroSymbiontSucc",
+      "path": "UIHeroSymbiontSucc/Root/Content/LeftHeroItem",
+      "nodeName": "LeftHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_succ",
+      "displayName": "LeftHero项",
+      "chineseDescription": "UIHeroSymbiontSucc的LeftHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab」中的UIHeroSymbiontSuccLeftHero项",
+      "suggestedTestId": "UIHeroSymbiontSucc.LeftHeroItem",
+      "suggestedSemanticId": "UIHeroSymbiontSucc.LeftHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b7117595061e"
+    },
+    "DRAFT_f7e8384db724": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab",
+      "prefabRoot": "UIHeroSymbiontSucc",
+      "path": "UIHeroSymbiontSucc/Root/Content/RightHeroItem",
+      "nodeName": "RightHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_succ",
+      "displayName": "RightHero项",
+      "chineseDescription": "UIHeroSymbiontSucc的RightHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSucc.prefab」中的UIHeroSymbiontSuccRightHero项",
+      "suggestedTestId": "UIHeroSymbiontSucc.RightHeroItem",
+      "suggestedSemanticId": "UIHeroSymbiontSucc.RightHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f7e8384db724"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d029342e3e65",
+      "DRAFT_b7117595061e",
+      "DRAFT_f7e8384db724"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

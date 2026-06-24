@@ -1,0 +1,66 @@
+E:\zdcs\AutoSmoke\autosmoke_web_ide.py:51: DeprecationWarning: The '__version__' attribute is deprecated and will be removed in Flask 3.2. Use feature detection or 'importlib.metadata.version("flask")' instead.
+  ver = getattr(pkg, "__version__", "?")
+2026-06-23 09:56:46,849 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.5.190:5000
+2026-06-23 09:56:46,849 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-23 09:56:47,075 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:56:47,728 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:47] "GET / HTTP/1.1" 200 -
+2026-06-23 09:56:47,974 - INFO - 虚拟屏幕偏移: (-1920, 0)
+2026-06-23 09:56:47,974 - INFO - CoordinateMapper 初始化: GV=(309,73,1012,872) GC=(185,43,517,761) GR=1170x2532 scale=(0.2838,0.2836)
+2026-06-23 09:56:47,975 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:47] "GET /api/status HTTP/1.1" 200 -
+2026-06-23 09:56:48,100 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/metadata HTTP/1.1" 200 -
+2026-06-23 09:56:48,619 - INFO - 已加载 20162 个元素映射
+2026-06-23 09:56:48,644 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/mapping/list?summary=1&limit=50 HTTP/1.1" 200 -
+2026-06-23 09:56:48,652 - INFO - 已加载 20162 个元素映射
+2026-06-23 09:56:48,672 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/mapping/drafts?limit=300&keyword= HTTP/1.1" 200 -
+2026-06-23 09:56:48,675 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/report/list HTTP/1.1" 200 -
+2026-06-23 09:56:48,676 - INFO - 截取全屏...
+2026-06-23 09:56:48,756 - INFO - Unity日志采集器已启动: C:\Users\Administrator\AppData\Local\Unity\Editor\Editor.log
+2026-06-23 09:56:48,756 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/anomaly/log HTTP/1.1" 200 -
+2026-06-23 09:56:48,758 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/deploy_check HTTP/1.1" 200 -
+2026-06-23 09:56:48,763 - INFO - 裁剪 GameView 面板: (309, 73, 1012, 872)
+2026-06-23 09:56:48,765 - INFO - 裁剪 gameContent 区域: (185, 43, 517, 761)
+2026-06-23 09:56:48,794 - INFO - 纯游戏内容截图已保存: E:\zdcs\AutoSmoke\screenshots\run_20260623_095648\game_content_20260623_095648.png (332x718)
+2026-06-23 09:56:48,816 - INFO - GameView 面板截图已保存: E:\zdcs\AutoSmoke\screenshots\run_20260623_095648\game_view_20260623_095648.png
+2026-06-23 09:56:48,818 - INFO - 元数据已保存: E:\zdcs\AutoSmoke\screenshots\run_20260623_095648\metadata_20260623_095648.json
+2026-06-23 09:56:48,822 - INFO - 分析 GameView 截图: 332x718, 设计分辨率: 1170x2532, 比例: 0.4621
+2026-06-23 09:56:48,822 - INFO - 第一层 - GameView 面板区域: {'left': 0, 'top': 0, 'width': 332, 'height': 718}
+2026-06-23 09:56:48,826 - INFO - 检测到工具栏高度: 22 像素
+2026-06-23 09:56:48,826 - INFO - 第二层 - 渲染容器区域: {'left': 0, 'top': 22, 'width': 332, 'height': 696}
+2026-06-23 09:56:48,826 - INFO - 按渲染区比例预计算内容区域: left=5, top=22, width=322, height=696, source=aspect_fit:height_limited
+2026-06-23 09:56:48,827 - INFO - 检测到游戏画面顶部: y=22
+2026-06-23 09:56:48,827 - INFO - contentTop 使用图像检测: y=22 (deviation=0px ≤ 8px)
+2026-06-23 09:56:48,829 - INFO - 图像检测内容水平边界: left=0, right=332, width=332
+2026-06-23 09:56:48,829 - INFO - 使用图像检测左右边界校正内容区域: left=0, right=332, width=332
+2026-06-23 09:56:48,829 - ERROR - 截图高度不足! contentTop=22, contentBottom=740 > imageHeight=718, 缺失 22px
+2026-06-23 09:56:48,829 - INFO - 第三层 - 游戏内容区域: {'left': 0, 'top': 22, 'width': 332, 'height': 718}
+2026-06-23 09:56:48,830 - INFO -   反算: contentWidth=332, contentHeight=718, contentBottom=740
+2026-06-23 09:56:48,830 - INFO - 缩放比例: scaleX=0.2838, scaleY=0.2836
+2026-06-23 09:56:48,830 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "POST /api/relocate HTTP/1.1" 200 -
+2026-06-23 09:56:48,978 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/case/list HTTP/1.1" 200 -
+2026-06-23 09:56:48,980 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:48] "GET /api/login/check HTTP/1.1" 200 -
+2026-06-23 09:56:49,072 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/state/diff HTTP/1.1" 200 -
+2026-06-23 09:56:49,073 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/page_graph/info HTTP/1.1" 200 -
+2026-06-23 09:56:49,148 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:56:49,286 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-23 09:56:49,479 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/ui/enhance/status HTTP/1.1" 200 -
+2026-06-23 09:56:49,553 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/unity/bridge/status HTTP/1.1" 200 -
+2026-06-23 09:56:49,563 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/prepare/summary HTTP/1.1" 200 -
+2026-06-23 09:56:49,591 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:49] "GET /api/anomaly/check HTTP/1.1" 200 -
+2026-06-23 09:56:51,351 - INFO - 127.0.0.1 - - [23/Jun/2026 09:56:51] "GET /api/target/list?limit=200&keyword= HTTP/1.1" 200 -
+2026-06-23 09:57:01,524 - INFO - 127.0.0.1 - - [23/Jun/2026 09:57:01] "POST /api/target/generate_from_runtime_current HTTP/1.1" 200 -
+2026-06-23 09:57:03,101 - INFO - 127.0.0.1 - - [23/Jun/2026 09:57:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:57:17,787 - INFO - 127.0.0.1 - - [23/Jun/2026 09:57:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:57:33,096 - INFO - 127.0.0.1 - - [23/Jun/2026 09:57:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:57:47,791 - INFO - 127.0.0.1 - - [23/Jun/2026 09:57:47] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:58:03,101 - INFO - 127.0.0.1 - - [23/Jun/2026 09:58:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:58:17,799 - INFO - 127.0.0.1 - - [23/Jun/2026 09:58:17] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:58:33,110 - INFO - 127.0.0.1 - - [23/Jun/2026 09:58:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:58:48,286 - INFO - 127.0.0.1 - - [23/Jun/2026 09:58:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:59:03,609 - INFO - 127.0.0.1 - - [23/Jun/2026 09:59:03] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:59:18,293 - INFO - 127.0.0.1 - - [23/Jun/2026 09:59:18] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:59:33,603 - INFO - 127.0.0.1 - - [23/Jun/2026 09:59:33] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 09:59:48,290 - INFO - 127.0.0.1 - - [23/Jun/2026 09:59:48] "GET /api/ide/status HTTP/1.1" 200 -
+2026-06-23 10:00:49,602 - INFO - 127.0.0.1 - - [23/Jun/2026 10:00:49] "GET /api/ide/status HTTP/1.1" 200 -

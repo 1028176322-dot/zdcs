@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_fortress_fight_harvest",
+  "displayName": "ui_activity_fortress_fight_harvest",
+  "drafts": {
+    "DRAFT_f3f88f34f809": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightHarvest.prefab",
+      "prefabRoot": "UIActivityFortressFightHarvest",
+      "path": "UIActivityFortressFightHarvest/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_harvest",
+      "displayName": "Mask",
+      "chineseDescription": "UIActivityFortressFightHarvest的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightHarvest.prefab」中的UIActivityFortressFightHarvestMask",
+      "suggestedTestId": "UIActivityFortressFightHarvest.Mask",
+      "suggestedSemanticId": "UIActivityFortressFightHarvest.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f3f88f34f809"
+    },
+    "DRAFT_08d5f3d038d2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightHarvest.prefab",
+      "prefabRoot": "UIActivityFortressFightHarvest",
+      "path": "UIActivityFortressFightHarvest/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fortress_fight_harvest",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityFortressFightHarvest的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityFortressFightHarvest.prefab」中的UIActivityFortressFightHarvest关闭按钮",
+      "suggestedTestId": "UIActivityFortressFightHarvest.CloseBtn",
+      "suggestedSemanticId": "UIActivityFortressFightHarvest.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08d5f3d038d2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f3f88f34f809",
+      "DRAFT_08d5f3d038d2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

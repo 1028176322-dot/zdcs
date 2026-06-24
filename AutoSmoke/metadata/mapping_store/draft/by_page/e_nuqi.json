@@ -1,0 +1,63 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "e_nuqi",
+  "displayName": "e_nuqi",
+  "drafts": {
+    "DRAFT_4034835b5a63": {
+      "assetPath": "Assets/NewGameDemo/Res/VFXBaseRes/Attack/Pre/E_nuqi.prefab",
+      "prefabRoot": "E_nuqi",
+      "path": "E_nuqi",
+      "nodeName": "E_nuqi",
+      "componentTypes": [
+        "Transform",
+        "BattleRageItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "e_nuqi",
+      "displayName": "Enuqi",
+      "chineseDescription": "E_nuqi的Enuqi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/VFXBaseRes/Attack/Pre/E_nuqi.prefab」中的E_nuqiEnuqi",
+      "suggestedTestId": "E_nuqi.E_nuqi",
+      "suggestedSemanticId": "E_nuqi.Enuqi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4034835b5a63"
+    },
+    "DRAFT_5692e6a238a6": {
+      "assetPath": "Assets/NewGameDemo/Res/VFXBaseRes/Attack/Pre/E_nuqi.prefab",
+      "prefabRoot": "E_nuqi",
+      "path": "E_nuqi/root/Head/PlayerHead/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "e_nuqi",
+      "displayName": "Click",
+      "chineseDescription": "E_nuqi的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/VFXBaseRes/Attack/Pre/E_nuqi.prefab」中的E_nuqiClick",
+      "suggestedTestId": "E_nuqi.Click",
+      "suggestedSemanticId": "E_nuqi.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5692e6a238a6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4034835b5a63",
+      "DRAFT_5692e6a238a6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

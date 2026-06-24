@@ -1,0 +1,380 @@
+{
+  "/<Root>/UIRoot2/UI2024InterchangeableTip(Clone) [UIFloatTips]/ui_singleFloatTips(Clone) [UISingleFloatTips]": [
+    {
+      "text": "发送成功=success",
+      "path": "/<Root>/UIRoot2/UI2024InterchangeableTip(Clone) [UIFloatTips]/ui_singleFloatTips(Clone) [UISingleFloatTips]/Cont1/Animation/BG/Txt",
+      "item_root": "/<Root>/UIRoot2/UI2024InterchangeableTip(Clone) [UIFloatTips]/ui_singleFloatTips(Clone) [UISingleFloatTips]",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]": [
+    {
+      "text": "将灯塔升到4级(4/4)",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/kingdom_task_Root_new/root/BG/txt_mask/txt1",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]",
+      "is_clickable": false
+    },
+    {
+      "text": "邮件",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/MailBtn/Text",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]",
+      "is_clickable": false
+    },
+    {
+      "text": "背包",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/BagBtn/BagBtn/Text",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]",
+      "is_clickable": false
+    },
+    {
+      "text": "商店",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/ShopBtn/Text",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)": [
+    {
+      "text": "常规活动",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)/Text",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)": [
+    {
+      "text": "超值活动",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)/Img/time",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/OnSaleBtn(Clone)": [
+    {
+      "text": "储值好礼",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/OnSaleBtn(Clone)/Img/time",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/OnSaleBtn(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/SevenDayBtn(Clone)": [
+    {
+      "text": "七日登录",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/SevenDayBtn(Clone)/time",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/SevenDayBtn(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/BestOverlordBtn(Clone)": [
+    {
+      "text": "最强霸主",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/BestOverlordBtn(Clone)/time",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/BestOverlordBtn(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IslandTrial(Clone)": [
+    {
+      "text": "孤岛试炼",
+      "path": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IslandTrial(Clone)/Text",
+      "item_root": "/<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IslandTrial(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]": [
+    {
+      "text": "建造队列",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/0/subject/Text",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "队列1",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/0/content/0/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "空闲",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/0/content/0/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "队列2",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/0/content/1/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "购买队列",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/0/content/1/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "士兵训练",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/1/subject/Text",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "士兵训练",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/1/content/0/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "空闲",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/1/content/0/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "科技研究",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/2/subject/Text",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "队列1",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/2/content/0/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "空闲",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/2/content/0/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "队列2",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/2/content/1/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "购买队列",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/2/content/1/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "联盟捐献",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/3/subject/Text",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "联盟捐献",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/3/content/0/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "可捐献25/25",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/3/content/0/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "酒馆招募",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/subject/Text",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "英雄招募",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/0/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "免费招募",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/0/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "岛民招募",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/txt",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    },
+    {
+      "text": "免费招募",
+      "path": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/leisure",
+      "item_root": "/<Root>/UIRoot/1301UI_overview(Clone) [UIOverview]",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)": [
+    {
+      "text": "探险家的试炼",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/Title",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "提升战力，获取大量奖励！",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/Txtdesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "限定",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/SkinInfo/TitleBg/text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "提升战力可获得限定灯塔外观：新生的庆典",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/SkinInfo/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "查看",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/BtnCheck/text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：5000000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/TargetReward/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)": [
+    {
+      "text": "总战力达到：2000000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：1200000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：800000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：500000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：400000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：200000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "前往",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGoto/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "总战力达到：100000",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/TxtDesc",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    },
+    {
+      "text": "领取",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)/BtnGet/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Pages/UIActivityExplorersTrial(Clone)/Root/loopListView/View/Content/Item(Clone)",
+      "is_clickable": false
+    }
+  ],
+  "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]": [
+    {
+      "text": "活动日历",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Tab/Tab/View/Content/0/Off/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    },
+    {
+      "text": "领地扩张",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Tab/Tab/View/Content/1/Off/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    },
+    {
+      "text": "鲨鱼入侵",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Tab/Tab/View/Content/3/Off/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    },
+    {
+      "text": "要塞争夺战",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Tab/Tab/View/Content/4/Off/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    },
+    {
+      "text": "欢迎礼物",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/Content/Tab/Tab/View/Content/5/Off/Text",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    },
+    {
+      "text": "常规活动",
+      "path": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]/Root/TopBg/Title",
+      "item_root": "/<Root>/DeepUI/LayerUI/UIActivityMain(Clone)_UIActivityMain [UIActivityMain]",
+      "is_clickable": false
+    }
+  ]
+}

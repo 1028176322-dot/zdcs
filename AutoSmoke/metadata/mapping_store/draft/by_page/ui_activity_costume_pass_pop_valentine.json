@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_pop_valentine",
+  "displayName": "ui_activity_costume_pass_pop_valentine",
+  "drafts": {
+    "DRAFT_d7738e30e6e4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Valentine",
+      "path": "UIActivityCostumePassPop_Valentine/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_valentine",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Valentine的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab」中的UIActivityCostumePassPop_ValentineClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Valentine.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Valentine.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d7738e30e6e4"
+    },
+    "DRAFT_76185693df49": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Valentine",
+      "path": "UIActivityCostumePassPop_Valentine/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_valentine",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Valentine的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab」中的UIActivityCostumePassPop_ValentineClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Valentine.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Valentine.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_76185693df49"
+    },
+    "DRAFT_22aaff460378": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Valentine",
+      "path": "UIActivityCostumePassPop_Valentine/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_valentine",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityCostumePassPop_Valentine的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab」中的UIActivityCostumePassPop_ValentineGet按钮",
+      "suggestedTestId": "UIActivityCostumePassPop_Valentine.GetBtn",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Valentine.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_22aaff460378"
+    },
+    "DRAFT_be269e6f2e5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Valentine",
+      "path": "UIActivityCostumePassPop_Valentine/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_valentine",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityCostumePassPop_Valentine的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Valentine.prefab」中的UIActivityCostumePassPop_ValentineTips",
+      "suggestedTestId": "UIActivityCostumePassPop_Valentine.Tips",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Valentine.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_be269e6f2e5e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d7738e30e6e4",
+      "DRAFT_76185693df49",
+      "DRAFT_22aaff460378",
+      "DRAFT_be269e6f2e5e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

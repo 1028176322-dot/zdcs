@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_commander_integral_source",
+  "displayName": "ui_activity_commander_integral_source",
+  "drafts": {
+    "DRAFT_0ccb46e8a463": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommanderIntegralSource.prefab",
+      "prefabRoot": "UIActivityCommanderIntegralSource",
+      "path": "UIActivityCommanderIntegralSource/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_commander_integral_source",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityCommanderIntegralSource的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommanderIntegralSource.prefab」中的UIActivityCommanderIntegralSource关闭按钮",
+      "suggestedTestId": "UIActivityCommanderIntegralSource.CloseBtn",
+      "suggestedSemanticId": "UIActivityCommanderIntegralSource.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0ccb46e8a463"
+    },
+    "DRAFT_12a94eee3d42": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommanderIntegralSource.prefab",
+      "prefabRoot": "UIActivityCommanderIntegralSource",
+      "path": "UIActivityCommanderIntegralSource/Root/LoopListView/View/Content/Item/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_icon_arrow_6",
+      "clickable": true,
+      "pageId": "ui_activity_commander_integral_source",
+      "displayName": "按钮Go",
+      "chineseDescription": "UIActivityCommanderIntegralSource的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommanderIntegralSource.prefab」中的UIActivityCommanderIntegralSource按钮Go",
+      "suggestedTestId": "UIActivityCommanderIntegralSource.BtnGo",
+      "suggestedSemanticId": "UIActivityCommanderIntegralSource.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_12a94eee3d42"
+    },
+    "DRAFT_8a04226d6c03": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCommanderIntegralSource.prefab",
+      "prefabRoot": "EXPORT_UIActivityCommanderIntegralSource",
+      "path": "EXPORT_UIActivityCommanderIntegralSource/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_commander_integral_source",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityCommanderIntegralSource的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCommanderIntegralSource.prefab」中的EXPORT_UIActivityCommanderIntegralSource关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityCommanderIntegralSource.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityCommanderIntegralSource.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8a04226d6c03"
+    },
+    "DRAFT_64ceb0d17756": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCommanderIntegralSource.prefab",
+      "prefabRoot": "EXPORT_UIActivityCommanderIntegralSource",
+      "path": "EXPORT_UIActivityCommanderIntegralSource/Root/LoopListView/View/Content/Item/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_icon_arrow_6",
+      "clickable": true,
+      "pageId": "ui_activity_commander_integral_source",
+      "displayName": "按钮Go",
+      "chineseDescription": "EXPORT_UIActivityCommanderIntegralSource的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityCommanderIntegralSource.prefab」中的EXPORT_UIActivityCommanderIntegralSource按钮Go",
+      "suggestedTestId": "EXPORT_UIActivityCommanderIntegralSource.BtnGo",
+      "suggestedSemanticId": "EXPORT_UIActivityCommanderIntegralSource.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_64ceb0d17756"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0ccb46e8a463",
+      "DRAFT_12a94eee3d42",
+      "DRAFT_8a04226d6c03",
+      "DRAFT_64ceb0d17756"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

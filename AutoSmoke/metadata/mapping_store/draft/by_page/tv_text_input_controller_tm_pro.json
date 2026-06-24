@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tv_text_input_controller_tm_pro",
+  "displayName": "tv_text_input_controller_tm_pro",
+  "drafts": {
+    "DRAFT_278d9893d249": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TMPro/TVTextInputController-TMPro.prefab",
+      "prefabRoot": "TVTextInputController-TMPro",
+      "path": "TVTextInputController-TMPro/InputField",
+      "nodeName": "InputField",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "TMP_InputField",
+        "InputFieldInScrollRectFixerTMPro"
+      ],
+      "spriteName": "InputFieldBackground",
+      "clickable": true,
+      "pageId": "tv_text_input_controller_tm_pro",
+      "displayName": "输入Field",
+      "chineseDescription": "TVTextInputController-TMPro的输入Field",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TMPro/TVTextInputController-TMPro.prefab」中的TVTextInputController-TMPro输入Field",
+      "suggestedTestId": "TVTextInputController-TMPro.InputField",
+      "suggestedSemanticId": "TVTextInputController-TMPro.输入Field",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_278d9893d249"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_278d9893d249"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

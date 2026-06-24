@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "sea_event_icon_common_5",
+  "displayName": "sea_event_icon_common_5",
+  "drafts": {
+    "DRAFT_21fdade3a3a0": {
+      "assetPath": "Assets/NewGameDemo/Res/Uncharted/Prefabs/SeaEventIcon_Common_5.prefab",
+      "prefabRoot": "SeaEventIcon_Common_5",
+      "path": "SeaEventIcon_Common_5",
+      "nodeName": "SeaEventIcon_Common_5",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "sea_event_icon_common_5",
+      "displayName": "SeaEvent图标Common5",
+      "chineseDescription": "SeaEventIcon_Common_5的SeaEvent图标Common5，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/Uncharted/Prefabs/SeaEventIcon_Common_5.prefab」中的SeaEventIcon_Common_5SeaEvent图标Common5",
+      "suggestedTestId": "SeaEventIcon_Common_5.SeaEventIcon_Common_5",
+      "suggestedSemanticId": "SeaEventIcon_Common_5.SeaEvent图标Common5",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21fdade3a3a0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_21fdade3a3a0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_ability_tip",
+  "displayName": "ui_hero_ability_tip",
+  "drafts": {
+    "DRAFT_588cd27ed760": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIHeroAbilityTip.prefab",
+      "prefabRoot": "UIHeroAbilityTip",
+      "path": "UIHeroAbilityTip/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_ability_tip",
+      "displayName": "Touch",
+      "chineseDescription": "UIHeroAbilityTip的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIHeroAbilityTip.prefab」中的UIHeroAbilityTipTouch",
+      "suggestedTestId": "UIHeroAbilityTip.Touch",
+      "suggestedSemanticId": "UIHeroAbilityTip.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_588cd27ed760"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_588cd27ed760"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

@@ -1,0 +1,64 @@
+{
+  "testId": "character_info.customer_service.button",
+  "semanticId": "character_info.customer_service.button",
+  "targetName": "角色信息界面客服按钮",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ServiceButton",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "character_info.customer_service.button",
+    "formalRef": "formal://character_info/character_info.customer_service.button",
+    "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_player_main.ui_player_main_clone_ui_player_main_ui_player_main.service_button.png",
+    "screenRectUsed": [
+      1010,
+      216,
+      1131,
+      339
+    ],
+    "confirmedTestId": "character_info.customer_service.button",
+    "formalRef": "formal://character_info/character_info.customer_service.button",
+    "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -2852014,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+      "screenPoint": [
+        1070,
+        2254
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "character_info.customer_service.button",
+    "formalRef": "formal://character_info/character_info.customer_service.button",
+    "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+  },
+  "evidenceRef": "EVIDENCE_character_info.customer_service.button",
+  "pageId": "character_info",
+  "updated_at": "2026-06-23T16:24:30",
+  "displayName": "角色信息-客服按钮",
+  "role": "button",
+  "elementType": "Button",
+  "semanticSyncedAt": "2026-06-24T10:00:32",
+  "semanticSyncedBy": "target_workbench_repair"
+}

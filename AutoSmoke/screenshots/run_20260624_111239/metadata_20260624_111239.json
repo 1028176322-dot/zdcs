@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-06-24T11:12:40",
+  "game_resolution": {
+    "width": 1170,
+    "height": 2532
+  },
+  "game_content_rect": {
+    "left": 185,
+    "top": 43,
+    "width": 332,
+    "height": 718,
+    "right": 517,
+    "bottom": 761
+  },
+  "game_view_coords": {
+    "left": 309,
+    "top": 73,
+    "right": 1012,
+    "bottom": 872,
+    "width": 703,
+    "height": 799
+  },
+  "scale": {
+    "x": 0.2838,
+    "y": 0.2836
+  },
+  "files": {
+    "game_content": "game_content_20260624_111239.png",
+    "game_view": "game_view_20260624_111239.png"
+  },
+  "locator": {
+    "version": "aspect_fit_v3",
+    "cache_policy": "capture_from_latest_config",
+    "content_width_source": "config_game_content_rect"
+  },
+  "ratio_check": {
+    "target_ratio": 0.4621,
+    "actual_ratio": 0.4624,
+    "diff": 0.0003
+  },
+  "config_snapshot": {
+    "game_view_coords": {
+      "left": 309,
+      "top": 73,
+      "right": 1012,
+      "bottom": 872,
+      "width": 703,
+      "height": 799
+    },
+    "game_content_rect": {
+      "left": 185,
+      "top": 43,
+      "width": 332,
+      "height": 718,
+      "right": 517,
+      "bottom": 761
+    },
+    "game_resolution": {
+      "width": 1170,
+      "height": 2532
+    }
+  }
+}

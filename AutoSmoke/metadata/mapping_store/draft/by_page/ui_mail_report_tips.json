@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_mail_report_tips",
+  "displayName": "ui_mail_report_tips",
+  "drafts": {
+    "DRAFT_9117777bfe07": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/UIMailReportTips.prefab",
+      "prefabRoot": "UIMailReportTips",
+      "path": "UIMailReportTips/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_mail_report_tips",
+      "displayName": "Touch",
+      "chineseDescription": "UIMailReportTips的Touch",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/UIMailReportTips.prefab」中的UIMailReportTipsTouch",
+      "suggestedTestId": "UIMailReportTips.Touch",
+      "suggestedSemanticId": "UIMailReportTips.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9117777bfe07"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9117777bfe07"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

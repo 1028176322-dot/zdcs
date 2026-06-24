@@ -1,0 +1,62 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.ranking.button",
+  "testId": "character_info.ranking.button",
+  "semanticId": "character_info.ranking.button",
+  "targetName": "角色信息界面排行榜按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/RankBtn",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "character_info.ranking.button",
+    "formalRef": "formal://character_info/character_info.ranking.button",
+    "evidenceRef": "EVIDENCE_character_info.ranking.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_203156_highlight.png",
+    "screenRectUsed": [
+      200,
+      2360,
+      372,
+      2531
+    ],
+    "confirmedTestId": "character_info.ranking.button",
+    "formalRef": "formal://character_info/character_info.ranking.button",
+    "evidenceRef": "EVIDENCE_character_info.ranking.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6771562,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+      "screenPoint": [
+        285,
+        86
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "character_info.ranking.button",
+    "formalRef": "formal://character_info/character_info.ranking.button",
+    "evidenceRef": "EVIDENCE_character_info.ranking.button"
+  },
+  "updated_at": "2026-06-23T20:33:58",
+  "displayName": "角色信息-排行榜按钮",
+  "role": "button",
+  "elementType": "Button"
+}

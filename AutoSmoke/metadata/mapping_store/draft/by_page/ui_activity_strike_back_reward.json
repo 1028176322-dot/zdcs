@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_strike_back_reward",
+  "displayName": "ui_activity_strike_back_reward",
+  "drafts": {
+    "DRAFT_c1422ff84c09": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityStrikeBackReward.prefab",
+      "prefabRoot": "UIActivityStrikeBackReward",
+      "path": "UIActivityStrikeBackReward/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_strike_back_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityStrikeBackReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivityStrikeBackReward.prefab」中的UIActivityStrikeBackReward关闭按钮",
+      "suggestedTestId": "UIActivityStrikeBackReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityStrikeBackReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c1422ff84c09"
+    },
+    "DRAFT_32ab3b40629a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackReward.prefab",
+      "prefabRoot": "EXPORT_UIActivityStrikeBackReward",
+      "path": "EXPORT_UIActivityStrikeBackReward/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_strike_back_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityStrikeBackReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackReward.prefab」中的EXPORT_UIActivityStrikeBackReward关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityStrikeBackReward.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityStrikeBackReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_32ab3b40629a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c1422ff84c09",
+      "DRAFT_32ab3b40629a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

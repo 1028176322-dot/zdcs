@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "game_lock_pop_up",
+  "displayName": "game_lock_pop_up",
+  "drafts": {
+    "DRAFT_c636f0887f3b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GameLockPopUp.prefab",
+      "prefabRoot": "GameLockPopUp",
+      "path": "GameLockPopUp/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "game_lock_pop_up",
+      "displayName": "Mask",
+      "chineseDescription": "GameLockPopUp的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GameLockPopUp.prefab」中的GameLockPopUpMask",
+      "suggestedTestId": "GameLockPopUp.Mask",
+      "suggestedSemanticId": "GameLockPopUp.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c636f0887f3b"
+    },
+    "DRAFT_3fe742a822eb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GameLockPopUp.prefab",
+      "prefabRoot": "GameLockPopUp",
+      "path": "GameLockPopUp/Root/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "game_lock_pop_up",
+      "displayName": "按钮Go",
+      "chineseDescription": "GameLockPopUp的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GameLockPopUp.prefab」中的GameLockPopUp按钮Go",
+      "suggestedTestId": "GameLockPopUp.BtnGo",
+      "suggestedSemanticId": "GameLockPopUp.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3fe742a822eb"
+    },
+    "DRAFT_6cf5f87f5bc7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_GameLockPopUp.prefab",
+      "prefabRoot": "EXPORT_GameLockPopUp",
+      "path": "EXPORT_GameLockPopUp/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "game_lock_pop_up",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_GameLockPopUp的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_GameLockPopUp.prefab」中的EXPORT_GameLockPopUpMask",
+      "suggestedTestId": "EXPORT_GameLockPopUp.Mask",
+      "suggestedSemanticId": "EXPORT_GameLockPopUp.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6cf5f87f5bc7"
+    },
+    "DRAFT_d7d61e3fb049": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_GameLockPopUp.prefab",
+      "prefabRoot": "EXPORT_GameLockPopUp",
+      "path": "EXPORT_GameLockPopUp/Root/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "game_lock_pop_up",
+      "displayName": "按钮Go",
+      "chineseDescription": "EXPORT_GameLockPopUp的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_GameLockPopUp.prefab」中的EXPORT_GameLockPopUp按钮Go",
+      "suggestedTestId": "EXPORT_GameLockPopUp.BtnGo",
+      "suggestedSemanticId": "EXPORT_GameLockPopUp.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d7d61e3fb049"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c636f0887f3b",
+      "DRAFT_3fe742a822eb",
+      "DRAFT_6cf5f87f5bc7",
+      "DRAFT_d7d61e3fb049"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

@@ -1,0 +1,850 @@
+{
+  "schema_version": "element_mapping_formal.page.v1",
+  "pageId": "bag",
+  "displayName": "背包界面",
+  "mappings": {
+    "bag.prop_item.click_area": {
+      "testId": "bag.prop_item.click_area",
+      "semanticId": "bag.prop_item.click_area",
+      "targetName": "背包道具点击区",
+      "displayName": "背包-道具点击区",
+      "chineseDescription": "背包界面中可点击的道具格子集合",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "locator": {
+        "type": "dynamicList",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content"
+      },
+      "collection": {
+        "type": "dynamic_list",
+        "collectionId": "collection.bag.prop_item.click_area",
+        "containerPath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content",
+        "itemPattern": "Item(Clone)/PropItem_{index}/ClickContent",
+        "semanticPattern": "bag.prop_item_{index}.click_area",
+        "targetNamePattern": "背包第{index}个道具点击区",
+        "indexBase": 1,
+        "visibleInstanceCount": 4,
+        "visibleIndices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "visibleRuntimePaths": [
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+          "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent"
+        ],
+        "requiresScrollForMissingIndex": true
+      },
+      "reviewStatus": "template",
+      "source": "dynamic_collection_generated",
+      "exportedAt": "2026-06-18T15:01:26",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content",
+      "revalidateDeltaPx": null,
+      "evidenceRef": "EVIDENCE_bag.prop_item.click_area"
+    },
+    "bag.equipment.tab.button": {
+      "testId": "bag.equipment.tab.button",
+      "semanticId": "bag.equipment.tab.button",
+      "targetName": "背包装备页签按钮",
+      "displayName": "背包-装备页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/4",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            936,
+            152,
+            1153,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/4",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+            "instanceId": -13432664,
+            "nodeName": "4",
+            "text": "",
+            "screenRect": [
+              940,
+              172,
+              1148,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.equipment.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:46:10",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-18T16:46:10",
+      "semanticSyncedBy": "target_workbench",
+      "revalidateStatus": "ok",
+      "semanticMigratedAt": "2026-06-18T16:53:47"
+    },
+    "bag.gold.source_button": {
+      "testId": "bag.gold.source_button",
+      "semanticId": "bag.gold.source_button",
+      "targetName": "背包金币途径按钮",
+      "displayName": "背包-金币途径按钮",
+      "chineseDescription": "背包界面的金币途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "text",
+          "value": ""
+        },
+        {
+          "type": "screenRect",
+          "value": []
+        }
+      ],
+      "reviewStatus": "manual",
+      "source": "manual_corrected",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_1",
+      "revalidateDeltaPx": null,
+      "evidenceRef": "EVIDENCE_bag.gold.source_button",
+      "globalScope": "top_bar",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.food.source_button": {
+      "testId": "bag.food.source_button",
+      "semanticId": "bag.food.source_button",
+      "targetName": "背包粮食途径按钮",
+      "displayName": "背包-粮食途径按钮",
+      "pageId": "bag",
+      "role": "item",
+      "elementType": "item_cell",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_2",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            476,
+            20,
+            693,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_2",
+            "nodeName": "ResItem_2",
+            "text": "",
+            "screenRect": [
+              476,
+              20,
+              693,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.food.source_button",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_2",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.iron.source_button": {
+      "testId": "bag.iron.source_button",
+      "semanticId": "bag.iron.source_button",
+      "targetName": "背包铁矿途径按钮",
+      "displayName": "背包-铁矿途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_4",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            918,
+            20,
+            1134,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_4",
+            "nodeName": "ResItem_4",
+            "text": "",
+            "screenRect": [
+              918,
+              20,
+              1134,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.iron.source_button",
+      "targetNameEditedAt": "2026-06-18T12:13:36",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_4",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar"
+    },
+    "bag.wood.source_button": {
+      "testId": "bag.wood.source_button",
+      "semanticId": "bag.wood.source_button",
+      "targetName": "背包木材途径按钮",
+      "displayName": "背包-木材途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_3",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            697,
+            20,
+            914,
+            129
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "ResItem_3",
+            "nodeName": "ResItem_3",
+            "text": "",
+            "screenRect": [
+              697,
+              20,
+              914,
+              129
+            ],
+            "pageId": "TopRes",
+            "ownerPageId": "TopRes",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.wood.source_button",
+      "targetNameEditedAt": "2026-06-18T12:59:37",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "ResItem_3",
+      "revalidateDeltaPx": 0.0,
+      "globalScope": "top_bar"
+    },
+    "bag.prop_item_1.click_area": {
+      "testId": "bag.prop_item_1.click_area",
+      "semanticId": "bag.prop_item_1.click_area",
+      "targetName": "背包第1个道具点击区",
+      "displayName": "背包-第1个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            30,
+            292,
+            290,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+            "nodeName": "PropItem_1",
+            "text": "",
+            "screenRect": [
+              30,
+              292,
+              290,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area",
+      "targetNameEditedAt": "2026-06-18T14:49:56",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第1个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_2.click_area": {
+      "testId": "bag.prop_item_2.click_area",
+      "semanticId": "bag.prop_item_2.click_area",
+      "targetName": "背包第2个道具点击区",
+      "displayName": "背包-第2个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            313,
+            292,
+            573,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+            "nodeName": "PropItem_2",
+            "text": "",
+            "screenRect": [
+              313,
+              292,
+              573,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area",
+      "targetNameEditedAt": "2026-06-18T14:50:50",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第2个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_3.click_area": {
+      "testId": "bag.prop_item_3.click_area",
+      "semanticId": "bag.prop_item_3.click_area",
+      "targetName": "背包第3个道具点击区",
+      "displayName": "背包-第3个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            596,
+            292,
+            856,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+            "nodeName": "PropItem_3",
+            "text": "",
+            "screenRect": [
+              596,
+              292,
+              856,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area",
+      "targetNameEditedAt": "2026-06-18T14:50:59",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "chineseDescription": "背包第3个道具的点击区域",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.prop_item_4.click_area": {
+      "testId": "bag.prop_item_4.click_area",
+      "semanticId": "bag.prop_item_4.click_area",
+      "targetName": "背包第4个道具点击区",
+      "displayName": "背包-第4个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            878,
+            292,
+            1138,
+            552
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+            "nodeName": "PropItem_4",
+            "text": "",
+            "screenRect": [
+              878,
+              292,
+              1138,
+              552
+            ],
+            "pageId": "ViewPort",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area",
+      "targetNameEditedAt": "2026-06-18T14:52:15",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+      "revalidateDeltaPx": 0.0
+    },
+    "bag.back.button": {
+      "testId": "bag.back.button",
+      "semanticId": "bag.back.button",
+      "targetName": "背包返回按钮",
+      "displayName": "背包-返回按钮",
+      "pageId": "bag",
+      "role": "back",
+      "elementType": "Button",
+      "elementPath": "UIShop/Root/BtnClose",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/BtnClose",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+            "instanceId": -13430986,
+            "nodeName": "BtnClose",
+            "text": "",
+            "screenRect": [
+              21,
+              2397,
+              131,
+              2493
+            ],
+            "pageId": "BtnClose",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.back.button",
+      "targetNameEditedAt": "2026-06-18T14:57:30",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair",
+      "revalidateStatus": "ok",
+      "revalidatedAt": "2026-06-18T15:10:20",
+      "revalidateRuntimePath": "Root/BtnClose",
+      "revalidateDeltaPx": null,
+      "globalScope": "navigation"
+    },
+    "bag.use.button": {
+      "testId": "bag.use.button",
+      "semanticId": "bag.use.button",
+      "targetName": "背包道具使用按钮",
+      "displayName": "背包-使用按钮",
+      "pageId": "bag",
+      "role": "use",
+      "elementType": "Button",
+      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": []
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+            "instanceId": -13430044,
+            "nodeName": "UsedBtn",
+            "text": "",
+            "screenRect": [
+              380,
+              2376,
+              790,
+              2527
+            ],
+            "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.use.button",
+      "targetNameEditedAt": "2026-06-18T15:46:03",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.special.tab.button": {
+      "testId": "bag.special.tab.button",
+      "semanticId": "bag.special.tab.button",
+      "targetName": "背包特殊页签按钮",
+      "displayName": "背包-特殊页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/0",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            16,
+            152,
+            233,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/0",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+            "instanceId": -13426612,
+            "nodeName": "0",
+            "text": "",
+            "screenRect": [
+              16,
+              152,
+              233,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.special.tab.button",
+      "targetNameEditedAt": "2026-06-18T15:47:22",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.resource.tab.button": {
+      "testId": "bag.resource.tab.button",
+      "semanticId": "bag.resource.tab.button",
+      "targetName": "背包资源页签按钮",
+      "displayName": "背包-资源页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/1",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            246,
+            152,
+            463,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/1",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+            "instanceId": -13432406,
+            "nodeName": "1",
+            "text": "",
+            "screenRect": [
+              251,
+              172,
+              459,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.resource.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:16:22",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.speedup.tab.button": {
+      "testId": "bag.speedup.tab.button",
+      "semanticId": "bag.speedup.tab.button",
+      "targetName": "背包加速页签按钮",
+      "displayName": "背包-加速页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/2",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            476,
+            152,
+            693,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/2",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+            "instanceId": -13432492,
+            "nodeName": "2",
+            "text": "",
+            "screenRect": [
+              481,
+              172,
+              689,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.speedup.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:22:25",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "bag.hero.tab.button": {
+      "testId": "bag.hero.tab.button",
+      "semanticId": "bag.hero.tab.button",
+      "targetName": "背包英雄页签按钮",
+      "displayName": "背包-英雄页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "elementPath": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/3",
+      "locator": {
+        "type": "runtimePath",
+        "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            706,
+            152,
+            923,
+            254
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/Shop/Tab/Tab/View/Content/3",
+            "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+            "instanceId": -13432578,
+            "nodeName": "3",
+            "text": "",
+            "screenRect": [
+              710,
+              172,
+              918,
+              254
+            ],
+            "pageId": "View",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-17T17:07:45"
+          }
+        }
+      ],
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
+      "evidenceRef": "EVIDENCE_bag.hero.tab.button",
+      "targetNameEditedAt": "2026-06-18T16:34:11",
+      "targetNameEditedBy": "target_workbench",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    }
+  },
+  "groups": {
+    "top_bar": [
+      "bag.gold.source_button",
+      "bag.food.source_button",
+      "bag.iron.source_button",
+      "bag.wood.source_button"
+    ],
+    "tabs": [
+      "bag.special.tab.button",
+      "bag.resource.tab.button",
+      "bag.speedup.tab.button",
+      "bag.hero.tab.button",
+      "bag.equipment.tab.button"
+    ],
+    "content": [
+      "bag.prop_item_1.click_area",
+      "bag.prop_item_2.click_area",
+      "bag.prop_item_3.click_area",
+      "bag.prop_item_4.click_area"
+    ],
+    "bottom_actions": [
+      "bag.use.button"
+    ],
+    "navigation": [
+      "bag.back.button"
+    ],
+    "dialogs": [],
+    "list_templates": [
+      "bag.prop_item.click_area"
+    ],
+    "unknown": []
+  },
+  "updated_at": "2026-06-24T10:03:47",
+  "count": 16
+}

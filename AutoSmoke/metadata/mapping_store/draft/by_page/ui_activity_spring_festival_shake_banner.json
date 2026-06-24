@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_spring_festival_shake_banner",
+  "displayName": "ui_activity_spring_festival_shake_banner",
+  "drafts": {
+    "DRAFT_9e62b5c191cc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpringFestivalShakeBanner.prefab",
+      "prefabRoot": "UIActivitySpringFestivalShakeBanner",
+      "path": "UIActivitySpringFestivalShakeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_spring_festival_shake_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivitySpringFestivalShakeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpringFestivalShakeBanner.prefab」中的UIActivitySpringFestivalShakeBannerInfo",
+      "suggestedTestId": "UIActivitySpringFestivalShakeBanner.Info",
+      "suggestedSemanticId": "UIActivitySpringFestivalShakeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9e62b5c191cc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9e62b5c191cc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

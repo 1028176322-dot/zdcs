@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_arms_race_round_score_change_tips",
+  "displayName": "ui_activity_arms_race_round_score_change_tips",
+  "drafts": {
+    "DRAFT_cbba4fe9a938": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab",
+      "prefabRoot": "UIActivityArmsRaceRoundScoreChangeTips",
+      "path": "UIActivityArmsRaceRoundScoreChangeTips/Root/BubbleTips/Stage1/Box",
+      "nodeName": "Box",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_2",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_round_score_change_tips",
+      "displayName": "Box",
+      "chineseDescription": "UIActivityArmsRaceRoundScoreChangeTips的Box",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab」中的UIActivityArmsRaceRoundScoreChangeTipsBox",
+      "suggestedTestId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "suggestedSemanticId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cbba4fe9a938"
+    },
+    "DRAFT_239a99330251": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab",
+      "prefabRoot": "UIActivityArmsRaceRoundScoreChangeTips",
+      "path": "UIActivityArmsRaceRoundScoreChangeTips/Root/BubbleTips/Stage2/Box",
+      "nodeName": "Box",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_2",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_round_score_change_tips",
+      "displayName": "Box",
+      "chineseDescription": "UIActivityArmsRaceRoundScoreChangeTips的Box",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab」中的UIActivityArmsRaceRoundScoreChangeTipsBox",
+      "suggestedTestId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "suggestedSemanticId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_239a99330251"
+    },
+    "DRAFT_a209bc6457ea": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab",
+      "prefabRoot": "UIActivityArmsRaceRoundScoreChangeTips",
+      "path": "UIActivityArmsRaceRoundScoreChangeTips/Root/BubbleTips/Stage3/Box",
+      "nodeName": "Box",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_icon_2",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_round_score_change_tips",
+      "displayName": "Box",
+      "chineseDescription": "UIActivityArmsRaceRoundScoreChangeTips的Box",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceRoundScoreChangeTips.prefab」中的UIActivityArmsRaceRoundScoreChangeTipsBox",
+      "suggestedTestId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "suggestedSemanticId": "UIActivityArmsRaceRoundScoreChangeTips.Box",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a209bc6457ea"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_cbba4fe9a938",
+      "DRAFT_239a99330251",
+      "DRAFT_a209bc6457ea"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

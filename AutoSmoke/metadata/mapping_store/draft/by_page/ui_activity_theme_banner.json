@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_theme_banner",
+  "displayName": "ui_activity_theme_banner",
+  "drafts": {
+    "DRAFT_be0bd782ef77": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThemeBanner.prefab",
+      "prefabRoot": "UIActivityThemeBanner",
+      "path": "UIActivityThemeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_theme_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityThemeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThemeBanner.prefab」中的UIActivityThemeBannerInfo",
+      "suggestedTestId": "UIActivityThemeBanner.Info",
+      "suggestedSemanticId": "UIActivityThemeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_be0bd782ef77"
+    },
+    "DRAFT_ae293a9b5c85": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThemeBanner.prefab",
+      "prefabRoot": "UIActivityThemeBanner",
+      "path": "UIActivityThemeBanner/Remind",
+      "nodeName": "Remind",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "UIMask",
+      "clickable": true,
+      "pageId": "ui_activity_theme_banner",
+      "displayName": "Remind",
+      "chineseDescription": "UIActivityThemeBanner的Remind",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThemeBanner.prefab」中的UIActivityThemeBannerRemind",
+      "suggestedTestId": "UIActivityThemeBanner.Remind",
+      "suggestedSemanticId": "UIActivityThemeBanner.Remind",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ae293a9b5c85"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_be0bd782ef77",
+      "DRAFT_ae293a9b5c85"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

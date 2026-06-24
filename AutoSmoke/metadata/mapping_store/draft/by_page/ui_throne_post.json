@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_post",
+  "displayName": "ui_throne_post",
+  "drafts": {
+    "DRAFT_f21727b31220": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThronePost的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePost关闭按钮",
+      "suggestedTestId": "UIThronePost.CloseBtn",
+      "suggestedSemanticId": "UIThronePost.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f21727b31220"
+    },
+    "DRAFT_5cdc7a1821c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/Title/Tip",
+      "nodeName": "Tip",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "Tip",
+      "chineseDescription": "UIThronePost的Tip",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePostTip",
+      "suggestedTestId": "UIThronePost.Tip",
+      "suggestedSemanticId": "UIThronePost.Tip",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5cdc7a1821c1"
+    },
+    "DRAFT_8ff087a30499": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/ScrollView/Item/Left/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "Headk1",
+      "chineseDescription": "UIThronePost的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePostHeadk1",
+      "suggestedTestId": "UIThronePost.Head_k1",
+      "suggestedSemanticId": "UIThronePost.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8ff087a30499"
+    },
+    "DRAFT_c1606500c986": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/ScrollView/Item/Left/NoOneHead",
+      "nodeName": "NoOneHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "NoOneHead",
+      "chineseDescription": "UIThronePost的NoOneHead",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePostNoOneHead",
+      "suggestedTestId": "UIThronePost.NoOneHead",
+      "suggestedSemanticId": "UIThronePost.NoOneHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c1606500c986"
+    },
+    "DRAFT_f58988c3e6a4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/ScrollView/Item/Left/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThronePost的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePost关闭按钮",
+      "suggestedTestId": "UIThronePost.CloseBtn",
+      "suggestedSemanticId": "UIThronePost.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f58988c3e6a4"
+    },
+    "DRAFT_686246cb00e3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab",
+      "prefabRoot": "UIThronePost",
+      "path": "UIThronePost/Root/ScrollView/Item/Left/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_post",
+      "displayName": "按钮",
+      "chineseDescription": "UIThronePost的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThronePost.prefab」中的UIThronePost按钮",
+      "suggestedTestId": "UIThronePost.Button",
+      "suggestedSemanticId": "UIThronePost.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_686246cb00e3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f21727b31220",
+      "DRAFT_5cdc7a1821c1",
+      "DRAFT_8ff087a30499",
+      "DRAFT_c1606500c986",
+      "DRAFT_f58988c3e6a4",
+      "DRAFT_686246cb00e3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

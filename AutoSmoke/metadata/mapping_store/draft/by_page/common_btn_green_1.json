@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "common_btn_green_1",
+  "displayName": "common_btn_green_1",
+  "drafts": {
+    "DRAFT_db2c8a7877c8": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/New/Common_Btn_Green_1.prefab",
+      "prefabRoot": "Common_Btn_Green_1",
+      "path": "Common_Btn_Green_1",
+      "nodeName": "Common_Btn_Green_1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_green_da",
+      "clickable": true,
+      "pageId": "common_btn_green_1",
+      "displayName": "Common按钮Green1",
+      "chineseDescription": "Common_Btn_Green_1的Common按钮Green1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/New/Common_Btn_Green_1.prefab」中的Common_Btn_Green_1Common按钮Green1",
+      "suggestedTestId": "Common_Btn_Green_1.Common_Btn_Green_1",
+      "suggestedSemanticId": "Common_Btn_Green_1.Common按钮Green1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_db2c8a7877c8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_db2c8a7877c8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "make_item_ui",
+  "displayName": "make_item_ui",
+  "drafts": {
+    "DRAFT_fade79d563e0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab",
+      "prefabRoot": "MakeItemUI",
+      "path": "MakeItemUI/Root/Content/ItemNew_left/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "make_item_ui",
+      "displayName": "ClickContent",
+      "chineseDescription": "MakeItemUI的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab」中的MakeItemUIClickContent",
+      "suggestedTestId": "MakeItemUI.ClickContent",
+      "suggestedSemanticId": "MakeItemUI.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fade79d563e0"
+    },
+    "DRAFT_33ae08818bc2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab",
+      "prefabRoot": "MakeItemUI",
+      "path": "MakeItemUI/Root/Content/ItemNew_right/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "make_item_ui",
+      "displayName": "ClickContent",
+      "chineseDescription": "MakeItemUI的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab」中的MakeItemUIClickContent",
+      "suggestedTestId": "MakeItemUI.ClickContent",
+      "suggestedSemanticId": "MakeItemUI.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_33ae08818bc2"
+    },
+    "DRAFT_8b50973d9016": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab",
+      "prefabRoot": "MakeItemUI",
+      "path": "MakeItemUI/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "make_item_ui",
+      "displayName": "Click",
+      "chineseDescription": "MakeItemUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MakeItemUI.prefab」中的MakeItemUIClick",
+      "suggestedTestId": "MakeItemUI.Click",
+      "suggestedSemanticId": "MakeItemUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8b50973d9016"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fade79d563e0",
+      "DRAFT_33ae08818bc2",
+      "DRAFT_8b50973d9016"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

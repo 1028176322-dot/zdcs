@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "valentine_card",
+  "displayName": "valentine_card",
+  "drafts": {
+    "DRAFT_3dcdc606dfde": {
+      "assetPath": "Assets/k1/Testprefab/Valentine_Card.prefab",
+      "prefabRoot": "Valentine_Card",
+      "path": "Valentine_Card/BG/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "valentine_card",
+      "displayName": "项",
+      "chineseDescription": "Valentine_Card的项",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Valentine_Card.prefab」中的Valentine_Card项",
+      "suggestedTestId": "Valentine_Card.Item",
+      "suggestedSemanticId": "Valentine_Card.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3dcdc606dfde"
+    },
+    "DRAFT_992a4946cd1a": {
+      "assetPath": "Assets/k1/Testprefab/Valentine_Card.prefab",
+      "prefabRoot": "Valentine_Card",
+      "path": "Valentine_Card/BG/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "valentine_card",
+      "displayName": "ClickContent",
+      "chineseDescription": "Valentine_Card的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Valentine_Card.prefab」中的Valentine_CardClickContent",
+      "suggestedTestId": "Valentine_Card.ClickContent",
+      "suggestedSemanticId": "Valentine_Card.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_992a4946cd1a"
+    },
+    "DRAFT_123b624770c6": {
+      "assetPath": "Assets/k1/Testprefab/Valentine_Card.prefab",
+      "prefabRoot": "Valentine_Card",
+      "path": "Valentine_Card/BG/Buy_Btn",
+      "nodeName": "Buy_Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "valentine_card",
+      "displayName": "购买按钮",
+      "chineseDescription": "Valentine_Card的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Valentine_Card.prefab」中的Valentine_Card购买按钮",
+      "suggestedTestId": "Valentine_Card.Buy_Btn",
+      "suggestedSemanticId": "Valentine_Card.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_123b624770c6"
+    },
+    "DRAFT_a4eb9985891d": {
+      "assetPath": "Assets/k1/Testprefab/Valentine_Card.prefab",
+      "prefabRoot": "Valentine_Card",
+      "path": "Valentine_Card/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Canvas",
+        "GraphicRaycaster"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "valentine_card",
+      "displayName": "按钮关闭",
+      "chineseDescription": "Valentine_Card的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Valentine_Card.prefab」中的Valentine_Card按钮关闭",
+      "suggestedTestId": "Valentine_Card.BtnClose",
+      "suggestedSemanticId": "Valentine_Card.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a4eb9985891d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3dcdc606dfde",
+      "DRAFT_992a4946cd1a",
+      "DRAFT_123b624770c6",
+      "DRAFT_a4eb9985891d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

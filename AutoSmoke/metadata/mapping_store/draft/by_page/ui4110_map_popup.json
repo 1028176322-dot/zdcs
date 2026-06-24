@@ -1,0 +1,113 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui4110_map_popup",
+  "displayName": "ui4110_map_popup",
+  "drafts": {
+    "DRAFT_221bd87bf5e0": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab",
+      "prefabRoot": "ui4110MapPopup",
+      "path": "ui4110MapPopup/Root/SendTroop",
+      "nodeName": "SendTroop",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui4110_map_popup",
+      "displayName": "SendTroop",
+      "chineseDescription": "ui4110MapPopup的SendTroop",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab」中的ui4110MapPopupSendTroop",
+      "suggestedTestId": "ui4110MapPopup.SendTroop",
+      "suggestedSemanticId": "ui4110MapPopup.SendTroop",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_221bd87bf5e0"
+    },
+    "DRAFT_3a146cc25563": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab",
+      "prefabRoot": "ui4110MapPopup",
+      "path": "ui4110MapPopup/Root/Mark",
+      "nodeName": "Mark",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui4110_map_popup",
+      "displayName": "Mark",
+      "chineseDescription": "ui4110MapPopup的Mark",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab」中的ui4110MapPopupMark",
+      "suggestedTestId": "ui4110MapPopup.Mark",
+      "suggestedSemanticId": "ui4110MapPopup.Mark",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3a146cc25563"
+    },
+    "DRAFT_78c505220f07": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab",
+      "prefabRoot": "ui4110MapPopup",
+      "path": "ui4110MapPopup/Root/Teleport",
+      "nodeName": "Teleport",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui4110_map_popup",
+      "displayName": "Teleport",
+      "chineseDescription": "ui4110MapPopup的Teleport",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab」中的ui4110MapPopupTeleport",
+      "suggestedTestId": "ui4110MapPopup.Teleport",
+      "suggestedSemanticId": "ui4110MapPopup.Teleport",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_78c505220f07"
+    },
+    "DRAFT_febb1189ec2a": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab",
+      "prefabRoot": "ui4110MapPopup",
+      "path": "ui4110MapPopup/Root/Share",
+      "nodeName": "Share",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui4110_map_popup",
+      "displayName": "Share",
+      "chineseDescription": "ui4110MapPopup的Share",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/ui4110MapPopup.prefab」中的ui4110MapPopupShare",
+      "suggestedTestId": "ui4110MapPopup.Share",
+      "suggestedSemanticId": "ui4110MapPopup.Share",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_febb1189ec2a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_221bd87bf5e0",
+      "DRAFT_3a146cc25563",
+      "DRAFT_78c505220f07",
+      "DRAFT_febb1189ec2a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

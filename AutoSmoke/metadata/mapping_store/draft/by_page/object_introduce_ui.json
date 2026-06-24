@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "object_introduce_ui",
+  "displayName": "object_introduce_ui",
+  "drafts": {
+    "DRAFT_43c7137701a5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab",
+      "prefabRoot": "ObjectIntroduceUI",
+      "path": "ObjectIntroduceUI/Root/Scroll/Mask/Content/ItemPrefab/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "object_introduce_ui",
+      "displayName": "BG",
+      "chineseDescription": "ObjectIntroduceUI的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab」中的ObjectIntroduceUIBG",
+      "suggestedTestId": "ObjectIntroduceUI.BG",
+      "suggestedSemanticId": "ObjectIntroduceUI.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_43c7137701a5"
+    },
+    "DRAFT_b1d424a5ef31": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab",
+      "prefabRoot": "ObjectIntroduceUI",
+      "path": "ObjectIntroduceUI/Root/Scroll/Mask/Content/ItemPrefab/Unlocked/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "object_introduce_ui",
+      "displayName": "BG",
+      "chineseDescription": "ObjectIntroduceUI的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab」中的ObjectIntroduceUIBG",
+      "suggestedTestId": "ObjectIntroduceUI.BG",
+      "suggestedSemanticId": "ObjectIntroduceUI.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b1d424a5ef31"
+    },
+    "DRAFT_04b86ed5bf70": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab",
+      "prefabRoot": "ObjectIntroduceUI",
+      "path": "ObjectIntroduceUI/Root/Scroll/Mask/Content/ItemPrefab/Unlocked/Formula/scrolView/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_bag_quality_green",
+      "clickable": true,
+      "pageId": "object_introduce_ui",
+      "displayName": "项",
+      "chineseDescription": "ObjectIntroduceUI的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab」中的ObjectIntroduceUI项",
+      "suggestedTestId": "ObjectIntroduceUI.Item",
+      "suggestedSemanticId": "ObjectIntroduceUI.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_04b86ed5bf70"
+    },
+    "DRAFT_be491e4a7aff": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab",
+      "prefabRoot": "ObjectIntroduceUI",
+      "path": "ObjectIntroduceUI/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "object_introduce_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "ObjectIntroduceUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectIntroduceUI.prefab」中的ObjectIntroduceUI关闭按钮",
+      "suggestedTestId": "ObjectIntroduceUI.CloseBtn",
+      "suggestedSemanticId": "ObjectIntroduceUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_be491e4a7aff"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_43c7137701a5",
+      "DRAFT_b1d424a5ef31",
+      "DRAFT_04b86ed5bf70",
+      "DRAFT_be491e4a7aff"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

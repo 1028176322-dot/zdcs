@@ -1,0 +1,844 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+用例步骤执行器 - 按 AutoSmoke_按用例步骤自动点击方案.md 第13节实现
+
+职责：
+  1. 加载用例（支持文本列表、Excel 行、JSON 文件）
+  2. 使用 CaseStepParser 解析步骤
+  3. 调用定位/截图/点击/OCR/模板模块
+  4. 按顺序执行步骤
+  5. 处理失败短路
+  6. 生成 step_result
+  7. 汇总 case_result
+
+使用方式：
+    executor = CaseStepExecutor()
+    result = executor.execute_steps([
+        '点击 normalized(0.5,0.95)',
+        '等待 2 秒',
+        '断言存在 text("联盟迁城")',
+    ])
+"""
+
+import os
+import sys
+import time
+import json
+import logging
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple, Any
+from PIL import Image
+from path_utils import AUTOSMOKE_ROOT as CONFIG_DIR
+
+logger = logging.getLogger(__name__)
+
+SCREENSHOTS_DIR = os.path.join(CONFIG_DIR, "screenshots")
+
+
+class CaseStepExecutor:
+    """
+    用例步骤执行器
+
+    串联解析 → 定位 → 点击 → 截图 → 判定 完整链路。
+    依赖项目已有的所有模块。
+    """
+
+    def __init__(self, click_mode: str = "real_mouse",
+                 fail_fast: bool = True,
+                 screenshots_dir: str = None,
+                 click_handler=None,
+                 explorer=None):
+        """
+        初始化执行器
+
+        :param click_mode: 点击模式（real_mouse / poco_click / unity_inject）
+        :param fail_fast: 步骤失败后是否终止当前用例
+        :param screenshots_dir: 截图输出目录
+        :param click_handler: 外部传入的点击处理器，不传则按 click_mode 自动创建
+        :param explorer: 自动探索器（启用用例驱动采集时传入）
+        """
+        self.click_mode = click_mode
+        self.fail_fast = fail_fast
+        self.screenshots_dir = screenshots_dir or SCREENSHOTS_DIR
+        self._click_handler = click_handler
+        self._explorer = explorer
+
+        # 延迟加载的模块（按需初始化）
+        self._parser = None
+        self._mapper = None
+        self._click_executor = None
+        self._differ = None
+        self._vision = None
+        self._capturer = None
+
+    # ============================================================
+    # 模块懒加载
+    # ============================================================
+
+    def _get_parser(self):
+        if self._parser is None:
+            from 用例层.case_step_parser import CaseStepParser
+            self._parser = CaseStepParser()
+        return self._parser
+
+    def _get_mapper(self):
+        if self._mapper is None:
+            from 坐标截图.coordinate_mapper import CoordinateMapper
+            self._mapper = CoordinateMapper.from_config()
+            if self._mapper is None:
+                raise RuntimeError("无法创建 CoordinateMapper，请确保定位已完成")
+        return self._mapper
+
+    def _get_click_handler(self):
+        """获取点击模式处理器（根据 click_mode 创建）"""
+        if self._click_handler is None:
+            from 点击执行.click_mode import ClickMode
+            self._click_handler = ClickMode.create(
+                self.click_mode,
+                mapper=self._get_mapper()
+            )
+        return self._click_handler
+
+    def _get_click_executor(self):
+        if self._click_executor is None:
+            from 点击执行.click_game_content import ClickExecutor
+            self._click_executor = ClickExecutor(
+                mapper=self._get_mapper(),
+                screenshots_dir=self.screenshots_dir
+            )
+        return self._click_executor
+
+    def _get_differ(self):
+        if self._differ is None:
+            from 坐标截图.screenshot_diff import ScreenshotDiffer
+            self._differ = ScreenshotDiffer()
+        return self._differ
+
+    def _get_vision(self):
+        if self._vision is None:
+            from 视觉识别.game_content_vision import GameContentVision
+            self._vision = GameContentVision()
+        return self._vision
+
+    def _get_capturer(self):
+        if self._capturer is None:
+            from 坐标截图.screenshot_game_content import GameContentScreenshot
+            self._capturer = GameContentScreenshot(mapper=self._get_mapper())
+        return self._capturer
+
+    # ============================================================
+    # 执行前检查（文档第 7 节）
+    # ============================================================
+
+    def check_prerequisites(self) -> Dict:
+        """
+        执行前检查：所有模块是否可用
+
+        :return: {"ok": True/False, "checks": {...}}
+        """
+        checks = {}
+
+        # CoordinateMapper
+        try:
+            m = self._get_mapper()
+            checks["mapper"] = m is not None
+        except Exception as e:
+            checks["mapper"] = False
+            checks["mapper_error"] = str(e)
+
+        # ClickExecutor
+        try:
+            ce = self._get_click_executor()
+            checks["click_executor"] = ce is not None
+        except Exception as e:
+            checks["click_executor"] = False
+            checks["click_executor_error"] = str(e)
+
+        # ScreenshotDiffer
+        try:
+            d = self._get_differ()
+            checks["differ"] = d is not None
+        except Exception as e:
+            checks["differ"] = False
+            checks["differ_error"] = str(e)
+
+        # GameContentScreenshot
+        try:
+            c = self._get_capturer()
+            checks["capturer"] = c is not None
+        except Exception as e:
+            checks["capturer"] = False
+            checks["capturer_error"] = str(e)
+
+        # Scale mismatch
+        sc = m.check_scale_mismatch() if m else {"mismatch": True}
+        checks["scale_ok"] = not sc["mismatch"]
+        if sc.get("mismatch"):
+            checks["scale_detail"] = sc
+
+        ok = all(v for k, v in checks.items()
+                 if not k.endswith("_error") and not k.endswith("_detail"))
+        return {"ok": ok, "checks": checks}
+
+    # ============================================================
+    # 目标定位（文档第 6 节）
+    # ============================================================
+
+    def _locate_target(self, target: Dict,
+                       game_content_img: Image.Image = None) -> Dict:
+        """
+        定位目标，返回 game_content 坐标
+
+        :param target: 目标描述 {"type": "text", "value": "使用"}
+        :param game_content_img: gameContent 截图（用于 OCR/模板）
+        :return: {"ok": True, "x": 160, "y": 665, "detail": {...}}
+        """
+        if not target:
+            return {"ok": False, "error": "无目标"}
+
+        ttype = target.get("type", "")
+        mapper = self._get_mapper()
+
+        # --- normalized ---
+        if ttype == "normalized":
+            nx, ny = target["nx"], target["ny"]
+            sx, sy = mapper.normalized_to_screen(nx, ny)
+            cx, cy = mapper.screen_to_content(sx, sy)
+            return {
+                "ok": True, "x": round(cx, 1), "y": round(cy, 1),
+                "detail": {"type": "normalized", "nx": nx, "ny": ny}
+            }
+
+        # --- design ---
+        if ttype == "design":
+            dx, dy = target["x"], target["y"]
+            sx, sy = mapper.design_to_screen(dx, dy)
+            cx, cy = mapper.screen_to_content(sx, sy)
+            return {
+                "ok": True, "x": round(cx, 1), "y": round(cy, 1),
+                "detail": {"type": "design", "x": dx, "y": dy}
+            }
+
+        # --- content ---
+        if ttype == "content":
+            return {
+                "ok": True,
+                "x": target["x"], "y": target["y"],
+                "detail": {"type": "content", "x": target["x"], "y": target["y"]}
+            }
+
+        # --- pixel ---
+        if ttype == "pixel":
+            return {
+                "ok": True,
+                "x": target["x"], "y": target["y"],
+                "detail": {"type": "pixel", "x": target["x"], "y": target["y"]}
+            }
+
+        # --- testId (metadata 定位) ---
+        if ttype == "testId":
+            try:
+                from 元数据.target_locator import TargetLocator as _TL
+                locator = _TL(mapper=mapper)
+                result = locator.locate(target)
+                if result["ok"]:
+                    if "candidates" in result:
+                        # 前缀匹配，返回候选列表供 IDE 选择
+                        return {
+                            "ok": True,
+                            "x": 0, "y": 0,
+                            "detail": result,
+                            "candidates": result.get("candidates", []),
+                        }
+                    return {
+                        "ok": True,
+                        "x": result["x"], "y": result["y"],
+                        "detail": result["detail"],
+                        "region": result.get("region"),
+                    }
+                return {"ok": False, "error": result.get("error", "testId 定位失败")}
+            except Exception as e:
+                return {"ok": False, "error": f"testId 定位异常: {e}"}
+
+        # --- text (OCR) ---
+        if ttype == "text":
+            if game_content_img is None:
+                return {"ok": False, "error": "OCR 定位需要 gameContent 截图"}
+            vision = self._get_vision()
+            result = vision.ocr_find_text_click(game_content_img, target["value"])
+            if result:
+                return {
+                    "ok": True,
+                    "x": result["x"], "y": result["y"],
+                    "detail": {"type": "text", "value": target["value"],
+                               "confidence": result.get("confidence")}
+                }
+            return {"ok": False, "error": f"OCR 未找到文字: {target['value']}"}
+
+        # --- template ---
+        if ttype == "template":
+            if game_content_img is None:
+                return {"ok": False, "error": "模板匹配需要 gameContent 截图"}
+            vision = self._get_vision()
+            result = vision.match_template(game_content_img, target["value"],
+                                           name=target["value"])
+            if result:
+                cx, cy = result["center"]
+                return {
+                    "ok": True, "x": cx, "y": cy,
+                    "detail": {"type": "template", "value": target["value"],
+                               "score": result.get("score")}
+                }
+            return {"ok": False, "error": f"模板匹配未找到: {target['value']}"}
+
+        return {"ok": False, "error": f"不支持的定位类型: {ttype}"}
+
+    # ============================================================
+    # 单步执行
+    # ============================================================
+
+    def _execute_single_step(self, step: Dict, step_index: int,
+                             run_id: str, game_content_img: Image.Image = None,
+                             case_id: str = "") -> Dict:
+        """
+        执行单条解析后的步骤
+
+        :param step: 解析后的步骤字典
+        :param step_index: 步骤序号
+        :param run_id: 运行批次
+        :param game_content_img: gameContent 截图（可选）
+        :param case_id: 用例 ID
+        :return: step_result
+        """
+        action = step.get("action", "unknown")
+        step_result = {
+            "step_index": step_index,
+            "raw": step.get("raw", ""),
+            "action": action,
+            "result": "PASS",
+            "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        }
+
+        # --- click ---
+        if action == "click":
+            target = step.get("target", {})
+            loc = self._locate_target(target, game_content_img)
+            if not loc["ok"]:
+                step_result["result"] = "FAIL"
+                step_result["error"] = loc["error"]
+                if self.fail_fast:
+                    step_result["fail_fast"] = True
+                return step_result
+
+            # preCheck：点击前校验
+            try:
+                from 点击执行.click_validator import ClickPreChecker
+                _pre_checker = ClickPreChecker()
+                _pre_result = _pre_checker.check(target, {
+                    "pageId": step.get("pageId", ""),
+                    "blockers": loc.get("blockers", []),
+                })
+                step_result["preCheck"] = _pre_result
+                if not _pre_result["passed"]:
+                    step_result["result"] = "BLOCKED" if "OCCLUDED" in str(_pre_result.get("errorCode", "")) else "FAIL"
+                    step_result["error"] = _pre_result.get("errorMessage", "preCheck 失败")
+                    if self.fail_fast:
+                        step_result["fail_fast"] = True
+                    return step_result
+            except Exception as _pre_e:
+                logger.debug("preCheck 异常 (不阻塞执行): %s", _pre_e)
+
+            executor = self._get_click_executor()
+            # 通过 click_handler 执行（支持模式切换）
+            handler = self._get_click_handler()
+            if handler is not None:
+                click_result = handler.click(
+                    loc["x"], loc["y"], "content",
+                    target_info=target,
+                    description=step.get("raw", "")
+                )
+            else:
+                # 回退到直接 executor
+                click_result = executor.click_content(
+                    loc["x"], loc["y"],
+                    description=step.get("raw", "")
+                )
+            step_result["location"] = {"type": "game_content",
+                                       "x": loc["x"], "y": loc["y"]}
+            click_result_type = click_result.get("result", "")
+            step_result["click_result"] = click_result_type
+
+            # 映射点击结果到步骤结果
+            if click_result_type in ("CLICK_BLOCKED", "CLICK_NO_HIT"):
+                step_result["result"] = "BLOCKED"
+                step_result["error"] = click_result.get("error") or click_result.get("message", "点击被阻断")
+            elif click_result_type in ("CLICK_ERROR",):
+                step_result["result"] = "ERROR"
+                step_result["error"] = click_result.get("error") or click_result.get("message", "点击异常")
+            elif click_result_type in ("CLICK_NO_CHANGE",):
+                step_result["result"] = "WARNING"
+                step_result["warning"] = "点击后画面无明显变化"
+            else:
+                step_result["result"] = "PASS"
+
+            # 记录差异数据和注入结果
+            # 如果 click 未提供 diff_ratio，自动截图对比
+            if "diff_ratio" in click_result:
+                step_result["diff_ratio"] = click_result["diff_ratio"]
+            elif game_content_img is not None:
+                try:
+                    after_cap = self._get_capturer().capture(run_id=run_id)
+                    after_img = after_cap.get("game_content_image")
+                    if after_img:
+                        ratio = self._get_differ().calc_diff_ratio(
+                            game_content_img, after_img)
+                        step_result["diff_ratio"] = ratio
+                except Exception as _diff_e:
+                    logger.debug("diff_ratio 计算异常 (不阻塞): %s", _diff_e)
+            if click_result.get("hit_object"):
+                step_result["hit_object"] = click_result["hit_object"]
+            if click_result.get("inject_result"):
+                step_result["inject_detail"] = click_result["inject_result"]
+
+            # postCheck：点击后校验
+            if step_result["result"] in ("PASS", "WARNING"):
+                try:
+                    _expect = step.get("expect", None)
+                    if _expect:
+                        from 点击执行.click_validator import ClickPostChecker
+                        from 坐标截图.screenshot_diff import ScreenshotDiffer
+                        _post_checker = ClickPostChecker(
+                            screenshot_differ=ScreenshotDiffer()
+                        )
+                        _post_context = {}
+                        if "diff_ratio" in click_result:
+                            _post_context["diff_ratio"] = click_result["diff_ratio"]
+                        _post_result = _post_checker.check(_expect, _post_context)
+                        step_result["postCheck"] = _post_result
+                        if not _post_result["passed"]:
+                            step_result["result"] = "FAIL"
+                            step_result["error"] = _post_result.get("errorMessage", "postCheck 失败")
+                except Exception as _post_e:
+                    logger.debug("postCheck 异常 (不阻塞): %s", _post_e)
+
+        # --- wait ---
+        elif action == "wait":
+            seconds = step.get("seconds", 2.0)
+            logger.info("等待 %.1f 秒", seconds)
+            time.sleep(seconds)
+            step_result["result"] = "PASS"
+            step_result["seconds"] = seconds
+
+        # --- assert_exists ---
+        elif action == "assert_exists":
+            max_retries = 5
+            retry_interval = 0.5
+            loc = None
+
+            for attempt in range(max_retries):
+                # 每次重试重新截图
+                try:
+                    capturer = self._get_capturer()
+                    cap = capturer.capture(run_id=run_id)
+                    fresh_img = cap.get("game_content_image")
+                except Exception:
+                    fresh_img = game_content_img
+
+                loc = self._locate_target(step.get("target", {}), fresh_img)
+                if loc["ok"]:
+                    break
+                if attempt < max_retries - 1:
+                    logger.info("断言重试 %d/%d: 未找到 %s",
+                               attempt + 1, max_retries,
+                               step.get("target", {}))
+                    time.sleep(retry_interval)
+
+            if loc and loc["ok"]:
+                step_result["result"] = "PASS"
+                step_result["found"] = {"x": loc["x"], "y": loc["y"]}
+                step_result["retries"] = sum(1 for _ in range(max_retries)
+                                            )  # 简化
+            else:
+                step_result["result"] = "FAIL"
+                step_result["error"] = loc["error"] if loc else "断言失败"
+                step_result["retries"] = max_retries
+
+        # --- assert_not_exists ---
+        elif action == "assert_not_exists":
+            max_retries = 5
+            retry_interval = 0.3
+            target = step.get("target", {})
+            never_found = True
+
+            for attempt in range(max_retries):
+                try:
+                    capturer = self._get_capturer()
+                    cap = capturer.capture(run_id=run_id)
+                    fresh_img = cap.get("game_content_image")
+                except Exception:
+                    fresh_img = game_content_img
+
+                loc = self._locate_target(target, fresh_img)
+                if not loc["ok"]:
+                    never_found = True
+                    break  # 目标已消失，成功
+                if attempt < max_retries - 1:
+                    logger.info("断言不存在重试 %d/%d: 目标仍存在 %s",
+                               attempt + 1, max_retries, target)
+                    time.sleep(retry_interval)
+                    never_found = False
+
+            if never_found:
+                step_result["result"] = "PASS"
+            else:
+                step_result["result"] = "FAIL"
+                step_result["error"] = f"目标仍存在: {target}"
+                step_result["last_seen"] = {"x": loc["x"], "y": loc["y"]}
+
+        # --- screenshot ---
+        elif action == "screenshot":
+            try:
+                capturer = self._get_capturer()
+                cap_result = capturer.capture(run_id=run_id)
+                step_result["screenshot"] = cap_result.get("game_content_path")
+                step_result["result"] = "PASS"
+            except Exception as e:
+                step_result["result"] = "ERROR"
+                step_result["error"] = f"截图失败: {e}"
+
+        # --- back ---
+        elif action == "back":
+            step_result["result"] = "PASS"
+            step_result["note"] = "返回操作需手动实现或 IDE 调度"
+
+        # --- unknown ---
+        else:
+            if not step.get("valid", True):
+                step_result["result"] = "ERROR"
+                step_result["error"] = step.get("error", "无效步骤")
+            else:
+                step_result["result"] = "WARNING"
+                step_result["warning"] = f"未实现的动作: {action}"
+
+        # 保存 step_result
+        if step_result["result"] in ("FAIL", "ERROR", "BLOCKED") and self.fail_fast:
+            step_result["fail_fast"] = True
+
+        return step_result
+
+    # ============================================================
+    # 执行多条步骤
+    # ============================================================
+
+    def execute_steps(self, steps: List[str],
+                      case_id: str = "manual",
+                      run_id: str = None) -> Dict:
+        """
+        执行多条步骤文本
+
+        :param steps: 步骤文本列表，如 ["点击 text(使用)", "等待 2 秒"]
+        :param case_id: 用例 ID
+        :param run_id: 运行批次，自动生成
+        :return: case_result
+        """
+        run_id = run_id or time.strftime("run_%Y%m%d_%H%M%S")
+        logger.info("开始执行用例 %s (run_id=%s)", case_id, run_id)
+
+        # 前置检查
+        prereq = self.check_prerequisites()
+        if not prereq["ok"]:
+            return {
+                "case_id": case_id,
+                "run_id": run_id,
+                "result": "ERROR",
+                "error": "前置检查失败",
+                "checks": prereq["checks"],
+                "steps": [],
+                "total": 0,
+                "passed": 0,
+                "failed": 0,
+            }
+
+        # 截取 gameContent 作为定位基准
+        game_content_img = None
+        try:
+            capturer = self._get_capturer()
+            cap = capturer.capture(run_id=run_id)
+            game_content_img = cap.get("game_content_image")
+        except Exception as e:
+            logger.warning("基准截图失败: %s", e)
+
+        # 解析步骤
+        parser = self._get_parser()
+        parsed_steps = parser.parse_all(steps)
+
+        # 按顺序执行
+        step_results = []
+        total = len(parsed_steps)
+        passed = 0
+        failed = 0
+        blocked = False
+
+        for i, step in enumerate(parsed_steps):
+            if blocked:
+                # 短路：跳过后续步骤
+                step_results.append({
+                    "step_index": i + 1,
+                    "raw": step.get("raw", ""),
+                    "action": step.get("action", "?"),
+                    "result": "SKIPPED",
+                    "reason": "前序步骤已失败，已短路"
+                })
+                continue
+
+            sr = self._execute_single_step(
+                step, i + 1, run_id, game_content_img, case_id
+            )
+            step_results.append(sr)
+
+            # 用例驱动采集钩子：步骤完成后检测页面变化
+            if self._explorer and sr["result"] == "PASS":
+                try:
+                    self._explorer.on_step_complete(sr, "before_" + str(i))
+                except Exception:
+                    pass
+
+            if sr["result"] in ("PASS",):
+                passed += 1
+            elif sr["result"] in ("WARNING",):
+                passed += 1  # warning 算通过但标记
+            else:
+                failed += 1
+                if self.fail_fast and sr.get("fail_fast"):
+                    blocked = True
+
+            # ── PostActionGuard：如果有下一步，检查界面状态 ──
+            if not blocked and i + 1 < total:
+                next_step = parsed_steps[i + 1]
+                try:
+                    from 阻塞处理.post_action_guard import PostActionGuard
+                    guard = PostActionGuard(
+                        mapper=self._get_mapper(),
+                        max_attempts=3,
+                    )
+                    guard_result = guard.guard_before_next_step(
+                        next_step,
+                        game_content_img=game_content_img,
+                        prev_img=None,
+                    )
+                    guard_status = guard_result.get("status", "READY")
+                    sr["guard_result"] = guard_result
+
+                    if guard_status != "READY":
+                        logger.warning("守卫阻断: %s - %s",
+                                     guard_status,
+                                     guard_result.get("message", ""))
+                        blocked = True
+                        failed += 1  # 守卫失败也算失败
+                        # 记录守卫失败的详细信息
+                        sr["guard_blocked"] = True
+                        sr["result"] = "BLOCKED" if "BLOCKED" in guard_status else "FAIL"
+                        sr["error"] = guard_result.get("message", f"守卫: {guard_status}")
+                        if self.fail_fast:
+                            sr["fail_fast"] = True
+                except Exception as e:
+                    logger.warning("PostActionGuard 异常 (不影响执行): %s", e)
+
+        # 汇总
+        case_result = {
+            "case_id": case_id,
+            "run_id": run_id,
+            "result": "PASS" if failed == 0 else "FAIL",
+            "total": total,
+            "passed": passed,
+            "failed": failed,
+            "steps": step_results,
+            "fail_fast": self.fail_fast,
+            "click_mode": self.click_mode,
+            "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        }
+
+        # 保存 case_result
+        output_dir = os.path.join(self.screenshots_dir, run_id)
+        Path(output_dir).mkdir(parents=True, exist_ok=True)
+        ts = time.strftime("%H%M%S")
+        result_path = os.path.join(output_dir,
+                                   f"case_result_{case_id}_{ts}.json")
+        with open(result_path, "w", encoding="utf-8") as f:
+            json.dump(case_result, f, indent=2, ensure_ascii=False)
+        case_result["result_path"] = result_path
+
+        # 打印摘要
+        self._print_summary(case_result)
+
+        return case_result
+
+    @staticmethod
+    def _print_summary(case_result: Dict):
+        """打印执行摘要"""
+        print(f"\n{'=' * 50}")
+        print(f"用例 {case_result['case_id']} 执行完成")
+        print(f"  结果: {case_result['result']}")
+        print(f"  总数: {case_result['total']}, 通过: {case_result['passed']}, "
+              f"失败: {case_result['failed']}")
+        print(f"  模式: {case_result['click_mode']}")
+        print(f"  短路: {case_result['fail_fast']}")
+        print(f"  报告: {case_result.get('result_path', 'N/A')}")
+        if case_result.get("error"):
+            print(f"  错误: {case_result['error']}")
+        for sr in case_result.get("steps", []):
+            status = "✅" if sr["result"] == "PASS" else \
+                     "⚠️" if sr["result"] == "WARNING" else \
+                     "⏭️" if sr["result"] == "SKIPPED" else \
+                     "❌"
+            print(f"  {status} [{sr['result']}] 步骤{sr['step_index']}: "
+                  f"{sr.get('raw', '')[:50]}")
+        print(f"{'=' * 50}")
+
+    # ============================================================
+    # 从 Excel 行执行
+    # ============================================================
+
+    def execute_from_excel(self, rows: List[Dict],
+                           text_field: str = "操作步骤",
+                           case_id_field: str = "用例ID",
+                           **kwargs) -> List[Dict]:
+        """
+        从 Excel 行数据执行用例
+
+        :param rows: Excel 行字典列表
+        :param text_field: 步骤文本列名
+        :param case_id_field: 用例 ID 列名
+        :return: 用例结果列表
+        """
+        # 按用例分组
+        from collections import defaultdict
+        cases = defaultdict(list)
+        for row in rows:
+            cid = str(row.get(case_id_field, "unknown"))
+            step_text = row.get(text_field, "").strip()
+            if step_text:
+                cases[cid].append(step_text)
+
+        results = []
+        for cid, steps in cases.items():
+            logger.info("执行用例 %s (%d 步)", cid, len(steps))
+            result = self.execute_steps(steps, case_id=cid, **kwargs)
+            results.append(result)
+
+        return results
+
+
+# ============================================================
+# 独立运行入口
+# ============================================================
+
+def test_executor():
+    """测试执行器（仅验证解析+前置检查，不执行真实点击）"""
+    print("=" * 60)
+    print("用例步骤执行器测试")
+    print("=" * 60)
+
+    executor = CaseStepExecutor(fail_fast=True)
+
+    # 测试1：前置检查
+    print("\n[测试1] 前置检查...")
+    prereq = executor.check_prerequisites()
+    print(f"  总体: {'✅' if prereq['ok'] else '❌'}")
+    for k, v in prereq["checks"].items():
+        if not k.endswith("_error") and not k.endswith("_detail"):
+            print(f"  {k}: {'✅' if v else '❌'}")
+    if not prereq["ok"]:
+        print("  ⚠ 部分模块不可用，跳过后续执行测试")
+        return
+    print("  ✅ 通过")
+
+    # 测试2：目标定位（不依赖截图）
+    print("\n[测试2] 目标定位（坐标类）...")
+    mapper = executor._get_mapper()
+    loc = executor._locate_target({"type": "normalized", "nx": 0.5, "ny": 0.5})
+    print(f"  normalized(0.5,0.5) → ({loc['x']}, {loc['y']}) ok={loc['ok']}")
+    assert loc["ok"]
+    loc = executor._locate_target({"type": "design", "x": 585, "y": 1266})
+    print(f"  design(585,1266) → ({loc['x']}, {loc['y']}) ok={loc['ok']}")
+    assert loc["ok"]
+    loc = executor._locate_target({"type": "content", "x": 159, "y": 344})
+    print(f"  content(159,344) → ({loc['x']}, {loc['y']}) ok={loc['ok']}")
+    assert loc["ok"]
+    print("  ✅ 通过")
+
+    # 测试3：步骤解析 + 执行（仅点击行为跳过真实点击）
+    print("\n[测试3] 步骤解析+非点击步骤执行...")
+    steps = [
+        "等待 1 秒",
+        "截图",
+        "返回",
+    ]
+    # 使用 execute_steps 但让 click 步骤因缺少 target 而标记 FAIL
+    # 这样只测试非点击步骤
+    parser = executor._get_parser()
+    for s in steps:
+        parsed = parser.parse(s)
+        sr = executor._execute_single_step(parsed, 1, "test_run")
+        print(f"  {s:30s} → {sr['result']}")
+        assert sr["result"] in ("PASS", "WARNING")
+    print("  ✅ 通过")
+
+    # 测试4：失败短路
+    print("\n[测试4] 失败短路...")
+    steps_bad = [
+        "点击 text('不存在的文字AAAAA')",
+        "等待 1 秒",
+        "截图",
+    ]
+    result = executor.execute_steps(steps_bad, case_id="test_short",
+                                    run_id="test_fail_fast")
+    print(f"  结果: {result['result']}")
+    for sr in result["steps"]:
+        print(f"  [{sr['result']}] 步骤{sr['step_index']}: {sr.get('raw', '')[:40]}")
+    # 第三步应为 SKIPPED
+    assert result["steps"][2]["result"] == "SKIPPED", "第三步应被短路"
+    print("  ✅ 通过")
+
+    # 测试5：断言功能
+    print("\n[测试5] 断言功能...")
+    # 断言存在 — 使用坐标类（不需要 OCR）
+    steps_assert = [
+        "断言存在 normalized(0.5,0.5)",
+        "断言不存在 normalized(-1,-1)",
+        "断言存在 content(159,344)",
+    ]
+    result = executor.execute_steps(steps_assert, case_id="test_assert",
+                                    run_id="test_assert")
+    print(f"  结果: {result['result']}")
+    for sr in result["steps"]:
+        print(f"  [{sr['result']}] 步骤{sr['step_index']}: {sr.get('raw', '')[:50]}")
+    assert result["result"] == "PASS", "断言测试应全部通过"
+    print("  ✅ 通过")
+
+    # 测试6：完整步骤链路（不含真实点击，仅验证链路）
+    print("\n[测试5] 完整链路验证...")
+    steps_ok = [
+        "等待 1 秒",
+        "截图",
+    ]
+    result = executor.execute_steps(steps_ok, case_id="test_full",
+                                    run_id="test_full_link")
+    print(f"  结果: {result['result']}")
+    print(f"  通过/总数: {result['passed']}/{result['total']}")
+    assert result["result"] == "PASS"
+    print("  ✅ 通过")
+
+    print("\n" + "=" * 60)
+    print("所有测试通过 ✅")
+    print("=" * 60)
+    print(f"\n测试报告: {result.get('result_path', 'N/A')}")
+
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
+    test_executor()

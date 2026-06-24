@@ -1,0 +1,69 @@
+{
+  "schema_version": "semantic_dictionary.v1",
+  "updated_at": "2026-06-18T11:50:00",
+  "pages": {
+    "背包": "bag",
+    "商店": "shop",
+    "登录好礼": "activity.login_gift",
+    "七日签到": "activity.login_gift",
+    "主城": "main_city",
+    "奖励弹窗": "reward_popup",
+    "角色信息": "character_info"
+  },
+  "objects": {
+    "金币": "gold",
+    "粮食": "food",
+    "木材": "wood",
+    "石材": "stone",
+    "铁矿": "iron",
+    "矿石": "ore",
+    "银币": "silver",
+    "钻石": "diamond",
+    "入口": "entry",
+    "红点": "red_dot",
+    "奖励": "reward",
+    "第1天": "day1",
+    "第2天": "day2",
+    "第7天": "day7",
+    "体力": "stamina",
+    "体力药剂": "stamina_potion",
+    "客服": "customer_service"
+  },
+  "roles": {
+    "途径": "resource_source",
+    "来源": "resource_source",
+    "领取": "claim",
+    "关闭": "close",
+    "确认": "confirm",
+    "取消": "cancel",
+    "返回": "back",
+    "已领取": "claimed_state",
+    "未解锁": "locked_state",
+    "可领取": "claimable_state",
+    "点击": "action",
+    "使用": "use",
+    "添加": "add"
+  },
+  "types": {
+    "按钮": "Button",
+    "界面": "Panel",
+    "面板": "Panel",
+    "弹窗": "Popup",
+    "文本": "Text",
+    "图标": "Icon",
+    "红点": "RedDot",
+    "状态": "State",
+    "格子": "Item"
+  },
+  "test_id_suffix": {
+    "Button": "button",
+    "Panel": "panel",
+    "Popup": "popup",
+    "Text": "text",
+    "Icon": "icon",
+    "RedDot": "red_dot",
+    "State": "state",
+    "Item": "item",
+    "unknown": "target"
+  }
+}

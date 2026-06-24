@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_equip_select_tip",
+  "displayName": "hero_equip_select_tip",
+  "drafts": {
+    "DRAFT_c155ce54e299": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab",
+      "prefabRoot": "HeroEquipSelectTip",
+      "path": "HeroEquipSelectTip/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "hero_equip_select_tip",
+      "displayName": "Click",
+      "chineseDescription": "HeroEquipSelectTip的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab」中的HeroEquipSelectTipClick",
+      "suggestedTestId": "HeroEquipSelectTip.Click",
+      "suggestedSemanticId": "HeroEquipSelectTip.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c155ce54e299"
+    },
+    "DRAFT_bc43ccc5b9da": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab",
+      "prefabRoot": "HeroEquipSelectTip",
+      "path": "HeroEquipSelectTip/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "hero_equip_select_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "HeroEquipSelectTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab」中的HeroEquipSelectTip关闭按钮",
+      "suggestedTestId": "HeroEquipSelectTip.CloseBtn",
+      "suggestedSemanticId": "HeroEquipSelectTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bc43ccc5b9da"
+    },
+    "DRAFT_3b1bf5ca60ac": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab",
+      "prefabRoot": "HeroEquipSelectTip",
+      "path": "HeroEquipSelectTip/Root/Equip/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_bg_6",
+      "clickable": true,
+      "pageId": "hero_equip_select_tip",
+      "displayName": "Add",
+      "chineseDescription": "HeroEquipSelectTip的Add",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab」中的HeroEquipSelectTipAdd",
+      "suggestedTestId": "HeroEquipSelectTip.Add",
+      "suggestedSemanticId": "HeroEquipSelectTip.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3b1bf5ca60ac"
+    },
+    "DRAFT_e5ead9f900ed": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab",
+      "prefabRoot": "HeroEquipSelectTip",
+      "path": "HeroEquipSelectTip/Root/Content/ListBG/Scroll/ViewPort/Content/Item/Equip/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_bg_6",
+      "clickable": true,
+      "pageId": "hero_equip_select_tip",
+      "displayName": "Add",
+      "chineseDescription": "HeroEquipSelectTip的Add",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab」中的HeroEquipSelectTipAdd",
+      "suggestedTestId": "HeroEquipSelectTip.Add",
+      "suggestedSemanticId": "HeroEquipSelectTip.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5ead9f900ed"
+    },
+    "DRAFT_46cb01b07304": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab",
+      "prefabRoot": "HeroEquipSelectTip",
+      "path": "HeroEquipSelectTip/Root/Content/ListBG/Scroll/ViewPort/Content/Item/Equip/HeroEquipItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_HeroEquip_FrameBg_Black3",
+      "clickable": true,
+      "pageId": "hero_equip_select_tip",
+      "displayName": "ClickContent",
+      "chineseDescription": "HeroEquipSelectTip的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Hero/HeroEquipSelectTip.prefab」中的HeroEquipSelectTipClickContent",
+      "suggestedTestId": "HeroEquipSelectTip.ClickContent",
+      "suggestedSemanticId": "HeroEquipSelectTip.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_46cb01b07304"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c155ce54e299",
+      "DRAFT_bc43ccc5b9da",
+      "DRAFT_3b1bf5ca60ac",
+      "DRAFT_e5ead9f900ed",
+      "DRAFT_46cb01b07304"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

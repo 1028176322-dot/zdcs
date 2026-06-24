@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "data_dir": "D:\\工作助手\\输出\\神器界面功能\\DATA",
+  "checked_files": 4,
+  "failed": 0,
+  "results": [
+    {
+      "file": "fact_package.json",
+      "schema": "fact_package",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "fact_quality.json",
+      "schema": "fact_quality",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "relation_facts.json",
+      "schema": "relation_facts",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "file": "source_index.json",
+      "schema": "source_index",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

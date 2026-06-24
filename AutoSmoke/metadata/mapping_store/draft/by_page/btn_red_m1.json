@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "btn_red_m1",
+  "displayName": "btn_red_m1",
+  "drafts": {
+    "DRAFT_24b338a41d73": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnRedM1.prefab",
+      "prefabRoot": "BtnRedM1",
+      "path": "BtnRedM1",
+      "nodeName": "BtnRedM1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_red",
+      "clickable": true,
+      "pageId": "btn_red_m1",
+      "displayName": "按钮RedM1",
+      "chineseDescription": "BtnRedM1的按钮RedM1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnRedM1.prefab」中的BtnRedM1按钮RedM1",
+      "suggestedTestId": "BtnRedM1.BtnRedM1",
+      "suggestedSemanticId": "BtnRedM1.按钮RedM1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24b338a41d73"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_24b338a41d73"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "mode": "codex_or_ide_agent_vision",
+  "instructions": [
+    "Read each local image_path and use source_file, anchor_row, and context_rows as context.",
+    "Write only structured results to DATA/vision_results.json; do not edit final Markdown directly.",
+    "Every result must preserve evidence_id, image_hash, source_file, and image_ref from the request.",
+    "Only write red when the image file is truly unreadable/unsupported. For timeout, network loss, rate limit, context overflow, or uncertain model output, write pending instead of red.",
+    "Process in small batches and merge results; never delete previous green results."
+  ],
+  "output_file": "D:\\工作助手\\输出\\神器界面功能\\DATA\\vision_results.json",
+  "result_format": {
+    "version": 2,
+    "provider": "codex_agent",
+    "model": "current_session",
+    "results": [
+      {
+        "evidence_id": "EVD_IMG_0001",
+        "image_hash": "sha256 hex string from request.image_hash",
+        "source_file": "same source_file from request",
+        "image_ref": "same image_ref from request",
+        "image_type": "ui_mockup|flow_diagram|config_table|reward_display|icon_asset|annotation|other",
+        "fact_type": "activity_time|ui_text|flow_rule|config_value|reward_rule|state_rule|limitation|null",
+        "extracted_content": "Chinese core information under 200 characters",
+        "ui_elements": [
+          "visible UI element"
+        ],
+        "flow_steps": [
+          "flow step"
+        ],
+        "confidence": 0.0,
+        "vision_status": "green|red|pending",
+        "reason": "short reason"
+      }
+    ]
+  },
+  "requests": []
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_share_gift_red_packet_state",
+  "displayName": "ui_alliance_share_gift_red_packet_state",
+  "drafts": {
+    "DRAFT_82bf372091ff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketState",
+      "path": "UIAllianceShareGiftRedPacketState/Root/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animation",
+        "CanvasGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_state",
+      "displayName": "BG",
+      "chineseDescription": "UIAllianceShareGiftRedPacketState的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab」中的UIAllianceShareGiftRedPacketStateBG",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketState.BG",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketState.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_82bf372091ff"
+    },
+    "DRAFT_d4254437f5ea": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketState",
+      "path": "UIAllianceShareGiftRedPacketState/Root/BG/RedPackBG/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_state",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceShareGiftRedPacketState的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab」中的UIAllianceShareGiftRedPacketStateHeadk1",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketState.Head_k1",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketState.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4254437f5ea"
+    },
+    "DRAFT_8008486ceda7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketState",
+      "path": "UIAllianceShareGiftRedPacketState/Root/BG/RedPackBG/TxtGroup/Thanks",
+      "nodeName": "Thanks",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup",
+        "ContentSizeFitter"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_state",
+      "displayName": "Thanks",
+      "chineseDescription": "UIAllianceShareGiftRedPacketState的Thanks",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab」中的UIAllianceShareGiftRedPacketStateThanks",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketState.Thanks",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketState.Thanks",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8008486ceda7"
+    },
+    "DRAFT_649cbe86c42c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketState",
+      "path": "UIAllianceShareGiftRedPacketState/Root/BG/RedPackBG/CheckClick",
+      "nodeName": "CheckClick",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasGroup"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_state",
+      "displayName": "CheckClick",
+      "chineseDescription": "UIAllianceShareGiftRedPacketState的CheckClick",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketState.prefab」中的UIAllianceShareGiftRedPacketStateCheckClick",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketState.CheckClick",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketState.CheckClick",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_649cbe86c42c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_82bf372091ff",
+      "DRAFT_d4254437f5ea",
+      "DRAFT_8008486ceda7",
+      "DRAFT_649cbe86c42c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

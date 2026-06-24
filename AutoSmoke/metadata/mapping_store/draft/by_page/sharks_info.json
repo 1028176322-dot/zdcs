@@ -1,0 +1,90 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "sharks_info",
+  "displayName": "sharks_info",
+  "drafts": {
+    "DRAFT_432e97722ccf": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab",
+      "prefabRoot": "SharksInfo",
+      "path": "SharksInfo/Type/Bg_1",
+      "nodeName": "Bg_1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "ui_bg_3",
+      "clickable": true,
+      "pageId": "sharks_info",
+      "displayName": "Bg1",
+      "chineseDescription": "SharksInfo的Bg1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab」中的SharksInfoBg1",
+      "suggestedTestId": "SharksInfo.Bg_1",
+      "suggestedSemanticId": "SharksInfo.Bg1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_432e97722ccf"
+    },
+    "DRAFT_97d6496af437": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab",
+      "prefabRoot": "SharksInfo",
+      "path": "SharksInfo/Type/Bg_2",
+      "nodeName": "Bg_2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "ui_bg_4",
+      "clickable": true,
+      "pageId": "sharks_info",
+      "displayName": "Bg2",
+      "chineseDescription": "SharksInfo的Bg2",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab」中的SharksInfoBg2",
+      "suggestedTestId": "SharksInfo.Bg_2",
+      "suggestedSemanticId": "SharksInfo.Bg2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97d6496af437"
+    },
+    "DRAFT_2da6b0eeca18": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab",
+      "prefabRoot": "SharksInfo",
+      "path": "SharksInfo/Type/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "sharks_info",
+      "displayName": "Headk1",
+      "chineseDescription": "SharksInfo的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksInfo.prefab」中的SharksInfoHeadk1",
+      "suggestedTestId": "SharksInfo.Head_k1",
+      "suggestedSemanticId": "SharksInfo.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2da6b0eeca18"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_432e97722ccf",
+      "DRAFT_97d6496af437",
+      "DRAFT_2da6b0eeca18"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

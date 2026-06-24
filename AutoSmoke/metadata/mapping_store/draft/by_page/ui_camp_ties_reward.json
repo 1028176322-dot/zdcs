@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_camp_ties_reward",
+  "displayName": "ui_camp_ties_reward",
+  "drafts": {
+    "DRAFT_dd3e74613545": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab",
+      "prefabRoot": "UICampTiesReward",
+      "path": "UICampTiesReward/Root/black_bg/touch",
+      "nodeName": "touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "tc_bg",
+      "clickable": true,
+      "pageId": "ui_camp_ties_reward",
+      "displayName": "touch",
+      "chineseDescription": "UICampTiesReward的touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab」中的UICampTiesRewardtouch",
+      "suggestedTestId": "UICampTiesReward.touch",
+      "suggestedSemanticId": "UICampTiesReward.touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd3e74613545"
+    },
+    "DRAFT_50d58ea86dab": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab",
+      "prefabRoot": "UICampTiesReward",
+      "path": "UICampTiesReward/Root/black_bg/Fetter_di/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_camp_ties_reward",
+      "displayName": "Get按钮",
+      "chineseDescription": "UICampTiesReward的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab」中的UICampTiesRewardGet按钮",
+      "suggestedTestId": "UICampTiesReward.GetBtn",
+      "suggestedSemanticId": "UICampTiesReward.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_50d58ea86dab"
+    },
+    "DRAFT_9429c92404d7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab",
+      "prefabRoot": "UICampTiesReward",
+      "path": "UICampTiesReward/Root/black_bg/Fetter_di/tips_button",
+      "nodeName": "tips_button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_camp_ties_reward",
+      "displayName": "tipsbutton",
+      "chineseDescription": "UICampTiesReward的tipsbutton，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/CampTiesReward/UICampTiesReward.prefab」中的UICampTiesRewardtipsbutton",
+      "suggestedTestId": "UICampTiesReward.tips_button",
+      "suggestedSemanticId": "UICampTiesReward.tipsbutton",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9429c92404d7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dd3e74613545",
+      "DRAFT_50d58ea86dab",
+      "DRAFT_9429c92404d7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

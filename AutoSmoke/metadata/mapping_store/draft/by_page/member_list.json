@@ -1,0 +1,143 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "member_list",
+  "displayName": "member_list",
+  "drafts": {
+    "DRAFT_850d77c4effe": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab",
+      "prefabRoot": "MemberList",
+      "path": "MemberList/MissionList/scroll_view/Member/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "member_list",
+      "displayName": "Headk1",
+      "chineseDescription": "MemberList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab」中的MemberListHeadk1",
+      "suggestedTestId": "MemberList.Head_k1",
+      "suggestedSemanticId": "MemberList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_850d77c4effe"
+    },
+    "DRAFT_f69fec8fec46": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab",
+      "prefabRoot": "MemberList",
+      "path": "MemberList/MissionList/scroll_view/Member/lab_name/TipsBtn",
+      "nodeName": "TipsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "icon_notice",
+      "clickable": true,
+      "pageId": "member_list",
+      "displayName": "Tips按钮",
+      "chineseDescription": "MemberList的Tips按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab」中的MemberListTips按钮",
+      "suggestedTestId": "MemberList.TipsBtn",
+      "suggestedSemanticId": "MemberList.Tips按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f69fec8fec46"
+    },
+    "DRAFT_4931d44ccccf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab",
+      "prefabRoot": "MemberList",
+      "path": "MemberList/MissionList/scroll_view/Member/LikeBtn",
+      "nodeName": "LikeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "member_list",
+      "displayName": "Like按钮",
+      "chineseDescription": "MemberList的Like按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab」中的MemberListLike按钮",
+      "suggestedTestId": "MemberList.LikeBtn",
+      "suggestedSemanticId": "MemberList.Like按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4931d44ccccf"
+    },
+    "DRAFT_7a7fdadd71d9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab",
+      "prefabRoot": "MemberList",
+      "path": "MemberList/MissionList/scroll_view/Member/Toggle",
+      "nodeName": "Toggle",
+      "componentTypes": [
+        "RectTransform",
+        "TFWToggle"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "member_list",
+      "displayName": "开关",
+      "chineseDescription": "MemberList的开关",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab」中的MemberList开关",
+      "suggestedTestId": "MemberList.Toggle",
+      "suggestedSemanticId": "MemberList.开关",
+      "role": "toggle",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7a7fdadd71d9"
+    },
+    "DRAFT_31ce796ed525": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab",
+      "prefabRoot": "MemberList",
+      "path": "MemberList/MissionList/scroll_view/Template/Expand",
+      "nodeName": "Expand",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "UIDragScrollView",
+        "TFWButton"
+      ],
+      "spriteName": "UI_main_automatic",
+      "clickable": true,
+      "pageId": "member_list",
+      "displayName": "Expand",
+      "chineseDescription": "MemberList的Expand",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/MemberList.prefab」中的MemberListExpand",
+      "suggestedTestId": "MemberList.Expand",
+      "suggestedSemanticId": "MemberList.Expand",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_31ce796ed525"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_850d77c4effe",
+      "DRAFT_f69fec8fec46",
+      "DRAFT_4931d44ccccf",
+      "DRAFT_7a7fdadd71d9",
+      "DRAFT_31ce796ed525"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

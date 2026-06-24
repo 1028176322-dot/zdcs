@@ -1,0 +1,145 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_multiplayer_reward_show",
+  "displayName": "mail_multiplayer_reward_show",
+  "drafts": {
+    "DRAFT_a2d7f9f72dc4": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab",
+      "prefabRoot": "mail_multiplayer_reward_show",
+      "path": "mail_multiplayer_reward_show/title_di/button",
+      "nodeName": "button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_TabArrow",
+      "clickable": true,
+      "pageId": "mail_multiplayer_reward_show",
+      "displayName": "button",
+      "chineseDescription": "mail_multiplayer_reward_show的button，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab」中的mail_multiplayer_reward_showbutton",
+      "suggestedTestId": "mail_multiplayer_reward_show.button",
+      "suggestedSemanticId": "mail_multiplayer_reward_show.button",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a2d7f9f72dc4"
+    },
+    "DRAFT_c45e327fa261": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab",
+      "prefabRoot": "mail_multiplayer_reward_show",
+      "path": "mail_multiplayer_reward_show/list/Viewport/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_multiplayer_reward_show",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_multiplayer_reward_show的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab」中的mail_multiplayer_reward_showHeadk1",
+      "suggestedTestId": "mail_multiplayer_reward_show.Head_k1",
+      "suggestedSemanticId": "mail_multiplayer_reward_show.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c45e327fa261"
+    },
+    "DRAFT_ac9daeba8391": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab",
+      "prefabRoot": "mail_multiplayer_reward_show",
+      "path": "mail_multiplayer_reward_show/list/Viewport/Content/Item/banner",
+      "nodeName": "banner",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_multiplayer_reward_show",
+      "displayName": "banner",
+      "chineseDescription": "mail_multiplayer_reward_show的banner",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab」中的mail_multiplayer_reward_showbanner",
+      "suggestedTestId": "mail_multiplayer_reward_show.banner",
+      "suggestedSemanticId": "mail_multiplayer_reward_show.banner",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ac9daeba8391"
+    },
+    "DRAFT_57a6d0777991": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab",
+      "prefabRoot": "mail_multiplayer_reward_show",
+      "path": "mail_multiplayer_reward_show/list/Viewport/Content/Item/scroll/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_multiplayer_reward_show",
+      "displayName": "项",
+      "chineseDescription": "mail_multiplayer_reward_show的项",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab」中的mail_multiplayer_reward_show项",
+      "suggestedTestId": "mail_multiplayer_reward_show.Item",
+      "suggestedSemanticId": "mail_multiplayer_reward_show.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_57a6d0777991"
+    },
+    "DRAFT_cb8b6ab16b3f": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab",
+      "prefabRoot": "mail_multiplayer_reward_show",
+      "path": "mail_multiplayer_reward_show/list/Viewport/Content/Item/scroll/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_multiplayer_reward_show",
+      "displayName": "ClickContent",
+      "chineseDescription": "mail_multiplayer_reward_show的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_multiplayer_reward_show.prefab」中的mail_multiplayer_reward_showClickContent",
+      "suggestedTestId": "mail_multiplayer_reward_show.ClickContent",
+      "suggestedSemanticId": "mail_multiplayer_reward_show.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cb8b6ab16b3f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a2d7f9f72dc4",
+      "DRAFT_c45e327fa261",
+      "DRAFT_ac9daeba8391",
+      "DRAFT_57a6d0777991",
+      "DRAFT_cb8b6ab16b3f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

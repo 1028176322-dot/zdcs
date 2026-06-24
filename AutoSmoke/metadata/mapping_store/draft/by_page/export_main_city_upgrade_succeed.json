@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_upgrade_succeed",
+  "displayName": "export_main_city_upgrade_succeed",
+  "drafts": {
+    "DRAFT_02adf4280b9a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpgradeSucceed.prefab",
+      "prefabRoot": "EXPORT_MainCityUpgradeSucceed",
+      "path": "EXPORT_MainCityUpgradeSucceed/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "export_main_city_upgrade_succeed",
+      "displayName": "BG",
+      "chineseDescription": "EXPORT_MainCityUpgradeSucceed的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpgradeSucceed.prefab」中的EXPORT_MainCityUpgradeSucceedBG",
+      "suggestedTestId": "EXPORT_MainCityUpgradeSucceed.BG",
+      "suggestedSemanticId": "EXPORT_MainCityUpgradeSucceed.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_02adf4280b9a"
+    },
+    "DRAFT_2fcd5dd9193e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpgradeSucceed.prefab",
+      "prefabRoot": "EXPORT_MainCityUpgradeSucceed",
+      "path": "EXPORT_MainCityUpgradeSucceed/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "export_main_city_upgrade_succeed",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_MainCityUpgradeSucceed的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpgradeSucceed.prefab」中的EXPORT_MainCityUpgradeSucceedClick",
+      "suggestedTestId": "EXPORT_MainCityUpgradeSucceed.Click",
+      "suggestedSemanticId": "EXPORT_MainCityUpgradeSucceed.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2fcd5dd9193e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_02adf4280b9a",
+      "DRAFT_2fcd5dd9193e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

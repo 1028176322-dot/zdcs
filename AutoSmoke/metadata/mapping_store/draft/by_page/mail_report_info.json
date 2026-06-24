@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_report_info",
+  "displayName": "mail_report_info",
+  "drafts": {
+    "DRAFT_939da1432397": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab",
+      "prefabRoot": "Mail_Report_Info",
+      "path": "Mail_Report_Info/Info/Left/Player/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_info",
+      "displayName": "Headk1",
+      "chineseDescription": "Mail_Report_Info的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab」中的Mail_Report_InfoHeadk1",
+      "suggestedTestId": "Mail_Report_Info.Head_k1",
+      "suggestedSemanticId": "Mail_Report_Info.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_939da1432397"
+    },
+    "DRAFT_2e1f261d1d50": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab",
+      "prefabRoot": "Mail_Report_Info",
+      "path": "Mail_Report_Info/Info/Left/Coordinate/Line/Location",
+      "nodeName": "Location",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "EventTriggerListener",
+        "PosText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_info",
+      "displayName": "x:5 y:5操作按钮",
+      "chineseDescription": "Mail_Report_Info的x:5 y:5操作按钮，文字「x:5 y:5」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab」中的Mail_Report_Infox:5 y:5操作按钮，含文字「x:5 y:5」",
+      "suggestedTestId": "Mail_Report_Info.Location.x:5y:5",
+      "suggestedSemanticId": "Mail_Report_Info.Location.x:5 y:5",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2e1f261d1d50"
+    },
+    "DRAFT_2c1f15d38489": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab",
+      "prefabRoot": "Mail_Report_Info",
+      "path": "Mail_Report_Info/Info/Right/Player/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_info",
+      "displayName": "Headk1",
+      "chineseDescription": "Mail_Report_Info的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab」中的Mail_Report_InfoHeadk1",
+      "suggestedTestId": "Mail_Report_Info.Head_k1",
+      "suggestedSemanticId": "Mail_Report_Info.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2c1f15d38489"
+    },
+    "DRAFT_44db3d673acf": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab",
+      "prefabRoot": "Mail_Report_Info",
+      "path": "Mail_Report_Info/Info/Right/Coordinate/Line/Location",
+      "nodeName": "Location",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "EventTriggerListener",
+        "PosText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_info",
+      "displayName": "x:5 y:5操作按钮",
+      "chineseDescription": "Mail_Report_Info的x:5 y:5操作按钮，文字「x:5 y:5」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Info.prefab」中的Mail_Report_Infox:5 y:5操作按钮，含文字「x:5 y:5」",
+      "suggestedTestId": "Mail_Report_Info.Location.x:5y:5",
+      "suggestedSemanticId": "Mail_Report_Info.Location.x:5 y:5",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_44db3d673acf"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_939da1432397",
+      "DRAFT_2e1f261d1d50",
+      "DRAFT_2c1f15d38489",
+      "DRAFT_44db3d673acf"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

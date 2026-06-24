@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "anomalies_operation_map1",
+  "displayName": "anomalies_operation_map1",
+  "drafts": {
+    "DRAFT_ec9703f39247": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/AnomaliesOperation_Map1.prefab",
+      "prefabRoot": "AnomaliesOperation_Map1",
+      "path": "AnomaliesOperation_Map1/Root/bg",
+      "nodeName": "bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "compose_minigame_window_jingdutiao",
+      "clickable": true,
+      "pageId": "anomalies_operation_map1",
+      "displayName": "bg",
+      "chineseDescription": "AnomaliesOperation_Map1的bg",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/AnomaliesOperation_Map1.prefab」中的AnomaliesOperation_Map1bg",
+      "suggestedTestId": "AnomaliesOperation_Map1.bg",
+      "suggestedSemanticId": "AnomaliesOperation_Map1.bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ec9703f39247"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ec9703f39247"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

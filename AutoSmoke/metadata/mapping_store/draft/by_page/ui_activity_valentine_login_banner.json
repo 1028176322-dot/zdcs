@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_valentine_login_banner",
+  "displayName": "ui_activity_valentine_login_banner",
+  "drafts": {
+    "DRAFT_f593881478b2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineLoginBanner.prefab",
+      "prefabRoot": "UIActivityValentineLoginBanner",
+      "path": "UIActivityValentineLoginBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_valentine_login_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityValentineLoginBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineLoginBanner.prefab」中的UIActivityValentineLoginBannerInfo",
+      "suggestedTestId": "UIActivityValentineLoginBanner.Info",
+      "suggestedSemanticId": "UIActivityValentineLoginBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f593881478b2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f593881478b2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

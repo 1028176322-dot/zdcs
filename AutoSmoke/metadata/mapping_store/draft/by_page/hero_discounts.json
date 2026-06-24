@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_discounts",
+  "displayName": "hero_discounts",
+  "drafts": {
+    "DRAFT_769beefdd30a": {
+      "assetPath": "Assets/k1/Testprefab/Hero_discounts.prefab",
+      "prefabRoot": "Hero_discounts",
+      "path": "Hero_discounts/BG/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_discounts",
+      "displayName": "项",
+      "chineseDescription": "Hero_discounts的项",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Hero_discounts.prefab」中的Hero_discounts项",
+      "suggestedTestId": "Hero_discounts.Item",
+      "suggestedSemanticId": "Hero_discounts.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_769beefdd30a"
+    },
+    "DRAFT_86e0d892737c": {
+      "assetPath": "Assets/k1/Testprefab/Hero_discounts.prefab",
+      "prefabRoot": "Hero_discounts",
+      "path": "Hero_discounts/BG/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_discounts",
+      "displayName": "ClickContent",
+      "chineseDescription": "Hero_discounts的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Hero_discounts.prefab」中的Hero_discountsClickContent",
+      "suggestedTestId": "Hero_discounts.ClickContent",
+      "suggestedSemanticId": "Hero_discounts.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_86e0d892737c"
+    },
+    "DRAFT_b59953b1ee47": {
+      "assetPath": "Assets/k1/Testprefab/Hero_discounts.prefab",
+      "prefabRoot": "Hero_discounts",
+      "path": "Hero_discounts/BG/Buy_Btn",
+      "nodeName": "Buy_Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "hero_discounts",
+      "displayName": "购买按钮",
+      "chineseDescription": "Hero_discounts的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Hero_discounts.prefab」中的Hero_discounts购买按钮",
+      "suggestedTestId": "Hero_discounts.Buy_Btn",
+      "suggestedSemanticId": "Hero_discounts.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b59953b1ee47"
+    },
+    "DRAFT_f0d10cfe185b": {
+      "assetPath": "Assets/k1/Testprefab/Hero_discounts.prefab",
+      "prefabRoot": "Hero_discounts",
+      "path": "Hero_discounts/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Canvas",
+        "GraphicRaycaster"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "hero_discounts",
+      "displayName": "按钮关闭",
+      "chineseDescription": "Hero_discounts的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Hero_discounts.prefab」中的Hero_discounts按钮关闭",
+      "suggestedTestId": "Hero_discounts.BtnClose",
+      "suggestedSemanticId": "Hero_discounts.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f0d10cfe185b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_769beefdd30a",
+      "DRAFT_86e0d892737c",
+      "DRAFT_b59953b1ee47",
+      "DRAFT_f0d10cfe185b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

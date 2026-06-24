@@ -1,0 +1,9488 @@
+{
+  "total_nodes": 1852,
+  "text_nodes": [
+    {
+      "name": "BtnShow",
+      "type": "Button",
+      "visible": true,
+      "pos": [
+        0.93148154,
+        0.980746448
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "EventTriggerListener"
+      ],
+      "texture": "UI_Img_Incom_UIBg",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5429264,
+      "text": "Debug"
+    },
+    {
+      "name": "Text",
+      "type": "Text",
+      "visible": true,
+      "pos": [
+        0.93148154,
+        0.97903496
+      ],
+      "size": [
+        0.111111112,
+        0.03422854
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "Debug",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Text"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5429274
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.102907807,
+        0.8166206
+      ],
+      "size": [
+        0.0162393171,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "6",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5632862
+    },
+    {
+      "name": "txt1",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.435054451,
+        0.8359597
+      ],
+      "size": [
+        0.605345,
+        0.03850711
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "将灯塔升到4级(4/4)",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "UIMain_KingdomTaskQuestTxRoll",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5632880
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.253655374,
+        0.026099328
+      ],
+      "size": [
+        0.121283062,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "08:18",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5634392
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.464664757,
+        0.0252434853
+      ],
+      "size": [
+        0.113042042,
+        0.0222485531
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "0/26",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5634456
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.677777767,
+        0.0252434853
+      ],
+      "size": [
+        0.131481484,
+        0.0222485531
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "10.2M",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5634578
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9410256,
+        0.08406527
+      ],
+      "size": [
+        0.0179487187,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "4",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661458
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.12732169
+      ],
+      "size": [
+        0.112820506,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "常规活动",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661468
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9423077,
+        0.15064846
+      ],
+      "size": [
+        0.0153846145,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661660
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.194033116
+      ],
+      "size": [
+        0.112820506,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "超值活动",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661670
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.261076927
+      ],
+      "size": [
+        0.1712963,
+        0.0197472349
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "储值好礼",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661820
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.327926576
+      ],
+      "size": [
+        0.112820506,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "七日登录",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661924
+    },
+    {
+      "name": "time",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7527778,
+        0.12817733
+      ],
+      "size": [
+        0.112820506,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "最强霸主",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5662030
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7821937,
+        0.15064846
+      ],
+      "size": [
+        0.0170940179,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "8",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5662114
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7527778,
+        0.193733633
+      ],
+      "size": [
+        0.112820506,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "孤岛试炼",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5662124
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7527778,
+        0.2603167
+      ],
+      "size": [
+        0.107692309,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -149.987183
+      },
+      "clickable": false,
+      "text": "05:03:27",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow",
+        "ScrollText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5662520
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.286541343,
+        0.05641625
+      ],
+      "size": [
+        0.147008553,
+        0.01711427
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "168,922",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635138
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.0773266852,
+        0.139951974
+      ],
+      "size": [
+        0.05811966,
+        0.0185624
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "VIP1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635314
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.846399367
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "邮件",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639396
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.794885457
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "背包",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639512
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.7433715
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "商店",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639596
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.97101146,
+        0.6613941
+      ],
+      "size": [
+        0.0153846145,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5640266
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.276433349,
+        0.363160521
+      ],
+      "size": [
+        0.551018536,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "建造队列",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663042
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.3904578
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "队列1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663100
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.407144278
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "空闲",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663112
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.4392335
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "队列2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663534
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.455919951
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "<color=#e24848>购买队列</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663546
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.276433349,
+        0.483944535
+      ],
+      "size": [
+        0.551018536,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "士兵训练",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663662
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.5112418
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "士兵训练",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663720
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.527928233
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "空闲",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663732
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.276433349,
+        0.555952847
+      ],
+      "size": [
+        0.551018536,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "科技研究",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5663982
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.5832501
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "队列1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664040
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.599936545
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "空闲",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664052
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.6320258
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "队列2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664174
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.6487122
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "<color=#e24848>购买队列</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664186
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.276433349,
+        0.676736832
+      ],
+      "size": [
+        0.551018536,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "联盟捐献",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664302
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.7040341
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "联盟捐献",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664360
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.7207205
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "<color=#88e44a>可捐献25/25</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664372
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.276433349,
+        0.7487451
+      ],
+      "size": [
+        0.551018536,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "酒馆招募",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664622
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.776042342
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "英雄招募",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664680
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.7927288
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "<color=#88e44a>免费招募</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664692
+    },
+    {
+      "name": "txt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.824818
+      ],
+      "size": [
+        0.398148149,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "岛民招募",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "Shadow",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664814
+    },
+    {
+      "name": "leisure",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.305555582,
+        0.841504455
+      ],
+      "size": [
+        0.398148149,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -100.0
+      },
+      "clickable": false,
+      "text": "<color=#88e44a>免费招募</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5664826
+    },
+    {
+      "name": "Title",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.219370916,
+        0.144179985
+      ],
+      "size": [
+        0.379487157,
+        0.0406793058
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "探险家的试炼",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "ContentSizeFitter",
+        "Gradient2"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718466
+    },
+    {
+      "name": "Txtdesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.34278962,
+        0.175955176
+      ],
+      "size": [
+        0.6263113,
+        0.0246460065
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "提升战力，获取大量奖励！",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718492
+    },
+    {
+      "name": "TimeCountTxt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.203367084,
+        0.2041046
+      ],
+      "size": [
+        0.231481493,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "03:41:17",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718528
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.107366741,
+        0.249810815
+      ],
+      "size": [
+        0.129629642,
+        0.02057991
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "限定",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718560
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.566264749,
+        0.249810815
+      ],
+      "size": [
+        0.7647344,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "提升战力可获得限定灯塔外观：<color=#9B0AC3>新生的庆典</color>",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718568
+    },
+    {
+      "name": "text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9227754,
+        0.161837757
+      ],
+      "size": [
+        0.0925926,
+        0.0194980316
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "查看",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718590
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.351254284
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：100000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719216
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5142877,
+        0.402039766
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719930
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.39074403
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720010,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.380656332,
+        0.4020428
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719786
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719866,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.260286033,
+        0.402039766
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719642
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719722,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.149324059,
+        0.402039766
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719498
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719578,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834350169,
+        0.388778716
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "领取",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719408
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.904422045
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：2000000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724882
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.510441542,
+        0.9552106
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725596
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725676,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.389637262,
+        0.9552075
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725452
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.9439118
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725532,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.2692604,
+        0.9552106
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725308
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725388,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.148896709,
+        0.9552075
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725164
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725244,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.9419495
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725096
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496891648,
+        0.8122284
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "总战力达到：1200000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724058
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5142877,
+        0.863014
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724772
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.8517212
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724852,
+      "text": "总战力达到：5000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.389637262,
+        0.8630109
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724628
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724708,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.2692604,
+        0.863014
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724484
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724564,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.148903325,
+        0.863016963
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724340
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724420,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.849749744
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724272
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.7200348
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：800000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723234
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.510441542,
+        0.7708203
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723948
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.7595246
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724028,
+      "text": "总战力达到：800000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.380656332,
+        0.7708203
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723804
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359493136,
+        0.7595215
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723884,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.260286033,
+        0.770823359
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723660
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.7595246
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723740,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.149324059,
+        0.7708203
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723516
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.759527564
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723596,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.75755614
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723448
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.6278412
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：500000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722410
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5142877,
+        0.678626657
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723124
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.6673279
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723204,
+      "text": "总战力达到：500000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.389637262,
+        0.6786236
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722980
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723060,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.260286033,
+        0.678626657
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722836
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722916,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.149330676,
+        0.678626657
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722692
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722772,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.665362537
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722624
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.535644531
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：400000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721586
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5142877,
+        0.58643
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722300
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.5751343
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722380,
+      "text": "总战力达到：400000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.3896307,
+        0.5864331
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "5",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722156
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722236,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.260286033,
+        0.58643
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722012
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722092,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.149330676,
+        0.586427
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721868
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721948,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834350169,
+        0.573168933
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721800
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.4434479
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "总战力达到：200000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720762
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5142877,
+        0.49423337
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721476
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721556,
+      "text": "总战力达到：200000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.380662918,
+        0.494236469
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721332
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.4829437
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721412,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.260286033,
+        0.494236469
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721188
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721268,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.149324059,
+        0.494236469
+      ],
+      "size": [
+        0.02051282,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721044
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721124,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.48097226
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720976
+    },
+    {
+      "name": "PowerProgressTxt",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.528715551,
+        0.296029657
+      ],
+      "size": [
+        0.6481482,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "168922/5000000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718900
+    },
+    {
+      "name": "TxtDesc",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.496885,
+        0.8394135
+      ],
+      "size": [
+        0.8510104,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "总战力达到：5000000",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718960
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.63035804,
+        0.890202
+      ],
+      "size": [
+        0.02136752,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "3",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720652
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.6002139,
+        0.878903151
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720732,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.5010266,
+        0.890202
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720508
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.479837,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720588,
+      "text": "总战力达到：5000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.380649716,
+        0.890202
+      ],
+      "size": [
+        0.03931624,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "10",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720364
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359473348,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720444,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.256426662,
+        0.890199
+      ],
+      "size": [
+        0.0470085479,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "20",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720220
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.878903151
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720300,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Count",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.153157011,
+        0.890199
+      ],
+      "size": [
+        0.012820513,
+        0.0154028442
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720076
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118732788,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720156,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.876937866
+      ],
+      "size": [
+        0.148148149,
+        0.0321059451
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "前往",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719174
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        -0.04582697,
+        0.0925232247
+      ],
+      "size": [
+        0.294444442,
+        0.0397906825
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "text": "活动日历",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5689884
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.259721726,
+        0.0925232247
+      ],
+      "size": [
+        0.294444442,
+        0.0397906825
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "领地扩张",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5689988
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.3909297,
+        0.07275699
+      ],
+      "size": [
+        0.0153846145,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "2",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690054
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.6964784,
+        0.07275699
+      ],
+      "size": [
+        0.0153846145,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690158
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.8708456,
+        0.09252621
+      ],
+      "size": [
+        0.294444442,
+        0.0397906825
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "鲨鱼入侵",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690196
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        1.17639434,
+        0.09252014
+      ],
+      "size": [
+        0.294444442,
+        0.0397906825
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "text": "要塞争夺战",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690300
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        1.48194969,
+        0.0925232247
+      ],
+      "size": [
+        0.294444442,
+        0.0397906825
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "欢迎礼物",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690404
+    },
+    {
+      "name": "Text",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        1.61313784,
+        0.07275699
+      ],
+      "size": [
+        0.0153846145,
+        0.0188256986
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "1",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "BetterOutline"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690470
+    },
+    {
+      "name": "Title",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.166430324,
+        0.0278107226
+      ],
+      "size": [
+        0.218803421,
+        0.03515008
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "text": "常规活动",
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "BetterOutline",
+        "Shadow"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5689310
+    }
+  ],
+  "clickable_nodes": [
+    {
+      "name": "BtnShow",
+      "type": "Button",
+      "visible": true,
+      "pos": [
+        0.93148154,
+        0.980746448
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "EventTriggerListener"
+      ],
+      "texture": "UI_Img_Incom_UIBg",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5429264,
+      "text": "Debug"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.39074403
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720010,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719866,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719722,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.39074707
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719578,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725676,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.9439118
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725532,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725388,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.9439148
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725244,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.8517212
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724852,
+      "text": "总战力达到：5000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724708,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724564,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.8517181
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724420,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.7595246
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724028,
+      "text": "总战力达到：800000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359493136,
+        0.7595215
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723884,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.7595246
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723740,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.759527564
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723596,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.6673279
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723204,
+      "text": "总战力达到：500000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723060,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722916,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.6673309
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722772,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.5751343
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722380,
+      "text": "总战力达到：400000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722236,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722092,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.5751373
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721948,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721556,
+      "text": "总战力达到：200000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.4829437
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721412,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721268,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.482940674
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721124,
+      "text": "总战力达到：100000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.6002139,
+        0.878903151
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720732,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.479837,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720588,
+      "text": "总战力达到：5000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359473348,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720444,
+      "text": "将灯塔升到4级(4/4)"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.878903151
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720300,
+      "text": "总战力达到：2000000"
+    },
+    {
+      "name": "ClickContent",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118732788,
+        0.87890625
+      ],
+      "size": [
+        0.1851852,
+        0.0855713561
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720156,
+      "text": "总战力达到：2000000"
+    }
+  ],
+  "icon_nodes": [
+    {
+      "name": "Icon_bg",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.3540148,
+        0.8368042
+      ],
+      "size": [
+        0.101851858,
+        0.0470642447
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_bg_5",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5632688
+    },
+    {
+      "name": "Icon_bg",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.06485224,
+        0.8346761
+      ],
+      "size": [
+        0.101851858,
+        0.0470642447
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_bg_5",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5632752
+    },
+    {
+      "name": "Icon1",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.06272265,
+        0.831082165
+      ],
+      "size": [
+        0.15648149,
+        0.0526263826
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "ui_main_icon_3",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5632760
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.0730000138,
+        0.03815266
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "HeroSquareHead20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635044
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.171870351,
+        0.055847168
+      ],
+      "size": [
+        0.06481482,
+        0.0299499743
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "3_common_fighting_bg_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635150
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.0774193,
+        0.12929827
+      ],
+      "size": [
+        0.117592596,
+        0.04920353
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        0.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_24",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635306
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.04074073,
+        0.08685496
+      ],
+      "size": [
+        0.03425926,
+        0.0175421275
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_21",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635406
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.8301409
+      ],
+      "size": [
+        0.103703707,
+        0.04791996
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_10",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639388
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.774947345
+      ],
+      "size": [
+        0.103703707,
+        0.04791996
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639504
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.7221498
+      ],
+      "size": [
+        0.103703707,
+        0.04791996
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_6",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639588
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.675599039
+      ],
+      "size": [
+        0.101851858,
+        0.0470642447
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_25",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5640208
+    },
+    {
+      "name": "ChatIcon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.06666666,
+        0.9104111
+      ],
+      "size": [
+        0.0925926,
+        0.0427856781
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5653666
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.06666666,
+        0.9104111
+      ],
+      "size": [
+        0.0675926,
+        0.02781069
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "ui_main_icon_22",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5653672
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.0543935,
+        0.202740416
+      ],
+      "size": [
+        0.08055556,
+        0.04406925
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "common_clock1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718540
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.3894623
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719904
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.3894623
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719760
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.389459252
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719616
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.3894623
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719472
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.942633033
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725570
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359493136,
+        0.942630053
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_3",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725426
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.942630053
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20312",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725282
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.942630053
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725138
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.8504334
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724746
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.8504334
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_3",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724602
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.8504364
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20312",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724458
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.8504334
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724314
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.758239746
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723922
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.758239746
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_2",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723778
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.758239746
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723634
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.758239746
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723490
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.6660431
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723098
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.666046143
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_2",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722954
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.6660492
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722810
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.1187526,
+        0.666046143
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722666
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.573852539
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722274
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.5738556
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_2",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722130
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.573852539
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721986
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.573852539
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721842
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.4798502,
+        0.4816559
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721450
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.35948655,
+        0.481658936
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721306
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239109665,
+        0.4816559
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20301",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721162
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118745983,
+        0.481658936
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721018
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.07528296,
+        0.29863894
+      ],
+      "size": [
+        0.1712963,
+        0.0765863657
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "3_common_bg_fighting",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718912
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9348084,
+        0.296344
+      ],
+      "size": [
+        0.108333334,
+        0.05219853
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "common_btn_up",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718940
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.6002139,
+        0.877621531
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_Box_4",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720626
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.479837,
+        0.877621531
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_SkillDrill_3",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720482
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.359473348,
+        0.8776245
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_item_hero_debris20402",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720338
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.239103064,
+        0.877621531
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_Item_recruit_hero",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720194
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.118732788,
+        0.8776245
+      ],
+      "size": [
+        0.151851863,
+        0.07016851
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "UI_SkinCity_2",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720050
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.565283656,
+        0.09175416
+      ],
+      "size": [
+        0.237037048,
+        0.109531336
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "260001",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5690126
+    },
+    {
+      "name": "Icon",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9573094,
+        0.0834319741
+      ],
+      "size": [
+        0.0444444455,
+        0.0222485531
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "texture": "3_common_redpoint_2",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5689274
+    }
+  ],
+  "btn_nodes": [
+    {
+      "name": "BtnShow",
+      "type": "Button",
+      "visible": true,
+      "pos": [
+        0.93148154,
+        0.980746448
+      ],
+      "size": [
+        0.111111112,
+        0.021392839
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": true,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "EventTriggerListener"
+      ],
+      "texture": "UI_Img_Incom_UIBg",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5429264,
+      "text": "Debug"
+    },
+    {
+      "name": "ActivityBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.105030321
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "LayoutElement",
+        "HomeIconBaseUI",
+        "RectMask2D",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661350
+    },
+    {
+      "name": "PayBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.17161341
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "LayoutElement",
+        "HomeIconBaseUI",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661486
+    },
+    {
+      "name": "Effect_PayBtn01",
+      "type": "GameObject",
+      "visible": true,
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -12.0452271
+      },
+      "clickable": false,
+      "components": [
+        "Transform"
+      ],
+      "_ilayer": 0,
+      "layer": "Default",
+      "_instanceId": -5661516
+    },
+    {
+      "name": "Effect_PayBtn02",
+      "type": "GameObject",
+      "visible": true,
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -12.0452271
+      },
+      "clickable": false,
+      "components": [
+        "Transform"
+      ],
+      "_ilayer": 0,
+      "layer": "Default",
+      "_instanceId": -5661684
+    },
+    {
+      "name": "OnSaleBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.238196492
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "LayoutElement",
+        "HomeIconBaseUI",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661702
+    },
+    {
+      "name": "SevenDayBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.912036955,
+        0.30477953
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "HomeIconBaseUI",
+        "RectMask2D",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661836
+    },
+    {
+      "name": "BestOverlordBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7527778,
+        0.105030321
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "HomeIconBaseUI",
+        "RectMask2D",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5661942
+    },
+    {
+      "name": "PopUpGiftBtn(Clone)",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.7527778,
+        0.238196492
+      ],
+      "size": [
+        0.140740752,
+        0.0628778338
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "HomeIconBaseUI",
+        "RectMask2D",
+        "AssetRefData"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5662444
+    },
+    {
+      "name": "Btn_layout",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.07741931,
+        0.1292983
+      ],
+      "size": [
+        0.180902138,
+        0.05562138
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        1.0,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "HorizontalLayoutGroup",
+        "ContentSizeFitter"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635204
+    },
+    {
+      "name": "VipBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.07741931,
+        0.1292983
+      ],
+      "size": [
+        0.180902138,
+        0.05562138
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Animation"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635288
+    },
+    {
+      "name": "BuffBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.04074073,
+        0.08685496
+      ],
+      "size": [
+        0.0740740746,
+        0.05562138
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Animation"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5635380
+    },
+    {
+      "name": "MailBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.8352752
+      ],
+      "size": [
+        0.09814815,
+        0.04535282
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWImage",
+        "Animator"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639366
+    },
+    {
+      "name": "BagBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.783761144
+      ],
+      "size": [
+        0.09814815,
+        0.04535282
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Animator"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639450
+    },
+    {
+      "name": "BagBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.783761144
+      ],
+      "size": [
+        0.09814815,
+        0.04535282
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animator"
+      ],
+      "texture": "ui_main_bg_6",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639458
+    },
+    {
+      "name": "ShopBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.732247233
+      ],
+      "size": [
+        0.09814815,
+        0.04535282
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWImage",
+        "Animator"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5639566
+    },
+    {
+      "name": "AllianceBuildBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9303704,
+        0.675599039
+      ],
+      "size": [
+        0.111111112,
+        0.05562138
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -150.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animation"
+      ],
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5640188
+    },
+    {
+      "name": "BtnInfo",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.455407649,
+        0.144183353
+      ],
+      "size": [
+        0.055555556,
+        0.0256714076
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_tip_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718480
+    },
+    {
+      "name": "BtnCheck",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9227754,
+        0.144805863
+      ],
+      "size": [
+        0.07314815,
+        0.0338006876
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "ui_btn_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718578
+    },
+    {
+      "name": "BtnGet",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.391217023
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_yellw_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719396
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.9443848
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5725084
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834350169,
+        0.8521881
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5724260
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.7599945
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5723436
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834350169,
+        0.6678009
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.00012
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5722612
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834350169,
+        0.5756073
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0002441
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5721788
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.483413666
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5720964
+    },
+    {
+      "name": "BtnUp",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.9348084,
+        0.296344
+      ],
+      "size": [
+        0.0833333358,
+        0.03850711
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_up",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5718928
+    },
+    {
+      "name": "BtnGoto",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.834343553,
+        0.879376233
+      ],
+      "size": [
+        0.187800929,
+        0.04509897
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.5,
+        0.5
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_bule_da",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5719162
+    },
+    {
+      "name": "CloseBtn",
+      "type": "Node",
+      "visible": true,
+      "pos": [
+        0.07407573,
+        0.9589288
+      ],
+      "size": [
+        0.0944444463,
+        0.0393628255
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "anchorPoint": [
+        0.0,
+        1.0
+      ],
+      "zOrders": {
+        "global": 0.0,
+        "local": -80.0
+      },
+      "clickable": false,
+      "components": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "texture": "common_btn_quit_1",
+      "_ilayer": 5,
+      "layer": "UI",
+      "_instanceId": -5689282
+    }
+  ],
+  "empty_text_nodes": []
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_devil_attack_time_picker_popup",
+  "displayName": "ui_devil_attack_time_picker_popup",
+  "drafts": {
+    "DRAFT_61448abf3c1b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab",
+      "prefabRoot": "UIDevilAttackTimePickerPopup",
+      "path": "UIDevilAttackTimePickerPopup/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_devil_attack_time_picker_popup",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDevilAttackTimePickerPopup的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab」中的UIDevilAttackTimePickerPopup关闭按钮",
+      "suggestedTestId": "UIDevilAttackTimePickerPopup.CloseBtn",
+      "suggestedSemanticId": "UIDevilAttackTimePickerPopup.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_61448abf3c1b"
+    },
+    "DRAFT_ff182cd35f35": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab",
+      "prefabRoot": "UIDevilAttackTimePickerPopup",
+      "path": "UIDevilAttackTimePickerPopup/Root/BG/Content/TimeChoose/Month/TopScroll/Mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener",
+        "UIDevilAttackTimePickerItem",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_devil_attack_time_picker_popup",
+      "displayName": "项",
+      "chineseDescription": "UIDevilAttackTimePickerPopup的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab」中的UIDevilAttackTimePickerPopup项",
+      "suggestedTestId": "UIDevilAttackTimePickerPopup.Item",
+      "suggestedSemanticId": "UIDevilAttackTimePickerPopup.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ff182cd35f35"
+    },
+    "DRAFT_c429d3ec2a96": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab",
+      "prefabRoot": "UIDevilAttackTimePickerPopup",
+      "path": "UIDevilAttackTimePickerPopup/Root/BG/Content/TimeChoose/Day/TopScroll/Mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "UIDevilAttackTimePickerItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_devil_attack_time_picker_popup",
+      "displayName": "项",
+      "chineseDescription": "UIDevilAttackTimePickerPopup的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab」中的UIDevilAttackTimePickerPopup项",
+      "suggestedTestId": "UIDevilAttackTimePickerPopup.Item",
+      "suggestedSemanticId": "UIDevilAttackTimePickerPopup.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c429d3ec2a96"
+    },
+    "DRAFT_cfb683f2b289": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab",
+      "prefabRoot": "UIDevilAttackTimePickerPopup",
+      "path": "UIDevilAttackTimePickerPopup/Root/BG/Content/TimeChoose/Hour/TopScroll/Mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "UIDevilAttackTimePickerItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_devil_attack_time_picker_popup",
+      "displayName": "项",
+      "chineseDescription": "UIDevilAttackTimePickerPopup的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab」中的UIDevilAttackTimePickerPopup项",
+      "suggestedTestId": "UIDevilAttackTimePickerPopup.Item",
+      "suggestedSemanticId": "UIDevilAttackTimePickerPopup.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cfb683f2b289"
+    },
+    "DRAFT_e6d5ee5f4a9f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab",
+      "prefabRoot": "UIDevilAttackTimePickerPopup",
+      "path": "UIDevilAttackTimePickerPopup/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_devil_attack_time_picker_popup",
+      "displayName": "按钮",
+      "chineseDescription": "UIDevilAttackTimePickerPopup的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIDevilAttackTimePickerPopup.prefab」中的UIDevilAttackTimePickerPopup按钮",
+      "suggestedTestId": "UIDevilAttackTimePickerPopup.Btn",
+      "suggestedSemanticId": "UIDevilAttackTimePickerPopup.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e6d5ee5f4a9f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_61448abf3c1b",
+      "DRAFT_ff182cd35f35",
+      "DRAFT_c429d3ec2a96",
+      "DRAFT_cfb683f2b289",
+      "DRAFT_e6d5ee5f4a9f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "mapping_evidence.page.v1",
+  "pageId": "bag",
+  "items": {
+    "EVIDENCE_bag.equipment.tab.button": "mapping_store/evidence/by_testid/bag/bag.equipment.tab.button.json",
+    "EVIDENCE_bag.gold.source_button": "mapping_store/evidence/by_testid/bag/bag.gold.source_button.json",
+    "EVIDENCE_bag.food.source_button": "mapping_store/evidence/by_testid/bag/bag.food.source_button.json",
+    "EVIDENCE_bag.iron.source_button": "mapping_store/evidence/by_testid/bag/bag.iron.source_button.json",
+    "EVIDENCE_bag.wood.source_button": "mapping_store/evidence/by_testid/bag/bag.wood.source_button.json",
+    "EVIDENCE_bag.prop_item_1.click_area": "mapping_store/evidence/by_testid/bag/bag.prop_item_1.click_area.json",
+    "EVIDENCE_bag.prop_item_2.click_area": "mapping_store/evidence/by_testid/bag/bag.prop_item_2.click_area.json",
+    "EVIDENCE_bag.prop_item_3.click_area": "mapping_store/evidence/by_testid/bag/bag.prop_item_3.click_area.json",
+    "EVIDENCE_bag.prop_item_4.click_area": "mapping_store/evidence/by_testid/bag/bag.prop_item_4.click_area.json",
+    "EVIDENCE_bag.back.button": "mapping_store/evidence/by_testid/bag/bag.back.button.json",
+    "EVIDENCE_bag.use.button": "mapping_store/evidence/by_testid/bag/bag.use.button.json",
+    "EVIDENCE_bag.special.tab.button": "mapping_store/evidence/by_testid/bag/bag.special.tab.button.json",
+    "EVIDENCE_bag.resource.tab.button": "mapping_store/evidence/by_testid/bag/bag.resource.tab.button.json",
+    "EVIDENCE_bag.speedup.tab.button": "mapping_store/evidence/by_testid/bag/bag.speedup.tab.button.json",
+    "EVIDENCE_bag.hero.tab.button": "mapping_store/evidence/by_testid/bag/bag.hero.tab.button.json"
+  },
+  "updated_at": "2026-06-24T10:03:47",
+  "displayName": "背包界面"
+}

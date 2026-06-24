@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "trade_probability",
+  "displayName": "trade_probability",
+  "drafts": {
+    "DRAFT_bc4e9cff33ea": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeProbability.prefab",
+      "prefabRoot": "TradeProbability",
+      "path": "TradeProbability/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_probability",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TradeProbability的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeProbability.prefab」中的TradeProbability关闭按钮",
+      "suggestedTestId": "TradeProbability.CloseBtn",
+      "suggestedSemanticId": "TradeProbability.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bc4e9cff33ea"
+    },
+    "DRAFT_cb9cd960e4ee": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeProbability.prefab",
+      "prefabRoot": "TradeProbability",
+      "path": "TradeProbability/Root/sp_bg/Gobtn",
+      "nodeName": "Gobtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_zhong",
+      "clickable": true,
+      "pageId": "trade_probability",
+      "displayName": "Gobtn",
+      "chineseDescription": "TradeProbability的Gobtn，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeProbability.prefab」中的TradeProbabilityGobtn",
+      "suggestedTestId": "TradeProbability.Gobtn",
+      "suggestedSemanticId": "TradeProbability.Gobtn",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cb9cd960e4ee"
+    },
+    "DRAFT_1134a442778a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeProbability.prefab",
+      "prefabRoot": "Export_TradeProbability",
+      "path": "Export_TradeProbability/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_probability",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Export_TradeProbability的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeProbability.prefab」中的Export_TradeProbability关闭按钮",
+      "suggestedTestId": "Export_TradeProbability.CloseBtn",
+      "suggestedSemanticId": "Export_TradeProbability.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1134a442778a"
+    },
+    "DRAFT_22dad25bd851": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeProbability.prefab",
+      "prefabRoot": "Export_TradeProbability",
+      "path": "Export_TradeProbability/Root/sp_bg/Gobtn",
+      "nodeName": "Gobtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_bule_zhong",
+      "clickable": true,
+      "pageId": "trade_probability",
+      "displayName": "Gobtn",
+      "chineseDescription": "Export_TradeProbability的Gobtn，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeProbability.prefab」中的Export_TradeProbabilityGobtn",
+      "suggestedTestId": "Export_TradeProbability.Gobtn",
+      "suggestedSemanticId": "Export_TradeProbability.Gobtn",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_22dad25bd851"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bc4e9cff33ea",
+      "DRAFT_cb9cd960e4ee",
+      "DRAFT_1134a442778a",
+      "DRAFT_22dad25bd851"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

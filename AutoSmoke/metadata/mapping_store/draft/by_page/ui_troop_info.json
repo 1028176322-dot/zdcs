@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_info",
+  "displayName": "ui_troop_info",
+  "drafts": {
+    "DRAFT_71ad6fcd25d3": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "Mask",
+      "chineseDescription": "UITroopInfo的Mask",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfoMask",
+      "suggestedTestId": "UITroopInfo.Mask",
+      "suggestedSemanticId": "UITroopInfo.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_71ad6fcd25d3"
+    },
+    "DRAFT_0f259485c0fe": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Root/Bg/HeroList/Fetter/btnCamp",
+      "nodeName": "btnCamp",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Troop_buduipeizhi1",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "btnCamp",
+      "chineseDescription": "UITroopInfo的btnCamp，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfobtnCamp",
+      "suggestedTestId": "UITroopInfo.btnCamp",
+      "suggestedSemanticId": "UITroopInfo.btnCamp",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f259485c0fe"
+    },
+    "DRAFT_f91b41ba634b": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Root/Bg/TeamDragonItem/tag/clickBtn",
+      "nodeName": "clickBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "click按钮",
+      "chineseDescription": "UITroopInfo的click按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfoclick按钮",
+      "suggestedTestId": "UITroopInfo.clickBtn",
+      "suggestedSemanticId": "UITroopInfo.click按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f91b41ba634b"
+    },
+    "DRAFT_498b0d210d02": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Root/Buttom/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "Info按钮",
+      "chineseDescription": "UITroopInfo的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfoInfo按钮",
+      "suggestedTestId": "UITroopInfo.InfoBtn",
+      "suggestedSemanticId": "UITroopInfo.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_498b0d210d02"
+    },
+    "DRAFT_9762d394b819": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Root/SoldierTips/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "Mask",
+      "chineseDescription": "UITroopInfo的Mask",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfoMask",
+      "suggestedTestId": "UITroopInfo.Mask",
+      "suggestedSemanticId": "UITroopInfo.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9762d394b819"
+    },
+    "DRAFT_16e628737ff1": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab",
+      "prefabRoot": "UITroopInfo",
+      "path": "UITroopInfo/Root/SoldierTips/list/viewport/Content/Items/ItemSoldier",
+      "nodeName": "ItemSoldier",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "ui_troop_info",
+      "displayName": "项Soldier",
+      "chineseDescription": "UITroopInfo的项Soldier",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UITroopInfo.prefab」中的UITroopInfo项Soldier",
+      "suggestedTestId": "UITroopInfo.ItemSoldier",
+      "suggestedSemanticId": "UITroopInfo.项Soldier",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16e628737ff1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_71ad6fcd25d3",
+      "DRAFT_0f259485c0fe",
+      "DRAFT_f91b41ba634b",
+      "DRAFT_498b0d210d02",
+      "DRAFT_9762d394b819",
+      "DRAFT_16e628737ff1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

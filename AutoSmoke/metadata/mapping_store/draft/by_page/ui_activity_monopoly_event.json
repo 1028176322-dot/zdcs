@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_monopoly_event",
+  "displayName": "ui_activity_monopoly_event",
+  "drafts": {
+    "DRAFT_82663c52f691": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyEvent.prefab",
+      "prefabRoot": "UIActivityMonopolyEvent",
+      "path": "UIActivityMonopolyEvent/Root/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_monopoly_event",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityMonopolyEvent的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMonopolyEvent.prefab」中的UIActivityMonopolyEventClickContent",
+      "suggestedTestId": "UIActivityMonopolyEvent.ClickContent",
+      "suggestedSemanticId": "UIActivityMonopolyEvent.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_82663c52f691"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_82663c52f691"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

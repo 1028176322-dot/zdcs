@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_record",
+  "displayName": "ui_activity_christmas_trees_record",
+  "drafts": {
+    "DRAFT_91a09f4f9d5c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRecord.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRecord",
+      "path": "UIActivityChristmasTreesRecord/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_record",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChristmasTreesRecord的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRecord.prefab」中的UIActivityChristmasTreesRecord关闭按钮",
+      "suggestedTestId": "UIActivityChristmasTreesRecord.CloseBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesRecord.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91a09f4f9d5c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_91a09f4f9d5c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

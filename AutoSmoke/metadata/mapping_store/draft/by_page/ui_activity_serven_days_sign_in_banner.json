@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_serven_days_sign_in_banner",
+  "displayName": "ui_activity_serven_days_sign_in_banner",
+  "drafts": {
+    "DRAFT_119f611ff35e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityServenDaysSignInBanner.prefab",
+      "prefabRoot": "UIActivityServenDaysSignInBanner",
+      "path": "UIActivityServenDaysSignInBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_serven_days_sign_in_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityServenDaysSignInBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityServenDaysSignInBanner.prefab」中的UIActivityServenDaysSignInBannerInfo",
+      "suggestedTestId": "UIActivityServenDaysSignInBanner.Info",
+      "suggestedSemanticId": "UIActivityServenDaysSignInBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_119f611ff35e"
+    },
+    "DRAFT_a92f8dcc2a7f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityServenDaysSignInBanner.prefab",
+      "prefabRoot": "UIActivityServenDaysSignInBanner",
+      "path": "UIActivityServenDaysSignInBanner/particulars",
+      "nodeName": "particulars",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_serven_days_sign_in_banner",
+      "displayName": "particulars",
+      "chineseDescription": "UIActivityServenDaysSignInBanner的particulars",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityServenDaysSignInBanner.prefab」中的UIActivityServenDaysSignInBannerparticulars",
+      "suggestedTestId": "UIActivityServenDaysSignInBanner.particulars",
+      "suggestedSemanticId": "UIActivityServenDaysSignInBanner.particulars",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a92f8dcc2a7f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_119f611ff35e",
+      "DRAFT_a92f8dcc2a7f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

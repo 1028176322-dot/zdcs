@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_tip",
+  "displayName": "ui_troop_tip",
+  "drafts": {
+    "DRAFT_d9e6c7e779a9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UITroopTip.prefab",
+      "prefabRoot": "UITroopTip",
+      "path": "UITroopTip/Layout/Tips/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_troop_tip",
+      "displayName": "Tips",
+      "chineseDescription": "UITroopTip的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UITroopTip.prefab」中的UITroopTipTips",
+      "suggestedTestId": "UITroopTip.Tips",
+      "suggestedSemanticId": "UITroopTip.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d9e6c7e779a9"
+    },
+    "DRAFT_543c2e1d5f47": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UITroopTip.prefab",
+      "prefabRoot": "UITroopTip",
+      "path": "UITroopTip/Layout/TipsBG/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_tip",
+      "displayName": "Mask",
+      "chineseDescription": "UITroopTip的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UITroopTip.prefab」中的UITroopTipMask",
+      "suggestedTestId": "UITroopTip.Mask",
+      "suggestedSemanticId": "UITroopTip.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_543c2e1d5f47"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d9e6c7e779a9",
+      "DRAFT_543c2e1d5f47"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

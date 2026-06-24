@@ -1,0 +1,167 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_battle_arena_guess_pop",
+  "displayName": "ui_battle_arena_guess_pop",
+  "drafts": {
+    "DRAFT_012abfbd8c77": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIBattleArenaGuessPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPop关闭按钮",
+      "suggestedTestId": "UIBattleArenaGuessPop.CloseBtn",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_012abfbd8c77"
+    },
+    "DRAFT_b393c3136c86": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBattleArenaGuessPop的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPopHeadk1",
+      "suggestedTestId": "UIBattleArenaGuessPop.Head_k1",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b393c3136c86"
+    },
+    "DRAFT_014b8a5933eb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/BtnAdd",
+      "nodeName": "BtnAdd",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "按钮Add",
+      "chineseDescription": "UIBattleArenaGuessPop的按钮Add，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPop按钮Add",
+      "suggestedTestId": "UIBattleArenaGuessPop.BtnAdd",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.按钮Add",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_014b8a5933eb"
+    },
+    "DRAFT_4273f1c50735": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/BtnReduce",
+      "nodeName": "BtnReduce",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "按钮Reduce",
+      "chineseDescription": "UIBattleArenaGuessPop的按钮Reduce，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPop按钮Reduce",
+      "suggestedTestId": "UIBattleArenaGuessPop.BtnReduce",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.按钮Reduce",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4273f1c50735"
+    },
+    "DRAFT_f27f6d49d9d8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/Number/BG/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "Num",
+      "chineseDescription": "UIBattleArenaGuessPop的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPopNum",
+      "suggestedTestId": "UIBattleArenaGuessPop.Num",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f27f6d49d9d8"
+    },
+    "DRAFT_9c99ef4e1db5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab",
+      "prefabRoot": "UIBattleArenaGuessPop",
+      "path": "UIBattleArenaGuessPop/Root/Animation/content/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess_pop",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIBattleArenaGuessPop的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuessPop.prefab」中的UIBattleArenaGuessPop购买按钮",
+      "suggestedTestId": "UIBattleArenaGuessPop.BuyBtn",
+      "suggestedSemanticId": "UIBattleArenaGuessPop.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9c99ef4e1db5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_012abfbd8c77",
+      "DRAFT_b393c3136c86",
+      "DRAFT_014b8a5933eb",
+      "DRAFT_4273f1c50735",
+      "DRAFT_f27f6d49d9d8",
+      "DRAFT_9c99ef4e1db5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

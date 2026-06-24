@@ -1,0 +1,58 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.alliance.text",
+  "testId": "character_info.alliance.text",
+  "semanticId": "character_info.alliance.text",
+  "targetName": "角色信息界面联盟文本",
+  "displayName": "角色信息-联盟文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Right/Alliance/Txt",
+    "screenRect": [
+      357,
+      2156,
+      520,
+      2230
+    ],
+    "confirmedTestId": "character_info.alliance.text",
+    "formalRef": "formal://character_info/character_info.alliance.text",
+    "evidenceRef": "EVIDENCE_character_info.alliance.text"
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+    "highlightImage": "screenshots/mapping_review/20260623_195947_highlight.png",
+    "screenRectUsed": [
+      357,
+      2156,
+      520,
+      2230
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T19:59:47",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T20:00:04",
+    "confirmedTestId": "character_info.alliance.text",
+    "formalRef": "formal://character_info/character_info.alliance.text",
+    "evidenceRef": "EVIDENCE_character_info.alliance.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "联盟:",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T20:00:10"
+}

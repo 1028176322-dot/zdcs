@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "common_trophies",
+  "displayName": "common_trophies",
+  "drafts": {
+    "DRAFT_8e2b51dd8e5d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "Mask",
+      "chineseDescription": "Common_Trophies的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_TrophiesMask",
+      "suggestedTestId": "Common_Trophies.Mask",
+      "suggestedSemanticId": "Common_Trophies.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8e2b51dd8e5d"
+    },
+    "DRAFT_f80d458ce5b6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Common_Trophies的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_Trophies关闭按钮",
+      "suggestedTestId": "Common_Trophies.CloseBtn",
+      "suggestedSemanticId": "Common_Trophies.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f80d458ce5b6"
+    },
+    "DRAFT_0f25935f0f67": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Root/BG/Title/TipsBtn",
+      "nodeName": "TipsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "Tips按钮",
+      "chineseDescription": "Common_Trophies的Tips按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_TrophiesTips按钮",
+      "suggestedTestId": "Common_Trophies.TipsBtn",
+      "suggestedSemanticId": "Common_Trophies.Tips按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f25935f0f67"
+    },
+    "DRAFT_b6eea6c7cb1e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Root/BG/Scroll/View/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "Headk1",
+      "chineseDescription": "Common_Trophies的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_TrophiesHeadk1",
+      "suggestedTestId": "Common_Trophies.Head_k1",
+      "suggestedSemanticId": "Common_Trophies.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b6eea6c7cb1e"
+    },
+    "DRAFT_f715ca30a5c5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Root/BG/Scroll/View/Content/Item/AwardScroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "ClickContent",
+      "chineseDescription": "Common_Trophies的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_TrophiesClickContent",
+      "suggestedTestId": "Common_Trophies.ClickContent",
+      "suggestedSemanticId": "Common_Trophies.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f715ca30a5c5"
+    },
+    "DRAFT_5f465c977012": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab",
+      "prefabRoot": "Common_Trophies",
+      "path": "Common_Trophies/Root/BG/BtnGet",
+      "nodeName": "BtnGet",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "common_trophies",
+      "displayName": "按钮Get",
+      "chineseDescription": "Common_Trophies的按钮Get，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/CommonLack/Common_Trophies.prefab」中的Common_Trophies按钮Get",
+      "suggestedTestId": "Common_Trophies.BtnGet",
+      "suggestedSemanticId": "Common_Trophies.按钮Get",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5f465c977012"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_8e2b51dd8e5d",
+      "DRAFT_f80d458ce5b6",
+      "DRAFT_0f25935f0f67",
+      "DRAFT_b6eea6c7cb1e",
+      "DRAFT_f715ca30a5c5",
+      "DRAFT_5f465c977012"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

@@ -1,0 +1,847 @@
+[
+  {
+    "file": "Game\\Activity\\UI\\UIActivityCalendarActItem.cs",
+    "ui_class": "UIActivityCalendarActItem",
+    "base_class": "TFWLoopListViewItem",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "m_btn",
+        "handler": "OnClickTip"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_btn",
+        "type": "Unknown",
+        "likely_name_in_ui": "",
+        "handler": "OnClickTip"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+    "ui_class": "UIKingdomTask_ChapterTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+    "ui_class": "UIKingdomTask_ChapterTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "field_name": "_getRewardBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "getReward",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+    "ui_class": "UIKingdomTask_KingdomTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+    "ui_class": "UIKingdomTask_KingdomTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "field_name": "_getRewardBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "getReward",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MainCityBuildings\\MainCityClearTip.cs",
+    "ui_class": "MainCityClearTipPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "receiveBtn",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "cleanBtn",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnCloseBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "receiveBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "receive",
+        "handler": "OnReceiveBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MainCityBuildings\\MainCityClearTip.cs",
+    "ui_class": "MainCityClearTipPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "receiveBtn",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "cleanBtn",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnCloseBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "receiveBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "receive",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "field_name": "cleanBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "clean",
+        "handler": "OnCleanBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MainCityBuildings\\MainCityClearTip.cs",
+    "ui_class": "MainCityClearTipPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "receiveBtn",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "cleanBtn",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnCloseBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "receiveBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "receive",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "field_name": "cleanBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "clean",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "field_name": "closeButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnCloseBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MiniGame\\UI\\SwitchMapUI.cs",
+    "ui_class": "SwitchMapUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_swithBtn",
+        "handler": "InvokeSwitchEvent"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_swithBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "swith",
+        "handler": "InvokeSwitchEvent"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "field_name": "idleTowerEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "idleTower",
+        "handler": "OnIdleTowerBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "field_name": "idleTowerEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "idleTower",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "field_name": "testButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "test",
+        "handler": "OnTestBtnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "field_name": "idleTowerEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "idleTower",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "field_name": "testButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "test",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "field_name": "addShipBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "addShip",
+        "handler": "GoGetMoreTroop"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "ui_class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "field_name": "idleTowerEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "idleTower",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "field_name": "testButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "test",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "field_name": "addShipBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "addShip",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "field_name": "troops_newEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "troops_new",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedSailingInfoItem.cs",
+    "ui_class": "UnchartedSailingInfoItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_eventTriggerListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_eventTriggerListener",
+        "handler": "OnItemClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_eventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "eventTriggerListener"
+      },
+      {
+        "field_name": "_eventTriggerListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "eventTriggerListener",
+        "handler": "OnItemClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedTaskUI.cs",
+    "ui_class": "UnchartedTaskUIData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnClickClose"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "confirmButton",
+        "handler": "OnClickConfirm"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "getButton",
+        "handler": "OnClickGetRewards"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "closeButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickClose"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedTaskUI.cs",
+    "ui_class": "UnchartedTaskUIData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnClickClose"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "confirmButton",
+        "handler": "OnClickConfirm"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "getButton",
+        "handler": "OnClickGetRewards"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "closeButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickClose"
+      },
+      {
+        "field_name": "confirmButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "confirm",
+        "handler": "OnClickConfirm"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedTaskUI.cs",
+    "ui_class": "UnchartedTaskUIData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnClickClose"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "confirmButton",
+        "handler": "OnClickConfirm"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "getButton",
+        "handler": "OnClickGetRewards"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "closeButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickClose"
+      },
+      {
+        "field_name": "confirmButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "confirm",
+        "handler": "OnClickConfirm"
+      },
+      {
+        "field_name": "getButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "get",
+        "handler": "OnClickGetRewards"
+      }
+    ]
+  }
+]

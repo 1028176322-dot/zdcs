@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_alliancegather",
+  "displayName": "mail_alliancegather",
+  "drafts": {
+    "DRAFT_b70fb0ef8df4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_alliancegather.prefab",
+      "prefabRoot": "mail_alliancegather",
+      "path": "mail_alliancegather/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "mail_alliancegather",
+      "displayName": "按钮Go",
+      "chineseDescription": "mail_alliancegather的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_alliancegather.prefab」中的mail_alliancegather按钮Go",
+      "suggestedTestId": "mail_alliancegather.BtnGo",
+      "suggestedSemanticId": "mail_alliancegather.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b70fb0ef8df4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b70fb0ef8df4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

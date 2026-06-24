@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "object_manual_ui",
+  "displayName": "object_manual_ui",
+  "drafts": {
+    "DRAFT_1ebe6ff8287b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectManualUI.prefab",
+      "prefabRoot": "ObjectManualUI",
+      "path": "ObjectManualUI/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close2",
+      "clickable": true,
+      "pageId": "object_manual_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "ObjectManualUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectManualUI.prefab」中的ObjectManualUI关闭按钮",
+      "suggestedTestId": "ObjectManualUI.CloseBtn",
+      "suggestedSemanticId": "ObjectManualUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ebe6ff8287b"
+    },
+    "DRAFT_90734692f58c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectManualUI.prefab",
+      "prefabRoot": "ObjectManualUI",
+      "path": "ObjectManualUI/Root/Scroll/Mask/Content/ItemPrefab/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "object_manual_ui",
+      "displayName": "BG",
+      "chineseDescription": "ObjectManualUI的BG",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/ObjectManualUI.prefab」中的ObjectManualUIBG",
+      "suggestedTestId": "ObjectManualUI.BG",
+      "suggestedSemanticId": "ObjectManualUI.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_90734692f58c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1ebe6ff8287b",
+      "DRAFT_90734692f58c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

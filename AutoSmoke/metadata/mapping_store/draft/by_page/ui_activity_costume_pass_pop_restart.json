@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_pop_restart",
+  "displayName": "ui_activity_costume_pass_pop_restart",
+  "drafts": {
+    "DRAFT_d4f4433f659a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Restart",
+      "path": "UIActivityCostumePassPop_Restart/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_restart",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Restart的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab」中的UIActivityCostumePassPop_RestartClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Restart.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Restart.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4f4433f659a"
+    },
+    "DRAFT_ca2ffba13449": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Restart",
+      "path": "UIActivityCostumePassPop_Restart/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_restart",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Restart的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab」中的UIActivityCostumePassPop_RestartClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Restart.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Restart.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca2ffba13449"
+    },
+    "DRAFT_fe28cde31c23": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Restart",
+      "path": "UIActivityCostumePassPop_Restart/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_restart",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityCostumePassPop_Restart的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab」中的UIActivityCostumePassPop_RestartGet按钮",
+      "suggestedTestId": "UIActivityCostumePassPop_Restart.GetBtn",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Restart.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe28cde31c23"
+    },
+    "DRAFT_ba13643bad89": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Restart",
+      "path": "UIActivityCostumePassPop_Restart/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_restart",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityCostumePassPop_Restart的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Restart.prefab」中的UIActivityCostumePassPop_RestartTips",
+      "suggestedTestId": "UIActivityCostumePassPop_Restart.Tips",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Restart.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ba13643bad89"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d4f4433f659a",
+      "DRAFT_ca2ffba13449",
+      "DRAFT_fe28cde31c23",
+      "DRAFT_ba13643bad89"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

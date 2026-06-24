@@ -1,0 +1,116 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_battle_arena_guess",
+  "displayName": "ui_battle_arena_guess",
+  "drafts": {
+    "DRAFT_e57abc1fba36": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab",
+      "prefabRoot": "UIBattleArenaGuess",
+      "path": "UIBattleArenaGuess/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIBattleArenaGuess的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab」中的UIBattleArenaGuess关闭按钮",
+      "suggestedTestId": "UIBattleArenaGuess.CloseBtn",
+      "suggestedSemanticId": "UIBattleArenaGuess.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e57abc1fba36"
+    },
+    "DRAFT_700fdf8e080a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab",
+      "prefabRoot": "UIBattleArenaGuess",
+      "path": "UIBattleArenaGuess/Root/Animation/content/Scroll/ViewPort/Content/Items/Info/Win/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBattleArenaGuess的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab」中的UIBattleArenaGuessHeadk1",
+      "suggestedTestId": "UIBattleArenaGuess.Head_k1",
+      "suggestedSemanticId": "UIBattleArenaGuess.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_700fdf8e080a"
+    },
+    "DRAFT_c45560527242": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab",
+      "prefabRoot": "UIBattleArenaGuess",
+      "path": "UIBattleArenaGuess/Root/Animation/content/Scroll/ViewPort/Content/Items/Info/Lost/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBattleArenaGuess的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab」中的UIBattleArenaGuessHeadk1",
+      "suggestedTestId": "UIBattleArenaGuess.Head_k1",
+      "suggestedSemanticId": "UIBattleArenaGuess.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c45560527242"
+    },
+    "DRAFT_ce8529faeb0f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab",
+      "prefabRoot": "UIBattleArenaGuess",
+      "path": "UIBattleArenaGuess/Root/Animation/content/Scroll/ViewPort/Content/Items/Info/Report",
+      "nodeName": "Report",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_battle_arena_guess",
+      "displayName": "Report",
+      "chineseDescription": "UIBattleArenaGuess的Report",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBattleArenaGuess.prefab」中的UIBattleArenaGuessReport",
+      "suggestedTestId": "UIBattleArenaGuess.Report",
+      "suggestedSemanticId": "UIBattleArenaGuess.Report",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ce8529faeb0f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e57abc1fba36",
+      "DRAFT_700fdf8e080a",
+      "DRAFT_c45560527242",
+      "DRAFT_ce8529faeb0f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

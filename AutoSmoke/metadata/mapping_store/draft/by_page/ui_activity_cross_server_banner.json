@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_cross_server_banner",
+  "displayName": "ui_activity_cross_server_banner",
+  "drafts": {
+    "DRAFT_7a52c3687194": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCrossServerBanner.prefab",
+      "prefabRoot": "UIActivityCrossServerBanner",
+      "path": "UIActivityCrossServerBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_cross_server_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCrossServerBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCrossServerBanner.prefab」中的UIActivityCrossServerBannerInfo",
+      "suggestedTestId": "UIActivityCrossServerBanner.Info",
+      "suggestedSemanticId": "UIActivityCrossServerBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7a52c3687194"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7a52c3687194"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

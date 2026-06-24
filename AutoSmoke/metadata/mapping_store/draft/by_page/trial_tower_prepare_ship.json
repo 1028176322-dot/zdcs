@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "trial_tower_prepare_ship",
+  "displayName": "trial_tower_prepare_ship",
+  "drafts": {
+    "DRAFT_e19646f263a5": {
+      "assetPath": "Assets/NewGameDemo/Res/CommonPrefabs/TrialTowerPrepareShip.prefab",
+      "prefabRoot": "TrialTowerPrepareShip",
+      "path": "TrialTowerPrepareShip/CloneRoot/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "trial_tower_prepare_ship",
+      "displayName": "Headk1",
+      "chineseDescription": "TrialTowerPrepareShip的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/CommonPrefabs/TrialTowerPrepareShip.prefab」中的TrialTowerPrepareShipHeadk1",
+      "suggestedTestId": "TrialTowerPrepareShip.Head_k1",
+      "suggestedSemanticId": "TrialTowerPrepareShip.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e19646f263a5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e19646f263a5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

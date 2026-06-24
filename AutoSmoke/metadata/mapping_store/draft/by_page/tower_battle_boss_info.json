@@ -1,0 +1,70 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tower_battle_boss_info",
+  "displayName": "tower_battle_boss_info",
+  "drafts": {
+    "DRAFT_57ec004fc6ec": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBossInfo.prefab",
+      "prefabRoot": "TowerBattleBossInfo",
+      "path": "TowerBattleBossInfo/Root/BG/FirstKillScroll/ViewPort/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tower_battle_boss_info",
+      "displayName": "ClickContent",
+      "chineseDescription": "TowerBattleBossInfo的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroTowerBattle/TowerBattleBossInfo.prefab」中的TowerBattleBossInfoClickContent",
+      "suggestedTestId": "TowerBattleBossInfo.ClickContent",
+      "suggestedSemanticId": "TowerBattleBossInfo.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_57ec004fc6ec"
+    },
+    "DRAFT_c8079905405a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBossInfo.prefab",
+      "prefabRoot": "EXPORT_TowerBattleBossInfo",
+      "path": "EXPORT_TowerBattleBossInfo/Root/BG/FirstKillScroll/ViewPort/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tower_battle_boss_info",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_TowerBattleBossInfo的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroTowerBattle/EXPORT_TowerBattleBossInfo.prefab」中的EXPORT_TowerBattleBossInfoClickContent",
+      "suggestedTestId": "EXPORT_TowerBattleBossInfo.ClickContent",
+      "suggestedSemanticId": "EXPORT_TowerBattleBossInfo.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c8079905405a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_57ec004fc6ec",
+      "DRAFT_c8079905405a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

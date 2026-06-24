@@ -1,0 +1,171 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "1202_ui_resource_supplement",
+  "displayName": "1202_ui_resource_supplement",
+  "drafts": {
+    "DRAFT_fb7566377e72": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/top_content/ReturnBtn",
+      "nodeName": "ReturnBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "Return按钮",
+      "chineseDescription": "1202UI_resource_supplement的Return按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplementReturn按钮",
+      "suggestedTestId": "1202UI_resource_supplement.ReturnBtn",
+      "suggestedSemanticId": "1202UI_resource_supplement.Return按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb7566377e72"
+    },
+    "DRAFT_f85bca8b0799": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/centre_content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "项1",
+      "chineseDescription": "1202UI_resource_supplement的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplement项1",
+      "suggestedTestId": "1202UI_resource_supplement.Item1",
+      "suggestedSemanticId": "1202UI_resource_supplement.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f85bca8b0799"
+    },
+    "DRAFT_259508c9e821": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/centre_content/Item2",
+      "nodeName": "Item2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "项2",
+      "chineseDescription": "1202UI_resource_supplement的项2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplement项2",
+      "suggestedTestId": "1202UI_resource_supplement.Item2",
+      "suggestedSemanticId": "1202UI_resource_supplement.项2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_259508c9e821"
+    },
+    "DRAFT_1024ce9ccfe9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/centre_content/Item3",
+      "nodeName": "Item3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "项3",
+      "chineseDescription": "1202UI_resource_supplement的项3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplement项3",
+      "suggestedTestId": "1202UI_resource_supplement.Item3",
+      "suggestedSemanticId": "1202UI_resource_supplement.项3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1024ce9ccfe9"
+    },
+    "DRAFT_39950b317882": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/centre_content/Item4",
+      "nodeName": "Item4",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "项4",
+      "chineseDescription": "1202UI_resource_supplement的项4",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplement项4",
+      "suggestedTestId": "1202UI_resource_supplement.Item4",
+      "suggestedSemanticId": "1202UI_resource_supplement.项4",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_39950b317882"
+    },
+    "DRAFT_960316a18413": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab",
+      "prefabRoot": "1202UI_resource_supplement",
+      "path": "1202UI_resource_supplement/Root/BG/down_content/receiveBtn",
+      "nodeName": "receiveBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "1202_ui_resource_supplement",
+      "displayName": "receive按钮",
+      "chineseDescription": "1202UI_resource_supplement的receive按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab」中的1202UI_resource_supplementreceive按钮",
+      "suggestedTestId": "1202UI_resource_supplement.receiveBtn",
+      "suggestedSemanticId": "1202UI_resource_supplement.receive按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_960316a18413"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fb7566377e72",
+      "DRAFT_f85bca8b0799",
+      "DRAFT_259508c9e821",
+      "DRAFT_1024ce9ccfe9",
+      "DRAFT_39950b317882",
+      "DRAFT_960316a18413"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

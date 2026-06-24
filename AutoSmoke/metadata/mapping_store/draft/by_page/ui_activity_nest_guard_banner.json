@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_nest_guard_banner",
+  "displayName": "ui_activity_nest_guard_banner",
+  "drafts": {
+    "DRAFT_687cd0eaa853": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuardBanner.prefab",
+      "prefabRoot": "UIActivityNestGuardBanner",
+      "path": "UIActivityNestGuardBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_nest_guard_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityNestGuardBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNestGuardBanner.prefab」中的UIActivityNestGuardBannerInfo",
+      "suggestedTestId": "UIActivityNestGuardBanner.Info",
+      "suggestedSemanticId": "UIActivityNestGuardBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_687cd0eaa853"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_687cd0eaa853"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

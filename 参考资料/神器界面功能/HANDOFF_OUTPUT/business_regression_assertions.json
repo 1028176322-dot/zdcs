@@ -1,0 +1,8 @@
+{
+  "schema_version": "business_regression.assertions.v1",
+  "generated_at": "2026-06-17T18:26:36",
+  "feature_name": "神器界面功能",
+  "matched_rule": "",
+  "status": "SKIP",
+  "checks": []
+}

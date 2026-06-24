@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "alliance_confront_inform_settlement",
+  "displayName": "alliance_confront_inform_settlement",
+  "drafts": {
+    "DRAFT_b550ac3cef7a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/AllianceConfrontInformSettlement.prefab",
+      "prefabRoot": "AllianceConfrontInformSettlement",
+      "path": "AllianceConfrontInformSettlement/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "alliance_confront_inform_settlement",
+      "displayName": "Mask",
+      "chineseDescription": "AllianceConfrontInformSettlement的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/AllianceConfrontInformSettlement.prefab」中的AllianceConfrontInformSettlementMask",
+      "suggestedTestId": "AllianceConfrontInformSettlement.Mask",
+      "suggestedSemanticId": "AllianceConfrontInformSettlement.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b550ac3cef7a"
+    },
+    "DRAFT_24cd90991370": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/AllianceConfrontInformSettlement.prefab",
+      "prefabRoot": "AllianceConfrontInformSettlement",
+      "path": "AllianceConfrontInformSettlement/Root/Bg/MVP/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "alliance_confront_inform_settlement",
+      "displayName": "Headk1",
+      "chineseDescription": "AllianceConfrontInformSettlement的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/AllianceConfront/AllianceConfrontInformSettlement.prefab」中的AllianceConfrontInformSettlementHeadk1",
+      "suggestedTestId": "AllianceConfrontInformSettlement.Head_k1",
+      "suggestedSemanticId": "AllianceConfrontInformSettlement.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24cd90991370"
+    },
+    "DRAFT_7bbb8ca84945": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontInformSettlement.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontInformSettlement",
+      "path": "EXPORT_AllianceConfrontInformSettlement/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "alliance_confront_inform_settlement",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_AllianceConfrontInformSettlement的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontInformSettlement.prefab」中的EXPORT_AllianceConfrontInformSettlementMask",
+      "suggestedTestId": "EXPORT_AllianceConfrontInformSettlement.Mask",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontInformSettlement.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7bbb8ca84945"
+    },
+    "DRAFT_10fe9a5f2f21": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontInformSettlement.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontInformSettlement",
+      "path": "EXPORT_AllianceConfrontInformSettlement/Root/Bg/MVP/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "alliance_confront_inform_settlement",
+      "displayName": "Headk1",
+      "chineseDescription": "EXPORT_AllianceConfrontInformSettlement的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontInformSettlement.prefab」中的EXPORT_AllianceConfrontInformSettlementHeadk1",
+      "suggestedTestId": "EXPORT_AllianceConfrontInformSettlement.Head_k1",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontInformSettlement.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_10fe9a5f2f21"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b550ac3cef7a",
+      "DRAFT_24cd90991370",
+      "DRAFT_7bbb8ca84945",
+      "DRAFT_10fe9a5f2f21"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

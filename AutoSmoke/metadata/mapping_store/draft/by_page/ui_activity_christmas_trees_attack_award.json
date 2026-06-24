@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_attack_award",
+  "displayName": "ui_activity_christmas_trees_attack_award",
+  "drafts": {
+    "DRAFT_ea8d76fcf017": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesAttackAward",
+      "path": "UIActivityChristmasTreesAttackAward/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_attack_award",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChristmasTreesAttackAward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab」中的UIActivityChristmasTreesAttackAward关闭按钮",
+      "suggestedTestId": "UIActivityChristmasTreesAttackAward.CloseBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesAttackAward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ea8d76fcf017"
+    },
+    "DRAFT_be7bb4a108b5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesAttackAward",
+      "path": "UIActivityChristmasTreesAttackAward/Root/Animation/content/Tab/Content/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_attack_award",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityChristmasTreesAttackAward的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab」中的UIActivityChristmasTreesAttackAwardtab1",
+      "suggestedTestId": "UIActivityChristmasTreesAttackAward.tab1",
+      "suggestedSemanticId": "UIActivityChristmasTreesAttackAward.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_be7bb4a108b5"
+    },
+    "DRAFT_80437309cb09": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesAttackAward",
+      "path": "UIActivityChristmasTreesAttackAward/Root/Animation/content/Tab/Content/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_attack_award",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityChristmasTreesAttackAward的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab」中的UIActivityChristmasTreesAttackAwardtab2",
+      "suggestedTestId": "UIActivityChristmasTreesAttackAward.tab2",
+      "suggestedSemanticId": "UIActivityChristmasTreesAttackAward.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_80437309cb09"
+    },
+    "DRAFT_2f8250c6cd5f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesAttackAward",
+      "path": "UIActivityChristmasTreesAttackAward/Root/Animation/content/list1/Viewport/Content/cont1/items/item/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_attack_award",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityChristmasTreesAttackAward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesAttackAward.prefab」中的UIActivityChristmasTreesAttackAwardClickContent",
+      "suggestedTestId": "UIActivityChristmasTreesAttackAward.ClickContent",
+      "suggestedSemanticId": "UIActivityChristmasTreesAttackAward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2f8250c6cd5f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ea8d76fcf017",
+      "DRAFT_be7bb4a108b5",
+      "DRAFT_80437309cb09",
+      "DRAFT_2f8250c6cd5f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

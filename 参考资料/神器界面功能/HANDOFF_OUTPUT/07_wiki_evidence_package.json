@@ -1,0 +1,15 @@
+{
+  "schema_version": "wiki_evidence_package.v1",
+  "generated_at": "2026-06-17T18:26:35",
+  "status": "EMPTY",
+  "connection": {
+    "endpoint": "https://china-win10.tail31bf31.ts.net/mcp",
+    "token_present": true,
+    "error_type": "",
+    "message": ""
+  },
+  "candidate_count": 0,
+  "evidence_count": 0,
+  "candidates": [],
+  "evidence": []
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_lucky_wheel_banner_tc",
+  "displayName": "ui_activity_lucky_wheel_banner_tc",
+  "drafts": {
+    "DRAFT_2d6e77c84aa5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab",
+      "prefabRoot": "UIActivityLuckyWheelBanner_tc",
+      "path": "UIActivityLuckyWheelBanner_tc/Root/Animation/content/BGs/Btn_group/FreeBtn",
+      "nodeName": "FreeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_banner_tc",
+      "displayName": "Free按钮",
+      "chineseDescription": "UIActivityLuckyWheelBanner_tc的Free按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab」中的UIActivityLuckyWheelBanner_tcFree按钮",
+      "suggestedTestId": "UIActivityLuckyWheelBanner_tc.FreeBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelBanner_tc.Free按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d6e77c84aa5"
+    },
+    "DRAFT_e0345cbc326a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab",
+      "prefabRoot": "UIActivityLuckyWheelBanner_tc",
+      "path": "UIActivityLuckyWheelBanner_tc/Root/Animation/content/BGs/Close_button",
+      "nodeName": "Close_button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_banner_tc",
+      "displayName": "关闭button",
+      "chineseDescription": "UIActivityLuckyWheelBanner_tc的关闭button，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab」中的UIActivityLuckyWheelBanner_tc关闭button",
+      "suggestedTestId": "UIActivityLuckyWheelBanner_tc.Close_button",
+      "suggestedSemanticId": "UIActivityLuckyWheelBanner_tc.关闭button",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e0345cbc326a"
+    },
+    "DRAFT_069313d1823f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab",
+      "prefabRoot": "UIActivityLuckyWheelBanner_tc",
+      "path": "UIActivityLuckyWheelBanner_tc/Root/Animation/content/BGs/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_banner_tc",
+      "displayName": "项",
+      "chineseDescription": "UIActivityLuckyWheelBanner_tc的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab」中的UIActivityLuckyWheelBanner_tc项",
+      "suggestedTestId": "UIActivityLuckyWheelBanner_tc.Item",
+      "suggestedSemanticId": "UIActivityLuckyWheelBanner_tc.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_069313d1823f"
+    },
+    "DRAFT_dd0f481c7f41": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab",
+      "prefabRoot": "UIActivityLuckyWheelBanner_tc",
+      "path": "UIActivityLuckyWheelBanner_tc/Root/Animation/content/BGs/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_banner_tc",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityLuckyWheelBanner_tc的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelBanner_tc.prefab」中的UIActivityLuckyWheelBanner_tcClickContent",
+      "suggestedTestId": "UIActivityLuckyWheelBanner_tc.ClickContent",
+      "suggestedSemanticId": "UIActivityLuckyWheelBanner_tc.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd0f481c7f41"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2d6e77c84aa5",
+      "DRAFT_e0345cbc326a",
+      "DRAFT_069313d1823f",
+      "DRAFT_dd0f481c7f41"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

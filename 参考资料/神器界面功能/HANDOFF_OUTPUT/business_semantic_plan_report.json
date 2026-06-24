@@ -1,0 +1,13 @@
+{
+  "schema_version": "business_semantic_plan.report.v1",
+  "generated_at": "2026-06-17T18:26:35",
+  "status": "PASS",
+  "parts": 1,
+  "flows": 1,
+  "configs": 1,
+  "exceptions": 0,
+  "questions": 0,
+  "total_items": 2,
+  "wiki_evidence_status": "EMPTY",
+  "wiki_evidence_count": 0
+}

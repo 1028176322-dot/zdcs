@@ -1,0 +1,1333 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>UI对比报告 - 20260611_101227</title>
+            <style>
+                body { font-family: 'Microsoft YaHei', Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+                .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+                .summary { background: white; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                .section { background: white; padding: 20px; margin: 20px 0; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                .element { 
+                    background: #ecf0f1; 
+                    padding: 10px; 
+                    margin: 10px 0; 
+                    border-left: 4px solid #3498db;
+                    border-radius: 3px;
+                }
+                .element-static { border-left-color: #e74c3c; }
+                .element-runtime { border-left-color: #f39c12; }
+                .element-both { border-left-color: #27ae60; }
+                .stats { display: flex; justify-content: space-around; margin: 20px 0; flex-wrap: wrap; }
+                .stat-box { text-align: center; padding: 20px; background: #ecf0f1; border-radius: 5px; min-width: 120px; margin: 10px; }
+                .stat-number { font-size: 2em; font-weight: bold; color: #2c3e50; }
+                .stat-label { color: #7f8c8d; }
+                .hidden-ui { background: #fff3cd; border-left-color: #ffc107; }
+                .dynamic-ui { background: #d1ecf1; border-left-color: #17a2b8; }
+                pre { background: #2c3e50; color: #ecf0f1; padding: 10px; border-radius: 3px; overflow-x: auto; white-space: pre-wrap; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🔍 UI元素对比报告</h1>
+                <p>生成时间: 2026-06-11 10:12:27</p>
+                <p>对比: 静态代码分析 vs Poco运行时捕获</p>
+            </div>
+            
+            <div class="summary">
+                <h2>📊 统计摘要</h2>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="stat-number">67</div>
+                        <div class="stat-label">静态分析</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">20</div>
+                        <div class="stat-label">运行时捕获</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">两者都存在</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">66</div>
+                        <div class="stat-label">仅静态分析</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">19</div>
+                        <div class="stat-label">仅运行时</div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="section">
+                <h2>⚠️ 只在静态分析中存在 (66) - 可能是隐藏UI</h2>
+                <p>这些UI元素在代码中存在，但当前运行时未捕获到，可能是:</p>
+                <ul>
+                    <li>被SetActive(false)隐藏</li>
+                    <li>需要特定条件才显示</li>
+                    <li>在其它界面中</li>
+                </ul>
+            
+                <div class="element element-static hidden-ui">
+                    <h4>hitbackground</h4>
+                    <pre>类: GuideStoryNarrationUI
+文件: Game\Guid\UI\GuideStoryNarrationUI.cs
+字段: _hitBackground
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>chapterrewardshowitem</h4>
+                    <pre>类: UIKingdomTask_ChapterTaskPage
+文件: Game\KingdomTask\UI\UIKingdomTask_ChapterTaskPage.cs
+字段: _chapterRewardShowItem
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>previewclickevtlistener</h4>
+                    <pre>类: UITradeBoxItem
+文件: Game\TradeShip\UI\UITradeBoxItem.cs
+字段: m_previewClickEvtListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>close</h4>
+                    <pre>类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_closeBtn
+
+类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_closeBtn
+事件处理: OnClickOpenHandle
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>desc</h4>
+                    <pre>类: UITroopCasualtiesModule
+文件: Game\Report\UI\Modules\UITroopCasualtiesModule.cs
+字段: m_descButton
+
+类: UITroopCasualtiesModule
+文件: Game\Report\UI\Modules\UITroopCasualtiesModule.cs
+字段: m_descButton
+事件处理: HandleTipsClicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>listener</h4>
+                    <pre>类: UIActivitySharksAttackConditionItem
+文件: Game\Activity\UI\UIActivitySharksAttackConditionItem.cs
+字段: m_listener
+
+类: UIActivitySharksAttackConditionItem
+文件: Game\Activity\UI\UIActivitySharksAttackConditionItem.cs
+字段: m_listener
+事件处理: OnClick
+
+类: UIActivitySharksAttackDifficultyItem
+文件: Game\Activity\UI\UIActivitySharksAttackDifficultyItem.cs
+字段: m_listener
+
+类: UIActivitySharksAttackDifficultyItem
+文件: Game\Activity\UI\UIActivitySharksAttackDifficultyItem.cs
+字段: m_listener
+事件处理: OnClick
+
+类: UIActivityWheelDiscChangeHeroItem
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDiscChangeHeroItem.cs
+字段: m_listener
+
+类: UIActivityWheelDiscChangeHeroItem
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDiscChangeHeroItem.cs
+字段: m_listener
+事件处理: OnClick
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>bggo2</h4>
+                    <pre>类: UIActivitySharksAttackBossHint
+文件: Game\Activity\UI\UIActivitySharksAttackBossHint.cs
+字段: m_bgGo2
+
+类: UIActivitySharksAttackBossHint
+文件: Game\Activity\UI\UIActivitySharksAttackBossHint.cs
+字段: m_bgGo2
+事件处理: OnClickBg2Handler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>pagetipbtn2</h4>
+                    <pre>类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: PageTipBtn2
+
+类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: PageTipBtn2
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btncheck</h4>
+                    <pre>类: UIActivityWheelDisc
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDisc.cs
+字段: btnCheckEventListener
+事件处理: OnClickHeroInfoHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>touchnode</h4>
+                    <pre>类: UIKingdomTask_DailyTask
+文件: Game\KingdomTask\UI\UIKingdomTask_DailyTask.cs
+字段: touchNode
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>swith</h4>
+                    <pre>类: SwitchMapUI
+文件: Game\MiniGame\UI\SwitchMapUI.cs
+字段: _swithBtn
+事件处理: InvokeSwitchEvent
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btngoto</h4>
+                    <pre>类: UIActivityGatheringMonster
+文件: Game\Activity\UI\UIActivityGatheringMonster.cs
+字段: btnGoto
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>seriousinjurysymbol</h4>
+                    <pre>类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_seriousInjurySymbol
+
+类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_seriousInjurySymbol
+事件处理: HandleTips3Clicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>quickcoolcosteventtriggerlistener</h4>
+                    <pre>类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: QuickCoolCostEventTriggerListener
+
+类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: QuickCoolCostEventTriggerListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>onclickbacklistener2</h4>
+                    <pre>类: HeroDrawShowCardOneUI
+文件: Game\HeroRecruit\UI\HeroDrawShowCardOneUI.cs
+字段: _onclickBackListener2
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>controls</h4>
+                    <pre>类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickCallbtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickPosbtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickPosbtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickRewardBtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickMonsterTipsBtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickBossTipsBtn
+
+类: UIActivityBoneyard
+文件: Game\Activity\UI\UIActivityBoneyard.cs
+字段: _controls
+事件处理: OnClickInfoClick);
+
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIActivityDragonLair
+文件: Game\Activity\UI\UIActivityDragonLair.cs
+字段: _controls
+事件处理: OnClickUseBtn);
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIActivityDragonLair
+文件: Game\Activity\UI\UIActivityDragonLair.cs
+字段: _controls
+事件处理: OnClickGoBtn);
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIActivityGatheringMonsterAwardData
+文件: Game\Activity\UI\UIActivityGatheringMonsterAward.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivityGatheringMonsterIntegralData
+文件: Game\Activity\UI\UIActivityGatheringMonsterIntegral.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivityGatheringMonsterRankingData
+文件: Game\Activity\UI\UIActivityGatheringMonsterRanking.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivityGatheringMonsterRankingData
+文件: Game\Activity\UI\UIActivityGatheringMonsterRanking.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOpenBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOrderBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickOrderBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickCancelBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickJoinAllianceBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickMonsterBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickRewardBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickGradeSelectedBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickLevelSelectedBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickPeopleBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickCoolingBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickGoBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: (g
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickTimeModelBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: //     OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: //     OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: //     OnClickOpenTimePicker
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickGradeSelectedBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: OnClickLevelSelectedBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: //         OnClickGradeSelectedBtn
+
+类: UIActivitySharksAttack
+文件: Game\Activity\UI\UIActivitySharksAttack.cs
+字段: _controls
+事件处理: //         OnClickLevelSelectedBtn
+
+类: UIActivitySharksAttackRankPopupData
+文件: Game\Activity\UI\UIActivitySharksAttackRank.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivitySharksAttackRankPopupData
+文件: Game\Activity\UI\UIActivitySharksAttackRank.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivitySharksAttackReward
+文件: Game\Activity\UI\UIActivitySharksAttackReward.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIActivityStrikeBackRewardPopupData
+文件: Game\Activity\UI\UIActivityStrikeBackReward.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIEquipParticularData
+文件: Game\HeroEquipment\UI\UIEquipParticular.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyPopupData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensify.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIHeroEquipIntensifyTipPopData
+文件: Game\HeroEquipment\UI\UIHeroEquipIntensifyTip.cs
+字段: _controls
+事件处理: Unknown
+
+类: MiniGameMainUI
+文件: Game\MiniGame\UI\MiniGameMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: MiniGameStart
+文件: Game\MiniGame\UI\MiniGameStart.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIMarineExplorationGetData
+文件: Game\SeaExploration\UI\MarineExplorationGet.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIMarineExplorationGetData
+文件: Game\SeaExploration\UI\MarineExplorationGet.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: MarineExplorationMain
+文件: Game\SeaExploration\UI\MarineExplorationMain.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: UnchartedBattleUI
+文件: Game\Uncharted\UI\UnchartedBattleUI.cs
+字段: _controls
+事件处理: Unknown
+
+类: UIVipData
+文件: Game\VIP\UI\UIVip.cs
+字段: _controls
+事件处理: OnClickFreeBtn);
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIVipData
+文件: Game\VIP\UI\UIVip.cs
+字段: _controls
+事件处理: OnClickBuyBtn);
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIVipData
+文件: Game\VIP\UI\UIVip.cs
+字段: _controls
+事件处理: OnClickLevelGiftBgBtn);
+            UIHelper.AddListener(TFW.EventTriggerType.Click
+
+类: UIVipData
+文件: Game\VIP\UI\UIVip.cs
+字段: _controls
+事件处理: OnClickDailyGiftBtn);
+        }
+
+        protected override void RegisterEvent()
+        {
+            EventMgr.RegisterEvent(TEventType.OnUpdateGiftNtf
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>info</h4>
+                    <pre>类: UIBuffSourceModule
+文件: Game\Report\UI\Modules\UIBuffSourceModule.cs
+字段: m_infoButton
+
+类: UIBuffSourceModule
+文件: Game\Report\UI\Modules\UIBuffSourceModule.cs
+字段: m_infoButton
+事件处理: HandleOpenInfoClicked
+
+类: UICompositeModule
+文件: Game\Report\UI\Modules\UICompositeModule.cs
+字段: m_infoButton
+
+类: UICompositeModule
+文件: Game\Report\UI\Modules\UICompositeModule.cs
+字段: m_infoButton
+事件处理: HandleOpenInfoClicked
+
+类: UITroopCasualtiesModule
+文件: Game\Report\UI\Modules\UITroopCasualtiesModule.cs
+字段: m_infoButton
+
+类: UITroopCasualtiesModule
+文件: Game\Report\UI\Modules\UITroopCasualtiesModule.cs
+字段: m_infoButton
+事件处理: HandleOpenInfoClicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>disablelistener</h4>
+                    <pre>类: UIActivitySharksAttackGarrisonDetailsItem
+文件: Game\Activity\UI\UIActivitySharksAttackGarrisonDetailsItem.cs
+字段: m_disableListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>enablelistener</h4>
+                    <pre>类: UIActivitySharksAttackGarrisonDetailsItem
+文件: Game\Activity\UI\UIActivitySharksAttackGarrisonDetailsItem.cs
+字段: m_enableListener
+
+类: UIActivitySharksAttackGarrisonDetailsItem
+文件: Game\Activity\UI\UIActivitySharksAttackGarrisonDetailsItem.cs
+字段: m_enableListener
+事件处理: OnClickEnableHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>deathsymbol</h4>
+                    <pre>类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_deathSymbol
+
+类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_deathSymbol
+事件处理: HandleTips2Clicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>qualityprobabilityeventtriggerlistener</h4>
+                    <pre>类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: QualityProbabilityEventTriggerListener
+
+类: UITradeShip
+文件: Game\TradeShip\UI\UITradeShip.cs
+字段: QualityProbabilityEventTriggerListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>troops_new</h4>
+                    <pre>类: UnchartedMainUI
+文件: Game\Uncharted\UI\UnchartedMainUI.cs
+字段: troops_newEventListener
+事件处理: OnTroopsNewBtnClicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btnclose</h4>
+                    <pre>类: UnchartedMainUI
+文件: Game\Uncharted\UI\UnchartedMainUI.cs
+字段: btnCloseEventListener
+事件处理: OnBackBtnClicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>tipsclosebg</h4>
+                    <pre>类: UIChangeTroopEquips
+文件: Game\TroopsEquip\UI\UIChangeTroopEquips.cs
+字段: m_tipsCloseBgEventListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>rewardclick</h4>
+                    <pre>类: UIActivityBoneyardRewardInfo
+文件: Game\Activity\UI\UIActivityBoneyardRewardInfo.cs
+字段: m_rewardClick
+
+类: UIActivityBoneyardRewardInfo
+文件: Game\Activity\UI\UIActivityBoneyardRewardInfo.cs
+字段: m_rewardClick
+事件处理: OnBoneWaveRewardsClick
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>addship</h4>
+                    <pre>类: UnchartedMainUI
+文件: Game\Uncharted\UI\UnchartedMainUI.cs
+字段: addShipBtnEventListener
+事件处理: GoGetMoreTroop
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>test</h4>
+                    <pre>类: UnchartedMainUI
+文件: Game\Uncharted\UI\UnchartedMainUI.cs
+字段: testButton
+事件处理: OnTestBtnClick
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>open</h4>
+                    <pre>类: UIAltarListTitleItem
+文件: Game\AllianceWar\UI\UIAltarListTitleItem.cs
+字段: m_openBtn
+
+类: UIAltarListTitleItem
+文件: Game\AllianceWar\UI\UIAltarListTitleItem.cs
+字段: m_openBtn
+事件处理: OnClickOpenHandler
+
+类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_openBtn
+
+类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_openBtn
+事件处理: OnClickOpenHandle
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>boxclickevtlistener</h4>
+                    <pre>类: UITradeBoxItem
+文件: Game\TradeShip\UI\UITradeBoxItem.cs
+字段: BoxClickEvtListener
+
+类: UITradeBoxItem
+文件: Game\TradeShip\UI\UITradeBoxItem.cs
+字段: BoxClickEvtListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btnten</h4>
+                    <pre>类: UIActivityWheelDisc
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDisc.cs
+字段: btnTenEventListener
+事件处理: OnClickGachaTenHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>tipgo</h4>
+                    <pre>类: UIKingdomTask_DailyTask
+文件: Game\KingdomTask\UI\UIKingdomTask_DailyTask.cs
+字段: tipGo
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btnone</h4>
+                    <pre>类: UIActivityWheelDisc
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDisc.cs
+字段: btnOneEventListener
+事件处理: OnClickGachaHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>skill</h4>
+                    <pre>类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_skillBtn
+
+类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_skillBtn
+事件处理: OnClickSkillHandle
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>slotobj</h4>
+                    <pre>类: UIChangeTroopArtifacts
+文件: Game\TroopsArtifact\UI\UIChangeTroopArtifacts.cs
+字段: slotObj
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>equip</h4>
+                    <pre>类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_equipBtn
+
+类: UIScoutDefensiveMailModuleItem
+文件: Game\Report\UI\UIScoutDefensiveMailModuleItem.cs
+字段: m_equipBtn
+事件处理: OnClickEquipHandle
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>skipbtnlistener</h4>
+                    <pre>类: GuideSpecialSkipTimeLine
+文件: Game\Guid\UI\GuideSpecialSkipTimeLine.cs
+字段: _skipBtnListener
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>armysymbol</h4>
+                    <pre>类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_armySymbol
+
+类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_armySymbol
+事件处理: HandleTips1Clicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>targettrigger</h4>
+                    <pre>类: BaseGuideUI
+文件: Game\Guid\UI\BaseGuideUI.cs
+字段: targetTrigger
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>getreward</h4>
+                    <pre>类: UIKingdomTask_ChapterTaskItem
+文件: Game\KingdomTask\UI\UIKingdomTask_ChapterTaskItem.cs
+字段: _getRewardBtn
+
+类: UIKingdomTask_ChapterTaskItem
+文件: Game\KingdomTask\UI\UIKingdomTask_ChapterTaskItem.cs
+字段: _getRewardBtn
+事件处理: OnBtnGetRewardClick
+
+类: UIKingdomTask_DailyTaskItem
+文件: Game\KingdomTask\UI\UIKingdomTask_DailyTaskItem.cs
+字段: _getRewardBtn
+
+类: UIKingdomTask_KingdomTaskItem
+文件: Game\KingdomTask\UI\UIKingdomTask_KingdomTaskTaskItem.cs
+字段: _getRewardBtn
+
+类: UIKingdomTask_KingdomTaskItem
+文件: Game\KingdomTask\UI\UIKingdomTask_KingdomTaskTaskItem.cs
+字段: _getRewardBtn
+事件处理: OnBtnGetRewardClick
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>minorwoundsymbol</h4>
+                    <pre>类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_minorWoundSymbol
+
+类: UICasualtiesDetailsModule
+文件: Game\Report\UI\Modules\UICasualtiesDetailsModule.cs
+字段: m_minorWoundSymbol
+事件处理: HandleTips4Clicked
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btninfo</h4>
+                    <pre>类: UIActivityWheelDisc
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDisc.cs
+字段: btnInfoEventListener
+事件处理: OnClickInfoHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btnchange</h4>
+                    <pre>类: UIActivityWheelDisc
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDisc.cs
+字段: btnChangeEventListener
+事件处理: OnClickHeroSwitchHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>mainquestitem</h4>
+                    <pre>类: UIKingdomTask_KingdomTask
+文件: Game\KingdomTask\UI\UIKingdomTask_KingdomTask.cs
+字段: _mainQuestItem
+事件处理: Unknown
+
+类: UIKingdomTask_KingdomTask
+文件: Game\KingdomTask\UI\UIKingdomTask_KingdomTask.cs
+字段: _mainQuestItem
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>signclick</h4>
+                    <pre>类: UIActivityBoneyardRewardInfo
+文件: Game\Activity\UI\UIActivityBoneyardRewardInfo.cs
+字段: m_signClick
+
+类: UIActivityBoneyardRewardInfo
+文件: Game\Activity\UI\UIActivityBoneyardRewardInfo.cs
+字段: m_signClick
+事件处理: OnBoneWaveRewardsClick
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>btngo</h4>
+                    <pre>类: UIActivityGatheringMonsterIntegralData
+文件: Game\Activity\UI\UIActivityGatheringMonsterIntegral.cs
+字段: btnGo
+事件处理: Unknown
+
+类: AllianceConveneMailModule
+文件: Game\Mail\UI\Modules\AllianceConveneMailModule.cs
+字段: m_btnGO
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>bgclosebubble</h4>
+                    <pre>类: UIKingdomTask_ChapterTaskPage
+文件: Game\KingdomTask\UI\UIKingdomTask_ChapterTaskPage.cs
+字段: bgCloseBubble
+事件处理: Unknown
+
+类: UIKingdomTask_DailyTask
+文件: Game\KingdomTask\UI\UIKingdomTask_DailyTask.cs
+字段: bgCloseBubble
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>go</h4>
+                    <pre>类: UIAltarListPortItem
+文件: Game\AllianceWar\UI\UIAltarListPortItem.cs
+字段: m_goBtn
+
+类: UIAltarListPortItem
+文件: Game\AllianceWar\UI\UIAltarListPortItem.cs
+字段: m_goBtn
+事件处理: OnClickCoordinatesHandler
+
+类: UIUnchartedSettlementData
+文件: Game\Uncharted\UI\UnchartedSettlementUI.cs
+字段: goBtn
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>buy</h4>
+                    <pre>类: UIActivityWheelDiscGiftItem
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDiscGiftItem.cs
+字段: m_buyBtn
+
+类: UIActivityWheelDiscGiftItem
+文件: Game\ActivityPay\ActivityWheelDisc\UIActivityWheelDiscGiftItem.cs
+字段: m_buyBtn
+事件处理: OnClickBuyHandler
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>head</h4>
+                    <pre>类: UIPlayerInfoMailModule
+文件: Game\Mail\UI\Modules\UIPlayerInfoMailModule.cs
+字段: m_head
+
+类: UIPlayerInfoMailModule
+文件: Game\Mail\UI\Modules\UIPlayerInfoMailModule.cs
+字段: m_head
+事件处理: OnClickHeadHandle
+
+类: UIRankReportModuleItem
+文件: Game\Report\UI\UIRankReportModuleItem.cs
+字段: m_head
+
+类: UISharkRankReportModuleItem
+文件: Game\Report\UI\UISharkRankReportModuleItem.cs
+字段: m_head
+
+</pre>
+                </div>
+                
+                <div class="element element-static hidden-ui">
+                    <h4>child</h4>
+                    <pre>类: TroopsMainUIData
+文件: Game\Troops\UI\TroopsMainUI.cs
+字段: child
+事件处理: Unknown
+
+</pre>
+                </div>
+                
+            </div>
+            
+            <div class="section">
+                <h2>❓ 只在运行时中存在 (19) - 可能是动态生成UI</h2>
+                <p>这些UI元素在运行时存在，但静态分析中未找到，可能是:</p>
+                <ul>
+                    <li>动态生成的UI</li>
+                    <li>第三方UI库</li>
+                    <li>静态分析未覆盖的代码</li>
+                </ul>
+            
+                <div class="element element-runtime dynamic-ui">
+                    <h4>composebuttonfly</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/composeButtonFly</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>paybtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>popupgiftbtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>tipnode_hudbutton</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/MainCityRoot_3D_2(Clone)/Buildings/tradingship_19/TipNode_HudButton</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>onsalebtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/OnSaleBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>button_go</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/button_go</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>bagbtn</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/BagBtn/BagBtn</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>effect_paybtn01</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)/Img/Effect_PayBtn01</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>buffbtn</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/BuffLayout/BuffBtn</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>btn_layout</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Btn_layout</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>effect_paybtn02</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PayBtn(Clone)/Effect_PayBtn02</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>shopbtn</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/ShopBtn</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>bestoverlordbtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/BestOverlordBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>vipbtn</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Btn_layout/VipBtn</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>btnshow</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>sevendaybtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/SevenDayBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>mailbtn</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/MailBtn</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>button</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/BuffLayout/BuffIcon/Button</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+                <div class="element element-runtime dynamic-ui">
+                    <h4>activitybtn(clone)</h4>
+                    <p>类型: </p>
+                    <p>路径: <code><Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)</code></p>
+                    <p>位置: x=0.000, y=0.000</p>
+                </div>
+                
+            </div>
+            
+            <div class="section">
+                <h2>✅ 两者都存在 (1)</h2>
+                <p>这些UI元素在静态分析和运行时都存在，属于正常UI元素。</p>
+            
+                <div class="element element-both">
+                    <h4>click</h4>
+                    <p>静态分析: 在 2 个类中找到</p>
+                    <p>运行时: 已捕获 (路径: <Root>/UIRoot/1301UI_overview(Clone) [UIOverview]/Root/BG/cont1/sp_mask/Group/4/content/1/Click)</p>
+                </div>
+                
+            </div>
+            
+            <hr>
+            <p><em>报告生成工具: Simple UI Comparator v1.0</em></p>
+        </body>
+        </html>
+        

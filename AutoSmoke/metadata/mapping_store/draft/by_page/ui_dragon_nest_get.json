@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_dragon_nest_get",
+  "displayName": "ui_dragon_nest_get",
+  "drafts": {
+    "DRAFT_a45b087d032e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab",
+      "prefabRoot": "UIDragonNestGet",
+      "path": "UIDragonNestGet/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_nest_get",
+      "displayName": "Mask",
+      "chineseDescription": "UIDragonNestGet的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab」中的UIDragonNestGetMask",
+      "suggestedTestId": "UIDragonNestGet.Mask",
+      "suggestedSemanticId": "UIDragonNestGet.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a45b087d032e"
+    },
+    "DRAFT_3afe0a5d5543": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab",
+      "prefabRoot": "UIDragonNestGet",
+      "path": "UIDragonNestGet/Root/Animation/content/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_dragon_nest_get",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDragonNestGet的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab」中的UIDragonNestGet关闭按钮",
+      "suggestedTestId": "UIDragonNestGet.CloseBtn",
+      "suggestedSemanticId": "UIDragonNestGet.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3afe0a5d5543"
+    },
+    "DRAFT_adb94ada5aa0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab",
+      "prefabRoot": "UIDragonNestGet",
+      "path": "UIDragonNestGet/Root/Animation/content/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_dragon_nest_get",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIDragonNestGet的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab」中的UIDragonNestGetGo按钮",
+      "suggestedTestId": "UIDragonNestGet.GoBtn",
+      "suggestedSemanticId": "UIDragonNestGet.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_adb94ada5aa0"
+    },
+    "DRAFT_794db1ea230a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab",
+      "prefabRoot": "UIDragonNestGet",
+      "path": "UIDragonNestGet/Root/Animation/content/Player/MyInfo/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_dragon_nest_get",
+      "displayName": "Headk1",
+      "chineseDescription": "UIDragonNestGet的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIDragonNestGet.prefab」中的UIDragonNestGetHeadk1",
+      "suggestedTestId": "UIDragonNestGet.Head_k1",
+      "suggestedSemanticId": "UIDragonNestGet.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_794db1ea230a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a45b087d032e",
+      "DRAFT_3afe0a5d5543",
+      "DRAFT_adb94ada5aa0",
+      "DRAFT_794db1ea230a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

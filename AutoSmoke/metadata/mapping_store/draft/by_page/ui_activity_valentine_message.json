@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_valentine_message",
+  "displayName": "ui_activity_valentine_message",
+  "drafts": {
+    "DRAFT_4464788e3c79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab",
+      "prefabRoot": "UIActivityValentineMessage",
+      "path": "UIActivityValentineMessage/Root/Content/Tab/tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_valentine_message",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityValentineMessage的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab」中的UIActivityValentineMessagetab1",
+      "suggestedTestId": "UIActivityValentineMessage.tab1",
+      "suggestedSemanticId": "UIActivityValentineMessage.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4464788e3c79"
+    },
+    "DRAFT_255151f6789c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab",
+      "prefabRoot": "UIActivityValentineMessage",
+      "path": "UIActivityValentineMessage/Root/Content/Tab/tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_valentine_message",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityValentineMessage的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab」中的UIActivityValentineMessagetab2",
+      "suggestedTestId": "UIActivityValentineMessage.tab2",
+      "suggestedSemanticId": "UIActivityValentineMessage.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_255151f6789c"
+    },
+    "DRAFT_17d7c4028c0c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab",
+      "prefabRoot": "UIActivityValentineMessage",
+      "path": "UIActivityValentineMessage/Root/Content/Scroll",
+      "nodeName": "Scroll",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWScrollRect",
+        "TFWImage",
+        "EventTriggerListener",
+        "TFWLoopListView"
+      ],
+      "spriteName": "Background",
+      "clickable": true,
+      "pageId": "ui_activity_valentine_message",
+      "displayName": "Scroll",
+      "chineseDescription": "UIActivityValentineMessage的Scroll",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab」中的UIActivityValentineMessageScroll",
+      "suggestedTestId": "UIActivityValentineMessage.Scroll",
+      "suggestedSemanticId": "UIActivityValentineMessage.Scroll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17d7c4028c0c"
+    },
+    "DRAFT_0a6cfd2fd0cd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab",
+      "prefabRoot": "UIActivityValentineMessage",
+      "path": "UIActivityValentineMessage/Root/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_activity_valentine_message",
+      "displayName": "关闭",
+      "chineseDescription": "UIActivityValentineMessage的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityValentineMessage.prefab」中的UIActivityValentineMessage关闭",
+      "suggestedTestId": "UIActivityValentineMessage.Close",
+      "suggestedSemanticId": "UIActivityValentineMessage.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0a6cfd2fd0cd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4464788e3c79",
+      "DRAFT_255151f6789c",
+      "DRAFT_17d7c4028c0c",
+      "DRAFT_0a6cfd2fd0cd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

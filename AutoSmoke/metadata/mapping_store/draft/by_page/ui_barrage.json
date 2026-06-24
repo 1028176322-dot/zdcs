@@ -1,0 +1,69 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_barrage",
+  "displayName": "ui_barrage",
+  "drafts": {
+    "DRAFT_93bb3bee7b98": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBarrage.prefab",
+      "prefabRoot": "UIBarrage",
+      "path": "UIBarrage/Root/sp_qipao/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText",
+        "LayoutElement",
+        "Outline",
+        "Shadow"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_barrage",
+      "displayName": "你已经激活了此类增益,[#1F620]使用新增益操作按钮",
+      "chineseDescription": "UIBarrage的你已经激活了此类增益,[#1F620]使用新增益操作按钮，文字「你已经激活了此类增益,[#1F620]使用新增益」",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBarrage.prefab」中的UIBarrage你已经激活了此类增益,[#1F620]使用新增益操作按钮，含文字「你已经激活了此类增益,[#1F620]使用新增益」",
+      "suggestedTestId": "UIBarrage.lab.你已经激活了此类增益,[#1F620]使用新增益",
+      "suggestedSemanticId": "UIBarrage.lab.你已经激活了此类增益,[#1F620]使用新增益",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_93bb3bee7b98"
+    },
+    "DRAFT_4282ec87c5a5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBarrage.prefab",
+      "prefabRoot": "UIBarrage",
+      "path": "UIBarrage/Root/sp_qipao/contentTypes",
+      "nodeName": "contentTypes",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "VerticalLayoutGroup",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_barrage",
+      "displayName": "contentTypes",
+      "chineseDescription": "UIBarrage的contentTypes",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UIBarrage.prefab」中的UIBarragecontentTypes",
+      "suggestedTestId": "UIBarrage.contentTypes",
+      "suggestedSemanticId": "UIBarrage.contentTypes",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4282ec87c5a5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_93bb3bee7b98",
+      "DRAFT_4282ec87c5a5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

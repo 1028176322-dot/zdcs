@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_help_speedup",
+  "displayName": "ui_alliance_help_speedup",
+  "drafts": {
+    "DRAFT_1d7412784c69": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab",
+      "prefabRoot": "UIAllianceHelpSpeedup",
+      "path": "UIAllianceHelpSpeedup/Root/TitlPanel/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWImage"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_alliance_help_speedup",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIAllianceHelpSpeedup的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab」中的UIAllianceHelpSpeedup按钮关闭",
+      "suggestedTestId": "UIAllianceHelpSpeedup.BtnClose",
+      "suggestedSemanticId": "UIAllianceHelpSpeedup.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d7412784c69"
+    },
+    "DRAFT_407076e5ff27": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab",
+      "prefabRoot": "UIAllianceHelpSpeedup",
+      "path": "UIAllianceHelpSpeedup/Root/TitlPanel/TipBtn",
+      "nodeName": "TipBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWImage"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_alliance_help_speedup",
+      "displayName": "Tip按钮",
+      "chineseDescription": "UIAllianceHelpSpeedup的Tip按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab」中的UIAllianceHelpSpeedupTip按钮",
+      "suggestedTestId": "UIAllianceHelpSpeedup.TipBtn",
+      "suggestedSemanticId": "UIAllianceHelpSpeedup.Tip按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_407076e5ff27"
+    },
+    "DRAFT_e9ddc498f011": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab",
+      "prefabRoot": "UIAllianceHelpSpeedup",
+      "path": "UIAllianceHelpSpeedup/Root/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_alliance_help_speedup",
+      "displayName": "按钮",
+      "chineseDescription": "UIAllianceHelpSpeedup的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceHelp/UIAllianceHelpSpeedup.prefab」中的UIAllianceHelpSpeedup按钮",
+      "suggestedTestId": "UIAllianceHelpSpeedup.Button",
+      "suggestedSemanticId": "UIAllianceHelpSpeedup.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e9ddc498f011"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1d7412784c69",
+      "DRAFT_407076e5ff27",
+      "DRAFT_e9ddc498f011"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

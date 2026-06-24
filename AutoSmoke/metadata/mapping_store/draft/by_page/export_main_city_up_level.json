@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_up_level",
+  "displayName": "export_main_city_up_level",
+  "drafts": {
+    "DRAFT_3a267e1d9b60": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpLevel.prefab",
+      "prefabRoot": "EXPORT_MainCityUpLevel",
+      "path": "EXPORT_MainCityUpLevel/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "export_main_city_up_level",
+      "displayName": "mask",
+      "chineseDescription": "EXPORT_MainCityUpLevel的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpLevel.prefab」中的EXPORT_MainCityUpLevelmask",
+      "suggestedTestId": "EXPORT_MainCityUpLevel.mask",
+      "suggestedSemanticId": "EXPORT_MainCityUpLevel.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3a267e1d9b60"
+    },
+    "DRAFT_978e8328a773": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpLevel.prefab",
+      "prefabRoot": "EXPORT_MainCityUpLevel",
+      "path": "EXPORT_MainCityUpLevel/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "export_main_city_up_level",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_MainCityUpLevel的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityUpLevel.prefab」中的EXPORT_MainCityUpLevelClick",
+      "suggestedTestId": "EXPORT_MainCityUpLevel.Click",
+      "suggestedSemanticId": "EXPORT_MainCityUpLevel.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_978e8328a773"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3a267e1d9b60",
+      "DRAFT_978e8328a773"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

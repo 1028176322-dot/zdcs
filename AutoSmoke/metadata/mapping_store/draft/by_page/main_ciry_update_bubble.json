@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_update_bubble",
+  "displayName": "main_ciry_update_bubble",
+  "drafts": {
+    "DRAFT_b8a7bd415218": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryUpdateBubble.prefab",
+      "prefabRoot": "MainCiryUpdateBubble",
+      "path": "MainCiryUpdateBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "shengjijiantou",
+      "clickable": true,
+      "pageId": "main_ciry_update_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryUpdateBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryUpdateBubble.prefab」中的MainCiryUpdateBubbletipsdi",
+      "suggestedTestId": "MainCiryUpdateBubble.tips_di",
+      "suggestedSemanticId": "MainCiryUpdateBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8a7bd415218"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b8a7bd415218"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

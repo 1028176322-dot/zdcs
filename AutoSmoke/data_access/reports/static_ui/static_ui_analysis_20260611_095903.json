@@ -1,0 +1,3307 @@
+[
+  {
+    "file": "Game\\Activity\\UI\\UIActivityBoneyard.cs",
+    "class": "UIActivityBoneyard",
+    "base_class": "UIActivityModule",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnSummonEventListener.gameObject",
+        "handler": "OnClickCallbtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.posText.gameObject",
+        "handler": "OnClickPosbtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnGoEventListener.gameObject",
+        "handler": "OnClickPosbtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnRankEventListener.gameObject",
+        "handler": "OnClickRewardBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.boxClickEventListener.gameObject",
+        "handler": "OnClickMonsterTipsBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.bigBoxClickEventListener.gameObject",
+        "handler": "OnClickBossTipsBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnInfoEventListener.gameObject",
+        "handler": "OnClickInfoClick);\n\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "clickGo",
+        "handler": "(g"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "clickGo"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickCallbtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickPosbtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickPosbtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickRewardBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickMonsterTipsBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickBossTipsBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickInfoClick);\n\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "clickGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "clickGo",
+        "handler": "(g"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "clickGo"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityBoneyardRewardInfo.cs",
+    "class": "UIActivityBoneyardRewardInfo",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_signClick",
+      "m_rewardClick"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_signClick",
+        "handler": "OnBoneWaveRewardsClick"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_rewardClick",
+        "handler": "OnBoneWaveRewardsClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_signClick",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "signClick"
+      },
+      {
+        "field_name": "m_rewardClick",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "rewardClick"
+      },
+      {
+        "field_name": "m_signClick",
+        "type": "Unknown",
+        "likely_name_in_ui": "signClick",
+        "handler": "OnBoneWaveRewardsClick"
+      },
+      {
+        "field_name": "m_rewardClick",
+        "type": "Unknown",
+        "likely_name_in_ui": "rewardClick",
+        "handler": "OnBoneWaveRewardsClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityCalendarActItem.cs",
+    "class": "UIActivityCalendarActItem",
+    "base_class": "TFWLoopListViewItem",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "m_btn",
+        "handler": "OnClickTip"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_btn",
+        "type": "Unknown",
+        "likely_name_in_ui": "",
+        "handler": "OnClickTip"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityDragonLair.cs",
+    "class": "UIActivityDragonLair",
+    "base_class": "UIActivityModule",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.useBtnEventListener.gameObject",
+        "handler": "OnClickUseBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.goBtnEventListener.gameObject",
+        "handler": "OnClickGoBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickUseBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickGoBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityGatheringMonster.cs",
+    "class": "UIActivityGatheringMonster",
+    "base_class": "UIActivityModule",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "btnGet",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "btnGoto",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnGet",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnGet",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "btnGoto",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnGoto",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterAward.cs",
+    "class": "UIActivityGatheringMonsterAwardData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterIntegral.cs",
+    "class": "UIActivityGatheringMonsterIntegralData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "btnGo",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "btnGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnGo",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityGatheringMonsterRanking.cs",
+    "class": "UIActivityGatheringMonsterRankingData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttack.cs",
+    "class": "UIActivitySharksAttack",
+    "base_class": "UIActivityModule",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.OpenBtn.gameObject",
+        "handler": "OnClickOpenBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.TipsBtn",
+        "handler": "OnClickTipsBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.LeftBtn",
+        "handler": "OnClickSelectModel"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.RightBtn",
+        "handler": "OnClickSelectModel"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.MonthBG.gameObject",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.HourBG.gameObject",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.MinBG.gameObject",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.OrderBtn.gameObject",
+        "handler": "OnClickOrderBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.hideOrderBtn.gameObject",
+        "handler": "OnClickOrderBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.CancelBtn.gameObject",
+        "handler": "OnClickCancelBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnJoinAllianceObject.gameObject",
+        "handler": "OnClickJoinAllianceBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btn_MonsterEventListener.gameObject",
+        "handler": "OnClickMonsterBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.RewardBtn.gameObject",
+        "handler": "OnClickRewardBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.DifficultyChoseBg.gameObject",
+        "handler": "OnClickGradeSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.LevelChoseBg.gameObject",
+        "handler": "OnClickLevelSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.peopleEventListener.gameObject",
+        "handler": "OnClickPeopleBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnCoolingEventListener.gameObject",
+        "handler": "OnClickCoolingBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnGoEventListener.gameObject",
+        "handler": "OnClickGoBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.BannerTipsBtn.gameObject",
+        "handler": "(g"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnRefreshEventListener.gameObject",
+        "handler": "OnClickTimeModelBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.mTxtNumEventListener.gameObject",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.hTxtNumEventListener.gameObject",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.dTxtNumEventListener.gameObject",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.GradeSelected.gameObject",
+        "handler": "OnClickGradeSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.levelSelected.gameObject",
+        "handler": "OnClickLevelSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.GradeSelected.gameObject",
+        "handler": "//         OnClickGradeSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.levelSelected.gameObject",
+        "handler": "//         OnClickLevelSelectedBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "btn",
+        "handler": "(g"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "btn"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOpenBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOrderBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickOrderBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickCancelBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickJoinAllianceBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickMonsterBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickRewardBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickGradeSelectedBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickLevelSelectedBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickPeopleBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickCoolingBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickGoBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "(g"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickTimeModelBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "//     OnClickOpenTimePicker"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickGradeSelectedBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickLevelSelectedBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "//         OnClickGradeSelectedBtn"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "//         OnClickLevelSelectedBtn"
+      },
+      {
+        "field_name": "btn",
+        "type": "Unknown",
+        "likely_name_in_ui": "",
+        "handler": "(g"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "btn"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackBossHint.cs",
+    "class": "UIActivitySharksAttackBossHint",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_bgGo1",
+      "m_bgGo2"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_bgGo1",
+        "handler": "OnClickBg1Handler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_bgGo2",
+        "handler": "OnClickBg2Handler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_bgGo1",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bgGo1"
+      },
+      {
+        "field_name": "m_bgGo2",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bgGo2"
+      },
+      {
+        "field_name": "m_bgGo1",
+        "type": "Unknown",
+        "likely_name_in_ui": "bgGo1",
+        "handler": "OnClickBg1Handler"
+      },
+      {
+        "field_name": "m_bgGo2",
+        "type": "Unknown",
+        "likely_name_in_ui": "bgGo2",
+        "handler": "OnClickBg2Handler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackConditionItem.cs",
+    "class": "UIActivitySharksAttackConditionItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_listener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_listener",
+        "handler": "OnClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_listener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "listener"
+      },
+      {
+        "field_name": "m_listener",
+        "type": "Unknown",
+        "likely_name_in_ui": "listener",
+        "handler": "OnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackDifficultyItem.cs",
+    "class": "UIActivitySharksAttackDifficultyItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_listener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_listener",
+        "handler": "OnClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_listener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "listener"
+      },
+      {
+        "field_name": "m_listener",
+        "type": "Unknown",
+        "likely_name_in_ui": "listener",
+        "handler": "OnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackGarrisonDetailsItem.cs",
+    "class": "UIActivitySharksAttackGarrisonDetailsItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_disableListener",
+      "m_enableListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_enableListener",
+        "handler": "OnClickEnableHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_disableListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "disableListener"
+      },
+      {
+        "field_name": "m_enableListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "enableListener"
+      },
+      {
+        "field_name": "m_enableListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "enableListener",
+        "handler": "OnClickEnableHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackRank.cs",
+    "class": "UIActivitySharksAttackRankPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivitySharksAttackReward.cs",
+    "class": "UIActivitySharksAttackReward",
+    "base_class": "HistoricPopup",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\UIActivityStrikeBackReward.cs",
+    "class": "UIActivityStrikeBackRewardPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Activity\\UI\\Generate\\UIActivitySharksAttackCoord.cs",
+    "class": "UIActivitySharksAttackCoord",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "btn",
+      "btn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "btn",
+        "handler": "OnClickEnableHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": ""
+      },
+      {
+        "field_name": "btn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": ""
+      },
+      {
+        "field_name": "btn",
+        "type": "Unknown",
+        "likely_name_in_ui": "",
+        "handler": "OnClickEnableHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDisc.cs",
+    "class": "UIActivityWheelDisc",
+    "base_class": "UIActivityModule",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "btnInfoEventListener",
+        "handler": "OnClickInfoHandler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "btnBuyEventListener",
+        "handler": "OnClickGiftHandler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "btnChangeEventListener",
+        "handler": "OnClickHeroSwitchHandler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "btnCheckEventListener",
+        "handler": "OnClickHeroInfoHandler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "btnOneEventListener",
+        "handler": "OnClickGachaHandler"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "btnTenEventListener",
+        "handler": "OnClickGachaTenHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnInfoEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnInfo",
+        "handler": "OnClickInfoHandler"
+      },
+      {
+        "field_name": "btnBuyEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnBuy",
+        "handler": "OnClickGiftHandler"
+      },
+      {
+        "field_name": "btnChangeEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnChange",
+        "handler": "OnClickHeroSwitchHandler"
+      },
+      {
+        "field_name": "btnCheckEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnCheck",
+        "handler": "OnClickHeroInfoHandler"
+      },
+      {
+        "field_name": "btnOneEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnOne",
+        "handler": "OnClickGachaHandler"
+      },
+      {
+        "field_name": "btnTenEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnTen",
+        "handler": "OnClickGachaTenHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscChangeHeroItem.cs",
+    "class": "UIActivityWheelDiscChangeHeroItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_listener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_listener",
+        "handler": "OnClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_listener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "listener"
+      },
+      {
+        "field_name": "m_listener",
+        "type": "Unknown",
+        "likely_name_in_ui": "listener",
+        "handler": "OnClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\ActivityPay\\ActivityWheelDisc\\UIActivityWheelDiscGiftItem.cs",
+    "class": "UIActivityWheelDiscGiftItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_buyBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_buyBtn",
+        "handler": "OnClickBuyHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_buyBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "buy"
+      },
+      {
+        "field_name": "m_buyBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "buy",
+        "handler": "OnClickBuyHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\AllianceWar\\UI\\UIAltarListPortItem.cs",
+    "class": "UIAltarListPortItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_goBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_goBtn",
+        "handler": "OnClickCoordinatesHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_goBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "go"
+      },
+      {
+        "field_name": "m_goBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "go",
+        "handler": "OnClickCoordinatesHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\AllianceWar\\UI\\UIAltarListTitleItem.cs",
+    "class": "UIAltarListTitleItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_openBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_openBtn",
+        "handler": "OnClickOpenHandler"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_openBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "open"
+      },
+      {
+        "field_name": "m_openBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "open",
+        "handler": "OnClickOpenHandler"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Guid\\UI\\BaseGuideUI.cs",
+    "class": "BaseGuideUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [
+      "targetTrigger"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "targetTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "targetTrigger"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Guid\\UI\\GuideSpecialSkipTimeLine.cs",
+    "class": "GuideSpecialSkipTimeLine",
+    "base_class": "UIBase",
+    "event_trigger_fields": [
+      "_skipBtnListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_skipBtn",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_skipBtnListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "skipBtnListener"
+      },
+      {
+        "field_name": "_skipBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "skip",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Guid\\UI\\GuideStoryNarrationUI.cs",
+    "class": "GuideStoryNarrationUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [
+      "_hitBackground"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_hitBackground",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "hitBackground"
+      }
+    ]
+  },
+  {
+    "file": "Game\\HeroEquipment\\UI\\UIEquipParticular.cs",
+    "class": "UIEquipParticularData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify.cs",
+    "class": "UIHeroEquipIntensifyPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensifyTip.cs",
+    "class": "UIHeroEquipIntensifyTipPopData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\HeroEquipment\\UI\\UIHeroEquipIntensify_LineUp.cs",
+    "class": "UIHeroEquipIntensify",
+    "base_class": "",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "heroItem",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "heroItem",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "heroItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "heroItem",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "heroItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "heroItem",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\HeroRecruit\\UI\\HeroDrawShowCardOneUI.cs",
+    "class": "HeroDrawShowCardOneUI",
+    "base_class": "BaseHeroDrawShowCardUI",
+    "event_trigger_fields": [
+      "_onclickBackListener1",
+      "_onclickBackListener2"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_onclickBackListener1",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "onclickBackListener1"
+      },
+      {
+        "field_name": "_onclickBackListener2",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "onclickBackListener2"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskItem.cs",
+    "class": "UIKingdomTask_ChapterTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "field_name": "_getRewardBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "getReward",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_ChapterTaskPage.cs",
+    "class": "UIKingdomTask_ChapterTaskPage",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_chapterRewardShowItem",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "bgCloseBubble",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_chapterRewardShowItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "chapterRewardShowItem",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "bgCloseBubble",
+        "type": "Unknown",
+        "likely_name_in_ui": "bgCloseBubble",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTask.cs",
+    "class": "UIKingdomTask_DailyTask",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "tipGo",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "touchNode",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "awardPoint",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "bgCloseBubble",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "tipGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "tipGo",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "touchNode",
+        "type": "Unknown",
+        "likely_name_in_ui": "touchNode",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "awardPoint",
+        "type": "Unknown",
+        "likely_name_in_ui": "awardPoint",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "bgCloseBubble",
+        "type": "Unknown",
+        "likely_name_in_ui": "bgCloseBubble",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_DailyTaskItem.cs",
+    "class": "UIKingdomTask_DailyTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_gotoBtn",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTask.cs",
+    "class": "UIKingdomTask_KingdomTask",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_mainQuestItem",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_mainQuestItem",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_mainQuestItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "mainQuestItem",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_mainQuestItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "mainQuestItem",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\KingdomTask\\UI\\UIKingdomTask_KingdomTaskTaskItem.cs",
+    "class": "UIKingdomTask_KingdomTaskItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getRewardBtn",
+      "_gotoBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_gotoBtn",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "_getRewardBtn",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getRewardBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "getReward"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "goto"
+      },
+      {
+        "field_name": "_gotoBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "goto",
+        "handler": "OnBtnGoOnClick"
+      },
+      {
+        "field_name": "_getRewardBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "getReward",
+        "handler": "OnBtnGetRewardClick"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Mail\\UI\\UIHeroSkillIcon.cs",
+    "class": "UIHeroSkillIcon",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_clickBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_clickBtn",
+        "handler": "HandleSkillClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_clickBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "click"
+      },
+      {
+        "field_name": "m_clickBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "click",
+        "handler": "HandleSkillClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Mail\\UI\\Modules\\AllianceConveneMailModule.cs",
+    "class": "AllianceConveneMailModule",
+    "base_class": "UIMailModule",
+    "event_trigger_fields": [
+      "m_btnGO"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_btnGO",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGO"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Mail\\UI\\Modules\\UIPlayerInfoMailModule.cs",
+    "class": "UIPlayerInfoMailModule",
+    "base_class": "UIMailModule",
+    "event_trigger_fields": [
+      "m_head"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_head",
+        "handler": "OnClickHeadHandle"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_head",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "head"
+      },
+      {
+        "field_name": "m_head",
+        "type": "Unknown",
+        "likely_name_in_ui": "head",
+        "handler": "OnClickHeadHandle"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Mail\\UI\\Modules\\UIScoutPlayerInfoMailModule.cs",
+    "class": "UIScoutPlayerInfoMailModule",
+    "base_class": "UIMailModule",
+    "event_trigger_fields": [
+      "_jumpToPos"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "_jumpToPos",
+        "handler": "OnClickCoordinate"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_jumpToPos",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "jumpToPos"
+      },
+      {
+        "field_name": "_jumpToPos",
+        "type": "Unknown",
+        "likely_name_in_ui": "jumpToPos",
+        "handler": "OnClickCoordinate"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MiniGame\\UI\\MiniGameMainUI.cs",
+    "class": "MiniGameMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MiniGame\\UI\\MiniGameStart.cs",
+    "class": "MiniGameStart",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\MiniGame\\UI\\SwitchMapUI.cs",
+    "class": "SwitchMapUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_swithBtn",
+        "handler": "InvokeSwitchEvent"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_swithBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "swith",
+        "handler": "InvokeSwitchEvent"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\UIRankReportModuleItem.cs",
+    "class": "UIRankReportModuleItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_head"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_head",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "head"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\UIScoutDefensiveMailModuleItem.cs",
+    "class": "UIScoutDefensiveMailModuleItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_openBtn",
+      "m_closeBtn",
+      "m_equipBtn",
+      "m_skillBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_openBtn",
+        "handler": "OnClickOpenHandle"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_closeBtn",
+        "handler": "OnClickOpenHandle"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_equipBtn",
+        "handler": "OnClickEquipHandle"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_skillBtn",
+        "handler": "OnClickSkillHandle"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_openBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "open"
+      },
+      {
+        "field_name": "m_closeBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "close"
+      },
+      {
+        "field_name": "m_equipBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "equip"
+      },
+      {
+        "field_name": "m_skillBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "skill"
+      },
+      {
+        "field_name": "m_openBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "open",
+        "handler": "OnClickOpenHandle"
+      },
+      {
+        "field_name": "m_closeBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickOpenHandle"
+      },
+      {
+        "field_name": "m_equipBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "equip",
+        "handler": "OnClickEquipHandle"
+      },
+      {
+        "field_name": "m_skillBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "skill",
+        "handler": "OnClickSkillHandle"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\UISharkRankReportModuleItem.cs",
+    "class": "UISharkRankReportModuleItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_head"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_head",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "head"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\Modules\\UIBuffSourceModule.cs",
+    "class": "UIBuffSourceModule",
+    "base_class": "UIReportModule",
+    "event_trigger_fields": [
+      "m_infoButton"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_infoButton",
+        "handler": "HandleOpenInfoClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_infoButton",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "info"
+      },
+      {
+        "field_name": "m_infoButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "info",
+        "handler": "HandleOpenInfoClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\Modules\\UICasualtiesDetailsModule.cs",
+    "class": "UICasualtiesDetailsModule",
+    "base_class": "UIReportModule",
+    "event_trigger_fields": [
+      "m_armySymbol",
+      "m_deathSymbol",
+      "m_seriousInjurySymbol",
+      "m_minorWoundSymbol",
+      "m_remainingSymbol"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_armySymbol",
+        "handler": "HandleTips1Clicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_deathSymbol",
+        "handler": "HandleTips2Clicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_seriousInjurySymbol",
+        "handler": "HandleTips3Clicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_minorWoundSymbol",
+        "handler": "HandleTips4Clicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_remainingSymbol",
+        "handler": "HandleTips5Clicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_armySymbol",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "armySymbol"
+      },
+      {
+        "field_name": "m_deathSymbol",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "deathSymbol"
+      },
+      {
+        "field_name": "m_seriousInjurySymbol",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "seriousInjurySymbol"
+      },
+      {
+        "field_name": "m_minorWoundSymbol",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "minorWoundSymbol"
+      },
+      {
+        "field_name": "m_remainingSymbol",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "remainingSymbol"
+      },
+      {
+        "field_name": "m_armySymbol",
+        "type": "Unknown",
+        "likely_name_in_ui": "armySymbol",
+        "handler": "HandleTips1Clicked"
+      },
+      {
+        "field_name": "m_deathSymbol",
+        "type": "Unknown",
+        "likely_name_in_ui": "deathSymbol",
+        "handler": "HandleTips2Clicked"
+      },
+      {
+        "field_name": "m_seriousInjurySymbol",
+        "type": "Unknown",
+        "likely_name_in_ui": "seriousInjurySymbol",
+        "handler": "HandleTips3Clicked"
+      },
+      {
+        "field_name": "m_minorWoundSymbol",
+        "type": "Unknown",
+        "likely_name_in_ui": "minorWoundSymbol",
+        "handler": "HandleTips4Clicked"
+      },
+      {
+        "field_name": "m_remainingSymbol",
+        "type": "Unknown",
+        "likely_name_in_ui": "remainingSymbol",
+        "handler": "HandleTips5Clicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\Modules\\UICompositeModule.cs",
+    "class": "UICompositeModule",
+    "base_class": "UIReportModule",
+    "event_trigger_fields": [
+      "m_switchButton",
+      "m_infoButton"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_switchButton",
+        "handler": "HandleSwitchClicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_infoButton",
+        "handler": "HandleOpenInfoClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_switchButton",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "switch"
+      },
+      {
+        "field_name": "m_infoButton",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "info"
+      },
+      {
+        "field_name": "m_switchButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "switch",
+        "handler": "HandleSwitchClicked"
+      },
+      {
+        "field_name": "m_infoButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "info",
+        "handler": "HandleOpenInfoClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Report\\UI\\Modules\\UITroopCasualtiesModule.cs",
+    "class": "UITroopCasualtiesModule",
+    "base_class": "UIReportModule",
+    "event_trigger_fields": [
+      "m_infoButton",
+      "m_descButton"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "m_infoButton",
+        "handler": "HandleOpenInfoClicked"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "m_descButton",
+        "handler": "HandleTipsClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_infoButton",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "info"
+      },
+      {
+        "field_name": "m_descButton",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "desc"
+      },
+      {
+        "field_name": "m_infoButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "info",
+        "handler": "HandleOpenInfoClicked"
+      },
+      {
+        "field_name": "m_descButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "desc",
+        "handler": "HandleTipsClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\SeaExploration\\UI\\MarineExplorationGet.cs",
+    "class": "UIMarineExplorationGetData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\SeaExploration\\UI\\MarineExplorationMain.cs",
+    "class": "MarineExplorationMain",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\SeaExploration\\UI\\MarineExplorationRecycle.cs",
+    "class": "UIMarineExplorationRecycleData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "UIHelper",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\TradeShip\\UI\\UITradeBoxItem.cs",
+    "class": "UITradeBoxItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "BoxClickEvtListener",
+      "m_previewClickEvtListener",
+      "BoxClickEvtListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "BoxClickEvtListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "BoxClickEvtListener"
+      },
+      {
+        "field_name": "m_previewClickEvtListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "previewClickEvtListener"
+      },
+      {
+        "field_name": "BoxClickEvtListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "BoxClickEvtListener"
+      }
+    ]
+  },
+  {
+    "file": "Game\\TradeShip\\UI\\UITradeShip.cs",
+    "class": "UITradeShip",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "PageTipBtn1",
+      "PageTipBtn2",
+      "QuickCoolCostEventTriggerListener",
+      "QualityProbabilityEventTriggerListener",
+      "PageTipBtn1",
+      "PageTipBtn2",
+      "QuickCoolCostEventTriggerListener",
+      "QualityProbabilityEventTriggerListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "PageTipBtn1",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "PageTipBtn1"
+      },
+      {
+        "field_name": "PageTipBtn2",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "PageTipBtn2"
+      },
+      {
+        "field_name": "QuickCoolCostEventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickCoolCostEventTriggerListener"
+      },
+      {
+        "field_name": "QualityProbabilityEventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QualityProbabilityEventTriggerListener"
+      },
+      {
+        "field_name": "PageTipBtn1",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "PageTipBtn1"
+      },
+      {
+        "field_name": "PageTipBtn2",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "PageTipBtn2"
+      },
+      {
+        "field_name": "QuickCoolCostEventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickCoolCostEventTriggerListener"
+      },
+      {
+        "field_name": "QualityProbabilityEventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QualityProbabilityEventTriggerListener"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Troops\\UI\\TroopsMainUI.cs",
+    "class": "TroopsMainUIData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "child",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "child",
+        "type": "Unknown",
+        "likely_name_in_ui": "child",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\TroopsArtifact\\UI\\UIChangeTroopArtifacts.cs",
+    "class": "UIChangeTroopArtifacts",
+    "base_class": "HistoricPopupLayer",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "slotObj",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "slotObj",
+        "type": "Unknown",
+        "likely_name_in_ui": "slotObj",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\TroopsEquip\\UI\\UIChangeTroopEquips.cs",
+    "class": "UIChangeTroopEquips",
+    "base_class": "HistoricPopupLayer",
+    "event_trigger_fields": [
+      "m_tipsCloseBgEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_tipsCloseBgEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "tipsCloseBg"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedBattleUI.cs",
+    "class": "UnchartedBattleUI",
+    "base_class": "SceneUI",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_controls",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "Unknown",
+        "likely_name_in_ui": "controls",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedMainUI.cs",
+    "class": "UnchartedMainUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "btnCloseEventListener",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "taskBgBtnEventListener",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "idleTowerEventListener",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "testButton",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "addShipBtnEventListener",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "troops_newEventListener",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnCloseEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnClose",
+        "handler": "OnBackBtnClicked"
+      },
+      {
+        "field_name": "taskBgBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "taskBg",
+        "handler": "OnTreasureBtnClicked"
+      },
+      {
+        "field_name": "idleTowerEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "idleTower",
+        "handler": "OnIdleTowerBtnClicked"
+      },
+      {
+        "field_name": "testButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "test",
+        "handler": "OnTestBtnClick"
+      },
+      {
+        "field_name": "addShipBtnEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "addShip",
+        "handler": "GoGetMoreTroop"
+      },
+      {
+        "field_name": "troops_newEventListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "troops_new",
+        "handler": "OnTroopsNewBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "Game\\Uncharted\\UI\\UnchartedSettlementUI.cs",
+    "class": "UIUnchartedSettlementData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "goBtn",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "goBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "go",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "Game\\VIP\\UI\\UIVip.cs",
+    "class": "UIVipData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.freeBtn.gameObject",
+        "handler": "OnClickFreeBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.giftBuyBtn.gameObject",
+        "handler": "OnClickBuyBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.showBlender.gameObject",
+        "handler": "OnClickLevelGiftBgBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.dailyGiftBtn.gameObject",
+        "handler": "OnClickDailyGiftBtn);\n        }\n\n        protected override void RegisterEvent()\n        {\n            EventMgr.RegisterEvent(TEventType.OnUpdateGiftNtf"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickFreeBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickBuyBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickLevelGiftBgBtn);\n            UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnClickDailyGiftBtn);\n        }\n\n        protected override void RegisterEvent()\n        {\n            EventMgr.RegisterEvent(TEventType.OnUpdateGiftNtf"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      }
+    ]
+  }
+]

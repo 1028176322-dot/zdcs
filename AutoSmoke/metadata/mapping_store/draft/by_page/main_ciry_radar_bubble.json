@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_radar_bubble",
+  "displayName": "main_ciry_radar_bubble",
+  "drafts": {
+    "DRAFT_1d3733acf825": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryRadarBubble.prefab",
+      "prefabRoot": "MainCiryRadarBubble",
+      "path": "MainCiryRadarBubble/RootNode",
+      "nodeName": "RootNode",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_radar_bubble",
+      "displayName": "RootNode",
+      "chineseDescription": "MainCiryRadarBubble的RootNode",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryRadarBubble.prefab」中的MainCiryRadarBubbleRootNode",
+      "suggestedTestId": "MainCiryRadarBubble.RootNode",
+      "suggestedSemanticId": "MainCiryRadarBubble.RootNode",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d3733acf825"
+    },
+    "DRAFT_fecfa54edf0c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryRadarBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryRadarBubble",
+      "path": "EXPORT_MainCiryRadarBubble/RootNode",
+      "nodeName": "RootNode",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_radar_bubble",
+      "displayName": "RootNode",
+      "chineseDescription": "EXPORT_MainCiryRadarBubble的RootNode",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryRadarBubble.prefab」中的EXPORT_MainCiryRadarBubbleRootNode",
+      "suggestedTestId": "EXPORT_MainCiryRadarBubble.RootNode",
+      "suggestedSemanticId": "EXPORT_MainCiryRadarBubble.RootNode",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fecfa54edf0c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1d3733acf825",
+      "DRAFT_fecfa54edf0c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

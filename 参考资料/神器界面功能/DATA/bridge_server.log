@@ -1,0 +1,2 @@
+2026-06-17T18:26:35 START host=127.0.0.1 port=8765 adapter=mock
+2026-06-17T18:26:35 POST /ai mode=text status=200

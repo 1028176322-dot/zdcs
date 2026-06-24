@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_message_pop",
+  "displayName": "ui_message_pop",
+  "drafts": {
+    "DRAFT_0eefdafe5dc2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab",
+      "prefabRoot": "UIMessagePop",
+      "path": "UIMessagePop/CentreOther/Board/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_message_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIMessagePop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab」中的UIMessagePop关闭按钮",
+      "suggestedTestId": "UIMessagePop.CloseBtn",
+      "suggestedSemanticId": "UIMessagePop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0eefdafe5dc2"
+    },
+    "DRAFT_1f94afc1b7aa": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab",
+      "prefabRoot": "UIMessagePop",
+      "path": "UIMessagePop/CentreOther/BtnBlueM1",
+      "nodeName": "BtnBlueM1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_message_pop",
+      "displayName": "按钮BlueM1",
+      "chineseDescription": "UIMessagePop的按钮BlueM1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab」中的UIMessagePop按钮BlueM1",
+      "suggestedTestId": "UIMessagePop.BtnBlueM1",
+      "suggestedSemanticId": "UIMessagePop.按钮BlueM1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1f94afc1b7aa"
+    },
+    "DRAFT_33390ac875f3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab",
+      "prefabRoot": "UIMessagePop",
+      "path": "UIMessagePop/CentreOther/DiamondBtn",
+      "nodeName": "DiamondBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_message_pop",
+      "displayName": "Diamond按钮",
+      "chineseDescription": "UIMessagePop的Diamond按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIMessagePop.prefab」中的UIMessagePopDiamond按钮",
+      "suggestedTestId": "UIMessagePop.DiamondBtn",
+      "suggestedSemanticId": "UIMessagePop.Diamond按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_33390ac875f3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0eefdafe5dc2",
+      "DRAFT_1f94afc1b7aa",
+      "DRAFT_33390ac875f3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_growth_score_stage_up_pop",
+  "displayName": "ui_growth_score_stage_up_pop",
+  "drafts": {
+    "DRAFT_397d5fdceed0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreStageUpPop.prefab",
+      "prefabRoot": "UIGrowthScoreStageUpPop",
+      "path": "UIGrowthScoreStageUpPop/Root/CloseMask",
+      "nodeName": "CloseMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_score_stage_up_pop",
+      "displayName": "关闭Mask",
+      "chineseDescription": "UIGrowthScoreStageUpPop的关闭Mask，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreStageUpPop.prefab」中的UIGrowthScoreStageUpPop关闭Mask",
+      "suggestedTestId": "UIGrowthScoreStageUpPop.CloseMask",
+      "suggestedSemanticId": "UIGrowthScoreStageUpPop.关闭Mask",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_397d5fdceed0"
+    },
+    "DRAFT_7a5615bc6f5d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreStageUpPop.prefab",
+      "prefabRoot": "UIGrowthScoreStageUpPop",
+      "path": "UIGrowthScoreStageUpPop/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_growth_score_stage_up_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGrowthScoreStageUpPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/GrowthScore/UIGrowthScoreStageUpPop.prefab」中的UIGrowthScoreStageUpPop关闭按钮",
+      "suggestedTestId": "UIGrowthScoreStageUpPop.CloseBtn",
+      "suggestedSemanticId": "UIGrowthScoreStageUpPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7a5615bc6f5d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_397d5fdceed0",
+      "DRAFT_7a5615bc6f5d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

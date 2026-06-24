@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_tavern_bubble",
+  "displayName": "main_ciry_tavern_bubble",
+  "drafts": {
+    "DRAFT_7f159bbd0c78": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTavernBubble.prefab",
+      "prefabRoot": "MainCiryTavernBubble",
+      "path": "MainCiryTavernBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_tavern_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryTavernBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTavernBubble.prefab」中的MainCiryTavernBubbletipsdi",
+      "suggestedTestId": "MainCiryTavernBubble.tips_di",
+      "suggestedSemanticId": "MainCiryTavernBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7f159bbd0c78"
+    },
+    "DRAFT_c187ff45e237": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTavernBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryTavernBubble",
+      "path": "EXPORT_MainCiryTavernBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_tavern_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryTavernBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTavernBubble.prefab」中的EXPORT_MainCiryTavernBubbletipsdi",
+      "suggestedTestId": "EXPORT_MainCiryTavernBubble.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryTavernBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c187ff45e237"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7f159bbd0c78",
+      "DRAFT_c187ff45e237"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

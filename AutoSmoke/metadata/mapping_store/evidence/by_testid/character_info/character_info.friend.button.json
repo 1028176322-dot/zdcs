@@ -1,0 +1,62 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.friend.button",
+  "testId": "character_info.friend.button",
+  "semanticId": "character_info.friend.button",
+  "targetName": "角色信息界面好友按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/FriendBtn",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "character_info.friend.button",
+    "formalRef": "formal://character_info/character_info.friend.button",
+    "evidenceRef": "EVIDENCE_character_info.friend.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_203439_highlight.png",
+    "screenRectUsed": [
+      446,
+      2360,
+      618,
+      2531
+    ],
+    "confirmedTestId": "character_info.friend.button",
+    "formalRef": "formal://character_info/character_info.friend.button",
+    "evidenceRef": "EVIDENCE_character_info.friend.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6771590,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+      "screenPoint": [
+        532,
+        86
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "character_info.friend.button",
+    "formalRef": "formal://character_info/character_info.friend.button",
+    "evidenceRef": "EVIDENCE_character_info.friend.button"
+  },
+  "updated_at": "2026-06-23T20:35:08",
+  "displayName": "角色信息-好友按钮",
+  "role": "button",
+  "elementType": "Button"
+}

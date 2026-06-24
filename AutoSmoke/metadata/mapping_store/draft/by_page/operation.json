@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "operation",
+  "displayName": "operation",
+  "drafts": {
+    "DRAFT_19e36ed98236": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/Operation.prefab",
+      "prefabRoot": "Operation",
+      "path": "Operation/GachaNode/WorldCanvas/GachaClickArea",
+      "nodeName": "GachaClickArea",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "operation",
+      "displayName": "GachaClickArea",
+      "chineseDescription": "Operation的GachaClickArea",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/Operation.prefab」中的OperationGachaClickArea",
+      "suggestedTestId": "Operation.GachaClickArea",
+      "suggestedSemanticId": "Operation.GachaClickArea",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_19e36ed98236"
+    },
+    "DRAFT_b98c5296f3bc": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/Operation.prefab",
+      "prefabRoot": "Operation",
+      "path": "Operation/GachaNode/WorldCanvas/UpgradeClickArea",
+      "nodeName": "UpgradeClickArea",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "operation",
+      "displayName": "UpgradeClickArea",
+      "chineseDescription": "Operation的UpgradeClickArea",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/Operation.prefab」中的OperationUpgradeClickArea",
+      "suggestedTestId": "Operation.UpgradeClickArea",
+      "suggestedSemanticId": "Operation.UpgradeClickArea",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b98c5296f3bc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_19e36ed98236",
+      "DRAFT_b98c5296f3bc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": "mapping_index.semantic.v1",
+  "updated_at": "2026-06-24T11:40:42",
+  "items": {
+    "bag.prop_item.click_area": [
+      {
+        "testId": "bag.prop_item.click_area",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.equipment.tab.button": [
+      {
+        "testId": "bag.equipment.tab.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.gold.source_button": [
+      {
+        "testId": "bag.gold.source_button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.food.source_button": [
+      {
+        "testId": "bag.food.source_button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.iron.source_button": [
+      {
+        "testId": "bag.iron.source_button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.wood.source_button": [
+      {
+        "testId": "bag.wood.source_button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.prop_item_1.click_area": [
+      {
+        "testId": "bag.prop_item_1.click_area",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.prop_item_2.click_area": [
+      {
+        "testId": "bag.prop_item_2.click_area",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.prop_item_3.click_area": [
+      {
+        "testId": "bag.prop_item_3.click_area",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.prop_item_4.click_area": [
+      {
+        "testId": "bag.prop_item_4.click_area",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.back.button": [
+      {
+        "testId": "bag.back.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.use.button": [
+      {
+        "testId": "bag.use.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.special.tab.button": [
+      {
+        "testId": "bag.special.tab.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.resource.tab.button": [
+      {
+        "testId": "bag.resource.tab.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.speedup.tab.button": [
+      {
+        "testId": "bag.speedup.tab.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "bag.hero.tab.button": [
+      {
+        "testId": "bag.hero.tab.button",
+        "pageId": "bag",
+        "formalPath": "mapping_store/formal/by_page/bag.json"
+      }
+    ],
+    "character_info.player_power.text": [
+      {
+        "testId": "character_info.player_power.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.main_character_model.model": [
+      {
+        "testId": "character_info.main_character_model.model",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.personalization_settings.button": [
+      {
+        "testId": "character_info.personalization_settings.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.level.text": [
+      {
+        "testId": "character_info.level.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.player_name.text": [
+      {
+        "testId": "character_info.player_name.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.gender.text": [
+      {
+        "testId": "character_info.gender.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.gender.button": [
+      {
+        "testId": "character_info.gender.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.player_rename.button": [
+      {
+        "testId": "character_info.player_rename.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.power.icon": [
+      {
+        "testId": "character_info.power.icon",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.player_server_id.text": [
+      {
+        "testId": "character_info.player_server_id.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.id_label.text": [
+      {
+        "testId": "character_info.id_label.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.id.text": [
+      {
+        "testId": "character_info.id.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.id.button": [
+      {
+        "testId": "character_info.id.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.flag.button": [
+      {
+        "testId": "character_info.flag.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.ranking.button": [
+      {
+        "testId": "character_info.ranking.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.friend.button": [
+      {
+        "testId": "character_info.friend.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.country_label.text": [
+      {
+        "testId": "character_info.country_label.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.alliance.text": [
+      {
+        "testId": "character_info.alliance.text",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.buff.button": [
+      {
+        "testId": "character_info.buff.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "character_info.customer_service.button": [
+      {
+        "testId": "character_info.customer_service.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      }
+    ],
+    "ui.skin.button": [
+      {
+        "testId": "ui.skin.button",
+        "pageId": "character_info",
+        "formalPath": "mapping_store/formal/by_page/character_info.json"
+      },
+      {
+        "testId": "ui.skin.button",
+        "pageId": "unknown",
+        "formalPath": "mapping_store/formal/by_page/ui.json"
+      }
+    ]
+  }
+}

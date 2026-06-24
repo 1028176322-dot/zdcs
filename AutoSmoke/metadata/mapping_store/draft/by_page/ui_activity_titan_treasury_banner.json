@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_titan_treasury_banner",
+  "displayName": "ui_activity_titan_treasury_banner",
+  "drafts": {
+    "DRAFT_8ccc63558277": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTitanTreasuryBanner.prefab",
+      "prefabRoot": "UIActivityTitanTreasuryBanner",
+      "path": "UIActivityTitanTreasuryBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_titan_treasury_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityTitanTreasuryBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityTitanTreasuryBanner.prefab」中的UIActivityTitanTreasuryBannerInfo",
+      "suggestedTestId": "UIActivityTitanTreasuryBanner.Info",
+      "suggestedSemanticId": "UIActivityTitanTreasuryBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8ccc63558277"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_8ccc63558277"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

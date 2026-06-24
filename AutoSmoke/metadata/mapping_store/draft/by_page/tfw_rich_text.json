@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tfw_rich_text",
+  "displayName": "tfw_rich_text",
+  "drafts": {
+    "DRAFT_92326b19b27d": {
+      "assetPath": "Assets/Framework/Script/UI/Component/RichText/Resources/Prefabs/TFWRichText.prefab",
+      "prefabRoot": "TFWRichText",
+      "path": "TFWRichText/Panel_Text/Text",
+      "nodeName": "Text",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tfw_rich_text",
+      "displayName": "文本",
+      "chineseDescription": "TFWRichText的文本",
+      "reviewHint": "Prefab「Assets/Framework/Script/UI/Component/RichText/Resources/Prefabs/TFWRichText.prefab」中的TFWRichText文本",
+      "suggestedTestId": "TFWRichText.Text",
+      "suggestedSemanticId": "TFWRichText.文本",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_92326b19b27d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_92326b19b27d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

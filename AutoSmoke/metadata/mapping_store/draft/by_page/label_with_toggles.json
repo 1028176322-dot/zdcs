@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "label_with_toggles",
+  "displayName": "label_with_toggles",
+  "drafts": {
+    "DRAFT_c48ac2d56821": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/LabelWithToggles.prefab",
+      "prefabRoot": "LabelWithToggles",
+      "path": "LabelWithToggles/ToggleGroup/TogglePanel/Toggle",
+      "nodeName": "Toggle",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Toggle",
+        "AspectRatioFitter"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "label_with_toggles",
+      "displayName": "开关",
+      "chineseDescription": "LabelWithToggles的开关",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/LabelWithToggles.prefab」中的LabelWithToggles开关",
+      "suggestedTestId": "LabelWithToggles.Toggle",
+      "suggestedSemanticId": "LabelWithToggles.开关",
+      "role": "toggle",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c48ac2d56821"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c48ac2d56821"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

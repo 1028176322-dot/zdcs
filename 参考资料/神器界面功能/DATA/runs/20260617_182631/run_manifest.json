@@ -1,0 +1,16 @@
+{
+  "reason": "clean-rerun",
+  "archived_at": "2026-06-17T18:26:31",
+  "files": [
+    "evidence.json",
+    "facts.json",
+    "nodes.json",
+    "ui.json",
+    "flows.json",
+    "vision_requests.json",
+    "cache.json",
+    "id_registry.json",
+    "locks.json"
+  ],
+  "dirs": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "king_war",
+  "displayName": "king_war",
+  "drafts": {
+    "DRAFT_3c5374f608a7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/KingWar.prefab",
+      "prefabRoot": "KingWar",
+      "path": "KingWar",
+      "nodeName": "KingWar",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "IconLanchpadMin",
+      "clickable": true,
+      "pageId": "king_war",
+      "displayName": "KingWar",
+      "chineseDescription": "KingWar的KingWar",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/KingWar.prefab」中的KingWarKingWar",
+      "suggestedTestId": "KingWar.KingWar",
+      "suggestedSemanticId": "KingWar.KingWar",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3c5374f608a7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3c5374f608a7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

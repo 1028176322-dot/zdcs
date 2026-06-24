@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_change_server_get_item",
+  "displayName": "ui_activity_change_server_get_item",
+  "drafts": {
+    "DRAFT_515c79af4c8f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab",
+      "prefabRoot": "UIActivityChangeServerGetItem",
+      "path": "UIActivityChangeServerGetItem/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_get_item",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChangeServerGetItem的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab」中的UIActivityChangeServerGetItem关闭按钮",
+      "suggestedTestId": "UIActivityChangeServerGetItem.CloseBtn",
+      "suggestedSemanticId": "UIActivityChangeServerGetItem.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_515c79af4c8f"
+    },
+    "DRAFT_f2afbc03189c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab",
+      "prefabRoot": "UIActivityChangeServerGetItem",
+      "path": "UIActivityChangeServerGetItem/Root/BG/ItemGrid/Item/cont/BuyOneBtn",
+      "nodeName": "BuyOneBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_get_item",
+      "displayName": "购买One按钮",
+      "chineseDescription": "UIActivityChangeServerGetItem的购买One按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab」中的UIActivityChangeServerGetItem购买One按钮",
+      "suggestedTestId": "UIActivityChangeServerGetItem.BuyOneBtn",
+      "suggestedSemanticId": "UIActivityChangeServerGetItem.购买One按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f2afbc03189c"
+    },
+    "DRAFT_569a3ec36dbb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab",
+      "prefabRoot": "UIActivityChangeServerGetItem",
+      "path": "UIActivityChangeServerGetItem/Root/BG/ScrollView/ViewPort/Content/Item1/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_get_item",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityChangeServerGetItem的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerGetItem.prefab」中的UIActivityChangeServerGetItem按钮",
+      "suggestedTestId": "UIActivityChangeServerGetItem.Button",
+      "suggestedSemanticId": "UIActivityChangeServerGetItem.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_569a3ec36dbb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_515c79af4c8f",
+      "DRAFT_f2afbc03189c",
+      "DRAFT_569a3ec36dbb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

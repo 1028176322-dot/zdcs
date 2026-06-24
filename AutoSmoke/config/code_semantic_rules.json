@@ -1,0 +1,47 @@
+{
+  "schema": "code_semantic_rules/v1",
+  "bindingPatterns": {
+    "lua": [
+      "AddClick\\(%s",
+      "onClick:AddListener",
+      "UIEventListener.Get\\(%s",
+      "RegisterClick\\(\"%s",
+      "self\\.%s\\.onClick",
+      "self\\.%s\\.pointerClick"
+    ],
+    "csharp": [
+      "%s\\.onClick\\.AddListener",
+      "UIEventListener\\.Get\\(%s",
+      "%s\\.onClick\\+="
+    ]
+  },
+  "functionSemantics": [
+    {"pattern": "Close|Back|Cancel|Hide", "actionType": "close_popup", "confidence": 0.8},
+    {"pattern": "Use", "actionType": "use_item", "confidence": 0.7},
+    {"pattern": "Buy|Purchase|Pay|Shop", "actionType": "buy", "confidence": 0.8},
+    {"pattern": "Claim|GetReward|Receive|Award", "actionType": "claim_reward", "confidence": 0.8},
+    {"pattern": "GoTo|Jump|Enter|OpenUI", "actionType": "open_page", "confidence": 0.7},
+    {"pattern": "Tab|SwitchTab|SelectType|OnTab", "actionType": "switch_tab", "confidence": 0.9},
+    {"pattern": "Select|OnSelect|Choose|Pick", "actionType": "select_item", "confidence": 0.7},
+    {"pattern": "Tips|ShowTips|OnTips|Info", "actionType": "show_tips", "confidence": 0.8},
+    {"pattern": "Drag|OnDrag|BeginDrag|EndDrag", "actionType": "drag", "confidence": 0.9},
+    {"pattern": "Scroll|OnScroll|ScrollView", "actionType": "scroll", "confidence": 0.9},
+    {"pattern": "Confirm|Ok|Sure|Yes", "actionType": "confirm", "confidence": 0.8},
+    {"pattern": "Cancel|No|Decline", "actionType": "cancel", "confidence": 0.8}
+  ],
+  "excludeDirs": [
+    "Framework/Debug",
+    "Editor/Debug",
+    "Plugins",
+    "ThirdParty",
+    "Examples"
+  ],
+  "pageTypeRules": {
+    "fullscreen_ui": {"priority": 1, "matchWithinPage": true, "excludeHUD": true},
+    "popup": {"priority": 2, "matchTopmost": true, "checkOverlay": true},
+    "hud": {"priority": 5, "fallbackWhenNoPage": true},
+    "scene": {"priority": 3, "useSceneTree": true},
+    "loading": {"priority": 0, "skipClick": true},
+    "reconnect": {"priority": 0, "skipClick": true}
+  }
+}

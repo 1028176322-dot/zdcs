@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_not_open_tips",
+  "displayName": "ui_not_open_tips",
+  "drafts": {
+    "DRAFT_1981ece71298": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/Tips/UINotOpenTips.prefab",
+      "prefabRoot": "UINotOpenTips",
+      "path": "UINotOpenTips/Root/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_not_open_tips",
+      "displayName": "关闭",
+      "chineseDescription": "UINotOpenTips的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/Tips/UINotOpenTips.prefab」中的UINotOpenTips关闭",
+      "suggestedTestId": "UINotOpenTips.Close",
+      "suggestedSemanticId": "UINotOpenTips.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1981ece71298"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1981ece71298"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

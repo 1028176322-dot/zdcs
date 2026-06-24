@@ -1,0 +1,144 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_particulars",
+  "displayName": "ui_alliance_particulars",
+  "drafts": {
+    "DRAFT_e896a0b22560": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab",
+      "prefabRoot": "UIAllianceParticulars",
+      "path": "UIAllianceParticulars/Root/Animation/content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_particulars",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceParticulars的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab」中的UIAllianceParticulars关闭按钮",
+      "suggestedTestId": "UIAllianceParticulars.CloseBtn",
+      "suggestedSemanticId": "UIAllianceParticulars.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e896a0b22560"
+    },
+    "DRAFT_c28295e5b7a5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab",
+      "prefabRoot": "UIAllianceParticulars",
+      "path": "UIAllianceParticulars/Root/Animation/content/items/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_alliance_particulars",
+      "displayName": "Tips",
+      "chineseDescription": "UIAllianceParticulars的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab」中的UIAllianceParticularsTips",
+      "suggestedTestId": "UIAllianceParticulars.Tips",
+      "suggestedSemanticId": "UIAllianceParticulars.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c28295e5b7a5"
+    },
+    "DRAFT_346555f01f32": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab",
+      "prefabRoot": "UIAllianceParticulars",
+      "path": "UIAllianceParticulars/Root/Animation/content/list/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_particulars",
+      "displayName": "项",
+      "chineseDescription": "UIAllianceParticulars的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab」中的UIAllianceParticulars项",
+      "suggestedTestId": "UIAllianceParticulars.Item",
+      "suggestedSemanticId": "UIAllianceParticulars.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_346555f01f32"
+    },
+    "DRAFT_c849ac04bd5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab",
+      "prefabRoot": "UIAllianceParticulars",
+      "path": "UIAllianceParticulars/Root/Animation/content/list/Viewport/Content/Item/items/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_particulars",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceParticulars的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab」中的UIAllianceParticularsHeadk1",
+      "suggestedTestId": "UIAllianceParticulars.Head_k1",
+      "suggestedSemanticId": "UIAllianceParticulars.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c849ac04bd5e"
+    },
+    "DRAFT_757b09f7cea3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab",
+      "prefabRoot": "UIAllianceParticulars",
+      "path": "UIAllianceParticulars/Root/Animation/Qipao/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "Special_frame",
+      "clickable": true,
+      "pageId": "ui_alliance_particulars",
+      "displayName": "Touch",
+      "chineseDescription": "UIAllianceParticulars的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceFortress/UIAllianceParticulars.prefab」中的UIAllianceParticularsTouch",
+      "suggestedTestId": "UIAllianceParticulars.Touch",
+      "suggestedSemanticId": "UIAllianceParticulars.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_757b09f7cea3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e896a0b22560",
+      "DRAFT_c28295e5b7a5",
+      "DRAFT_346555f01f32",
+      "DRAFT_c849ac04bd5e",
+      "DRAFT_757b09f7cea3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

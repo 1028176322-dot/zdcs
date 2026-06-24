@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_zvz_preheat_banner",
+  "displayName": "ui_activity_zvz_preheat_banner",
+  "drafts": {
+    "DRAFT_692084bbb344": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZPreheatBanner.prefab",
+      "prefabRoot": "UIActivityZVZPreheatBanner",
+      "path": "UIActivityZVZPreheatBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_preheat_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityZVZPreheatBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZPreheatBanner.prefab」中的UIActivityZVZPreheatBannerInfo",
+      "suggestedTestId": "UIActivityZVZPreheatBanner.Info",
+      "suggestedSemanticId": "UIActivityZVZPreheatBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_692084bbb344"
+    },
+    "DRAFT_20ac741ee39f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZPreheatBanner.prefab",
+      "prefabRoot": "UIActivityZVZPreheatBanner",
+      "path": "UIActivityZVZPreheatBanner/RankBtn",
+      "nodeName": "RankBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Activity_ZVZ_2",
+      "clickable": true,
+      "pageId": "ui_activity_zvz_preheat_banner",
+      "displayName": "Rank按钮",
+      "chineseDescription": "UIActivityZVZPreheatBanner的Rank按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityZVZPreheatBanner.prefab」中的UIActivityZVZPreheatBannerRank按钮",
+      "suggestedTestId": "UIActivityZVZPreheatBanner.RankBtn",
+      "suggestedSemanticId": "UIActivityZVZPreheatBanner.Rank按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_20ac741ee39f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_692084bbb344",
+      "DRAFT_20ac741ee39f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

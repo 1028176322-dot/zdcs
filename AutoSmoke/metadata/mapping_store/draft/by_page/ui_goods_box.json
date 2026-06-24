@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_goods_box",
+  "displayName": "ui_goods_box",
+  "drafts": {
+    "DRAFT_24ffce951ef8": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/GoodsBox/UIGoodsBox.prefab",
+      "prefabRoot": "UIGoodsBox",
+      "path": "UIGoodsBox/Root/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_goods_box",
+      "displayName": "关闭",
+      "chineseDescription": "UIGoodsBox的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/GoodsBox/UIGoodsBox.prefab」中的UIGoodsBox关闭",
+      "suggestedTestId": "UIGoodsBox.Close",
+      "suggestedSemanticId": "UIGoodsBox.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24ffce951ef8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_24ffce951ef8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

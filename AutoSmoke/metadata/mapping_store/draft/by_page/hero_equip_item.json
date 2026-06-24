@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_equip_item",
+  "displayName": "hero_equip_item",
+  "drafts": {
+    "DRAFT_0bfef1ac591f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/HeroEquipItem.prefab",
+      "prefabRoot": "HeroEquipItem",
+      "path": "HeroEquipItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "hero_equip_item",
+      "displayName": "ClickContent",
+      "chineseDescription": "HeroEquipItem的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/HeroEquipItem.prefab」中的HeroEquipItemClickContent",
+      "suggestedTestId": "HeroEquipItem.ClickContent",
+      "suggestedSemanticId": "HeroEquipItem.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0bfef1ac591f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0bfef1ac591f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

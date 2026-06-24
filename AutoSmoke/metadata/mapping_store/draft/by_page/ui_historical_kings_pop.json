@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_historical_kings_pop",
+  "displayName": "ui_historical_kings_pop",
+  "drafts": {
+    "DRAFT_17b425d59565": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIHistoricalKingsPop.prefab",
+      "prefabRoot": "UIHistoricalKingsPop",
+      "path": "UIHistoricalKingsPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_historical_kings_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIHistoricalKingsPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIHistoricalKingsPop.prefab」中的UIHistoricalKingsPop关闭按钮",
+      "suggestedTestId": "UIHistoricalKingsPop.CloseBtn",
+      "suggestedSemanticId": "UIHistoricalKingsPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17b425d59565"
+    },
+    "DRAFT_f56d42f083c0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIHistoricalKingsPop.prefab",
+      "prefabRoot": "UIHistoricalKingsPop",
+      "path": "UIHistoricalKingsPop/Root/ScrollView/ViewPort/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_historical_kings_pop",
+      "displayName": "Headk1",
+      "chineseDescription": "UIHistoricalKingsPop的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIHistoricalKingsPop.prefab」中的UIHistoricalKingsPopHeadk1",
+      "suggestedTestId": "UIHistoricalKingsPop.Head_k1",
+      "suggestedSemanticId": "UIHistoricalKingsPop.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f56d42f083c0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_17b425d59565",
+      "DRAFT_f56d42f083c0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

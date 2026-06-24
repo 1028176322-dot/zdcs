@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_arena_settlement",
+  "displayName": "ui_arena_settlement",
+  "drafts": {
+    "DRAFT_7845cb2483f1": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Settlement/UIArenaSettlement.prefab",
+      "prefabRoot": "UIArenaSettlement",
+      "path": "UIArenaSettlement/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_arena_settlement",
+      "displayName": "Touch",
+      "chineseDescription": "UIArenaSettlement的Touch",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Settlement/UIArenaSettlement.prefab」中的UIArenaSettlementTouch",
+      "suggestedTestId": "UIArenaSettlement.Touch",
+      "suggestedSemanticId": "UIArenaSettlement.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7845cb2483f1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7845cb2483f1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

@@ -1,0 +1,15 @@
+{
+  "requestId": "click_20260624_103824_536046",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-24T10:38:32",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -7588974,
+    "debugOverlayBypassed": false,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

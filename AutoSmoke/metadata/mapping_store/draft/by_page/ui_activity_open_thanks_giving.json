@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_open_thanks_giving",
+  "displayName": "ui_activity_open_thanks_giving",
+  "drafts": {
+    "DRAFT_f54f260804d3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab",
+      "prefabRoot": "UIActivityOpen_ThanksGiving",
+      "path": "UIActivityOpen_ThanksGiving/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_open_thanks_giving",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityOpen_ThanksGiving的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab」中的UIActivityOpen_ThanksGivingGo按钮",
+      "suggestedTestId": "UIActivityOpen_ThanksGiving.GoBtn",
+      "suggestedSemanticId": "UIActivityOpen_ThanksGiving.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f54f260804d3"
+    },
+    "DRAFT_7e0e56ad14f8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab",
+      "prefabRoot": "UIActivityOpen_ThanksGiving",
+      "path": "UIActivityOpen_ThanksGiving/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_open_thanks_giving",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityOpen_ThanksGiving的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab」中的UIActivityOpen_ThanksGiving关闭按钮",
+      "suggestedTestId": "UIActivityOpen_ThanksGiving.CloseBtn",
+      "suggestedSemanticId": "UIActivityOpen_ThanksGiving.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7e0e56ad14f8"
+    },
+    "DRAFT_625c21017917": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab",
+      "prefabRoot": "UIActivityOpen_ThanksGiving",
+      "path": "UIActivityOpen_ThanksGiving/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_open_thanks_giving",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityOpen_ThanksGiving的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_ThanksGiving.prefab」中的UIActivityOpen_ThanksGiving项1",
+      "suggestedTestId": "UIActivityOpen_ThanksGiving.Item1",
+      "suggestedSemanticId": "UIActivityOpen_ThanksGiving.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_625c21017917"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f54f260804d3",
+      "DRAFT_7e0e56ad14f8",
+      "DRAFT_625c21017917"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

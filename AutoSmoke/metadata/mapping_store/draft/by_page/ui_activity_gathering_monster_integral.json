@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gathering_monster_integral",
+  "displayName": "ui_activity_gathering_monster_integral",
+  "drafts": {
+    "DRAFT_f1a37a4dc2f8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGatheringMonsterIntegral.prefab",
+      "prefabRoot": "UIActivityGatheringMonsterIntegral",
+      "path": "UIActivityGatheringMonsterIntegral/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_gathering_monster_integral",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityGatheringMonsterIntegral的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGatheringMonsterIntegral.prefab」中的UIActivityGatheringMonsterIntegral关闭按钮",
+      "suggestedTestId": "UIActivityGatheringMonsterIntegral.CloseBtn",
+      "suggestedSemanticId": "UIActivityGatheringMonsterIntegral.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f1a37a4dc2f8"
+    },
+    "DRAFT_2a5d3360fc39": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGatheringMonsterIntegral.prefab",
+      "prefabRoot": "UIActivityGatheringMonsterIntegral",
+      "path": "UIActivityGatheringMonsterIntegral/Root/Scroll/View/Content/Item/Btn_Go",
+      "nodeName": "Btn_Go",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_icon_arrow_6",
+      "clickable": true,
+      "pageId": "ui_activity_gathering_monster_integral",
+      "displayName": "按钮Go",
+      "chineseDescription": "UIActivityGatheringMonsterIntegral的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGatheringMonsterIntegral.prefab」中的UIActivityGatheringMonsterIntegral按钮Go",
+      "suggestedTestId": "UIActivityGatheringMonsterIntegral.Btn_Go",
+      "suggestedSemanticId": "UIActivityGatheringMonsterIntegral.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2a5d3360fc39"
+    },
+    "DRAFT_e5fa8403b1b5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityGatheringMonsterIntegral.prefab",
+      "prefabRoot": "EXPORT_UIActivityGatheringMonsterIntegral",
+      "path": "EXPORT_UIActivityGatheringMonsterIntegral/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_gathering_monster_integral",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityGatheringMonsterIntegral的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityGatheringMonsterIntegral.prefab」中的EXPORT_UIActivityGatheringMonsterIntegral关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityGatheringMonsterIntegral.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityGatheringMonsterIntegral.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5fa8403b1b5"
+    },
+    "DRAFT_3a9da4f71297": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityGatheringMonsterIntegral.prefab",
+      "prefabRoot": "EXPORT_UIActivityGatheringMonsterIntegral",
+      "path": "EXPORT_UIActivityGatheringMonsterIntegral/Root/Scroll/View/Content/Item/Btn_Go",
+      "nodeName": "Btn_Go",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_icon_arrow_6",
+      "clickable": true,
+      "pageId": "ui_activity_gathering_monster_integral",
+      "displayName": "按钮Go",
+      "chineseDescription": "EXPORT_UIActivityGatheringMonsterIntegral的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityGatheringMonsterIntegral.prefab」中的EXPORT_UIActivityGatheringMonsterIntegral按钮Go",
+      "suggestedTestId": "EXPORT_UIActivityGatheringMonsterIntegral.Btn_Go",
+      "suggestedSemanticId": "EXPORT_UIActivityGatheringMonsterIntegral.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3a9da4f71297"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f1a37a4dc2f8",
+      "DRAFT_2a5d3360fc39",
+      "DRAFT_e5fa8403b1b5",
+      "DRAFT_3a9da4f71297"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

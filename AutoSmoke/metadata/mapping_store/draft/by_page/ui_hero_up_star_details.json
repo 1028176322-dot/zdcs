@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_up_star_details",
+  "displayName": "ui_hero_up_star_details",
+  "drafts": {
+    "DRAFT_b302e94579e7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab",
+      "prefabRoot": "UIHeroUpStarDetails",
+      "path": "UIHeroUpStarDetails/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_details",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIHeroUpStarDetails的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab」中的UIHeroUpStarDetails关闭按钮",
+      "suggestedTestId": "UIHeroUpStarDetails.CloseBtn",
+      "suggestedSemanticId": "UIHeroUpStarDetails.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b302e94579e7"
+    },
+    "DRAFT_f415829a5418": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab",
+      "prefabRoot": "UIHeroUpStarDetails",
+      "path": "UIHeroUpStarDetails/Root/LeftHeroItem",
+      "nodeName": "LeftHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_details",
+      "displayName": "LeftHero项",
+      "chineseDescription": "UIHeroUpStarDetails的LeftHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab」中的UIHeroUpStarDetailsLeftHero项",
+      "suggestedTestId": "UIHeroUpStarDetails.LeftHeroItem",
+      "suggestedSemanticId": "UIHeroUpStarDetails.LeftHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f415829a5418"
+    },
+    "DRAFT_81626be722e3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab",
+      "prefabRoot": "UIHeroUpStarDetails",
+      "path": "UIHeroUpStarDetails/Root/RightHeroItem",
+      "nodeName": "RightHeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_details",
+      "displayName": "RightHero项",
+      "chineseDescription": "UIHeroUpStarDetails的RightHero项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab」中的UIHeroUpStarDetailsRightHero项",
+      "suggestedTestId": "UIHeroUpStarDetails.RightHeroItem",
+      "suggestedSemanticId": "UIHeroUpStarDetails.RightHero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_81626be722e3"
+    },
+    "DRAFT_91974aee905b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab",
+      "prefabRoot": "UIHeroUpStarDetails",
+      "path": "UIHeroUpStarDetails/Root/UpStarButton",
+      "nodeName": "UpStarButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_details",
+      "displayName": "UpStar按钮",
+      "chineseDescription": "UIHeroUpStarDetails的UpStar按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab」中的UIHeroUpStarDetailsUpStar按钮",
+      "suggestedTestId": "UIHeroUpStarDetails.UpStarButton",
+      "suggestedSemanticId": "UIHeroUpStarDetails.UpStar按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91974aee905b"
+    },
+    "DRAFT_4e943f7fb80c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab",
+      "prefabRoot": "UIHeroUpStarDetails",
+      "path": "UIHeroUpStarDetails/Root/GoUpStarButton",
+      "nodeName": "GoUpStarButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_up_star_details",
+      "displayName": "GoUpStar按钮",
+      "chineseDescription": "UIHeroUpStarDetails的GoUpStar按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroUpStarDetails.prefab」中的UIHeroUpStarDetailsGoUpStar按钮",
+      "suggestedTestId": "UIHeroUpStarDetails.GoUpStarButton",
+      "suggestedSemanticId": "UIHeroUpStarDetails.GoUpStar按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4e943f7fb80c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b302e94579e7",
+      "DRAFT_f415829a5418",
+      "DRAFT_81626be722e3",
+      "DRAFT_91974aee905b",
+      "DRAFT_4e943f7fb80c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

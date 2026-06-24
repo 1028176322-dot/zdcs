@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_get",
+  "displayName": "export_main_city_get",
+  "drafts": {
+    "DRAFT_72b182e3c57c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityGet.prefab",
+      "prefabRoot": "EXPORT_MainCityGet",
+      "path": "EXPORT_MainCityGet/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "export_main_city_get",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_MainCityGet的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityGet.prefab」中的EXPORT_MainCityGetMask",
+      "suggestedTestId": "EXPORT_MainCityGet.Mask",
+      "suggestedSemanticId": "EXPORT_MainCityGet.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_72b182e3c57c"
+    },
+    "DRAFT_781a4d5640af": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityGet.prefab",
+      "prefabRoot": "EXPORT_MainCityGet",
+      "path": "EXPORT_MainCityGet/Root/Animation/Ices",
+      "nodeName": "Ices",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "export_main_city_get",
+      "displayName": "Ices",
+      "chineseDescription": "EXPORT_MainCityGet的Ices",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityGet.prefab」中的EXPORT_MainCityGetIces",
+      "suggestedTestId": "EXPORT_MainCityGet.Ices",
+      "suggestedSemanticId": "EXPORT_MainCityGet.Ices",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_781a4d5640af"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_72b182e3c57c",
+      "DRAFT_781a4d5640af"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

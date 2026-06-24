@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mini_game_chapter_hero_select",
+  "displayName": "mini_game_chapter_hero_select",
+  "drafts": {
+    "DRAFT_0bde8042b39f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterHeroSelect.prefab",
+      "prefabRoot": "MiniGameChapterHeroSelect",
+      "path": "MiniGameChapterHeroSelect/Root/Content/hero_group/hero_bg1/AffirmBtn",
+      "nodeName": "AffirmBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "mini_game_chapter_hero_select",
+      "displayName": "Affirm按钮",
+      "chineseDescription": "MiniGameChapterHeroSelect的Affirm按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterHeroSelect.prefab」中的MiniGameChapterHeroSelectAffirm按钮",
+      "suggestedTestId": "MiniGameChapterHeroSelect.AffirmBtn",
+      "suggestedSemanticId": "MiniGameChapterHeroSelect.Affirm按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0bde8042b39f"
+    },
+    "DRAFT_bc00b7577c98": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterHeroSelect.prefab",
+      "prefabRoot": "MiniGameChapterHeroSelect",
+      "path": "MiniGameChapterHeroSelect/Root/Content/hero_group/hero_bg2/AffirmBtn",
+      "nodeName": "AffirmBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "mini_game_chapter_hero_select",
+      "displayName": "Affirm按钮",
+      "chineseDescription": "MiniGameChapterHeroSelect的Affirm按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MiniGameChapter/MiniGameChapterHeroSelect.prefab」中的MiniGameChapterHeroSelectAffirm按钮",
+      "suggestedTestId": "MiniGameChapterHeroSelect.AffirmBtn",
+      "suggestedSemanticId": "MiniGameChapterHeroSelect.Affirm按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bc00b7577c98"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0bde8042b39f",
+      "DRAFT_bc00b7577c98"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "floor_node_normal",
+  "displayName": "floor_node_normal",
+  "drafts": {
+    "DRAFT_219bad58f27e": {
+      "assetPath": "Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Normal.prefab",
+      "prefabRoot": "FloorNode_Normal",
+      "path": "FloorNode_Normal/CanvasRoot/BtnInfo",
+      "nodeName": "BtnInfo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_bule",
+      "clickable": true,
+      "pageId": "floor_node_normal",
+      "displayName": "按钮Info",
+      "chineseDescription": "FloorNode_Normal的按钮Info，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Normal.prefab」中的FloorNode_Normal按钮Info",
+      "suggestedTestId": "FloorNode_Normal.BtnInfo",
+      "suggestedSemanticId": "FloorNode_Normal.按钮Info",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_219bad58f27e"
+    },
+    "DRAFT_814eb1cb06db": {
+      "assetPath": "Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Normal.prefab",
+      "prefabRoot": "FloorNode_Normal",
+      "path": "FloorNode_Normal/CanvasRoot/GetRewardBtn",
+      "nodeName": "GetRewardBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_bule",
+      "clickable": true,
+      "pageId": "floor_node_normal",
+      "displayName": "GetReward按钮",
+      "chineseDescription": "FloorNode_Normal的GetReward按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/HeroTowerBattle/ItemPref/Floor/FloorNode_Normal.prefab」中的FloorNode_NormalGetReward按钮",
+      "suggestedTestId": "FloorNode_Normal.GetRewardBtn",
+      "suggestedSemanticId": "FloorNode_Normal.GetReward按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_814eb1cb06db"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_219bad58f27e",
+      "DRAFT_814eb1cb06db"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

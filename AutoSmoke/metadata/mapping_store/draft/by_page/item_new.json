@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "item_new",
+  "displayName": "item_new",
+  "drafts": {
+    "DRAFT_4f005ef14e9f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Common/Item_new.prefab",
+      "prefabRoot": "Item_new",
+      "path": "Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item_new",
+      "displayName": "ClickContent",
+      "chineseDescription": "Item_new的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Common/Item_new.prefab」中的Item_newClickContent",
+      "suggestedTestId": "Item_new.ClickContent",
+      "suggestedSemanticId": "Item_new.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4f005ef14e9f"
+    },
+    "DRAFT_284abca0926c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/ItemNew.prefab",
+      "prefabRoot": "ItemNew",
+      "path": "ItemNew",
+      "nodeName": "ItemNew",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item_new",
+      "displayName": "项New",
+      "chineseDescription": "ItemNew的项New",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/ItemNew.prefab」中的ItemNew项New",
+      "suggestedTestId": "ItemNew.ItemNew",
+      "suggestedSemanticId": "ItemNew.项New",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_284abca0926c"
+    },
+    "DRAFT_2ef016d2abdd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/ItemNew.prefab",
+      "prefabRoot": "ItemNew",
+      "path": "ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "item_new",
+      "displayName": "ClickContent",
+      "chineseDescription": "ItemNew的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/ItemNew.prefab」中的ItemNewClickContent",
+      "suggestedTestId": "ItemNew.ClickContent",
+      "suggestedSemanticId": "ItemNew.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2ef016d2abdd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4f005ef14e9f",
+      "DRAFT_284abca0926c",
+      "DRAFT_2ef016d2abdd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

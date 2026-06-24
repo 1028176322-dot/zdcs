@@ -1,0 +1,37 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tv_floating_dropdown_tm_pro",
+  "displayName": "tv_floating_dropdown_tm_pro",
+  "drafts": {
+    "DRAFT_923b7a1e34c7": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TMPro/TVFloatingDropdown-TMPro.prefab",
+      "prefabRoot": "TVFloatingDropdown-TMPro",
+      "path": "TVFloatingDropdown-TMPro/Template/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "Toggle"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tv_floating_dropdown_tm_pro",
+      "displayName": "项",
+      "chineseDescription": "TVFloatingDropdown-TMPro的项",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TMPro/TVFloatingDropdown-TMPro.prefab」中的TVFloatingDropdown-TMPro项",
+      "suggestedTestId": "TVFloatingDropdown-TMPro.Item",
+      "suggestedSemanticId": "TVFloatingDropdown-TMPro.项",
+      "role": "action",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_923b7a1e34c7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_923b7a1e34c7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

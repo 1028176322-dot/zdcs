@@ -1,0 +1,95 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "gacha_box_upgrade_ui",
+  "displayName": "gacha_box_upgrade_ui",
+  "drafts": {
+    "DRAFT_eb3d520a5df6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab",
+      "prefabRoot": "GachaBoxUpgradeUI",
+      "path": "GachaBoxUpgradeUI/Root/Scroll/Mask/Content/ItemPrefab/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "ButtonScale"
+      ],
+      "spriteName": "compose_minigame_tips_icon_bg_1",
+      "clickable": true,
+      "pageId": "gacha_box_upgrade_ui",
+      "displayName": "项",
+      "chineseDescription": "GachaBoxUpgradeUI的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab」中的GachaBoxUpgradeUI项",
+      "suggestedTestId": "GachaBoxUpgradeUI.Item",
+      "suggestedSemanticId": "GachaBoxUpgradeUI.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb3d520a5df6"
+    },
+    "DRAFT_eaf4b1565e73": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab",
+      "prefabRoot": "GachaBoxUpgradeUI",
+      "path": "GachaBoxUpgradeUI/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close2",
+      "clickable": true,
+      "pageId": "gacha_box_upgrade_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "GachaBoxUpgradeUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab」中的GachaBoxUpgradeUI关闭按钮",
+      "suggestedTestId": "GachaBoxUpgradeUI.CloseBtn",
+      "suggestedSemanticId": "GachaBoxUpgradeUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eaf4b1565e73"
+    },
+    "DRAFT_0f78cbb70e1b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab",
+      "prefabRoot": "GachaBoxUpgradeUI",
+      "path": "GachaBoxUpgradeUI/Root/UpgradeObject/UpgradeBtn",
+      "nodeName": "UpgradeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "gacha_box_upgrade_ui",
+      "displayName": "Upgrade按钮",
+      "chineseDescription": "GachaBoxUpgradeUI的Upgrade按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/GachaBoxUpgradeUI.prefab」中的GachaBoxUpgradeUIUpgrade按钮",
+      "suggestedTestId": "GachaBoxUpgradeUI.UpgradeBtn",
+      "suggestedSemanticId": "GachaBoxUpgradeUI.Upgrade按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f78cbb70e1b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_eb3d520a5df6",
+      "DRAFT_eaf4b1565e73",
+      "DRAFT_0f78cbb70e1b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

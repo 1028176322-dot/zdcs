@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_official",
+  "displayName": "mail_official",
+  "drafts": {
+    "DRAFT_ec41bbe9debb": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/mail_official.prefab",
+      "prefabRoot": "mail_official",
+      "path": "mail_official/lab_describe",
+      "nodeName": "lab_describe",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_official",
+      "displayName": "I am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd操作按钮",
+      "chineseDescription": "mail_official的I am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd操作按钮，文字「I am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/mail_official.prefab」中的mail_officialI am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd操作按钮，含文字「I am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd」",
+      "suggestedTestId": "mail_official.lab_describe.Iamafraidourenemieshavemadeahugeprogressintheirquesttoreachspace!BLUEhavenowfinishedtheirrocketandarestartingtheirtraveltowardsthelaunchingpad[-1#(X:3600Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd",
+      "suggestedSemanticId": "mail_official.labdescribe.I am afraid our enemies have made a huge progress in their quest to reach space! BLUE have now finished their rocket and are starting their travel towards the launching pad [-1#(X:3600 Y:3600)]1321321dssssssssssssssssssssssssssssssdddddd",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ec41bbe9debb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ec41bbe9debb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

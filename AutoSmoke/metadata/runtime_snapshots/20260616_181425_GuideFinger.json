@@ -1,0 +1,13 @@
+{
+  "sceneId": "DemoLogo",
+  "pageId": "GuideFinger",
+  "capturedAt": "2026-06-16T18:14:25",
+  "nodeCount": 572,
+  "clickableCount": 1,
+  "componentClickableCount": 1,
+  "interactiveIconCount": 75,
+  "interactiveCellCount": 59,
+  "blankCloseAreaCount": 7,
+  "dragAreaCount": 1,
+  "effectiveClickableCount": 143
+}

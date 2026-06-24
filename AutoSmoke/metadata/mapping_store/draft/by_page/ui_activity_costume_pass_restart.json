@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_restart",
+  "displayName": "ui_activity_costume_pass_restart",
+  "drafts": {
+    "DRAFT_ba66c1499a04": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePass_Restart",
+      "path": "UIActivityCostumePass_Restart/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_restart",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_Restart的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab」中的UIActivityCostumePass_RestartItems",
+      "suggestedTestId": "UIActivityCostumePass_Restart.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_Restart.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ba66c1499a04"
+    },
+    "DRAFT_5c69a67d306e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePass_Restart",
+      "path": "UIActivityCostumePass_Restart/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "UI_Activity_Reset9",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_restart",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_Restart的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab」中的UIActivityCostumePass_RestartNode2",
+      "suggestedTestId": "UIActivityCostumePass_Restart.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_Restart.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5c69a67d306e"
+    },
+    "DRAFT_6146cf662bcd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePass_Restart",
+      "path": "UIActivityCostumePass_Restart/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_restart",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_Restart的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab」中的UIActivityCostumePass_RestartNode3",
+      "suggestedTestId": "UIActivityCostumePass_Restart.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_Restart.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6146cf662bcd"
+    },
+    "DRAFT_25c4302145cb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePass_Restart",
+      "path": "UIActivityCostumePass_Restart/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_restart",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_Restart的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab」中的UIActivityCostumePass_RestartAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_Restart.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Restart.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_25c4302145cb"
+    },
+    "DRAFT_d685b072354a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab",
+      "prefabRoot": "UIActivityCostumePass_Restart",
+      "path": "UIActivityCostumePass_Restart/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_restart",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_Restart的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Restart.prefab」中的UIActivityCostumePass_Restart购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_Restart.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Restart.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d685b072354a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ba66c1499a04",
+      "DRAFT_5c69a67d306e",
+      "DRAFT_6146cf662bcd",
+      "DRAFT_25c4302145cb",
+      "DRAFT_d685b072354a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

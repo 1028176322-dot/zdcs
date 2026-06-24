@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8">
+<title>AutoSmoke 测试报告</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, 'Microsoft YaHei', sans-serif; background: #f0f2f5; color: #333; padding: 20px; }
+h1 { color: #1a1a2e; margin-bottom: 16px; font-size: 22px; }
+h2 { font-size: 16px; color: #2c3e50; margin: 16px 0 8px; }
+
+.summary { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 16px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 12px; }
+.stat-card { text-align: center; padding: 12px; border-radius: 8px; background: #f8f9fa; }
+.stat-card .num { font-size: 28px; font-weight: bold; }
+.stat-card .label { font-size: 12px; color: #888; margin-top: 4px; }
+.num.green { color: #27ae60; }
+.num.red { color: #e74c3c; }
+.num.blue { color: #3498db; }
+
+.overall { font-size: 18px; text-align: center; padding: 12px; border-radius: 8px; margin-bottom: 16px; }
+.overall.pass { background: #eafaf1; color: #27ae60; }
+.overall.fail { background: #fdedec; color: #e74c3c; }
+
+.case-card { background: #fff; border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; 
+             box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.case-card h3 { margin: 0 0 8px 0; font-size: 15px; }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 6px; }
+.tag-pass { background: #eafaf1; color: #27ae60; }
+.tag-fail { background: #fdedec; color: #e74c3c; }
+.meta { font-size: 12px; color: #999; margin-left: 8px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
+th { background: #f8f9fa; padding: 6px 8px; text-align: left; border-bottom: 2px solid #eee; font-weight: 600; }
+td { padding: 6px 8px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+tr:hover { background: #fafafa; }
+
+.step-imgs { display: flex; gap: 8px; padding: 8px; }
+.step-imgs img { max-width: 300px; border: 1px solid #ddd; border-radius: 4px; }
+.img-label { text-align: center; font-size: 11px; color: #888; margin-top: 2px; }
+.footer { text-align: center; color: #aaa; font-size: 12px; margin-top: 30px; padding: 12px; }
+</style></head>
+<body>
+<h1>📊 AutoSmoke 测试报告</h1>
+<div class="overall fail">❌ 存在失败</div>
+
+<div class="summary">
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;">
+        <span><strong>批次:</strong> test_report_batch</span>
+        <span><strong>模式:</strong> real_mouse</span>
+        <span><strong>时间:</strong> 2026-06-12T18:30:00</span>
+    </div>
+    <div class="summary-grid">
+        <div class="stat-card"><div class="num blue">2</div><div class="label">用例总数</div></div>
+        <div class="stat-card"><div class="num green">1</div><div class="label">用例通过</div></div>
+        <div class="stat-card"><div class="num red">1</div><div class="label">用例失败</div></div>
+        <div class="stat-card"><div class="num blue">4</div><div class="label">步骤总数</div></div>
+        <div class="stat-card"><div class="num green">3</div><div class="label">步骤通过</div></div>
+        <div class="stat-card"><div class="num red">1</div><div class="label">步骤失败</div></div>
+        <div class="stat-card"><div class="num green">75.0%</div><div class="label">通过率</div></div>
+    </div>
+</div>
+
+<h2>📋 用例详情</h2>
+
+        <div class="case-card">
+            <h3>✅ TC001 
+                <span class="tag tag-pass">PASS</span>
+                <span class="meta">2/2 步通过</span>
+            </h3>
+            <table>
+                <tr><th></th><th>结果</th><th>步骤</th><th>错误</th><th>详情</th></tr>
+                
+            <tr>
+                <td>✅</td>
+                <td>PASS</td>
+                <td>等待 0.5 秒</td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>✅</td>
+                <td>PASS</td>
+                <td>截图</td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            </table>
+        </div>
+        
+        <div class="case-card">
+            <h3>❌ TC002 
+                <span class="tag tag-fail">FAIL</span>
+                <span class="meta">1/2 步通过</span>
+            </h3>
+            <table>
+                <tr><th></th><th>结果</th><th>步骤</th><th>错误</th><th>详情</th></tr>
+                
+            <tr>
+                <td>❌</td>
+                <td>FAIL</td>
+                <td>断言不存在 normalized(0.5,0.5)</td>
+                <td>目标仍存在</td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>⏭️</td>
+                <td>SKIPPED</td>
+                <td>截图</td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            </table>
+        </div>
+        
+
+<div class="footer">
+    AutoSmoke Test Report · Generated 2026-06-12 18:33:45
+</div>
+</body></html>

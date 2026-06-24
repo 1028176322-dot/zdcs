@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "alliance_head_setting_k1",
+  "displayName": "alliance_head_setting_k1",
+  "drafts": {
+    "DRAFT_0f25602f6118": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "Headk1",
+      "chineseDescription": "AllianceHeadSetting_k1的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1Headk1",
+      "suggestedTestId": "AllianceHeadSetting_k1.Head_k1",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0f25602f6118"
+    },
+    "DRAFT_aaf2f766fe79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/BG/ButtomGrid/KickOut",
+      "nodeName": "KickOut",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_red",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "KickOut",
+      "chineseDescription": "AllianceHeadSetting_k1的KickOut",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1KickOut",
+      "suggestedTestId": "AllianceHeadSetting_k1.KickOut",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.KickOut",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_aaf2f766fe79"
+    },
+    "DRAFT_eefcb6599c82": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/TopGrid/Information",
+      "nodeName": "Information",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "Information",
+      "chineseDescription": "AllianceHeadSetting_k1的Information",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1Information",
+      "suggestedTestId": "AllianceHeadSetting_k1.Information",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.Information",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eefcb6599c82"
+    },
+    "DRAFT_c25863df77d0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/TopGrid/Message",
+      "nodeName": "Message",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "Message",
+      "chineseDescription": "AllianceHeadSetting_k1的Message",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1Message",
+      "suggestedTestId": "AllianceHeadSetting_k1.Message",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.Message",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c25863df77d0"
+    },
+    "DRAFT_b222cb38afb2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/TopGrid/UpOrDown",
+      "nodeName": "UpOrDown",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "UpOrDown",
+      "chineseDescription": "AllianceHeadSetting_k1的UpOrDown",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1UpOrDown",
+      "suggestedTestId": "AllianceHeadSetting_k1.UpOrDown",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.UpOrDown",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b222cb38afb2"
+    },
+    "DRAFT_a791d3705afb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab",
+      "prefabRoot": "AllianceHeadSetting_k1",
+      "path": "AllianceHeadSetting_k1/CentreOther/Animation/HeadInfo/TopGrid/TransferOwner",
+      "nodeName": "TransferOwner",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "alliance_head_setting_k1",
+      "displayName": "TransferOwner",
+      "chineseDescription": "AllianceHeadSetting_k1的TransferOwner",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/AllianceHeadSetting_k1.prefab」中的AllianceHeadSetting_k1TransferOwner",
+      "suggestedTestId": "AllianceHeadSetting_k1.TransferOwner",
+      "suggestedSemanticId": "AllianceHeadSetting_k1.TransferOwner",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a791d3705afb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0f25602f6118",
+      "DRAFT_aaf2f766fe79",
+      "DRAFT_eefcb6599c82",
+      "DRAFT_c25863df77d0",
+      "DRAFT_b222cb38afb2",
+      "DRAFT_a791d3705afb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

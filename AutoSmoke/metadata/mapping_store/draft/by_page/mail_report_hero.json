@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_report_hero",
+  "displayName": "mail_report_hero",
+  "drafts": {
+    "DRAFT_d5560265ca87": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab",
+      "prefabRoot": "Mail_Report_Hero",
+      "path": "Mail_Report_Hero/LeftTeam/Troop1/HeroList/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIMailBattleReportHeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_hero",
+      "displayName": "项1",
+      "chineseDescription": "Mail_Report_Hero的项1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab」中的Mail_Report_Hero项1",
+      "suggestedTestId": "Mail_Report_Hero.Item1",
+      "suggestedSemanticId": "Mail_Report_Hero.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d5560265ca87"
+    },
+    "DRAFT_3ef4725eb6e6": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab",
+      "prefabRoot": "Mail_Report_Hero",
+      "path": "Mail_Report_Hero/LeftTeam/Troop1/HeroList/HeroItem",
+      "nodeName": "HeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIMailBattleReportHeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_hero",
+      "displayName": "Hero项",
+      "chineseDescription": "Mail_Report_Hero的Hero项",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab」中的Mail_Report_HeroHero项",
+      "suggestedTestId": "Mail_Report_Hero.HeroItem",
+      "suggestedSemanticId": "Mail_Report_Hero.Hero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3ef4725eb6e6"
+    },
+    "DRAFT_82193b9bddd6": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab",
+      "prefabRoot": "Mail_Report_Hero",
+      "path": "Mail_Report_Hero/RightTeam/Troop1/HeroList/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIMailBattleReportHeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_hero",
+      "displayName": "项1",
+      "chineseDescription": "Mail_Report_Hero的项1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab」中的Mail_Report_Hero项1",
+      "suggestedTestId": "Mail_Report_Hero.Item1",
+      "suggestedSemanticId": "Mail_Report_Hero.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_82193b9bddd6"
+    },
+    "DRAFT_ae92ee39f206": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab",
+      "prefabRoot": "Mail_Report_Hero",
+      "path": "Mail_Report_Hero/RightTeam/Troop1/HeroList/HeroItem",
+      "nodeName": "HeroItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIMailBattleReportHeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_report_hero",
+      "displayName": "Hero项",
+      "chineseDescription": "Mail_Report_Hero的Hero项",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Mail/Mail_Report_Hero.prefab」中的Mail_Report_HeroHero项",
+      "suggestedTestId": "Mail_Report_Hero.HeroItem",
+      "suggestedSemanticId": "Mail_Report_Hero.Hero项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ae92ee39f206"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d5560265ca87",
+      "DRAFT_3ef4725eb6e6",
+      "DRAFT_82193b9bddd6",
+      "DRAFT_ae92ee39f206"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

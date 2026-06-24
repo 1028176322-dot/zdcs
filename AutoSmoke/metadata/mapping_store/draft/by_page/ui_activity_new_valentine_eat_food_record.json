@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_new_valentine_eat_food_record",
+  "displayName": "ui_activity_new_valentine_eat_food_record",
+  "drafts": {
+    "DRAFT_ad8010c386bb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab",
+      "prefabRoot": "UIActivityNewValentineEatFoodRecord",
+      "path": "UIActivityNewValentineEatFoodRecord/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_eat_food_record",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityNewValentineEatFoodRecord的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab」中的UIActivityNewValentineEatFoodRecord关闭按钮",
+      "suggestedTestId": "UIActivityNewValentineEatFoodRecord.CloseBtn",
+      "suggestedSemanticId": "UIActivityNewValentineEatFoodRecord.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ad8010c386bb"
+    },
+    "DRAFT_f3f240987830": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab",
+      "prefabRoot": "UIActivityNewValentineEatFoodRecord",
+      "path": "UIActivityNewValentineEatFoodRecord/Root/RankList/Touch/content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_eat_food_record",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivityNewValentineEatFoodRecord的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab」中的UIActivityNewValentineEatFoodRecordHeadk1",
+      "suggestedTestId": "UIActivityNewValentineEatFoodRecord.Head_k1",
+      "suggestedSemanticId": "UIActivityNewValentineEatFoodRecord.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f3f240987830"
+    },
+    "DRAFT_f7db93d7dd39": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab",
+      "prefabRoot": "UIActivityNewValentineEatFoodRecord",
+      "path": "UIActivityNewValentineEatFoodRecord/Root/RankList/Touch/content/Item/scroll/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener",
+        "ClickAudio",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_eat_food_record",
+      "displayName": "项",
+      "chineseDescription": "UIActivityNewValentineEatFoodRecord的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab」中的UIActivityNewValentineEatFoodRecord项",
+      "suggestedTestId": "UIActivityNewValentineEatFoodRecord.Item",
+      "suggestedSemanticId": "UIActivityNewValentineEatFoodRecord.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f7db93d7dd39"
+    },
+    "DRAFT_50bbb5ce0c40": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab",
+      "prefabRoot": "UIActivityNewValentineEatFoodRecord",
+      "path": "UIActivityNewValentineEatFoodRecord/Root/RankList/Touch/content/Item/scroll/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_eat_food_record",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityNewValentineEatFoodRecord的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineEatFoodRecord.prefab」中的UIActivityNewValentineEatFoodRecordClickContent",
+      "suggestedTestId": "UIActivityNewValentineEatFoodRecord.ClickContent",
+      "suggestedSemanticId": "UIActivityNewValentineEatFoodRecord.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_50bbb5ce0c40"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ad8010c386bb",
+      "DRAFT_f3f240987830",
+      "DRAFT_f7db93d7dd39",
+      "DRAFT_50bbb5ce0c40"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

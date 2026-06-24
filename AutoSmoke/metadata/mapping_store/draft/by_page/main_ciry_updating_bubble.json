@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_updating_bubble",
+  "displayName": "main_ciry_updating_bubble",
+  "drafts": {
+    "DRAFT_5b72c9b14d7e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryUpdatingBubble.prefab",
+      "prefabRoot": "MainCiryUpdatingBubble",
+      "path": "MainCiryUpdatingBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_up",
+      "clickable": true,
+      "pageId": "main_ciry_updating_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryUpdatingBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryUpdatingBubble.prefab」中的MainCiryUpdatingBubbletipsdi",
+      "suggestedTestId": "MainCiryUpdatingBubble.tips_di",
+      "suggestedSemanticId": "MainCiryUpdatingBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5b72c9b14d7e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5b72c9b14d7e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_arms_race_intro",
+  "displayName": "ui_activity_arms_race_intro",
+  "drafts": {
+    "DRAFT_35ba346de1cf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab",
+      "prefabRoot": "UIActivityArmsRaceIntro",
+      "path": "UIActivityArmsRaceIntro/Root/Pages/Page1/Intro",
+      "nodeName": "Intro",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_intro",
+      "displayName": "Intro",
+      "chineseDescription": "UIActivityArmsRaceIntro的Intro",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab」中的UIActivityArmsRaceIntroIntro",
+      "suggestedTestId": "UIActivityArmsRaceIntro.Intro",
+      "suggestedSemanticId": "UIActivityArmsRaceIntro.Intro",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_35ba346de1cf"
+    },
+    "DRAFT_19c5bf3f66df": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab",
+      "prefabRoot": "UIActivityArmsRaceIntro",
+      "path": "UIActivityArmsRaceIntro/Root/Pages/Page1/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_intro",
+      "displayName": "关闭",
+      "chineseDescription": "UIActivityArmsRaceIntro的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab」中的UIActivityArmsRaceIntro关闭",
+      "suggestedTestId": "UIActivityArmsRaceIntro.Close",
+      "suggestedSemanticId": "UIActivityArmsRaceIntro.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_19c5bf3f66df"
+    },
+    "DRAFT_bb8ce0682eac": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab",
+      "prefabRoot": "UIActivityArmsRaceIntro",
+      "path": "UIActivityArmsRaceIntro/Root/Pages/Page2/Back",
+      "nodeName": "Back",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_Btn_black",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_intro",
+      "displayName": "返回",
+      "chineseDescription": "UIActivityArmsRaceIntro的返回",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab」中的UIActivityArmsRaceIntro返回",
+      "suggestedTestId": "UIActivityArmsRaceIntro.Back",
+      "suggestedSemanticId": "UIActivityArmsRaceIntro.返回",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bb8ce0682eac"
+    },
+    "DRAFT_eb915e820c7f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab",
+      "prefabRoot": "UIActivityArmsRaceIntro",
+      "path": "UIActivityArmsRaceIntro/Root/Pages/Page2/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_arms_race_intro",
+      "displayName": "关闭",
+      "chineseDescription": "UIActivityArmsRaceIntro的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityArmsRaceIntro.prefab」中的UIActivityArmsRaceIntro关闭",
+      "suggestedTestId": "UIActivityArmsRaceIntro.Close",
+      "suggestedSemanticId": "UIActivityArmsRaceIntro.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb915e820c7f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_35ba346de1cf",
+      "DRAFT_19c5bf3f66df",
+      "DRAFT_bb8ce0682eac",
+      "DRAFT_eb915e820c7f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

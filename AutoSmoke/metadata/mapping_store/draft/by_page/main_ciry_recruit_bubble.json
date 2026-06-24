@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_recruit_bubble",
+  "displayName": "main_ciry_recruit_bubble",
+  "drafts": {
+    "DRAFT_f2d98ae82561": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryRecruitBubble.prefab",
+      "prefabRoot": "MainCiryRecruitBubble",
+      "path": "MainCiryRecruitBubble/1",
+      "nodeName": "1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_recruit_bubble",
+      "displayName": "1",
+      "chineseDescription": "MainCiryRecruitBubble的1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryRecruitBubble.prefab」中的MainCiryRecruitBubble1",
+      "suggestedTestId": "MainCiryRecruitBubble.1",
+      "suggestedSemanticId": "MainCiryRecruitBubble.1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f2d98ae82561"
+    },
+    "DRAFT_55a7ffb51f9e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryRecruitBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryRecruitBubble",
+      "path": "EXPORT_MainCiryRecruitBubble/1",
+      "nodeName": "1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Img_common_tips_di",
+      "clickable": true,
+      "pageId": "main_ciry_recruit_bubble",
+      "displayName": "1",
+      "chineseDescription": "EXPORT_MainCiryRecruitBubble的1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryRecruitBubble.prefab」中的EXPORT_MainCiryRecruitBubble1",
+      "suggestedTestId": "EXPORT_MainCiryRecruitBubble.1",
+      "suggestedSemanticId": "EXPORT_MainCiryRecruitBubble.1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_55a7ffb51f9e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f2d98ae82561",
+      "DRAFT_55a7ffb51f9e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

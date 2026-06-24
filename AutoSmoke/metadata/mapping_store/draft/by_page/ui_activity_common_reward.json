@@ -1,0 +1,111 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_common_reward",
+  "displayName": "ui_activity_common_reward",
+  "drafts": {
+    "DRAFT_2d781c897aa0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab",
+      "prefabRoot": "UIActivityCommonReward",
+      "path": "UIActivityCommonReward/BgBtn",
+      "nodeName": "BgBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_common_reward",
+      "displayName": "Bg按钮",
+      "chineseDescription": "UIActivityCommonReward的Bg按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab」中的UIActivityCommonRewardBg按钮",
+      "suggestedTestId": "UIActivityCommonReward.BgBtn",
+      "suggestedSemanticId": "UIActivityCommonReward.Bg按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d781c897aa0"
+    },
+    "DRAFT_7af69599a129": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab",
+      "prefabRoot": "UIActivityCommonReward",
+      "path": "UIActivityCommonReward/List/sp_icon_item",
+      "nodeName": "sp_icon_item",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_common_reward",
+      "displayName": "spiconitem",
+      "chineseDescription": "UIActivityCommonReward的spiconitem，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab」中的UIActivityCommonRewardspiconitem",
+      "suggestedTestId": "UIActivityCommonReward.sp_icon_item",
+      "suggestedSemanticId": "UIActivityCommonReward.spiconitem",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7af69599a129"
+    },
+    "DRAFT_a99bf1d6af21": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab",
+      "prefabRoot": "UIActivityCommonReward",
+      "path": "UIActivityCommonReward/List/sp_icon_item (1)",
+      "nodeName": "sp_icon_item (1)",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_common_reward",
+      "displayName": "spiconitem1",
+      "chineseDescription": "UIActivityCommonReward的spiconitem1，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab」中的UIActivityCommonRewardspiconitem1",
+      "suggestedTestId": "UIActivityCommonReward.sp_icon_item(1)",
+      "suggestedSemanticId": "UIActivityCommonReward.spiconitem1",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a99bf1d6af21"
+    },
+    "DRAFT_ea621de1a8df": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab",
+      "prefabRoot": "UIActivityCommonReward",
+      "path": "UIActivityCommonReward/List/sp_icon_item (2)",
+      "nodeName": "sp_icon_item (2)",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_common_reward",
+      "displayName": "spiconitem2",
+      "chineseDescription": "UIActivityCommonReward的spiconitem2，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommonReward.prefab」中的UIActivityCommonRewardspiconitem2",
+      "suggestedTestId": "UIActivityCommonReward.sp_icon_item(2)",
+      "suggestedSemanticId": "UIActivityCommonReward.spiconitem2",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ea621de1a8df"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2d781c897aa0",
+      "DRAFT_7af69599a129",
+      "DRAFT_a99bf1d6af21",
+      "DRAFT_ea621de1a8df"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

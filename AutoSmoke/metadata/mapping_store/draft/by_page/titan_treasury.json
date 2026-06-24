@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "titan_treasury",
+  "displayName": "titan_treasury",
+  "drafts": {
+    "DRAFT_fbeca6c44bc0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/TitanTreasury.prefab",
+      "prefabRoot": "TitanTreasury",
+      "path": "TitanTreasury",
+      "nodeName": "TitanTreasury",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "titan_treasury",
+      "displayName": "TitanTreasury",
+      "chineseDescription": "TitanTreasury的TitanTreasury",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/TitanTreasury.prefab」中的TitanTreasuryTitanTreasury",
+      "suggestedTestId": "TitanTreasury.TitanTreasury",
+      "suggestedSemanticId": "TitanTreasury.TitanTreasury",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fbeca6c44bc0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fbeca6c44bc0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

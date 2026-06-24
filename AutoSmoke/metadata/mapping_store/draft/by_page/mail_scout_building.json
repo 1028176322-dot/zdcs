@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_scout_building",
+  "displayName": "mail_scout_building",
+  "drafts": {
+    "DRAFT_6cc98ef4329b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_building.prefab",
+      "prefabRoot": "mail_scout_building",
+      "path": "mail_scout_building/sp_di/coordinates",
+      "nodeName": "coordinates",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWText",
+        "ContentSizeFitter",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_scout_building",
+      "displayName": "X:309 Y:608操作按钮",
+      "chineseDescription": "mail_scout_building的X:309 Y:608操作按钮，文字「X:309 Y:608」",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/mail_scout_building.prefab」中的mail_scout_buildingX:309 Y:608操作按钮，含文字「X:309 Y:608」",
+      "suggestedTestId": "mail_scout_building.coordinates.X:309Y:608",
+      "suggestedSemanticId": "mail_scout_building.coordinates.X:309 Y:608",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6cc98ef4329b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6cc98ef4329b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

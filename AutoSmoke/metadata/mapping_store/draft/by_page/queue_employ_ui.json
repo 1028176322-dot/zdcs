@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "queue_employ_ui",
+  "displayName": "queue_employ_ui",
+  "drafts": {
+    "DRAFT_91e634d79966": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Queue/QueueEmployUI.prefab",
+      "prefabRoot": "QueueEmployUI",
+      "path": "QueueEmployUI/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "queue_employ_ui",
+      "displayName": "Mask",
+      "chineseDescription": "QueueEmployUI的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Queue/QueueEmployUI.prefab」中的QueueEmployUIMask",
+      "suggestedTestId": "QueueEmployUI.Mask",
+      "suggestedSemanticId": "QueueEmployUI.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91e634d79966"
+    },
+    "DRAFT_8e56e5ebe4cd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Queue/QueueEmployUI.prefab",
+      "prefabRoot": "QueueEmployUI",
+      "path": "QueueEmployUI/Root/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "queue_employ_ui",
+      "displayName": "按钮关闭",
+      "chineseDescription": "QueueEmployUI的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Queue/QueueEmployUI.prefab」中的QueueEmployUI按钮关闭",
+      "suggestedTestId": "QueueEmployUI.BtnClose",
+      "suggestedSemanticId": "QueueEmployUI.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8e56e5ebe4cd"
+    },
+    "DRAFT_60c56e5ff40e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Queue/EXPORT_QueueEmployUI.prefab",
+      "prefabRoot": "EXPORT_QueueEmployUI",
+      "path": "EXPORT_QueueEmployUI/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "queue_employ_ui",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_QueueEmployUI的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Queue/EXPORT_QueueEmployUI.prefab」中的EXPORT_QueueEmployUIMask",
+      "suggestedTestId": "EXPORT_QueueEmployUI.Mask",
+      "suggestedSemanticId": "EXPORT_QueueEmployUI.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_60c56e5ff40e"
+    },
+    "DRAFT_c33702a2c3e4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Queue/EXPORT_QueueEmployUI.prefab",
+      "prefabRoot": "EXPORT_QueueEmployUI",
+      "path": "EXPORT_QueueEmployUI/Root/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "queue_employ_ui",
+      "displayName": "按钮关闭",
+      "chineseDescription": "EXPORT_QueueEmployUI的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Queue/EXPORT_QueueEmployUI.prefab」中的EXPORT_QueueEmployUI按钮关闭",
+      "suggestedTestId": "EXPORT_QueueEmployUI.BtnClose",
+      "suggestedSemanticId": "EXPORT_QueueEmployUI.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c33702a2c3e4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_91e634d79966",
+      "DRAFT_8e56e5ebe4cd",
+      "DRAFT_60c56e5ff40e",
+      "DRAFT_c33702a2c3e4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

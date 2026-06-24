@@ -1,0 +1,37 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "simple_item_prefab",
+  "displayName": "simple_item_prefab",
+  "drafts": {
+    "DRAFT_5586659b1710": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/ItemPrefabs/SimpleItemPrefab.prefab",
+      "prefabRoot": "SimpleItemPrefab",
+      "path": "SimpleItemPrefab",
+      "nodeName": "SimpleItemPrefab",
+      "componentTypes": [
+        "RectTransform",
+        "Button"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "simple_item_prefab",
+      "displayName": "Simple项Prefab",
+      "chineseDescription": "SimpleItemPrefab的Simple项Prefab，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/ItemPrefabs/SimpleItemPrefab.prefab」中的SimpleItemPrefabSimple项Prefab",
+      "suggestedTestId": "SimpleItemPrefab.SimpleItemPrefab",
+      "suggestedSemanticId": "SimpleItemPrefab.Simple项Prefab",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5586659b1710"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5586659b1710"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

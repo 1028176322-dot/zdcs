@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_daily_reward",
+  "displayName": "ui_daily_reward",
+  "drafts": {
+    "DRAFT_c68e839c7130": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab",
+      "prefabRoot": "UIDailyReward",
+      "path": "UIDailyReward/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_daily_reward",
+      "displayName": "BG",
+      "chineseDescription": "UIDailyReward的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab」中的UIDailyRewardBG",
+      "suggestedTestId": "UIDailyReward.BG",
+      "suggestedSemanticId": "UIDailyReward.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c68e839c7130"
+    },
+    "DRAFT_2a951291f794": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab",
+      "prefabRoot": "UIDailyReward",
+      "path": "UIDailyReward/Root/ScrollView/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "UIDragScrollView"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_daily_reward",
+      "displayName": "项",
+      "chineseDescription": "UIDailyReward的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab」中的UIDailyReward项",
+      "suggestedTestId": "UIDailyReward.Item",
+      "suggestedSemanticId": "UIDailyReward.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2a951291f794"
+    },
+    "DRAFT_30caa4f5e8b5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab",
+      "prefabRoot": "UIDailyReward",
+      "path": "UIDailyReward/Root/ScrollView/Viewport/Content/Item/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_daily_reward",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIDailyReward的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab」中的UIDailyRewardGo按钮",
+      "suggestedTestId": "UIDailyReward.GoBtn",
+      "suggestedSemanticId": "UIDailyReward.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_30caa4f5e8b5"
+    },
+    "DRAFT_509aae3c7eea": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab",
+      "prefabRoot": "UIDailyReward",
+      "path": "UIDailyReward/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_daily_reward",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIDailyReward的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIDailyReward.prefab」中的UIDailyReward按钮关闭",
+      "suggestedTestId": "UIDailyReward.BtnClose",
+      "suggestedSemanticId": "UIDailyReward.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_509aae3c7eea"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c68e839c7130",
+      "DRAFT_2a951291f794",
+      "DRAFT_30caa4f5e8b5",
+      "DRAFT_509aae3c7eea"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tech_ship_preview",
+  "displayName": "tech_ship_preview",
+  "drafts": {
+    "DRAFT_d60f50662cc8": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipPreview.prefab",
+      "prefabRoot": "TechShipPreview",
+      "path": "TechShipPreview/Black",
+      "nodeName": "Black",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tech_ship_preview",
+      "displayName": "Black",
+      "chineseDescription": "TechShipPreview的Black",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipPreview.prefab」中的TechShipPreviewBlack",
+      "suggestedTestId": "TechShipPreview.Black",
+      "suggestedSemanticId": "TechShipPreview.Black",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d60f50662cc8"
+    },
+    "DRAFT_97d9c59d4719": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipPreview.prefab",
+      "prefabRoot": "TechShipPreview",
+      "path": "TechShipPreview/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "tech_ship_preview",
+      "displayName": "Click",
+      "chineseDescription": "TechShipPreview的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipPreview.prefab」中的TechShipPreviewClick",
+      "suggestedTestId": "TechShipPreview.Click",
+      "suggestedSemanticId": "TechShipPreview.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97d9c59d4719"
+    },
+    "DRAFT_6cc4754d9b31": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipPreview.prefab",
+      "prefabRoot": "EXPORT_TechShipPreview",
+      "path": "EXPORT_TechShipPreview/Black",
+      "nodeName": "Black",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tech_ship_preview",
+      "displayName": "Black",
+      "chineseDescription": "EXPORT_TechShipPreview的Black",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipPreview.prefab」中的EXPORT_TechShipPreviewBlack",
+      "suggestedTestId": "EXPORT_TechShipPreview.Black",
+      "suggestedSemanticId": "EXPORT_TechShipPreview.Black",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6cc4754d9b31"
+    },
+    "DRAFT_b2cc476ee1bc": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipPreview.prefab",
+      "prefabRoot": "EXPORT_TechShipPreview",
+      "path": "EXPORT_TechShipPreview/Root/Content/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "tech_ship_preview",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_TechShipPreview的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipPreview.prefab」中的EXPORT_TechShipPreviewClick",
+      "suggestedTestId": "EXPORT_TechShipPreview.Click",
+      "suggestedSemanticId": "EXPORT_TechShipPreview.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b2cc476ee1bc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d60f50662cc8",
+      "DRAFT_97d9c59d4719",
+      "DRAFT_6cc4754d9b31",
+      "DRAFT_b2cc476ee1bc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

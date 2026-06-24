@@ -1,0 +1,97 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "legendary_gift",
+  "displayName": "legendary_gift",
+  "drafts": {
+    "DRAFT_ef4f245153ec": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab",
+      "prefabRoot": "LegendaryGift",
+      "path": "LegendaryGift/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasGroup"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "legendary_gift",
+      "displayName": "按钮关闭",
+      "chineseDescription": "LegendaryGift的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab」中的LegendaryGift按钮关闭",
+      "suggestedTestId": "LegendaryGift.BtnClose",
+      "suggestedSemanticId": "LegendaryGift.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ef4f245153ec"
+    },
+    "DRAFT_98cc01205bd6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab",
+      "prefabRoot": "LegendaryGift",
+      "path": "LegendaryGift/BG/AwardScroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "legendary_gift",
+      "displayName": "ClickContent",
+      "chineseDescription": "LegendaryGift的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab」中的LegendaryGiftClickContent",
+      "suggestedTestId": "LegendaryGift.ClickContent",
+      "suggestedSemanticId": "LegendaryGift.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_98cc01205bd6"
+    },
+    "DRAFT_3599d13525e9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab",
+      "prefabRoot": "LegendaryGift",
+      "path": "LegendaryGift/BG/BtnBuy",
+      "nodeName": "BtnBuy",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasGroup"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "legendary_gift",
+      "displayName": "按钮购买",
+      "chineseDescription": "LegendaryGift的按钮购买，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/LegendaryGift.prefab」中的LegendaryGift按钮购买",
+      "suggestedTestId": "LegendaryGift.BtnBuy",
+      "suggestedSemanticId": "LegendaryGift.按钮购买",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3599d13525e9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ef4f245153ec",
+      "DRAFT_98cc01205bd6",
+      "DRAFT_3599d13525e9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

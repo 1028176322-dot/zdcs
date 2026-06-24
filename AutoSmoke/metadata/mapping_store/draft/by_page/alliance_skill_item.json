@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "alliance_skill_item",
+  "displayName": "alliance_skill_item",
+  "drafts": {
+    "DRAFT_e13d23c86856": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceSkill/AllianceSkillItem.prefab",
+      "prefabRoot": "AllianceSkillItem",
+      "path": "AllianceSkillItem/SkillItem",
+      "nodeName": "SkillItem",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "alliance_skill_item",
+      "displayName": "Skill项",
+      "chineseDescription": "AllianceSkillItem的Skill项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceSkill/AllianceSkillItem.prefab」中的AllianceSkillItemSkill项",
+      "suggestedTestId": "AllianceSkillItem.SkillItem",
+      "suggestedSemanticId": "AllianceSkillItem.Skill项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e13d23c86856"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e13d23c86856"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

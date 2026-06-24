@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_compound",
+  "displayName": "ui_compound",
+  "drafts": {
+    "DRAFT_1161a06a8614": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab",
+      "prefabRoot": "UICompound",
+      "path": "UICompound/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_compound",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UICompound的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab」中的UICompound关闭按钮",
+      "suggestedTestId": "UICompound.CloseBtn",
+      "suggestedSemanticId": "UICompound.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1161a06a8614"
+    },
+    "DRAFT_a73e3a7fba1b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab",
+      "prefabRoot": "UICompound",
+      "path": "UICompound/Root/Content/Left",
+      "nodeName": "Left",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_compound",
+      "displayName": "Left",
+      "chineseDescription": "UICompound的Left",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab」中的UICompoundLeft",
+      "suggestedTestId": "UICompound.Left",
+      "suggestedSemanticId": "UICompound.Left",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a73e3a7fba1b"
+    },
+    "DRAFT_3ad0d48519c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab",
+      "prefabRoot": "UICompound",
+      "path": "UICompound/Root/Content/Right",
+      "nodeName": "Right",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_compound",
+      "displayName": "Right",
+      "chineseDescription": "UICompound的Right",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UICompound.prefab」中的UICompoundRight",
+      "suggestedTestId": "UICompound.Right",
+      "suggestedSemanticId": "UICompound.Right",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3ad0d48519c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1161a06a8614",
+      "DRAFT_a73e3a7fba1b",
+      "DRAFT_3ad0d48519c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

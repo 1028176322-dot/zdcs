@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_pop_thanksgiving",
+  "displayName": "ui_activity_costume_pass_pop_thanksgiving",
+  "drafts": {
+    "DRAFT_a55287e6bbb9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Thanksgiving",
+      "path": "UIActivityCostumePassPop_Thanksgiving/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_thanksgiving",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Thanksgiving的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab」中的UIActivityCostumePassPop_ThanksgivingClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Thanksgiving.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Thanksgiving.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a55287e6bbb9"
+    },
+    "DRAFT_5023e883b6be": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Thanksgiving",
+      "path": "UIActivityCostumePassPop_Thanksgiving/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_thanksgiving",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityCostumePassPop_Thanksgiving的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab」中的UIActivityCostumePassPop_ThanksgivingClickContent",
+      "suggestedTestId": "UIActivityCostumePassPop_Thanksgiving.ClickContent",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Thanksgiving.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5023e883b6be"
+    },
+    "DRAFT_a7311198c33e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Thanksgiving",
+      "path": "UIActivityCostumePassPop_Thanksgiving/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_thanksgiving",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIActivityCostumePassPop_Thanksgiving的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab」中的UIActivityCostumePassPop_ThanksgivingGet按钮",
+      "suggestedTestId": "UIActivityCostumePassPop_Thanksgiving.GetBtn",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Thanksgiving.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a7311198c33e"
+    },
+    "DRAFT_17dccb7fd298": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab",
+      "prefabRoot": "UIActivityCostumePassPop_Thanksgiving",
+      "path": "UIActivityCostumePassPop_Thanksgiving/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_pop_thanksgiving",
+      "displayName": "Tips",
+      "chineseDescription": "UIActivityCostumePassPop_Thanksgiving的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePassPop_Thanksgiving.prefab」中的UIActivityCostumePassPop_ThanksgivingTips",
+      "suggestedTestId": "UIActivityCostumePassPop_Thanksgiving.Tips",
+      "suggestedSemanticId": "UIActivityCostumePassPop_Thanksgiving.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17dccb7fd298"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a55287e6bbb9",
+      "DRAFT_5023e883b6be",
+      "DRAFT_a7311198c33e",
+      "DRAFT_17dccb7fd298"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

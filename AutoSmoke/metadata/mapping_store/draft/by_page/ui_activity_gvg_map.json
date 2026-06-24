@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_gvg_map",
+  "displayName": "ui_activity_gvg_map",
+  "drafts": {
+    "DRAFT_2954e6625ff5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMap.prefab",
+      "prefabRoot": "UIActivityGVGMap",
+      "path": "UIActivityGVGMap/Root/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_Change",
+      "clickable": true,
+      "pageId": "ui_activity_gvg_map",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityGVGMap的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGMap.prefab」中的UIActivityGVGMap按钮",
+      "suggestedTestId": "UIActivityGVGMap.Btn",
+      "suggestedSemanticId": "UIActivityGVGMap.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2954e6625ff5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2954e6625ff5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

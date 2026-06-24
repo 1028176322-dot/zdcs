@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>冒烟测试报告 - 20260610_202905</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Microsoft YaHei', sans-serif; background: #f0f2f5; color: #333; padding: 20px; }
+.container { max-width: 1200px; margin: auto; }
+.header { background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; padding: 30px; border-radius: 12px; margin-bottom: 24px; }
+.header h1 { font-size: 24px; margin-bottom: 8px; }
+.header .meta { opacity: 0.9; font-size: 14px; }
+.summary { display: flex; gap: 20px; margin-bottom: 24px; }
+.summary-card { flex: 1; background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center; }
+.summary-card .num { font-size: 36px; font-weight: bold; }
+.summary-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+.pass { color: #52c41a; }
+.fail { color: #ff4d4f; }
+.warn { color: #faad14; }
+.step-card { background: #fff; border-radius: 10px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); overflow: hidden; }
+.step-header { padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #eee; }
+.step-title { font-size: 16px; font-weight: 600; }
+.step-badge { padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 500; }
+.badge-pass { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+.badge-fail { background: #fff2f0; color: #ff4d4f; border: 1px solid #ffccc7; }
+.step-body { padding: 20px; }
+.img-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.img-box { flex: 1; min-width: 200px; }
+.img-box h4 { font-size: 13px; color: #666; margin-bottom: 6px; }
+.img-box img { width: 100%; border-radius: 6px; border: 1px solid #eee; cursor: pointer; transition: transform .2s; }
+.img-box img:hover { transform: scale(1.02); box-shadow: 0 4px 16px rgba(0,0,0,0.12); }
+.diff-info { margin-top: 12px; font-size: 13px; line-height: 1.8; }
+.diff-info .tag { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-right: 4px; margin-bottom: 2px; }
+.tag-added { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+.tag-removed { background: #fff2f0; color: #ff4d4f; border: 1px solid #ffccc7; }
+.coord { font-size: 12px; color: #999; margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>📋 SLG 冒烟测试报告</h1>
+<div class="meta">运行时间: 2026-06-10 20:29:33 | 窗口: 490x795 | 游戏: 1170x2532</div>
+</div>
+
+
+<div class="summary">
+<div class="summary-card"><div class="num pass">5</div><div class="label">✅ 成功</div></div>
+<div class="summary-card"><div class="num fail">0</div><div class="label">❌ 失败</div></div>
+<div class="summary-card"><div class="num">5</div><div class="label">📊 总计</div></div>
+<div class="summary-card"><div class="num">100%</div><div class="label">🎯 通过率</div></div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header">
+<span class="step-title">🖱️ 主城</span>
+<span class="step-badge badge-pass">✅ 生效</span>
+</div>
+<div class="step-body">
+<div class="img-row">
+<div class="img-box"><h4>点击前</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_01_主城_前.png" onclick="window.open(this.src)" alt="before"></div>
+<div class="img-box"><h4>点击后</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_01_主城_后.png" onclick="window.open(this.src)" alt="after"></div>
+</div>
+<div class="diff-info"><div><span class="tag tag-added">+ 23:11:14</span><span class="tag tag-added">+ 10,000,000</span><span class="tag tag-added">+ 10M</span></div><div><span class="tag tag-removed">- 23:11:17</span><span class="tag tag-removed">- 10.2M</span></div><div style="margin-top:4px;">节点变化: +1 / -0 个</div></div>
+<div class="coord">坐标: (244, 744) 点击位</div>
+</div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header">
+<span class="step-title">🖱️ 小游戏</span>
+<span class="step-badge badge-pass">✅ 生效</span>
+</div>
+<div class="step-body">
+<div class="img-row">
+<div class="img-box"><h4>点击前</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_02_小游戏_前.png" onclick="window.open(this.src)" alt="before"></div>
+<div class="img-box"><h4>点击后</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_02_小游戏_后.png" onclick="window.open(this.src)" alt="after"></div>
+</div>
+<div class="diff-info"><div><span class="tag tag-added">+ 7</span><span class="tag tag-added">+ 10</span><span class="tag tag-added">+ 9</span></div><div><span class="tag tag-removed">- VIP1</span><span class="tag tag-removed">- 酒馆招募</span><span class="tag tag-removed">- 10,000,000</span><span class="tag tag-removed">- 七日登录</span><span class="tag tag-removed">- 岛民招募</span><span class="tag tag-removed">- 队列1</span><span class="tag tag-removed">- 1</span><span class="tag tag-removed">- 最强霸主</span></div><div style="margin-top:4px;">节点变化: +51 / -149 个</div></div>
+<div class="coord">坐标: (91, 746) 点击位</div>
+</div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header">
+<span class="step-title">🖱️ 英雄</span>
+<span class="step-badge badge-pass">✅ 生效</span>
+</div>
+<div class="step-body">
+<div class="img-row">
+<div class="img-box"><h4>点击前</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_03_英雄_前.png" onclick="window.open(this.src)" alt="before"></div>
+<div class="img-box"><h4>点击后</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_03_英雄_后.png" onclick="window.open(this.src)" alt="after"></div>
+</div>
+<div class="diff-info"><div><span class="tag tag-added">+ 队伍</span><span class="tag tag-added">+ Lv.1</span><span class="tag tag-added">+ 英雄</span><span class="tag tag-added">+ Lv.6</span><span class="tag tag-added">+ 招募英雄</span><span class="tag tag-added">+ 羁绊</span></div><div style="margin-top:4px;">节点变化: +87 / -4 个</div></div>
+<div class="coord">坐标: (209, 746) 点击位</div>
+</div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header">
+<span class="step-title">🖱️ 联盟</span>
+<span class="step-badge badge-pass">✅ 生效</span>
+</div>
+<div class="step-body">
+<div class="img-row">
+<div class="img-box"><h4>点击前</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_04_联盟_前.png" onclick="window.open(this.src)" alt="before"></div>
+<div class="img-box"><h4>点击后</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_04_联盟_后.png" onclick="window.open(this.src)" alt="after"></div>
+</div>
+<div class="diff-info"><div><span class="tag tag-added">+ 你能遇见很多志同道合的朋友</span><span class="tag tag-added">+ 联盟</span><span class="tag tag-added">+ 加入联盟，征服这片世界</span><span class="tag tag-added">+ 准备好加入联盟了么？</span><span class="tag tag-added">+ 好的</span></div><div><span class="tag tag-removed">- 队伍</span><span class="tag tag-removed">- Lv.1</span><span class="tag tag-removed">- 英雄</span><span class="tag tag-removed">- Lv.6</span><span class="tag tag-removed">- 招募英雄</span><span class="tag tag-removed">- 羁绊</span></div><div style="margin-top:4px;">节点变化: +19 / -82 个</div></div>
+<div class="coord">坐标: (335, 746) 点击位</div>
+</div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header">
+<span class="step-title">🖱️ 世界地图</span>
+<span class="step-badge badge-pass">✅ 生效</span>
+</div>
+<div class="step-body">
+<div class="img-row">
+<div class="img-box"><h4>点击前</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_05_世界地图_前.png" onclick="window.open(this.src)" alt="before"></div>
+<div class="img-box"><h4>点击后</h4><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_05_世界地图_后.png" onclick="window.open(this.src)" alt="after"></div>
+</div>
+<div class="diff-info"><div><span class="tag tag-added">+ 10,000,000</span><span class="tag tag-added">+ 18</span><span class="tag tag-added">+ 七日登录</span><span class="tag tag-added">+ 编辑</span><span class="tag tag-added">+ 200/200</span><span class="tag tag-added">+ 1</span><span class="tag tag-added">+ 最强霸主</span><span class="tag tag-added">+ 孤岛试炼</span></div><div><span class="tag tag-removed">- 你能遇见很多志同道合的朋友</span><span class="tag tag-removed">- 7</span><span class="tag tag-removed">- 10</span><span class="tag tag-removed">- 联盟</span><span class="tag tag-removed">- 加入联盟，征服这片世界</span><span class="tag tag-removed">- 9</span><span class="tag tag-removed">- 准备好加入联盟了么？</span><span class="tag tag-removed">- 好的</span></div><div style="margin-top:4px;">节点变化: +164 / -218 个</div></div>
+<div class="coord">坐标: (398, 746) 点击位</div>
+</div>
+</div>
+
+
+<div class="step-card">
+<div class="step-header"><span class="step-title">📸 初始画面（测试前）</span></div>
+<div class="step-body">
+<div class="img-row"><div class="img-box"><img src="file:///E:/zdcs/AutoSmoke/reports/20260610_202905_00_初始画面.png" onclick="window.open(this.src)" alt="initial"></div></div>
+</div>
+</div>
+
+</div></body></html>

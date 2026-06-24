@@ -1,0 +1,190 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_tech",
+  "displayName": "ui_tech",
+  "drafts": {
+    "DRAFT_228cb79e6e13": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "item",
+      "chineseDescription": "UITech的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechitem",
+      "suggestedTestId": "UITech.item",
+      "suggestedSemanticId": "UITech.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_228cb79e6e13"
+    },
+    "DRAFT_74ee6944277a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item/Root/Unable",
+      "nodeName": "Unable",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "Unable",
+      "chineseDescription": "UITech的Unable",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechUnable",
+      "suggestedTestId": "UITech.Unable",
+      "suggestedSemanticId": "UITech.Unable",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_74ee6944277a"
+    },
+    "DRAFT_08518ed45360": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item (1)",
+      "nodeName": "item (1)",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "item1",
+      "chineseDescription": "UITech的item1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechitem1",
+      "suggestedTestId": "UITech.item(1)",
+      "suggestedSemanticId": "UITech.item1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08518ed45360"
+    },
+    "DRAFT_95189ce6a5c6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item (1)/Root/Unable",
+      "nodeName": "Unable",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "Unable",
+      "chineseDescription": "UITech的Unable",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechUnable",
+      "suggestedTestId": "UITech.Unable",
+      "suggestedSemanticId": "UITech.Unable",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_95189ce6a5c6"
+    },
+    "DRAFT_44234f9378ca": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item (2)",
+      "nodeName": "item (2)",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "item2",
+      "chineseDescription": "UITech的item2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechitem2",
+      "suggestedTestId": "UITech.item(2)",
+      "suggestedSemanticId": "UITech.item2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_44234f9378ca"
+    },
+    "DRAFT_d9e13d01037d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/TechGrid/Viewport/Content/item/item (2)/Root/Unable",
+      "nodeName": "Unable",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "Unable",
+      "chineseDescription": "UITech的Unable",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITechUnable",
+      "suggestedTestId": "UITech.Unable",
+      "suggestedSemanticId": "UITech.Unable",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d9e13d01037d"
+    },
+    "DRAFT_819903c9c50f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab",
+      "prefabRoot": "UITech",
+      "path": "UITech/Root/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_tech",
+      "displayName": "关闭",
+      "chineseDescription": "UITech的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UITech.prefab」中的UITech关闭",
+      "suggestedTestId": "UITech.Close",
+      "suggestedSemanticId": "UITech.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_819903c9c50f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_228cb79e6e13",
+      "DRAFT_74ee6944277a",
+      "DRAFT_08518ed45360",
+      "DRAFT_95189ce6a5c6",
+      "DRAFT_44234f9378ca",
+      "DRAFT_d9e13d01037d",
+      "DRAFT_819903c9c50f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 7
+}

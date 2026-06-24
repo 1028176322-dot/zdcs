@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ActivityBtn(Clone)",
+    "type": "",
+    "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/ActivityBtn(Clone)",
+    "depth": 5,
+    "clickable": false
+  },
+  {
+    "name": "BagBtn",
+    "type": "",
+    "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/BagBtn",
+    "depth": 5,
+    "clickable": false
+  },
+  {
+    "name": "BagBtn",
+    "type": "",
+    "path": "<Root>/UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Buttom/BagBtn/BagBtn",
+    "depth": 6,
+    "clickable": false
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "will_unlock_ui",
+  "displayName": "will_unlock_ui",
+  "drafts": {
+    "DRAFT_1b87cd2a8270": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/WillUnlockUI.prefab",
+      "prefabRoot": "WillUnlockUI",
+      "path": "WillUnlockUI/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "will_unlock_ui",
+      "displayName": "Mask",
+      "chineseDescription": "WillUnlockUI的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/WillUnlockUI.prefab」中的WillUnlockUIMask",
+      "suggestedTestId": "WillUnlockUI.Mask",
+      "suggestedSemanticId": "WillUnlockUI.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1b87cd2a8270"
+    },
+    "DRAFT_15112c374163": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/WillUnlockUI.prefab",
+      "prefabRoot": "WillUnlockUI",
+      "path": "WillUnlockUI/Root/Animation/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickChargeButton2",
+        "PlayerPrefSetting",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "will_unlock_ui",
+      "displayName": "Click",
+      "chineseDescription": "WillUnlockUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/WillUnlockUI.prefab」中的WillUnlockUIClick",
+      "suggestedTestId": "WillUnlockUI.Click",
+      "suggestedSemanticId": "WillUnlockUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_15112c374163"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1b87cd2a8270",
+      "DRAFT_15112c374163"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

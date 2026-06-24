@@ -1,0 +1,64 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.buff.button",
+  "testId": "character_info.buff.button",
+  "semanticId": "character_info.buff.button",
+  "targetName": "角色信息界面增益按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "character_info.buff.button",
+    "formalRef": "formal://character_info/character_info.buff.button",
+    "evidenceRef": "EVIDENCE_character_info.buff.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260624_094809_highlight.png",
+    "screenRectUsed": [
+      696,
+      2360,
+      868,
+      2531
+    ],
+    "confirmedTestId": "character_info.buff.button",
+    "formalRef": "formal://character_info/character_info.buff.button",
+    "evidenceRef": "EVIDENCE_character_info.buff.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6771640,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+      "screenPoint": [
+        781,
+        86
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "character_info.buff.button",
+    "formalRef": "formal://character_info/character_info.buff.button",
+    "evidenceRef": "EVIDENCE_character_info.buff.button"
+  },
+  "updated_at": "2026-06-24T09:48:53",
+  "displayName": "角色信息-增益按钮",
+  "role": "button",
+  "elementType": "Button",
+  "semanticSyncedAt": "2026-06-24T10:00:32",
+  "semanticSyncedBy": "target_workbench_repair"
+}

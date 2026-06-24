@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "sharks_assault",
+  "displayName": "sharks_assault",
+  "drafts": {
+    "DRAFT_d4bb0061f807": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab",
+      "prefabRoot": "SharksAssault",
+      "path": "SharksAssault/Bg/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "sharks_assault",
+      "displayName": "Headk1",
+      "chineseDescription": "SharksAssault的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab」中的SharksAssaultHeadk1",
+      "suggestedTestId": "SharksAssault.Head_k1",
+      "suggestedSemanticId": "SharksAssault.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d4bb0061f807"
+    },
+    "DRAFT_61b17350ad21": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab",
+      "prefabRoot": "SharksAssault",
+      "path": "SharksAssault/Bg/Content/Item/BtnHelp",
+      "nodeName": "BtnHelp",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "sharks_assault",
+      "displayName": "按钮Help",
+      "chineseDescription": "SharksAssault的按钮Help，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab」中的SharksAssault按钮Help",
+      "suggestedTestId": "SharksAssault.BtnHelp",
+      "suggestedSemanticId": "SharksAssault.按钮Help",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_61b17350ad21"
+    },
+    "DRAFT_a513af5ff08f": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab",
+      "prefabRoot": "SharksAssault",
+      "path": "SharksAssault/Bg/Content/Item/BtnGray",
+      "nodeName": "BtnGray",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_gray_da",
+      "clickable": true,
+      "pageId": "sharks_assault",
+      "displayName": "按钮Gray",
+      "chineseDescription": "SharksAssault的按钮Gray，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/SharksAssault.prefab」中的SharksAssault按钮Gray",
+      "suggestedTestId": "SharksAssault.BtnGray",
+      "suggestedSemanticId": "SharksAssault.按钮Gray",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a513af5ff08f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d4bb0061f807",
+      "DRAFT_61b17350ad21",
+      "DRAFT_a513af5ff08f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

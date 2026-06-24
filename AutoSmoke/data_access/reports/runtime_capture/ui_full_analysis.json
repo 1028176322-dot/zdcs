@@ -1,0 +1,2061 @@
+{
+  "total_nodes": 1829,
+  "text_nodes": [
+    {
+      "name": "Text",
+      "text": "Debug",
+      "clickable": false,
+      "visible": true,
+      "type": "Text",
+      "depth": 4
+    },
+    {
+      "name": "Text",
+      "text": "6",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "txt1",
+      "text": "将灯塔升到4级(4/4)",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Text",
+      "text": "08:16",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "0/26",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "10M",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "4",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "Text",
+      "text": "常规活动",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "time",
+      "text": "超值活动",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "time",
+      "text": "储值好礼",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "time",
+      "text": "七日登录",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "time",
+      "text": "最强霸主",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "8",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "Text",
+      "text": "孤岛试炼",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "05:05:57",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "168,922",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "Text",
+      "text": "VIP1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Text",
+      "text": "邮件",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "背包",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "Text",
+      "text": "商店",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Text",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Text",
+      "text": "建造队列",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "txt",
+      "text": "队列1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "空闲",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "txt",
+      "text": "队列2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "<color=#e24848>购买队列</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Text",
+      "text": "士兵训练",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "txt",
+      "text": "士兵训练",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "空闲",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Text",
+      "text": "科技研究",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "txt",
+      "text": "队列1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "空闲",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "txt",
+      "text": "队列2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "<color=#e24848>购买队列</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Text",
+      "text": "联盟捐献",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "txt",
+      "text": "联盟捐献",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "<color=#88e44a>可捐献25/25</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Text",
+      "text": "酒馆招募",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "txt",
+      "text": "英雄招募",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "<color=#88e44a>免费招募</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "txt",
+      "text": "岛民招募",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "leisure",
+      "text": "<color=#88e44a>免费招募</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Title",
+      "text": "探险家的试炼",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "Txtdesc",
+      "text": "提升战力，获取大量奖励！",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "TimeCountTxt",
+      "text": "03:43:47",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "text",
+      "text": "限定",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "TxtDesc",
+      "text": "提升战力可获得限定灯塔外观：<color=#9B0AC3>新生的庆典</color>",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "text",
+      "text": "查看",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：100000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "领取",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：2000000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：1200000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：800000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：500000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：400000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "5",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：200000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Count",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 14
+    },
+    {
+      "name": "PowerProgressTxt",
+      "text": "168922/5000000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "TxtDesc",
+      "text": "总战力达到：5000000",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "Count",
+      "text": "3",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Count",
+      "text": "10",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Count",
+      "text": "20",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Count",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Text",
+      "text": "前往",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Text",
+      "text": "活动日历",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "领地扩张",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "2",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "鲨鱼入侵",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "要塞争夺战",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "欢迎礼物",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Text",
+      "text": "1",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Title",
+      "text": "常规活动",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    }
+  ],
+  "clickable_nodes": [
+    {
+      "name": "BtnShow",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Button",
+      "depth": 3
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    }
+  ],
+  "icon_nodes": [
+    {
+      "name": "Icon_bg",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "Icon_bg",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "Icon1",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 7
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "ChatIcon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 11
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 12
+    },
+    {
+      "name": "Icon",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 8
+    }
+  ],
+  "btn_nodes": [
+    {
+      "name": "BtnShow",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Button",
+      "depth": 3
+    },
+    {
+      "name": "ActivityBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "PayBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "Effect_PayBtn01",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "GameObject",
+      "depth": 7
+    },
+    {
+      "name": "Effect_PayBtn02",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "GameObject",
+      "depth": 6
+    },
+    {
+      "name": "OnSaleBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "SevenDayBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "BestOverlordBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "PopUpGiftBtn(Clone)",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "Btn_layout",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "VipBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "BuffBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "MailBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "BagBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "BagBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    },
+    {
+      "name": "ShopBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "AllianceBuildBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 5
+    },
+    {
+      "name": "BtnInfo",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "BtnCheck",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 9
+    },
+    {
+      "name": "BtnGet",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 13
+    },
+    {
+      "name": "BtnUp",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "BtnGoto",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 10
+    },
+    {
+      "name": "CloseBtn",
+      "text": "",
+      "clickable": false,
+      "visible": true,
+      "type": "Node",
+      "depth": 6
+    }
+  ],
+  "empty_text_nodes": [
+    {
+      "name": "BtnShow",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Button",
+      "depth": 3
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 18
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    },
+    {
+      "name": "ClickContent",
+      "text": "",
+      "clickable": true,
+      "visible": true,
+      "type": "Node",
+      "depth": 15
+    }
+  ]
+}

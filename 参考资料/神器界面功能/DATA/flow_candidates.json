@@ -1,0 +1,22 @@
+[
+  {
+    "candidate_id": "FLOW_CAND_0001",
+    "level": "B",
+    "source": "fact",
+    "source_ref": "FACT_0004",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "from_text": "永久神器",
+    "action": "进入海域战斗自动生效",
+    "target_text": "海域战斗自动生效",
+    "target_type": "stage",
+    "matched_from_ui": null,
+    "matched_to_ui": null,
+    "source_ui_id": null,
+    "node_ref": [],
+    "confidence": 0.65,
+    "need_review": true,
+    "reason": "端点不完整或置信度不足"
+  }
+]

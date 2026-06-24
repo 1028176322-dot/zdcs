@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "report_soldier_gain",
+  "displayName": "report_soldier_gain",
+  "drafts": {
+    "DRAFT_34238800666c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Report/ReportSoldierGain.prefab",
+      "prefabRoot": "ReportSoldierGain",
+      "path": "ReportSoldierGain/Root/Bg/TitleBg/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_soldier_gain",
+      "displayName": "按钮关闭",
+      "chineseDescription": "ReportSoldierGain的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Report/ReportSoldierGain.prefab」中的ReportSoldierGain按钮关闭",
+      "suggestedTestId": "ReportSoldierGain.BtnClose",
+      "suggestedSemanticId": "ReportSoldierGain.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_34238800666c"
+    },
+    "DRAFT_6df74104e34e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Report/ReportSoldierGain.prefab",
+      "prefabRoot": "ReportSoldierGain",
+      "path": "ReportSoldierGain/Root/Bg/Scroll/View/Content/AttributeInfo",
+      "nodeName": "AttributeInfo",
+      "componentTypes": [
+        "RectTransform",
+        "VerticalLayoutGroup",
+        "ContentSizeFitter",
+        "TFWTab",
+        "ReportAttributeInfo"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_soldier_gain",
+      "displayName": "AttributeInfo",
+      "chineseDescription": "ReportSoldierGain的AttributeInfo",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Report/ReportSoldierGain.prefab」中的ReportSoldierGainAttributeInfo",
+      "suggestedTestId": "ReportSoldierGain.AttributeInfo",
+      "suggestedSemanticId": "ReportSoldierGain.AttributeInfo",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6df74104e34e"
+    },
+    "DRAFT_5f6a8e585859": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportSoldierGain.prefab",
+      "prefabRoot": "EXPORT_ReportSoldierGain",
+      "path": "EXPORT_ReportSoldierGain/Root/Bg/TitleBg/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_soldier_gain",
+      "displayName": "按钮关闭",
+      "chineseDescription": "EXPORT_ReportSoldierGain的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportSoldierGain.prefab」中的EXPORT_ReportSoldierGain按钮关闭",
+      "suggestedTestId": "EXPORT_ReportSoldierGain.BtnClose",
+      "suggestedSemanticId": "EXPORT_ReportSoldierGain.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5f6a8e585859"
+    },
+    "DRAFT_842d1c787086": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportSoldierGain.prefab",
+      "prefabRoot": "EXPORT_ReportSoldierGain",
+      "path": "EXPORT_ReportSoldierGain/Root/Bg/Scroll/View/Content/AttributeInfo",
+      "nodeName": "AttributeInfo",
+      "componentTypes": [
+        "RectTransform",
+        "VerticalLayoutGroup",
+        "ContentSizeFitter",
+        "TFWTab",
+        "BindableControl",
+        "ReportAttributeInfo"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "report_soldier_gain",
+      "displayName": "AttributeInfo",
+      "chineseDescription": "EXPORT_ReportSoldierGain的AttributeInfo",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Report/EXPORT_ReportSoldierGain.prefab」中的EXPORT_ReportSoldierGainAttributeInfo",
+      "suggestedTestId": "EXPORT_ReportSoldierGain.AttributeInfo",
+      "suggestedSemanticId": "EXPORT_ReportSoldierGain.AttributeInfo",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_842d1c787086"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_34238800666c",
+      "DRAFT_6df74104e34e",
+      "DRAFT_5f6a8e585859",
+      "DRAFT_842d1c787086"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_lost_mine_info",
+  "displayName": "ui_activity_lost_mine_info",
+  "drafts": {
+    "DRAFT_9c3f85b4abb1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab",
+      "prefabRoot": "UIActivityLostMineInfo",
+      "path": "UIActivityLostMineInfo/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_lost_mine_info",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityLostMineInfo的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab」中的UIActivityLostMineInfo关闭按钮",
+      "suggestedTestId": "UIActivityLostMineInfo.CloseBtn",
+      "suggestedSemanticId": "UIActivityLostMineInfo.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9c3f85b4abb1"
+    },
+    "DRAFT_60e0e09bdcce": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab",
+      "prefabRoot": "UIActivityLostMineInfo",
+      "path": "UIActivityLostMineInfo/Root/Scroll/Mask/Content/Item/Right/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_lost_mine_info",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityLostMineInfo的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab」中的UIActivityLostMineInfoGo按钮",
+      "suggestedTestId": "UIActivityLostMineInfo.GoBtn",
+      "suggestedSemanticId": "UIActivityLostMineInfo.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_60e0e09bdcce"
+    },
+    "DRAFT_af21013724f2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab",
+      "prefabRoot": "UIActivityLostMineInfo",
+      "path": "UIActivityLostMineInfo/Root/Scroll/Mask/Content/Item/Right/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_activity_lost_mine_info",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityLostMineInfo的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab」中的UIActivityLostMineInfoAdd按钮",
+      "suggestedTestId": "UIActivityLostMineInfo.AddBtn",
+      "suggestedSemanticId": "UIActivityLostMineInfo.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af21013724f2"
+    },
+    "DRAFT_780f341794d2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab",
+      "prefabRoot": "UIActivityLostMineInfo",
+      "path": "UIActivityLostMineInfo/Root/Scroll/Mask/Content/Item/Right/Time",
+      "nodeName": "Time",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lost_mine_info",
+      "displayName": "Time",
+      "chineseDescription": "UIActivityLostMineInfo的Time",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLostMineInfo.prefab」中的UIActivityLostMineInfoTime",
+      "suggestedTestId": "UIActivityLostMineInfo.Time",
+      "suggestedSemanticId": "UIActivityLostMineInfo.Time",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_780f341794d2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9c3f85b4abb1",
+      "DRAFT_60e0e09bdcce",
+      "DRAFT_af21013724f2",
+      "DRAFT_780f341794d2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

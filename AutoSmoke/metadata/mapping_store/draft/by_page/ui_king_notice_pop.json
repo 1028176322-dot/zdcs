@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_king_notice_pop",
+  "displayName": "ui_king_notice_pop",
+  "drafts": {
+    "DRAFT_7adbff70f1db": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab",
+      "prefabRoot": "UIKingNoticePop",
+      "path": "UIKingNoticePop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_king_notice_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIKingNoticePop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab」中的UIKingNoticePop关闭按钮",
+      "suggestedTestId": "UIKingNoticePop.CloseBtn",
+      "suggestedSemanticId": "UIKingNoticePop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7adbff70f1db"
+    },
+    "DRAFT_b2ab7583b35c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab",
+      "prefabRoot": "UIKingNoticePop",
+      "path": "UIKingNoticePop/Root/Bottom/Translate",
+      "nodeName": "Translate",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_king_notice_pop",
+      "displayName": "Translate",
+      "chineseDescription": "UIKingNoticePop的Translate",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab」中的UIKingNoticePopTranslate",
+      "suggestedTestId": "UIKingNoticePop.Translate",
+      "suggestedSemanticId": "UIKingNoticePop.Translate",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b2ab7583b35c"
+    },
+    "DRAFT_f4e23fc93a2c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab",
+      "prefabRoot": "UIKingNoticePop",
+      "path": "UIKingNoticePop/Root/Bottom/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_king_notice_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIKingNoticePop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab」中的UIKingNoticePop按钮",
+      "suggestedTestId": "UIKingNoticePop.Button",
+      "suggestedSemanticId": "UIKingNoticePop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f4e23fc93a2c"
+    },
+    "DRAFT_3af35316c129": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab",
+      "prefabRoot": "UIKingNoticePop",
+      "path": "UIKingNoticePop/Root/Bottom/Button (1)",
+      "nodeName": "Button (1)",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_king_notice_pop",
+      "displayName": "按钮1",
+      "chineseDescription": "UIKingNoticePop的按钮1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab」中的UIKingNoticePop按钮1",
+      "suggestedTestId": "UIKingNoticePop.Button(1)",
+      "suggestedSemanticId": "UIKingNoticePop.按钮1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3af35316c129"
+    },
+    "DRAFT_e869c7272724": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab",
+      "prefabRoot": "UIKingNoticePop",
+      "path": "UIKingNoticePop/Root/Player/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_king_notice_pop",
+      "displayName": "Headk1",
+      "chineseDescription": "UIKingNoticePop的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UIKingNoticePop.prefab」中的UIKingNoticePopHeadk1",
+      "suggestedTestId": "UIKingNoticePop.Head_k1",
+      "suggestedSemanticId": "UIKingNoticePop.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e869c7272724"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7adbff70f1db",
+      "DRAFT_b2ab7583b35c",
+      "DRAFT_f4e23fc93a2c",
+      "DRAFT_3af35316c129",
+      "DRAFT_e869c7272724"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

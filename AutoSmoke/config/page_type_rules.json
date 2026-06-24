@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "page_type_rules/v1",
+  "rules": {
+    "HUD": [
+      "hud",
+      "headsup",
+      "top"
+    ],
+    "MainCity": [
+      "maincity",
+      "main_city"
+    ],
+    "Login": [
+      "login",
+      "signin",
+      "sign_in"
+    ],
+    "Bag": [
+      "bag",
+      "inventory"
+    ],
+    "Shop": [
+      "shop",
+      "store"
+    ],
+    "Dialog": [
+      "dialog",
+      "tip",
+      "message"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "technology_all_add_pop_up",
+  "displayName": "technology_all_add_pop_up",
+  "drafts": {
+    "DRAFT_556440618afd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Technology/TechnologyAllAddPopUp.prefab",
+      "prefabRoot": "TechnologyAllAddPopUp",
+      "path": "TechnologyAllAddPopUp/Root/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "technology_all_add_pop_up",
+      "displayName": "Mask",
+      "chineseDescription": "TechnologyAllAddPopUp的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Technology/TechnologyAllAddPopUp.prefab」中的TechnologyAllAddPopUpMask",
+      "suggestedTestId": "TechnologyAllAddPopUp.Mask",
+      "suggestedSemanticId": "TechnologyAllAddPopUp.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_556440618afd"
+    },
+    "DRAFT_e433234b0fcb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Technology/TechnologyAllAddPopUp.prefab",
+      "prefabRoot": "TechnologyAllAddPopUp",
+      "path": "TechnologyAllAddPopUp/Root/PopUpBg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "technology_all_add_pop_up",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TechnologyAllAddPopUp的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Technology/TechnologyAllAddPopUp.prefab」中的TechnologyAllAddPopUp关闭按钮",
+      "suggestedTestId": "TechnologyAllAddPopUp.CloseBtn",
+      "suggestedSemanticId": "TechnologyAllAddPopUp.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e433234b0fcb"
+    },
+    "DRAFT_d2c241578cae": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Technology/EXPORT_TechnologyAllAddPopUp.prefab",
+      "prefabRoot": "EXPORT_TechnologyAllAddPopUp",
+      "path": "EXPORT_TechnologyAllAddPopUp/Root/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "technology_all_add_pop_up",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_TechnologyAllAddPopUp的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Technology/EXPORT_TechnologyAllAddPopUp.prefab」中的EXPORT_TechnologyAllAddPopUpMask",
+      "suggestedTestId": "EXPORT_TechnologyAllAddPopUp.Mask",
+      "suggestedSemanticId": "EXPORT_TechnologyAllAddPopUp.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d2c241578cae"
+    },
+    "DRAFT_39ee855d16c9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Technology/EXPORT_TechnologyAllAddPopUp.prefab",
+      "prefabRoot": "EXPORT_TechnologyAllAddPopUp",
+      "path": "EXPORT_TechnologyAllAddPopUp/Root/PopUpBg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "technology_all_add_pop_up",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_TechnologyAllAddPopUp的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Technology/EXPORT_TechnologyAllAddPopUp.prefab」中的EXPORT_TechnologyAllAddPopUp关闭按钮",
+      "suggestedTestId": "EXPORT_TechnologyAllAddPopUp.CloseBtn",
+      "suggestedSemanticId": "EXPORT_TechnologyAllAddPopUp.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_39ee855d16c9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_556440618afd",
+      "DRAFT_e433234b0fcb",
+      "DRAFT_d2c241578cae",
+      "DRAFT_39ee855d16c9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

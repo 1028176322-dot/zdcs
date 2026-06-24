@@ -1,0 +1,142 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uizvz_mvp",
+  "displayName": "uizvz_mvp",
+  "drafts": {
+    "DRAFT_54d1db9c684e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab",
+      "prefabRoot": "UIZVZMvp",
+      "path": "UIZVZMvp/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "uizvz_mvp",
+      "displayName": "Touch",
+      "chineseDescription": "UIZVZMvp的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab」中的UIZVZMvpTouch",
+      "suggestedTestId": "UIZVZMvp.Touch",
+      "suggestedSemanticId": "UIZVZMvp.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_54d1db9c684e"
+    },
+    "DRAFT_6bc1bb2d0dc4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab",
+      "prefabRoot": "UIZVZMvp",
+      "path": "UIZVZMvp/Root/BG/Player/P1/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_mvp",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZMvp的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab」中的UIZVZMvpHeadk1",
+      "suggestedTestId": "UIZVZMvp.Head_k1",
+      "suggestedSemanticId": "UIZVZMvp.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6bc1bb2d0dc4"
+    },
+    "DRAFT_64d2a3510704": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab",
+      "prefabRoot": "UIZVZMvp",
+      "path": "UIZVZMvp/Root/BG/Player/P2/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_mvp",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZMvp的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab」中的UIZVZMvpHeadk1",
+      "suggestedTestId": "UIZVZMvp.Head_k1",
+      "suggestedSemanticId": "UIZVZMvp.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_64d2a3510704"
+    },
+    "DRAFT_2cf7c7980a74": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab",
+      "prefabRoot": "UIZVZMvp",
+      "path": "UIZVZMvp/Root/BG/Player/P3/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_mvp",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZMvp的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab」中的UIZVZMvpHeadk1",
+      "suggestedTestId": "UIZVZMvp.Head_k1",
+      "suggestedSemanticId": "UIZVZMvp.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2cf7c7980a74"
+    },
+    "DRAFT_f551e1e9bca1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab",
+      "prefabRoot": "UIZVZMvp",
+      "path": "UIZVZMvp/Root/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "uizvz_mvp",
+      "displayName": "按钮",
+      "chineseDescription": "UIZVZMvp的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZMvp.prefab」中的UIZVZMvp按钮",
+      "suggestedTestId": "UIZVZMvp.Btn",
+      "suggestedSemanticId": "UIZVZMvp.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f551e1e9bca1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_54d1db9c684e",
+      "DRAFT_6bc1bb2d0dc4",
+      "DRAFT_64d2a3510704",
+      "DRAFT_2cf7c7980a74",
+      "DRAFT_f551e1e9bca1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

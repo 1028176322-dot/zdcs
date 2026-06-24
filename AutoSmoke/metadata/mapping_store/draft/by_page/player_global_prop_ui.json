@@ -1,0 +1,96 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "player_global_prop_ui",
+  "displayName": "player_global_prop_ui",
+  "drafts": {
+    "DRAFT_7f04bf781863": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab",
+      "prefabRoot": "PlayerGlobalPropUI",
+      "path": "PlayerGlobalPropUI/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_quit_1",
+      "clickable": true,
+      "pageId": "player_global_prop_ui",
+      "displayName": "按钮关闭",
+      "chineseDescription": "PlayerGlobalPropUI的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab」中的PlayerGlobalPropUI按钮关闭",
+      "suggestedTestId": "PlayerGlobalPropUI.BtnClose",
+      "suggestedSemanticId": "PlayerGlobalPropUI.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7f04bf781863"
+    },
+    "DRAFT_e226fe6ea62e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab",
+      "prefabRoot": "PlayerGlobalPropUI",
+      "path": "PlayerGlobalPropUI/Root/Tabs/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "player_global_prop_ui",
+      "displayName": "Tab1",
+      "chineseDescription": "PlayerGlobalPropUI的Tab1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab」中的PlayerGlobalPropUITab1",
+      "suggestedTestId": "PlayerGlobalPropUI.Tab1",
+      "suggestedSemanticId": "PlayerGlobalPropUI.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e226fe6ea62e"
+    },
+    "DRAFT_982ef287416e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab",
+      "prefabRoot": "PlayerGlobalPropUI",
+      "path": "PlayerGlobalPropUI/Root/Tabs/Tab2",
+      "nodeName": "Tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "player_global_prop_ui",
+      "displayName": "Tab2",
+      "chineseDescription": "PlayerGlobalPropUI的Tab2",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/PlayerInfo/PlayerGlobalPropUI.prefab」中的PlayerGlobalPropUITab2",
+      "suggestedTestId": "PlayerGlobalPropUI.Tab2",
+      "suggestedSemanticId": "PlayerGlobalPropUI.Tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_982ef287416e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7f04bf781863",
+      "DRAFT_e226fe6ea62e",
+      "DRAFT_982ef287416e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

@@ -1,0 +1,79 @@
+{
+  "test_cases": [
+    {
+      "case_id": "TC001",
+      "name": "主界面-点击探险家试炼",
+      "description": "测试主界面中'探险家试炼'按钮是否可以正常点击",
+      "steps": [
+        {
+          "action": "wait",
+          "target": "ClickContent",
+          "value": "",
+          "timeout": 10
+        },
+        {
+          "action": "click",
+          "target": "ClickContent",
+          "value": "",
+          "timeout": 10
+        },
+        {
+          "action": "assert",
+          "target": "",
+          "value": "探险家试炼",
+          "timeout": 10
+        }
+      ],
+      "result": null,
+      "error_message": ""
+    },
+    {
+      "case_id": "TC002",
+      "name": "主界面-点击挑战模式",
+      "description": "测试主界面中'挑战模式'按钮是否可以正常点击",
+      "steps": [
+        {
+          "action": "wait",
+          "target": "ClickContent",
+          "value": "",
+          "timeout": 10
+        },
+        {
+          "action": "click",
+          "target": "ClickContent",
+          "value": "",
+          "timeout": 10
+        },
+        {
+          "action": "assert",
+          "target": "",
+          "value": "挑战模式",
+          "timeout": 10
+        }
+      ],
+      "result": null,
+      "error_message": ""
+    },
+    {
+      "case_id": "TC003",
+      "name": "主界面-截图验证",
+      "description": "测试主界面截图功能",
+      "steps": [
+        {
+          "action": "wait",
+          "target": "Root",
+          "value": "",
+          "timeout": 10
+        },
+        {
+          "action": "swipe",
+          "target": "",
+          "value": "0.5,0.8,0.5,0.2",
+          "timeout": 2
+        }
+      ],
+      "result": null,
+      "error_message": ""
+    }
+  ]
+}

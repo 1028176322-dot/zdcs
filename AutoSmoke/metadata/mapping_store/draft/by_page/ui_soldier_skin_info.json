@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_soldier_skin_info",
+  "displayName": "ui_soldier_skin_info",
+  "drafts": {
+    "DRAFT_d829c4e77e64": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UISoldierSkinInfo.prefab",
+      "prefabRoot": "UISoldierSkinInfo",
+      "path": "UISoldierSkinInfo/Root/sp_bg/button_close",
+      "nodeName": "button_close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_soldier_skin_info",
+      "displayName": "buttonclose",
+      "chineseDescription": "UISoldierSkinInfo的buttonclose，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/UISoldierSkinInfo.prefab」中的UISoldierSkinInfobuttonclose",
+      "suggestedTestId": "UISoldierSkinInfo.button_close",
+      "suggestedSemanticId": "UISoldierSkinInfo.buttonclose",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d829c4e77e64"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d829c4e77e64"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

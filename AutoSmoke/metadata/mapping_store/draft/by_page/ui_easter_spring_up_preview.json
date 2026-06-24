@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_easter_spring_up_preview",
+  "displayName": "ui_easter_spring_up_preview",
+  "drafts": {
+    "DRAFT_e2a3f21459f0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPreview.prefab",
+      "prefabRoot": "UIEasterSpringUpPreview",
+      "path": "UIEasterSpringUpPreview/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_easter_spring_up_preview",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIEasterSpringUpPreview的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringUpPreview.prefab」中的UIEasterSpringUpPreview关闭按钮",
+      "suggestedTestId": "UIEasterSpringUpPreview.CloseBtn",
+      "suggestedSemanticId": "UIEasterSpringUpPreview.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e2a3f21459f0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e2a3f21459f0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

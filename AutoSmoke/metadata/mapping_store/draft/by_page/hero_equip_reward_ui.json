@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "hero_equip_reward_ui",
+  "displayName": "hero_equip_reward_ui",
+  "drafts": {
+    "DRAFT_c977a538565d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab",
+      "prefabRoot": "HeroEquipRewardUI",
+      "path": "HeroEquipRewardUI/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close2",
+      "clickable": true,
+      "pageId": "hero_equip_reward_ui",
+      "displayName": "关闭按钮",
+      "chineseDescription": "HeroEquipRewardUI的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab」中的HeroEquipRewardUI关闭按钮",
+      "suggestedTestId": "HeroEquipRewardUI.CloseBtn",
+      "suggestedSemanticId": "HeroEquipRewardUI.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c977a538565d"
+    },
+    "DRAFT_9bb3e66f669b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab",
+      "prefabRoot": "HeroEquipRewardUI",
+      "path": "HeroEquipRewardUI/Root/Content/ListBG/Scroll/Mask/Content/ItemNew",
+      "nodeName": "ItemNew",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "hero_equip_reward_ui",
+      "displayName": "项New",
+      "chineseDescription": "HeroEquipRewardUI的项New",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab」中的HeroEquipRewardUI项New",
+      "suggestedTestId": "HeroEquipRewardUI.ItemNew",
+      "suggestedSemanticId": "HeroEquipRewardUI.项New",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9bb3e66f669b"
+    },
+    "DRAFT_13f784492f1a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab",
+      "prefabRoot": "HeroEquipRewardUI",
+      "path": "HeroEquipRewardUI/Root/Content/ListBG/Scroll/Mask/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "hero_equip_reward_ui",
+      "displayName": "ClickContent",
+      "chineseDescription": "HeroEquipRewardUI的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab」中的HeroEquipRewardUIClickContent",
+      "suggestedTestId": "HeroEquipRewardUI.ClickContent",
+      "suggestedSemanticId": "HeroEquipRewardUI.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_13f784492f1a"
+    },
+    "DRAFT_3fb765b69bbb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab",
+      "prefabRoot": "HeroEquipRewardUI",
+      "path": "HeroEquipRewardUI/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "hero_equip_reward_ui",
+      "displayName": "Click",
+      "chineseDescription": "HeroEquipRewardUI的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroEquip/HeroEquipRewardUI.prefab」中的HeroEquipRewardUIClick",
+      "suggestedTestId": "HeroEquipRewardUI.Click",
+      "suggestedSemanticId": "HeroEquipRewardUI.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3fb765b69bbb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c977a538565d",
+      "DRAFT_9bb3e66f669b",
+      "DRAFT_13f784492f1a",
+      "DRAFT_3fb765b69bbb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

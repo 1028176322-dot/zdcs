@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_binded",
+  "displayName": "ui_binded",
+  "drafts": {
+    "DRAFT_11109a8cb3f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab",
+      "prefabRoot": "UIBinded",
+      "path": "UIBinded/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_binded",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIBinded的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab」中的UIBinded关闭按钮",
+      "suggestedTestId": "UIBinded.CloseBtn",
+      "suggestedSemanticId": "UIBinded.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_11109a8cb3f6"
+    },
+    "DRAFT_6aad6a6019f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab",
+      "prefabRoot": "UIBinded",
+      "path": "UIBinded/Root/BindTipPanel/BtnGreen",
+      "nodeName": "BtnGreen",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_binded",
+      "displayName": "按钮Green",
+      "chineseDescription": "UIBinded的按钮Green，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab」中的UIBinded按钮Green",
+      "suggestedTestId": "UIBinded.BtnGreen",
+      "suggestedSemanticId": "UIBinded.按钮Green",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6aad6a6019f6"
+    },
+    "DRAFT_f08281e7ee62": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab",
+      "prefabRoot": "UIBinded",
+      "path": "UIBinded/Root/BindTipPanel/BtnGold",
+      "nodeName": "BtnGold",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_binded",
+      "displayName": "按钮Gold",
+      "chineseDescription": "UIBinded的按钮Gold，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UIBinded.prefab」中的UIBinded按钮Gold",
+      "suggestedTestId": "UIBinded.BtnGold",
+      "suggestedSemanticId": "UIBinded.按钮Gold",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f08281e7ee62"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_11109a8cb3f6",
+      "DRAFT_6aad6a6019f6",
+      "DRAFT_f08281e7ee62"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

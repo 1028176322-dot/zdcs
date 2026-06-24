@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_arena_player_info",
+  "displayName": "ui_troop_arena_player_info",
+  "drafts": {
+    "DRAFT_e71666fd062b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITroopArenaPlayerInfo的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfo关闭按钮",
+      "suggestedTestId": "UITroopArenaPlayerInfo.CloseBtn",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e71666fd062b"
+    },
+    "DRAFT_0e672cfe2bb3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/information/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "Headk1",
+      "chineseDescription": "UITroopArenaPlayerInfo的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfoHeadk1",
+      "suggestedTestId": "UITroopArenaPlayerInfo.Head_k1",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0e672cfe2bb3"
+    },
+    "DRAFT_bceec25d20ef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/hero_bg/Scroll/ViewPort/Content/Item/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "项1",
+      "chineseDescription": "UITroopArenaPlayerInfo的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfo项1",
+      "suggestedTestId": "UITroopArenaPlayerInfo.Item1",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bceec25d20ef"
+    },
+    "DRAFT_fef9977e5718": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/hero_bg/Scroll/ViewPort/Content/Item/Item2",
+      "nodeName": "Item2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "项2",
+      "chineseDescription": "UITroopArenaPlayerInfo的项2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfo项2",
+      "suggestedTestId": "UITroopArenaPlayerInfo.Item2",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.项2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fef9977e5718"
+    },
+    "DRAFT_32a376212f76": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/hero_bg/Scroll/ViewPort/Content/Item/Item3",
+      "nodeName": "Item3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "项3",
+      "chineseDescription": "UITroopArenaPlayerInfo的项3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfo项3",
+      "suggestedTestId": "UITroopArenaPlayerInfo.Item3",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.项3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_32a376212f76"
+    },
+    "DRAFT_9e3018806de9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab",
+      "prefabRoot": "UITroopArenaPlayerInfo",
+      "path": "UITroopArenaPlayerInfo/Root/Animation/content/hero_bg/Scroll/ViewPort/Content/Item/Item4",
+      "nodeName": "Item4",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_player_info",
+      "displayName": "项4",
+      "chineseDescription": "UITroopArenaPlayerInfo的项4",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaPlayerInfo.prefab」中的UITroopArenaPlayerInfo项4",
+      "suggestedTestId": "UITroopArenaPlayerInfo.Item4",
+      "suggestedSemanticId": "UITroopArenaPlayerInfo.项4",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9e3018806de9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e71666fd062b",
+      "DRAFT_0e672cfe2bb3",
+      "DRAFT_bceec25d20ef",
+      "DRAFT_fef9977e5718",
+      "DRAFT_32a376212f76",
+      "DRAFT_9e3018806de9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

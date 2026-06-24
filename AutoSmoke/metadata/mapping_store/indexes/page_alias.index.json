@@ -1,0 +1,966 @@
+{
+  "schema_version": "mapping_index.page_alias.v1",
+  "updated_at": "2026-06-23T10:44:41",
+  "aliases": {
+    "export_alliance_confront_day_ranking": {
+      "canonicalPageId": "alliance_confront_day_ranking",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_day_ranking_award_normal": {
+      "canonicalPageId": "alliance_confront_day_ranking_award_normal",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_fighting_begin": {
+      "canonicalPageId": "alliance_confront_fighting_begin",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_inform_begin": {
+      "canonicalPageId": "alliance_confront_inform_begin",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_inform_settlement": {
+      "canonicalPageId": "alliance_confront_inform_settlement",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_main": {
+      "canonicalPageId": "alliance_confront_main",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_motif": {
+      "canonicalPageId": "alliance_confront_motif",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_particulars": {
+      "canonicalPageId": "alliance_confront_particulars",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_qualification": {
+      "canonicalPageId": "alliance_confront_qualification",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_ranking_award": {
+      "canonicalPageId": "alliance_confront_ranking_award",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_source": {
+      "canonicalPageId": "alliance_confront_source",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_theme": {
+      "canonicalPageId": "alliance_confront_theme",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_confront_week_ranking": {
+      "canonicalPageId": "alliance_confront_week_ranking",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_alliance_gift_tips": {
+      "canonicalPageId": "alliance_gift_tips",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_asset_overview": {
+      "canonicalPageId": "asset_overview",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_common_lack_item": {
+      "canonicalPageId": "common_lack_item",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_common_lack_recover": {
+      "canonicalPageId": "common_lack_recover",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_common_lack_res": {
+      "canonicalPageId": "common_lack_res",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_common_one_key_replenish": {
+      "canonicalPageId": "common_one_key_replenish",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_common_share": {
+      "canonicalPageId": "common_share",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_event_pop_up_collect_treasure": {
+      "canonicalPageId": "event_pop_up_collect_treasure",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_event_pop_up_gather": {
+      "canonicalPageId": "event_pop_up_gather",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_event_pop_up_kill_monster": {
+      "canonicalPageId": "event_pop_up_kill_monster",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_event_pop_up_kill_npc": {
+      "canonicalPageId": "event_pop_up_kill_npc",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_exchange_item_pop_ui": {
+      "canonicalPageId": "exchange_item_pop_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_explain_pop_up": {
+      "canonicalPageId": "explain_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_fortress_page": {
+      "canonicalPageId": "fortress_page",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_game_introduce": {
+      "canonicalPageId": "game_introduce",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_game_lock_pop_up": {
+      "canonicalPageId": "game_lock_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_head_battle_hud": {
+      "canonicalPageId": "head_battle_hud",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_draw_card_ui": {
+      "canonicalPageId": "hero_draw_card_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_draw_prob_ui": {
+      "canonicalPageId": "hero_draw_prob_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_draw_rare_card_ui": {
+      "canonicalPageId": "hero_draw_rare_card_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_draw_show_card_one_ui": {
+      "canonicalPageId": "hero_draw_show_card_one_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_draw_show_card_ten_ui": {
+      "canonicalPageId": "hero_draw_show_card_ten_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_disassemble_ui": {
+      "canonicalPageId": "hero_equip_disassemble_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_forge_ui": {
+      "canonicalPageId": "hero_equip_forge_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_info_pop": {
+      "canonicalPageId": "hero_equip_info_pop",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_info_ui": {
+      "canonicalPageId": "hero_equip_info_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_prob_ui": {
+      "canonicalPageId": "hero_equip_prob_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_select_ui": {
+      "canonicalPageId": "hero_equip_select_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_up_star_tips_ui": {
+      "canonicalPageId": "hero_equip_up_star_tips_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_equip_up_star_ui": {
+      "canonicalPageId": "hero_equip_up_star_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_info_pop_up": {
+      "canonicalPageId": "hero_info_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_list_ui": {
+      "canonicalPageId": "hero_list_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_main_ui": {
+      "canonicalPageId": "hero_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_main_ui_page1": {
+      "canonicalPageId": "hero_main_ui_page1",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_main_ui_page3": {
+      "canonicalPageId": "hero_main_ui_page3",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_main_ui_page4": {
+      "canonicalPageId": "hero_main_ui_page4",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_star_update": {
+      "canonicalPageId": "hero_star_update",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_tip_pop_up": {
+      "canonicalPageId": "hero_tip_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hero_up_star_succ": {
+      "canonicalPageId": "hero_up_star_succ",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_hospital_ui": {
+      "canonicalPageId": "hospital_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_island_01": {
+      "canonicalPageId": "island_01",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_island_02": {
+      "canonicalPageId": "island_02",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_island_03": {
+      "canonicalPageId": "island_03",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_islander_info": {
+      "canonicalPageId": "islander_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_islander_list": {
+      "canonicalPageId": "islander_list",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_islander_main": {
+      "canonicalPageId": "islander_main",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_lookout_tower_main": {
+      "canonicalPageId": "lookout_tower_main",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mail_equip_info": {
+      "canonicalPageId": "mail_equip_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mail_skill_info": {
+      "canonicalPageId": "mail_skill_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_hud_button": {
+      "canonicalPageId": "main_ciry_hud_button",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_level_up_reward_bubble": {
+      "canonicalPageId": "main_ciry_level_up_reward_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_npc_qi_pao": {
+      "canonicalPageId": "main_ciry_npc_qi_pao",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_radar_bubble": {
+      "canonicalPageId": "main_ciry_radar_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_recruit_bubble": {
+      "canonicalPageId": "main_ciry_recruit_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_tavern_bubble": {
+      "canonicalPageId": "main_ciry_tavern_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_technology_bubble": {
+      "canonicalPageId": "main_ciry_technology_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_throne_bubble": {
+      "canonicalPageId": "main_ciry_throne_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_main_ciry_trade_bubble": {
+      "canonicalPageId": "main_ciry_trade_bubble",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_dispatch_tip": {
+      "canonicalPageId": "marine_exploration_dispatch_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_get": {
+      "canonicalPageId": "marine_exploration_get",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_main": {
+      "canonicalPageId": "marine_exploration_main",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_note": {
+      "canonicalPageId": "marine_exploration_note",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_pop_tip": {
+      "canonicalPageId": "marine_exploration_pop_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_recycle": {
+      "canonicalPageId": "marine_exploration_recycle",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_refresh": {
+      "canonicalPageId": "marine_exploration_refresh",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_marine_exploration_report": {
+      "canonicalPageId": "marine_exploration_report",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mass_award": {
+      "canonicalPageId": "mass_award",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mini_game_save_hero_tip": {
+      "canonicalPageId": "mini_game_save_hero_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mini_game_start": {
+      "canonicalPageId": "mini_game_start",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mini_game_up_success": {
+      "canonicalPageId": "mini_game_up_success",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mini_game_win_reward": {
+      "canonicalPageId": "mini_game_win_reward",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_mission_help_pop_up": {
+      "canonicalPageId": "mission_help_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_my_city_pop_up": {
+      "canonicalPageId": "my_city_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_new_survival": {
+      "canonicalPageId": "new_survival",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_player_rename_ui": {
+      "canonicalPageId": "player_rename_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_port_page": {
+      "canonicalPageId": "port_page",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_queue_employ_ui": {
+      "canonicalPageId": "queue_employ_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_queue_speed_ui": {
+      "canonicalPageId": "queue_speed_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_report_journal": {
+      "canonicalPageId": "report_journal",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_report_main_ui": {
+      "canonicalPageId": "report_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_report_soldier_gain": {
+      "canonicalPageId": "report_soldier_gain",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_report_soldier_info": {
+      "canonicalPageId": "report_soldier_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_report_team_info": {
+      "canonicalPageId": "report_team_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_reservists_get_ui": {
+      "canonicalPageId": "reservists_get_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_reservists_main_ui": {
+      "canonicalPageId": "reservists_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_reservists_time_gain": {
+      "canonicalPageId": "reservists_time_gain",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_reservists_update": {
+      "canonicalPageId": "reservists_update",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ship_tech_buff_view": {
+      "canonicalPageId": "ship_tech_buff_view",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_split_secondary_confirmation": {
+      "canonicalPageId": "split_secondary_confirmation",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tavern_recruitment_ticket_tips": {
+      "canonicalPageId": "tavern_recruitment_ticket_tips",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_level_tip": {
+      "canonicalPageId": "tech_level_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_ship_preview": {
+      "canonicalPageId": "tech_ship_preview",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_ship_preview_tip": {
+      "canonicalPageId": "tech_ship_preview_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_ship_upgrade_pop_up": {
+      "canonicalPageId": "tech_ship_upgrade_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_ship_upgrade_view": {
+      "canonicalPageId": "tech_ship_upgrade_view",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_speed_tip": {
+      "canonicalPageId": "tech_speed_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tech_troop_get_tip": {
+      "canonicalPageId": "tech_troop_get_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_technology_all_add_pop_up": {
+      "canonicalPageId": "technology_all_add_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_technology_desc_pop_up": {
+      "canonicalPageId": "technology_desc_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_technology_main_ui": {
+      "canonicalPageId": "technology_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_technology_pop_up": {
+      "canonicalPageId": "technology_pop_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_territory_page": {
+      "canonicalPageId": "territory_page",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_test_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "export_tower_battle_boss": {
+      "canonicalPageId": "tower_battle_boss",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tower_battle_boss_info": {
+      "canonicalPageId": "tower_battle_boss_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tower_battle_main": {
+      "canonicalPageId": "tower_battle_main",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tower_battle_output_info": {
+      "canonicalPageId": "tower_battle_output_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_tower_battle_preview_tip": {
+      "canonicalPageId": "tower_battle_preview_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_trade_award_topup": {
+      "canonicalPageId": "trade_award_topup",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_trade_guide_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "export_trade_probability": {
+      "canonicalPageId": "trade_probability",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_trade_source_ui": {
+      "canonicalPageId": "trade_source_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_change": {
+      "canonicalPageId": "troop_equip_change",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_change_tip": {
+      "canonicalPageId": "troop_equip_change_tip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_info_ui": {
+      "canonicalPageId": "troop_equip_info_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_intensify_main_ui": {
+      "canonicalPageId": "troop_equip_intensify_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_intensify_tip_ui": {
+      "canonicalPageId": "troop_equip_intensify_tip_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_equip_tips": {
+      "canonicalPageId": "troop_equip_tips",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troop_tech_main_ui": {
+      "canonicalPageId": "troop_tech_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_troops_main_ui": {
+      "canonicalPageId": "troops_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activit_box_preview_tips": {
+      "canonicalPageId": "ui_activit_box_preview_tips",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_boneyard": {
+      "canonicalPageId": "ui_activity_boneyard",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_calendar": {
+      "canonicalPageId": "ui_activity_calendar",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_commander": {
+      "canonicalPageId": "ui_activity_commander",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_commander_integral_source": {
+      "canonicalPageId": "ui_activity_commander_integral_source",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_commander_rank": {
+      "canonicalPageId": "ui_activity_commander_rank",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_commander_rank_award": {
+      "canonicalPageId": "ui_activity_commander_rank_award",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_crab_boss": {
+      "canonicalPageId": "ui_activity_crab_boss",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_customization_gift_choose": {
+      "canonicalPageId": "ui_activity_customization_gift_choose",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_daily_custom_gift": {
+      "canonicalPageId": "ui_activity_daily_custom_gift",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_dragon_lair": {
+      "canonicalPageId": "ui_activity_dragon_lair",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_explorers_trial": {
+      "canonicalPageId": "ui_activity_explorers_trial",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_explorers_trial_preview": {
+      "canonicalPageId": "ui_activity_explorers_trial_preview",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_fortress_fight": {
+      "canonicalPageId": "ui_activity_fortress_fight",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_fortress_fight_award": {
+      "canonicalPageId": "ui_activity_fortress_fight_award",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_fortress_fight_my_integral": {
+      "canonicalPageId": "ui_activity_fortress_fight_my_integral",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_fortress_fight_time": {
+      "canonicalPageId": "ui_activity_fortress_fight_time",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_gathering_monster": {
+      "canonicalPageId": "ui_activity_gathering_monster",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_gathering_monster_award": {
+      "canonicalPageId": "ui_activity_gathering_monster_award",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_gathering_monster_integral": {
+      "canonicalPageId": "ui_activity_gathering_monster_integral",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_gathering_monster_ranking": {
+      "canonicalPageId": "ui_activity_gathering_monster_ranking",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_hero_palace": {
+      "canonicalPageId": "ui_activity_hero_palace",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_king_war": {
+      "canonicalPageId": "ui_activity_king_war",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_month_card": {
+      "canonicalPageId": "ui_activity_month_card",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_rank": {
+      "canonicalPageId": "ui_activity_rank",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_reward_preview": {
+      "canonicalPageId": "ui_activity_reward_preview",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_second_build_queue": {
+      "canonicalPageId": "ui_activity_second_build_queue",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_second_tech_queue": {
+      "canonicalPageId": "ui_activity_second_tech_queue",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack": {
+      "canonicalPageId": "ui_activity_sharks_attack",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_elite": {
+      "canonicalPageId": "ui_activity_sharks_attack_elite",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_last": {
+      "canonicalPageId": "ui_activity_sharks_attack_last",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_popup": {
+      "canonicalPageId": "ui_activity_sharks_attack_popup",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_rank": {
+      "canonicalPageId": "ui_activity_sharks_attack_rank",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_reward": {
+      "canonicalPageId": "ui_activity_sharks_attack_reward",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_sharks_attack_successful_defense": {
+      "canonicalPageId": "ui_activity_sharks_attack_successful_defense",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_strike_back": {
+      "canonicalPageId": "ui_activity_strike_back",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_strike_back_reward": {
+      "canonicalPageId": "ui_activity_strike_back_reward",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_weekly_card": {
+      "canonicalPageId": "ui_activity_weekly_card",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_wheel_disc": {
+      "canonicalPageId": "ui_activity_wheel_disc",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_wheel_disc_buy": {
+      "canonicalPageId": "ui_activity_wheel_disc_buy",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_wheel_disc_change_hero": {
+      "canonicalPageId": "ui_activity_wheel_disc_change_hero",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_wheel_disc_g_ift": {
+      "canonicalPageId": "ui_activity_wheel_disc_g_ift",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_activity_wheel_disc_probability": {
+      "canonicalPageId": "ui_activity_wheel_disc_probability",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_alliance_convene": {
+      "canonicalPageId": "ui_alliance_convene",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_alliance_gift": {
+      "canonicalPageId": "ui_alliance_gift",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_alliance_war_list": {
+      "canonicalPageId": "ui_alliance_war_list",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_altar_building": {
+      "canonicalPageId": "ui_altar_building",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_altar_list": {
+      "canonicalPageId": "ui_altar_list",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_change_hero": {
+      "canonicalPageId": "ui_change_hero",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_change_troop_equips": {
+      "canonicalPageId": "ui_change_troop_equips",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_complement_vip_pop": {
+      "canonicalPageId": "ui_complement_vip_pop",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_mail_detail": {
+      "canonicalPageId": "ui_mail_detail",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_march_speed_up": {
+      "canonicalPageId": "ui_march_speed_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_set_soldier": {
+      "canonicalPageId": "ui_set_soldier",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_skin_get_more": {
+      "canonicalPageId": "ui_skin_get_more",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_team_info": {
+      "canonicalPageId": "ui_team_info",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_trial_tower_layer": {
+      "canonicalPageId": "ui_trial_tower_layer",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_ui_vip": {
+      "canonicalPageId": "ui_vip",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_award_ui": {
+      "canonicalPageId": "uncharted_award_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_battle_stop_ui": {
+      "canonicalPageId": "uncharted_battle_stop_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_battle_tips_ui": {
+      "canonicalPageId": "uncharted_battle_tips_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_battle_ui": {
+      "canonicalPageId": "uncharted_battle_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_deity_ui": {
+      "canonicalPageId": "uncharted_deity_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_level_ui": {
+      "canonicalPageId": "uncharted_level_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_line_up_ui": {
+      "canonicalPageId": "uncharted_line_up_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_main_ui": {
+      "canonicalPageId": "uncharted_main_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_settlement_ui": {
+      "canonicalPageId": "uncharted_settlement_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_treasure_box_ui": {
+      "canonicalPageId": "uncharted_treasure_box_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_treasure_map_ui": {
+      "canonicalPageId": "uncharted_treasure_map_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_uncharted_unlock_tips_ui": {
+      "canonicalPageId": "uncharted_unlock_tips_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_vip_get_more": {
+      "canonicalPageId": "vip_get_more",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_vip_level_up": {
+      "canonicalPageId": "vip_level_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_world_line_up": {
+      "canonicalPageId": "world_line_up",
+      "reason": "export_prefix_duplicate"
+    },
+    "export_world_troop_info_ui": {
+      "canonicalPageId": "world_troop_info_ui",
+      "reason": "export_prefix_duplicate"
+    },
+    "fte_guide_build": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "fte_guide_build_new": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_0": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_choice": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_girl": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_make_wish": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_make_wish_2": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_make_wish_3": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_branch_ui_treasure": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_click_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_islander_unlock_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_2": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline07": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline12": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline13": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline17": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline19": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline20": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline22": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline23": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_main_city_root_3_d_timeline24": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_mask_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_special_operation_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_special_operation_ui_girl": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_special_skip_time_line": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "guide_story_narration_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "operation_guide_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "trade_guide_ui": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "ui_activity_gvgmvp": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "ui_gm_command": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "ui_gm_window": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "ui_guide_go_mini_game": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    },
+    "ui_guide_new": {
+      "canonicalPageId": "debug",
+      "reason": "debug_or_guide_page"
+    }
+  }
+}

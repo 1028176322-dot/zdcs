@@ -1,0 +1,44 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ice_break",
+  "displayName": "ice_break",
+  "drafts": {
+    "DRAFT_4cd951a70618": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MainActivity/IceBreak.prefab",
+      "prefabRoot": "IceBreak",
+      "path": "IceBreak",
+      "nodeName": "IceBreak",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "UIGiftShortcut",
+        "HomeIconFirstCharge"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ice_break",
+      "displayName": "IceBreak",
+      "chineseDescription": "IceBreak的IceBreak",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MainActivity/IceBreak.prefab」中的IceBreakIceBreak",
+      "suggestedTestId": "IceBreak.IceBreak",
+      "suggestedSemanticId": "IceBreak.IceBreak",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4cd951a70618"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4cd951a70618"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

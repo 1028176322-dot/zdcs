@@ -1,0 +1,43 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "alliance_confront_icon",
+  "displayName": "alliance_confront_icon",
+  "drafts": {
+    "DRAFT_c97db743594f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MainActivity/AllianceConfrontIcon.prefab",
+      "prefabRoot": "AllianceConfrontIcon",
+      "path": "AllianceConfrontIcon",
+      "nodeName": "AllianceConfrontIcon",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "AllianceConfrontIconUI"
+      ],
+      "spriteName": "ui_icon_9",
+      "clickable": true,
+      "pageId": "alliance_confront_icon",
+      "displayName": "AllianceConfront图标",
+      "chineseDescription": "AllianceConfrontIcon的AllianceConfront图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MainActivity/AllianceConfrontIcon.prefab」中的AllianceConfrontIconAllianceConfront图标",
+      "suggestedTestId": "AllianceConfrontIcon.AllianceConfrontIcon",
+      "suggestedSemanticId": "AllianceConfrontIcon.AllianceConfront图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c97db743594f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c97db743594f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

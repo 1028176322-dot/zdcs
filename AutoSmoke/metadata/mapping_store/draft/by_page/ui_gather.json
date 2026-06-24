@@ -1,0 +1,173 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_gather",
+  "displayName": "ui_gather",
+  "drafts": {
+    "DRAFT_e569c8c6b3fd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Content/Gatherer/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "Headk1",
+      "chineseDescription": "UIGather的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherHeadk1",
+      "suggestedTestId": "UIGather.Head_k1",
+      "suggestedSemanticId": "UIGather.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e569c8c6b3fd"
+    },
+    "DRAFT_3de81c65ef3f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Top/ShareBtn",
+      "nodeName": "ShareBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "fengxiang",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "Share按钮",
+      "chineseDescription": "UIGather的Share按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherShare按钮",
+      "suggestedTestId": "UIGather.ShareBtn",
+      "suggestedSemanticId": "UIGather.Share按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3de81c65ef3f"
+    },
+    "DRAFT_5fe1b0a7d015": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Top/StarBtn",
+      "nodeName": "StarBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "shouchang",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "Star按钮",
+      "chineseDescription": "UIGather的Star按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherStar按钮",
+      "suggestedTestId": "UIGather.StarBtn",
+      "suggestedSemanticId": "UIGather.Star按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5fe1b0a7d015"
+    },
+    "DRAFT_942e1c5b23a2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Button/NoPeopleGatherBtn",
+      "nodeName": "NoPeopleGatherBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "NoPeopleGather按钮",
+      "chineseDescription": "UIGather的NoPeopleGather按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherNoPeopleGather按钮",
+      "suggestedTestId": "UIGather.NoPeopleGatherBtn",
+      "suggestedSemanticId": "UIGather.NoPeopleGather按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_942e1c5b23a2"
+    },
+    "DRAFT_37f4b72f0893": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Button/EnemyOccupiedBtn",
+      "nodeName": "EnemyOccupiedBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "EnemyOccupied按钮",
+      "chineseDescription": "UIGather的EnemyOccupied按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherEnemyOccupied按钮",
+      "suggestedTestId": "UIGather.EnemyOccupiedBtn",
+      "suggestedSemanticId": "UIGather.EnemyOccupied按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_37f4b72f0893"
+    },
+    "DRAFT_9f609c910292": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab",
+      "prefabRoot": "UIGather",
+      "path": "UIGather/Root/BG/Button/GatherBtn",
+      "nodeName": "GatherBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_zhong",
+      "clickable": true,
+      "pageId": "ui_gather",
+      "displayName": "Gather按钮",
+      "chineseDescription": "UIGather的Gather按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Gather/UIGather.prefab」中的UIGatherGather按钮",
+      "suggestedTestId": "UIGather.GatherBtn",
+      "suggestedSemanticId": "UIGather.Gather按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9f609c910292"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e569c8c6b3fd",
+      "DRAFT_3de81c65ef3f",
+      "DRAFT_5fe1b0a7d015",
+      "DRAFT_942e1c5b23a2",
+      "DRAFT_37f4b72f0893",
+      "DRAFT_9f609c910292"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

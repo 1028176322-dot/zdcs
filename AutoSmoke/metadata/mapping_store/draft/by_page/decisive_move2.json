@@ -1,0 +1,42 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "decisive_move2",
+  "displayName": "decisive_move2",
+  "drafts": {
+    "DRAFT_ec24406f5010": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/DecisiveMove2.prefab",
+      "prefabRoot": "DecisiveMove2",
+      "path": "DecisiveMove2/Content/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickChargeButton",
+        "PlayerPrefSetting",
+        "ClickAudio"
+      ],
+      "spriteName": "3_ui_help_1",
+      "clickable": true,
+      "pageId": "decisive_move2",
+      "displayName": "按钮Go",
+      "chineseDescription": "DecisiveMove2的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/DecisiveMove2.prefab」中的DecisiveMove2按钮Go",
+      "suggestedTestId": "DecisiveMove2.BtnGo",
+      "suggestedSemanticId": "DecisiveMove2.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ec24406f5010"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ec24406f5010"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

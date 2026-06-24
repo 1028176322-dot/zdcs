@@ -1,0 +1,55 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.id.text",
+  "testId": "character_info.id.text",
+  "semanticId": "character_info.id.text",
+  "targetName": "角色信息界面玩家角色id文本",
+  "displayName": "角色信息-玩家角色id文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Right/ID/IDTitle/ID",
+    "screenRect": [
+      484,
+      2040,
+      574,
+      2114
+    ]
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+    "highlightImage": "screenshots/mapping_review/20260623_202643_highlight.png",
+    "screenRectUsed": [
+      484,
+      2040,
+      574,
+      2114
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T20:26:44",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T20:27:07",
+    "confirmedTestId": "character_info.id.text",
+    "formalRef": "formal://character_info/character_info.id.text",
+    "evidenceRef": "EVIDENCE_character_info.id.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "205",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T20:27:39"
+}

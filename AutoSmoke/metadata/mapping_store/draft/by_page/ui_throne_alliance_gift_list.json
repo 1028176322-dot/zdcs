@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_alliance_gift_list",
+  "displayName": "ui_throne_alliance_gift_list",
+  "drafts": {
+    "DRAFT_0d29cb0eee6a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGiftList.prefab",
+      "prefabRoot": "UIThroneAllianceGiftList",
+      "path": "UIThroneAllianceGiftList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneAllianceGiftList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGiftList.prefab」中的UIThroneAllianceGiftList关闭按钮",
+      "suggestedTestId": "UIThroneAllianceGiftList.CloseBtn",
+      "suggestedSemanticId": "UIThroneAllianceGiftList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0d29cb0eee6a"
+    },
+    "DRAFT_2ab0779dc47b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGiftList.prefab",
+      "prefabRoot": "UIThroneAllianceGiftList",
+      "path": "UIThroneAllianceGiftList/Root/ScrollView/Items/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_alliance_gift_list",
+      "displayName": "Headk1",
+      "chineseDescription": "UIThroneAllianceGiftList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneAllianceGiftList.prefab」中的UIThroneAllianceGiftListHeadk1",
+      "suggestedTestId": "UIThroneAllianceGiftList.Head_k1",
+      "suggestedSemanticId": "UIThroneAllianceGiftList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2ab0779dc47b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0d29cb0eee6a",
+      "DRAFT_2ab0779dc47b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

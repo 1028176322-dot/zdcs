@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "gvg_war",
+  "displayName": "gvg_war",
+  "drafts": {
+    "DRAFT_1e15e6a81881": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/GVGWar.prefab",
+      "prefabRoot": "GVGWar",
+      "path": "GVGWar",
+      "nodeName": "GVGWar",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "gvg_war",
+      "displayName": "GVGWar",
+      "chineseDescription": "GVGWar的GVGWar",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/GVGWar.prefab」中的GVGWarGVGWar",
+      "suggestedTestId": "GVGWar.GVGWar",
+      "suggestedSemanticId": "GVGWar.GVGWar",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e15e6a81881"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1e15e6a81881"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "push_away",
+  "displayName": "push_away",
+  "drafts": {
+    "DRAFT_c7b1fb8a4a8f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/PushAway.prefab",
+      "prefabRoot": "PushAway",
+      "path": "PushAway/Content/BtnGo",
+      "nodeName": "BtnGo",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "ClickChargeButton",
+        "PlayerPrefSetting",
+        "ClickAudio"
+      ],
+      "spriteName": "3_ui_help_1",
+      "clickable": true,
+      "pageId": "push_away",
+      "displayName": "按钮Go",
+      "chineseDescription": "PushAway的按钮Go，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/PushAway.prefab」中的PushAway按钮Go",
+      "suggestedTestId": "PushAway.BtnGo",
+      "suggestedSemanticId": "PushAway.按钮Go",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c7b1fb8a4a8f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c7b1fb8a4a8f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

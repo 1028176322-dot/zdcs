@@ -1,0 +1,125 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_arena_report",
+  "displayName": "ui_troop_arena_report",
+  "drafts": {
+    "DRAFT_1748728c7ab6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab",
+      "prefabRoot": "UITroopArenaReport",
+      "path": "UITroopArenaReport/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_troop_arena_report",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITroopArenaReport的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab」中的UITroopArenaReport关闭按钮",
+      "suggestedTestId": "UITroopArenaReport.CloseBtn",
+      "suggestedSemanticId": "UITroopArenaReport.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1748728c7ab6"
+    },
+    "DRAFT_cc06d479889a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab",
+      "prefabRoot": "UITroopArenaReport",
+      "path": "UITroopArenaReport/Root/Animation/content/list/Viewport/Content/Items/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio",
+        "BoxCollider",
+        "CanvasRenderer",
+        "UIDragScrollView",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_report",
+      "displayName": "Headk1",
+      "chineseDescription": "UITroopArenaReport的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab」中的UITroopArenaReportHeadk1",
+      "suggestedTestId": "UITroopArenaReport.Head_k1",
+      "suggestedSemanticId": "UITroopArenaReport.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cc06d479889a"
+    },
+    "DRAFT_fe87b4fd49bf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab",
+      "prefabRoot": "UITroopArenaReport",
+      "path": "UITroopArenaReport/Root/Animation/content/list/Viewport/Content/Items/Item/report",
+      "nodeName": "report",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "TFWButton",
+        "ClickAudio"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_troop_arena_report",
+      "displayName": "report",
+      "chineseDescription": "UITroopArenaReport的report",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab」中的UITroopArenaReportreport",
+      "suggestedTestId": "UITroopArenaReport.report",
+      "suggestedSemanticId": "UITroopArenaReport.report",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fe87b4fd49bf"
+    },
+    "DRAFT_47089f3d4d0e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab",
+      "prefabRoot": "UITroopArenaReport",
+      "path": "UITroopArenaReport/Root/Animation/content/list/Viewport/Content/Items/Item/revenge",
+      "nodeName": "revenge",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "TFWButton",
+        "ClickAudio"
+      ],
+      "spriteName": "Button_ye_small",
+      "clickable": true,
+      "pageId": "ui_troop_arena_report",
+      "displayName": "revenge",
+      "chineseDescription": "UITroopArenaReport的revenge",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaReport.prefab」中的UITroopArenaReportrevenge",
+      "suggestedTestId": "UITroopArenaReport.revenge",
+      "suggestedSemanticId": "UITroopArenaReport.revenge",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_47089f3d4d0e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1748728c7ab6",
+      "DRAFT_cc06d479889a",
+      "DRAFT_fe87b4fd49bf",
+      "DRAFT_47089f3d4d0e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

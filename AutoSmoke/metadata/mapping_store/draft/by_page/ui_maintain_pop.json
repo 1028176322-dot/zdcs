@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_maintain_pop",
+  "displayName": "ui_maintain_pop",
+  "drafts": {
+    "DRAFT_312e9e9792ec": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Login/UIMaintainPop.prefab",
+      "prefabRoot": "UIMaintainPop",
+      "path": "UIMaintainPop/Animation/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_maintain_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIMaintainPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Login/UIMaintainPop.prefab」中的UIMaintainPop关闭按钮",
+      "suggestedTestId": "UIMaintainPop.CloseBtn",
+      "suggestedSemanticId": "UIMaintainPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_312e9e9792ec"
+    },
+    "DRAFT_e63ed0e7cc83": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Login/UIMaintainPop.prefab",
+      "prefabRoot": "UIMaintainPop",
+      "path": "UIMaintainPop/Animation/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_maintain_pop",
+      "displayName": "按钮",
+      "chineseDescription": "UIMaintainPop的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Login/UIMaintainPop.prefab」中的UIMaintainPop按钮",
+      "suggestedTestId": "UIMaintainPop.Btn",
+      "suggestedSemanticId": "UIMaintainPop.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e63ed0e7cc83"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_312e9e9792ec",
+      "DRAFT_e63ed0e7cc83"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

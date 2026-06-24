@@ -1,0 +1,2279 @@
+{
+  "schema_version": "mapping_evidence.v1",
+  "feature_name": "AutoSmoke",
+  "updated_at": "2026-06-24T11:40:49",
+  "evidence": {
+    "EVIDENCE_bag.back.button": {
+      "testId": "bag.back.button",
+      "semanticId": "bag.back.button",
+      "targetName": "背包返回按钮",
+      "structure": {
+        "path": "UIShop/Root/BtnClose",
+        "pageId": "bag",
+        "elementType": "interactive_icon"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "bag.back.button",
+        "formalRef": "formal://bag/bag.back.button",
+        "evidenceRef": "EVIDENCE_bag.back.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.btn_close.button.png",
+        "screenRectUsed": [
+          21,
+          2397,
+          131,
+          2493
+        ],
+        "confirmedTestId": "bag.back.button",
+        "formalRef": "formal://bag/bag.back.button",
+        "evidenceRef": "EVIDENCE_bag.back.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13430986,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
+          "screenPoint": [
+            75,
+            87
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.back.button",
+        "formalRef": "formal://bag/bag.back.button",
+        "evidenceRef": "EVIDENCE_bag.back.button"
+      },
+      "displayName": "背包-返回按钮",
+      "pageId": "bag",
+      "role": "back",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.back.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.equipment.tab.button": {
+      "testId": "bag.equipment.tab.button",
+      "semanticId": "bag.equipment.tab.button",
+      "targetName": "背包装备页签按钮",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/4",
+        "pageId": "bag",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Tab/Tab/View/Content/4",
+        "screenRect": [
+          936,
+          152,
+          1153,
+          254
+        ],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/bag.equipment.tab.button.png",
+        "screenRectUsed": [
+          940,
+          172,
+          1148,
+          254
+        ]
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4/Off/TextOff",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13432650,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
+          "screenPoint": [
+            1044,
+            2329
+          ],
+          "injectorResultRecovered": true
+        }
+      },
+      "semanticMigratedAt": "2026-06-18T16:53:47",
+      "displayName": "背包-装备页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.equipment.tab.button",
+      "updated_at": "2026-06-23T10:14:40"
+    },
+    "EVIDENCE_bag.food.source_button": {
+      "testId": "bag.food.source_button",
+      "semanticId": "bag.food.source_button",
+      "targetName": "背包粮食途径按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_2",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+        "screenRect": [
+          476,
+          20,
+          693,
+          129
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.food.source_button",
+        "formalRef": "formal://bag/bag.food.source_button",
+        "evidenceRef": "EVIDENCE_bag.food.source_button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.top_res.item_2.cell.png",
+        "screenRectUsed": [
+          476,
+          20,
+          693,
+          129
+        ],
+        "confirmedTestId": "bag.food.source_button",
+        "formalRef": "formal://bag/bag.food.source_button",
+        "evidenceRef": "EVIDENCE_bag.food.source_button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "clickResult": "OK",
+          "error": "AutoSmokeClickInjector did not write click_result.json",
+          "eventReceiverMatched": true,
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2/text",
+          "injectorResultRecovered": true,
+          "instanceId": -13430878,
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
+          "screenPoint": [
+            584,
+            2457
+          ],
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2"
+        },
+        "confirmedTestId": "bag.food.source_button",
+        "formalRef": "formal://bag/bag.food.source_button",
+        "evidenceRef": "EVIDENCE_bag.food.source_button"
+      },
+      "displayName": "背包-粮食途径按钮",
+      "pageId": "bag",
+      "role": "item",
+      "elementType": "item_cell",
+      "evidenceRef": "EVIDENCE_bag.food.source_button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.gold.source_button": {
+      "testId": "bag.gold.source_button",
+      "semanticId": "bag.gold.source_button",
+      "targetName": "背包金币途径按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_1",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+        "screenRect": [
+          256,
+          20,
+          472,
+          129
+        ],
+        "matchScore": 0.82,
+        "confirmedTestId": "bag.gold.source_button",
+        "formalRef": "formal://bag/bag.gold.source_button",
+        "evidenceRef": "EVIDENCE_bag.gold.source_button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.top_res.item_1.cell.png",
+        "screenRectUsed": [
+          256,
+          20,
+          472,
+          129
+        ],
+        "confirmedTestId": "bag.gold.source_button",
+        "formalRef": "formal://bag/bag.gold.source_button",
+        "evidenceRef": "EVIDENCE_bag.gold.source_button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "clickResult": "OK",
+          "error": "AutoSmokeClickInjector did not write click_result.json",
+          "eventReceiverMatched": true,
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1/text",
+          "injectorResultRecovered": true,
+          "instanceId": -13430842,
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
+          "screenPoint": [
+            363,
+            2457
+          ],
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
+        },
+        "confirmedTestId": "bag.gold.source_button",
+        "formalRef": "formal://bag/bag.gold.source_button",
+        "evidenceRef": "EVIDENCE_bag.gold.source_button"
+      },
+      "displayName": "背包-金币途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.gold.source_button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.hero.tab.button": {
+      "testId": "bag.hero.tab.button",
+      "semanticId": "bag.hero.tab.button",
+      "targetName": "背包英雄页签按钮",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/3",
+        "pageId": "bag",
+        "elementType": "tab"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Tab/Tab/View/Content/3",
+        "screenRect": [
+          706,
+          152,
+          923,
+          254
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.hero.tab.button",
+        "formalRef": "formal://bag/bag.hero.tab.button",
+        "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.3.tab.png",
+        "screenRectUsed": [
+          710,
+          172,
+          918,
+          254
+        ],
+        "confirmedTestId": "bag.hero.tab.button",
+        "formalRef": "formal://bag/bag.hero.tab.button",
+        "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3/Off/TextOff",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13432564,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+          "screenPoint": [
+            814,
+            2329
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.hero.tab.button",
+        "formalRef": "formal://bag/bag.hero.tab.button",
+        "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+      },
+      "displayName": "背包-英雄页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.hero.tab.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.iron.source_button": {
+      "testId": "bag.iron.source_button",
+      "semanticId": "bag.iron.source_button",
+      "targetName": "背包铁矿途径按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_4",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4",
+        "screenRect": [
+          918,
+          20,
+          1134,
+          129
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.iron.source_button",
+        "formalRef": "formal://bag/bag.iron.source_button",
+        "evidenceRef": "EVIDENCE_bag.iron.source_button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.top_res.item_4.cell.png",
+        "screenRectUsed": [
+          918,
+          20,
+          1134,
+          129
+        ],
+        "confirmedTestId": "bag.iron.source_button",
+        "formalRef": "formal://bag/bag.iron.source_button",
+        "evidenceRef": "EVIDENCE_bag.iron.source_button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "clickResult": "OK",
+          "error": "AutoSmokeClickInjector did not write click_result.json",
+          "eventReceiverMatched": true,
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4/text",
+          "injectorResultRecovered": true,
+          "instanceId": -13430950,
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4",
+          "screenPoint": [
+            1025,
+            2457
+          ],
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4"
+        },
+        "confirmedTestId": "bag.iron.source_button",
+        "formalRef": "formal://bag/bag.iron.source_button",
+        "evidenceRef": "EVIDENCE_bag.iron.source_button"
+      },
+      "displayName": "背包-铁矿途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.iron.source_button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.prop_item_1.click_area": {
+      "testId": "bag.prop_item_1.click_area",
+      "semanticId": "bag.prop_item_1.click_area",
+      "targetName": "背包第1个道具点击区",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+        "screenRect": [
+          30,
+          292,
+          290,
+          552
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.prop_item_1.click_area",
+        "formalRef": "formal://bag/bag.prop_item_1.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.png",
+        "screenRectUsed": [
+          30,
+          292,
+          290,
+          552
+        ],
+        "confirmedTestId": "bag.prop_item_1.click_area",
+        "formalRef": "formal://bag/bag.prop_item_1.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13432772,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
+          "screenPoint": [
+            160,
+            2110
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.prop_item_1.click_area",
+        "formalRef": "formal://bag/bag.prop_item_1.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area"
+      },
+      "displayName": "背包-第1个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.prop_item_2.click_area": {
+      "testId": "bag.prop_item_2.click_area",
+      "semanticId": "bag.prop_item_2.click_area",
+      "targetName": "背包第2个道具点击区",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+        "screenRect": [
+          313,
+          292,
+          573,
+          552
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.prop_item_2.click_area",
+        "formalRef": "formal://bag/bag.prop_item_2.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.baf6e9.png",
+        "screenRectUsed": [
+          313,
+          292,
+          573,
+          552
+        ],
+        "confirmedTestId": "bag.prop_item_2.click_area",
+        "formalRef": "formal://bag/bag.prop_item_2.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13433512,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+          "screenPoint": [
+            442,
+            2110
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.prop_item_2.click_area",
+        "formalRef": "formal://bag/bag.prop_item_2.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+      },
+      "displayName": "背包-第2个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.prop_item_3.click_area": {
+      "testId": "bag.prop_item_3.click_area",
+      "semanticId": "bag.prop_item_3.click_area",
+      "targetName": "背包第3个道具点击区",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+        "screenRect": [
+          596,
+          292,
+          856,
+          552
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.prop_item_3.click_area",
+        "formalRef": "formal://bag/bag.prop_item_3.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.be252a.png",
+        "screenRectUsed": [
+          596,
+          292,
+          856,
+          552
+        ],
+        "confirmedTestId": "bag.prop_item_3.click_area",
+        "formalRef": "formal://bag/bag.prop_item_3.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13434252,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
+          "screenPoint": [
+            725,
+            2110
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.prop_item_3.click_area",
+        "formalRef": "formal://bag/bag.prop_item_3.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area"
+      },
+      "displayName": "背包-第3个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.prop_item_4.click_area": {
+      "testId": "bag.prop_item_4.click_area",
+      "semanticId": "bag.prop_item_4.click_area",
+      "targetName": "背包第4个道具点击区",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+        "pageId": "bag",
+        "elementType": "item_cell"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+        "screenRect": [
+          878,
+          292,
+          1138,
+          552
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.prop_item_4.click_area",
+        "formalRef": "formal://bag/bag.prop_item_4.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.2548c0.png",
+        "screenRectUsed": [
+          878,
+          292,
+          1138,
+          552
+        ],
+        "confirmedTestId": "bag.prop_item_4.click_area",
+        "formalRef": "formal://bag/bag.prop_item_4.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13434992,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
+          "screenPoint": [
+            1008,
+            2110
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.prop_item_4.click_area",
+        "formalRef": "formal://bag/bag.prop_item_4.click_area",
+        "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area"
+      },
+      "displayName": "背包-第4个道具点击区",
+      "pageId": "bag",
+      "role": "item_click",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.resource.tab.button": {
+      "testId": "bag.resource.tab.button",
+      "semanticId": "bag.resource.tab.button",
+      "targetName": "背包资源页签按钮",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/1",
+        "pageId": "bag",
+        "elementType": "tab"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Tab/Tab/View/Content/1",
+        "screenRect": [
+          246,
+          152,
+          463,
+          254
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.resource.tab.button",
+        "formalRef": "formal://bag/bag.resource.tab.button",
+        "evidenceRef": "EVIDENCE_bag.resource.tab.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.1.tab.png",
+        "screenRectUsed": [
+          251,
+          172,
+          459,
+          254
+        ],
+        "confirmedTestId": "bag.resource.tab.button",
+        "formalRef": "formal://bag/bag.resource.tab.button",
+        "evidenceRef": "EVIDENCE_bag.resource.tab.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1/Off/TextOff",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13432392,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
+          "screenPoint": [
+            354,
+            2329
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.resource.tab.button",
+        "formalRef": "formal://bag/bag.resource.tab.button",
+        "evidenceRef": "EVIDENCE_bag.resource.tab.button"
+      },
+      "displayName": "背包-资源页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.resource.tab.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.special.tab.button": {
+      "testId": "bag.special.tab.button",
+      "semanticId": "bag.special.tab.button",
+      "targetName": "背包特殊页签按钮",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/0",
+        "pageId": "bag",
+        "elementType": "tab"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Tab/Tab/View/Content/0",
+        "screenRect": [
+          16,
+          152,
+          233,
+          254
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.special.tab.button",
+        "formalRef": "formal://bag/bag.special.tab.button",
+        "evidenceRef": "EVIDENCE_bag.special.tab.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.0.tab.png",
+        "screenRectUsed": [
+          16,
+          152,
+          233,
+          254
+        ],
+        "confirmedTestId": "bag.special.tab.button",
+        "formalRef": "formal://bag/bag.special.tab.button",
+        "evidenceRef": "EVIDENCE_bag.special.tab.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0/On/Text",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13426580,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
+          "screenPoint": [
+            124,
+            2329
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.special.tab.button",
+        "formalRef": "formal://bag/bag.special.tab.button",
+        "evidenceRef": "EVIDENCE_bag.special.tab.button"
+      },
+      "displayName": "背包-特殊页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.special.tab.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.speedup.tab.button": {
+      "testId": "bag.speedup.tab.button",
+      "semanticId": "bag.speedup.tab.button",
+      "targetName": "背包加速页签按钮",
+      "structure": {
+        "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/2",
+        "pageId": "bag",
+        "elementType": "tab"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/Shop/Tab/Tab/View/Content/2",
+        "screenRect": [
+          476,
+          152,
+          693,
+          254
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.speedup.tab.button",
+        "formalRef": "formal://bag/bag.speedup.tab.button",
+        "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.2.tab.png",
+        "screenRectUsed": [
+          481,
+          172,
+          689,
+          254
+        ],
+        "confirmedTestId": "bag.speedup.tab.button",
+        "formalRef": "formal://bag/bag.speedup.tab.button",
+        "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2/Off/TextOff",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13432478,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
+          "screenPoint": [
+            584,
+            2329
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.speedup.tab.button",
+        "formalRef": "formal://bag/bag.speedup.tab.button",
+        "evidenceRef": "EVIDENCE_bag.speedup.tab.button"
+      },
+      "displayName": "背包-加速页签按钮",
+      "pageId": "bag",
+      "role": "tab",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.speedup.tab.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.use.button": {
+      "testId": "bag.use.button",
+      "semanticId": "bag.use.button",
+      "targetName": "背包道具使用按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+        "pageId": "bag",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "bag.use.button",
+        "formalRef": "formal://bag/bag.use.button",
+        "evidenceRef": "EVIDENCE_bag.use.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.bag.used_btn.button.png",
+        "screenRectUsed": [
+          380,
+          2376,
+          790,
+          2527
+        ],
+        "confirmedTestId": "bag.use.button",
+        "formalRef": "formal://bag/bag.use.button",
+        "evidenceRef": "EVIDENCE_bag.use.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13430044,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "screenPoint": [
+            584,
+            80
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.use.button",
+        "formalRef": "formal://bag/bag.use.button",
+        "evidenceRef": "EVIDENCE_bag.use.button"
+      },
+      "displayName": "背包-使用按钮",
+      "pageId": "bag",
+      "role": "use",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.use.button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_bag.wood.source_button": {
+      "testId": "bag.wood.source_button",
+      "semanticId": "bag.wood.source_button",
+      "targetName": "背包木材途径按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/TopRes/ResItem_3",
+        "pageId": "bag",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+        "screenRect": [
+          697,
+          20,
+          914,
+          129
+        ],
+        "matchScore": "",
+        "confirmedTestId": "bag.wood.source_button",
+        "formalRef": "formal://bag/bag.wood.source_button",
+        "evidenceRef": "EVIDENCE_bag.wood.source_button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.bag.res_item_3.button.png",
+        "screenRectUsed": [
+          697,
+          20,
+          914,
+          129
+        ],
+        "confirmedTestId": "bag.wood.source_button",
+        "formalRef": "formal://bag/bag.wood.source_button",
+        "evidenceRef": "EVIDENCE_bag.wood.source_button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+          "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3/text",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -13430914,
+          "error": "AutoSmokeClickInjector did not write click_result.json",
+          "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+          "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+          "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
+          "screenPoint": [
+            805,
+            2457
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "bag.wood.source_button",
+        "formalRef": "formal://bag/bag.wood.source_button",
+        "evidenceRef": "EVIDENCE_bag.wood.source_button"
+      },
+      "displayName": "背包-木材途径按钮",
+      "pageId": "bag",
+      "role": "resource_source",
+      "elementType": "Button",
+      "evidenceRef": "EVIDENCE_bag.wood.source_button",
+      "updated_at": "2026-06-23T10:14:40",
+      "semanticSyncedAt": "2026-06-24T10:03:47",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_character_info.alliance.text": {
+      "evidenceRef": "EVIDENCE_character_info.alliance.text",
+      "testId": "character_info.alliance.text",
+      "semanticId": "character_info.alliance.text",
+      "targetName": "角色信息界面联盟文本",
+      "displayName": "角色信息-联盟文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Right/Alliance/Txt",
+        "screenRect": [
+          357,
+          2156,
+          520,
+          2230
+        ],
+        "confirmedTestId": "character_info.alliance.text",
+        "formalRef": "formal://character_info/character_info.alliance.text",
+        "evidenceRef": "EVIDENCE_character_info.alliance.text"
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Alliance/Txt",
+        "highlightImage": "screenshots/mapping_review/20260623_195947_highlight.png",
+        "screenRectUsed": [
+          357,
+          2156,
+          520,
+          2230
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T19:59:47",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T20:00:04",
+        "confirmedTestId": "character_info.alliance.text",
+        "formalRef": "formal://character_info/character_info.alliance.text",
+        "evidenceRef": "EVIDENCE_character_info.alliance.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "联盟:",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T20:00:10"
+    },
+    "EVIDENCE_character_info.buff.button": {
+      "evidenceRef": "EVIDENCE_character_info.buff.button",
+      "testId": "character_info.buff.button",
+      "semanticId": "character_info.buff.button",
+      "targetName": "角色信息界面增益按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "character_info.buff.button",
+        "formalRef": "formal://character_info/character_info.buff.button",
+        "evidenceRef": "EVIDENCE_character_info.buff.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260624_094809_highlight.png",
+        "screenRectUsed": [
+          696,
+          2360,
+          868,
+          2531
+        ],
+        "confirmedTestId": "character_info.buff.button",
+        "formalRef": "formal://character_info/character_info.buff.button",
+        "evidenceRef": "EVIDENCE_character_info.buff.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6771640,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
+          "screenPoint": [
+            781,
+            86
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "character_info.buff.button",
+        "formalRef": "formal://character_info/character_info.buff.button",
+        "evidenceRef": "EVIDENCE_character_info.buff.button"
+      },
+      "updated_at": "2026-06-24T09:48:53",
+      "displayName": "角色信息-增益按钮",
+      "role": "button",
+      "elementType": "Button",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_character_info.country_label.text": {
+      "evidenceRef": "EVIDENCE_character_info.country_label.text",
+      "testId": "character_info.country_label.text",
+      "semanticId": "character_info.country_label.text",
+      "targetName": "角色信息界面国家标题文本",
+      "displayName": "角色信息-国家标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Right/Country/text",
+        "screenRect": [
+          356,
+          2214,
+          515,
+          2288
+        ],
+        "confirmedTestId": "character_info.country_label.text",
+        "formalRef": "formal://character_info/character_info.country_label.text",
+        "evidenceRef": "EVIDENCE_character_info.country_label.text"
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+        "highlightImage": "screenshots/mapping_review/20260623_202924_highlight.png",
+        "screenRectUsed": [
+          356,
+          2214,
+          515,
+          2288
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T20:29:25",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T20:29:28",
+        "confirmedTestId": "character_info.country_label.text",
+        "formalRef": "formal://character_info/character_info.country_label.text",
+        "evidenceRef": "EVIDENCE_character_info.country_label.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "国家：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T20:29:33"
+    },
+    "EVIDENCE_character_info.customer_service.button": {
+      "testId": "character_info.customer_service.button",
+      "semanticId": "character_info.customer_service.button",
+      "targetName": "角色信息界面客服按钮",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ServiceButton",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "character_info.customer_service.button",
+        "formalRef": "formal://character_info/character_info.customer_service.button",
+        "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "mapping_store/evidence/assets/highlights/ui_player_main.ui_player_main_clone_ui_player_main_ui_player_main.service_button.png",
+        "screenRectUsed": [
+          1010,
+          216,
+          1131,
+          339
+        ],
+        "confirmedTestId": "character_info.customer_service.button",
+        "formalRef": "formal://character_info/character_info.customer_service.button",
+        "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -2852014,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
+          "screenPoint": [
+            1070,
+            2254
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "character_info.customer_service.button",
+        "formalRef": "formal://character_info/character_info.customer_service.button",
+        "evidenceRef": "EVIDENCE_character_info.customer_service.button"
+      },
+      "evidenceRef": "EVIDENCE_character_info.customer_service.button",
+      "pageId": "character_info",
+      "updated_at": "2026-06-23T16:24:30",
+      "displayName": "角色信息-客服按钮",
+      "role": "button",
+      "elementType": "Button",
+      "semanticSyncedAt": "2026-06-24T10:00:32",
+      "semanticSyncedBy": "target_workbench_repair"
+    },
+    "EVIDENCE_character_info.flag.button": {
+      "evidenceRef": "EVIDENCE_character_info.flag.button",
+      "testId": "character_info.flag.button",
+      "semanticId": "character_info.flag.button",
+      "targetName": "角色信息界面旗帜图标按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "UiPlayerMain/Content/Content/Right/Country/text/Flag",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "character_info.flag.button",
+        "formalRef": "formal://character_info/character_info.flag.button",
+        "evidenceRef": "EVIDENCE_character_info.flag.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_203013_highlight.png",
+        "screenRectUsed": [
+          542,
+          2238,
+          593,
+          2276
+        ],
+        "confirmedTestId": "character_info.flag.button",
+        "formalRef": "formal://character_info/character_info.flag.button",
+        "evidenceRef": "EVIDENCE_character_info.flag.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6771408,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+          "screenPoint": [
+            567,
+            275
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "character_info.flag.button",
+        "formalRef": "formal://character_info/character_info.flag.button",
+        "evidenceRef": "EVIDENCE_character_info.flag.button"
+      },
+      "updated_at": "2026-06-23T20:30:41",
+      "displayName": "角色信息-旗帜按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.friend.button": {
+      "evidenceRef": "EVIDENCE_character_info.friend.button",
+      "testId": "character_info.friend.button",
+      "semanticId": "character_info.friend.button",
+      "targetName": "角色信息界面好友按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/FriendBtn",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "character_info.friend.button",
+        "formalRef": "formal://character_info/character_info.friend.button",
+        "evidenceRef": "EVIDENCE_character_info.friend.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_203439_highlight.png",
+        "screenRectUsed": [
+          446,
+          2360,
+          618,
+          2531
+        ],
+        "confirmedTestId": "character_info.friend.button",
+        "formalRef": "formal://character_info/character_info.friend.button",
+        "evidenceRef": "EVIDENCE_character_info.friend.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6771590,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+          "screenPoint": [
+            532,
+            86
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "character_info.friend.button",
+        "formalRef": "formal://character_info/character_info.friend.button",
+        "evidenceRef": "EVIDENCE_character_info.friend.button"
+      },
+      "updated_at": "2026-06-23T20:35:08",
+      "displayName": "角色信息-好友按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.gender.button": {
+      "evidenceRef": "EVIDENCE_character_info.gender.button",
+      "testId": "character_info.gender.button",
+      "semanticId": "character_info.gender.button",
+      "targetName": "角色信息界面性别图标按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "UiPlayerMain/Content/Content/Info/TxtSex/man_button",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_184752_highlight.png",
+        "screenRectUsed": [
+          528,
+          2116,
+          559,
+          2164
+        ],
+        "confirmedTestId": "character_info.gender.button",
+        "formalRef": "formal://character_info/character_info.gender.button",
+        "evidenceRef": "EVIDENCE_character_info.gender.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6441670,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+          "screenPoint": [
+            543,
+            392
+          ],
+          "injectorResultRecovered": true
+        }
+      },
+      "updated_at": "2026-06-23T18:55:19",
+      "displayName": "角色信息-性别按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.gender.text": {
+      "evidenceRef": "EVIDENCE_character_info.gender.text",
+      "testId": "character_info.gender.text",
+      "semanticId": "character_info.gender.text",
+      "targetName": "角色信息界面性别文本",
+      "displayName": "角色信息-性别文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Info/TxtSex",
+        "screenRect": [
+          354,
+          2098,
+          513,
+          2172
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/TxtSex",
+        "highlightImage": "screenshots/mapping_review/20260623_183448_highlight.png",
+        "screenRectUsed": [
+          354,
+          2098,
+          513,
+          2172
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T18:34:49",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T18:44:23",
+        "confirmedTestId": "character_info.gender.text",
+        "formalRef": "formal://character_info/character_info.gender.text",
+        "evidenceRef": "EVIDENCE_character_info.gender.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "性别：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T18:48:46"
+    },
+    "EVIDENCE_character_info.id.button": {
+      "evidenceRef": "EVIDENCE_character_info.id.button",
+      "testId": "character_info.id.button",
+      "semanticId": "character_info.id.button",
+      "targetName": "角色信息界面玩家id复制按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_202800_highlight.png",
+        "screenRectUsed": [
+          1014,
+          2040,
+          1100,
+          2126
+        ],
+        "confirmedTestId": "character_info.id.button",
+        "formalRef": "formal://character_info/character_info.id.button",
+        "evidenceRef": "EVIDENCE_character_info.id.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6771242,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+          "screenPoint": [
+            1056,
+            449
+          ],
+          "injectorResultRecovered": true
+        }
+      },
+      "updated_at": "2026-06-23T20:29:02",
+      "displayName": "角色信息-玩家角色id按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.id.text": {
+      "evidenceRef": "EVIDENCE_character_info.id.text",
+      "testId": "character_info.id.text",
+      "semanticId": "character_info.id.text",
+      "targetName": "角色信息界面玩家角色id文本",
+      "displayName": "角色信息-玩家角色id文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Right/ID/IDTitle/ID",
+        "screenRect": [
+          484,
+          2040,
+          574,
+          2114
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle/ID",
+        "highlightImage": "screenshots/mapping_review/20260623_202643_highlight.png",
+        "screenRectUsed": [
+          484,
+          2040,
+          574,
+          2114
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T20:26:44",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T20:27:07",
+        "confirmedTestId": "character_info.id.text",
+        "formalRef": "formal://character_info/character_info.id.text",
+        "evidenceRef": "EVIDENCE_character_info.id.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T20:27:39"
+    },
+    "EVIDENCE_character_info.id_label.text": {
+      "evidenceRef": "EVIDENCE_character_info.id_label.text",
+      "testId": "character_info.id_label.text",
+      "semanticId": "character_info.id_label.text",
+      "targetName": "角色信息界面ID标题文本",
+      "displayName": "角色信息-ID标题文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Right/ID/IDTitle",
+        "screenRect": [
+          353,
+          2040,
+          455,
+          2114
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle",
+        "highlightImage": "screenshots/mapping_review/20260623_200110_highlight.png",
+        "screenRectUsed": [
+          353,
+          2040,
+          455,
+          2114
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T20:01:11",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T20:01:29",
+        "confirmedTestId": "character_info.id_label.text",
+        "formalRef": "formal://character_info/character_info.id_label.text",
+        "evidenceRef": "EVIDENCE_character_info.id_label.text",
+        "targetName": "角色信息界面ID标题文本",
+        "displayName": "角色信息-ID标题文本",
+        "semanticId": "character_info.id_label.text",
+        "role": "text",
+        "elementType": "Text",
+        "pageHint": "character_info"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "ID：",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T20:08:07"
+    },
+    "EVIDENCE_character_info.level.text": {
+      "evidenceRef": "EVIDENCE_character_info.level.text",
+      "testId": "character_info.level.text",
+      "semanticId": "character_info.level.text",
+      "targetName": "角色信息界面等级文本",
+      "displayName": "角色信息-等级文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Info/LevelText",
+        "screenRect": [
+          50,
+          2204,
+          320,
+          2285
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/LevelText",
+        "highlightImage": "screenshots/mapping_review/20260623_181801_highlight.png",
+        "screenRectUsed": [
+          50,
+          2204,
+          320,
+          2285
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T18:18:02",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T18:22:53",
+        "confirmedTestId": "character_info.level.text",
+        "formalRef": "formal://character_info/character_info.level.text",
+        "evidenceRef": "EVIDENCE_character_info.level.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Lv:18",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T18:22:59"
+    },
+    "EVIDENCE_character_info.main_character_model.model": {
+      "evidenceRef": "EVIDENCE_character_info.main_character_model.model",
+      "testId": "character_info.main_character_model.model",
+      "semanticId": "character_info.main_character_model.model",
+      "targetName": "主角信息界面主角动画模型",
+      "displayName": "主角信息-主角动画模型",
+      "pageId": "character_info",
+      "role": "model",
+      "elementType": "Model",
+      "structure": {
+        "path": "UIActivityMinigame/Content",
+        "pageId": "character_info",
+        "elementType": "Model"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/HeroSpine",
+        "screenRect": [
+          0,
+          457,
+          1170,
+          1730
+        ]
+      },
+      "visual": {
+        "draftPath": "UIActivityMinigame/Content",
+        "highlightImage": "screenshots/mapping_review/20260618_174935_highlight.png",
+        "screenRectUsed": [
+          0,
+          457,
+          1170,
+          1730
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-18T17:49:37",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T17:15:23",
+        "confirmedTestId": "character_info.main_character_model.model",
+        "formalRef": "formal://character_info/character_info.main_character_model.model",
+        "evidenceRef": "EVIDENCE_character_info.main_character_model.model"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T17:29:41"
+    },
+    "EVIDENCE_character_info.personalization_settings.button": {
+      "evidenceRef": "EVIDENCE_character_info.personalization_settings.button",
+      "testId": "character_info.personalization_settings.button",
+      "semanticId": "character_info.personalization_settings.button",
+      "targetName": "角色信息界面个性设置按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "UiPlayerMain/Content/Content/Info/Head",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_173707_highlight.png",
+        "screenRectUsed": [
+          85,
+          1987,
+          280,
+          2182
+        ],
+        "confirmedTestId": "character_info.personalization_settings.button",
+        "formalRef": "formal://character_info/character_info.personalization_settings.button",
+        "evidenceRef": "EVIDENCE_character_info.personalization_settings.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1/Frame",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6441524,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+          "screenPoint": [
+            182,
+            447
+          ],
+          "injectorResultRecovered": true
+        }
+      },
+      "updated_at": "2026-06-23T17:47:13",
+      "displayName": "角色信息-个性设置按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.player_name.text": {
+      "evidenceRef": "EVIDENCE_character_info.player_name.text",
+      "testId": "character_info.player_name.text",
+      "semanticId": "character_info.player_name.text",
+      "targetName": "角色信息界面玩家名称文本",
+      "displayName": "角色信息-玩家名称文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/Name",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Info/Name",
+        "screenRect": [
+          378,
+          1944,
+          971,
+          2031
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/Name",
+        "highlightImage": "screenshots/mapping_review/20260623_180113_highlight.png",
+        "screenRectUsed": [
+          378,
+          1944,
+          971,
+          2031
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T18:01:14",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T18:31:47",
+        "confirmedTestId": "character_info.player_name.text",
+        "formalRef": "formal://character_info/character_info.player_name.text",
+        "evidenceRef": "EVIDENCE_character_info.player_name.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "Player205",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T18:38:49"
+    },
+    "EVIDENCE_character_info.player_power.text": {
+      "evidenceRef": "EVIDENCE_character_info.player_power.text",
+      "testId": "character_info.player_power.text",
+      "semanticId": "character_info.player_power.text",
+      "targetName": "角色信息界面玩家战力文本",
+      "displayName": "角色信息-玩家战力文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "UIHeroNew_heroList/Content/imgSoldier",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Img",
+        "screenRect": [
+          119,
+          1153,
+          1051,
+          1466
+        ]
+      },
+      "visual": {
+        "draftPath": "UIHeroNew_heroList/Content/imgSoldier",
+        "highlightImage": "mapping_store/evidence/assets/highlights/character_info.player_power.text.png",
+        "screenRectUsed": [
+          119,
+          1153,
+          1051,
+          1466
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T16:29:00",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T17:07:11",
+        "confirmedTestId": "character_info.player_power.text",
+        "formalRef": "formal://character_info/character_info.player_power.text",
+        "evidenceRef": "EVIDENCE_character_info.player_power.text"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "UI_Player_1",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T17:07:17"
+    },
+    "EVIDENCE_character_info.player_rename.button": {
+      "evidenceRef": "EVIDENCE_character_info.player_rename.button",
+      "testId": "character_info.player_rename.button",
+      "semanticId": "character_info.player_rename.button",
+      "targetName": "角色信息界面玩家改名按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_185802_highlight.png",
+        "screenRectUsed": [
+          1009,
+          1948,
+          1103,
+          2042
+        ],
+        "confirmedTestId": "character_info.player_rename.button",
+        "formalRef": "formal://character_info/character_info.player_rename.button",
+        "evidenceRef": "EVIDENCE_character_info.player_rename.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "coordinate_fallback_after_visible_mismatch",
+        "detail": {
+          "requestId": "click_20260623_194840_623783",
+          "status": "OK",
+          "message": "坐标点击命中: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+          "target": {
+            "type": "coordinate",
+            "value": "1056,1995",
+            "gameObjectPath": ""
+          },
+          "click": {
+            "method": "event_system",
+            "safePoint": "center",
+            "screenPoint": [
+              1056,
+              537
+            ],
+            "eventReceiver": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+            "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+            "targetGameObject": "",
+            "receiverMatchTarget": false
+          },
+          "preCheck": {
+            "exists": false,
+            "activeInHierarchy": true,
+            "visible": true,
+            "interactable": true,
+            "occluded": false
+          },
+          "fallbackReason": "runtime_visible_but_injector_precheck_not_visible",
+          "screenRect": [
+            1009,
+            1948,
+            1103,
+            2042
+          ],
+          "screenPoint": [
+            1056.0,
+            1995.0
+          ]
+        }
+      },
+      "updated_at": "2026-06-23T19:49:35",
+      "displayName": "角色信息-玩家改名按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_character_info.player_server_id.text": {
+      "evidenceRef": "EVIDENCE_character_info.player_server_id.text",
+      "testId": "character_info.player_server_id.text",
+      "semanticId": "character_info.player_server_id.text",
+      "targetName": "角色信息界面玩家所在服务器ID文本",
+      "displayName": "角色信息-玩家所在服务器ID文本",
+      "pageId": "character_info",
+      "role": "text",
+      "elementType": "Text",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Info/ServerMSG",
+        "pageId": "character_info",
+        "elementType": "Text"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Info/ServerMSG",
+        "screenRect": [
+          53,
+          1797,
+          394,
+          1880
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/ID/IDTitle",
+        "highlightImage": "screenshots/mapping_review/20260623_200110_highlight.png",
+        "screenRectUsed": [
+          353,
+          2040,
+          455,
+          2114
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T20:01:11",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T20:01:29",
+        "confirmedTestId": "character_info.player_server_id.text",
+        "formalRef": "formal://character_info/character_info.player_server_id.text",
+        "evidenceRef": "EVIDENCE_character_info.player_server_id.text",
+        "targetName": "角色信息界面玩家所在服务器ID文本",
+        "displayName": "角色信息-玩家所在服务器ID文本",
+        "semanticId": "character_info.player_server_id.text",
+        "role": "text",
+        "elementType": "Text",
+        "pageHint": "character_info"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "ui_player_bg_1",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T20:07:56"
+    },
+    "EVIDENCE_character_info.power.icon": {
+      "evidenceRef": "EVIDENCE_character_info.power.icon",
+      "testId": "character_info.power.icon",
+      "semanticId": "character_info.power.icon",
+      "targetName": "角色信息界面战力图标",
+      "displayName": "角色信息-战力图标",
+      "pageId": "character_info",
+      "role": "icon",
+      "elementType": "Icon",
+      "structure": {
+        "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+        "pageId": "character_info",
+        "elementType": "Icon"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Content/Content/Left/Damage/Icon",
+        "screenRect": [
+          345,
+          1383,
+          443,
+          1481
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Left/Damage/Icon",
+        "highlightImage": "screenshots/mapping_review/20260623_195705_highlight.png",
+        "screenRectUsed": [
+          345,
+          1383,
+          443,
+          1481
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-23T19:57:05",
+        "confirmed": true,
+        "confirmedAt": "2026-06-23T19:57:24",
+        "confirmedTestId": "character_info.power.icon",
+        "formalRef": "formal://character_info/character_info.power.icon",
+        "evidenceRef": "EVIDENCE_character_info.power.icon"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "3_common_fighting_bg_1",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-23T19:57:56"
+    },
+    "EVIDENCE_character_info.ranking.button": {
+      "evidenceRef": "EVIDENCE_character_info.ranking.button",
+      "testId": "character_info.ranking.button",
+      "semanticId": "character_info.ranking.button",
+      "targetName": "角色信息界面排行榜按钮",
+      "pageId": "character_info",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/RankBtn",
+        "pageId": "character_info",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": "",
+        "confirmedTestId": "character_info.ranking.button",
+        "formalRef": "formal://character_info/character_info.ranking.button",
+        "evidenceRef": "EVIDENCE_character_info.ranking.button"
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260623_203156_highlight.png",
+        "screenRectUsed": [
+          200,
+          2360,
+          372,
+          2531
+        ],
+        "confirmedTestId": "character_info.ranking.button",
+        "formalRef": "formal://character_info/character_info.ranking.button",
+        "evidenceRef": "EVIDENCE_character_info.ranking.button"
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+          "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+          "eventReceiverMatched": true,
+          "clickResult": "OK",
+          "instanceId": -6771562,
+          "error": "",
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
+          "screenPoint": [
+            285,
+            86
+          ],
+          "injectorResultRecovered": true
+        },
+        "confirmedTestId": "character_info.ranking.button",
+        "formalRef": "formal://character_info/character_info.ranking.button",
+        "evidenceRef": "EVIDENCE_character_info.ranking.button"
+      },
+      "updated_at": "2026-06-23T20:33:58",
+      "displayName": "角色信息-排行榜按钮",
+      "role": "button",
+      "elementType": "Button"
+    },
+    "EVIDENCE_ui.skin.button": {
+      "evidenceRef": "EVIDENCE_ui.skin.button",
+      "testId": "ui.skin.button",
+      "semanticId": "ui.skin.button",
+      "targetName": "UI皮肤按钮",
+      "pageId": "ui",
+      "structure": {
+        "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/SkinBtn",
+        "pageId": "ui",
+        "elementType": "Button"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "",
+        "screenRect": [],
+        "matchScore": ""
+      },
+      "visual": {
+        "confirmed": true,
+        "highlightImage": "screenshots/mapping_review/20260624_101111_highlight.png",
+        "screenRectUsed": [
+          946,
+          2360,
+          1117,
+          2531
+        ]
+      },
+      "click": {
+        "confirmed": true,
+        "result": "PASS",
+        "method": "unity_event_system",
+        "detail": {
+          "clickResult": "OK",
+          "error": "",
+          "requestId": "click_20260624_104126_265833",
+          "timeoutSec": 8.0,
+          "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+          "eventReceiverMatched": true,
+          "hitRuntimePath": "UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow/Text",
+          "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+          "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
+          "screenPoint": [
+            1031,
+            86
+          ],
+          "debugOverlayBypassed": true,
+          "debugOverlayReceiver": "UIRoot2/UIGmWindow(Clone) [UIGmWindow]/BtnShow/Text",
+          "injectorResultRecovered": true,
+          "debugOverlayBlock": {
+            "blocked": true,
+            "reason": "debug_overlay_coordinate_collision",
+            "screenPoint": [
+              1031.5,
+              2445.5
+            ],
+            "targetScreenRect": [
+              946,
+              2360,
+              1117,
+              2531
+            ],
+            "debugScreenRect": [
+              1025,
+              2436,
+              1155,
+              2522
+            ],
+            "hint": "Do not use coordinate fallback in the fixed Debug overlay area; use runtimePath click or hide Debug overlay first."
+          },
+          "debugOverlayBypassRequested": true
+        }
+      },
+      "updated_at": "2026-06-24T10:46:11",
+      "displayName": "UI-皮肤按钮"
+    }
+  }
+}

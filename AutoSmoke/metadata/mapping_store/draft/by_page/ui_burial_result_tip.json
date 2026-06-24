@@ -1,0 +1,167 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_burial_result_tip",
+  "displayName": "ui_burial_result_tip",
+  "drafts": {
+    "DRAFT_b98a0a85b10b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/Rank/RankList/Item1/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBurialResultTip的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipHeadk1",
+      "suggestedTestId": "UIBurialResultTip.Head_k1",
+      "suggestedSemanticId": "UIBurialResultTip.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b98a0a85b10b"
+    },
+    "DRAFT_76c8d2b3141d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/Rank/RankList/Item2/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBurialResultTip的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipHeadk1",
+      "suggestedTestId": "UIBurialResultTip.Head_k1",
+      "suggestedSemanticId": "UIBurialResultTip.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_76c8d2b3141d"
+    },
+    "DRAFT_878ab95620f3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/Rank/RankList/Item3/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBurialResultTip的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipHeadk1",
+      "suggestedTestId": "UIBurialResultTip.Head_k1",
+      "suggestedSemanticId": "UIBurialResultTip.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_878ab95620f3"
+    },
+    "DRAFT_837d4473d285": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/Rank/Me/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Headk1",
+      "chineseDescription": "UIBurialResultTip的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipHeadk1",
+      "suggestedTestId": "UIBurialResultTip.Head_k1",
+      "suggestedSemanticId": "UIBurialResultTip.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_837d4473d285"
+    },
+    "DRAFT_b388c9bf3d44": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/WinBtn",
+      "nodeName": "WinBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Win按钮",
+      "chineseDescription": "UIBurialResultTip的Win按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipWin按钮",
+      "suggestedTestId": "UIBurialResultTip.WinBtn",
+      "suggestedSemanticId": "UIBurialResultTip.Win按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b388c9bf3d44"
+    },
+    "DRAFT_5122404ef020": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab",
+      "prefabRoot": "UIBurialResultTip",
+      "path": "UIBurialResultTip/Root/LostBtn",
+      "nodeName": "LostBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_burial_result_tip",
+      "displayName": "Lost按钮",
+      "chineseDescription": "UIBurialResultTip的Lost按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIBurialResultTip.prefab」中的UIBurialResultTipLost按钮",
+      "suggestedTestId": "UIBurialResultTip.LostBtn",
+      "suggestedSemanticId": "UIBurialResultTip.Lost按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5122404ef020"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b98a0a85b10b",
+      "DRAFT_76c8d2b3141d",
+      "DRAFT_878ab95620f3",
+      "DRAFT_837d4473d285",
+      "DRAFT_b388c9bf3d44",
+      "DRAFT_5122404ef020"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

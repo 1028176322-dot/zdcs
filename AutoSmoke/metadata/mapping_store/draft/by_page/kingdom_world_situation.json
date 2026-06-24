@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "kingdom_world_situation",
+  "displayName": "kingdom_world_situation",
+  "drafts": {
+    "DRAFT_7762d9466687": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/Personal/ScrollView/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "tongyong_cilck",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "Touch",
+      "chineseDescription": "Kingdom_WorldSituation的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituationTouch",
+      "suggestedTestId": "Kingdom_WorldSituation.Touch",
+      "suggestedSemanticId": "Kingdom_WorldSituation.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7762d9466687"
+    },
+    "DRAFT_6bf8baa64cc2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/Personal/ScrollView/Items/Item/titleBg/rankBtn",
+      "nodeName": "rankBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_activity_bg_2",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "rank按钮",
+      "chineseDescription": "Kingdom_WorldSituation的rank按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituationrank按钮",
+      "suggestedTestId": "Kingdom_WorldSituation.rankBtn",
+      "suggestedSemanticId": "Kingdom_WorldSituation.rank按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6bf8baa64cc2"
+    },
+    "DRAFT_fc8fd372f6ed": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/Personal/ScrollView/Items/Item/reward/rewardObj/rewardGrid/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "ClickContent",
+      "chineseDescription": "Kingdom_WorldSituation的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituationClickContent",
+      "suggestedTestId": "Kingdom_WorldSituation.ClickContent",
+      "suggestedSemanticId": "Kingdom_WorldSituation.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fc8fd372f6ed"
+    },
+    "DRAFT_e775d8c4ef78": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/Personal/ScrollView/Items/Item/reward/rewardObj/rewardGrid/Item/ItemFunc",
+      "nodeName": "ItemFunc",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "3_UI_MainCity_bg",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "项Func",
+      "chineseDescription": "Kingdom_WorldSituation的项Func",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituation项Func",
+      "suggestedTestId": "Kingdom_WorldSituation.ItemFunc",
+      "suggestedSemanticId": "Kingdom_WorldSituation.项Func",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e775d8c4ef78"
+    },
+    "DRAFT_247bd5cc485a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/Personal/ScrollView/Items/Item/reward/rewardObj/getBtn",
+      "nodeName": "getBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "get按钮",
+      "chineseDescription": "Kingdom_WorldSituation的get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituationget按钮",
+      "suggestedTestId": "Kingdom_WorldSituation.getBtn",
+      "suggestedSemanticId": "Kingdom_WorldSituation.get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_247bd5cc485a"
+    },
+    "DRAFT_01e6de3dd4a6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab",
+      "prefabRoot": "Kingdom_WorldSituation",
+      "path": "Kingdom_WorldSituation/Root/Content/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "kingdom_world_situation",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Kingdom_WorldSituation的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/Kingdom_WorldSituation.prefab」中的Kingdom_WorldSituation关闭按钮",
+      "suggestedTestId": "Kingdom_WorldSituation.CloseBtn",
+      "suggestedSemanticId": "Kingdom_WorldSituation.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_01e6de3dd4a6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7762d9466687",
+      "DRAFT_6bf8baa64cc2",
+      "DRAFT_fc8fd372f6ed",
+      "DRAFT_e775d8c4ef78",
+      "DRAFT_247bd5cc485a",
+      "DRAFT_01e6de3dd4a6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

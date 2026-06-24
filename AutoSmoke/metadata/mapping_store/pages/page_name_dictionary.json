@@ -1,0 +1,105 @@
+{
+  "schema_version": "page_name_dictionary.v1",
+  "updated_at": "2026-06-23T17:18:23",
+  "pages": [
+    {
+      "pageId": "bag",
+      "displayName": "背包界面",
+      "aliases": [
+        "背包",
+        "道具背包",
+        "物品界面"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/bag.json",
+        "formal": "mapping_store/formal/by_page/bag.json"
+      }
+    },
+    {
+      "pageId": "artifact",
+      "displayName": "神器界面",
+      "aliases": [
+        "神器",
+        "神器功能",
+        "神器养成"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/artifact.json",
+        "formal": "mapping_store/formal/by_page/artifact.json"
+      }
+    },
+    {
+      "pageId": "shop",
+      "displayName": "商城界面",
+      "aliases": [
+        "商店",
+        "商城"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/shop.json",
+        "formal": "mapping_store/formal/by_page/shop.json"
+      }
+    },
+    {
+      "pageId": "task",
+      "displayName": "任务界面",
+      "aliases": [
+        "任务"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/task.json",
+        "formal": "mapping_store/formal/by_page/task.json"
+      }
+    },
+    {
+      "pageId": "main_city",
+      "displayName": "主城界面",
+      "aliases": [
+        "主城"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/main_city.json",
+        "formal": "mapping_store/formal/by_page/main_city.json"
+      }
+    },
+    {
+      "pageId": "character_info",
+      "displayName": "角色信息界面",
+      "aliases": [
+        "角色信息",
+        "角色界面",
+        "主角信息界面",
+        "主角信息界面主角动画模型"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/character_info.json",
+        "formal": "mapping_store/formal/by_page/character_info.json"
+      }
+    },
+    {
+      "pageId": "unknown",
+      "displayName": "未知界面",
+      "aliases": [
+        "未知"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/unknown.json",
+        "formal": "mapping_store/formal/by_page/unknown.json"
+      }
+    },
+    {
+      "pageId": "debug",
+      "displayName": "调试界面",
+      "aliases": [
+        "debug",
+        "Debug",
+        "GraphicDebug",
+        "Framework"
+      ],
+      "files": {
+        "draft": "mapping_store/draft/by_page/debug.json",
+        "formal": "mapping_store/formal/by_page/debug.json"
+      }
+    }
+  ]
+}

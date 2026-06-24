@@ -1,0 +1,151 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_new_year",
+  "displayName": "ui_activity_costume_pass_new_year",
+  "drafts": {
+    "DRAFT_8b115ebc6785": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewYear",
+      "path": "UIActivityCostumePass_NewYear/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_new_year",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_NewYear的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab」中的UIActivityCostumePass_NewYearItems",
+      "suggestedTestId": "UIActivityCostumePass_NewYear.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_NewYear.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8b115ebc6785"
+    },
+    "DRAFT_050895f9ce84": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewYear",
+      "path": "UIActivityCostumePass_NewYear/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Activity_NewYear2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_new_year",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_NewYear的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab」中的UIActivityCostumePass_NewYearNode2",
+      "suggestedTestId": "UIActivityCostumePass_NewYear.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_NewYear.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_050895f9ce84"
+    },
+    "DRAFT_c0c8de6ed12f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewYear",
+      "path": "UIActivityCostumePass_NewYear/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "UI_Activity_NewYear2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_new_year",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_NewYear的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab」中的UIActivityCostumePass_NewYearNode3",
+      "suggestedTestId": "UIActivityCostumePass_NewYear.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_NewYear.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c0c8de6ed12f"
+    },
+    "DRAFT_a8c7a700e692": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewYear",
+      "path": "UIActivityCostumePass_NewYear/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_new_year",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_NewYear的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab」中的UIActivityCostumePass_NewYearAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_NewYear.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_NewYear.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a8c7a700e692"
+    },
+    "DRAFT_1b72dac0f457": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab",
+      "prefabRoot": "UIActivityCostumePass_NewYear",
+      "path": "UIActivityCostumePass_NewYear/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_new_year",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_NewYear的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_NewYear.prefab」中的UIActivityCostumePass_NewYear购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_NewYear.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_NewYear.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1b72dac0f457"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_8b115ebc6785",
+      "DRAFT_050895f9ce84",
+      "DRAFT_c0c8de6ed12f",
+      "DRAFT_a8c7a700e692",
+      "DRAFT_1b72dac0f457"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

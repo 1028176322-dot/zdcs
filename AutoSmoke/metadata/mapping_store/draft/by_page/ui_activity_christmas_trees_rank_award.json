@@ -1,0 +1,142 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_rank_award",
+  "displayName": "ui_activity_christmas_trees_rank_award",
+  "drafts": {
+    "DRAFT_536fc463c910": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRankAward",
+      "path": "UIActivityChristmasTreesRankAward/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_rank_award",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChristmasTreesRankAward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab」中的UIActivityChristmasTreesRankAward关闭按钮",
+      "suggestedTestId": "UIActivityChristmasTreesRankAward.CloseBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesRankAward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_536fc463c910"
+    },
+    "DRAFT_b6a337075924": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRankAward",
+      "path": "UIActivityChristmasTreesRankAward/Root/TabGroup/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_rank_award",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityChristmasTreesRankAward的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab」中的UIActivityChristmasTreesRankAwardtab1",
+      "suggestedTestId": "UIActivityChristmasTreesRankAward.tab1",
+      "suggestedSemanticId": "UIActivityChristmasTreesRankAward.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b6a337075924"
+    },
+    "DRAFT_720a51024bc4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRankAward",
+      "path": "UIActivityChristmasTreesRankAward/Root/TabGroup/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_rank_award",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityChristmasTreesRankAward的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab」中的UIActivityChristmasTreesRankAwardtab2",
+      "suggestedTestId": "UIActivityChristmasTreesRankAward.tab2",
+      "suggestedSemanticId": "UIActivityChristmasTreesRankAward.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_720a51024bc4"
+    },
+    "DRAFT_c9c73818f14e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRankAward",
+      "path": "UIActivityChristmasTreesRankAward/Root/Rank/Scroll/ViewPort/Content/Items/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_rank_award",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivityChristmasTreesRankAward的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab」中的UIActivityChristmasTreesRankAwardHeadk1",
+      "suggestedTestId": "UIActivityChristmasTreesRankAward.Head_k1",
+      "suggestedSemanticId": "UIActivityChristmasTreesRankAward.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c9c73818f14e"
+    },
+    "DRAFT_574a206cd52f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab",
+      "prefabRoot": "UIActivityChristmasTreesRankAward",
+      "path": "UIActivityChristmasTreesRankAward/Root/Rank/Down/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_rank_award",
+      "displayName": "Headk1",
+      "chineseDescription": "UIActivityChristmasTreesRankAward的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesRankAward.prefab」中的UIActivityChristmasTreesRankAwardHeadk1",
+      "suggestedTestId": "UIActivityChristmasTreesRankAward.Head_k1",
+      "suggestedSemanticId": "UIActivityChristmasTreesRankAward.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_574a206cd52f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_536fc463c910",
+      "DRAFT_b6a337075924",
+      "DRAFT_720a51024bc4",
+      "DRAFT_c9c73818f14e",
+      "DRAFT_574a206cd52f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

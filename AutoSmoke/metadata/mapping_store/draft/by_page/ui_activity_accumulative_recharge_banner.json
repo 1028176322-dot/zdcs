@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_accumulative_recharge_banner",
+  "displayName": "ui_activity_accumulative_recharge_banner",
+  "drafts": {
+    "DRAFT_7665321653b4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab",
+      "prefabRoot": "UIActivityAccumulativeRechargeBanner",
+      "path": "UIActivityAccumulativeRechargeBanner/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_accumulative_recharge_banner",
+      "displayName": "Diamond",
+      "chineseDescription": "UIActivityAccumulativeRechargeBanner的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab」中的UIActivityAccumulativeRechargeBannerDiamond",
+      "suggestedTestId": "UIActivityAccumulativeRechargeBanner.Diamond",
+      "suggestedSemanticId": "UIActivityAccumulativeRechargeBanner.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7665321653b4"
+    },
+    "DRAFT_337e4239ba6e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab",
+      "prefabRoot": "UIActivityAccumulativeRechargeBanner",
+      "path": "UIActivityAccumulativeRechargeBanner/Diamond/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "+",
+      "clickable": true,
+      "pageId": "ui_activity_accumulative_recharge_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityAccumulativeRechargeBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab」中的UIActivityAccumulativeRechargeBannerAdd",
+      "suggestedTestId": "UIActivityAccumulativeRechargeBanner.Add",
+      "suggestedSemanticId": "UIActivityAccumulativeRechargeBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_337e4239ba6e"
+    },
+    "DRAFT_4e2fae87c8b9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab",
+      "prefabRoot": "UIActivityAccumulativeRechargeBanner",
+      "path": "UIActivityAccumulativeRechargeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_accumulative_recharge_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityAccumulativeRechargeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAccumulativeRechargeBanner.prefab」中的UIActivityAccumulativeRechargeBannerInfo",
+      "suggestedTestId": "UIActivityAccumulativeRechargeBanner.Info",
+      "suggestedSemanticId": "UIActivityAccumulativeRechargeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4e2fae87c8b9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7665321653b4",
+      "DRAFT_337e4239ba6e",
+      "DRAFT_4e2fae87c8b9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

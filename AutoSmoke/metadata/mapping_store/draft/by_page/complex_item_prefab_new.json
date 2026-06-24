@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "complex_item_prefab_new",
+  "displayName": "complex_item_prefab_new",
+  "drafts": {
+    "DRAFT_08513393e7f8": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/ItemPrefabs/ComplexItemPrefab_New.prefab",
+      "prefabRoot": "ComplexItemPrefab_New",
+      "path": "ComplexItemPrefab_New",
+      "nodeName": "ComplexItemPrefab_New",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Button",
+        "Image",
+        "RectMask2D"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "complex_item_prefab_new",
+      "displayName": "Complex项PrefabNew",
+      "chineseDescription": "ComplexItemPrefab_New的Complex项PrefabNew，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/ItemPrefabs/ComplexItemPrefab_New.prefab」中的ComplexItemPrefab_NewComplex项PrefabNew",
+      "suggestedTestId": "ComplexItemPrefab_New.ComplexItemPrefab_New",
+      "suggestedSemanticId": "ComplexItemPrefab_New.Complex项PrefabNew",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08513393e7f8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_08513393e7f8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

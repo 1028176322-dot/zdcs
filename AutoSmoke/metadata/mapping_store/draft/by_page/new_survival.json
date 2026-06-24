@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "new_survival",
+  "displayName": "new_survival",
+  "drafts": {
+    "DRAFT_a2e9590db44f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Radar/NewSurvival.prefab",
+      "prefabRoot": "NewSurvival",
+      "path": "NewSurvival/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "new_survival",
+      "displayName": "Mask",
+      "chineseDescription": "NewSurvival的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Radar/NewSurvival.prefab」中的NewSurvivalMask",
+      "suggestedTestId": "NewSurvival.Mask",
+      "suggestedSemanticId": "NewSurvival.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a2e9590db44f"
+    },
+    "DRAFT_52e118b0c5e6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Radar/NewSurvival.prefab",
+      "prefabRoot": "NewSurvival",
+      "path": "NewSurvival/Root/BtnRecruit",
+      "nodeName": "BtnRecruit",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "new_survival",
+      "displayName": "按钮Recruit",
+      "chineseDescription": "NewSurvival的按钮Recruit，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Radar/NewSurvival.prefab」中的NewSurvival按钮Recruit",
+      "suggestedTestId": "NewSurvival.BtnRecruit",
+      "suggestedSemanticId": "NewSurvival.按钮Recruit",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_52e118b0c5e6"
+    },
+    "DRAFT_521d2f428b2e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_NewSurvival.prefab",
+      "prefabRoot": "EXPORT_NewSurvival",
+      "path": "EXPORT_NewSurvival/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "new_survival",
+      "displayName": "Mask",
+      "chineseDescription": "EXPORT_NewSurvival的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_NewSurvival.prefab」中的EXPORT_NewSurvivalMask",
+      "suggestedTestId": "EXPORT_NewSurvival.Mask",
+      "suggestedSemanticId": "EXPORT_NewSurvival.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_521d2f428b2e"
+    },
+    "DRAFT_112d4768a8c9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_NewSurvival.prefab",
+      "prefabRoot": "EXPORT_NewSurvival",
+      "path": "EXPORT_NewSurvival/Root/BtnRecruit",
+      "nodeName": "BtnRecruit",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "new_survival",
+      "displayName": "按钮Recruit",
+      "chineseDescription": "EXPORT_NewSurvival的按钮Recruit，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_NewSurvival.prefab」中的EXPORT_NewSurvival按钮Recruit",
+      "suggestedTestId": "EXPORT_NewSurvival.BtnRecruit",
+      "suggestedSemanticId": "EXPORT_NewSurvival.按钮Recruit",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_112d4768a8c9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a2e9590db44f",
+      "DRAFT_52e118b0c5e6",
+      "DRAFT_521d2f428b2e",
+      "DRAFT_112d4768a8c9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

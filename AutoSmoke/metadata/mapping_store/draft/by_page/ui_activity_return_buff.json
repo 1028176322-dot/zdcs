@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_return_buff",
+  "displayName": "ui_activity_return_buff",
+  "drafts": {
+    "DRAFT_0d73287b9510": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab",
+      "prefabRoot": "UIActivityReturnBuff",
+      "path": "UIActivityReturnBuff/Scroll/Mask/Content/Item/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_return_buff",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityReturnBuff的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab」中的UIActivityReturnBuffGo按钮",
+      "suggestedTestId": "UIActivityReturnBuff.GoBtn",
+      "suggestedSemanticId": "UIActivityReturnBuff.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0d73287b9510"
+    },
+    "DRAFT_e7d6a6d91ad3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab",
+      "prefabRoot": "UIActivityReturnBuff",
+      "path": "UIActivityReturnBuff/Scroll/Mask/Content/Item1/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_return_buff",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityReturnBuff的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab」中的UIActivityReturnBuffGo按钮",
+      "suggestedTestId": "UIActivityReturnBuff.GoBtn",
+      "suggestedSemanticId": "UIActivityReturnBuff.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e7d6a6d91ad3"
+    },
+    "DRAFT_c32676388e75": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab",
+      "prefabRoot": "UIActivityReturnBuff",
+      "path": "UIActivityReturnBuff/Scroll/Mask/Content/Item2/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_return_buff",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityReturnBuff的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab」中的UIActivityReturnBuffGo按钮",
+      "suggestedTestId": "UIActivityReturnBuff.GoBtn",
+      "suggestedSemanticId": "UIActivityReturnBuff.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c32676388e75"
+    },
+    "DRAFT_1724b28b4302": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab",
+      "prefabRoot": "UIActivityReturnBuff",
+      "path": "UIActivityReturnBuff/Scroll/Mask/Content/Item3/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_return_buff",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityReturnBuff的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuff.prefab」中的UIActivityReturnBuffGo按钮",
+      "suggestedTestId": "UIActivityReturnBuff.GoBtn",
+      "suggestedSemanticId": "UIActivityReturnBuff.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1724b28b4302"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_0d73287b9510",
+      "DRAFT_e7d6a6d91ad3",
+      "DRAFT_c32676388e75",
+      "DRAFT_1724b28b4302"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

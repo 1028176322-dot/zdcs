@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "common_btn_yellow_small",
+  "displayName": "common_btn_yellow_small",
+  "drafts": {
+    "DRAFT_485a4c15dc39": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/Button/Common_Btn_Yellow_Small.prefab",
+      "prefabRoot": "Common_Btn_Yellow_Small",
+      "path": "Common_Btn_Yellow_Small",
+      "nodeName": "Common_Btn_Yellow_Small",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_xiao",
+      "clickable": true,
+      "pageId": "common_btn_yellow_small",
+      "displayName": "Common按钮YellowSmall",
+      "chineseDescription": "Common_Btn_Yellow_Small的Common按钮YellowSmall，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/Button/Common_Btn_Yellow_Small.prefab」中的Common_Btn_Yellow_SmallCommon按钮YellowSmall",
+      "suggestedTestId": "Common_Btn_Yellow_Small.Common_Btn_Yellow_Small",
+      "suggestedSemanticId": "Common_Btn_Yellow_Small.Common按钮YellowSmall",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_485a4c15dc39"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_485a4c15dc39"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_easter_spring_pop",
+  "displayName": "ui_easter_spring_pop",
+  "drafts": {
+    "DRAFT_e6bf25cc51d6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIEasterSpringPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPop关闭按钮",
+      "suggestedTestId": "UIEasterSpringPop.CloseBtn",
+      "suggestedSemanticId": "UIEasterSpringPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e6bf25cc51d6"
+    },
+    "DRAFT_62ce44165786": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/UP/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIEasterSpringPop的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPopClickContent",
+      "suggestedTestId": "UIEasterSpringPop.ClickContent",
+      "suggestedSemanticId": "UIEasterSpringPop.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_62ce44165786"
+    },
+    "DRAFT_1aa4c4ca1ae0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/BtnAdd",
+      "nodeName": "BtnAdd",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "按钮Add",
+      "chineseDescription": "UIEasterSpringPop的按钮Add，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPop按钮Add",
+      "suggestedTestId": "UIEasterSpringPop.BtnAdd",
+      "suggestedSemanticId": "UIEasterSpringPop.按钮Add",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1aa4c4ca1ae0"
+    },
+    "DRAFT_e9820b4bbd50": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/BtnReduce",
+      "nodeName": "BtnReduce",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "按钮Reduce",
+      "chineseDescription": "UIEasterSpringPop的按钮Reduce，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPop按钮Reduce",
+      "suggestedTestId": "UIEasterSpringPop.BtnReduce",
+      "suggestedSemanticId": "UIEasterSpringPop.按钮Reduce",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e9820b4bbd50"
+    },
+    "DRAFT_de8f3a5acbff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/Number/BG/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "Num",
+      "chineseDescription": "UIEasterSpringPop的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPopNum",
+      "suggestedTestId": "UIEasterSpringPop.Num",
+      "suggestedSemanticId": "UIEasterSpringPop.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_de8f3a5acbff"
+    },
+    "DRAFT_55cacc0e0319": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab",
+      "prefabRoot": "UIEasterSpringPop",
+      "path": "UIEasterSpringPop/Root/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_easter_spring_pop",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIEasterSpringPop的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringPop.prefab」中的UIEasterSpringPop购买按钮",
+      "suggestedTestId": "UIEasterSpringPop.BuyBtn",
+      "suggestedSemanticId": "UIEasterSpringPop.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_55cacc0e0319"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e6bf25cc51d6",
+      "DRAFT_62ce44165786",
+      "DRAFT_1aa4c4ca1ae0",
+      "DRAFT_e9820b4bbd50",
+      "DRAFT_de8f3a5acbff",
+      "DRAFT_55cacc0e0319"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

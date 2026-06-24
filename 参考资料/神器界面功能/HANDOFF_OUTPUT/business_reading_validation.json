@@ -1,0 +1,114 @@
+{
+  "schema_version": "business_reading.validation.v3",
+  "generated_at": "2026-06-17T18:26:35",
+  "status": "PASS",
+  "summary": {
+    "PASS": 17,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "code": "file_exists",
+      "status": "PASS",
+      "target": "structured_business_model.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\structured_business_model.json"
+    },
+    {
+      "code": "file_exists",
+      "status": "PASS",
+      "target": "business_model_validation.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\business_model_validation.json"
+    },
+    {
+      "code": "file_exists",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\business_reading.md"
+    },
+    {
+      "code": "file_exists",
+      "status": "PASS",
+      "target": "business_reading_render_report.json",
+      "detail": "D:\\工作助手\\输出\\神器界面功能\\HANDOFF_OUTPUT\\business_reading_render_report.json"
+    },
+    {
+      "code": "model_validation_pass",
+      "status": "PASS",
+      "target": "business_model_validation",
+      "detail": "PASS"
+    },
+    {
+      "code": "render_report_pass",
+      "status": "PASS",
+      "target": "business_reading_render_report",
+      "detail": "PASS"
+    },
+    {
+      "code": "no_inline_fact_ids",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": ""
+    },
+    {
+      "code": "no_inline_evidence_ids",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": ""
+    },
+    {
+      "code": "no_html_anchors",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": ""
+    },
+    {
+      "code": "rendered_id_exists_in_model",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": ""
+    },
+    {
+      "code": "rendered_id_exists_in_model",
+      "status": "PASS",
+      "target": "STEP_001",
+      "detail": ""
+    },
+    {
+      "code": "rendered_statement_present",
+      "status": "PASS",
+      "target": "CONFIG_001",
+      "detail": ""
+    },
+    {
+      "code": "rendered_statement_present",
+      "status": "PASS",
+      "target": "STEP_001",
+      "detail": ""
+    },
+    {
+      "code": "has_human_sections",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": ""
+    },
+    {
+      "code": "has_value_asset_section",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": ""
+    },
+    {
+      "code": "value_asset_reported",
+      "status": "PASS",
+      "target": "business_reading_render_report",
+      "detail": "value_asset_count=2"
+    },
+    {
+      "code": "rendered_statement_count",
+      "status": "PASS",
+      "target": "business_reading.md",
+      "detail": "checked=2 rendered=2"
+    }
+  ]
+}

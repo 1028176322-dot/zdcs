@@ -1,0 +1,165 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_trial_tower_main",
+  "displayName": "ui_trial_tower_main",
+  "drafts": {
+    "DRAFT_9bf591a2bc0d": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/Content/Brave",
+      "nodeName": "Brave",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "Brave",
+      "chineseDescription": "UITrialTowerMain的Brave",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMainBrave",
+      "suggestedTestId": "UITrialTowerMain.Brave",
+      "suggestedSemanticId": "UITrialTowerMain.Brave",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9bf591a2bc0d"
+    },
+    "DRAFT_60abee80c71a": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/Content/Ice",
+      "nodeName": "Ice",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "Ice",
+      "chineseDescription": "UITrialTowerMain的Ice",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMainIce",
+      "suggestedTestId": "UITrialTowerMain.Ice",
+      "suggestedSemanticId": "UITrialTowerMain.Ice",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_60abee80c71a"
+    },
+    "DRAFT_4f3f35a9b574": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/Content/Fire",
+      "nodeName": "Fire",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "Fire",
+      "chineseDescription": "UITrialTowerMain的Fire",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMainFire",
+      "suggestedTestId": "UITrialTowerMain.Fire",
+      "suggestedSemanticId": "UITrialTowerMain.Fire",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4f3f35a9b574"
+    },
+    "DRAFT_5847cf580741": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/Content/Light",
+      "nodeName": "Light",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "Light",
+      "chineseDescription": "UITrialTowerMain的Light",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMainLight",
+      "suggestedTestId": "UITrialTowerMain.Light",
+      "suggestedSemanticId": "UITrialTowerMain.Light",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5847cf580741"
+    },
+    "DRAFT_c3b111ec428a": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/Content/Poison",
+      "nodeName": "Poison",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "Poison",
+      "chineseDescription": "UITrialTowerMain的Poison",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMainPoison",
+      "suggestedTestId": "UITrialTowerMain.Poison",
+      "suggestedSemanticId": "UITrialTowerMain.Poison",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c3b111ec428a"
+    },
+    "DRAFT_a60d75c0ad03": {
+      "assetPath": "Assets/k1/Testprefab/UITrialTowerMain.prefab",
+      "prefabRoot": "UITrialTowerMain",
+      "path": "UITrialTowerMain/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_trial_tower_main",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UITrialTowerMain的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UITrialTowerMain.prefab」中的UITrialTowerMain按钮关闭",
+      "suggestedTestId": "UITrialTowerMain.BtnClose",
+      "suggestedSemanticId": "UITrialTowerMain.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a60d75c0ad03"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9bf591a2bc0d",
+      "DRAFT_60abee80c71a",
+      "DRAFT_4f3f35a9b574",
+      "DRAFT_5847cf580741",
+      "DRAFT_c3b111ec428a",
+      "DRAFT_a60d75c0ad03"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

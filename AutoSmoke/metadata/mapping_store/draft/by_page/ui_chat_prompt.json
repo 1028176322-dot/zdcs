@@ -1,0 +1,144 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_chat_prompt",
+  "displayName": "ui_chat_prompt",
+  "drafts": {
+    "DRAFT_52efb6a8b2d7": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab",
+      "prefabRoot": "UIChatPrompt",
+      "path": "UIChatPrompt/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_chat_prompt",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIChatPrompt的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab」中的UIChatPrompt按钮关闭",
+      "suggestedTestId": "UIChatPrompt.BtnClose",
+      "suggestedSemanticId": "UIChatPrompt.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_52efb6a8b2d7"
+    },
+    "DRAFT_2dafc30ff985": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab",
+      "prefabRoot": "UIChatPrompt",
+      "path": "UIChatPrompt/Root/Input",
+      "nodeName": "Input",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "blue3",
+      "clickable": true,
+      "pageId": "ui_chat_prompt",
+      "displayName": "输入",
+      "chineseDescription": "UIChatPrompt的输入",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab」中的UIChatPrompt输入",
+      "suggestedTestId": "UIChatPrompt.Input",
+      "suggestedSemanticId": "UIChatPrompt.输入",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2dafc30ff985"
+    },
+    "DRAFT_6f93f53d65e3": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab",
+      "prefabRoot": "UIChatPrompt",
+      "path": "UIChatPrompt/Root/MemberList/Mask/Content/Member",
+      "nodeName": "Member",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_bar_white",
+      "clickable": true,
+      "pageId": "ui_chat_prompt",
+      "displayName": "Member",
+      "chineseDescription": "UIChatPrompt的Member",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab」中的UIChatPromptMember",
+      "suggestedTestId": "UIChatPrompt.Member",
+      "suggestedSemanticId": "UIChatPrompt.Member",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6f93f53d65e3"
+    },
+    "DRAFT_7b76dc1b99c3": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab",
+      "prefabRoot": "UIChatPrompt",
+      "path": "UIChatPrompt/Root/MemberList/Mask/Content/Member/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_chat_prompt",
+      "displayName": "Headk1",
+      "chineseDescription": "UIChatPrompt的Headk1",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab」中的UIChatPromptHeadk1",
+      "suggestedTestId": "UIChatPrompt.Head_k1",
+      "suggestedSemanticId": "UIChatPrompt.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7b76dc1b99c3"
+    },
+    "DRAFT_f0c3f2657659": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab",
+      "prefabRoot": "UIChatPrompt",
+      "path": "UIChatPrompt/Root/MemberList/Mask/Content/Member/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_bar_white",
+      "clickable": true,
+      "pageId": "ui_chat_prompt",
+      "displayName": "Click",
+      "chineseDescription": "UIChatPrompt的Click",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/UIChatPrompt.prefab」中的UIChatPromptClick",
+      "suggestedTestId": "UIChatPrompt.Click",
+      "suggestedSemanticId": "UIChatPrompt.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f0c3f2657659"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_52efb6a8b2d7",
+      "DRAFT_2dafc30ff985",
+      "DRAFT_6f93f53d65e3",
+      "DRAFT_7b76dc1b99c3",
+      "DRAFT_f0c3f2657659"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

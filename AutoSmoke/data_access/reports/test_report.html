@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试报告</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #4CAF50; color: white; }
+        .pass { color: green; }
+        .fail { color: red; }
+    </style>
+</head>
+<body>
+    <h1>测试报告</h1>
+    <p>总数: 2, 通过: 1, 失败: 1</p>
+    <table>
+        <tr>
+            <th>用例ID</th>
+            <th>名称</th>
+            <th>结果</th>
+            <th>错误信息</th>
+        </tr>
+        
+        <tr>
+            <td>TC001</td>
+            <td>测试1</td>
+            <td class="pass">通过</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TC002</td>
+            <td>测试2</td>
+            <td class="fail">失败</td>
+            <td>断言失败: 期望文本未找到</td>
+        </tr>
+    </table>
+</body>
+</html>

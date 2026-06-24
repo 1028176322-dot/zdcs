@@ -1,0 +1,144 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_troop_arena_data",
+  "displayName": "ui_troop_arena_data",
+  "drafts": {
+    "DRAFT_ce72528f0bb0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab",
+      "prefabRoot": "UITroopArenaData",
+      "path": "UITroopArenaData/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_troop_arena_data",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITroopArenaData的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab」中的UITroopArenaData关闭按钮",
+      "suggestedTestId": "UITroopArenaData.CloseBtn",
+      "suggestedSemanticId": "UITroopArenaData.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ce72528f0bb0"
+    },
+    "DRAFT_70d2c18573ab": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab",
+      "prefabRoot": "UITroopArenaData",
+      "path": "UITroopArenaData/Root/Animation/content/button_playback",
+      "nodeName": "button_playback",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_troop_arena_data",
+      "displayName": "buttonplayback",
+      "chineseDescription": "UITroopArenaData的buttonplayback，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab」中的UITroopArenaDatabuttonplayback",
+      "suggestedTestId": "UITroopArenaData.button_playback",
+      "suggestedSemanticId": "UITroopArenaData.buttonplayback",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_70d2c18573ab"
+    },
+    "DRAFT_0de61de312f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab",
+      "prefabRoot": "UITroopArenaData",
+      "path": "UITroopArenaData/Root/Animation/content/model/information_victory/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_data",
+      "displayName": "Headk1",
+      "chineseDescription": "UITroopArenaData的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab」中的UITroopArenaDataHeadk1",
+      "suggestedTestId": "UITroopArenaData.Head_k1",
+      "suggestedSemanticId": "UITroopArenaData.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0de61de312f6"
+    },
+    "DRAFT_a95055d18e5f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab",
+      "prefabRoot": "UITroopArenaData",
+      "path": "UITroopArenaData/Root/Animation/content/model/information_defeated/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_troop_arena_data",
+      "displayName": "Headk1",
+      "chineseDescription": "UITroopArenaData的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab」中的UITroopArenaDataHeadk1",
+      "suggestedTestId": "UITroopArenaData.Head_k1",
+      "suggestedSemanticId": "UITroopArenaData.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a95055d18e5f"
+    },
+    "DRAFT_9722f43756b7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab",
+      "prefabRoot": "UITroopArenaData",
+      "path": "UITroopArenaData/Root/Animation/content/BuffBtn",
+      "nodeName": "BuffBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_troop_arena_data",
+      "displayName": "Buff按钮",
+      "chineseDescription": "UITroopArenaData的Buff按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/TroopArena/UITroopArenaData.prefab」中的UITroopArenaDataBuff按钮",
+      "suggestedTestId": "UITroopArenaData.BuffBtn",
+      "suggestedSemanticId": "UITroopArenaData.Buff按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9722f43756b7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ce72528f0bb0",
+      "DRAFT_70d2c18573ab",
+      "DRAFT_0de61de312f6",
+      "DRAFT_a95055d18e5f",
+      "DRAFT_9722f43756b7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tv_text_input_controller",
+  "displayName": "tv_text_input_controller",
+  "drafts": {
+    "DRAFT_fb42cd47f92d": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVTextInputController.prefab",
+      "prefabRoot": "TVTextInputController",
+      "path": "TVTextInputController/InputField",
+      "nodeName": "InputField",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "InputField",
+        "InputFieldInScrollRectFixer"
+      ],
+      "spriteName": "InputFieldBackground",
+      "clickable": true,
+      "pageId": "tv_text_input_controller",
+      "displayName": "输入Field",
+      "chineseDescription": "TVTextInputController的输入Field",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVTextInputController.prefab」中的TVTextInputController输入Field",
+      "suggestedTestId": "TVTextInputController.InputField",
+      "suggestedSemanticId": "TVTextInputController.输入Field",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb42cd47f92d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fb42cd47f92d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

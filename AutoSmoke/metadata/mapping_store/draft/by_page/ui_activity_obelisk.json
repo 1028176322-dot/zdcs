@@ -1,0 +1,69 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_obelisk",
+  "displayName": "ui_activity_obelisk",
+  "drafts": {
+    "DRAFT_20a059a1551f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObelisk.prefab",
+      "prefabRoot": "UIActivityObelisk",
+      "path": "UIActivityObelisk/Root/Tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_TabCommon",
+      "clickable": true,
+      "pageId": "ui_activity_obelisk",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityObelisk的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObelisk.prefab」中的UIActivityObelisktab1",
+      "suggestedTestId": "UIActivityObelisk.tab1",
+      "suggestedSemanticId": "UIActivityObelisk.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_20a059a1551f"
+    },
+    "DRAFT_5c2ad910249d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObelisk.prefab",
+      "prefabRoot": "UIActivityObelisk",
+      "path": "UIActivityObelisk/Root/Tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "ClickAudio",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Btn_TabCommon",
+      "clickable": true,
+      "pageId": "ui_activity_obelisk",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityObelisk的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityObelisk.prefab」中的UIActivityObelisktab2",
+      "suggestedTestId": "UIActivityObelisk.tab2",
+      "suggestedSemanticId": "UIActivityObelisk.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5c2ad910249d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_20a059a1551f",
+      "DRAFT_5c2ad910249d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

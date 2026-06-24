@@ -1,0 +1,169 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "content_types",
+  "displayName": "content_types",
+  "drafts": {
+    "DRAFT_b413096e8fa6": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/textContent/emojiText/cont_text/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "#SOCIAL_tap_here_to_enter操作按钮",
+      "chineseDescription": "contentTypes的#SOCIAL_tap_here_to_enter操作按钮，文字「#SOCIAL_tap_here_to_enter」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypes#SOCIAL_tap_here_to_enter操作按钮，含文字「#SOCIAL_tap_here_to_enter」",
+      "suggestedTestId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "suggestedSemanticId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b413096e8fa6"
+    },
+    "DRAFT_f677c5d05cf1": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/imageContent/image",
+      "nodeName": "image",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRawImage",
+        "EventTriggerListener",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "image",
+      "chineseDescription": "contentTypes的image",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypesimage",
+      "suggestedTestId": "contentTypes.image",
+      "suggestedSemanticId": "contentTypes.image",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f677c5d05cf1"
+    },
+    "DRAFT_4a964664e126": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/imageContent/emojiText/cont_text/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "#SOCIAL_tap_here_to_enter操作按钮",
+      "chineseDescription": "contentTypes的#SOCIAL_tap_here_to_enter操作按钮，文字「#SOCIAL_tap_here_to_enter」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypes#SOCIAL_tap_here_to_enter操作按钮，含文字「#SOCIAL_tap_here_to_enter」",
+      "suggestedTestId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "suggestedSemanticId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4a964664e126"
+    },
+    "DRAFT_3106c657855d": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/audioContent/btnMore",
+      "nodeName": "btnMore",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale",
+        "EventTriggerListener",
+        "LayoutElement"
+      ],
+      "spriteName": "tongyong_cilck",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "btnMore",
+      "chineseDescription": "contentTypes的btnMore，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypesbtnMore",
+      "suggestedTestId": "contentTypes.btnMore",
+      "suggestedSemanticId": "contentTypes.btnMore",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3106c657855d"
+    },
+    "DRAFT_63366f486507": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/coordShareContent/Share",
+      "nodeName": "Share",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "VerticalLayoutGroup",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "Share",
+      "chineseDescription": "contentTypes的Share",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypesShare",
+      "suggestedTestId": "contentTypes.Share",
+      "suggestedSemanticId": "contentTypes.Share",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_63366f486507"
+    },
+    "DRAFT_5510d9949b20": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab",
+      "prefabRoot": "contentTypes",
+      "path": "contentTypes/coordShareContent/emojiText/cont_text/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "content_types",
+      "displayName": "#SOCIAL_tap_here_to_enter操作按钮",
+      "chineseDescription": "contentTypes的#SOCIAL_tap_here_to_enter操作按钮，文字「#SOCIAL_tap_here_to_enter」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/contentTypes.prefab」中的contentTypes#SOCIAL_tap_here_to_enter操作按钮，含文字「#SOCIAL_tap_here_to_enter」",
+      "suggestedTestId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "suggestedSemanticId": "contentTypes.lab.#SOCIAL_tap_here_to_enter",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5510d9949b20"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b413096e8fa6",
+      "DRAFT_f677c5d05cf1",
+      "DRAFT_4a964664e126",
+      "DRAFT_3106c657855d",
+      "DRAFT_63366f486507",
+      "DRAFT_5510d9949b20"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

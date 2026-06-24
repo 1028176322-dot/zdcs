@@ -1,0 +1,1691 @@
+[
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityRepairPage.cs",
+    "ui_class": "MainCityRepairPage",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "immediatelyBtn",
+      "repairBtn",
+      "speedupBtn",
+      "immediatelyBtn",
+      "repairBtn",
+      "speedupBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "heroSpeedGo",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "heroSpeedGo",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "immediatelyBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "immediately"
+      },
+      {
+        "field_name": "repairBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "repair"
+      },
+      {
+        "field_name": "speedupBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "speedup"
+      },
+      {
+        "field_name": "immediatelyBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "immediately"
+      },
+      {
+        "field_name": "repairBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "repair"
+      },
+      {
+        "field_name": "speedupBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "speedup"
+      },
+      {
+        "field_name": "heroSpeedGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "heroSpeedGo",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "heroSpeedGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "heroSpeedGo",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityPlotQiPao.cs",
+    "ui_class": "MainCityPlotQiPao",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_btnBgListener",
+      "m_btnGetMoreListener",
+      "m_btnGetRewardListener",
+      "m_btnBgListener",
+      "m_btnGetMoreListener",
+      "m_btnGetRewardListener"
+    ],
+    "button_scale_fields": [
+      "btnScale"
+    ],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_btnBgListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnBgListener"
+      },
+      {
+        "field_name": "m_btnGetMoreListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGetMoreListener"
+      },
+      {
+        "field_name": "m_btnGetRewardListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGetRewardListener"
+      },
+      {
+        "field_name": "m_btnBgListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnBgListener"
+      },
+      {
+        "field_name": "m_btnGetMoreListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGetMoreListener"
+      },
+      {
+        "field_name": "m_btnGetRewardListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGetRewardListener"
+      },
+      {
+        "field_name": "btnScale",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "btnScale"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\ThroneWar\\Building\\UIThroneWarTroopInfo.cs",
+    "ui_class": "UIThroneWarTroopInfo",
+    "base_class": "",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_closeBtn",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_heroItemObj",
+        "handler": "OnClickHeroItemBtn"
+      },
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_closeBtn",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_closeBtn"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_heroItemObj"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_closeBtn"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_closeBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "field_name": "_heroItemObj",
+        "type": "Unknown",
+        "likely_name_in_ui": "heroItemObj",
+        "handler": "OnClickHeroItemBtn"
+      },
+      {
+        "field_name": "_closeBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_closeBtn"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_heroItemObj"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_closeBtn"
+      }
+    ]
+  },
+  {
+    "file": "k1\\K1D1\\Code\\UI\\Kingdom\\WorldSituation\\MainWorldSituationItem.cs",
+    "ui_class": "MainWorldSituationItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_getBtn"
+    ],
+    "button_scale_fields": [
+      "_state_RankBtn"
+    ],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_state_RankBtn.gameObject",
+        "handler": "ClickRankBtn);\n        UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_state_RankBtn"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_getBtn"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_getBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "get"
+      },
+      {
+        "field_name": "_state_RankBtn",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "state_Rank"
+      },
+      {
+        "field_name": "_state_RankBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "state_Rank",
+        "handler": "ClickRankBtn);\n        UIHelper.AddListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_state_RankBtn"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_getBtn"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\WorldEnemy\\UIWorldEnemySettlement.cs",
+    "ui_class": "UIWorldEnemySettlementData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_LostBtn",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "way1Card",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "way2Hero",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "way3City",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_LostBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "Lost",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "way1Card",
+        "type": "Unknown",
+        "likely_name_in_ui": "way1Card",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "way2Hero",
+        "type": "Unknown",
+        "likely_name_in_ui": "way2Hero",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "way3City",
+        "type": "Unknown",
+        "likely_name_in_ui": "way3City",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityFirstChargeBubble.cs",
+    "ui_class": "MainCityFirstChargeBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleFirstCharge",
+      "bubbleLineup",
+      "bubbleFirstCharge",
+      "bubbleLineup"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleFirstCharge",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleFirstCharge"
+      },
+      {
+        "field_name": "bubbleLineup",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleLineup"
+      },
+      {
+        "field_name": "bubbleFirstCharge",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleFirstCharge"
+      },
+      {
+        "field_name": "bubbleLineup",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleLineup"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityOperation.cs",
+    "ui_class": "MainCityOperation",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "DetailBtn",
+      "UpLevelBtn",
+      "DetailBtn",
+      "UpLevelBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "DetailBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Detail"
+      },
+      {
+        "field_name": "UpLevelBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "UpLevel"
+      },
+      {
+        "field_name": "DetailBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Detail"
+      },
+      {
+        "field_name": "UpLevelBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "UpLevel"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\DiplomaticMission\\UI\\WorldMissionScrollTroopItem.cs",
+    "ui_class": "WorldMissionScrollTroopItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "tab",
+      "backBtn",
+      "tab",
+      "backBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "tab",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "tab"
+      },
+      {
+        "field_name": "backBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "back"
+      },
+      {
+        "field_name": "tab",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "tab"
+      },
+      {
+        "field_name": "backBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "back"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityClearSubmitItem.cs",
+    "ui_class": "MainCityClearSubmitItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "ItemNode",
+      "Btn_go",
+      "ItemNode",
+      "Btn_go"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "ItemNode",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemNode"
+      },
+      {
+        "field_name": "Btn_go",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Btn_go"
+      },
+      {
+        "field_name": "ItemNode",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemNode"
+      },
+      {
+        "field_name": "Btn_go",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Btn_go"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityIslanderPage.cs",
+    "ui_class": "MainCityIslanderPage",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "QuickStopWorkBtnEvt",
+      "QuickStarWorkBtnEvt",
+      "QuickStopWorkBtnEvt",
+      "QuickStarWorkBtnEvt"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "QuickStopWorkBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickStopWorkBtnEvt"
+      },
+      {
+        "field_name": "QuickStarWorkBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickStarWorkBtnEvt"
+      },
+      {
+        "field_name": "QuickStopWorkBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickStopWorkBtnEvt"
+      },
+      {
+        "field_name": "QuickStarWorkBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "QuickStarWorkBtnEvt"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\TradeShip\\UI\\MapShipItem.cs",
+    "ui_class": "MapShipItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_shipClickTrigger",
+      "_giftClickTrigger",
+      "_submitItemClickTrigger",
+      "_timeClickTrigger"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_shipClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "shipClickTrigger"
+      },
+      {
+        "field_name": "_giftClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "giftClickTrigger"
+      },
+      {
+        "field_name": "_submitItemClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "submitItemClickTrigger"
+      },
+      {
+        "field_name": "_timeClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "timeClickTrigger"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Main\\Map\\UIMainTroop.cs",
+    "ui_class": "MarchArgs",
+    "base_class": "",
+    "event_trigger_fields": [
+      "spoilsBtnListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "spoilsBtnListener",
+        "handler": "OnClickSpoilsBtnHandle"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "spoilsBtnListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "spoilsBtnListener"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "spoilsBtnListener",
+        "type": "Unknown",
+        "likely_name_in_ui": "spoilsBtnListener",
+        "handler": "OnClickSpoilsBtnHandle"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityClearTip.cs",
+    "ui_class": "MainCityClearTipPopupData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "receiveBtn",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "cleanBtn",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "type": "Button.onClick",
+        "target": "closeButton",
+        "handler": "OnCloseBtnClicked"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "receiveBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "receive",
+        "handler": "OnReceiveBtnClicked"
+      },
+      {
+        "field_name": "cleanBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "clean",
+        "handler": "OnCleanBtnClicked"
+      },
+      {
+        "field_name": "closeButton",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnCloseBtnClicked"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\Render\\Entity\\PlayerCity\\CityMapEditor\\CityMapEditItem.cs",
+    "ui_class": "CityMapEditItem",
+    "base_class": "",
+    "event_trigger_fields": [
+      "eventListener",
+      "eventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "eventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "eventListener"
+      },
+      {
+        "field_name": "eventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "eventListener"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Main\\K1\\UIOverview.Building.cs",
+    "ui_class": "UIOverview_Building",
+    "base_class": "UIOverview",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "uiItem",
+        "handler": "Unknown"
+      },
+      {
+        "type": "AddRemoveListener",
+        "target": "uiItem",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "uiItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "uiItem",
+        "handler": "Unknown"
+      },
+      {
+        "field_name": "uiItem",
+        "type": "Unknown",
+        "likely_name_in_ui": "uiItem",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Map\\UIOverlapModelSelect.cs",
+    "ui_class": "UIOverlapModelSelectData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "bg",
+        "handler": "(g"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "bg"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "bg",
+        "type": "Unknown",
+        "likely_name_in_ui": "bg",
+        "handler": "(g"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "bg"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Map\\Burial\\UIBurialTeamListPop.cs",
+    "ui_class": "UIBurialTeamListPopData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_closeBtn",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_closeBtn"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_closeBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "close",
+        "handler": "OnClickCloseBtn"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_closeBtn"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Map\\City\\UIPlayerSelfCityPopup.cs",
+    "ui_class": "UIPlayerSelfCityPopup",
+    "base_class": "UIWidget",
+    "event_trigger_fields": [],
+    "button_scale_fields": [
+      "BtnAdd",
+      "BtnEnter"
+    ],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "BtnAdd",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "BtnAdd"
+      },
+      {
+        "field_name": "BtnEnter",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "BtnEnter"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\MapWidget\\Widget\\UIMapWidgetPlayerCity.cs",
+    "ui_class": "UIMapWidgetPlayerCity",
+    "base_class": "UIMapWidget",
+    "event_trigger_fields": [
+      "m_Listener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "m_Listener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Listener"
+      },
+      {
+        "field_name": "RadarTypeRoot",
+        "type": "Unknown",
+        "likely_name_in_ui": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\ShopNew\\Page\\SecondBuildQueue\\UIShopNewPage_SecondBuildQueue.cs",
+    "ui_class": "UIShopNewPage_SecondBuildQueue",
+    "base_class": "UIShopNewPage",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_controls.btnBuyEventListener.gameObject",
+        "handler": "OnBtnBuyClick);\n        }\n\n        protected override void UnregistUIEvent()\n        {\n            UIHelper.RemoveListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_controls"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_controls",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "controls",
+        "handler": "OnBtnBuyClick);\n        }\n\n        protected override void UnregistUIEvent()\n        {\n            UIHelper.RemoveListener(TFW.EventTriggerType.Click"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_controls"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\ZVZ\\widget\\ZVZMapWidget.cs",
+    "ui_class": "ZVZMapWidget",
+    "base_class": "UIWidgetBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "rootObj",
+        "handler": "(o"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "rootObj"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "rootObj",
+        "type": "Unknown",
+        "likely_name_in_ui": "rootObj",
+        "handler": "(o"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "rootObj"
+      }
+    ]
+  },
+  {
+    "file": "k1\\K1D1\\Code\\UI\\Activity\\ActivityModules\\Banquet\\UIMainBanquetBuildingSkipWidget.cs",
+    "ui_class": "UIMainBanquetBuildingSkipWidget",
+    "base_class": "UIWidgetBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "rootObj",
+        "handler": "OnClickSkipBtn);\n        }\n\n        /// <summary>\n        /// 注册事件\n        /// </summary>\n        private void RegisterEvent()\n        {\n            if (!_registerEvent)\n            {\n                _registerEvent = true;\n                FrameUpdateMgr.RegisterPerSecondFunListUpdate(this"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "rootObj"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "rootObj",
+        "type": "Unknown",
+        "likely_name_in_ui": "rootObj",
+        "handler": "OnClickSkipBtn);\n        }\n\n        /// <summary>\n        /// 注册事件\n        /// </summary>\n        private void RegisterEvent()\n        {\n            if (!_registerEvent)\n            {\n                _registerEvent = true;\n                FrameUpdateMgr.RegisterPerSecondFunListUpdate(this"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "rootObj"
+      }
+    ]
+  },
+  {
+    "file": "k1\\K1D1\\Code\\UI\\MainCity\\UIDailyReward.cs",
+    "ui_class": "UIDailyReward",
+    "base_class": "HistoricPopupLayer",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "UIHelper.AddListener",
+        "target": "_skipBtn",
+        "handler": "OnClickSkipBtn"
+      },
+      {
+        "type": "Direct.AddListener",
+        "target": "UIHelper",
+        "handler": "_skipBtn"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_skipBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "skip",
+        "handler": "OnClickSkipBtn"
+      },
+      {
+        "field_name": "UIHelper",
+        "type": "Unknown",
+        "likely_name_in_ui": "UIHelper",
+        "handler": "_skipBtn"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCiryBuildingPlotBubble.cs",
+    "ui_class": "MainCiryBuildingPlotBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "stateClickEvt",
+      "stateClickEvt"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "stateClickEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "stateClickEvt"
+      },
+      {
+        "field_name": "stateClickEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "stateClickEvt"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCiryLevelUpRewardBubble.cs",
+    "ui_class": "MainCiryLevelUpRewardBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "rewardEventListener",
+      "rewardEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      },
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCiryRadarBubble.cs",
+    "ui_class": "MainCiryRadarBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "rewardEventListener",
+      "rewardEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      },
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityCommonBubble.cs",
+    "ui_class": "MainCityCommonBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleGo",
+      "bubbleGo"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      },
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityIslanderUnlockBubble.cs",
+    "ui_class": "MainCityIslanderUnlockBubble",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [],
+    "button_scale_fields": [
+      "btnScale"
+    ],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "btnScale",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "btnScale",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "btnScale"
+      },
+      {
+        "field_name": "btnScale",
+        "type": "Unknown",
+        "likely_name_in_ui": "btnScale",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityTavernBubble.cs",
+    "ui_class": "MainCityTavernBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleGo",
+      "bubbleGo"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      },
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityTechnologyBubble.cs",
+    "ui_class": "MainCityTechnologyBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleGo",
+      "bubbleGo"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      },
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityThroneBubble.cs",
+    "ui_class": "MainCityThroneBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleGo",
+      "bubbleGo"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      },
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityTradeShipBubble.cs",
+    "ui_class": "MainCityTradeShipBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "bubbleGo",
+      "bubbleGo"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      },
+      {
+        "field_name": "bubbleGo",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "bubbleGo"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityTrialTowerNoticeBubble.cs",
+    "ui_class": "MainCityTrialTowerNoticeBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "rewardEventListener",
+      "rewardEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      },
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityUnchartedRewardBubble.cs",
+    "ui_class": "MainCityUnchartedRewardBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [
+      "rewardEventListener",
+      "rewardEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      },
+      {
+        "field_name": "rewardEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "reward"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\Islander\\UI\\IslanderOverViewBuildItem.cs",
+    "ui_class": "IslanderOverViewBuildItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "CheckBtnEvt",
+      "CheckBtnEvt"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "CheckBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "CheckBtnEvt"
+      },
+      {
+        "field_name": "CheckBtnEvt",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "CheckBtnEvt"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityNeedResItem.cs",
+    "ui_class": "MainCityNeedResItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "ItemClickBtn",
+      "ItemClickBtn"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "ItemClickBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemClick"
+      },
+      {
+        "field_name": "ItemClickBtn",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemClick"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCitySpeedItem.cs",
+    "ui_class": "MainCitySpeedItem",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "ItemClick",
+      "ItemClick"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "ItemClick",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemClick"
+      },
+      {
+        "field_name": "ItemClick",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ItemClick"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\StashMainCityScienceinfoWidgets.cs",
+    "ui_class": "StashMainCityScienceinfoWidgets",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "ShowMore",
+      "ShowMore"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "ShowMore",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ShowMore"
+      },
+      {
+        "field_name": "ShowMore",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "ShowMore"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MiniGame\\Behaviors\\MapOperation.cs",
+    "ui_class": "MapOperation",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_gachaClickTrigger",
+      "_upgradeClickTrigger"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_gachaClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "gachaClickTrigger"
+      },
+      {
+        "field_name": "_upgradeClickTrigger",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "upgradeClickTrigger"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\WorldShare\\ShareChannelWidgets.cs",
+    "ui_class": "ShareChannelWidgets",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "Click",
+      "Click"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "Click",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Click"
+      },
+      {
+        "field_name": "Click",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "Click"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\Render\\Entity\\PlayerCity\\Lod\\EntityCityLod0.cs",
+    "ui_class": "EntityCityLod0",
+    "base_class": "EntityLodState",
+    "event_trigger_fields": [
+      "m_TapEventTriggerListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_TapEventTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "TapEventTriggerListener"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Alliance\\War\\UIAllianceBuilding.cs",
+    "ui_class": "UIAllianceBuildingData",
+    "base_class": "UIData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [
+      "_buildBtnSC"
+    ],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_buildBtnSC",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "buildBtnSC"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Main\\Widget\\MainWorldMiniMapWidget.cs",
+    "ui_class": "MainWorldMiniMapWidget",
+    "base_class": "UIWidgetBase",
+    "event_trigger_fields": [
+      "touchAreaTriggerListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "touchAreaTriggerListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "touchAreaTriggerListener"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\Map\\Burial\\UIBurialPop.cs",
+    "ui_class": "UIBurialPopData",
+    "base_class": "PopupData",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Direct.AddListener",
+        "target": "_headFrame",
+        "handler": "OnShowPlayerInfo"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_headFrame",
+        "type": "Unknown",
+        "likely_name_in_ui": "headFrame",
+        "handler": "OnShowPlayerInfo"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\MapWidget\\Widget\\UIMapWidgetNpcGather.cs",
+    "ui_class": "UIMapWidgetNpcGather",
+    "base_class": "UIMapWidget",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "RadarTypeRoot",
+        "type": "Unknown",
+        "likely_name_in_ui": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\MapWidget\\Widget\\UIMapWidgetNpcTroop.cs",
+    "ui_class": "UIMapWidgetNpcTroop",
+    "base_class": "UIMapWidget",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "RadarTypeRoot",
+        "type": "Unknown",
+        "likely_name_in_ui": "RadarTypeRoot",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\MapWidget\\Widget\\UIMapWidgetSeaExploration.cs",
+    "ui_class": "UIMapWidgetSeaExploration",
+    "base_class": "UIMapWidget",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_clickGo",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_clickGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "clickGo",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\ThroneWar\\Building\\UIThroneOccupyingList.cs",
+    "ui_class": "UIThroneOccupyingList",
+    "base_class": "HistoricPopup",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "gift_send",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "gift_send",
+        "type": "Unknown",
+        "likely_name_in_ui": "gift_send",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\GameScript\\UI\\WorldEnemy\\UIWorldEnemyTroopItem.cs",
+    "ui_class": "UIWorldEnemyTroopItemData",
+    "base_class": "",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "gameObject",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "gameObject",
+        "type": "Unknown",
+        "likely_name_in_ui": "gameObject",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\K1D1\\Code\\UI\\MainCity\\UICrossServerInvade.cs",
+    "ui_class": "UICrossServerInvade",
+    "base_class": "SpecialSortingUI",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "click",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "click",
+        "type": "Unknown",
+        "likely_name_in_ui": "click",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "k1\\K1D1\\Code\\UI\\MainCity\\UIMainWorldSituation.cs",
+    "ui_class": "UIMainWorldSituation",
+    "base_class": "UIWidget",
+    "event_trigger_fields": [],
+    "button_scale_fields": [
+      "backBtn"
+    ],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "backBtn",
+        "type": "ButtonScale",
+        "likely_name_in_ui": "back"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityBarrackBubble.cs",
+    "ui_class": "MainCityBarrackBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "BubbleGo",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "BubbleGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "BubbleGo",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityIslanderBubble.cs",
+    "ui_class": "MainCityIslanderBubble",
+    "base_class": "MainCityHud",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "BubbleGo",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "BubbleGo",
+        "type": "Unknown",
+        "likely_name_in_ui": "BubbleGo",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityLineupTempStateHud.cs",
+    "ui_class": "MainCityLineupTempStateHud",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "MonthCardClick"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "MonthCardClick",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "MonthCardClick"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\MainCity\\Scripts\\UI\\MainCityUnchartedOnlineRewardBubble.cs",
+    "ui_class": "MainCityUnchartedOnlineRewardBubble",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "_btnGetReward"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "_btnGetReward",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "btnGetReward"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityLevelUpFuncInfoItemUI.cs",
+    "ui_class": "MainCityLevelUpFuncInfoItemUI",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_functionEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_functionEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "function"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MainCityBuildings\\MainCityPreviewFuncInfoItemUI.cs",
+    "ui_class": "MainCityPreviewFuncInfoItemUI",
+    "base_class": "MonoBehaviour",
+    "event_trigger_fields": [
+      "m_infoEventListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [],
+    "clickable_elements": [
+      {
+        "field_name": "m_infoEventListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "info"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\MiniGame\\UI\\SwitchMapUI.cs",
+    "ui_class": "SwitchMapUI",
+    "base_class": "UIBase",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "Button.onClick",
+        "target": "_swithBtn",
+        "handler": "InvokeSwitchEvent"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_swithBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "swith",
+        "handler": "InvokeSwitchEvent"
+      }
+    ]
+  },
+  {
+    "file": "NewGameDemo\\Scripts\\Game\\TroopsTech\\UI\\TechResCityLimitItem.cs",
+    "ui_class": "TechResCityLimitItem",
+    "base_class": "TFWLoopListViewItem",
+    "event_trigger_fields": [],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "add",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "add",
+        "type": "Unknown",
+        "likely_name_in_ui": "add",
+        "handler": "Unknown"
+      }
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_customize_gift",
+  "displayName": "ui_activity_customize_gift",
+  "drafts": {
+    "DRAFT_cb64cf020670": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGift.prefab",
+      "prefabRoot": "UIActivityCustomizeGift",
+      "path": "UIActivityCustomizeGift/ScrollView/ViewPort/Content/Item1/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_customize_gift",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityCustomizeGift的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGift.prefab」中的UIActivityCustomizeGift按钮",
+      "suggestedTestId": "UIActivityCustomizeGift.Button",
+      "suggestedSemanticId": "UIActivityCustomizeGift.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cb64cf020670"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_cb64cf020670"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

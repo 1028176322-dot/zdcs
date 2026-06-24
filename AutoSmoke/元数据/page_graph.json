@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-15T19:59:31",
+  "pages": [
+    {
+      "id": "MainCity",
+      "name": "MainCity",
+      "visitCount": 1,
+      "firstSeen": "2026-06-15T19:59:31",
+      "lastSeen": "2026-06-15T19:59:31"
+    },
+    {
+      "id": "BagPanel",
+      "name": "BagPanel",
+      "visitCount": 2,
+      "firstSeen": "2026-06-15T19:59:31",
+      "lastSeen": "2026-06-15T19:59:31"
+    },
+    {
+      "id": "RewardPopup",
+      "name": "RewardPopup",
+      "visitCount": 1,
+      "firstSeen": "2026-06-15T19:59:31",
+      "lastSeen": "2026-06-15T19:59:31"
+    }
+  ],
+  "edges": [
+    {
+      "fromPage": "MainCity",
+      "action": "click",
+      "element": "BagButton",
+      "toPage": "BagPanel",
+      "timestamp": "2026-06-15T19:59:31"
+    },
+    {
+      "fromPage": "BagPanel",
+      "action": "click",
+      "element": "UseButton",
+      "toPage": "RewardPopup",
+      "timestamp": "2026-06-15T19:59:31"
+    }
+  ]
+}

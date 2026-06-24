@@ -1,0 +1,56 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.personalization_settings.button",
+  "testId": "character_info.personalization_settings.button",
+  "semanticId": "character_info.personalization_settings.button",
+  "targetName": "角色信息界面个性设置按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "UiPlayerMain/Content/Content/Info/Head",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_173707_highlight.png",
+    "screenRectUsed": [
+      85,
+      1987,
+      280,
+      2182
+    ],
+    "confirmedTestId": "character_info.personalization_settings.button",
+    "formalRef": "formal://character_info/character_info.personalization_settings.button",
+    "evidenceRef": "EVIDENCE_character_info.personalization_settings.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1/Frame",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6441524,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+      "screenPoint": [
+        182,
+        447
+      ],
+      "injectorResultRecovered": true
+    }
+  },
+  "updated_at": "2026-06-23T17:47:13",
+  "displayName": "角色信息-个性设置按钮",
+  "role": "button",
+  "elementType": "Button"
+}

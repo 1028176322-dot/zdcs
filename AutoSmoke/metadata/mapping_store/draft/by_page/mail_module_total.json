@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_module_total",
+  "displayName": "mail_module_total",
+  "drafts": {
+    "DRAFT_dad367d3ba00": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_Total.prefab",
+      "prefabRoot": "MailModule_Total",
+      "path": "MailModule_Total/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "mail_module_total",
+      "displayName": "Info按钮",
+      "chineseDescription": "MailModule_Total的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MailModule/MailModule_Total.prefab」中的MailModule_TotalInfo按钮",
+      "suggestedTestId": "MailModule_Total.InfoBtn",
+      "suggestedSemanticId": "MailModule_Total.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dad367d3ba00"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dad367d3ba00"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

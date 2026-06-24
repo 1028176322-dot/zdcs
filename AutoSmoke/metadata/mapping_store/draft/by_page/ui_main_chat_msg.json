@@ -1,0 +1,149 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_main_chat_msg",
+  "displayName": "ui_main_chat_msg",
+  "drafts": {
+    "DRAFT_2d15f19f9d2f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab",
+      "prefabRoot": "UIMainChatMsg",
+      "path": "UIMainChatMsg/Root/ChatButton/Msg/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animation"
+      ],
+      "spriteName": "UI_Img_Main_TalkBg",
+      "clickable": true,
+      "pageId": "ui_main_chat_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainChatMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab」中的UIMainChatMsgBg",
+      "suggestedTestId": "UIMainChatMsg.Bg",
+      "suggestedSemanticId": "UIMainChatMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d15f19f9d2f"
+    },
+    "DRAFT_a285e29ba9b3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab",
+      "prefabRoot": "UIMainChatMsg",
+      "path": "UIMainChatMsg/Root/ChatButton/Msg/Bg/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText",
+        "LayoutElement",
+        "ContentSizeFitter",
+        "Shadow"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_chat_msg",
+      "displayName": "lab",
+      "chineseDescription": "UIMainChatMsg的lab",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab」中的UIMainChatMsglab",
+      "suggestedTestId": "UIMainChatMsg.lab",
+      "suggestedSemanticId": "UIMainChatMsg.lab",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a285e29ba9b3"
+    },
+    "DRAFT_9a1da803ead1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab",
+      "prefabRoot": "UIMainChatMsg",
+      "path": "UIMainChatMsg/Root/ChatButton/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animation"
+      ],
+      "spriteName": "UI_Btn_Main_ThunderBg04",
+      "clickable": true,
+      "pageId": "ui_main_chat_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainChatMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab」中的UIMainChatMsgBg",
+      "suggestedTestId": "UIMainChatMsg.Bg",
+      "suggestedSemanticId": "UIMainChatMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9a1da803ead1"
+    },
+    "DRAFT_0974d6971f9e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab",
+      "prefabRoot": "UIMainChatMsg",
+      "path": "UIMainChatMsg/Root/ChatButton/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_main_chat02",
+      "clickable": true,
+      "pageId": "ui_main_chat_msg",
+      "displayName": "按钮",
+      "chineseDescription": "UIMainChatMsg的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab」中的UIMainChatMsg按钮",
+      "suggestedTestId": "UIMainChatMsg.Button",
+      "suggestedSemanticId": "UIMainChatMsg.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0974d6971f9e"
+    },
+    "DRAFT_eb6a4445f15a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab",
+      "prefabRoot": "UIMainChatMsg",
+      "path": "UIMainChatMsg/Root/ChatButton/MailBtn",
+      "nodeName": "MailBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Icon_Main_Mail",
+      "clickable": true,
+      "pageId": "ui_main_chat_msg",
+      "displayName": "Mail按钮",
+      "chineseDescription": "UIMainChatMsg的Mail按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainChatMsg/UIMainChatMsg.prefab」中的UIMainChatMsgMail按钮",
+      "suggestedTestId": "UIMainChatMsg.MailBtn",
+      "suggestedSemanticId": "UIMainChatMsg.Mail按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb6a4445f15a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2d15f19f9d2f",
+      "DRAFT_a285e29ba9b3",
+      "DRAFT_9a1da803ead1",
+      "DRAFT_0974d6971f9e",
+      "DRAFT_eb6a4445f15a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

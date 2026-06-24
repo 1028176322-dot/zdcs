@@ -1,0 +1,80 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.player_rename.button",
+  "testId": "character_info.player_rename.button",
+  "semanticId": "character_info.player_rename.button",
+  "targetName": "角色信息界面玩家改名按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Info/RenameBtn",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_185802_highlight.png",
+    "screenRectUsed": [
+      1009,
+      1948,
+      1103,
+      2042
+    ],
+    "confirmedTestId": "character_info.player_rename.button",
+    "formalRef": "formal://character_info/character_info.player_rename.button",
+    "evidenceRef": "EVIDENCE_character_info.player_rename.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "coordinate_fallback_after_visible_mismatch",
+    "detail": {
+      "requestId": "click_20260623_194840_623783",
+      "status": "OK",
+      "message": "坐标点击命中: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+      "target": {
+        "type": "coordinate",
+        "value": "1056,1995",
+        "gameObjectPath": ""
+      },
+      "click": {
+        "method": "event_system",
+        "safePoint": "center",
+        "screenPoint": [
+          1056,
+          537
+        ],
+        "eventReceiver": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+        "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
+        "targetGameObject": "",
+        "receiverMatchTarget": false
+      },
+      "preCheck": {
+        "exists": false,
+        "activeInHierarchy": true,
+        "visible": true,
+        "interactable": true,
+        "occluded": false
+      },
+      "fallbackReason": "runtime_visible_but_injector_precheck_not_visible",
+      "screenRect": [
+        1009,
+        1948,
+        1103,
+        2042
+      ],
+      "screenPoint": [
+        1056.0,
+        1995.0
+      ]
+    }
+  },
+  "updated_at": "2026-06-23T19:49:35",
+  "displayName": "角色信息-玩家改名按钮",
+  "role": "button",
+  "elementType": "Button"
+}

@@ -1,0 +1,48 @@
+{
+  "ui_class": {
+    "file": "Game\\Guid\\UI\\GuideSpecialSkipTimeLine.cs",
+    "class": "GuideSpecialSkipTimeLine",
+    "base_class": "UIBase",
+    "event_trigger_fields": [
+      "_skipBtnListener"
+    ],
+    "button_scale_fields": [],
+    "event_bindings": [
+      {
+        "type": "AddRemoveListener",
+        "target": "_skipBtn",
+        "handler": "Unknown"
+      }
+    ],
+    "clickable_elements": [
+      {
+        "field_name": "_skipBtnListener",
+        "type": "EventTriggerListener",
+        "likely_name_in_ui": "skipBtnListener"
+      },
+      {
+        "field_name": "_skipBtn",
+        "type": "Unknown",
+        "likely_name_in_ui": "skip",
+        "handler": "Unknown"
+      }
+    ]
+  },
+  "mapping_results": [
+    {
+      "field_name": "_skipBtnListener",
+      "type": "EventTriggerListener",
+      "likely_name_in_ui": "skipBtnListener",
+      "handler": "",
+      "source": "clickable_elements"
+    },
+    {
+      "field_name": "_skipBtn",
+      "type": "Unknown",
+      "likely_name_in_ui": "skip",
+      "handler": "Unknown",
+      "source": "clickable_elements"
+    }
+  ],
+  "timestamp": "20260611_101710"
+}

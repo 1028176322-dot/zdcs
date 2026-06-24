@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_islander_bubble",
+  "displayName": "main_ciry_islander_bubble",
+  "drafts": {
+    "DRAFT_d751acae9cf4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderBubble.prefab",
+      "prefabRoot": "MainCiryIslanderBubble",
+      "path": "MainCiryIslanderBubble/1",
+      "nodeName": "1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_islander_bubble",
+      "displayName": "1",
+      "chineseDescription": "MainCiryIslanderBubble的1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderBubble.prefab」中的MainCiryIslanderBubble1",
+      "suggestedTestId": "MainCiryIslanderBubble.1",
+      "suggestedSemanticId": "MainCiryIslanderBubble.1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d751acae9cf4"
+    },
+    "DRAFT_64fcf12bfca3": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderBubble.prefab",
+      "prefabRoot": "MainCiryIslanderBubble",
+      "path": "MainCiryIslanderBubble/1/Gain_bg",
+      "nodeName": "Gain_bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_4",
+      "clickable": true,
+      "pageId": "main_ciry_islander_bubble",
+      "displayName": "Gainbg",
+      "chineseDescription": "MainCiryIslanderBubble的Gainbg",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderBubble.prefab」中的MainCiryIslanderBubbleGainbg",
+      "suggestedTestId": "MainCiryIslanderBubble.Gain_bg",
+      "suggestedSemanticId": "MainCiryIslanderBubble.Gainbg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_64fcf12bfca3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d751acae9cf4",
+      "DRAFT_64fcf12bfca3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

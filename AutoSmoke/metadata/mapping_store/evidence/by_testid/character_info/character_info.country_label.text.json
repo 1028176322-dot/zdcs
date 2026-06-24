@@ -1,0 +1,58 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.country_label.text",
+  "testId": "character_info.country_label.text",
+  "semanticId": "character_info.country_label.text",
+  "targetName": "角色信息界面国家标题文本",
+  "displayName": "角色信息-国家标题文本",
+  "pageId": "character_info",
+  "role": "text",
+  "elementType": "Text",
+  "structure": {
+    "path": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+    "pageId": "character_info",
+    "elementType": "Text"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Content/Content/Right/Country/text",
+    "screenRect": [
+      356,
+      2214,
+      515,
+      2288
+    ],
+    "confirmedTestId": "character_info.country_label.text",
+    "formalRef": "formal://character_info/character_info.country_label.text",
+    "evidenceRef": "EVIDENCE_character_info.country_label.text"
+  },
+  "visual": {
+    "draftPath": "__runtime__::UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]::Content/Content/Right/Country/text",
+    "highlightImage": "screenshots/mapping_review/20260623_202924_highlight.png",
+    "screenRectUsed": [
+      356,
+      2214,
+      515,
+      2288
+    ],
+    "imageSize": [
+      1170,
+      2532
+    ],
+    "rectSource": "param→clipped",
+    "recordedAt": "2026-06-23T20:29:25",
+    "confirmed": true,
+    "confirmedAt": "2026-06-23T20:29:28",
+    "confirmedTestId": "character_info.country_label.text",
+    "formalRef": "formal://character_info/character_info.country_label.text",
+    "evidenceRef": "EVIDENCE_character_info.country_label.text"
+  },
+  "assertion": {
+    "type": "visual",
+    "mode": "assert_visible",
+    "clickRequired": false,
+    "text": "国家：",
+    "spriteName": "",
+    "rule": "visible_non_clickable_runtime_node"
+  },
+  "updated_at": "2026-06-23T20:29:33"
+}

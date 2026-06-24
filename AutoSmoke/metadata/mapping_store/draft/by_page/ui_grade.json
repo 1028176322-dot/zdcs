@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_grade",
+  "displayName": "ui_grade",
+  "drafts": {
+    "DRAFT_19a8d7567c96": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab",
+      "prefabRoot": "UIGrade",
+      "path": "UIGrade/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_grade",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIGrade的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab」中的UIGrade关闭按钮",
+      "suggestedTestId": "UIGrade.CloseBtn",
+      "suggestedSemanticId": "UIGrade.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_19a8d7567c96"
+    },
+    "DRAFT_24dd359b3613": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab",
+      "prefabRoot": "UIGrade",
+      "path": "UIGrade/Content/BtnLeft",
+      "nodeName": "BtnLeft",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "button_gray",
+      "clickable": true,
+      "pageId": "ui_grade",
+      "displayName": "按钮Left",
+      "chineseDescription": "UIGrade的按钮Left，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab」中的UIGrade按钮Left",
+      "suggestedTestId": "UIGrade.BtnLeft",
+      "suggestedSemanticId": "UIGrade.按钮Left",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24dd359b3613"
+    },
+    "DRAFT_249b87a7dbb1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab",
+      "prefabRoot": "UIGrade",
+      "path": "UIGrade/Content/BtnRight",
+      "nodeName": "BtnRight",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_grade",
+      "displayName": "按钮Right",
+      "chineseDescription": "UIGrade的按钮Right，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UIGrade.prefab」中的UIGrade按钮Right",
+      "suggestedTestId": "UIGrade.BtnRight",
+      "suggestedSemanticId": "UIGrade.按钮Right",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_249b87a7dbb1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_19a8d7567c96",
+      "DRAFT_24dd359b3613",
+      "DRAFT_249b87a7dbb1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

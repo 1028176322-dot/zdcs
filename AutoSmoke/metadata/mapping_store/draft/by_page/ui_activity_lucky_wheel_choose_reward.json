@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_lucky_wheel_choose_reward",
+  "displayName": "ui_activity_lucky_wheel_choose_reward",
+  "drafts": {
+    "DRAFT_4297288f5b62": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab",
+      "prefabRoot": "UIActivityLuckyWheelChooseReward",
+      "path": "UIActivityLuckyWheelChooseReward/Root/Animation/content/BackGround/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_choose_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityLuckyWheelChooseReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab」中的UIActivityLuckyWheelChooseReward关闭按钮",
+      "suggestedTestId": "UIActivityLuckyWheelChooseReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelChooseReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4297288f5b62"
+    },
+    "DRAFT_4787553b49af": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab",
+      "prefabRoot": "UIActivityLuckyWheelChooseReward",
+      "path": "UIActivityLuckyWheelChooseReward/Root/Animation/content/BackGround/ScrollView/mask/group/item",
+      "nodeName": "item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "UIGridItem",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_choose_reward",
+      "displayName": "item",
+      "chineseDescription": "UIActivityLuckyWheelChooseReward的item",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab」中的UIActivityLuckyWheelChooseRewarditem",
+      "suggestedTestId": "UIActivityLuckyWheelChooseReward.item",
+      "suggestedSemanticId": "UIActivityLuckyWheelChooseReward.item",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4787553b49af"
+    },
+    "DRAFT_ed2e5474fce5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab",
+      "prefabRoot": "UIActivityLuckyWheelChooseReward",
+      "path": "UIActivityLuckyWheelChooseReward/Root/Animation/content/BackGround/ScrollView/mask/group/item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_choose_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivityLuckyWheelChooseReward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab」中的UIActivityLuckyWheelChooseRewardClickContent",
+      "suggestedTestId": "UIActivityLuckyWheelChooseReward.ClickContent",
+      "suggestedSemanticId": "UIActivityLuckyWheelChooseReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ed2e5474fce5"
+    },
+    "DRAFT_78e8a98a7c8e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab",
+      "prefabRoot": "UIActivityLuckyWheelChooseReward",
+      "path": "UIActivityLuckyWheelChooseReward/Root/Animation/content/BackGround/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_lucky_wheel_choose_reward",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIActivityLuckyWheelChooseReward的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityLuckyWheelChooseReward.prefab」中的UIActivityLuckyWheelChooseRewardCommon按钮",
+      "suggestedTestId": "UIActivityLuckyWheelChooseReward.CommonBtn",
+      "suggestedSemanticId": "UIActivityLuckyWheelChooseReward.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_78e8a98a7c8e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4297288f5b62",
+      "DRAFT_4787553b49af",
+      "DRAFT_ed2e5474fce5",
+      "DRAFT_78e8a98a7c8e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

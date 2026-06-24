@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_qi_pao",
+  "displayName": "main_ciry_qi_pao",
+  "drafts": {
+    "DRAFT_89b17bd316cd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryQiPao.prefab",
+      "prefabRoot": "MainCiryQiPao",
+      "path": "MainCiryQiPao/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_qi_pao",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryQiPao的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryQiPao.prefab」中的MainCiryQiPaotipsdi",
+      "suggestedTestId": "MainCiryQiPao.tips_di",
+      "suggestedSemanticId": "MainCiryQiPao.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_89b17bd316cd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_89b17bd316cd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

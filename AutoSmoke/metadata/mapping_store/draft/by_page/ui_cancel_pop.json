@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_cancel_pop",
+  "displayName": "ui_cancel_pop",
+  "drafts": {
+    "DRAFT_dd10b19f20d9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab",
+      "prefabRoot": "UICancelPop",
+      "path": "UICancelPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_cancel_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UICancelPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab」中的UICancelPop关闭按钮",
+      "suggestedTestId": "UICancelPop.CloseBtn",
+      "suggestedSemanticId": "UICancelPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd10b19f20d9"
+    },
+    "DRAFT_eb921aad6ddd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab",
+      "prefabRoot": "UICancelPop",
+      "path": "UICancelPop/Root/Page/CancelBtn",
+      "nodeName": "CancelBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_cancel_pop",
+      "displayName": "取消按钮",
+      "chineseDescription": "UICancelPop的取消按钮",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab」中的UICancelPop取消按钮",
+      "suggestedTestId": "UICancelPop.CancelBtn",
+      "suggestedSemanticId": "UICancelPop.取消按钮",
+      "role": "cancel_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb921aad6ddd"
+    },
+    "DRAFT_72fab1373ecd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab",
+      "prefabRoot": "UICancelPop",
+      "path": "UICancelPop/Root/Page/ConfirmBtn",
+      "nodeName": "ConfirmBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_cancel_pop",
+      "displayName": "确认按钮",
+      "chineseDescription": "UICancelPop的确认按钮，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICancelPop.prefab」中的UICancelPop确认按钮",
+      "suggestedTestId": "UICancelPop.ConfirmBtn",
+      "suggestedSemanticId": "UICancelPop.确认按钮",
+      "role": "confirm_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_72fab1373ecd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dd10b19f20d9",
+      "DRAFT_eb921aad6ddd",
+      "DRAFT_72fab1373ecd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

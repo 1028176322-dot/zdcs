@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_player_gender",
+  "displayName": "ui_player_gender",
+  "drafts": {
+    "DRAFT_ba74ba9a2d2d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab",
+      "prefabRoot": "UiPlayerGender",
+      "path": "UiPlayerGender/Root/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_player_gender",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UiPlayerGender的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab」中的UiPlayerGender关闭按钮",
+      "suggestedTestId": "UiPlayerGender.CloseBtn",
+      "suggestedSemanticId": "UiPlayerGender.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ba74ba9a2d2d"
+    },
+    "DRAFT_66b1a8aca9d5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab",
+      "prefabRoot": "UiPlayerGender",
+      "path": "UiPlayerGender/Root/Content/man",
+      "nodeName": "man",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "3_common_ui_bg_6",
+      "clickable": true,
+      "pageId": "ui_player_gender",
+      "displayName": "man",
+      "chineseDescription": "UiPlayerGender的man",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab」中的UiPlayerGenderman",
+      "suggestedTestId": "UiPlayerGender.man",
+      "suggestedSemanticId": "UiPlayerGender.man",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_66b1a8aca9d5"
+    },
+    "DRAFT_658c58d6aa02": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab",
+      "prefabRoot": "UiPlayerGender",
+      "path": "UiPlayerGender/Root/Content/woman",
+      "nodeName": "woman",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_player_gender",
+      "displayName": "woman",
+      "chineseDescription": "UiPlayerGender的woman",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab」中的UiPlayerGenderwoman",
+      "suggestedTestId": "UiPlayerGender.woman",
+      "suggestedSemanticId": "UiPlayerGender.woman",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_658c58d6aa02"
+    },
+    "DRAFT_fabbfcab78b8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab",
+      "prefabRoot": "UiPlayerGender",
+      "path": "UiPlayerGender/Root/Content/Button_Yellow",
+      "nodeName": "Button_Yellow",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animator"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_player_gender",
+      "displayName": "按钮Yellow",
+      "chineseDescription": "UiPlayerGender的按钮Yellow，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerGender.prefab」中的UiPlayerGender按钮Yellow",
+      "suggestedTestId": "UiPlayerGender.Button_Yellow",
+      "suggestedSemanticId": "UiPlayerGender.按钮Yellow",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fabbfcab78b8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ba74ba9a2d2d",
+      "DRAFT_66b1a8aca9d5",
+      "DRAFT_658c58d6aa02",
+      "DRAFT_fabbfcab78b8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

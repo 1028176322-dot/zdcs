@@ -1,0 +1,90 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uizvz_hurt_rank",
+  "displayName": "uizvz_hurt_rank",
+  "drafts": {
+    "DRAFT_e7dda240d09c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab",
+      "prefabRoot": "UIZVZHurtRank",
+      "path": "UIZVZHurtRank/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "uizvz_hurt_rank",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIZVZHurtRank的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab」中的UIZVZHurtRank关闭按钮",
+      "suggestedTestId": "UIZVZHurtRank.CloseBtn",
+      "suggestedSemanticId": "UIZVZHurtRank.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e7dda240d09c"
+    },
+    "DRAFT_1cb6fbf56d5e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab",
+      "prefabRoot": "UIZVZHurtRank",
+      "path": "UIZVZHurtRank/Root/Rank/ScrollView/ViewPort/Content/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_hurt_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZHurtRank的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab」中的UIZVZHurtRankHeadk1",
+      "suggestedTestId": "UIZVZHurtRank.Head_k1",
+      "suggestedSemanticId": "UIZVZHurtRank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1cb6fbf56d5e"
+    },
+    "DRAFT_e310aa36e249": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab",
+      "prefabRoot": "UIZVZHurtRank",
+      "path": "UIZVZHurtRank/Root/Rank/RankListButtom/Item/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "uizvz_hurt_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "UIZVZHurtRank的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ZVZ/UIZVZHurtRank.prefab」中的UIZVZHurtRankHeadk1",
+      "suggestedTestId": "UIZVZHurtRank.Head_k1",
+      "suggestedSemanticId": "UIZVZHurtRank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e310aa36e249"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e7dda240d09c",
+      "DRAFT_1cb6fbf56d5e",
+      "DRAFT_e310aa36e249"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

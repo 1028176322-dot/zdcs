@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>主城界面可点击元素报告</title>
+    <style>
+        body { font-family: 'Microsoft YaHei', Arial, sans-serif; margin: 20px; }
+        .header { background: #f0f0f0; padding: 15px; border-radius: 5px; }
+        .ui-class { 
+            border: 1px solid #ddd; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 5px;
+            background: #fafafa;
+        }
+        .ui-class:hover { background: #f0f8ff; }
+        .element { 
+            border: 1px solid #eee; 
+            padding: 10px; 
+            margin: 5px 0; 
+            border-radius: 3px;
+            background: #fff;
+        }
+        .file-path { color: #666; font-size: 0.9em; }
+        .stats { color: #333; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏰 主城界面可点击元素报告</h1>
+        <p>生成时间: 2026-06-11 10:40:00</p>
+        <p class="stats">静态分析: {len(static_data)} 个UI类</p>
+        <p class="stats">包含MainCity关键词: {len(main_city_classes)} 个UI类</p>
+    </div>
+    
+    <h2>📋 包含MainCity关键词的UI类</h2>
+
+    <div class="ui-class">
+        <h3>[1] MainCityClearTipPopupData</h3>
+        <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+        <p><strong>基类:</strong> PopupData</p>
+        
+        <h4>🎯 可点击元素 (1个)</h4>
+    
+        <div class="element">
+            <div><strong>字段:</strong> receiveBtn</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>receive</code></div>
+        </div>
+        
+        <h4>🔗 事件绑定</h4>
+        <pre>
+        Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+    </div>
+    
+    <div class="ui-class">
+        <h3>[2] MainCityClearTipPopupData</h3>
+        <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+        <p><strong>基类:</strong> PopupData</p>
+        
+        <h4>🎯 可点击元素 (2个)</h4>
+    
+        <div class="element">
+            <div><strong>字段:</strong> receiveBtn</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>receive</code></div>
+        </div>
+        
+        <div class="element">
+            <div><strong>字段:</strong> cleanBtn</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>clean</code></div>
+        </div>
+        
+        <h4>🔗 事件绑定</h4>
+        <pre>
+        Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+    </div>
+    
+    <div class="ui-class">
+        <h3>[3] MainCityClearTipPopupData</h3>
+        <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+        <p><strong>基类:</strong> PopupData</p>
+        
+        <h4>🎯 可点击元素 (3个)</h4>
+    
+        <div class="element">
+            <div><strong>字段:</strong> receiveBtn</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>receive</code></div>
+        </div>
+        
+        <div class="element">
+            <div><strong>字段:</strong> cleanBtn</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>clean</code></div>
+        </div>
+        
+        <div class="element">
+            <div><strong>字段:</strong> closeButton</div>
+            <div><strong>类型:</strong> <span style="color: #0066cc;">Unknown</span></div>
+            <div><strong>UI中可能名称:</strong> <code>close</code></div>
+        </div>
+        
+        <h4>🔗 事件绑定</h4>
+        <pre>
+        Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+    </div>
+    
+    <hr>
+    <p><em>报告生成工具: Static UI Analyzer v1.0</em></p>
+</body>
+</html>

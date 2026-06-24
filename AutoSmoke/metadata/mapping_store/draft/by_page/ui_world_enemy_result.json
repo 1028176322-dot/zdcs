@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_world_enemy_result",
+  "displayName": "ui_world_enemy_result",
+  "drafts": {
+    "DRAFT_110726b23e0f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab",
+      "prefabRoot": "UIWorldEnemyResult",
+      "path": "UIWorldEnemyResult/Root/Group_cont/Content/Scroll/Mask/content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "ui_bag_quality_purple",
+      "clickable": true,
+      "pageId": "ui_world_enemy_result",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIWorldEnemyResult的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab」中的UIWorldEnemyResultClickContent",
+      "suggestedTestId": "UIWorldEnemyResult.ClickContent",
+      "suggestedSemanticId": "UIWorldEnemyResult.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_110726b23e0f"
+    },
+    "DRAFT_9dca3cb816c5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab",
+      "prefabRoot": "UIWorldEnemyResult",
+      "path": "UIWorldEnemyResult/Root/AffirmBtn",
+      "nodeName": "AffirmBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_world_enemy_result",
+      "displayName": "Affirm按钮",
+      "chineseDescription": "UIWorldEnemyResult的Affirm按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab」中的UIWorldEnemyResultAffirm按钮",
+      "suggestedTestId": "UIWorldEnemyResult.AffirmBtn",
+      "suggestedSemanticId": "UIWorldEnemyResult.Affirm按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9dca3cb816c5"
+    },
+    "DRAFT_4c9ad4e9ea79": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab",
+      "prefabRoot": "UIWorldEnemyResult",
+      "path": "UIWorldEnemyResult/Root/OpenBtn",
+      "nodeName": "OpenBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_world_enemy_result",
+      "displayName": "Open按钮",
+      "chineseDescription": "UIWorldEnemyResult的Open按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyResult.prefab」中的UIWorldEnemyResultOpen按钮",
+      "suggestedTestId": "UIWorldEnemyResult.OpenBtn",
+      "suggestedSemanticId": "UIWorldEnemyResult.Open按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4c9ad4e9ea79"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_110726b23e0f",
+      "DRAFT_9dca3cb816c5",
+      "DRAFT_4c9ad4e9ea79"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

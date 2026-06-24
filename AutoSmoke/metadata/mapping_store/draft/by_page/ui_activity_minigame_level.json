@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_minigame_level",
+  "displayName": "ui_activity_minigame_level",
+  "drafts": {
+    "DRAFT_c26bc0d3ca43": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab",
+      "prefabRoot": "UIActivityMinigameLevel",
+      "path": "UIActivityMinigameLevel/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back_2",
+      "clickable": true,
+      "pageId": "ui_activity_minigame_level",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityMinigameLevel的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab」中的UIActivityMinigameLevel关闭按钮",
+      "suggestedTestId": "UIActivityMinigameLevel.CloseBtn",
+      "suggestedSemanticId": "UIActivityMinigameLevel.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c26bc0d3ca43"
+    },
+    "DRAFT_b02927f1945f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab",
+      "prefabRoot": "UIActivityMinigameLevel",
+      "path": "UIActivityMinigameLevel/Root/Content/Item1/Finish",
+      "nodeName": "Finish",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_activity_minigame_level",
+      "displayName": "Finish",
+      "chineseDescription": "UIActivityMinigameLevel的Finish",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab」中的UIActivityMinigameLevelFinish",
+      "suggestedTestId": "UIActivityMinigameLevel.Finish",
+      "suggestedSemanticId": "UIActivityMinigameLevel.Finish",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b02927f1945f"
+    },
+    "DRAFT_76f84c3aae8e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab",
+      "prefabRoot": "UIActivityMinigameLevel",
+      "path": "UIActivityMinigameLevel/Root/Content/Item1/Challenge",
+      "nodeName": "Challenge",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_activity_minigame_level",
+      "displayName": "Challenge",
+      "chineseDescription": "UIActivityMinigameLevel的Challenge",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityMinigameLevel.prefab」中的UIActivityMinigameLevelChallenge",
+      "suggestedTestId": "UIActivityMinigameLevel.Challenge",
+      "suggestedSemanticId": "UIActivityMinigameLevel.Challenge",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_76f84c3aae8e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c26bc0d3ca43",
+      "DRAFT_b02927f1945f",
+      "DRAFT_76f84c3aae8e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

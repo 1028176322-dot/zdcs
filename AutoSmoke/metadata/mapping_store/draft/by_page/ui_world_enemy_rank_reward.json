@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_world_enemy_rank_reward",
+  "displayName": "ui_world_enemy_rank_reward",
+  "drafts": {
+    "DRAFT_262eb4e6afdd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyRankReward.prefab",
+      "prefabRoot": "UIWorldEnemyRankReward",
+      "path": "UIWorldEnemyRankReward/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_world_enemy_rank_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIWorldEnemyRankReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyRankReward.prefab」中的UIWorldEnemyRankReward关闭按钮",
+      "suggestedTestId": "UIWorldEnemyRankReward.CloseBtn",
+      "suggestedSemanticId": "UIWorldEnemyRankReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_262eb4e6afdd"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_262eb4e6afdd"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

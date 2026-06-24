@@ -1,0 +1,146 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_use_tip",
+  "displayName": "ui_activity_christmas_trees_use_tip",
+  "drafts": {
+    "DRAFT_c7a82cb1b2c6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab",
+      "prefabRoot": "UIActivityChristmasTreesUseTip",
+      "path": "UIActivityChristmasTreesUseTip/Root/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_use_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChristmasTreesUseTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab」中的UIActivityChristmasTreesUseTip关闭按钮",
+      "suggestedTestId": "UIActivityChristmasTreesUseTip.CloseBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesUseTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c7a82cb1b2c6"
+    },
+    "DRAFT_cc39fec93799": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab",
+      "prefabRoot": "UIActivityChristmasTreesUseTip",
+      "path": "UIActivityChristmasTreesUseTip/Root/Content/Slider/BtnReduce",
+      "nodeName": "BtnReduce",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_use_tip",
+      "displayName": "按钮Reduce",
+      "chineseDescription": "UIActivityChristmasTreesUseTip的按钮Reduce，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab」中的UIActivityChristmasTreesUseTip按钮Reduce",
+      "suggestedTestId": "UIActivityChristmasTreesUseTip.BtnReduce",
+      "suggestedSemanticId": "UIActivityChristmasTreesUseTip.按钮Reduce",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cc39fec93799"
+    },
+    "DRAFT_8271661a4a94": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab",
+      "prefabRoot": "UIActivityChristmasTreesUseTip",
+      "path": "UIActivityChristmasTreesUseTip/Root/Content/Slider/BtnAdd",
+      "nodeName": "BtnAdd",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_use_tip",
+      "displayName": "按钮Add",
+      "chineseDescription": "UIActivityChristmasTreesUseTip的按钮Add，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab」中的UIActivityChristmasTreesUseTip按钮Add",
+      "suggestedTestId": "UIActivityChristmasTreesUseTip.BtnAdd",
+      "suggestedSemanticId": "UIActivityChristmasTreesUseTip.按钮Add",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8271661a4a94"
+    },
+    "DRAFT_df0f5df63fb0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab",
+      "prefabRoot": "UIActivityChristmasTreesUseTip",
+      "path": "UIActivityChristmasTreesUseTip/Root/Content/Slider/Input/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_use_tip",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityChristmasTreesUseTip的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab」中的UIActivityChristmasTreesUseTipNum",
+      "suggestedTestId": "UIActivityChristmasTreesUseTip.Num",
+      "suggestedSemanticId": "UIActivityChristmasTreesUseTip.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_df0f5df63fb0"
+    },
+    "DRAFT_5ff8611c6b3e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab",
+      "prefabRoot": "UIActivityChristmasTreesUseTip",
+      "path": "UIActivityChristmasTreesUseTip/Root/Content/OkBtn",
+      "nodeName": "OkBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_use_tip",
+      "displayName": "Ok按钮",
+      "chineseDescription": "UIActivityChristmasTreesUseTip的Ok按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesUseTip.prefab」中的UIActivityChristmasTreesUseTipOk按钮",
+      "suggestedTestId": "UIActivityChristmasTreesUseTip.OkBtn",
+      "suggestedSemanticId": "UIActivityChristmasTreesUseTip.Ok按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5ff8611c6b3e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c7a82cb1b2c6",
+      "DRAFT_cc39fec93799",
+      "DRAFT_8271661a4a94",
+      "DRAFT_df0f5df63fb0",
+      "DRAFT_5ff8611c6b3e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

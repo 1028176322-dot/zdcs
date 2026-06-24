@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_173847_599950",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T17:38:47",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6441524,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_common_teach",
+  "displayName": "ui_common_teach",
+  "drafts": {
+    "DRAFT_e5e797f5ee35": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/Page/Viewport/Content/Page1",
+      "nodeName": "Page1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasGroup",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "Page1",
+      "chineseDescription": "UICommonTeach的Page1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachPage1",
+      "suggestedTestId": "UICommonTeach.Page1",
+      "suggestedSemanticId": "UICommonTeach.Page1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5e797f5ee35"
+    },
+    "DRAFT_c47c90bf81c0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Img_Common_X",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UICommonTeach的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeach关闭按钮",
+      "suggestedTestId": "UICommonTeach.CloseBtn",
+      "suggestedSemanticId": "UICommonTeach.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c47c90bf81c0"
+    },
+    "DRAFT_1d681d88a25c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/TabScroll/Mask/Content/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "Tab1",
+      "chineseDescription": "UICommonTeach的Tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachTab1",
+      "suggestedTestId": "UICommonTeach.Tab1",
+      "suggestedSemanticId": "UICommonTeach.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d681d88a25c"
+    },
+    "DRAFT_0d16d211f0ed": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/TabScroll/Mask/Content/Tab1/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "ClickContent",
+      "chineseDescription": "UICommonTeach的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachClickContent",
+      "suggestedTestId": "UICommonTeach.ClickContent",
+      "suggestedSemanticId": "UICommonTeach.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0d16d211f0ed"
+    },
+    "DRAFT_8d537b864d0b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/TabScroll1/Mask/Content/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "Tab1",
+      "chineseDescription": "UICommonTeach的Tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachTab1",
+      "suggestedTestId": "UICommonTeach.Tab1",
+      "suggestedSemanticId": "UICommonTeach.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8d537b864d0b"
+    },
+    "DRAFT_fb1689f9e962": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/TabScroll1/Mask/Content/Tab1/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "ClickContent",
+      "chineseDescription": "UICommonTeach的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachClickContent",
+      "suggestedTestId": "UICommonTeach.ClickContent",
+      "suggestedSemanticId": "UICommonTeach.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb1689f9e962"
+    },
+    "DRAFT_218a41b1e225": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab",
+      "prefabRoot": "UICommonTeach",
+      "path": "UICommonTeach/Root/TabScroll2/Mask/Content/Tab1",
+      "nodeName": "Tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_common_teach",
+      "displayName": "Tab1",
+      "chineseDescription": "UICommonTeach的Tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Player/UICommonTeach.prefab」中的UICommonTeachTab1",
+      "suggestedTestId": "UICommonTeach.Tab1",
+      "suggestedSemanticId": "UICommonTeach.Tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_218a41b1e225"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e5e797f5ee35",
+      "DRAFT_c47c90bf81c0",
+      "DRAFT_1d681d88a25c",
+      "DRAFT_0d16d211f0ed",
+      "DRAFT_8d537b864d0b",
+      "DRAFT_fb1689f9e962",
+      "DRAFT_218a41b1e225"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 7
+}

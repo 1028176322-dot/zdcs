@@ -1,0 +1,64 @@
+{
+  "testId": "bag.use.button",
+  "semanticId": "bag.use.button",
+  "targetName": "背包道具使用按钮",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+    "pageId": "bag",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "bag.use.button",
+    "formalRef": "formal://bag/bag.use.button",
+    "evidenceRef": "EVIDENCE_bag.use.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.bag.used_btn.button.png",
+    "screenRectUsed": [
+      380,
+      2376,
+      790,
+      2527
+    ],
+    "confirmedTestId": "bag.use.button",
+    "formalRef": "formal://bag/bag.use.button",
+    "evidenceRef": "EVIDENCE_bag.use.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13430044,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "screenPoint": [
+        584,
+        80
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.use.button",
+    "formalRef": "formal://bag/bag.use.button",
+    "evidenceRef": "EVIDENCE_bag.use.button"
+  },
+  "displayName": "背包-使用按钮",
+  "pageId": "bag",
+  "role": "use",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.use.button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

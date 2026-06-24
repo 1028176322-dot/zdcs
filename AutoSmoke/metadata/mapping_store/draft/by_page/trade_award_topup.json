@@ -1,0 +1,125 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "trade_award_topup",
+  "displayName": "trade_award_topup",
+  "drafts": {
+    "DRAFT_1bd189b1c1e1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeAwardTopup.prefab",
+      "prefabRoot": "TradeAwardTopup",
+      "path": "TradeAwardTopup/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_award_topup",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TradeAwardTopup的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeAwardTopup.prefab」中的TradeAwardTopup关闭按钮",
+      "suggestedTestId": "TradeAwardTopup.CloseBtn",
+      "suggestedSemanticId": "TradeAwardTopup.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1bd189b1c1e1"
+    },
+    "DRAFT_4477e18462d0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeAwardTopup.prefab",
+      "prefabRoot": "TradeAwardTopup",
+      "path": "TradeAwardTopup/Root/BG/Scroll/View/Content/Item/AwardCont/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "trade_award_topup",
+      "displayName": "ClickContent",
+      "chineseDescription": "TradeAwardTopup的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Trade/TradeAwardTopup.prefab」中的TradeAwardTopupClickContent",
+      "suggestedTestId": "TradeAwardTopup.ClickContent",
+      "suggestedSemanticId": "TradeAwardTopup.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4477e18462d0"
+    },
+    "DRAFT_e5210288dc66": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeAwardTopup.prefab",
+      "prefabRoot": "Export_TradeAwardTopup",
+      "path": "Export_TradeAwardTopup/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "trade_award_topup",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Export_TradeAwardTopup的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeAwardTopup.prefab」中的Export_TradeAwardTopup关闭按钮",
+      "suggestedTestId": "Export_TradeAwardTopup.CloseBtn",
+      "suggestedSemanticId": "Export_TradeAwardTopup.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5210288dc66"
+    },
+    "DRAFT_5cd95ae09b95": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeAwardTopup.prefab",
+      "prefabRoot": "Export_TradeAwardTopup",
+      "path": "Export_TradeAwardTopup/Root/BG/Scroll/View/Content/Item/AwardCont/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "trade_award_topup",
+      "displayName": "ClickContent",
+      "chineseDescription": "Export_TradeAwardTopup的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Trade/Export_TradeAwardTopup.prefab」中的Export_TradeAwardTopupClickContent",
+      "suggestedTestId": "Export_TradeAwardTopup.ClickContent",
+      "suggestedSemanticId": "Export_TradeAwardTopup.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5cd95ae09b95"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1bd189b1c1e1",
+      "DRAFT_4477e18462d0",
+      "DRAFT_e5210288dc66",
+      "DRAFT_5cd95ae09b95"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

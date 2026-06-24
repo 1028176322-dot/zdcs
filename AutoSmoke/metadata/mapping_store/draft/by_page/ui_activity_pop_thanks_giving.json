@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_thanks_giving",
+  "displayName": "ui_activity_pop_thanks_giving",
+  "drafts": {
+    "DRAFT_247d4ad5775f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_ThanksGiving.prefab",
+      "prefabRoot": "UIActivityPop_ThanksGiving",
+      "path": "UIActivityPop_ThanksGiving/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_thanks_giving",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_ThanksGiving的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_ThanksGiving.prefab」中的UIActivityPop_ThanksGiving项1",
+      "suggestedTestId": "UIActivityPop_ThanksGiving.Item1",
+      "suggestedSemanticId": "UIActivityPop_ThanksGiving.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_247d4ad5775f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_247d4ad5775f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

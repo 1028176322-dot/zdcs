@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activit_box_preview_tips",
+  "displayName": "ui_activit_box_preview_tips",
+  "drafts": {
+    "DRAFT_945b769126d0": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitBoxPreviewTips.prefab",
+      "prefabRoot": "UIActivitBoxPreviewTips",
+      "path": "UIActivitBoxPreviewTips/TipMask",
+      "nodeName": "TipMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activit_box_preview_tips",
+      "displayName": "TipMask",
+      "chineseDescription": "UIActivitBoxPreviewTips的TipMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitBoxPreviewTips.prefab」中的UIActivitBoxPreviewTipsTipMask",
+      "suggestedTestId": "UIActivitBoxPreviewTips.TipMask",
+      "suggestedSemanticId": "UIActivitBoxPreviewTips.TipMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_945b769126d0"
+    },
+    "DRAFT_cce661de2f7b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitBoxPreviewTips.prefab",
+      "prefabRoot": "UIActivitBoxPreviewTips",
+      "path": "UIActivitBoxPreviewTips/BoxRewards/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activit_box_preview_tips",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivitBoxPreviewTips的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitBoxPreviewTips.prefab」中的UIActivitBoxPreviewTipsClickContent",
+      "suggestedTestId": "UIActivitBoxPreviewTips.ClickContent",
+      "suggestedSemanticId": "UIActivitBoxPreviewTips.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cce661de2f7b"
+    },
+    "DRAFT_fb4ea4fbe40b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitBoxPreviewTips.prefab",
+      "prefabRoot": "EXPORT_UIActivitBoxPreviewTips",
+      "path": "EXPORT_UIActivitBoxPreviewTips/TipMask",
+      "nodeName": "TipMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activit_box_preview_tips",
+      "displayName": "TipMask",
+      "chineseDescription": "EXPORT_UIActivitBoxPreviewTips的TipMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitBoxPreviewTips.prefab」中的EXPORT_UIActivitBoxPreviewTipsTipMask",
+      "suggestedTestId": "EXPORT_UIActivitBoxPreviewTips.TipMask",
+      "suggestedSemanticId": "EXPORT_UIActivitBoxPreviewTips.TipMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fb4ea4fbe40b"
+    },
+    "DRAFT_776eb27513b2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitBoxPreviewTips.prefab",
+      "prefabRoot": "EXPORT_UIActivitBoxPreviewTips",
+      "path": "EXPORT_UIActivitBoxPreviewTips/BoxRewards/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activit_box_preview_tips",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivitBoxPreviewTips的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitBoxPreviewTips.prefab」中的EXPORT_UIActivitBoxPreviewTipsClickContent",
+      "suggestedTestId": "EXPORT_UIActivitBoxPreviewTips.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivitBoxPreviewTips.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_776eb27513b2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_945b769126d0",
+      "DRAFT_cce661de2f7b",
+      "DRAFT_fb4ea4fbe40b",
+      "DRAFT_776eb27513b2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

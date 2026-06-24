@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_fate_gear_get_item",
+  "displayName": "ui_activity_fate_gear_get_item",
+  "drafts": {
+    "DRAFT_a16d993e49b3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab",
+      "prefabRoot": "UIActivityFateGearGetItem",
+      "path": "UIActivityFateGearGetItem/Root/BG/TitleBar/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_get_item",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityFateGearGetItem的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab」中的UIActivityFateGearGetItem关闭按钮",
+      "suggestedTestId": "UIActivityFateGearGetItem.CloseBtn",
+      "suggestedSemanticId": "UIActivityFateGearGetItem.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a16d993e49b3"
+    },
+    "DRAFT_25a9090e3bdb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab",
+      "prefabRoot": "UIActivityFateGearGetItem",
+      "path": "UIActivityFateGearGetItem/Root/BG/ItemGrid/Item/cont/BuyOneBtn",
+      "nodeName": "BuyOneBtn",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_get_item",
+      "displayName": "购买One按钮",
+      "chineseDescription": "UIActivityFateGearGetItem的购买One按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab」中的UIActivityFateGearGetItem购买One按钮",
+      "suggestedTestId": "UIActivityFateGearGetItem.BuyOneBtn",
+      "suggestedSemanticId": "UIActivityFateGearGetItem.购买One按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_25a9090e3bdb"
+    },
+    "DRAFT_472ba9214314": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab",
+      "prefabRoot": "UIActivityFateGearGetItem",
+      "path": "UIActivityFateGearGetItem/Root/BG/ScrollView/ViewPort/Content/Item1/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_fate_gear_get_item",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityFateGearGetItem的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityFateGearGetItem.prefab」中的UIActivityFateGearGetItem按钮",
+      "suggestedTestId": "UIActivityFateGearGetItem.Button",
+      "suggestedSemanticId": "UIActivityFateGearGetItem.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_472ba9214314"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a16d993e49b3",
+      "DRAFT_25a9090e3bdb",
+      "DRAFT_472ba9214314"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

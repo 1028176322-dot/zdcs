@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_preview_actv",
+  "displayName": "ui_activity_preview_actv",
+  "drafts": {
+    "DRAFT_d09f4fd99cbc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Actv.prefab",
+      "prefabRoot": "UIActivityPreview_Actv",
+      "path": "UIActivityPreview_Actv/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_preview_actv",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityPreview_Actv的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Actv.prefab」中的UIActivityPreview_ActvGo按钮",
+      "suggestedTestId": "UIActivityPreview_Actv.GoBtn",
+      "suggestedSemanticId": "UIActivityPreview_Actv.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d09f4fd99cbc"
+    },
+    "DRAFT_6e91edc9f00b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Actv.prefab",
+      "prefabRoot": "UIActivityPreview_Actv",
+      "path": "UIActivityPreview_Actv/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_preview_actv",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityPreview_Actv的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Actv.prefab」中的UIActivityPreview_Actv关闭按钮",
+      "suggestedTestId": "UIActivityPreview_Actv.CloseBtn",
+      "suggestedSemanticId": "UIActivityPreview_Actv.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6e91edc9f00b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d09f4fd99cbc",
+      "DRAFT_6e91edc9f00b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

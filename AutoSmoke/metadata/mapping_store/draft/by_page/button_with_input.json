@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "button_with_input",
+  "displayName": "button_with_input",
+  "drafts": {
+    "DRAFT_aee5183e5b2d": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonWithInput.prefab",
+      "prefabRoot": "ButtonWithInput",
+      "path": "ButtonWithInput/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "button_with_input",
+      "displayName": "按钮",
+      "chineseDescription": "ButtonWithInput的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonWithInput.prefab」中的ButtonWithInput按钮",
+      "suggestedTestId": "ButtonWithInput.Button",
+      "suggestedSemanticId": "ButtonWithInput.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_aee5183e5b2d"
+    },
+    "DRAFT_db1330db73e7": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonWithInput.prefab",
+      "prefabRoot": "ButtonWithInput",
+      "path": "ButtonWithInput/InputField",
+      "nodeName": "InputField",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "InputField",
+        "LayoutElement",
+        "InputFieldInScrollRectFixer"
+      ],
+      "spriteName": "top-to-bottom-gradient",
+      "clickable": true,
+      "pageId": "button_with_input",
+      "displayName": "输入Field",
+      "chineseDescription": "ButtonWithInput的输入Field",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonWithInput.prefab」中的ButtonWithInput输入Field",
+      "suggestedTestId": "ButtonWithInput.InputField",
+      "suggestedSemanticId": "ButtonWithInput.输入Field",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_db1330db73e7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_aee5183e5b2d",
+      "DRAFT_db1330db73e7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "sp_icon_item",
+  "displayName": "sp_icon_item",
+  "drafts": {
+    "DRAFT_15334f4cb07b": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Public/sp_icon_item.prefab",
+      "prefabRoot": "sp_icon_item",
+      "path": "sp_icon_item",
+      "nodeName": "sp_icon_item",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "sp_icon_item",
+      "displayName": "spiconitem",
+      "chineseDescription": "sp_icon_item的spiconitem，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Public/sp_icon_item.prefab」中的sp_icon_itemspiconitem",
+      "suggestedTestId": "sp_icon_item.sp_icon_item",
+      "suggestedSemanticId": "sp_icon_item.spiconitem",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_15334f4cb07b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_15334f4cb07b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

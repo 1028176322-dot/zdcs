@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_voucher_pop",
+  "displayName": "ui_voucher_pop",
+  "drafts": {
+    "DRAFT_bffded28a737": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab",
+      "prefabRoot": "UIVoucherPop",
+      "path": "UIVoucherPop/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_voucher_pop",
+      "displayName": "Mask",
+      "chineseDescription": "UIVoucherPop的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab」中的UIVoucherPopMask",
+      "suggestedTestId": "UIVoucherPop.Mask",
+      "suggestedSemanticId": "UIVoucherPop.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bffded28a737"
+    },
+    "DRAFT_c87670ce3c27": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab",
+      "prefabRoot": "UIVoucherPop",
+      "path": "UIVoucherPop/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_voucher_pop",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIVoucherPop的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab」中的UIVoucherPop关闭按钮",
+      "suggestedTestId": "UIVoucherPop.CloseBtn",
+      "suggestedSemanticId": "UIVoucherPop.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c87670ce3c27"
+    },
+    "DRAFT_45450f9a9499": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab",
+      "prefabRoot": "UIVoucherPop",
+      "path": "UIVoucherPop/Root/CostBtn",
+      "nodeName": "CostBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_voucher_pop",
+      "displayName": "Cost按钮",
+      "chineseDescription": "UIVoucherPop的Cost按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab」中的UIVoucherPopCost按钮",
+      "suggestedTestId": "UIVoucherPop.CostBtn",
+      "suggestedSemanticId": "UIVoucherPop.Cost按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_45450f9a9499"
+    },
+    "DRAFT_4be5a47fc2ed": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab",
+      "prefabRoot": "UIVoucherPop",
+      "path": "UIVoucherPop/Root/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_voucher_pop",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIVoucherPop的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIVoucherPop.prefab」中的UIVoucherPop购买按钮",
+      "suggestedTestId": "UIVoucherPop.BuyBtn",
+      "suggestedSemanticId": "UIVoucherPop.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4be5a47fc2ed"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bffded28a737",
+      "DRAFT_c87670ce3c27",
+      "DRAFT_45450f9a9499",
+      "DRAFT_4be5a47fc2ed"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

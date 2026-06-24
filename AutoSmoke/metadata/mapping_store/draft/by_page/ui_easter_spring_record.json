@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_easter_spring_record",
+  "displayName": "ui_easter_spring_record",
+  "drafts": {
+    "DRAFT_57b3a0d87c73": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringRecord.prefab",
+      "prefabRoot": "UIEasterSpringRecord",
+      "path": "UIEasterSpringRecord/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_easter_spring_record",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIEasterSpringRecord的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringRecord.prefab」中的UIEasterSpringRecord关闭按钮",
+      "suggestedTestId": "UIEasterSpringRecord.CloseBtn",
+      "suggestedSemanticId": "UIEasterSpringRecord.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_57b3a0d87c73"
+    },
+    "DRAFT_518754ac894f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringRecord.prefab",
+      "prefabRoot": "UIEasterSpringRecord",
+      "path": "UIEasterSpringRecord/Root/Animation/content/list/Viewport/Content/Item/items",
+      "nodeName": "items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "ClickAudio",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_easter_spring_record",
+      "displayName": "items",
+      "chineseDescription": "UIEasterSpringRecord的items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/UIEasterSpringRecord.prefab」中的UIEasterSpringRecorditems",
+      "suggestedTestId": "UIEasterSpringRecord.items",
+      "suggestedSemanticId": "UIEasterSpringRecord.items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_518754ac894f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_57b3a0d87c73",
+      "DRAFT_518754ac894f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

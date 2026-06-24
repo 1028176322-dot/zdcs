@@ -1,0 +1,64 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "head",
+  "displayName": "head",
+  "drafts": {
+    "DRAFT_e5ffd15be706": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/Head.prefab",
+      "prefabRoot": "Head",
+      "path": "Head",
+      "nodeName": "Head",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "head",
+      "displayName": "Head",
+      "chineseDescription": "Head的Head",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/Head.prefab」中的HeadHead",
+      "suggestedTestId": "Head.Head",
+      "suggestedSemanticId": "Head.Head",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e5ffd15be706"
+    },
+    "DRAFT_f2e304c1bd93": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Public/common/Head.prefab",
+      "prefabRoot": "Head",
+      "path": "Head/Mask/Icon",
+      "nodeName": "Icon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "head",
+      "displayName": "图标",
+      "chineseDescription": "Head的图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Public/common/Head.prefab」中的Head图标",
+      "suggestedTestId": "Head.Icon",
+      "suggestedSemanticId": "Head.图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f2e304c1bd93"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e5ffd15be706",
+      "DRAFT_f2e304c1bd93"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

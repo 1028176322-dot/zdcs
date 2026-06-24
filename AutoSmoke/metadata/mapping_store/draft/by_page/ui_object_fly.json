@@ -1,0 +1,91 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_object_fly",
+  "displayName": "ui_object_fly",
+  "drafts": {
+    "DRAFT_d1f59bb89193": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab",
+      "prefabRoot": "UIObjectFly",
+      "path": "UIObjectFly/TopResource/Coin",
+      "nodeName": "Coin",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_object_fly",
+      "displayName": "Coin",
+      "chineseDescription": "UIObjectFly的Coin",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab」中的UIObjectFlyCoin",
+      "suggestedTestId": "UIObjectFly.Coin",
+      "suggestedSemanticId": "UIObjectFly.Coin",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d1f59bb89193"
+    },
+    "DRAFT_3299a96391f3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab",
+      "prefabRoot": "UIObjectFly",
+      "path": "UIObjectFly/TopResource/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_object_fly",
+      "displayName": "Diamond",
+      "chineseDescription": "UIObjectFly的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab」中的UIObjectFlyDiamond",
+      "suggestedTestId": "UIObjectFly.Diamond",
+      "suggestedSemanticId": "UIObjectFly.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3299a96391f3"
+    },
+    "DRAFT_8bdeed1a1233": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab",
+      "prefabRoot": "UIObjectFly",
+      "path": "UIObjectFly/Root/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage",
+        "UIDragScrollView",
+        "Canvas"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_object_fly",
+      "displayName": "项",
+      "chineseDescription": "UIObjectFly的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIObjectFly.prefab」中的UIObjectFly项",
+      "suggestedTestId": "UIObjectFly.Item",
+      "suggestedSemanticId": "UIObjectFly.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8bdeed1a1233"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d1f59bb89193",
+      "DRAFT_3299a96391f3",
+      "DRAFT_8bdeed1a1233"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_space_box",
+  "displayName": "ui_activity_space_box",
+  "drafts": {
+    "DRAFT_b8ef9c1b5d0d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab",
+      "prefabRoot": "UIActivitySpaceBox",
+      "path": "UIActivitySpaceBox/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_space_box",
+      "displayName": "Info按钮",
+      "chineseDescription": "UIActivitySpaceBox的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab」中的UIActivitySpaceBoxInfo按钮",
+      "suggestedTestId": "UIActivitySpaceBox.InfoBtn",
+      "suggestedSemanticId": "UIActivitySpaceBox.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8ef9c1b5d0d"
+    },
+    "DRAFT_258d2470d72c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab",
+      "prefabRoot": "UIActivitySpaceBox",
+      "path": "UIActivitySpaceBox/Items/Item1/FreeBtn",
+      "nodeName": "FreeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_gr",
+      "clickable": true,
+      "pageId": "ui_activity_space_box",
+      "displayName": "Free按钮",
+      "chineseDescription": "UIActivitySpaceBox的Free按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab」中的UIActivitySpaceBoxFree按钮",
+      "suggestedTestId": "UIActivitySpaceBox.FreeBtn",
+      "suggestedSemanticId": "UIActivitySpaceBox.Free按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_258d2470d72c"
+    },
+    "DRAFT_97353d20dfc2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab",
+      "prefabRoot": "UIActivitySpaceBox",
+      "path": "UIActivitySpaceBox/Items/Item1/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_space_box",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivitySpaceBox的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySpaceBox.prefab」中的UIActivitySpaceBox购买按钮",
+      "suggestedTestId": "UIActivitySpaceBox.BuyBtn",
+      "suggestedSemanticId": "UIActivitySpaceBox.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_97353d20dfc2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b8ef9c1b5d0d",
+      "DRAFT_258d2470d72c",
+      "DRAFT_97353d20dfc2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

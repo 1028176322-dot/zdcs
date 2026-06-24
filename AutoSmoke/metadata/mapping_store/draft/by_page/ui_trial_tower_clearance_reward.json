@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_trial_tower_clearance_reward",
+  "displayName": "ui_trial_tower_clearance_reward",
+  "drafts": {
+    "DRAFT_8f0a8317bfab": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab",
+      "prefabRoot": "UITrialTowerClearanceReward",
+      "path": "UITrialTowerClearanceReward/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_trial_tower_clearance_reward",
+      "displayName": "Mask",
+      "chineseDescription": "UITrialTowerClearanceReward的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab」中的UITrialTowerClearanceRewardMask",
+      "suggestedTestId": "UITrialTowerClearanceReward.Mask",
+      "suggestedSemanticId": "UITrialTowerClearanceReward.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8f0a8317bfab"
+    },
+    "DRAFT_273b9672ae00": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab",
+      "prefabRoot": "UITrialTowerClearanceReward",
+      "path": "UITrialTowerClearanceReward/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_trial_tower_clearance_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITrialTowerClearanceReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab」中的UITrialTowerClearanceReward关闭按钮",
+      "suggestedTestId": "UITrialTowerClearanceReward.CloseBtn",
+      "suggestedSemanticId": "UITrialTowerClearanceReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_273b9672ae00"
+    },
+    "DRAFT_af407b1a5426": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab",
+      "prefabRoot": "UITrialTowerClearanceReward",
+      "path": "UITrialTowerClearanceReward/Root/Page/Scroll/Mask/Content/Item/Btn_Get",
+      "nodeName": "Btn_Get",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_trial_tower_clearance_reward",
+      "displayName": "按钮Get",
+      "chineseDescription": "UITrialTowerClearanceReward的按钮Get，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab」中的UITrialTowerClearanceReward按钮Get",
+      "suggestedTestId": "UITrialTowerClearanceReward.Btn_Get",
+      "suggestedSemanticId": "UITrialTowerClearanceReward.按钮Get",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af407b1a5426"
+    },
+    "DRAFT_621b99ff77c1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab",
+      "prefabRoot": "UITrialTowerClearanceReward",
+      "path": "UITrialTowerClearanceReward/Root/Page/Scroll/Mask/Content/Item/Btn_Gray",
+      "nodeName": "Btn_Gray",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_gray_da",
+      "clickable": true,
+      "pageId": "ui_trial_tower_clearance_reward",
+      "displayName": "按钮Gray",
+      "chineseDescription": "UITrialTowerClearanceReward的按钮Gray，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TrialTower/UITrialTowerClearanceReward.prefab」中的UITrialTowerClearanceReward按钮Gray",
+      "suggestedTestId": "UITrialTowerClearanceReward.Btn_Gray",
+      "suggestedSemanticId": "UITrialTowerClearanceReward.按钮Gray",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_621b99ff77c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_8f0a8317bfab",
+      "DRAFT_273b9672ae00",
+      "DRAFT_af407b1a5426",
+      "DRAFT_621b99ff77c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

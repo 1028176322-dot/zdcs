@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "summer",
+  "displayName": "summer",
+  "drafts": {
+    "DRAFT_aff7e5b07af7": {
+      "assetPath": "Assets/k1/Testprefab/Summer.prefab",
+      "prefabRoot": "Summer",
+      "path": "Summer/BG/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "summer",
+      "displayName": "项",
+      "chineseDescription": "Summer的项",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Summer.prefab」中的Summer项",
+      "suggestedTestId": "Summer.Item",
+      "suggestedSemanticId": "Summer.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_aff7e5b07af7"
+    },
+    "DRAFT_91427ec0bed6": {
+      "assetPath": "Assets/k1/Testprefab/Summer.prefab",
+      "prefabRoot": "Summer",
+      "path": "Summer/BG/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "summer",
+      "displayName": "ClickContent",
+      "chineseDescription": "Summer的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Summer.prefab」中的SummerClickContent",
+      "suggestedTestId": "Summer.ClickContent",
+      "suggestedSemanticId": "Summer.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91427ec0bed6"
+    },
+    "DRAFT_4fbaac7e3aca": {
+      "assetPath": "Assets/k1/Testprefab/Summer.prefab",
+      "prefabRoot": "Summer",
+      "path": "Summer/BG/Buy_Btn",
+      "nodeName": "Buy_Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "summer",
+      "displayName": "购买按钮",
+      "chineseDescription": "Summer的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Summer.prefab」中的Summer购买按钮",
+      "suggestedTestId": "Summer.Buy_Btn",
+      "suggestedSemanticId": "Summer.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4fbaac7e3aca"
+    },
+    "DRAFT_b6d5b0e2c6fa": {
+      "assetPath": "Assets/k1/Testprefab/Summer.prefab",
+      "prefabRoot": "Summer",
+      "path": "Summer/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Canvas",
+        "GraphicRaycaster"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "summer",
+      "displayName": "按钮关闭",
+      "chineseDescription": "Summer的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Summer.prefab」中的Summer按钮关闭",
+      "suggestedTestId": "Summer.BtnClose",
+      "suggestedSemanticId": "Summer.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b6d5b0e2c6fa"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_aff7e5b07af7",
+      "DRAFT_91427ec0bed6",
+      "DRAFT_4fbaac7e3aca",
+      "DRAFT_b6d5b0e2c6fa"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

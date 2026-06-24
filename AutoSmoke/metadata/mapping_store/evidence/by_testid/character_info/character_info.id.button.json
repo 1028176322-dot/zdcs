@@ -1,0 +1,56 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.id.button",
+  "testId": "character_info.id.button",
+  "semanticId": "character_info.id.button",
+  "targetName": "角色信息界面玩家id复制按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Right/ID/CopyBtn",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": ""
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_202800_highlight.png",
+    "screenRectUsed": [
+      1014,
+      2040,
+      1100,
+      2126
+    ],
+    "confirmedTestId": "character_info.id.button",
+    "formalRef": "formal://character_info/character_info.id.button",
+    "evidenceRef": "EVIDENCE_character_info.id.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6771242,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
+      "screenPoint": [
+        1056,
+        449
+      ],
+      "injectorResultRecovered": true
+    }
+  },
+  "updated_at": "2026-06-23T20:29:02",
+  "displayName": "角色信息-玩家角色id按钮",
+  "role": "button",
+  "elementType": "Button"
+}

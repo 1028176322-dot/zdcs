@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_fte_guide",
+  "displayName": "ui_fte_guide",
+  "drafts": {
+    "DRAFT_66759a6743c7": {
+      "assetPath": "Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab",
+      "prefabRoot": "UI_fte_guide",
+      "path": "UI_fte_guide/centre_other/BlackMask",
+      "nodeName": "BlackMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_fte_guide",
+      "displayName": "BlackMask",
+      "chineseDescription": "UI_fte_guide的BlackMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab」中的UI_fte_guideBlackMask",
+      "suggestedTestId": "UI_fte_guide.BlackMask",
+      "suggestedSemanticId": "UI_fte_guide.BlackMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_66759a6743c7"
+    },
+    "DRAFT_59ffc1117912": {
+      "assetPath": "Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab",
+      "prefabRoot": "UI_fte_guide",
+      "path": "UI_fte_guide/centre_other/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_fte_guide",
+      "displayName": "mask",
+      "chineseDescription": "UI_fte_guide的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab」中的UI_fte_guidemask",
+      "suggestedTestId": "UI_fte_guide.mask",
+      "suggestedSemanticId": "UI_fte_guide.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_59ffc1117912"
+    },
+    "DRAFT_63e963a1547f": {
+      "assetPath": "Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab",
+      "prefabRoot": "UI_fte_guide",
+      "path": "UI_fte_guide/centre_other/BG/bg/arrow",
+      "nodeName": "arrow",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animator"
+      ],
+      "spriteName": "3_ui_arrow",
+      "clickable": true,
+      "pageId": "ui_fte_guide",
+      "displayName": "arrow",
+      "chineseDescription": "UI_fte_guide的arrow",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/PlayerUI/UI_fte_guide.prefab」中的UI_fte_guidearrow",
+      "suggestedTestId": "UI_fte_guide.arrow",
+      "suggestedSemanticId": "UI_fte_guide.arrow",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_63e963a1547f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_66759a6743c7",
+      "DRAFT_59ffc1117912",
+      "DRAFT_63e963a1547f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

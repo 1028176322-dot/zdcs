@@ -1,0 +1,52 @@
+[
+  {
+    "fact_id": "FACT_0001",
+    "fact_type": "config_value",
+    "content": "神器组件 · 6 孔位",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95,
+    "fact_status": "CLEAR"
+  },
+  {
+    "fact_id": "FACT_0002",
+    "fact_type": "trigger_condition",
+    "content": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95,
+    "fact_status": "CLEAR"
+  },
+  {
+    "fact_id": "FACT_0003",
+    "fact_type": "ui_text",
+    "content": "神器技能 · 按品质排序",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95,
+    "fact_status": "CLEAR"
+  },
+  {
+    "fact_id": "FACT_0004",
+    "fact_type": "system_process",
+    "content": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95,
+    "fact_status": "CLEAR"
+  },
+  {
+    "fact_id": "FACT_0005",
+    "fact_type": "ui_text",
+    "content": "技能",
+    "evidence_ref": [
+      "EVD_0001"
+    ],
+    "confidence": 0.95,
+    "fact_status": "CLEAR"
+  }
+]

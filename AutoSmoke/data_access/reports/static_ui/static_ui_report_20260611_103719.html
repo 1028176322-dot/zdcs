@@ -1,0 +1,682 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>静态UI分析报告 - 20260611_103719</title>
+            <style>
+                body { font-family: 'Microsoft YaHei', Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+                .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+                .summary { background: white; padding: 15px; margin: 20px 0; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+                .ui-class { 
+                    background: white; 
+                    padding: 20px; 
+                    margin: 20px 0; 
+                    border-radius: 5px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                }
+                .ui-class:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+                .class-name { color: #2c3e50; font-size: 1.5em; font-weight: bold; }
+                .file-path { color: #7f8c8d; font-size: 0.9em; font-family: monospace; }
+                .element { 
+                    background: #ecf0f1; 
+                    padding: 10px; 
+                    margin: 10px 0; 
+                    border-left: 4px solid #3498db;
+                    border-radius: 3px;
+                }
+                .element-name { font-weight: bold; color: #2980b9; }
+                .handler { color: #27ae60; font-family: monospace; }
+                .event-type { color: #e74c3c; font-size: 0.9em; }
+                pre { background: #2c3e50; color: #ecf0f1; padding: 10px; border-radius: 3px; overflow-x: auto; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>🔍 静态UI分析报告</h1>
+                <p>生成时间: 2026-06-11 10:37:19</p>
+                <p>分析目录: E:\s1\k3client\client\Assets\NewGameDemo\Scripts</p>
+            </div>
+            
+            <div class="summary">
+                <h2>📊 统计摘要</h2>
+                <p>分析的C#文件数: <strong>19</strong> 个UI类</p>
+                <p>发现的可点击元素: <strong>51</strong> 个</p>
+            </div>
+        
+            <div class="ui-class">
+                <div class="class-name">[1] UIActivityCalendarActItem</div>
+                <div class="file-path">📁 Game\Activity\UI\UIActivityCalendarActItem.cs</div>
+                <p><strong>基类:</strong> TFWLoopListViewItem</p>
+                
+                <h3>🎯 可点击元素 (1个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: m_btn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code></code></p>
+                    <p>事件处理: <span class="handler">OnClickTip</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: m_btn -> OnClickTip
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[2] UIKingdomTask_ChapterTaskItem</div>
+                <div class="file-path">📁 Game\KingdomTask\UI\UIKingdomTask_ChapterTaskItem.cs</div>
+                <p><strong>基类:</strong> MonoBehaviour</p>
+                
+                <h3>🎯 可点击元素 (3个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGoOnClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _gotoBtn -> OnBtnGoOnClick
+Button.onClick: _getRewardBtn -> OnBtnGetRewardClick
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[3] UIKingdomTask_ChapterTaskItem</div>
+                <div class="file-path">📁 Game\KingdomTask\UI\UIKingdomTask_ChapterTaskItem.cs</div>
+                <p><strong>基类:</strong> MonoBehaviour</p>
+                
+                <h3>🎯 可点击元素 (4个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGoOnClick</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGetRewardClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _gotoBtn -> OnBtnGoOnClick
+Button.onClick: _getRewardBtn -> OnBtnGetRewardClick
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[4] UIKingdomTask_KingdomTaskItem</div>
+                <div class="file-path">📁 Game\KingdomTask\UI\UIKingdomTask_KingdomTaskTaskItem.cs</div>
+                <p><strong>基类:</strong> MonoBehaviour</p>
+                
+                <h3>🎯 可点击元素 (3个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGoOnClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _gotoBtn -> OnBtnGoOnClick
+Button.onClick: _getRewardBtn -> OnBtnGetRewardClick
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[5] UIKingdomTask_KingdomTaskItem</div>
+                <div class="file-path">📁 Game\KingdomTask\UI\UIKingdomTask_KingdomTaskTaskItem.cs</div>
+                <p><strong>基类:</strong> MonoBehaviour</p>
+                
+                <h3>🎯 可点击元素 (4个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _gotoBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>goto</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGoOnClick</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _getRewardBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>getReward</code></p>
+                    <p>事件处理: <span class="handler">OnBtnGetRewardClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _gotoBtn -> OnBtnGoOnClick
+Button.onClick: _getRewardBtn -> OnBtnGetRewardClick
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[6] MainCityClearTipPopupData</div>
+                <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (1个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: receiveBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>receive</code></p>
+                    <p>事件处理: <span class="handler">OnReceiveBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[7] MainCityClearTipPopupData</div>
+                <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (2个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: receiveBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>receive</code></p>
+                    <p>事件处理: <span class="handler">OnReceiveBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: cleanBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>clean</code></p>
+                    <p>事件处理: <span class="handler">OnCleanBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[8] MainCityClearTipPopupData</div>
+                <div class="file-path">📁 Game\MainCityBuildings\MainCityClearTip.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (3个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: receiveBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>receive</code></p>
+                    <p>事件处理: <span class="handler">OnReceiveBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: cleanBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>clean</code></p>
+                    <p>事件处理: <span class="handler">OnCleanBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: closeButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>close</code></p>
+                    <p>事件处理: <span class="handler">OnCloseBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: receiveBtn -> OnReceiveBtnClicked
+Button.onClick: cleanBtn -> OnCleanBtnClicked
+Button.onClick: closeButton -> OnCloseBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[9] SwitchMapUI</div>
+                <div class="file-path">📁 Game\MiniGame\UI\SwitchMapUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (1个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _swithBtn</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>swith</code></p>
+                    <p>事件处理: <span class="handler">InvokeSwitchEvent</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _swithBtn -> InvokeSwitchEvent
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[10] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (1个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[11] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (2个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: taskBgBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>taskBg</code></p>
+                    <p>事件处理: <span class="handler">OnTreasureBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[12] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (3个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: taskBgBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>taskBg</code></p>
+                    <p>事件处理: <span class="handler">OnTreasureBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: idleTowerEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>idleTower</code></p>
+                    <p>事件处理: <span class="handler">OnIdleTowerBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[13] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (4个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: taskBgBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>taskBg</code></p>
+                    <p>事件处理: <span class="handler">OnTreasureBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: idleTowerEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>idleTower</code></p>
+                    <p>事件处理: <span class="handler">OnIdleTowerBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: testButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>test</code></p>
+                    <p>事件处理: <span class="handler">OnTestBtnClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[14] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (5个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: taskBgBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>taskBg</code></p>
+                    <p>事件处理: <span class="handler">OnTreasureBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: idleTowerEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>idleTower</code></p>
+                    <p>事件处理: <span class="handler">OnIdleTowerBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: testButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>test</code></p>
+                    <p>事件处理: <span class="handler">OnTestBtnClick</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: addShipBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>addShip</code></p>
+                    <p>事件处理: <span class="handler">GoGetMoreTroop</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[15] UnchartedMainUI</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedMainUI.cs</div>
+                <p><strong>基类:</strong> UIBase</p>
+                
+                <h3>🎯 可点击元素 (6个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: btnCloseEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>btnClose</code></p>
+                    <p>事件处理: <span class="handler">OnBackBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: taskBgBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>taskBg</code></p>
+                    <p>事件处理: <span class="handler">OnTreasureBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: idleTowerEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>idleTower</code></p>
+                    <p>事件处理: <span class="handler">OnIdleTowerBtnClicked</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: testButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>test</code></p>
+                    <p>事件处理: <span class="handler">OnTestBtnClick</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: addShipBtnEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>addShip</code></p>
+                    <p>事件处理: <span class="handler">GoGetMoreTroop</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: troops_newEventListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>troops_new</code></p>
+                    <p>事件处理: <span class="handler">OnTroopsNewBtnClicked</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: btnCloseEventListener -> OnBackBtnClicked
+Button.onClick: taskBgBtnEventListener -> OnTreasureBtnClicked
+Button.onClick: idleTowerEventListener -> OnIdleTowerBtnClicked
+Button.onClick: testButton -> OnTestBtnClick
+Button.onClick: addShipBtnEventListener -> GoGetMoreTroop
+Button.onClick: troops_newEventListener -> OnTroopsNewBtnClicked
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[16] UnchartedSailingInfoItem</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedSailingInfoItem.cs</div>
+                <p><strong>基类:</strong> MonoBehaviour</p>
+                
+                <h3>🎯 可点击元素 (2个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: _eventTriggerListener</div>
+                    <p>类型: <span class="event-type">EventTriggerListener</span></p>
+                    <p>UI中可能名称: <code>eventTriggerListener</code></p>
+                    
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: _eventTriggerListener</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>eventTriggerListener</code></p>
+                    <p>事件处理: <span class="handler">OnItemClick</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: _eventTriggerListener -> OnItemClick
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[17] UnchartedTaskUIData</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedTaskUI.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (1个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: closeButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>close</code></p>
+                    <p>事件处理: <span class="handler">OnClickClose</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: closeButton -> OnClickClose
+Button.onClick: confirmButton -> OnClickConfirm
+Button.onClick: getButton -> OnClickGetRewards
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[18] UnchartedTaskUIData</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedTaskUI.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (2个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: closeButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>close</code></p>
+                    <p>事件处理: <span class="handler">OnClickClose</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: confirmButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>confirm</code></p>
+                    <p>事件处理: <span class="handler">OnClickConfirm</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: closeButton -> OnClickClose
+Button.onClick: confirmButton -> OnClickConfirm
+Button.onClick: getButton -> OnClickGetRewards
+</pre>
+            </div>
+            
+            <div class="ui-class">
+                <div class="class-name">[19] UnchartedTaskUIData</div>
+                <div class="file-path">📁 Game\Uncharted\UI\UnchartedTaskUI.cs</div>
+                <p><strong>基类:</strong> PopupData</p>
+                
+                <h3>🎯 可点击元素 (3个)</h3>
+            
+                <div class="element">
+                    <div class="element-name">字段: closeButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>close</code></p>
+                    <p>事件处理: <span class="handler">OnClickClose</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: confirmButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>confirm</code></p>
+                    <p>事件处理: <span class="handler">OnClickConfirm</span></p>
+                </div>
+                
+                <div class="element">
+                    <div class="element-name">字段: getButton</div>
+                    <p>类型: <span class="event-type">Unknown</span></p>
+                    <p>UI中可能名称: <code>get</code></p>
+                    <p>事件处理: <span class="handler">OnClickGetRewards</span></p>
+                </div>
+                
+                <h3>🔗 事件绑定</h3>
+                <pre>Button.onClick: closeButton -> OnClickClose
+Button.onClick: confirmButton -> OnClickConfirm
+Button.onClick: getButton -> OnClickGetRewards
+</pre>
+            </div>
+            
+            <hr>
+            <p><em>报告生成工具: Static UI Analyzer v1.0</em></p>
+        </body>
+        </html>
+        

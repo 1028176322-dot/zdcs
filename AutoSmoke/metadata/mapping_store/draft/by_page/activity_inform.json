@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "activity_inform",
+  "displayName": "activity_inform",
+  "drafts": {
+    "DRAFT_e404f21a8430": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/ActivityInform.prefab",
+      "prefabRoot": "ActivityInform",
+      "path": "ActivityInform/Type/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "ui_bg_11",
+      "clickable": true,
+      "pageId": "activity_inform",
+      "displayName": "Bg",
+      "chineseDescription": "ActivityInform的Bg",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/ActivityInform.prefab」中的ActivityInformBg",
+      "suggestedTestId": "ActivityInform.Bg",
+      "suggestedSemanticId": "ActivityInform.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e404f21a8430"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e404f21a8430"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_equip_intensify_tip",
+  "displayName": "ui_hero_equip_intensify_tip",
+  "drafts": {
+    "DRAFT_d6544d6c14bf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab",
+      "prefabRoot": "UIHeroEquipIntensifyTip",
+      "path": "UIHeroEquipIntensifyTip/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_equip_intensify_tip",
+      "displayName": "BG",
+      "chineseDescription": "UIHeroEquipIntensifyTip的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab」中的UIHeroEquipIntensifyTipBG",
+      "suggestedTestId": "UIHeroEquipIntensifyTip.BG",
+      "suggestedSemanticId": "UIHeroEquipIntensifyTip.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d6544d6c14bf"
+    },
+    "DRAFT_9ed683636ff9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab",
+      "prefabRoot": "UIHeroEquipIntensifyTip",
+      "path": "UIHeroEquipIntensifyTip/Root/Content/damage/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_equip_intensify_tip",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIHeroEquipIntensifyTip的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab」中的UIHeroEquipIntensifyTipClickContent",
+      "suggestedTestId": "UIHeroEquipIntensifyTip.ClickContent",
+      "suggestedSemanticId": "UIHeroEquipIntensifyTip.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9ed683636ff9"
+    },
+    "DRAFT_29e9697a0694": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab",
+      "prefabRoot": "UIHeroEquipIntensifyTip",
+      "path": "UIHeroEquipIntensifyTip/Root/Content/confirm",
+      "nodeName": "confirm",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_equip_intensify_tip",
+      "displayName": "confirm",
+      "chineseDescription": "UIHeroEquipIntensifyTip的confirm，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroEquipIntensifyTip.prefab」中的UIHeroEquipIntensifyTipconfirm",
+      "suggestedTestId": "UIHeroEquipIntensifyTip.confirm",
+      "suggestedSemanticId": "UIHeroEquipIntensifyTip.confirm",
+      "role": "confirm_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_29e9697a0694"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d6544d6c14bf",
+      "DRAFT_9ed683636ff9",
+      "DRAFT_29e9697a0694"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

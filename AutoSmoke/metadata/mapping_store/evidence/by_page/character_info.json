@@ -1,0 +1,28 @@
+{
+  "schema_version": "mapping_evidence.page.v1",
+  "pageId": "character_info",
+  "items": {
+    "EVIDENCE_ui_hero_new_hero_list.character_info.img_soldier.cell": "mapping_store/evidence/by_testid/character_info/ui_hero_new_hero_list.character_info.img_soldier.cell.json",
+    "EVIDENCE_character_info.player_power.text": "mapping_store/evidence/by_testid/character_info/character_info.player_power.text.json",
+    "EVIDENCE_character_info.main_character_model.model": "mapping_store/evidence/by_testid/character_info/character_info.main_character_model.model.json",
+    "EVIDENCE_character_info.personalization_settings.button": "mapping_store/evidence/by_testid/character_info/character_info.personalization_settings.button.json",
+    "EVIDENCE_character_info.level.text": "mapping_store/evidence/by_testid/character_info/character_info.level.text.json",
+    "EVIDENCE_character_info.player_name.text": "mapping_store/evidence/by_testid/character_info/character_info.player_name.text.json",
+    "EVIDENCE_character_info.gender.text": "mapping_store/evidence/by_testid/character_info/character_info.gender.text.json",
+    "EVIDENCE_character_info.gender.button": "mapping_store/evidence/by_testid/character_info/character_info.gender.button.json",
+    "EVIDENCE_character_info.player_rename.button": "mapping_store/evidence/by_testid/character_info/character_info.player_rename.button.json",
+    "EVIDENCE_character_info.power.icon": "mapping_store/evidence/by_testid/character_info/character_info.power.icon.json",
+    "EVIDENCE_character_info.player_server_id.text": "mapping_store/evidence/by_testid/character_info/character_info.player_server_id.text.json",
+    "EVIDENCE_character_info.id_label.text": "mapping_store/evidence/by_testid/character_info/character_info.id_label.text.json",
+    "EVIDENCE_character_info.id.text": "mapping_store/evidence/by_testid/character_info/character_info.id.text.json",
+    "EVIDENCE_character_info.id.button": "mapping_store/evidence/by_testid/character_info/character_info.id.button.json",
+    "EVIDENCE_character_info.flag.button": "mapping_store/evidence/by_testid/character_info/character_info.flag.button.json",
+    "EVIDENCE_character_info.ranking.button": "mapping_store/evidence/by_testid/character_info/character_info.ranking.button.json",
+    "EVIDENCE_character_info.friend.button": "mapping_store/evidence/by_testid/character_info/character_info.friend.button.json",
+    "EVIDENCE_character_info.country_label.text": "mapping_store/evidence/by_testid/character_info/character_info.country_label.text.json",
+    "EVIDENCE_character_info.alliance.text": "mapping_store/evidence/by_testid/character_info/character_info.alliance.text.json",
+    "EVIDENCE_character_info.buff.button": "mapping_store/evidence/by_testid/character_info/character_info.buff.button.json",
+    "EVIDENCE_character_info.customer_service.button": "mapping_store/evidence/by_testid/character_info/character_info.customer_service.button.json"
+  },
+  "updated_at": "2026-06-24T10:00:32"
+}

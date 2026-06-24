@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_symbiont_select",
+  "displayName": "ui_hero_symbiont_select",
+  "drafts": {
+    "DRAFT_23176dad0743": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab",
+      "prefabRoot": "UIHeroSymbiontSelect",
+      "path": "UIHeroSymbiontSelect/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_select",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIHeroSymbiontSelect的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab」中的UIHeroSymbiontSelect关闭按钮",
+      "suggestedTestId": "UIHeroSymbiontSelect.CloseBtn",
+      "suggestedSemanticId": "UIHeroSymbiontSelect.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_23176dad0743"
+    },
+    "DRAFT_60b3b5da77ff": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab",
+      "prefabRoot": "UIHeroSymbiontSelect",
+      "path": "UIHeroSymbiontSelect/Root/Content/ListBG/Scroll",
+      "nodeName": "Scroll",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWScrollRect",
+        "ExpandCircularScrollView",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "Background",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_select",
+      "displayName": "Scroll",
+      "chineseDescription": "UIHeroSymbiontSelect的Scroll",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab」中的UIHeroSymbiontSelectScroll",
+      "suggestedTestId": "UIHeroSymbiontSelect.Scroll",
+      "suggestedSemanticId": "UIHeroSymbiontSelect.Scroll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_60b3b5da77ff"
+    },
+    "DRAFT_a3c24e57cfd6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab",
+      "prefabRoot": "UIHeroSymbiontSelect",
+      "path": "UIHeroSymbiontSelect/Root/Content/ListBG/Scroll/ViewPort/Content/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIHeroSymbiontSelect_HeroItem"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_select",
+      "displayName": "项",
+      "chineseDescription": "UIHeroSymbiontSelect的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab」中的UIHeroSymbiontSelect项",
+      "suggestedTestId": "UIHeroSymbiontSelect.Item",
+      "suggestedSemanticId": "UIHeroSymbiontSelect.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a3c24e57cfd6"
+    },
+    "DRAFT_982344026a33": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab",
+      "prefabRoot": "UIHeroSymbiontSelect",
+      "path": "UIHeroSymbiontSelect/Root/OkBtn",
+      "nodeName": "OkBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_select",
+      "displayName": "Ok按钮",
+      "chineseDescription": "UIHeroSymbiontSelect的Ok按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontSelect.prefab」中的UIHeroSymbiontSelectOk按钮",
+      "suggestedTestId": "UIHeroSymbiontSelect.OkBtn",
+      "suggestedSemanticId": "UIHeroSymbiontSelect.Ok按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_982344026a33"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_23176dad0743",
+      "DRAFT_60b3b5da77ff",
+      "DRAFT_a3c24e57cfd6",
+      "DRAFT_982344026a33"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

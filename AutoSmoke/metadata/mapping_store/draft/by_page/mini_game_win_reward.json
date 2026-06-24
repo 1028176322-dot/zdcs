@@ -1,0 +1,125 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mini_game_win_reward",
+  "displayName": "mini_game_win_reward",
+  "drafts": {
+    "DRAFT_3b4ba6a8810b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameWinReward.prefab",
+      "prefabRoot": "MiniGameWinReward",
+      "path": "MiniGameWinReward/Root/BG/ItemsContent/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mini_game_win_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "MiniGameWinReward的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameWinReward.prefab」中的MiniGameWinRewardClickContent",
+      "suggestedTestId": "MiniGameWinReward.ClickContent",
+      "suggestedSemanticId": "MiniGameWinReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3b4ba6a8810b"
+    },
+    "DRAFT_8d7ef52f6b11": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameWinReward.prefab",
+      "prefabRoot": "MiniGameWinReward",
+      "path": "MiniGameWinReward/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "mini_game_win_reward",
+      "displayName": "Click",
+      "chineseDescription": "MiniGameWinReward的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MiniGame/MiniGameWinReward.prefab」中的MiniGameWinRewardClick",
+      "suggestedTestId": "MiniGameWinReward.Click",
+      "suggestedSemanticId": "MiniGameWinReward.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8d7ef52f6b11"
+    },
+    "DRAFT_5efade3eb9f7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameWinReward.prefab",
+      "prefabRoot": "EXPORT_MiniGameWinReward",
+      "path": "EXPORT_MiniGameWinReward/Root/BG/ItemsContent/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mini_game_win_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_MiniGameWinReward的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameWinReward.prefab」中的EXPORT_MiniGameWinRewardClickContent",
+      "suggestedTestId": "EXPORT_MiniGameWinReward.ClickContent",
+      "suggestedSemanticId": "EXPORT_MiniGameWinReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5efade3eb9f7"
+    },
+    "DRAFT_f12332d74db6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameWinReward.prefab",
+      "prefabRoot": "EXPORT_MiniGameWinReward",
+      "path": "EXPORT_MiniGameWinReward/Root/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "mini_game_win_reward",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_MiniGameWinReward的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MiniGame/EXPORT_MiniGameWinReward.prefab」中的EXPORT_MiniGameWinRewardClick",
+      "suggestedTestId": "EXPORT_MiniGameWinReward.Click",
+      "suggestedSemanticId": "EXPORT_MiniGameWinReward.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f12332d74db6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3b4ba6a8810b",
+      "DRAFT_8d7ef52f6b11",
+      "DRAFT_5efade3eb9f7",
+      "DRAFT_f12332d74db6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

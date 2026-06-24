@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tech_ship_upgrade_view",
+  "displayName": "tech_ship_upgrade_view",
+  "drafts": {
+    "DRAFT_85c7726f7765": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipUpgradeView.prefab",
+      "prefabRoot": "TechShipUpgradeView",
+      "path": "TechShipUpgradeView/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "tech_ship_upgrade_view",
+      "displayName": "Click",
+      "chineseDescription": "TechShipUpgradeView的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipUpgradeView.prefab」中的TechShipUpgradeViewClick",
+      "suggestedTestId": "TechShipUpgradeView.Click",
+      "suggestedSemanticId": "TechShipUpgradeView.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_85c7726f7765"
+    },
+    "DRAFT_dc4219afac25": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipUpgradeView.prefab",
+      "prefabRoot": "TechShipUpgradeView",
+      "path": "TechShipUpgradeView/Root/Content/Layout/GainLoop/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "tech_ship_upgrade_view",
+      "displayName": "项",
+      "chineseDescription": "TechShipUpgradeView的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechShipUpgradeView.prefab」中的TechShipUpgradeView项",
+      "suggestedTestId": "TechShipUpgradeView.Item",
+      "suggestedSemanticId": "TechShipUpgradeView.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dc4219afac25"
+    },
+    "DRAFT_a9211decda6c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipUpgradeView.prefab",
+      "prefabRoot": "EXPORT_TechShipUpgradeView",
+      "path": "EXPORT_TechShipUpgradeView/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_bg_1",
+      "clickable": true,
+      "pageId": "tech_ship_upgrade_view",
+      "displayName": "Click",
+      "chineseDescription": "EXPORT_TechShipUpgradeView的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipUpgradeView.prefab」中的EXPORT_TechShipUpgradeViewClick",
+      "suggestedTestId": "EXPORT_TechShipUpgradeView.Click",
+      "suggestedSemanticId": "EXPORT_TechShipUpgradeView.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a9211decda6c"
+    },
+    "DRAFT_91bee0eed2b2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipUpgradeView.prefab",
+      "prefabRoot": "EXPORT_TechShipUpgradeView",
+      "path": "EXPORT_TechShipUpgradeView/Root/Content/Layout/GainLoop/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "ui_bag_quality_blue",
+      "clickable": true,
+      "pageId": "tech_ship_upgrade_view",
+      "displayName": "项",
+      "chineseDescription": "EXPORT_TechShipUpgradeView的项",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechShipUpgradeView.prefab」中的EXPORT_TechShipUpgradeView项",
+      "suggestedTestId": "EXPORT_TechShipUpgradeView.Item",
+      "suggestedSemanticId": "EXPORT_TechShipUpgradeView.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91bee0eed2b2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_85c7726f7765",
+      "DRAFT_dc4219afac25",
+      "DRAFT_a9211decda6c",
+      "DRAFT_91bee0eed2b2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

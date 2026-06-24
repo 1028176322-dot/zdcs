@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_res_box",
+  "displayName": "ui_res_box",
+  "drafts": {
+    "DRAFT_ce1e4e66474f": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab",
+      "prefabRoot": "UIResBox",
+      "path": "UIResBox/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_res_box",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIResBox的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab」中的UIResBox关闭按钮",
+      "suggestedTestId": "UIResBox.CloseBtn",
+      "suggestedSemanticId": "UIResBox.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ce1e4e66474f"
+    },
+    "DRAFT_b45e9066acf8": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab",
+      "prefabRoot": "UIResBox",
+      "path": "UIResBox/Root/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_res_box",
+      "displayName": "项",
+      "chineseDescription": "UIResBox的项",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab」中的UIResBox项",
+      "suggestedTestId": "UIResBox.Item",
+      "suggestedSemanticId": "UIResBox.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b45e9066acf8"
+    },
+    "DRAFT_16d2ec607460": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab",
+      "prefabRoot": "UIResBox",
+      "path": "UIResBox/Root/button/left",
+      "nodeName": "left",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_res_box",
+      "displayName": "left",
+      "chineseDescription": "UIResBox的left",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab」中的UIResBoxleft",
+      "suggestedTestId": "UIResBox.left",
+      "suggestedSemanticId": "UIResBox.left",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16d2ec607460"
+    },
+    "DRAFT_f91c93ad2236": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab",
+      "prefabRoot": "UIResBox",
+      "path": "UIResBox/Root/button/right",
+      "nodeName": "right",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_res_box",
+      "displayName": "right",
+      "chineseDescription": "UIResBox的right",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIResBox.prefab」中的UIResBoxright",
+      "suggestedTestId": "UIResBox.right",
+      "suggestedSemanticId": "UIResBox.right",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f91c93ad2236"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ce1e4e66474f",
+      "DRAFT_b45e9066acf8",
+      "DRAFT_16d2ec607460",
+      "DRAFT_f91c93ad2236"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

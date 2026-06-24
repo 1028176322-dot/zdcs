@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_team_list",
+  "displayName": "ui_throne_team_list",
+  "drafts": {
+    "DRAFT_b8e480313808": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab",
+      "prefabRoot": "UIThroneTeamList",
+      "path": "UIThroneTeamList/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_throne_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab」中的UIThroneTeamList关闭按钮",
+      "suggestedTestId": "UIThroneTeamList.CloseBtn",
+      "suggestedSemanticId": "UIThroneTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b8e480313808"
+    },
+    "DRAFT_be9af21880b1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab",
+      "prefabRoot": "UIThroneTeamList",
+      "path": "UIThroneTeamList/Root/Add/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_team_list",
+      "displayName": "BG",
+      "chineseDescription": "UIThroneTeamList的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab」中的UIThroneTeamListBG",
+      "suggestedTestId": "UIThroneTeamList.BG",
+      "suggestedSemanticId": "UIThroneTeamList.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_be9af21880b1"
+    },
+    "DRAFT_36f72e17952c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab",
+      "prefabRoot": "UIThroneTeamList",
+      "path": "UIThroneTeamList/Root/RankList/Item/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_red_xiao",
+      "clickable": true,
+      "pageId": "ui_throne_team_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneTeamList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab」中的UIThroneTeamList关闭按钮",
+      "suggestedTestId": "UIThroneTeamList.CloseBtn",
+      "suggestedSemanticId": "UIThroneTeamList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_36f72e17952c"
+    },
+    "DRAFT_d04288d12e45": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab",
+      "prefabRoot": "UIThroneTeamList",
+      "path": "UIThroneTeamList/Root/UITroopTip/Layout/Tips/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_tip_1",
+      "clickable": true,
+      "pageId": "ui_throne_team_list",
+      "displayName": "Tips",
+      "chineseDescription": "UIThroneTeamList的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab」中的UIThroneTeamListTips",
+      "suggestedTestId": "UIThroneTeamList.Tips",
+      "suggestedSemanticId": "UIThroneTeamList.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d04288d12e45"
+    },
+    "DRAFT_81a7a9fe627c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab",
+      "prefabRoot": "UIThroneTeamList",
+      "path": "UIThroneTeamList/Root/UITroopTip/Layout/TipsBG/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_team_list",
+      "displayName": "Mask",
+      "chineseDescription": "UIThroneTeamList的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTeamList.prefab」中的UIThroneTeamListMask",
+      "suggestedTestId": "UIThroneTeamList.Mask",
+      "suggestedSemanticId": "UIThroneTeamList.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_81a7a9fe627c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b8e480313808",
+      "DRAFT_be9af21880b1",
+      "DRAFT_36f72e17952c",
+      "DRAFT_d04288d12e45",
+      "DRAFT_81a7a9fe627c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

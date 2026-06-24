@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_203451_946898",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T20:34:52",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6771590,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

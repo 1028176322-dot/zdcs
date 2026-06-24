@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_war_npc_damage_rank",
+  "displayName": "ui_alliance_war_npc_damage_rank",
+  "drafts": {
+    "DRAFT_e24740ed18c9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab",
+      "prefabRoot": "UIAllianceWarNpcDamageRank",
+      "path": "UIAllianceWarNpcDamageRank/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_war_npc_damage_rank",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceWarNpcDamageRank的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab」中的UIAllianceWarNpcDamageRank关闭按钮",
+      "suggestedTestId": "UIAllianceWarNpcDamageRank.CloseBtn",
+      "suggestedSemanticId": "UIAllianceWarNpcDamageRank.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e24740ed18c9"
+    },
+    "DRAFT_f610fa7d951e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab",
+      "prefabRoot": "UIAllianceWarNpcDamageRank",
+      "path": "UIAllianceWarNpcDamageRank/Root/RankList/Viewport/Content/items/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_war_npc_damage_rank",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceWarNpcDamageRank的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab」中的UIAllianceWarNpcDamageRankHeadk1",
+      "suggestedTestId": "UIAllianceWarNpcDamageRank.Head_k1",
+      "suggestedSemanticId": "UIAllianceWarNpcDamageRank.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f610fa7d951e"
+    },
+    "DRAFT_6c35bc12e504": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab",
+      "prefabRoot": "UIAllianceWarNpcDamageRank",
+      "path": "UIAllianceWarNpcDamageRank/Root/Button/BtnGroup/Assemble",
+      "nodeName": "Assemble",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_war_npc_damage_rank",
+      "displayName": "Assemble",
+      "chineseDescription": "UIAllianceWarNpcDamageRank的Assemble",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab」中的UIAllianceWarNpcDamageRankAssemble",
+      "suggestedTestId": "UIAllianceWarNpcDamageRank.Assemble",
+      "suggestedSemanticId": "UIAllianceWarNpcDamageRank.Assemble",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6c35bc12e504"
+    },
+    "DRAFT_4d679c8ef37e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab",
+      "prefabRoot": "UIAllianceWarNpcDamageRank",
+      "path": "UIAllianceWarNpcDamageRank/Root/Button/BtnGroup/Attack",
+      "nodeName": "Attack",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_alliance_war_npc_damage_rank",
+      "displayName": "Attack",
+      "chineseDescription": "UIAllianceWarNpcDamageRank的Attack",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarNpcDamageRank.prefab」中的UIAllianceWarNpcDamageRankAttack",
+      "suggestedTestId": "UIAllianceWarNpcDamageRank.Attack",
+      "suggestedSemanticId": "UIAllianceWarNpcDamageRank.Attack",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4d679c8ef37e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e24740ed18c9",
+      "DRAFT_f610fa7d951e",
+      "DRAFT_6c35bc12e504",
+      "DRAFT_4d679c8ef37e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

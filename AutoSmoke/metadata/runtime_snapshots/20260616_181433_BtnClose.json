@@ -1,0 +1,13 @@
+{
+  "sceneId": "DemoLogo",
+  "pageId": "BtnClose",
+  "capturedAt": "2026-06-16T18:14:33",
+  "nodeCount": 685,
+  "clickableCount": 11,
+  "componentClickableCount": 11,
+  "interactiveIconCount": 109,
+  "interactiveCellCount": 79,
+  "blankCloseAreaCount": 13,
+  "dragAreaCount": 6,
+  "effectiveClickableCount": 218
+}

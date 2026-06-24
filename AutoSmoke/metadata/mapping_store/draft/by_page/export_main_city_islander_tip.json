@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_islander_tip",
+  "displayName": "export_main_city_islander_tip",
+  "drafts": {
+    "DRAFT_9a32ba7826ca": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderTip",
+      "path": "EXPORT_MainCityIslanderTip/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_main_city_islander_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_MainCityIslanderTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab」中的EXPORT_MainCityIslanderTip关闭按钮",
+      "suggestedTestId": "EXPORT_MainCityIslanderTip.CloseBtn",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9a32ba7826ca"
+    },
+    "DRAFT_557953a8d40e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderTip",
+      "path": "EXPORT_MainCityIslanderTip/Root/sp_bg/Continue",
+      "nodeName": "Continue",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "export_main_city_islander_tip",
+      "displayName": "Continue",
+      "chineseDescription": "EXPORT_MainCityIslanderTip的Continue",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab」中的EXPORT_MainCityIslanderTipContinue",
+      "suggestedTestId": "EXPORT_MainCityIslanderTip.Continue",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderTip.Continue",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_557953a8d40e"
+    },
+    "DRAFT_ef66264f4158": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab",
+      "prefabRoot": "EXPORT_MainCityIslanderTip",
+      "path": "EXPORT_MainCityIslanderTip/Root/sp_bg/Cancel",
+      "nodeName": "Cancel",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_zhong",
+      "clickable": true,
+      "pageId": "export_main_city_islander_tip",
+      "displayName": "取消",
+      "chineseDescription": "EXPORT_MainCityIslanderTip的取消",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityIslanderTip.prefab」中的EXPORT_MainCityIslanderTip取消",
+      "suggestedTestId": "EXPORT_MainCityIslanderTip.Cancel",
+      "suggestedSemanticId": "EXPORT_MainCityIslanderTip.取消",
+      "role": "cancel_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ef66264f4158"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_9a32ba7826ca",
+      "DRAFT_557953a8d40e",
+      "DRAFT_ef66264f4158"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

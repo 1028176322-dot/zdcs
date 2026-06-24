@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_easter_shake_banner",
+  "displayName": "ui_activity_easter_shake_banner",
+  "drafts": {
+    "DRAFT_5fb3bb084eb7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEasterShakeBanner.prefab",
+      "prefabRoot": "UIActivityEasterShakeBanner",
+      "path": "UIActivityEasterShakeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_easter_shake_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityEasterShakeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityEasterShakeBanner.prefab」中的UIActivityEasterShakeBannerInfo",
+      "suggestedTestId": "UIActivityEasterShakeBanner.Info",
+      "suggestedSemanticId": "UIActivityEasterShakeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5fb3bb084eb7"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5fb3bb084eb7"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

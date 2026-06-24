@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260618_135527_127175",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-18T13:55:27",
+  "payload": {
+    "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -13434252,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

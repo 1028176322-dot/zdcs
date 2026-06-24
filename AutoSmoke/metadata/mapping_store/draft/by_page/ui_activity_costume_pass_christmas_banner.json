@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_christmas_banner",
+  "displayName": "ui_activity_costume_pass_christmas_banner",
+  "drafts": {
+    "DRAFT_cdb47ce5d238": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBannerInfo",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.Info",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cdb47ce5d238"
+    },
+    "DRAFT_bfb1dd128a5a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/UseItem/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBannerNum",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.Num",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bfb1dd128a5a"
+    },
+    "DRAFT_1815f8251fdb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/UseItem/Num/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_plus_green",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBannerAdd",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.Add",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1815f8251fdb"
+    },
+    "DRAFT_f40b28ff5b4c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/UseItem/ItemBtn",
+      "nodeName": "ItemBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "项按钮",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的项按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBanner项按钮",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.ItemBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.项按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f40b28ff5b4c"
+    },
+    "DRAFT_832711b4b780": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/BuyGift/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBanner购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_832711b4b780"
+    },
+    "DRAFT_68e47ced172f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ChristmasBanner",
+      "path": "UIActivityCostumePass_ChristmasBanner/BuyGift/CityIcon",
+      "nodeName": "CityIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_RedBG",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_christmas_banner",
+      "displayName": "City图标",
+      "chineseDescription": "UIActivityCostumePass_ChristmasBanner的City图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ChristmasBanner.prefab」中的UIActivityCostumePass_ChristmasBannerCity图标",
+      "suggestedTestId": "UIActivityCostumePass_ChristmasBanner.CityIcon",
+      "suggestedSemanticId": "UIActivityCostumePass_ChristmasBanner.City图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_68e47ced172f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_cdb47ce5d238",
+      "DRAFT_bfb1dd128a5a",
+      "DRAFT_1815f8251fdb",
+      "DRAFT_f40b28ff5b4c",
+      "DRAFT_832711b4b780",
+      "DRAFT_68e47ced172f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

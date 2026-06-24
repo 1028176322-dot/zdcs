@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_cross_wounded",
+  "displayName": "ui_cross_wounded",
+  "drafts": {
+    "DRAFT_c730d9370375": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Kingdom/UICrossWounded.prefab",
+      "prefabRoot": "UICrossWounded",
+      "path": "UICrossWounded/Root/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_cross_wounded",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UICrossWounded的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Kingdom/UICrossWounded.prefab」中的UICrossWounded关闭按钮",
+      "suggestedTestId": "UICrossWounded.CloseBtn",
+      "suggestedSemanticId": "UICrossWounded.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c730d9370375"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c730d9370375"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

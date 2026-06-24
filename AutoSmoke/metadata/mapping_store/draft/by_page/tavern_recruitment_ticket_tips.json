@@ -1,0 +1,68 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tavern_recruitment_ticket_tips",
+  "displayName": "tavern_recruitment_ticket_tips",
+  "drafts": {
+    "DRAFT_bf6b7aa9b689": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/HeroRecruit/TavernRecruitmentTicketTips.prefab",
+      "prefabRoot": "TavernRecruitmentTicketTips",
+      "path": "TavernRecruitmentTicketTips/Root/Win/Content/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_city_button1",
+      "clickable": true,
+      "pageId": "tavern_recruitment_ticket_tips",
+      "displayName": "按钮",
+      "chineseDescription": "TavernRecruitmentTicketTips的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/HeroRecruit/TavernRecruitmentTicketTips.prefab」中的TavernRecruitmentTicketTips按钮",
+      "suggestedTestId": "TavernRecruitmentTicketTips.Button",
+      "suggestedSemanticId": "TavernRecruitmentTicketTips.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bf6b7aa9b689"
+    },
+    "DRAFT_e3e2bd6e02c1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/HeroRecruit/Export_TavernRecruitmentTicketTips.prefab",
+      "prefabRoot": "Export_TavernRecruitmentTicketTips",
+      "path": "Export_TavernRecruitmentTicketTips/Root/Win/Content/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "UI_city_button1",
+      "clickable": true,
+      "pageId": "tavern_recruitment_ticket_tips",
+      "displayName": "按钮",
+      "chineseDescription": "Export_TavernRecruitmentTicketTips的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/HeroRecruit/Export_TavernRecruitmentTicketTips.prefab」中的Export_TavernRecruitmentTicketTips按钮",
+      "suggestedTestId": "Export_TavernRecruitmentTicketTips.Button",
+      "suggestedSemanticId": "Export_TavernRecruitmentTicketTips.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e3e2bd6e02c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bf6b7aa9b689",
+      "DRAFT_e3e2bd6e02c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

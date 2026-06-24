@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_win_or_lose_result",
+  "displayName": "ui_win_or_lose_result",
+  "drafts": {
+    "DRAFT_5021c95e8d75": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab",
+      "prefabRoot": "UIWinOrLoseResult",
+      "path": "UIWinOrLoseResult/Root/Group_cont/Content_way/build",
+      "nodeName": "build",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_win_or_lose_result",
+      "displayName": "build",
+      "chineseDescription": "UIWinOrLoseResult的build",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab」中的UIWinOrLoseResultbuild",
+      "suggestedTestId": "UIWinOrLoseResult.build",
+      "suggestedSemanticId": "UIWinOrLoseResult.build",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5021c95e8d75"
+    },
+    "DRAFT_fa6fc7a6c92f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab",
+      "prefabRoot": "UIWinOrLoseResult",
+      "path": "UIWinOrLoseResult/Root/Group_cont/Content_way/Card",
+      "nodeName": "Card",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_win_or_lose_result",
+      "displayName": "Card",
+      "chineseDescription": "UIWinOrLoseResult的Card",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab」中的UIWinOrLoseResultCard",
+      "suggestedTestId": "UIWinOrLoseResult.Card",
+      "suggestedSemanticId": "UIWinOrLoseResult.Card",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fa6fc7a6c92f"
+    },
+    "DRAFT_61e2dd5070c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab",
+      "prefabRoot": "UIWinOrLoseResult",
+      "path": "UIWinOrLoseResult/Root/Group_cont/Content_way/Hero_up",
+      "nodeName": "Hero_up",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_win_or_lose_result",
+      "displayName": "Heroup",
+      "chineseDescription": "UIWinOrLoseResult的Heroup",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab」中的UIWinOrLoseResultHeroup",
+      "suggestedTestId": "UIWinOrLoseResult.Hero_up",
+      "suggestedSemanticId": "UIWinOrLoseResult.Heroup",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_61e2dd5070c1"
+    },
+    "DRAFT_afe115f11ba2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab",
+      "prefabRoot": "UIWinOrLoseResult",
+      "path": "UIWinOrLoseResult/Root/ConfirmBtn",
+      "nodeName": "ConfirmBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_win_or_lose_result",
+      "displayName": "确认按钮",
+      "chineseDescription": "UIWinOrLoseResult的确认按钮，用于确认操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/UIWinOrLoseResult.prefab」中的UIWinOrLoseResult确认按钮",
+      "suggestedTestId": "UIWinOrLoseResult.ConfirmBtn",
+      "suggestedSemanticId": "UIWinOrLoseResult.确认按钮",
+      "role": "confirm_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_afe115f11ba2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5021c95e8d75",
+      "DRAFT_fa6fc7a6c92f",
+      "DRAFT_61e2dd5070c1",
+      "DRAFT_afe115f11ba2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

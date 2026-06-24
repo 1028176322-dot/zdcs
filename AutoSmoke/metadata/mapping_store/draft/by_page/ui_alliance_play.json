@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_play",
+  "displayName": "ui_alliance_play",
+  "drafts": {
+    "DRAFT_a109835e93c4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab",
+      "prefabRoot": "UIAlliancePlay",
+      "path": "UIAlliancePlay/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_play",
+      "displayName": "BG",
+      "chineseDescription": "UIAlliancePlay的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab」中的UIAlliancePlayBG",
+      "suggestedTestId": "UIAlliancePlay.BG",
+      "suggestedSemanticId": "UIAlliancePlay.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a109835e93c4"
+    },
+    "DRAFT_4be98a3068aa": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab",
+      "prefabRoot": "UIAlliancePlay",
+      "path": "UIAlliancePlay/Root/ScrollView/Viewport/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_alliance_play",
+      "displayName": "项1",
+      "chineseDescription": "UIAlliancePlay的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab」中的UIAlliancePlay项1",
+      "suggestedTestId": "UIAlliancePlay.Item1",
+      "suggestedSemanticId": "UIAlliancePlay.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4be98a3068aa"
+    },
+    "DRAFT_ccefed6e9f5d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab",
+      "prefabRoot": "UIAlliancePlay",
+      "path": "UIAlliancePlay/Root/ScrollView/Viewport/Content/Item1/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_alliance_play",
+      "displayName": "Info",
+      "chineseDescription": "UIAlliancePlay的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab」中的UIAlliancePlayInfo",
+      "suggestedTestId": "UIAlliancePlay.Info",
+      "suggestedSemanticId": "UIAlliancePlay.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ccefed6e9f5d"
+    },
+    "DRAFT_fdf64e69aa0a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab",
+      "prefabRoot": "UIAlliancePlay",
+      "path": "UIAlliancePlay/Root/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_alliance_play",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIAlliancePlay的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePlay.prefab」中的UIAlliancePlay按钮关闭",
+      "suggestedTestId": "UIAlliancePlay.BtnClose",
+      "suggestedSemanticId": "UIAlliancePlay.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fdf64e69aa0a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a109835e93c4",
+      "DRAFT_4be98a3068aa",
+      "DRAFT_ccefed6e9f5d",
+      "DRAFT_fdf64e69aa0a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

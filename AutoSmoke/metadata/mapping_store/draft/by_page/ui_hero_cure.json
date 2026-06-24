@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_cure",
+  "displayName": "ui_hero_cure",
+  "drafts": {
+    "DRAFT_7565d1ad5a04": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab",
+      "prefabRoot": "UIHeroCure",
+      "path": "UIHeroCure/Root/Title1/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_hero_cure",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIHeroCure的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab」中的UIHeroCure关闭按钮",
+      "suggestedTestId": "UIHeroCure.CloseBtn",
+      "suggestedSemanticId": "UIHeroCure.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7565d1ad5a04"
+    },
+    "DRAFT_2e5b254c792e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab",
+      "prefabRoot": "UIHeroCure",
+      "path": "UIHeroCure/Root/ButtonGroup/AdsBtn",
+      "nodeName": "AdsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_hero_cure",
+      "displayName": "Ads按钮",
+      "chineseDescription": "UIHeroCure的Ads按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab」中的UIHeroCureAds按钮",
+      "suggestedTestId": "UIHeroCure.AdsBtn",
+      "suggestedSemanticId": "UIHeroCure.Ads按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2e5b254c792e"
+    },
+    "DRAFT_6e2d0d73d53a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab",
+      "prefabRoot": "UIHeroCure",
+      "path": "UIHeroCure/Root/ButtonGroup/TimingBtn",
+      "nodeName": "TimingBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_hero_cure",
+      "displayName": "Timing按钮",
+      "chineseDescription": "UIHeroCure的Timing按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab」中的UIHeroCureTiming按钮",
+      "suggestedTestId": "UIHeroCure.TimingBtn",
+      "suggestedSemanticId": "UIHeroCure.Timing按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6e2d0d73d53a"
+    },
+    "DRAFT_f74850c1a051": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab",
+      "prefabRoot": "UIHeroCure",
+      "path": "UIHeroCure/Root/ButtonGroup/DiamondsBtn",
+      "nodeName": "DiamondsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_cure",
+      "displayName": "Diamonds按钮",
+      "chineseDescription": "UIHeroCure的Diamonds按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroCure.prefab」中的UIHeroCureDiamonds按钮",
+      "suggestedTestId": "UIHeroCure.DiamondsBtn",
+      "suggestedSemanticId": "UIHeroCure.Diamonds按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f74850c1a051"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7565d1ad5a04",
+      "DRAFT_2e5b254c792e",
+      "DRAFT_6e2d0d73d53a",
+      "DRAFT_f74850c1a051"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

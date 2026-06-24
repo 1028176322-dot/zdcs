@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "explain_pop_up",
+  "displayName": "explain_pop_up",
+  "drafts": {
+    "DRAFT_fdb78fbcb46e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Radar/ExplainPopUp.prefab",
+      "prefabRoot": "ExplainPopUp",
+      "path": "ExplainPopUp/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "explain_pop_up",
+      "displayName": "关闭按钮",
+      "chineseDescription": "ExplainPopUp的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Radar/ExplainPopUp.prefab」中的ExplainPopUp关闭按钮",
+      "suggestedTestId": "ExplainPopUp.CloseBtn",
+      "suggestedSemanticId": "ExplainPopUp.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fdb78fbcb46e"
+    },
+    "DRAFT_fc1b8540eb13": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Radar/ExplainPopUp.prefab",
+      "prefabRoot": "ExplainPopUp",
+      "path": "ExplainPopUp/Root/Scroll/View/Content/BtnEvent",
+      "nodeName": "BtnEvent",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "explain_pop_up",
+      "displayName": "按钮Event",
+      "chineseDescription": "ExplainPopUp的按钮Event，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Radar/ExplainPopUp.prefab」中的ExplainPopUp按钮Event",
+      "suggestedTestId": "ExplainPopUp.BtnEvent",
+      "suggestedSemanticId": "ExplainPopUp.按钮Event",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_fc1b8540eb13"
+    },
+    "DRAFT_46e330e8550e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_ExplainPopUp.prefab",
+      "prefabRoot": "EXPORT_ExplainPopUp",
+      "path": "EXPORT_ExplainPopUp/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "explain_pop_up",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_ExplainPopUp的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_ExplainPopUp.prefab」中的EXPORT_ExplainPopUp关闭按钮",
+      "suggestedTestId": "EXPORT_ExplainPopUp.CloseBtn",
+      "suggestedSemanticId": "EXPORT_ExplainPopUp.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_46e330e8550e"
+    },
+    "DRAFT_64c18300ca2e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_ExplainPopUp.prefab",
+      "prefabRoot": "EXPORT_ExplainPopUp",
+      "path": "EXPORT_ExplainPopUp/Root/Scroll/View/Content/BtnEvent",
+      "nodeName": "BtnEvent",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "explain_pop_up",
+      "displayName": "按钮Event",
+      "chineseDescription": "EXPORT_ExplainPopUp的按钮Event，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_ExplainPopUp.prefab」中的EXPORT_ExplainPopUp按钮Event",
+      "suggestedTestId": "EXPORT_ExplainPopUp.BtnEvent",
+      "suggestedSemanticId": "EXPORT_ExplainPopUp.按钮Event",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_64c18300ca2e"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_fdb78fbcb46e",
+      "DRAFT_fc1b8540eb13",
+      "DRAFT_46e330e8550e",
+      "DRAFT_64c18300ca2e"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

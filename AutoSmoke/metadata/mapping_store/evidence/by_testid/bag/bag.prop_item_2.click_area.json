@@ -1,0 +1,69 @@
+{
+  "testId": "bag.prop_item_2.click_area",
+  "semanticId": "bag.prop_item_2.click_area",
+  "targetName": "背包第2个道具点击区",
+  "structure": {
+    "path": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+    "pageId": "bag",
+    "elementType": "item_cell"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+    "screenRect": [
+      313,
+      292,
+      573,
+      552
+    ],
+    "matchScore": "",
+    "confirmedTestId": "bag.prop_item_2.click_area",
+    "formalRef": "formal://bag/bag.prop_item_2.click_area",
+    "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.baf6e9.png",
+    "screenRectUsed": [
+      313,
+      292,
+      573,
+      552
+    ],
+    "confirmedTestId": "bag.prop_item_2.click_area",
+    "formalRef": "formal://bag/bag.prop_item_2.click_area",
+    "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13433512,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
+      "screenPoint": [
+        442,
+        2110
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.prop_item_2.click_area",
+    "formalRef": "formal://bag/bag.prop_item_2.click_area",
+    "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+  },
+  "displayName": "背包-第2个道具点击区",
+  "pageId": "bag",
+  "role": "item_click",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

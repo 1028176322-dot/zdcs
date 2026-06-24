@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "uigvg_apply_succeed",
+  "displayName": "uigvg_apply_succeed",
+  "drafts": {
+    "DRAFT_5b7a6c977ee2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIGVGApplySucceed.prefab",
+      "prefabRoot": "UIGVGApplySucceed",
+      "path": "UIGVGApplySucceed/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_HeroUpStar_Bg_1",
+      "clickable": true,
+      "pageId": "uigvg_apply_succeed",
+      "displayName": "Touch",
+      "chineseDescription": "UIGVGApplySucceed的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIGVGApplySucceed.prefab」中的UIGVGApplySucceedTouch",
+      "suggestedTestId": "UIGVGApplySucceed.Touch",
+      "suggestedSemanticId": "UIGVGApplySucceed.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5b7a6c977ee2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5b7a6c977ee2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

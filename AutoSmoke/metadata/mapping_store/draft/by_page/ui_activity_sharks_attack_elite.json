@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_sharks_attack_elite",
+  "displayName": "ui_activity_sharks_attack_elite",
+  "drafts": {
+    "DRAFT_218b526b83f5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackElite.prefab",
+      "prefabRoot": "UIActivitySharksAttackElite",
+      "path": "UIActivitySharksAttackElite/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_elite",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivitySharksAttackElite的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackElite.prefab」中的UIActivitySharksAttackElite关闭按钮",
+      "suggestedTestId": "UIActivitySharksAttackElite.CloseBtn",
+      "suggestedSemanticId": "UIActivitySharksAttackElite.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_218b526b83f5"
+    },
+    "DRAFT_af86cfdee4f5": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackElite.prefab",
+      "prefabRoot": "UIActivitySharksAttackElite",
+      "path": "UIActivitySharksAttackElite/Root/BG/BtnChange",
+      "nodeName": "BtnChange",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_activity_bg_2",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_elite",
+      "displayName": "按钮Change",
+      "chineseDescription": "UIActivitySharksAttackElite的按钮Change，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Activity/UIActivitySharksAttackElite.prefab」中的UIActivitySharksAttackElite按钮Change",
+      "suggestedTestId": "UIActivitySharksAttackElite.BtnChange",
+      "suggestedSemanticId": "UIActivitySharksAttackElite.按钮Change",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af86cfdee4f5"
+    },
+    "DRAFT_af04376c1bca": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackElite.prefab",
+      "prefabRoot": "EXPORT_UIActivitySharksAttackElite",
+      "path": "EXPORT_UIActivitySharksAttackElite/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_elite",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivitySharksAttackElite的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackElite.prefab」中的EXPORT_UIActivitySharksAttackElite关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivitySharksAttackElite.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivitySharksAttackElite.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_af04376c1bca"
+    },
+    "DRAFT_923ee1fe5abb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackElite.prefab",
+      "prefabRoot": "EXPORT_UIActivitySharksAttackElite",
+      "path": "EXPORT_UIActivitySharksAttackElite/Root/BG/BtnChange",
+      "nodeName": "BtnChange",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "ui_activity_bg_2",
+      "clickable": true,
+      "pageId": "ui_activity_sharks_attack_elite",
+      "displayName": "按钮Change",
+      "chineseDescription": "EXPORT_UIActivitySharksAttackElite的按钮Change，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivitySharksAttackElite.prefab」中的EXPORT_UIActivitySharksAttackElite按钮Change",
+      "suggestedTestId": "EXPORT_UIActivitySharksAttackElite.BtnChange",
+      "suggestedSemanticId": "EXPORT_UIActivitySharksAttackElite.按钮Change",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_923ee1fe5abb"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_218b526b83f5",
+      "DRAFT_af86cfdee4f5",
+      "DRAFT_af04376c1bca",
+      "DRAFT_923ee1fe5abb"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

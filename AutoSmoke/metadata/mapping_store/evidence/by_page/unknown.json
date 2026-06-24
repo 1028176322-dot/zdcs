@@ -1,0 +1,15 @@
+{
+  "schema_version": "mapping_evidence.page.v1",
+  "pageId": "unknown",
+  "items": {
+    "EVIDENCE_ui.playermain_clone_playermain_playermain_visual_check.action.c069ec": "mapping_store/evidence/by_testid/unknown/ui.playermain_clone_playermain_playermain_visual_check.action.c069ec.json",
+    "EVIDENCE_ui.playermain_clone_playermain_playermain_visual_check.action.8c46cc": "mapping_store/evidence/by_testid/unknown/ui.playermain_clone_playermain_playermain_visual_check.action.8c46cc.json"
+  },
+  "updated_at": "2026-06-24T10:44:02",
+  "displayName": "未知界面",
+  "evidence": {
+    "EVIDENCE_ui.playermain_clone_playermain_playermain_visual_check.action.c069ec": "mapping_store/evidence/by_testid/unknown/ui.playermain_clone_playermain_playermain_visual_check.action.c069ec.json",
+    "EVIDENCE_ui.playermain_clone_playermain_playermain_visual_check.action.8c46cc": "mapping_store/evidence/by_testid/unknown/ui.playermain_clone_playermain_playermain_visual_check.action.8c46cc.json"
+  },
+  "count": 2
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><title>AutoSmoke 测试报告</title>
+<style>
+body { font-family: 'Microsoft YaHei', sans-serif; background: #f5f6fa; padding: 20px; color: #333; }
+h1 { color: #1a1a2e; }
+.summary { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+.summary .stat { display: inline-block; margin-right: 24px; }
+.stat .num { font-size: 24px; font-weight: bold; }
+.stat .num.green { color: #27ae60; }
+.stat .num.red { color: #e74c3c; }
+.case-card { background: #fff; border-radius: 8px; padding: 12px 16px; margin-bottom: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.case-card h3 { margin: 0 0 8px 0; font-size: 15px; }
+.case-card .pass { color: #27ae60; }
+.case-card .fail { color: #e74c3c; }
+.case-card .meta { font-size: 12px; color: #999; margin-left: 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+td, th { padding: 4px 8px; text-align: left; border-bottom: 1px solid #eee; }
+.footer { text-align: center; color: #999; font-size: 12px; margin-top: 24px; }
+</style></head>
+<body>
+<h1>📊 AutoSmoke 测试报告</h1>
+<div class="summary">
+    <div class="stat">批次: <strong>test_batch</strong></div>
+    <div class="stat">用例: <span class="num green">3</span> / 3</div>
+    <div class="stat">步骤: <span class="num green">6</span> / 6 
+         <span class="num red">0</span> 失败</div>
+    <div class="stat">时间: 2026-06-12T18:31:44</div>
+</div>
+
+            <div class="case-card">
+                <h3>✅ TC001 
+                    <span class="pass">PASS</span>
+                    <span class="meta">2/2 步通过</span>
+                </h3>
+                <table><tr><th></th><th>步骤</th><th>结果</th></tr><tr><td>✅</td><td>等待 0.5 秒</td><td>PASS</td></tr>
+<tr><td>✅</td><td>截图</td><td>PASS</td></tr>
+</table>
+            </div>
+            
+            <div class="case-card">
+                <h3>✅ TC002 
+                    <span class="pass">PASS</span>
+                    <span class="meta">2/2 步通过</span>
+                </h3>
+                <table><tr><th></th><th>步骤</th><th>结果</th></tr><tr><td>✅</td><td>等待 0.5 秒</td><td>PASS</td></tr>
+<tr><td>✅</td><td>断言存在 normalized(0.5,0.5)</td><td>PASS</td></tr>
+</table>
+            </div>
+            
+            <div class="case-card">
+                <h3>✅ TC003 
+                    <span class="pass">PASS</span>
+                    <span class="meta">2/2 步通过</span>
+                </h3>
+                <table><tr><th></th><th>步骤</th><th>结果</th></tr><tr><td>✅</td><td>截图</td><td>PASS</td></tr>
+<tr><td>✅</td><td>返回</td><td>PASS</td></tr>
+</table>
+            </div>
+            
+<div class="footer">AutoSmoke Test Report · 2026-06-12T18:31:44</div>
+</body></html>

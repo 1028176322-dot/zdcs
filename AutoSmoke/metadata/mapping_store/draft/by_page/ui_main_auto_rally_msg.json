@@ -1,0 +1,146 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_main_auto_rally_msg",
+  "displayName": "ui_main_auto_rally_msg",
+  "drafts": {
+    "DRAFT_3aa19b7318bd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab",
+      "prefabRoot": "UIMainAutoRallyMsg",
+      "path": "UIMainAutoRallyMsg/Root/ChatButton/Msg/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animation"
+      ],
+      "spriteName": "UI_Img_Main_TalkBg",
+      "clickable": true,
+      "pageId": "ui_main_auto_rally_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainAutoRallyMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab」中的UIMainAutoRallyMsgBg",
+      "suggestedTestId": "UIMainAutoRallyMsg.Bg",
+      "suggestedSemanticId": "UIMainAutoRallyMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3aa19b7318bd"
+    },
+    "DRAFT_79c0367eeaf8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab",
+      "prefabRoot": "UIMainAutoRallyMsg",
+      "path": "UIMainAutoRallyMsg/Root/ChatButton/Msg/Bg/CheckBtn",
+      "nodeName": "CheckBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_player_check_green",
+      "clickable": true,
+      "pageId": "ui_main_auto_rally_msg",
+      "displayName": "Check按钮",
+      "chineseDescription": "UIMainAutoRallyMsg的Check按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab」中的UIMainAutoRallyMsgCheck按钮",
+      "suggestedTestId": "UIMainAutoRallyMsg.CheckBtn",
+      "suggestedSemanticId": "UIMainAutoRallyMsg.Check按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_79c0367eeaf8"
+    },
+    "DRAFT_cf65bba7e2bb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab",
+      "prefabRoot": "UIMainAutoRallyMsg",
+      "path": "UIMainAutoRallyMsg/Root/ChatButton/Msg/Bg/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_main_auto_rally_msg",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIMainAutoRallyMsg的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab」中的UIMainAutoRallyMsg关闭按钮",
+      "suggestedTestId": "UIMainAutoRallyMsg.CloseBtn",
+      "suggestedSemanticId": "UIMainAutoRallyMsg.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cf65bba7e2bb"
+    },
+    "DRAFT_1e78f0b88f5c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab",
+      "prefabRoot": "UIMainAutoRallyMsg",
+      "path": "UIMainAutoRallyMsg/Root/ChatButton/Head/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_auto_rally_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainAutoRallyMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab」中的UIMainAutoRallyMsgBg",
+      "suggestedTestId": "UIMainAutoRallyMsg.Bg",
+      "suggestedSemanticId": "UIMainAutoRallyMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e78f0b88f5c"
+    },
+    "DRAFT_dfec069b5093": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab",
+      "prefabRoot": "UIMainAutoRallyMsg",
+      "path": "UIMainAutoRallyMsg/Root/ChatButton/Head/Bg/Mask/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_auto_rally_msg",
+      "displayName": "Headk1",
+      "chineseDescription": "UIMainAutoRallyMsg的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAutoRallyMsg.prefab」中的UIMainAutoRallyMsgHeadk1",
+      "suggestedTestId": "UIMainAutoRallyMsg.Head_k1",
+      "suggestedSemanticId": "UIMainAutoRallyMsg.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dfec069b5093"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_3aa19b7318bd",
+      "DRAFT_79c0367eeaf8",
+      "DRAFT_cf65bba7e2bb",
+      "DRAFT_1e78f0b88f5c",
+      "DRAFT_dfec069b5093"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

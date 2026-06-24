@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_continuous_recharge_banner",
+  "displayName": "ui_activity_continuous_recharge_banner",
+  "drafts": {
+    "DRAFT_7ca626ad039c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityContinuousRechargeBanner.prefab",
+      "prefabRoot": "UIActivityContinuousRechargeBanner",
+      "path": "UIActivityContinuousRechargeBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_continuous_recharge_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityContinuousRechargeBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityContinuousRechargeBanner.prefab」中的UIActivityContinuousRechargeBannerInfo",
+      "suggestedTestId": "UIActivityContinuousRechargeBanner.Info",
+      "suggestedSemanticId": "UIActivityContinuousRechargeBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7ca626ad039c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7ca626ad039c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

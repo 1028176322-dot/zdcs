@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "marine_exploration_report",
+  "displayName": "marine_exploration_report",
+  "drafts": {
+    "DRAFT_df6179303947": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab",
+      "prefabRoot": "MarineExplorationReport",
+      "path": "MarineExplorationReport/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "Mask",
+      "chineseDescription": "MarineExplorationReport的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab」中的MarineExplorationReportMask",
+      "suggestedTestId": "MarineExplorationReport.Mask",
+      "suggestedSemanticId": "MarineExplorationReport.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_df6179303947"
+    },
+    "DRAFT_3a2c3467be69": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab",
+      "prefabRoot": "MarineExplorationReport",
+      "path": "MarineExplorationReport/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "关闭按钮",
+      "chineseDescription": "MarineExplorationReport的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab」中的MarineExplorationReport关闭按钮",
+      "suggestedTestId": "MarineExplorationReport.CloseBtn",
+      "suggestedSemanticId": "MarineExplorationReport.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3a2c3467be69"
+    },
+    "DRAFT_0799503c9d67": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab",
+      "prefabRoot": "MarineExplorationReport",
+      "path": "MarineExplorationReport/Root/Bg/Scroll/View/Content/Item1/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "Headk1",
+      "chineseDescription": "MarineExplorationReport的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/SeaExploration/MarineExplorationReport.prefab」中的MarineExplorationReportHeadk1",
+      "suggestedTestId": "MarineExplorationReport.Head_k1",
+      "suggestedSemanticId": "MarineExplorationReport.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0799503c9d67"
+    },
+    "DRAFT_030e534d8ddd": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab",
+      "prefabRoot": "Export_MarineExplorationReport",
+      "path": "Export_MarineExplorationReport/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "common_mask",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "Mask",
+      "chineseDescription": "Export_MarineExplorationReport的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab」中的Export_MarineExplorationReportMask",
+      "suggestedTestId": "Export_MarineExplorationReport.Mask",
+      "suggestedSemanticId": "Export_MarineExplorationReport.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_030e534d8ddd"
+    },
+    "DRAFT_ac7f2b9b9441": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab",
+      "prefabRoot": "Export_MarineExplorationReport",
+      "path": "Export_MarineExplorationReport/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Export_MarineExplorationReport的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab」中的Export_MarineExplorationReport关闭按钮",
+      "suggestedTestId": "Export_MarineExplorationReport.CloseBtn",
+      "suggestedSemanticId": "Export_MarineExplorationReport.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ac7f2b9b9441"
+    },
+    "DRAFT_8201a430d5c1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab",
+      "prefabRoot": "Export_MarineExplorationReport",
+      "path": "Export_MarineExplorationReport/Root/Bg/Scroll/View/Content/Item1/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "marine_exploration_report",
+      "displayName": "Headk1",
+      "chineseDescription": "Export_MarineExplorationReport的Headk1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MarineExploration/Export_MarineExplorationReport.prefab」中的Export_MarineExplorationReportHeadk1",
+      "suggestedTestId": "Export_MarineExplorationReport.Head_k1",
+      "suggestedSemanticId": "Export_MarineExplorationReport.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8201a430d5c1"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_df6179303947",
+      "DRAFT_3a2c3467be69",
+      "DRAFT_0799503c9d67",
+      "DRAFT_030e534d8ddd",
+      "DRAFT_ac7f2b9b9441",
+      "DRAFT_8201a430d5c1"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "march_queue",
+  "displayName": "march_queue",
+  "drafts": {
+    "DRAFT_24a22f51d1d6": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab",
+      "prefabRoot": "MarchQueue",
+      "path": "MarchQueue/BG/Award/Scroll/View/Content/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "march_queue",
+      "displayName": "ClickContent",
+      "chineseDescription": "MarchQueue的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab」中的MarchQueueClickContent",
+      "suggestedTestId": "MarchQueue.ClickContent",
+      "suggestedSemanticId": "MarchQueue.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_24a22f51d1d6"
+    },
+    "DRAFT_77dc44bb1784": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab",
+      "prefabRoot": "MarchQueue",
+      "path": "MarchQueue/BG/BtnBuy",
+      "nodeName": "BtnBuy",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "ui_btn",
+      "clickable": true,
+      "pageId": "march_queue",
+      "displayName": "按钮购买",
+      "chineseDescription": "MarchQueue的按钮购买，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab」中的MarchQueue按钮购买",
+      "suggestedTestId": "MarchQueue.BtnBuy",
+      "suggestedSemanticId": "MarchQueue.按钮购买",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_77dc44bb1784"
+    },
+    "DRAFT_1d58275b4096": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab",
+      "prefabRoot": "MarchQueue",
+      "path": "MarchQueue/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "march_queue",
+      "displayName": "按钮关闭",
+      "chineseDescription": "MarchQueue的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/MarchQueue.prefab」中的MarchQueue按钮关闭",
+      "suggestedTestId": "MarchQueue.BtnClose",
+      "suggestedSemanticId": "MarchQueue.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1d58275b4096"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_24a22f51d1d6",
+      "DRAFT_77dc44bb1784",
+      "DRAFT_1d58275b4096"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

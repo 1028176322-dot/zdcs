@@ -1,0 +1,40 @@
+using UnityEngine;
+
+/// <summary>
+/// 游戏启动时自动初始化 PocoManager + NetMessageMonitor
+/// 不需要手动挂载到任何 GameObject
+/// </summary>
+public static class AutoStartPoco
+{
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    private static void Initialize()
+    {
+        if (GameObject.Find("PocoManager") != null)
+            return;
+
+        var go = new GameObject("PocoManager");
+        go.AddComponent<PocoManager>();
+        go.AddComponent<NetMessagePoller>();
+        Object.DontDestroyOnLoad(go);
+
+        Debug.Log("[AutoStartPoco] PocoManager + NetMessagePoller initialized");
+    }
+}
+
+public class NetMessagePoller : MonoBehaviour
+{
+    private void Start()
+    {
+        NetMessageMonitor.Init(@"__LOG_PATH__");
+    }
+
+    private void Update()
+    {
+        NetMessageMonitor.PollSentMessages();
+    }
+
+    private void OnDestroy()
+    {
+        Debug.Log($"[NetMonitor] Stats - Send: {NetMessageMonitor.SendCount}, Recv: {NetMessageMonitor.RecvCount}");
+    }
+}

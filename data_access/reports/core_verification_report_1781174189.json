@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-06-11 18:36:28",
+  "ui_tree": {
+    "status": "PASS",
+    "details": "成功获取UI树，共0个节点",
+    "node_count": 0,
+    "data_size": 153
+  },
+  "screenshot": {
+    "status": "PASS",
+    "details": "截图成功，文件大小1007464字节",
+    "path": "../../data_access/reports/verification_screenshot_1781174189.png"
+  },
+  "scene_export": {
+    "status": "FAIL",
+    "details": "'Callback' object has no attribute 'get'"
+  },
+  "main_city": {
+    "status": "WARN",
+    "details": "主城对象导出返回空或格式错误"
+  },
+  "world_map": {
+    "status": "WARN",
+    "details": "大地图对象导出返回空或格式错误"
+  },
+  "text_extraction": {
+    "status": "WARN",
+    "details": "提取到0个唯一文本",
+    "text_count": 0,
+    "texts": []
+  },
+  "clickable_elements": {
+    "status": "WARN",
+    "details": "找到0个可点击元素",
+    "count": 0
+  },
+  "connection": {
+    "status": "PASS",
+    "details": "Unity连接成功"
+  },
+  "unity_plugins": {
+    "status": "PASS",
+    "details": "可用插件: 5个，不可用: 0个",
+    "available": [
+      "SceneStateExporter",
+      "MainCityExporter",
+      "WorldMapExporter",
+      "LogCollector",
+      "NetMessageMonitor"
+    ],
+    "unavailable": []
+  }
+}

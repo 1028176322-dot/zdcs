@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_growth_fund_pop_1",
+  "displayName": "ui_growth_fund_pop_1",
+  "drafts": {
+    "DRAFT_86cb99602507": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab",
+      "prefabRoot": "UIGrowthFundPop_1",
+      "path": "UIGrowthFundPop_1/BG/After/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_fund_pop_1",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIGrowthFundPop_1的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab」中的UIGrowthFundPop_1ClickContent",
+      "suggestedTestId": "UIGrowthFundPop_1.ClickContent",
+      "suggestedSemanticId": "UIGrowthFundPop_1.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_86cb99602507"
+    },
+    "DRAFT_68915b77df96": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab",
+      "prefabRoot": "UIGrowthFundPop_1",
+      "path": "UIGrowthFundPop_1/BG/Present/Awardlbg/Scroll/Mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_fund_pop_1",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIGrowthFundPop_1的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab」中的UIGrowthFundPop_1ClickContent",
+      "suggestedTestId": "UIGrowthFundPop_1.ClickContent",
+      "suggestedSemanticId": "UIGrowthFundPop_1.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_68915b77df96"
+    },
+    "DRAFT_1e9bf87071f6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab",
+      "prefabRoot": "UIGrowthFundPop_1",
+      "path": "UIGrowthFundPop_1/BG/GetBtn",
+      "nodeName": "GetBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_growth_fund_pop_1",
+      "displayName": "Get按钮",
+      "chineseDescription": "UIGrowthFundPop_1的Get按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab」中的UIGrowthFundPop_1Get按钮",
+      "suggestedTestId": "UIGrowthFundPop_1.GetBtn",
+      "suggestedSemanticId": "UIGrowthFundPop_1.Get按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1e9bf87071f6"
+    },
+    "DRAFT_17702e6c919b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab",
+      "prefabRoot": "UIGrowthFundPop_1",
+      "path": "UIGrowthFundPop_1/BG/Tips",
+      "nodeName": "Tips",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_growth_fund_pop_1",
+      "displayName": "Tips",
+      "chineseDescription": "UIGrowthFundPop_1的Tips",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/UIGrowthFundPop_1.prefab」中的UIGrowthFundPop_1Tips",
+      "suggestedTestId": "UIGrowthFundPop_1.Tips",
+      "suggestedSemanticId": "UIGrowthFundPop_1.Tips",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_17702e6c919b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_86cb99602507",
+      "DRAFT_68915b77df96",
+      "DRAFT_1e9bf87071f6",
+      "DRAFT_17702e6c919b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

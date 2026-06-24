@@ -1,0 +1,147 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "crab_boss_achievement",
+  "displayName": "crab_boss_achievement",
+  "drafts": {
+    "DRAFT_a6ed8e1e0993": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab",
+      "prefabRoot": "CrabBossAchievement",
+      "path": "CrabBossAchievement/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "crab_boss_achievement",
+      "displayName": "Mask",
+      "chineseDescription": "CrabBossAchievement的Mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab」中的CrabBossAchievementMask",
+      "suggestedTestId": "CrabBossAchievement.Mask",
+      "suggestedSemanticId": "CrabBossAchievement.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a6ed8e1e0993"
+    },
+    "DRAFT_474ada447a11": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab",
+      "prefabRoot": "CrabBossAchievement",
+      "path": "CrabBossAchievement/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "crab_boss_achievement",
+      "displayName": "关闭按钮",
+      "chineseDescription": "CrabBossAchievement的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab」中的CrabBossAchievement关闭按钮",
+      "suggestedTestId": "CrabBossAchievement.CloseBtn",
+      "suggestedSemanticId": "CrabBossAchievement.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_474ada447a11"
+    },
+    "DRAFT_dd4d871a66b7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab",
+      "prefabRoot": "CrabBossAchievement",
+      "path": "CrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/AwardScroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "crab_boss_achievement",
+      "displayName": "ClickContent",
+      "chineseDescription": "CrabBossAchievement的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab」中的CrabBossAchievementClickContent",
+      "suggestedTestId": "CrabBossAchievement.ClickContent",
+      "suggestedSemanticId": "CrabBossAchievement.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dd4d871a66b7"
+    },
+    "DRAFT_d0467d2aa4e9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab",
+      "prefabRoot": "CrabBossAchievement",
+      "path": "CrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/BtnGet",
+      "nodeName": "BtnGet",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_xiao",
+      "clickable": true,
+      "pageId": "crab_boss_achievement",
+      "displayName": "按钮Get",
+      "chineseDescription": "CrabBossAchievement的按钮Get，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab」中的CrabBossAchievement按钮Get",
+      "suggestedTestId": "CrabBossAchievement.BtnGet",
+      "suggestedSemanticId": "CrabBossAchievement.按钮Get",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d0467d2aa4e9"
+    },
+    "DRAFT_f64522dc9548": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab",
+      "prefabRoot": "CrabBossAchievement",
+      "path": "CrabBossAchievement/Root/BG/Bg_2/Scroll/View/Content/Item/BtnGray",
+      "nodeName": "BtnGray",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_gray_xiao",
+      "clickable": true,
+      "pageId": "crab_boss_achievement",
+      "displayName": "按钮Gray",
+      "chineseDescription": "CrabBossAchievement的按钮Gray，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/UnionCrabBoss/CrabBossAchievement.prefab」中的CrabBossAchievement按钮Gray",
+      "suggestedTestId": "CrabBossAchievement.BtnGray",
+      "suggestedSemanticId": "CrabBossAchievement.按钮Gray",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f64522dc9548"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a6ed8e1e0993",
+      "DRAFT_474ada447a11",
+      "DRAFT_dd4d871a66b7",
+      "DRAFT_d0467d2aa4e9",
+      "DRAFT_f64522dc9548"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_return_buff_banner",
+  "displayName": "ui_activity_return_buff_banner",
+  "drafts": {
+    "DRAFT_b96dc36b2435": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuffBanner.prefab",
+      "prefabRoot": "UIActivityReturnBuffBanner",
+      "path": "UIActivityReturnBuffBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_return_buff_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityReturnBuffBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityReturnBuffBanner.prefab」中的UIActivityReturnBuffBannerInfo",
+      "suggestedTestId": "UIActivityReturnBuffBanner.Info",
+      "suggestedSemanticId": "UIActivityReturnBuffBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b96dc36b2435"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b96dc36b2435"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

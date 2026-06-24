@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_spring_festival",
+  "displayName": "ui_activity_costume_pass_spring_festival",
+  "drafts": {
+    "DRAFT_ebfa37db6809": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestival",
+      "path": "UIActivityCostumePass_SpringFestival/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_SpringFestival的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab」中的UIActivityCostumePass_SpringFestivalItems",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestival.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestival.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ebfa37db6809"
+    },
+    "DRAFT_99250df8f1e1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestival",
+      "path": "UIActivityCostumePass_SpringFestival/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "UI_Img_SpringFestival19",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_SpringFestival的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab」中的UIActivityCostumePass_SpringFestivalNode2",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestival.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestival.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_99250df8f1e1"
+    },
+    "DRAFT_1faa68ad69a8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestival",
+      "path": "UIActivityCostumePass_SpringFestival/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_SpringFestival的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab」中的UIActivityCostumePass_SpringFestivalNode3",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestival.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestival.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1faa68ad69a8"
+    },
+    "DRAFT_51f78d57bd77": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestival",
+      "path": "UIActivityCostumePass_SpringFestival/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_SpringFestival的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab」中的UIActivityCostumePass_SpringFestivalAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestival.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestival.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_51f78d57bd77"
+    },
+    "DRAFT_443bb391981d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab",
+      "prefabRoot": "UIActivityCostumePass_SpringFestival",
+      "path": "UIActivityCostumePass_SpringFestival/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_spring_festival",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_SpringFestival的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_SpringFestival.prefab」中的UIActivityCostumePass_SpringFestival购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_SpringFestival.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_SpringFestival.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_443bb391981d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ebfa37db6809",
+      "DRAFT_99250df8f1e1",
+      "DRAFT_1faa68ad69a8",
+      "DRAFT_51f78d57bd77",
+      "DRAFT_443bb391981d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

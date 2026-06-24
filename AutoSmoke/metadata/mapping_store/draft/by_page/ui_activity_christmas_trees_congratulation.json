@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_christmas_trees_congratulation",
+  "displayName": "ui_activity_christmas_trees_congratulation",
+  "drafts": {
+    "DRAFT_eac46e3d2fef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesCongratulation.prefab",
+      "prefabRoot": "UIActivityChristmasTreesCongratulation",
+      "path": "UIActivityChristmasTreesCongratulation/Root/Animation/Cilck",
+      "nodeName": "Cilck",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWEmpty4Raycast",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_christmas_trees_congratulation",
+      "displayName": "Cilck",
+      "chineseDescription": "UIActivityChristmasTreesCongratulation的Cilck",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChristmasTreesCongratulation.prefab」中的UIActivityChristmasTreesCongratulationCilck",
+      "suggestedTestId": "UIActivityChristmasTreesCongratulation.Cilck",
+      "suggestedSemanticId": "UIActivityChristmasTreesCongratulation.Cilck",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eac46e3d2fef"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_eac46e3d2fef"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

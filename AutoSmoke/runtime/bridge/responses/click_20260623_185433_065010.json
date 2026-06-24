@@ -1,0 +1,14 @@
+{
+  "requestId": "click_20260623_185433_065010",
+  "success": false,
+  "type": "test_click_element",
+  "finishedAt": "2026-06-23T18:54:33",
+  "payload": {
+    "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
+    "hitRuntimePath": "",
+    "eventReceiverMatched": false,
+    "clickResult": "CLICK_TIMEOUT",
+    "instanceId": -6441670,
+    "error": "AutoSmokeClickInjector did not write click_result.json"
+  }
+}

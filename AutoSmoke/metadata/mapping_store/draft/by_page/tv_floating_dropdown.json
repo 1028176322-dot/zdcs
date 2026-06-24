@@ -1,0 +1,64 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tv_floating_dropdown",
+  "displayName": "tv_floating_dropdown",
+  "drafts": {
+    "DRAFT_972401c5e3ef": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVFloatingDropdown.prefab",
+      "prefabRoot": "TVFloatingDropdown",
+      "path": "TVFloatingDropdown",
+      "nodeName": "TVFloatingDropdown",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "TableViewFloatingDropdown",
+        "TableViewFloatingDropdownController"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tv_floating_dropdown",
+      "displayName": "TVFloatingDropdown",
+      "chineseDescription": "TVFloatingDropdown的TVFloatingDropdown",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVFloatingDropdown.prefab」中的TVFloatingDropdownTVFloatingDropdown",
+      "suggestedTestId": "TVFloatingDropdown.TVFloatingDropdown",
+      "suggestedSemanticId": "TVFloatingDropdown.TVFloatingDropdown",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_972401c5e3ef"
+    },
+    "DRAFT_a67625cb84af": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVFloatingDropdown.prefab",
+      "prefabRoot": "TVFloatingDropdown",
+      "path": "TVFloatingDropdown/Template/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "Toggle"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tv_floating_dropdown",
+      "displayName": "项",
+      "chineseDescription": "TVFloatingDropdown的项",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/Input/TVFloatingDropdown.prefab」中的TVFloatingDropdown项",
+      "suggestedTestId": "TVFloatingDropdown.Item",
+      "suggestedSemanticId": "TVFloatingDropdown.项",
+      "role": "action",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a67625cb84af"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_972401c5e3ef",
+      "DRAFT_a67625cb84af"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

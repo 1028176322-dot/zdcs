@@ -1,0 +1,62 @@
+{
+  "evidenceRef": "EVIDENCE_character_info.flag.button",
+  "testId": "character_info.flag.button",
+  "semanticId": "character_info.flag.button",
+  "targetName": "角色信息界面旗帜图标按钮",
+  "pageId": "character_info",
+  "structure": {
+    "path": "UiPlayerMain/Content/Content/Right/Country/text/Flag",
+    "pageId": "character_info",
+    "elementType": "Button"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "",
+    "screenRect": [],
+    "matchScore": "",
+    "confirmedTestId": "character_info.flag.button",
+    "formalRef": "formal://character_info/character_info.flag.button",
+    "evidenceRef": "EVIDENCE_character_info.flag.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "screenshots/mapping_review/20260623_203013_highlight.png",
+    "screenRectUsed": [
+      542,
+      2238,
+      593,
+      2276
+    ],
+    "confirmedTestId": "character_info.flag.button",
+    "formalRef": "formal://character_info/character_info.flag.button",
+    "evidenceRef": "EVIDENCE_character_info.flag.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+      "hitRuntimePath": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -6771408,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+      "targetGameObject": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+      "dispatchTarget": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
+      "screenPoint": [
+        567,
+        275
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "character_info.flag.button",
+    "formalRef": "formal://character_info/character_info.flag.button",
+    "evidenceRef": "EVIDENCE_character_info.flag.button"
+  },
+  "updated_at": "2026-06-23T20:30:41",
+  "displayName": "角色信息-旗帜按钮",
+  "role": "button",
+  "elementType": "Button"
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_trade_bubble",
+  "displayName": "main_ciry_trade_bubble",
+  "drafts": {
+    "DRAFT_cda256418eea": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTradeBubble.prefab",
+      "prefabRoot": "MainCiryTradeBubble",
+      "path": "MainCiryTradeBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_trade_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryTradeBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTradeBubble.prefab」中的MainCiryTradeBubbletipsdi",
+      "suggestedTestId": "MainCiryTradeBubble.tips_di",
+      "suggestedSemanticId": "MainCiryTradeBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cda256418eea"
+    },
+    "DRAFT_04b5a6c70523": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTradeBubble.prefab",
+      "prefabRoot": "EXPORT_MainCiryTradeBubble",
+      "path": "EXPORT_MainCiryTradeBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_qipao2",
+      "clickable": true,
+      "pageId": "main_ciry_trade_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryTradeBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryTradeBubble.prefab」中的EXPORT_MainCiryTradeBubbletipsdi",
+      "suggestedTestId": "EXPORT_MainCiryTradeBubble.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryTradeBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_04b5a6c70523"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_cda256418eea",
+      "DRAFT_04b5a6c70523"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

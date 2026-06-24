@@ -1,0 +1,149 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "buttons_with_optional_input",
+  "displayName": "buttons_with_optional_input",
+  "drafts": {
+    "DRAFT_341d82a5bda5": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab",
+      "prefabRoot": "ButtonsWithOptionalInput",
+      "path": "ButtonsWithOptionalInput/Button1",
+      "nodeName": "Button1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "buttons_with_optional_input",
+      "displayName": "按钮1",
+      "chineseDescription": "ButtonsWithOptionalInput的按钮1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab」中的ButtonsWithOptionalInput按钮1",
+      "suggestedTestId": "ButtonsWithOptionalInput.Button1",
+      "suggestedSemanticId": "ButtonsWithOptionalInput.按钮1",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_341d82a5bda5"
+    },
+    "DRAFT_1ffe9809a19d": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab",
+      "prefabRoot": "ButtonsWithOptionalInput",
+      "path": "ButtonsWithOptionalInput/Button2",
+      "nodeName": "Button2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "buttons_with_optional_input",
+      "displayName": "按钮2",
+      "chineseDescription": "ButtonsWithOptionalInput的按钮2，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab」中的ButtonsWithOptionalInput按钮2",
+      "suggestedTestId": "ButtonsWithOptionalInput.Button2",
+      "suggestedSemanticId": "ButtonsWithOptionalInput.按钮2",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ffe9809a19d"
+    },
+    "DRAFT_9328039ef6db": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab",
+      "prefabRoot": "ButtonsWithOptionalInput",
+      "path": "ButtonsWithOptionalInput/Button3",
+      "nodeName": "Button3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "buttons_with_optional_input",
+      "displayName": "按钮3",
+      "chineseDescription": "ButtonsWithOptionalInput的按钮3，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab」中的ButtonsWithOptionalInput按钮3",
+      "suggestedTestId": "ButtonsWithOptionalInput.Button3",
+      "suggestedSemanticId": "ButtonsWithOptionalInput.按钮3",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9328039ef6db"
+    },
+    "DRAFT_bb8e0b681c39": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab",
+      "prefabRoot": "ButtonsWithOptionalInput",
+      "path": "ButtonsWithOptionalInput/Button4",
+      "nodeName": "Button4",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "Button",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "buttons_with_optional_input",
+      "displayName": "按钮4",
+      "chineseDescription": "ButtonsWithOptionalInput的按钮4，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab」中的ButtonsWithOptionalInput按钮4",
+      "suggestedTestId": "ButtonsWithOptionalInput.Button4",
+      "suggestedSemanticId": "ButtonsWithOptionalInput.按钮4",
+      "role": "primary_action_button",
+      "confidence": 0.7,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bb8e0b681c39"
+    },
+    "DRAFT_3ac68d165671": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab",
+      "prefabRoot": "ButtonsWithOptionalInput",
+      "path": "ButtonsWithOptionalInput/InputField",
+      "nodeName": "InputField",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "InputField",
+        "LayoutElement",
+        "InputFieldInScrollRectFixer"
+      ],
+      "spriteName": "top-to-bottom-gradient",
+      "clickable": true,
+      "pageId": "buttons_with_optional_input",
+      "displayName": "输入Field",
+      "chineseDescription": "ButtonsWithOptionalInput的输入Field",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Demos/Prefabs/DrawerCommandPanel/TemplateControls/ButtonsWithOptionalInput.prefab」中的ButtonsWithOptionalInput输入Field",
+      "suggestedTestId": "ButtonsWithOptionalInput.InputField",
+      "suggestedSemanticId": "ButtonsWithOptionalInput.输入Field",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3ac68d165671"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_341d82a5bda5",
+      "DRAFT_1ffe9809a19d",
+      "DRAFT_9328039ef6db",
+      "DRAFT_bb8e0b681c39",
+      "DRAFT_3ac68d165671"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_lucky_chest",
+  "displayName": "ui_hero_lucky_chest",
+  "drafts": {
+    "DRAFT_98269f8122c1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab",
+      "prefabRoot": "UIHero_lucky_chest",
+      "path": "UIHero_lucky_chest/Root/Content/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "btn_back",
+      "clickable": true,
+      "pageId": "ui_hero_lucky_chest",
+      "displayName": "按钮关闭",
+      "chineseDescription": "UIHero_lucky_chest的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab」中的UIHero_lucky_chest按钮关闭",
+      "suggestedTestId": "UIHero_lucky_chest.BtnClose",
+      "suggestedSemanticId": "UIHero_lucky_chest.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_98269f8122c1"
+    },
+    "DRAFT_9bda9c632f74": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab",
+      "prefabRoot": "UIHero_lucky_chest",
+      "path": "UIHero_lucky_chest/Root/Content/glg/card_bg/button",
+      "nodeName": "button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio"
+      ],
+      "spriteName": "bth_green",
+      "clickable": true,
+      "pageId": "ui_hero_lucky_chest",
+      "displayName": "button",
+      "chineseDescription": "UIHero_lucky_chest的button，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab」中的UIHero_lucky_chestbutton",
+      "suggestedTestId": "UIHero_lucky_chest.button",
+      "suggestedSemanticId": "UIHero_lucky_chest.button",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9bda9c632f74"
+    },
+    "DRAFT_a91c90ddfa3b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab",
+      "prefabRoot": "UIHero_lucky_chest",
+      "path": "UIHero_lucky_chest/Root/Content/glg/card_bg/button2",
+      "nodeName": "button2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio"
+      ],
+      "spriteName": "bth",
+      "clickable": true,
+      "pageId": "ui_hero_lucky_chest",
+      "displayName": "button2",
+      "chineseDescription": "UIHero_lucky_chest的button2，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab」中的UIHero_lucky_chestbutton2",
+      "suggestedTestId": "UIHero_lucky_chest.button2",
+      "suggestedSemanticId": "UIHero_lucky_chest.button2",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a91c90ddfa3b"
+    },
+    "DRAFT_2bf9b01a8871": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab",
+      "prefabRoot": "UIHero_lucky_chest",
+      "path": "UIHero_lucky_chest/Root/Content/TipsBtn",
+      "nodeName": "TipsBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_red",
+      "clickable": true,
+      "pageId": "ui_hero_lucky_chest",
+      "displayName": "Tips按钮",
+      "chineseDescription": "UIHero_lucky_chest的Tips按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHero_lucky_chest.prefab」中的UIHero_lucky_chestTips按钮",
+      "suggestedTestId": "UIHero_lucky_chest.TipsBtn",
+      "suggestedSemanticId": "UIHero_lucky_chest.Tips按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2bf9b01a8871"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_98269f8122c1",
+      "DRAFT_9bda9c632f74",
+      "DRAFT_a91c90ddfa3b",
+      "DRAFT_2bf9b01a8871"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "mapping_store.v1",
+  "store_version": 1,
+  "layout": "page_sharded_mapping_store",
+  "updated_at": "2026-06-24T11:40:46",
+  "files": {
+    "page_index": "mapping_store/indexes/page.index.json",
+    "draft_index": "mapping_store/indexes/draft.index.json",
+    "formal_index": "mapping_store/indexes/formal.index.json",
+    "evidence_index": "mapping_store/indexes/evidence.index.json",
+    "testid_index": "mapping_store/indexes/testid.index.json",
+    "semantic_index": "mapping_store/indexes/semantic.index.json",
+    "page_dictionary": "mapping_store/pages/page_name_dictionary.json"
+  }
+}

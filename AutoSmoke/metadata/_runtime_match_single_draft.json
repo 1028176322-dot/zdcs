@@ -1,0 +1,75 @@
+{
+  "path": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+  "nodeName": "UsedBtn",
+  "componentType": "RectTransform",
+  "clickable": true,
+  "pageId": "UIShop",
+  "displayName": "UIShop-使用操作-可交互图标",
+  "chineseDescription": "UIShop界面中用于使用操作的可交互图标",
+  "reviewHint": "缺少可见文本，建议结构确认后做点击验证",
+  "suggestedTestId": "UIShop.UsedBtn",
+  "suggestedSemanticId": "UIShop.使用操作",
+  "role": "use_action",
+  "roleNameCn": "use_action",
+  "confidence": 0.6,
+  "source": "auto_draft",
+  "dataSource": "enhanced_ui_tree",
+  "priority": "P0",
+  "elementType": "interactive_icon",
+  "clickTargetNode": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+  "visualNode": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+  "risk": [
+    "no_text"
+  ],
+  "spriteName": "common_btn_yellw_da",
+  "atlasName": "sactx-3-1024x1024-ASTC 6x6-CommonPirateAtlasPirate-709bae3d",
+  "components": [
+    "RectTransform",
+    "CanvasRenderer",
+    "TFWImage",
+    "EventTriggerListener",
+    "ButtonScale"
+  ],
+  "reviewStatus": "auto_draft",
+  "reviewLevel": "manual",
+  "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+  "sourceLevel": "L2",
+  "runtimeMatch": {
+    "status": "not_matched",
+    "reason": "",
+    "matchedAt": "2026-06-17T18:14:50",
+    "draftPageId": "UIShop",
+    "currentPageId": "UiMain(Clone) [UIMainPopup]"
+  },
+  "hasRuntimeMatch": false,
+  "hasHighlightRect": false,
+  "highlightImage": "E:\\zdcs\\AutoSmoke\\screenshots\\mapping_review\\20260617_121322_highlight.png",
+  "screenshotRef": "E:\\zdcs\\AutoSmoke\\screenshots\\run_20260617_114836\\cap_20260617_114836.png",
+  "hasScreenshot": true,
+  "highlightRect": [
+    380,
+    2376,
+    790,
+    2527
+  ],
+  "highlightGeneratedAt": "2026-06-17T12:13:23",
+  "codeSemantic": {
+    "status": "matched",
+    "handler": "Close",
+    "actionType": "close_popup",
+    "businessAction": "Close",
+    "expectedResult": [],
+    "sourceFiles": [
+      "Assets\\k1\\GameScript\\UI\\Shop\\GiftPop\\UIGiftInfoPop.cs"
+    ],
+    "requiresState": [],
+    "confidence": 1.0,
+    "matchLayers": [
+      "page_consistency",
+      "runtime_interactive",
+      "code_bind"
+    ],
+    "penalties": [],
+    "risk": []
+  }
+}

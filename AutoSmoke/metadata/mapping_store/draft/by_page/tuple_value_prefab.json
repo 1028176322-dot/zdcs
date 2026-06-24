@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tuple_value_prefab",
+  "displayName": "tuple_value_prefab",
+  "drafts": {
+    "DRAFT_5b662607d153": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TupleValuePrefab.prefab",
+      "prefabRoot": "TupleValuePrefab",
+      "path": "TupleValuePrefab",
+      "nodeName": "TupleValuePrefab",
+      "componentTypes": [
+        "RectTransform",
+        "Button",
+        "CanvasRenderer",
+        "Image",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tuple_value_prefab",
+      "displayName": "TupleValuePrefab",
+      "chineseDescription": "TupleValuePrefab的TupleValuePrefab，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TupleValuePrefab.prefab」中的TupleValuePrefabTupleValuePrefab",
+      "suggestedTestId": "TupleValuePrefab.TupleValuePrefab",
+      "suggestedSemanticId": "TupleValuePrefab.TupleValuePrefab",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5b662607d153"
+    },
+    "DRAFT_49891f6bd731": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TupleValuePrefab.prefab",
+      "prefabRoot": "TupleValuePrefab",
+      "path": "TupleValuePrefab/Toggle",
+      "nodeName": "Toggle",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Toggle",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tuple_value_prefab",
+      "displayName": "开关",
+      "chineseDescription": "TupleValuePrefab的开关",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TupleValuePrefab.prefab」中的TupleValuePrefab开关",
+      "suggestedTestId": "TupleValuePrefab.Toggle",
+      "suggestedSemanticId": "TupleValuePrefab.开关",
+      "role": "toggle",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_49891f6bd731"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5b662607d153",
+      "DRAFT_49891f6bd731"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

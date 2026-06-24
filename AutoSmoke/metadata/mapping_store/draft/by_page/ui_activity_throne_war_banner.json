@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_throne_war_banner",
+  "displayName": "ui_activity_throne_war_banner",
+  "drafts": {
+    "DRAFT_b960f3eab639": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThroneWarBanner.prefab",
+      "prefabRoot": "UIActivityThroneWarBanner",
+      "path": "UIActivityThroneWarBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_throne_war_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityThroneWarBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityThroneWarBanner.prefab」中的UIActivityThroneWarBannerInfo",
+      "suggestedTestId": "UIActivityThroneWarBanner.Info",
+      "suggestedSemanticId": "UIActivityThroneWarBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b960f3eab639"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b960f3eab639"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

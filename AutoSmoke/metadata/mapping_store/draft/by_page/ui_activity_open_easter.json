@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_open_easter",
+  "displayName": "ui_activity_open_easter",
+  "drafts": {
+    "DRAFT_36e6373bf5d3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab",
+      "prefabRoot": "UIActivityOpen_Easter",
+      "path": "UIActivityOpen_Easter/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_open_easter",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityOpen_Easter的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab」中的UIActivityOpen_EasterGo按钮",
+      "suggestedTestId": "UIActivityOpen_Easter.GoBtn",
+      "suggestedSemanticId": "UIActivityOpen_Easter.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_36e6373bf5d3"
+    },
+    "DRAFT_9303ca5d8417": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab",
+      "prefabRoot": "UIActivityOpen_Easter",
+      "path": "UIActivityOpen_Easter/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_open_easter",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityOpen_Easter的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab」中的UIActivityOpen_Easter关闭按钮",
+      "suggestedTestId": "UIActivityOpen_Easter.CloseBtn",
+      "suggestedSemanticId": "UIActivityOpen_Easter.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9303ca5d8417"
+    },
+    "DRAFT_ecd754c0c860": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab",
+      "prefabRoot": "UIActivityOpen_Easter",
+      "path": "UIActivityOpen_Easter/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_open_easter",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityOpen_Easter的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityOpen_Easter.prefab」中的UIActivityOpen_Easter项1",
+      "suggestedTestId": "UIActivityOpen_Easter.Item1",
+      "suggestedSemanticId": "UIActivityOpen_Easter.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ecd754c0c860"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_36e6373bf5d3",
+      "DRAFT_9303ca5d8417",
+      "DRAFT_ecd754c0c860"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

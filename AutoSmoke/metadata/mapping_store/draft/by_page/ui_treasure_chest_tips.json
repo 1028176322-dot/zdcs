@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_treasure_chest_tips",
+  "displayName": "ui_treasure_chest_tips",
+  "drafts": {
+    "DRAFT_da0beea68b5a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UITreasureChestTips.prefab",
+      "prefabRoot": "UITreasureChestTips",
+      "path": "UITreasureChestTips/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_treasure_chest_tips",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UITreasureChestTips的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UITreasureChestTips.prefab」中的UITreasureChestTips关闭按钮",
+      "suggestedTestId": "UITreasureChestTips.CloseBtn",
+      "suggestedSemanticId": "UITreasureChestTips.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_da0beea68b5a"
+    },
+    "DRAFT_67f47df737ef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UITreasureChestTips.prefab",
+      "prefabRoot": "UITreasureChestTips",
+      "path": "UITreasureChestTips/Content/ShowContent/Viewport/Content/ItemGrid/Item/Item/UIShopItem/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_treasure_chest_tips",
+      "displayName": "ClickContent",
+      "chineseDescription": "UITreasureChestTips的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UITreasureChestTips.prefab」中的UITreasureChestTipsClickContent",
+      "suggestedTestId": "UITreasureChestTips.ClickContent",
+      "suggestedSemanticId": "UITreasureChestTips.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_67f47df737ef"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_da0beea68b5a",
+      "DRAFT_67f47df737ef"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

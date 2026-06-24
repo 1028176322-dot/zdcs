@@ -1,0 +1,91 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_gem_idebtify",
+  "displayName": "ui_gem_idebtify",
+  "drafts": {
+    "DRAFT_357f106b351a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab",
+      "prefabRoot": "UIGemIdebtify",
+      "path": "UIGemIdebtify/Root/ScrollView/View/Grid/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_gem_idebtify",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIGemIdebtify的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab」中的UIGemIdebtifyClickContent",
+      "suggestedTestId": "UIGemIdebtify.ClickContent",
+      "suggestedSemanticId": "UIGemIdebtify.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_357f106b351a"
+    },
+    "DRAFT_d31b3e7a53a4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab",
+      "prefabRoot": "UIGemIdebtify",
+      "path": "UIGemIdebtify/Root/ScrollView/View/Grid/Item_new/toggle",
+      "nodeName": "toggle",
+      "componentTypes": [
+        "RectTransform",
+        "TFWToggle"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_gem_idebtify",
+      "displayName": "toggle",
+      "chineseDescription": "UIGemIdebtify的toggle",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab」中的UIGemIdebtifytoggle",
+      "suggestedTestId": "UIGemIdebtify.toggle",
+      "suggestedSemanticId": "UIGemIdebtify.toggle",
+      "role": "toggle",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d31b3e7a53a4"
+    },
+    "DRAFT_9f7ebdd4cf9f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab",
+      "prefabRoot": "UIGemIdebtify",
+      "path": "UIGemIdebtify/Root/Button/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_gem_idebtify",
+      "displayName": "按钮",
+      "chineseDescription": "UIGemIdebtify的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemIdebtify.prefab」中的UIGemIdebtify按钮",
+      "suggestedTestId": "UIGemIdebtify.Btn",
+      "suggestedSemanticId": "UIGemIdebtify.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9f7ebdd4cf9f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_357f106b351a",
+      "DRAFT_d31b3e7a53a4",
+      "DRAFT_9f7ebdd4cf9f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

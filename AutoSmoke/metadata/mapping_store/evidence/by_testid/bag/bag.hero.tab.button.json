@@ -1,0 +1,69 @@
+{
+  "testId": "bag.hero.tab.button",
+  "semanticId": "bag.hero.tab.button",
+  "targetName": "背包英雄页签按钮",
+  "structure": {
+    "path": "__runtime__::UIShop::Root/Shop/Tab/Tab/View/Content/3",
+    "pageId": "bag",
+    "elementType": "tab"
+  },
+  "runtime": {
+    "matched": true,
+    "runtimePath": "Root/Shop/Tab/Tab/View/Content/3",
+    "screenRect": [
+      706,
+      152,
+      923,
+      254
+    ],
+    "matchScore": "",
+    "confirmedTestId": "bag.hero.tab.button",
+    "formalRef": "formal://bag/bag.hero.tab.button",
+    "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+  },
+  "visual": {
+    "confirmed": true,
+    "highlightImage": "mapping_store/evidence/assets/highlights/ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.3.tab.png",
+    "screenRectUsed": [
+      710,
+      172,
+      918,
+      254
+    ],
+    "confirmedTestId": "bag.hero.tab.button",
+    "formalRef": "formal://bag/bag.hero.tab.button",
+    "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+  },
+  "click": {
+    "confirmed": true,
+    "result": "PASS",
+    "method": "unity_event_system",
+    "detail": {
+      "expectedRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+      "hitRuntimePath": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3/Off/TextOff",
+      "eventReceiverMatched": true,
+      "clickResult": "OK",
+      "instanceId": -13432564,
+      "error": "",
+      "message": "点击命中目标: DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+      "targetGameObject": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+      "dispatchTarget": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
+      "screenPoint": [
+        814,
+        2329
+      ],
+      "injectorResultRecovered": true
+    },
+    "confirmedTestId": "bag.hero.tab.button",
+    "formalRef": "formal://bag/bag.hero.tab.button",
+    "evidenceRef": "EVIDENCE_bag.hero.tab.button"
+  },
+  "displayName": "背包-英雄页签按钮",
+  "pageId": "bag",
+  "role": "tab",
+  "elementType": "Button",
+  "evidenceRef": "EVIDENCE_bag.hero.tab.button",
+  "updated_at": "2026-06-23T10:14:40",
+  "semanticSyncedAt": "2026-06-24T10:03:47",
+  "semanticSyncedBy": "target_workbench_repair"
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_summon_monster_banner",
+  "displayName": "ui_activity_summon_monster_banner",
+  "drafts": {
+    "DRAFT_11f99d2298ee": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab",
+      "prefabRoot": "UIActivitySummonMonsterBanner",
+      "path": "UIActivitySummonMonsterBanner/Challenge_button",
+      "nodeName": "Challenge_button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_summon_monster_banner",
+      "displayName": "Challengebutton",
+      "chineseDescription": "UIActivitySummonMonsterBanner的Challengebutton，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab」中的UIActivitySummonMonsterBannerChallengebutton",
+      "suggestedTestId": "UIActivitySummonMonsterBanner.Challenge_button",
+      "suggestedSemanticId": "UIActivitySummonMonsterBanner.Challengebutton",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_11f99d2298ee"
+    },
+    "DRAFT_1565a1cd1d18": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab",
+      "prefabRoot": "UIActivitySummonMonsterBanner",
+      "path": "UIActivitySummonMonsterBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_summon_monster_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivitySummonMonsterBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab」中的UIActivitySummonMonsterBannerInfo",
+      "suggestedTestId": "UIActivitySummonMonsterBanner.Info",
+      "suggestedSemanticId": "UIActivitySummonMonsterBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1565a1cd1d18"
+    },
+    "DRAFT_4d83c5667760": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab",
+      "prefabRoot": "UIActivitySummonMonsterBanner",
+      "path": "UIActivitySummonMonsterBanner/UsePage/ScrollView/mask/Content/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_summon_monster_banner",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivitySummonMonsterBanner的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab」中的UIActivitySummonMonsterBannerClickContent",
+      "suggestedTestId": "UIActivitySummonMonsterBanner.ClickContent",
+      "suggestedSemanticId": "UIActivitySummonMonsterBanner.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4d83c5667760"
+    },
+    "DRAFT_e80f7579ea95": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab",
+      "prefabRoot": "UIActivitySummonMonsterBanner",
+      "path": "UIActivitySummonMonsterBanner/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "ui_activity_summon_monster_banner",
+      "displayName": "项",
+      "chineseDescription": "UIActivitySummonMonsterBanner的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab」中的UIActivitySummonMonsterBanner项",
+      "suggestedTestId": "UIActivitySummonMonsterBanner.Item",
+      "suggestedSemanticId": "UIActivitySummonMonsterBanner.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e80f7579ea95"
+    },
+    "DRAFT_6e9081806c5d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab",
+      "prefabRoot": "UIActivitySummonMonsterBanner",
+      "path": "UIActivitySummonMonsterBanner/Item/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_summon_monster_banner",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivitySummonMonsterBanner的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivitySummonMonsterBanner.prefab」中的UIActivitySummonMonsterBannerClickContent",
+      "suggestedTestId": "UIActivitySummonMonsterBanner.ClickContent",
+      "suggestedSemanticId": "UIActivitySummonMonsterBanner.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6e9081806c5d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_11f99d2298ee",
+      "DRAFT_1565a1cd1d18",
+      "DRAFT_4d83c5667760",
+      "DRAFT_e80f7579ea95",
+      "DRAFT_6e9081806c5d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

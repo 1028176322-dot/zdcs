@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tech_level_tip",
+  "displayName": "tech_level_tip",
+  "drafts": {
+    "DRAFT_68bbd0a70f4a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechLevelTip.prefab",
+      "prefabRoot": "TechLevelTip",
+      "path": "TechLevelTip/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "bg4",
+      "clickable": true,
+      "pageId": "tech_level_tip",
+      "displayName": "mask",
+      "chineseDescription": "TechLevelTip的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechLevelTip.prefab」中的TechLevelTipmask",
+      "suggestedTestId": "TechLevelTip.mask",
+      "suggestedSemanticId": "TechLevelTip.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_68bbd0a70f4a"
+    },
+    "DRAFT_c4b153da45cb": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechLevelTip.prefab",
+      "prefabRoot": "TechLevelTip",
+      "path": "TechLevelTip/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "tech_level_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "TechLevelTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/TroopTech/TechLevelTip.prefab」中的TechLevelTip关闭按钮",
+      "suggestedTestId": "TechLevelTip.CloseBtn",
+      "suggestedSemanticId": "TechLevelTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c4b153da45cb"
+    },
+    "DRAFT_b9d405cff77d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechLevelTip.prefab",
+      "prefabRoot": "EXPORT_TechLevelTip",
+      "path": "EXPORT_TechLevelTip/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "bg4",
+      "clickable": true,
+      "pageId": "tech_level_tip",
+      "displayName": "mask",
+      "chineseDescription": "EXPORT_TechLevelTip的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechLevelTip.prefab」中的EXPORT_TechLevelTipmask",
+      "suggestedTestId": "EXPORT_TechLevelTip.mask",
+      "suggestedSemanticId": "EXPORT_TechLevelTip.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b9d405cff77d"
+    },
+    "DRAFT_12e80678a236": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechLevelTip.prefab",
+      "prefabRoot": "EXPORT_TechLevelTip",
+      "path": "EXPORT_TechLevelTip/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "tech_level_tip",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_TechLevelTip的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/TroopTech/EXPORT_TechLevelTip.prefab」中的EXPORT_TechLevelTip关闭按钮",
+      "suggestedTestId": "EXPORT_TechLevelTip.CloseBtn",
+      "suggestedSemanticId": "EXPORT_TechLevelTip.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_12e80678a236"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_68bbd0a70f4a",
+      "DRAFT_c4b153da45cb",
+      "DRAFT_b9d405cff77d",
+      "DRAFT_12e80678a236"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

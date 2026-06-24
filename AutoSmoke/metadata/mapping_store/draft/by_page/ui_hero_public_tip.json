@@ -1,0 +1,120 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_public_tip",
+  "displayName": "ui_hero_public_tip",
+  "drafts": {
+    "DRAFT_b5a258ca1f18": {
+      "assetPath": "Assets/k1/Testprefab/UIHeroPublicTip.prefab",
+      "prefabRoot": "UIHeroPublicTip",
+      "path": "UIHeroPublicTip/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_public_tip",
+      "displayName": "Touch",
+      "chineseDescription": "UIHeroPublicTip的Touch",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UIHeroPublicTip.prefab」中的UIHeroPublicTipTouch",
+      "suggestedTestId": "UIHeroPublicTip.Touch",
+      "suggestedSemanticId": "UIHeroPublicTip.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b5a258ca1f18"
+    },
+    "DRAFT_3b98c28e665b": {
+      "assetPath": "Assets/k1/Testprefab/UIHeroPublicTip.prefab",
+      "prefabRoot": "UIHeroPublicTip",
+      "path": "UIHeroPublicTip/Touch/centre_other/Suit_title/Arrow",
+      "nodeName": "Arrow",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_TabArrow",
+      "clickable": true,
+      "pageId": "ui_hero_public_tip",
+      "displayName": "Arrow",
+      "chineseDescription": "UIHeroPublicTip的Arrow",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UIHeroPublicTip.prefab」中的UIHeroPublicTipArrow",
+      "suggestedTestId": "UIHeroPublicTip.Arrow",
+      "suggestedSemanticId": "UIHeroPublicTip.Arrow",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3b98c28e665b"
+    },
+    "DRAFT_304e926e59b7": {
+      "assetPath": "Assets/k1/Testprefab/UIHeroPublicTip.prefab",
+      "prefabRoot": "UIHeroPublicTip",
+      "path": "UIHeroPublicTip/Touch/centre_other/Button/ChangeBtn",
+      "nodeName": "ChangeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_hero_public_tip",
+      "displayName": "Change按钮",
+      "chineseDescription": "UIHeroPublicTip的Change按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UIHeroPublicTip.prefab」中的UIHeroPublicTipChange按钮",
+      "suggestedTestId": "UIHeroPublicTip.ChangeBtn",
+      "suggestedSemanticId": "UIHeroPublicTip.Change按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_304e926e59b7"
+    },
+    "DRAFT_78a80e70a27f": {
+      "assetPath": "Assets/k1/Testprefab/UIHeroPublicTip.prefab",
+      "prefabRoot": "UIHeroPublicTip",
+      "path": "UIHeroPublicTip/Touch/centre_other/Button/PromoteBtn",
+      "nodeName": "PromoteBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_public_tip",
+      "displayName": "Promote按钮",
+      "chineseDescription": "UIHeroPublicTip的Promote按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/UIHeroPublicTip.prefab」中的UIHeroPublicTipPromote按钮",
+      "suggestedTestId": "UIHeroPublicTip.PromoteBtn",
+      "suggestedSemanticId": "UIHeroPublicTip.Promote按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_78a80e70a27f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b5a258ca1f18",
+      "DRAFT_3b98c28e665b",
+      "DRAFT_304e926e59b7",
+      "DRAFT_78a80e70a27f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

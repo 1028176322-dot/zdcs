@@ -1,0 +1,71 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_npc_qi_pao",
+  "displayName": "main_ciry_npc_qi_pao",
+  "drafts": {
+    "DRAFT_962a069f8422": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryNpcQiPao.prefab",
+      "prefabRoot": "MainCiryNpcQiPao",
+      "path": "MainCiryNpcQiPao/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIFlippable",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_npc_qi_pao",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryNpcQiPao的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryNpcQiPao.prefab」中的MainCiryNpcQiPaotipsdi",
+      "suggestedTestId": "MainCiryNpcQiPao.tips_di",
+      "suggestedSemanticId": "MainCiryNpcQiPao.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_962a069f8422"
+    },
+    "DRAFT_013175b9bc1d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryNpcQiPao.prefab",
+      "prefabRoot": "EXPORT_MainCiryNpcQiPao",
+      "path": "EXPORT_MainCiryNpcQiPao/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIFlippable",
+        "ClickAudio"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_npc_qi_pao",
+      "displayName": "tipsdi",
+      "chineseDescription": "EXPORT_MainCiryNpcQiPao的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCiryNpcQiPao.prefab」中的EXPORT_MainCiryNpcQiPaotipsdi",
+      "suggestedTestId": "EXPORT_MainCiryNpcQiPao.tips_di",
+      "suggestedSemanticId": "EXPORT_MainCiryNpcQiPao.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_013175b9bc1d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_962a069f8422",
+      "DRAFT_013175b9bc1d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

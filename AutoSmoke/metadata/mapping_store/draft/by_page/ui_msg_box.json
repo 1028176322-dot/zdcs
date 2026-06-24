@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_msg_box",
+  "displayName": "ui_msg_box",
+  "drafts": {
+    "DRAFT_da8fa0989ef0": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab",
+      "prefabRoot": "UIMsgBox",
+      "path": "UIMsgBox/Root/Close",
+      "nodeName": "Close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_msg_box",
+      "displayName": "关闭",
+      "chineseDescription": "UIMsgBox的关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab」中的UIMsgBox关闭",
+      "suggestedTestId": "UIMsgBox.Close",
+      "suggestedSemanticId": "UIMsgBox.关闭",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_da8fa0989ef0"
+    },
+    "DRAFT_ea4e2aaf680c": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab",
+      "prefabRoot": "UIMsgBox",
+      "path": "UIMsgBox/Root/Close/CloseImg",
+      "nodeName": "CloseImg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_msg_box",
+      "displayName": "关闭图片",
+      "chineseDescription": "UIMsgBox的关闭图片，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab」中的UIMsgBox关闭图片",
+      "suggestedTestId": "UIMsgBox.CloseImg",
+      "suggestedSemanticId": "UIMsgBox.关闭图片",
+      "role": "close_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ea4e2aaf680c"
+    },
+    "DRAFT_55fa4eec9dad": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab",
+      "prefabRoot": "UIMsgBox",
+      "path": "UIMsgBox/Root/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_msg_box",
+      "displayName": "按钮",
+      "chineseDescription": "UIMsgBox的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Common/MsgBox/UIMsgBox.prefab」中的UIMsgBox按钮",
+      "suggestedTestId": "UIMsgBox.Button",
+      "suggestedSemanticId": "UIMsgBox.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_55fa4eec9dad"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_da8fa0989ef0",
+      "DRAFT_ea4e2aaf680c",
+      "DRAFT_55fa4eec9dad"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_input_search",
+  "displayName": "ui_input_search",
+  "drafts": {
+    "DRAFT_1ff0d9df00b4": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab",
+      "prefabRoot": "UiInputSearch",
+      "path": "UiInputSearch/Root/Content/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_input_search",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UiInputSearch的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab」中的UiInputSearch关闭按钮",
+      "suggestedTestId": "UiInputSearch.CloseBtn",
+      "suggestedSemanticId": "UiInputSearch.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ff0d9df00b4"
+    },
+    "DRAFT_c75a077030bc": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab",
+      "prefabRoot": "UiInputSearch",
+      "path": "UiInputSearch/Root/Content/InputX",
+      "nodeName": "InputX",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "bottom_03",
+      "clickable": true,
+      "pageId": "ui_input_search",
+      "displayName": "输入X",
+      "chineseDescription": "UiInputSearch的输入X",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab」中的UiInputSearch输入X",
+      "suggestedTestId": "UiInputSearch.InputX",
+      "suggestedSemanticId": "UiInputSearch.输入X",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c75a077030bc"
+    },
+    "DRAFT_7d18676a5160": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab",
+      "prefabRoot": "UiInputSearch",
+      "path": "UiInputSearch/Root/Content/InputY",
+      "nodeName": "InputY",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWinputField",
+        "EventTriggerListener",
+        "TFWImage"
+      ],
+      "spriteName": "bottom_03",
+      "clickable": true,
+      "pageId": "ui_input_search",
+      "displayName": "输入Y",
+      "chineseDescription": "UiInputSearch的输入Y",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab」中的UiInputSearch输入Y",
+      "suggestedTestId": "UiInputSearch.InputY",
+      "suggestedSemanticId": "UiInputSearch.输入Y",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7d18676a5160"
+    },
+    "DRAFT_5ad646e76e4b": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab",
+      "prefabRoot": "UiInputSearch",
+      "path": "UiInputSearch/Root/Content/OKBtn",
+      "nodeName": "OKBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_input_search",
+      "displayName": "OK按钮",
+      "chineseDescription": "UiInputSearch的OK按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab」中的UiInputSearchOK按钮",
+      "suggestedTestId": "UiInputSearch.OKBtn",
+      "suggestedSemanticId": "UiInputSearch.OK按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5ad646e76e4b"
+    },
+    "DRAFT_a5e27d1f5f71": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab",
+      "prefabRoot": "UiInputSearch",
+      "path": "UiInputSearch/Root/Content/StarBtn",
+      "nodeName": "StarBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animation"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_input_search",
+      "displayName": "Star按钮",
+      "chineseDescription": "UiInputSearch的Star按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Map/UiInputSearch.prefab」中的UiInputSearchStar按钮",
+      "suggestedTestId": "UiInputSearch.StarBtn",
+      "suggestedSemanticId": "UiInputSearch.Star按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a5e27d1f5f71"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_1ff0d9df00b4",
+      "DRAFT_c75a077030bc",
+      "DRAFT_7d18676a5160",
+      "DRAFT_5ad646e76e4b",
+      "DRAFT_a5e27d1f5f71"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

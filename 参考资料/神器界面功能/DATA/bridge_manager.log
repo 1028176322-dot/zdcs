@@ -1,0 +1,6 @@
+2026-06-17T18:14:30 health url=http://127.0.0.1:8765/health ok=True
+2026-06-17T18:26:34 health url=http://127.0.0.1:8765/health ok=False error=TimeoutError: timed out
+2026-06-17T18:26:34 start_bridge pid=3940 command=C:\Users\a\AppData\Local\Programs\Python\Python312\python.exe D:\工作助手\QA_AUTO_DocReader_V4.2\TOOLS\bridge_server.py
+2026-06-17T18:26:35 health url=http://127.0.0.1:8765/health ok=True
+2026-06-17T18:26:35 ensure_bridge ready url=http://127.0.0.1:8765/ai
+2026-06-17T18:26:36 stop_bridge pid=3940

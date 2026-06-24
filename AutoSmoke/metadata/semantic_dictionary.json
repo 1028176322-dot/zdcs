@@ -1,0 +1,332 @@
+{
+  "schema_version": "semantic_dictionary.v1",
+  "updated_at": "2026-06-24T10:02:17",
+  "pages": {
+    "背包": "bag",
+    "商店": "shop",
+    "登录好礼": "activity.login_gift",
+    "七日签到": "activity.login_gift",
+    "主城": "main_city",
+    "奖励弹窗": "reward_popup",
+    "角色信息": "character_info",
+    "主角信息": "character_info"
+  },
+  "objects": {
+    "金币": "gold",
+    "粮食": "food",
+    "木材": "wood",
+    "石材": "stone",
+    "铁矿": "iron",
+    "矿石": "ore",
+    "银币": "silver",
+    "钻石": "diamond",
+    "入口": "entry",
+    "红点": "red_dot",
+    "奖励": "reward",
+    "第1天": "day1",
+    "第2天": "day2",
+    "第7天": "day7",
+    "体力": "stamina",
+    "体力药剂": "stamina_potion",
+    "装备": "equipment",
+    "加速": {
+      "id": "speedup",
+      "name": "加速",
+      "keywords": [
+        "加速"
+      ],
+      "source": "manual_targetName_correction",
+      "fedAt": "2026-06-18T16:27:12"
+    },
+    "特殊": "special",
+    "页签": "tab",
+    "标签": "tab",
+    "英雄": {
+      "id": "hero",
+      "name": "英雄",
+      "keywords": [
+        "英雄"
+      ],
+      "source": "manual_targetName_correction",
+      "fedAt": "2026-06-18T16:36:34"
+    },
+    "客服": "customer_service",
+    "玩家战力": "player_power",
+    "主角动画模型": "main_character_model",
+    "个性设置": "personalization_settings",
+    "等级": {
+      "id": "level",
+      "name": "等级",
+      "keywords": [
+        "等级"
+      ],
+      "source": "targetName_input_fallback",
+      "fedAt": "2026-06-23T18:20:43"
+    },
+    "玩家名称": "player_name",
+    "玩家名称背景": "player_name_background",
+    "玩家名称背景图": "player_name_background",
+    "性别": "gender",
+    "玩家改名": "player_rename",
+    "改名": "rename",
+    "玩家所在服务器id": {
+      "id": "player_server_id",
+      "name": "玩家所在服务器id",
+      "keywords": [
+        "玩家所在服务器id",
+        "角色信息界面玩家所在服务器ID文本"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:07:50"
+    },
+    "战力": {
+      "id": "power",
+      "name": "战力",
+      "keywords": [
+        "战力"
+      ],
+      "source": "targetName_input_fallback",
+      "fedAt": "2026-06-23T19:57:51"
+    },
+    "玩家所在服务器ID": {
+      "id": "player_server_id",
+      "name": "玩家所在服务器ID",
+      "keywords": [
+        "玩家所在服务器ID",
+        "玩家所在服务器ID"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:07:50"
+    },
+    "ID标题": {
+      "id": "id_label",
+      "name": "ID标题",
+      "keywords": [
+        "ID标题",
+        "ID标题"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:07:50"
+    },
+    "id标题": {
+      "id": "id_label",
+      "name": "id标题",
+      "keywords": [
+        "id标题",
+        "id标题"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:07:50"
+    },
+    "玩家角色id": {
+      "id": "id",
+      "name": "玩家角色id",
+      "keywords": [
+        "玩家角色id"
+      ],
+      "source": "targetName_input_fallback",
+      "fedAt": "2026-06-23T20:27:34"
+    },
+    "排行榜": {
+      "id": "ranking",
+      "name": "排行榜",
+      "keywords": [
+        "排行榜"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:45:00"
+    },
+    "排行": {
+      "id": "ranking",
+      "name": "排行",
+      "keywords": [
+        "排行"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:45:00"
+    },
+    "好友": {
+      "id": "friend",
+      "name": "好友",
+      "keywords": [
+        "好友"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:45:00"
+    },
+    "朋友": {
+      "id": "friend",
+      "name": "朋友",
+      "keywords": [
+        "朋友"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:45:00"
+    },
+    "旗帜": {
+      "id": "flag",
+      "name": "旗帜",
+      "keywords": [
+        "旗帜"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:49:00"
+    },
+    "国家旗帜": {
+      "id": "country_flag",
+      "name": "国家旗帜",
+      "keywords": [
+        "国家旗帜"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-23T20:49:00"
+    },
+    "国家标题": {
+      "id": "country_label",
+      "name": "国家标题",
+      "keywords": [
+        "国家标题"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-24T09:39:00"
+    },
+    "国家": {
+      "id": "country",
+      "name": "国家",
+      "keywords": [
+        "国家"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-24T09:39:00"
+    },
+    "标题": {
+      "id": "label",
+      "name": "标题",
+      "keywords": [
+        "标题"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-24T09:39:00"
+    },
+    "联盟": {
+      "id": "alliance",
+      "name": "联盟",
+      "keywords": [
+        "联盟"
+      ],
+      "source": "targetName_input_fixed",
+      "fedAt": "2026-06-24T09:39:00"
+    },
+    "增益": {
+      "id": "buff",
+      "name": "增益",
+      "keywords": [
+        "增益"
+      ],
+      "source": "targetName_input_translated",
+      "fedAt": "2026-06-24T10:00:32"
+    },
+    "资源": {
+      "id": "resource",
+      "name": "资源",
+      "keywords": [
+        "资源"
+      ],
+      "source": "targetName_input_fallback",
+      "fedAt": "2026-06-24T10:02:17"
+    }
+  },
+  "roles": {
+    "途径": "resource_source",
+    "来源": "resource_source",
+    "领取": "claim",
+    "关闭": "close",
+    "确认": "confirm",
+    "取消": "cancel",
+    "返回": "back",
+    "已领取": "claimed_state",
+    "未解锁": "locked_state",
+    "可领取": "claimable_state",
+    "点击": "action",
+    "使用": "use",
+    "添加": "add",
+    "页签": "tab",
+    "标签": "tab"
+  },
+  "types": {
+    "按钮": "Button",
+    "界面": "Panel",
+    "面板": "Panel",
+    "弹窗": "Popup",
+    "文本": "Text",
+    "图标": "Icon",
+    "红点": "RedDot",
+    "状态": "State",
+    "格子": "Item",
+    "页签": "Tab",
+    "标签": "Tab",
+    "模型": "Model",
+    "图": "Image"
+  },
+  "test_id_suffix": {
+    "Button": "button",
+    "Panel": "panel",
+    "Popup": "popup",
+    "Text": "text",
+    "Icon": "icon",
+    "RedDot": "red_dot",
+    "State": "state",
+    "Item": "item",
+    "unknown": "target",
+    "Tab": "tab",
+    "Model": "model"
+  },
+  "translation_terms": {
+    "个性设置": "personalization_settings",
+    "个性": "personalization",
+    "设置": "settings",
+    "主角": "main_character",
+    "动画": "animation",
+    "模型": "model",
+    "玩家": "player",
+    "战力": "power",
+    "客服": "customer_service",
+    "按钮": "button",
+    "文本": "text",
+    "图标": "icon",
+    "页签": "tab",
+    "返回": "back",
+    "关闭": "close",
+    "使用": "use",
+    "加速": "speedup",
+    "装备": "equipment",
+    "等级": "level",
+    "级别": "level",
+    "玩家名称": "player_name",
+    "名称": "name",
+    "背景": "background",
+    "背景图": "background_image",
+    "玩家名称背景": "player_name_background",
+    "玩家名称背景图": "player_name_background",
+    "性别": "gender",
+    "改名": "rename",
+    "重命名": "rename",
+    "玩家改名": "player_rename",
+    "玩家所在服务器ID": "player_server_id",
+    "玩家所在服务器id": "player_server_id",
+    "ID标题": "id_label",
+    "id标题": "id_label",
+    "ID": "id",
+    "排行榜": "ranking",
+    "排行": "ranking",
+    "好友": "friend",
+    "朋友": "friend",
+    "旗帜": "flag",
+    "国家旗帜": "country_flag",
+    "国家标题": "country_label",
+    "国家": "country",
+    "标题": "label",
+    "联盟": "alliance",
+    "增益": "buff"
+  }
+}

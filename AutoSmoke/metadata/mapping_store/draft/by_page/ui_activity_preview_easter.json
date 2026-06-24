@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_preview_easter",
+  "displayName": "ui_activity_preview_easter",
+  "drafts": {
+    "DRAFT_df0eea45f04b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Easter.prefab",
+      "prefabRoot": "UIActivityPreview_Easter",
+      "path": "UIActivityPreview_Easter/GoBtn",
+      "nodeName": "GoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_preview_easter",
+      "displayName": "Go按钮",
+      "chineseDescription": "UIActivityPreview_Easter的Go按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Easter.prefab」中的UIActivityPreview_EasterGo按钮",
+      "suggestedTestId": "UIActivityPreview_Easter.GoBtn",
+      "suggestedSemanticId": "UIActivityPreview_Easter.Go按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_df0eea45f04b"
+    },
+    "DRAFT_08cadff09f81": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Easter.prefab",
+      "prefabRoot": "UIActivityPreview_Easter",
+      "path": "UIActivityPreview_Easter/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_preview_easter",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityPreview_Easter的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPreview_Easter.prefab」中的UIActivityPreview_Easter关闭按钮",
+      "suggestedTestId": "UIActivityPreview_Easter.CloseBtn",
+      "suggestedSemanticId": "UIActivityPreview_Easter.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08cadff09f81"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_df0eea45f04b",
+      "DRAFT_08cadff09f81"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

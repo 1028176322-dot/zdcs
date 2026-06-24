@@ -1,0 +1,121 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_change_server_apply",
+  "displayName": "ui_activity_change_server_apply",
+  "drafts": {
+    "DRAFT_ad127552df25": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab",
+      "prefabRoot": "UIActivityChangeServerApply",
+      "path": "UIActivityChangeServerApply/Root/BG/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_apply",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityChangeServerApply的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab」中的UIActivityChangeServerApply关闭按钮",
+      "suggestedTestId": "UIActivityChangeServerApply.CloseBtn",
+      "suggestedSemanticId": "UIActivityChangeServerApply.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ad127552df25"
+    },
+    "DRAFT_9a825edb600c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab",
+      "prefabRoot": "UIActivityChangeServerApply",
+      "path": "UIActivityChangeServerApply/Root/BG/BG/Input/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "TFWinputField"
+      ],
+      "spriteName": "InputFieldBackground",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_apply",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityChangeServerApply的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab」中的UIActivityChangeServerApplyNum",
+      "suggestedTestId": "UIActivityChangeServerApply.Num",
+      "suggestedSemanticId": "UIActivityChangeServerApply.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9a825edb600c"
+    },
+    "DRAFT_8e3d12abc475": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab",
+      "prefabRoot": "UIActivityChangeServerApply",
+      "path": "UIActivityChangeServerApply/Root/BG/BG/PowerTxt/InfoBtn",
+      "nodeName": "InfoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "LayoutElement",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_infoBtn",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_apply",
+      "displayName": "Info按钮",
+      "chineseDescription": "UIActivityChangeServerApply的Info按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab」中的UIActivityChangeServerApplyInfo按钮",
+      "suggestedTestId": "UIActivityChangeServerApply.InfoBtn",
+      "suggestedSemanticId": "UIActivityChangeServerApply.Info按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8e3d12abc475"
+    },
+    "DRAFT_88fbe22eb13f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab",
+      "prefabRoot": "UIActivityChangeServerApply",
+      "path": "UIActivityChangeServerApply/Root/BG/BG/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_change_server_apply",
+      "displayName": "按钮",
+      "chineseDescription": "UIActivityChangeServerApply的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityChangeServerApply.prefab」中的UIActivityChangeServerApply按钮",
+      "suggestedTestId": "UIActivityChangeServerApply.Btn",
+      "suggestedSemanticId": "UIActivityChangeServerApply.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_88fbe22eb13f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_ad127552df25",
+      "DRAFT_9a825edb600c",
+      "DRAFT_8e3d12abc475",
+      "DRAFT_88fbe22eb13f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

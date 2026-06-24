@@ -1,0 +1,54 @@
+{
+  "category": "clickable",
+  "description": "Poco标记可点击",
+  "extract_time": "2026-06-12 14:41:09",
+  "game_coords": {
+    "left": 271,
+    "top": 51,
+    "right": 759,
+    "bottom": 761,
+    "width": 488,
+    "height": 710,
+    "timestamp": "2026-06-12T12:07:00"
+  },
+  "count": 1,
+  "elements": [
+    {
+      "name": "BtnShow",
+      "type": "Button",
+      "text": "",
+      "raw_text": "",
+      "visible": true,
+      "clickable": true,
+      "likely_clickable": true,
+      "pos_normalized": {
+        "x": 0.9315,
+        "y": 0.9807
+      },
+      "size_normalized": {
+        "w": 0.1111,
+        "h": 0.0214
+      },
+      "center_pixel": {
+        "x": 725.6,
+        "y": 747.3,
+        "game_x": 454.6,
+        "game_y": 696.3
+      },
+      "bbox_pixel": {
+        "left": 698.5,
+        "top": 739.7,
+        "right": 752.7,
+        "bottom": 754.9,
+        "width": 54.2,
+        "height": 15.2,
+        "game_left": 427.5,
+        "game_top": 688.7,
+        "game_right": 481.7,
+        "game_bottom": 703.9
+      },
+      "depth": 3,
+      "children_count": 1
+    }
+  ]
+}

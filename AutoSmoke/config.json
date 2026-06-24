@@ -1,0 +1,74 @@
+{
+  "game_resolution": {
+    "width": 1170,
+    "height": 2532,
+    "source": "unity_bridge"
+  },
+  "auto_detect_region": true,
+  "black_threshold": 30,
+  "autosmokeRoot": "E:/zdcs/AutoSmoke",
+  "unity_project_path": "E:/s1/k3client/client",
+  "game_view_coords": {
+    "left": 309,
+    "top": 73,
+    "right": 1012,
+    "bottom": 872,
+    "width": 703,
+    "height": 799,
+    "source": "unity_bridge"
+  },
+  "game_content_rect": {
+    "left": 185,
+    "top": 43,
+    "width": 332,
+    "height": 718,
+    "right": 517,
+    "bottom": 761,
+    "source": "unity_bridge"
+  },
+  "game_content_result": {
+    "gameViewPanelRect": {
+      "left": 0,
+      "top": 0,
+      "width": 703,
+      "height": 761
+    },
+    "gameRenderAreaRect": {
+      "left": 0,
+      "top": 22,
+      "width": 703,
+      "height": 739
+    },
+    "gameContentRect": {
+      "left": 181,
+      "top": 22,
+      "width": 341,
+      "height": 739
+    },
+    "scale": {
+      "x": 0.2914529914529915,
+      "y": 0.29186413902053715
+    },
+    "debug_info": {
+      "contentLeft": 181,
+      "contentRight": 522,
+      "contentWidth": 341,
+      "detectedContentTop": 22,
+      "contentTopScanStart": 22,
+      "expectedContentHeight": 739,
+      "expectedContentBottom": 761,
+      "panelImageHeight": 761,
+      "isCaptureTooShort": false,
+      "toolbarHeight": 22,
+      "renderAreaHeight": 739,
+      "contentTopFromFit": 22,
+      "contentTopSource": "image_scan",
+      "contentTopDeviation": 0,
+      "contentWidthSource": "aspect_fit:height_limited",
+      "detectedHorizontalLeft": 0,
+      "detectedHorizontalRight": 703,
+      "detectedHorizontalWidth": 703
+    },
+    "status": "OK"
+  }
+}

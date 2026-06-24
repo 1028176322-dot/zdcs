@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_spring_festival",
+  "displayName": "ui_activity_pop_spring_festival",
+  "drafts": {
+    "DRAFT_873dd8fc18bc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_SpringFestival.prefab",
+      "prefabRoot": "UIActivityPop_SpringFestival",
+      "path": "UIActivityPop_SpringFestival/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_spring_festival",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_SpringFestival的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_SpringFestival.prefab」中的UIActivityPop_SpringFestival项1",
+      "suggestedTestId": "UIActivityPop_SpringFestival.Item1",
+      "suggestedSemanticId": "UIActivityPop_SpringFestival.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_873dd8fc18bc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_873dd8fc18bc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "soldier_progress",
+  "displayName": "soldier_progress",
+  "drafts": {
+    "DRAFT_a8dbef68a759": {
+      "assetPath": "Assets/k1/Testprefab/Soldier_progress.prefab",
+      "prefabRoot": "Soldier_progress",
+      "path": "Soldier_progress/BG/Award_bg/List/mask/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animator",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "soldier_progress",
+      "displayName": "项",
+      "chineseDescription": "Soldier_progress的项",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Soldier_progress.prefab」中的Soldier_progress项",
+      "suggestedTestId": "Soldier_progress.Item",
+      "suggestedSemanticId": "Soldier_progress.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a8dbef68a759"
+    },
+    "DRAFT_510b7019f554": {
+      "assetPath": "Assets/k1/Testprefab/Soldier_progress.prefab",
+      "prefabRoot": "Soldier_progress",
+      "path": "Soldier_progress/BG/Award_bg/List/mask/Content/Item/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "soldier_progress",
+      "displayName": "ClickContent",
+      "chineseDescription": "Soldier_progress的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Soldier_progress.prefab」中的Soldier_progressClickContent",
+      "suggestedTestId": "Soldier_progress.ClickContent",
+      "suggestedSemanticId": "Soldier_progress.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_510b7019f554"
+    },
+    "DRAFT_f2334cb55f92": {
+      "assetPath": "Assets/k1/Testprefab/Soldier_progress.prefab",
+      "prefabRoot": "Soldier_progress",
+      "path": "Soldier_progress/BG/Buy_Btn",
+      "nodeName": "Buy_Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "soldier_progress",
+      "displayName": "购买按钮",
+      "chineseDescription": "Soldier_progress的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Soldier_progress.prefab」中的Soldier_progress购买按钮",
+      "suggestedTestId": "Soldier_progress.Buy_Btn",
+      "suggestedSemanticId": "Soldier_progress.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f2334cb55f92"
+    },
+    "DRAFT_51f442b45e14": {
+      "assetPath": "Assets/k1/Testprefab/Soldier_progress.prefab",
+      "prefabRoot": "Soldier_progress",
+      "path": "Soldier_progress/BG/BtnClose",
+      "nodeName": "BtnClose",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Canvas",
+        "GraphicRaycaster"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "soldier_progress",
+      "displayName": "按钮关闭",
+      "chineseDescription": "Soldier_progress的按钮关闭，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/Testprefab/Soldier_progress.prefab」中的Soldier_progress按钮关闭",
+      "suggestedTestId": "Soldier_progress.BtnClose",
+      "suggestedSemanticId": "Soldier_progress.按钮关闭",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_51f442b45e14"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a8dbef68a759",
+      "DRAFT_510b7019f554",
+      "DRAFT_f2334cb55f92",
+      "DRAFT_51f442b45e14"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

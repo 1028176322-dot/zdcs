@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_world_enemy_reward",
+  "displayName": "ui_world_enemy_reward",
+  "drafts": {
+    "DRAFT_52245e89d418": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab",
+      "prefabRoot": "UIWorldEnemyReward",
+      "path": "UIWorldEnemyReward/Root/Grid_8/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_world_enemy_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIWorldEnemyReward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab」中的UIWorldEnemyRewardClickContent",
+      "suggestedTestId": "UIWorldEnemyReward.ClickContent",
+      "suggestedSemanticId": "UIWorldEnemyReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_52245e89d418"
+    },
+    "DRAFT_1ef65974c44c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab",
+      "prefabRoot": "UIWorldEnemyReward",
+      "path": "UIWorldEnemyReward/Root/ScrollView/View/Grid/Item_new/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_world_enemy_reward",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIWorldEnemyReward的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab」中的UIWorldEnemyRewardClickContent",
+      "suggestedTestId": "UIWorldEnemyReward.ClickContent",
+      "suggestedSemanticId": "UIWorldEnemyReward.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1ef65974c44c"
+    },
+    "DRAFT_18519495cbe4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab",
+      "prefabRoot": "UIWorldEnemyReward",
+      "path": "UIWorldEnemyReward/Root/Button/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_world_enemy_reward",
+      "displayName": "按钮",
+      "chineseDescription": "UIWorldEnemyReward的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/WorldEnemy/UIWorldEnemyReward.prefab」中的UIWorldEnemyReward按钮",
+      "suggestedTestId": "UIWorldEnemyReward.Btn",
+      "suggestedSemanticId": "UIWorldEnemyReward.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_18519495cbe4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_52245e89d418",
+      "DRAFT_1ef65974c44c",
+      "DRAFT_18519495cbe4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

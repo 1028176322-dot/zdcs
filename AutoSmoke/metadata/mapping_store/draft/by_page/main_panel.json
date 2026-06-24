@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_panel",
+  "displayName": "main_panel",
+  "drafts": {
+    "DRAFT_d5a09b137c8c": {
+      "assetPath": "Assets/CasualGame/BcManyknives/Prefab/MainPanel.prefab",
+      "prefabRoot": "MainPanel",
+      "path": "MainPanel/Canvas/ctrlPanel",
+      "nodeName": "ctrlPanel",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Image",
+        "EventTrigger"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "main_panel",
+      "displayName": "ctrl面板",
+      "chineseDescription": "主界面的ctrl面板，点击后执行操作",
+      "reviewHint": "Prefab「Assets/CasualGame/BcManyknives/Prefab/MainPanel.prefab」中的主界面ctrl面板",
+      "suggestedTestId": "MainPanel.ctrlPanel",
+      "suggestedSemanticId": "主界面.ctrl面板",
+      "role": "primary_action_button",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d5a09b137c8c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d5a09b137c8c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

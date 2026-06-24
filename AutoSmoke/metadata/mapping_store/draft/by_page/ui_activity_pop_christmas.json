@@ -1,0 +1,39 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_pop_christmas",
+  "displayName": "ui_activity_pop_christmas",
+  "drafts": {
+    "DRAFT_43baf7ba2cd6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Christmas.prefab",
+      "prefabRoot": "UIActivityPop_Christmas",
+      "path": "UIActivityPop_Christmas/Scroll/Mask/Content/Item1",
+      "nodeName": "Item1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_pop_christmas",
+      "displayName": "项1",
+      "chineseDescription": "UIActivityPop_Christmas的项1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityPop_Christmas.prefab」中的UIActivityPop_Christmas项1",
+      "suggestedTestId": "UIActivityPop_Christmas.Item1",
+      "suggestedSemanticId": "UIActivityPop_Christmas.项1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_43baf7ba2cd6"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_43baf7ba2cd6"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_ui_activity_strike_back_exchange",
+  "displayName": "export_ui_activity_strike_back_exchange",
+  "drafts": {
+    "DRAFT_206876baa437": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab",
+      "prefabRoot": "EXPORT_UIActivityStrikeBackExchange",
+      "path": "EXPORT_UIActivityStrikeBackExchange/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_ui_activity_strike_back_exchange",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_UIActivityStrikeBackExchange的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab」中的EXPORT_UIActivityStrikeBackExchange关闭按钮",
+      "suggestedTestId": "EXPORT_UIActivityStrikeBackExchange.CloseBtn",
+      "suggestedSemanticId": "EXPORT_UIActivityStrikeBackExchange.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_206876baa437"
+    },
+    "DRAFT_5110cc684876": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab",
+      "prefabRoot": "EXPORT_UIActivityStrikeBackExchange",
+      "path": "EXPORT_UIActivityStrikeBackExchange/Root/ExchangeInfo/ItemNew_1/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_ui_activity_strike_back_exchange",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivityStrikeBackExchange的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab」中的EXPORT_UIActivityStrikeBackExchangeClickContent",
+      "suggestedTestId": "EXPORT_UIActivityStrikeBackExchange.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivityStrikeBackExchange.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5110cc684876"
+    },
+    "DRAFT_9d716ed9442f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab",
+      "prefabRoot": "EXPORT_UIActivityStrikeBackExchange",
+      "path": "EXPORT_UIActivityStrikeBackExchange/Root/ExchangeInfo/ItemNew_2/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_ui_activity_strike_back_exchange",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivityStrikeBackExchange的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab」中的EXPORT_UIActivityStrikeBackExchangeClickContent",
+      "suggestedTestId": "EXPORT_UIActivityStrikeBackExchange.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivityStrikeBackExchange.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9d716ed9442f"
+    },
+    "DRAFT_8326432f0763": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab",
+      "prefabRoot": "EXPORT_UIActivityStrikeBackExchange",
+      "path": "EXPORT_UIActivityStrikeBackExchange/Root/ExchangeInfo/ Btn_Exchange",
+      "nodeName": " Btn_Exchange",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "export_ui_activity_strike_back_exchange",
+      "displayName": "按钮Exchange",
+      "chineseDescription": "EXPORT_UIActivityStrikeBackExchange的按钮Exchange，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Activity/EXPORT_UIActivityStrikeBackExchange.prefab」中的EXPORT_UIActivityStrikeBackExchange按钮Exchange",
+      "suggestedTestId": "EXPORT_UIActivityStrikeBackExchange.Btn_Exchange",
+      "suggestedSemanticId": "EXPORT_UIActivityStrikeBackExchange.按钮Exchange",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8326432f0763"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_206876baa437",
+      "DRAFT_5110cc684876",
+      "DRAFT_9d716ed9442f",
+      "DRAFT_8326432f0763"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

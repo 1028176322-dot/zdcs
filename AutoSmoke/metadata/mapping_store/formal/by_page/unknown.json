@@ -1,0 +1,18 @@
+{
+  "schema_version": "element_mapping_formal.page.v1",
+  "pageId": "unknown",
+  "displayName": "ui",
+  "mappings": {},
+  "groups": {
+    "top_bar": [],
+    "tabs": [],
+    "content": [],
+    "bottom_actions": [],
+    "navigation": [],
+    "dialogs": [],
+    "list_templates": [],
+    "unknown": []
+  },
+  "updated_at": "2026-06-24T10:50:53",
+  "count": 0
+}

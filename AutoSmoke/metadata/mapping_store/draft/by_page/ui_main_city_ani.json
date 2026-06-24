@@ -1,0 +1,163 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_main_city_ani",
+  "displayName": "ui_main_city_ani",
+  "drafts": {
+    "DRAFT_dad99c73233a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/Main",
+      "nodeName": "Main",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "Main",
+      "chineseDescription": "UIMainCityAni的Main",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniMain",
+      "suggestedTestId": "UIMainCityAni.Main",
+      "suggestedSemanticId": "UIMainCityAni.Main",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dad99c73233a"
+    },
+    "DRAFT_ad944ce8af75": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/College",
+      "nodeName": "College",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "College",
+      "chineseDescription": "UIMainCityAni的College",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniCollege",
+      "suggestedTestId": "UIMainCityAni.College",
+      "suggestedSemanticId": "UIMainCityAni.College",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ad944ce8af75"
+    },
+    "DRAFT_040e33d217f2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/Tavern",
+      "nodeName": "Tavern",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "Tavern",
+      "chineseDescription": "UIMainCityAni的Tavern",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniTavern",
+      "suggestedTestId": "UIMainCityAni.Tavern",
+      "suggestedSemanticId": "UIMainCityAni.Tavern",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_040e33d217f2"
+    },
+    "DRAFT_cbc96b2ea1d4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/Gold",
+      "nodeName": "Gold",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "Gold",
+      "chineseDescription": "UIMainCityAni的Gold",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniGold",
+      "suggestedTestId": "UIMainCityAni.Gold",
+      "suggestedSemanticId": "UIMainCityAni.Gold",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cbc96b2ea1d4"
+    },
+    "DRAFT_5c2b10bf386f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/Barracks",
+      "nodeName": "Barracks",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "Barracks",
+      "chineseDescription": "UIMainCityAni的Barracks",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniBarracks",
+      "suggestedTestId": "UIMainCityAni.Barracks",
+      "suggestedSemanticId": "UIMainCityAni.Barracks",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5c2b10bf386f"
+    },
+    "DRAFT_1712a1c68ae9": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab",
+      "prefabRoot": "UIMainCityAni",
+      "path": "UIMainCityAni/UIMainCityAni/Root/Canvas/DragonPoint",
+      "nodeName": "DragonPoint",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_city_ani",
+      "displayName": "DragonPoint",
+      "chineseDescription": "UIMainCityAni的DragonPoint",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainCityAni.prefab」中的UIMainCityAniDragonPoint",
+      "suggestedTestId": "UIMainCityAni.DragonPoint",
+      "suggestedSemanticId": "UIMainCityAni.DragonPoint",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1712a1c68ae9"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dad99c73233a",
+      "DRAFT_ad944ce8af75",
+      "DRAFT_040e33d217f2",
+      "DRAFT_cbc96b2ea1d4",
+      "DRAFT_5c2b10bf386f",
+      "DRAFT_1712a1c68ae9"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

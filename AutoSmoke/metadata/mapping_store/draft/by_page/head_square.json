@@ -1,0 +1,37 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "head_square",
+  "displayName": "head_square",
+  "drafts": {
+    "DRAFT_98947a36feb8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Head_Square.prefab",
+      "prefabRoot": "Head_Square",
+      "path": "Head_Square",
+      "nodeName": "Head_Square",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "head_square",
+      "displayName": "HeadSquare",
+      "chineseDescription": "Head_Square的HeadSquare",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Head_Square.prefab」中的Head_SquareHeadSquare",
+      "suggestedTestId": "Head_Square.Head_Square",
+      "suggestedSemanticId": "Head_Square.HeadSquare",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_98947a36feb8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_98947a36feb8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_customize_gift_banner",
+  "displayName": "ui_activity_customize_gift_banner",
+  "drafts": {
+    "DRAFT_e48275939109": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab",
+      "prefabRoot": "UIActivityCustomizeGiftBanner",
+      "path": "UIActivityCustomizeGiftBanner/Chest",
+      "nodeName": "Chest",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UIMask",
+      "clickable": true,
+      "pageId": "ui_activity_customize_gift_banner",
+      "displayName": "Chest",
+      "chineseDescription": "UIActivityCustomizeGiftBanner的Chest",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab」中的UIActivityCustomizeGiftBannerChest",
+      "suggestedTestId": "UIActivityCustomizeGiftBanner.Chest",
+      "suggestedSemanticId": "UIActivityCustomizeGiftBanner.Chest",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e48275939109"
+    },
+    "DRAFT_71e343db765a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab",
+      "prefabRoot": "UIActivityCustomizeGiftBanner",
+      "path": "UIActivityCustomizeGiftBanner/Chest/State1/Icon",
+      "nodeName": "Icon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animation"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_customize_gift_banner",
+      "displayName": "图标",
+      "chineseDescription": "UIActivityCustomizeGiftBanner的图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab」中的UIActivityCustomizeGiftBanner图标",
+      "suggestedTestId": "UIActivityCustomizeGiftBanner.Icon",
+      "suggestedSemanticId": "UIActivityCustomizeGiftBanner.图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_71e343db765a"
+    },
+    "DRAFT_21fde99fd954": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab",
+      "prefabRoot": "UIActivityCustomizeGiftBanner",
+      "path": "UIActivityCustomizeGiftBanner/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_customize_gift_banner",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIActivityCustomizeGiftBanner的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab」中的UIActivityCustomizeGiftBannerCommon按钮",
+      "suggestedTestId": "UIActivityCustomizeGiftBanner.CommonBtn",
+      "suggestedSemanticId": "UIActivityCustomizeGiftBanner.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_21fde99fd954"
+    },
+    "DRAFT_de4511bcada0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab",
+      "prefabRoot": "UIActivityCustomizeGiftBanner",
+      "path": "UIActivityCustomizeGiftBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_customize_gift_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCustomizeGiftBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCustomizeGiftBanner.prefab」中的UIActivityCustomizeGiftBannerInfo",
+      "suggestedTestId": "UIActivityCustomizeGiftBanner.Info",
+      "suggestedSemanticId": "UIActivityCustomizeGiftBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_de4511bcada0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_e48275939109",
+      "DRAFT_71e343db765a",
+      "DRAFT_21fde99fd954",
+      "DRAFT_de4511bcada0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

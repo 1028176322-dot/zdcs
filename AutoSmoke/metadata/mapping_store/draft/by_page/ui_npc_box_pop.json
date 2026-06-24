@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_npc_box_pop",
+  "displayName": "ui_npc_box_pop",
+  "drafts": {
+    "DRAFT_f873361342de": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab",
+      "prefabRoot": "UINpcBoxPop",
+      "path": "UINpcBoxPop/Mask",
+      "nodeName": "Mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "ui_npc_box_pop",
+      "displayName": "Mask",
+      "chineseDescription": "UINpcBoxPop的Mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab」中的UINpcBoxPopMask",
+      "suggestedTestId": "UINpcBoxPop.Mask",
+      "suggestedSemanticId": "UINpcBoxPop.Mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f873361342de"
+    },
+    "DRAFT_9d80c9c3ce58": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab",
+      "prefabRoot": "UINpcBoxPop",
+      "path": "UINpcBoxPop/centre_other/animation/ContentDetail/RssDetail/Scroll/View/Content/Item/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_npc_box_pop",
+      "displayName": "ClickContent",
+      "chineseDescription": "UINpcBoxPop的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab」中的UINpcBoxPopClickContent",
+      "suggestedTestId": "UINpcBoxPop.ClickContent",
+      "suggestedSemanticId": "UINpcBoxPop.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9d80c9c3ce58"
+    },
+    "DRAFT_58608b77a130": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab",
+      "prefabRoot": "UINpcBoxPop",
+      "path": "UINpcBoxPop/centre_other/animation/ContentDetail/events/Tabs/btn_1",
+      "nodeName": "btn_1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_npc_box_pop",
+      "displayName": "btn1",
+      "chineseDescription": "UINpcBoxPop的btn1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab」中的UINpcBoxPopbtn1",
+      "suggestedTestId": "UINpcBoxPop.btn_1",
+      "suggestedSemanticId": "UINpcBoxPop.btn1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_58608b77a130"
+    },
+    "DRAFT_eb7a5f4eefce": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab",
+      "prefabRoot": "UINpcBoxPop",
+      "path": "UINpcBoxPop/centre_other/animation/ContentDetail/events/Tabs/btn_2",
+      "nodeName": "btn_2",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_npc_box_pop",
+      "displayName": "btn2",
+      "chineseDescription": "UINpcBoxPop的btn2，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/NpcBox/UINpcBoxPop.prefab」中的UINpcBoxPopbtn2",
+      "suggestedTestId": "UINpcBoxPop.btn_2",
+      "suggestedSemanticId": "UINpcBoxPop.btn2",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb7a5f4eefce"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f873361342de",
+      "DRAFT_9d80c9c3ce58",
+      "DRAFT_58608b77a130",
+      "DRAFT_eb7a5f4eefce"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

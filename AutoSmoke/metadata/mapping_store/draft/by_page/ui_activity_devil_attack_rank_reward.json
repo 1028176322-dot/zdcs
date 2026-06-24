@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_devil_attack_rank_reward",
+  "displayName": "ui_activity_devil_attack_rank_reward",
+  "drafts": {
+    "DRAFT_2d59c5744b64": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab",
+      "prefabRoot": "UIActivityDevilAttackRankReward",
+      "path": "UIActivityDevilAttackRankReward/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_devil_attack_rank_reward",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityDevilAttackRankReward的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab」中的UIActivityDevilAttackRankReward关闭按钮",
+      "suggestedTestId": "UIActivityDevilAttackRankReward.CloseBtn",
+      "suggestedSemanticId": "UIActivityDevilAttackRankReward.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d59c5744b64"
+    },
+    "DRAFT_2fd82a37cc0f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab",
+      "prefabRoot": "UIActivityDevilAttackRankReward",
+      "path": "UIActivityDevilAttackRankReward/Root/TabGroup/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_devil_attack_rank_reward",
+      "displayName": "tab1",
+      "chineseDescription": "UIActivityDevilAttackRankReward的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab」中的UIActivityDevilAttackRankRewardtab1",
+      "suggestedTestId": "UIActivityDevilAttackRankReward.tab1",
+      "suggestedSemanticId": "UIActivityDevilAttackRankReward.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2fd82a37cc0f"
+    },
+    "DRAFT_057532660909": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab",
+      "prefabRoot": "UIActivityDevilAttackRankReward",
+      "path": "UIActivityDevilAttackRankReward/Root/TabGroup/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWTab",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_devil_attack_rank_reward",
+      "displayName": "tab2",
+      "chineseDescription": "UIActivityDevilAttackRankReward的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityDevilAttackRankReward.prefab」中的UIActivityDevilAttackRankRewardtab2",
+      "suggestedTestId": "UIActivityDevilAttackRankReward.tab2",
+      "suggestedSemanticId": "UIActivityDevilAttackRankReward.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_057532660909"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2d59c5744b64",
+      "DRAFT_2fd82a37cc0f",
+      "DRAFT_057532660909"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

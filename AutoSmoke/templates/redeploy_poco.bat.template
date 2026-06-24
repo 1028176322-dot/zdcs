@@ -1,0 +1,47 @@
+@echo off
+REM =========================================================
+REM  Poco SDK 一键重新部署脚本
+REM   当 Unity 清理/还原工程后，双击此脚本即可恢复
+REM =========================================================
+
+set UNITY_PROJECT=__UNITY_PROJECT__
+set POCO_BACKUP=__POCO_BACKUP__
+set POCO_TARGET=%UNITY_PROJECT%\Assets\Poco
+
+echo.
+echo ========== Poco SDK 部署 ==========
+echo.
+
+if not exist "%POCO_BACKUP%\PocoManager.cs" (
+    echo [错误] 备份文件不存在：%POCO_BACKUP%
+    echo 请先将 Poco SDK 备份到 %POCO_BACKUP%
+    pause
+    exit /b 1
+)
+
+if exist "%POCO_TARGET%" (
+    echo [1/4] 清理旧的 Poco 目录...
+    rmdir /s /q "%POCO_TARGET%"
+)
+
+echo [2/4] 从备份恢复 Poco SDK...
+mkdir "%POCO_TARGET%"
+xcopy /E /I /Y "%POCO_BACKUP%\3rdLib" "%POCO_TARGET%\3rdLib\" >nul
+xcopy /E /I /Y "%POCO_BACKUP%\sdk" "%POCO_TARGET%\sdk\" >nul
+xcopy /E /I /Y "%POCO_BACKUP%\uguiWithTMPro" "%POCO_TARGET%\uguiWithTMPro\" >nul
+copy /Y "%POCO_BACKUP%\*.cs" "%POCO_TARGET%\" >nul
+
+echo [3/4] 清理不需要的 UI 框架（fairygui / ngui / ugui）...
+if exist "%POCO_TARGET%\fairygui" rmdir /s /q "%POCO_TARGET%\fairygui"
+if exist "%POCO_TARGET%\ngui" rmdir /s /q "%POCO_TARGET%\ngui"
+if exist "%POCO_TARGET%\ugui" rmdir /s /q "%POCO_TARGET%\ugui"
+
+echo [4/4] 部署完成！
+echo.
+echo =========================================================
+echo  已恢复 Poco SDK -> %POCO_TARGET%
+echo  请回到 Unity 编辑器，等待编译完成
+echo  确认 Console 出现：[NetMonitor] Initialized
+echo =========================================================
+echo.
+pause

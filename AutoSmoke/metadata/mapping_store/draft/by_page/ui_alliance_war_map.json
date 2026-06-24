@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_war_map",
+  "displayName": "ui_alliance_war_map",
+  "drafts": {
+    "DRAFT_bcf8ba67751d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarMap.prefab",
+      "prefabRoot": "UIAllianceWarMap",
+      "path": "UIAllianceWarMap/Root/Model/AllianceWar_White",
+      "nodeName": "AllianceWar_White",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWEmpty4Raycast",
+        "TFWUIMaskLayer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_war_map",
+      "displayName": "AllianceWarWhite",
+      "chineseDescription": "UIAllianceWarMap的AllianceWarWhite",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceWar/UIAllianceWarMap.prefab」中的UIAllianceWarMapAllianceWarWhite",
+      "suggestedTestId": "UIAllianceWarMap.AllianceWar_White",
+      "suggestedSemanticId": "UIAllianceWarMap.AllianceWarWhite",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bcf8ba67751d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bcf8ba67751d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "element_mapping_formal.global.v1",
+  "scope": "top_bar",
+  "displayName": "top_bar",
+  "updated_at": "2026-06-24T10:05:16",
+  "count": 4,
+  "mappings": {},
+  "groups": {
+    "top_bar": [],
+    "tabs": [],
+    "content": [],
+    "bottom_actions": [],
+    "navigation": [],
+    "dialogs": [],
+    "list_templates": [],
+    "unknown": []
+  }
+}

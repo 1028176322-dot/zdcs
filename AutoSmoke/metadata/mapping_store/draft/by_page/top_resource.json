@@ -1,0 +1,63 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "top_resource",
+  "displayName": "top_resource",
+  "drafts": {
+    "DRAFT_7205fd8531dd": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource.prefab",
+      "prefabRoot": "TopResource",
+      "path": "TopResource/Coin",
+      "nodeName": "Coin",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource",
+      "displayName": "Coin",
+      "chineseDescription": "TopResource的Coin",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource.prefab」中的TopResourceCoin",
+      "suggestedTestId": "TopResource.Coin",
+      "suggestedSemanticId": "TopResource.Coin",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7205fd8531dd"
+    },
+    "DRAFT_f4861e216ef0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource.prefab",
+      "prefabRoot": "TopResource",
+      "path": "TopResource/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource",
+      "displayName": "Diamond",
+      "chineseDescription": "TopResource的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource.prefab」中的TopResourceDiamond",
+      "suggestedTestId": "TopResource.Diamond",
+      "suggestedSemanticId": "TopResource.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f4861e216ef0"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7205fd8531dd",
+      "DRAFT_f4861e216ef0"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

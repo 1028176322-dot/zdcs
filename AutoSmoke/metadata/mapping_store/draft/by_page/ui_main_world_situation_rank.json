@@ -1,0 +1,88 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_main_world_situation_rank",
+  "displayName": "ui_main_world_situation_rank",
+  "drafts": {
+    "DRAFT_370fdabbb96d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab",
+      "prefabRoot": "UIMainWorldSituationRank",
+      "path": "UIMainWorldSituationRank/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_main_world_situation_rank",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIMainWorldSituationRank的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab」中的UIMainWorldSituationRank关闭按钮",
+      "suggestedTestId": "UIMainWorldSituationRank.CloseBtn",
+      "suggestedSemanticId": "UIMainWorldSituationRank.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_370fdabbb96d"
+    },
+    "DRAFT_279c7eaf7e6a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab",
+      "prefabRoot": "UIMainWorldSituationRank",
+      "path": "UIMainWorldSituationRank/Root/Tabs/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_world_situation_rank",
+      "displayName": "tab1",
+      "chineseDescription": "UIMainWorldSituationRank的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab」中的UIMainWorldSituationRanktab1",
+      "suggestedTestId": "UIMainWorldSituationRank.tab1",
+      "suggestedSemanticId": "UIMainWorldSituationRank.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_279c7eaf7e6a"
+    },
+    "DRAFT_08a17e444856": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab",
+      "prefabRoot": "UIMainWorldSituationRank",
+      "path": "UIMainWorldSituationRank/Root/Tabs/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_world_situation_rank",
+      "displayName": "tab2",
+      "chineseDescription": "UIMainWorldSituationRank的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainWorldSituationRank.prefab」中的UIMainWorldSituationRanktab2",
+      "suggestedTestId": "UIMainWorldSituationRank.tab2",
+      "suggestedSemanticId": "UIMainWorldSituationRank.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_08a17e444856"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_370fdabbb96d",
+      "DRAFT_279c7eaf7e6a",
+      "DRAFT_08a17e444856"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

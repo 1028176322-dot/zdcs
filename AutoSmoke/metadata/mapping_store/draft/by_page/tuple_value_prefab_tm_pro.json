@@ -1,0 +1,66 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "tuple_value_prefab_tm_pro",
+  "displayName": "tuple_value_prefab_tm_pro",
+  "drafts": {
+    "DRAFT_2c0e88c39810": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TMPro/TupleValuePrefab-TMPro.prefab",
+      "prefabRoot": "TupleValuePrefab-TMPro",
+      "path": "TupleValuePrefab-TMPro",
+      "nodeName": "TupleValuePrefab-TMPro",
+      "componentTypes": [
+        "RectTransform",
+        "Button",
+        "CanvasRenderer",
+        "Image",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tuple_value_prefab_tm_pro",
+      "displayName": "TupleValuePrefabTMPro",
+      "chineseDescription": "TupleValuePrefab-TMPro的TupleValuePrefabTMPro，点击后执行操作",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TMPro/TupleValuePrefab-TMPro.prefab」中的TupleValuePrefab-TMProTupleValuePrefabTMPro",
+      "suggestedTestId": "TupleValuePrefab-TMPro.TupleValuePrefab-TMPro",
+      "suggestedSemanticId": "TupleValuePrefab-TMPro.TupleValuePrefabTMPro",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2c0e88c39810"
+    },
+    "DRAFT_8dee56d0f4a2": {
+      "assetPath": "Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TMPro/TupleValuePrefab-TMPro.prefab",
+      "prefabRoot": "TupleValuePrefab-TMPro",
+      "path": "TupleValuePrefab-TMPro/Toggle",
+      "nodeName": "Toggle",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "Toggle",
+        "LayoutElement"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "tuple_value_prefab_tm_pro",
+      "displayName": "开关",
+      "chineseDescription": "TupleValuePrefab-TMPro的开关",
+      "reviewHint": "Prefab「Assets/Plugins/Com.ForbiddenByte/OSA/Utilities/Editor/Resources/Com.ForbiddenByte.OSA/Templates/ScrollViews/TableView/ItemPrefabs/TMPro/TupleValuePrefab-TMPro.prefab」中的TupleValuePrefab-TMPro开关",
+      "suggestedTestId": "TupleValuePrefab-TMPro.Toggle",
+      "suggestedSemanticId": "TupleValuePrefab-TMPro.开关",
+      "role": "toggle",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8dee56d0f4a2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2c0e88c39810",
+      "DRAFT_8dee56d0f4a2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

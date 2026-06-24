@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "page_fund1",
+  "displayName": "page_fund1",
+  "drafts": {
+    "DRAFT_b6c2464f2ab1": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab",
+      "prefabRoot": "Page_fund1",
+      "path": "Page_fund1/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "page_fund1",
+      "displayName": "Items",
+      "chineseDescription": "Page_fund1的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab」中的Page_fund1Items",
+      "suggestedTestId": "Page_fund1.Items",
+      "suggestedSemanticId": "Page_fund1.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b6c2464f2ab1"
+    },
+    "DRAFT_b936b8363ef7": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab",
+      "prefabRoot": "Page_fund1",
+      "path": "Page_fund1/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "page_fund1",
+      "displayName": "Node2",
+      "chineseDescription": "Page_fund1的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab」中的Page_fund1Node2",
+      "suggestedTestId": "Page_fund1.Node2",
+      "suggestedSemanticId": "Page_fund1.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b936b8363ef7"
+    },
+    "DRAFT_90ceec0a5841": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab",
+      "prefabRoot": "Page_fund1",
+      "path": "Page_fund1/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "page_fund1",
+      "displayName": "Add按钮",
+      "chineseDescription": "Page_fund1的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab」中的Page_fund1Add按钮",
+      "suggestedTestId": "Page_fund1.AddBtn",
+      "suggestedSemanticId": "Page_fund1.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_90ceec0a5841"
+    },
+    "DRAFT_a539e1b28e0d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab",
+      "prefabRoot": "Page_fund1",
+      "path": "Page_fund1/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "page_fund1",
+      "displayName": "购买按钮",
+      "chineseDescription": "Page_fund1的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Shop/NewGrouthFund/Page_fund1.prefab」中的Page_fund1购买按钮",
+      "suggestedTestId": "Page_fund1.BuyBtn",
+      "suggestedSemanticId": "Page_fund1.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a539e1b28e0d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b6c2464f2ab1",
+      "DRAFT_b936b8363ef7",
+      "DRAFT_90ceec0a5841",
+      "DRAFT_a539e1b28e0d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

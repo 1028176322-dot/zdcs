@@ -1,0 +1,147 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_hero_symbiont_main",
+  "displayName": "ui_hero_symbiont_main",
+  "drafts": {
+    "DRAFT_cec58df67473": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab",
+      "prefabRoot": "UIHeroSymbiontMain",
+      "path": "UIHeroSymbiontMain/BG",
+      "nodeName": "BG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_main",
+      "displayName": "BG",
+      "chineseDescription": "UIHeroSymbiontMain的BG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab」中的UIHeroSymbiontMainBG",
+      "suggestedTestId": "UIHeroSymbiontMain.BG",
+      "suggestedSemanticId": "UIHeroSymbiontMain.BG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_cec58df67473"
+    },
+    "DRAFT_b1aaf6999400": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab",
+      "prefabRoot": "UIHeroSymbiontMain",
+      "path": "UIHeroSymbiontMain/Root/Content/SymbiontButton",
+      "nodeName": "SymbiontButton",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_main",
+      "displayName": "Symbiont按钮",
+      "chineseDescription": "UIHeroSymbiontMain的Symbiont按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab」中的UIHeroSymbiontMainSymbiont按钮",
+      "suggestedTestId": "UIHeroSymbiontMain.SymbiontButton",
+      "suggestedSemanticId": "UIHeroSymbiontMain.Symbiont按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b1aaf6999400"
+    },
+    "DRAFT_8eb53bb46fe3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab",
+      "prefabRoot": "UIHeroSymbiontMain",
+      "path": "UIHeroSymbiontMain/Root/Content/LeftItem/addBtn",
+      "nodeName": "addBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Symbiont_Img_2",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_main",
+      "displayName": "add按钮",
+      "chineseDescription": "UIHeroSymbiontMain的add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab」中的UIHeroSymbiontMainadd按钮",
+      "suggestedTestId": "UIHeroSymbiontMain.addBtn",
+      "suggestedSemanticId": "UIHeroSymbiontMain.add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8eb53bb46fe3"
+    },
+    "DRAFT_e1e21a4bbe05": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab",
+      "prefabRoot": "UIHeroSymbiontMain",
+      "path": "UIHeroSymbiontMain/Root/Content/RightItem/addBtn",
+      "nodeName": "addBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Symbiont_Img_2",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_main",
+      "displayName": "add按钮",
+      "chineseDescription": "UIHeroSymbiontMain的add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab」中的UIHeroSymbiontMainadd按钮",
+      "suggestedTestId": "UIHeroSymbiontMain.addBtn",
+      "suggestedSemanticId": "UIHeroSymbiontMain.add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e1e21a4bbe05"
+    },
+    "DRAFT_93071dccd325": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab",
+      "prefabRoot": "UIHeroSymbiontMain",
+      "path": "UIHeroSymbiontMain/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_hero_symbiont_main",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIHeroSymbiontMain的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIHeroSymbiontMain.prefab」中的UIHeroSymbiontMain关闭按钮",
+      "suggestedTestId": "UIHeroSymbiontMain.CloseBtn",
+      "suggestedSemanticId": "UIHeroSymbiontMain.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_93071dccd325"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_cec58df67473",
+      "DRAFT_b1aaf6999400",
+      "DRAFT_8eb53bb46fe3",
+      "DRAFT_e1e21a4bbe05",
+      "DRAFT_93071dccd325"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

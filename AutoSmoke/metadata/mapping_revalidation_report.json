@@ -1,0 +1,212 @@
+{
+  "schema_version": "mapping_revalidation_report.v1",
+  "updated_at": "2026-06-18T15:10:20",
+  "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json",
+  "results": {
+    "ui_shop.top_res.item_1.cell": {
+      "testId": "ui_shop.top_res.item_1.cell",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "ResItem_1",
+      "rectDeltaPx": null,
+      "oldScreenRect": [],
+      "currentScreenRect": [
+        256,
+        20,
+        472,
+        129
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.top_res.item_2.cell": {
+      "testId": "ui_shop.top_res.item_2.cell",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "ResItem_2",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        476,
+        20,
+        693,
+        129
+      ],
+      "currentScreenRect": [
+        476,
+        20,
+        693,
+        129
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.top_res.item_4.cell": {
+      "testId": "ui_shop.top_res.item_4.cell",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "ResItem_4",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        918,
+        20,
+        1134,
+        129
+      ],
+      "currentScreenRect": [
+        918,
+        20,
+        1134,
+        129
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.bag.res_item_3.button": {
+      "testId": "ui_shop.bag.res_item_3.button",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "ResItem_3",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        697,
+        20,
+        914,
+        129
+      ],
+      "currentScreenRect": [
+        697,
+        20,
+        914,
+        129
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell": {
+      "testId": "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        30,
+        292,
+        290,
+        552
+      ],
+      "currentScreenRect": [
+        30,
+        292,
+        290,
+        552
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.baf6e9": {
+      "testId": "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.baf6e9",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        313,
+        292,
+        573,
+        552
+      ],
+      "currentScreenRect": [
+        313,
+        292,
+        573,
+        552
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.be252a": {
+      "testId": "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.be252a",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        596,
+        292,
+        856,
+        552
+      ],
+      "currentScreenRect": [
+        596,
+        292,
+        856,
+        552
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.2548c0": {
+      "testId": "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.click_content.cell.2548c0",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
+      "rectDeltaPx": 0.0,
+      "oldScreenRect": [
+        878,
+        292,
+        1138,
+        552
+      ],
+      "currentScreenRect": [
+        878,
+        292,
+        1138,
+        552
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.btn_close.button": {
+      "testId": "ui_shop.ui_shop_clone_ui_shop_pop_ui_shop_pop.btn_close.button",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/BtnClose",
+      "rectDeltaPx": null,
+      "oldScreenRect": [],
+      "currentScreenRect": [
+        21,
+        2397,
+        131,
+        2493
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "bag.prop_item.click_area": {
+      "testId": "bag.prop_item.click_area",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content",
+      "rectDeltaPx": null,
+      "oldScreenRect": [],
+      "currentScreenRect": [
+        0,
+        256,
+        1170,
+        559
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    },
+    "bag.use.button": {
+      "testId": "bag.use.button",
+      "status": "ok",
+      "exists": true,
+      "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+      "rectDeltaPx": null,
+      "oldScreenRect": [],
+      "currentScreenRect": [
+        380,
+        2376,
+        790,
+        2527
+      ],
+      "runtimeTreePath": "E:\\zdcs\\AutoSmoke\\metadata\\runtime_ui_tree_current.json"
+    }
+  },
+  "summary": {
+    "total": 11,
+    "ok": 11,
+    "stale": 0
+  }
+}

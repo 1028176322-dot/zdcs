@@ -1,0 +1,92 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_nomal_gift_banner",
+  "displayName": "ui_activity_nomal_gift_banner",
+  "drafts": {
+    "DRAFT_7767bedb5858": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab",
+      "prefabRoot": "UIActivityNomalGiftBanner",
+      "path": "UIActivityNomalGiftBanner/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_nomal_gift_banner",
+      "displayName": "Diamond",
+      "chineseDescription": "UIActivityNomalGiftBanner的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab」中的UIActivityNomalGiftBannerDiamond",
+      "suggestedTestId": "UIActivityNomalGiftBanner.Diamond",
+      "suggestedSemanticId": "UIActivityNomalGiftBanner.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7767bedb5858"
+    },
+    "DRAFT_43d0d2112e88": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab",
+      "prefabRoot": "UIActivityNomalGiftBanner",
+      "path": "UIActivityNomalGiftBanner/Diamond/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "+",
+      "clickable": true,
+      "pageId": "ui_activity_nomal_gift_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityNomalGiftBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab」中的UIActivityNomalGiftBannerAdd",
+      "suggestedTestId": "UIActivityNomalGiftBanner.Add",
+      "suggestedSemanticId": "UIActivityNomalGiftBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_43d0d2112e88"
+    },
+    "DRAFT_7f5996f363a5": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab",
+      "prefabRoot": "UIActivityNomalGiftBanner",
+      "path": "UIActivityNomalGiftBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_nomal_gift_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityNomalGiftBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNomalGiftBanner.prefab」中的UIActivityNomalGiftBannerInfo",
+      "suggestedTestId": "UIActivityNomalGiftBanner.Info",
+      "suggestedSemanticId": "UIActivityNomalGiftBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7f5996f363a5"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7767bedb5858",
+      "DRAFT_43d0d2112e88",
+      "DRAFT_7f5996f363a5"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

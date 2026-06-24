@@ -1,0 +1,163 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_position",
+  "displayName": "ui_alliance_position",
+  "drafts": {
+    "DRAFT_95d9b5b1daa2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAlliancePosition的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePosition关闭按钮",
+      "suggestedTestId": "UIAlliancePosition.CloseBtn",
+      "suggestedSemanticId": "UIAlliancePosition.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_95d9b5b1daa2"
+    },
+    "DRAFT_b62f49f42f0d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Scroll View/Viewport/Content/Mars/Cont/tab1",
+      "nodeName": "tab1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "tab1",
+      "chineseDescription": "UIAlliancePosition的tab1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePositiontab1",
+      "suggestedTestId": "UIAlliancePosition.tab1",
+      "suggestedSemanticId": "UIAlliancePosition.tab1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b62f49f42f0d"
+    },
+    "DRAFT_885f56012e99": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Scroll View/Viewport/Content/Counselor/Cont/tab2",
+      "nodeName": "tab2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "tab2",
+      "chineseDescription": "UIAlliancePosition的tab2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePositiontab2",
+      "suggestedTestId": "UIAlliancePosition.tab2",
+      "suggestedSemanticId": "UIAlliancePosition.tab2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_885f56012e99"
+    },
+    "DRAFT_22a34f6bb208": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Scroll View/Viewport/Content/Saintess/Cont/tab3",
+      "nodeName": "tab3",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "tab3",
+      "chineseDescription": "UIAlliancePosition的tab3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePositiontab3",
+      "suggestedTestId": "UIAlliancePosition.tab3",
+      "suggestedSemanticId": "UIAlliancePosition.tab3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_22a34f6bb208"
+    },
+    "DRAFT_787ba8f67ebf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Scroll View/Viewport/Content/Envoy/Cont/tab4",
+      "nodeName": "tab4",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "tab4",
+      "chineseDescription": "UIAlliancePosition的tab4",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePositiontab4",
+      "suggestedTestId": "UIAlliancePosition.tab4",
+      "suggestedSemanticId": "UIAlliancePosition.tab4",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_787ba8f67ebf"
+    },
+    "DRAFT_958dad75a867": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab",
+      "prefabRoot": "UIAlliancePosition",
+      "path": "UIAlliancePosition/Root/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_alliance_position",
+      "displayName": "按钮",
+      "chineseDescription": "UIAlliancePosition的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/UIAlliancePosition.prefab」中的UIAlliancePosition按钮",
+      "suggestedTestId": "UIAlliancePosition.Btn",
+      "suggestedSemanticId": "UIAlliancePosition.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_958dad75a867"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_95d9b5b1daa2",
+      "DRAFT_b62f49f42f0d",
+      "DRAFT_885f56012e99",
+      "DRAFT_22a34f6bb208",
+      "DRAFT_787ba8f67ebf",
+      "DRAFT_958dad75a867"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 6
+}

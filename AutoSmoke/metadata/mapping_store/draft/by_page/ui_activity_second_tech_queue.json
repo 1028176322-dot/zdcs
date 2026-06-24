@@ -1,0 +1,123 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_second_tech_queue",
+  "displayName": "ui_activity_second_tech_queue",
+  "drafts": {
+    "DRAFT_69624e26dccb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ShopNew/UIActivitySecondTechQueue.prefab",
+      "prefabRoot": "UIActivitySecondTechQueue",
+      "path": "UIActivitySecondTechQueue/Root/GiftBg/Scroll/View/Content/ItemTemplete/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_second_tech_queue",
+      "displayName": "ClickContent",
+      "chineseDescription": "UIActivitySecondTechQueue的ClickContent",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ShopNew/UIActivitySecondTechQueue.prefab」中的UIActivitySecondTechQueueClickContent",
+      "suggestedTestId": "UIActivitySecondTechQueue.ClickContent",
+      "suggestedSemanticId": "UIActivitySecondTechQueue.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_69624e26dccb"
+    },
+    "DRAFT_42d6bc5e943b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/ShopNew/UIActivitySecondTechQueue.prefab",
+      "prefabRoot": "UIActivitySecondTechQueue",
+      "path": "UIActivitySecondTechQueue/Root/BtnBuy",
+      "nodeName": "BtnBuy",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_activity_second_tech_queue",
+      "displayName": "按钮购买",
+      "chineseDescription": "UIActivitySecondTechQueue的按钮购买，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/ShopNew/UIActivitySecondTechQueue.prefab」中的UIActivitySecondTechQueue按钮购买",
+      "suggestedTestId": "UIActivitySecondTechQueue.BtnBuy",
+      "suggestedSemanticId": "UIActivitySecondTechQueue.按钮购买",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_42d6bc5e943b"
+    },
+    "DRAFT_e3218759524b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitySecondTechQueue.prefab",
+      "prefabRoot": "EXPORT_UIActivitySecondTechQueue",
+      "path": "EXPORT_UIActivitySecondTechQueue/Root/GiftBg/Scroll/View/Content/ItemTemplete/ItemNew/ClickContent",
+      "nodeName": "ClickContent",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_second_tech_queue",
+      "displayName": "ClickContent",
+      "chineseDescription": "EXPORT_UIActivitySecondTechQueue的ClickContent",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitySecondTechQueue.prefab」中的EXPORT_UIActivitySecondTechQueueClickContent",
+      "suggestedTestId": "EXPORT_UIActivitySecondTechQueue.ClickContent",
+      "suggestedSemanticId": "EXPORT_UIActivitySecondTechQueue.ClickContent",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e3218759524b"
+    },
+    "DRAFT_9cca74564c77": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitySecondTechQueue.prefab",
+      "prefabRoot": "EXPORT_UIActivitySecondTechQueue",
+      "path": "EXPORT_UIActivitySecondTechQueue/Root/BtnBuy",
+      "nodeName": "BtnBuy",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_activity_second_tech_queue",
+      "displayName": "按钮购买",
+      "chineseDescription": "EXPORT_UIActivitySecondTechQueue的按钮购买，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/ActivityPay/EXPORT_UIActivitySecondTechQueue.prefab」中的EXPORT_UIActivitySecondTechQueue按钮购买",
+      "suggestedTestId": "EXPORT_UIActivitySecondTechQueue.BtnBuy",
+      "suggestedSemanticId": "EXPORT_UIActivitySecondTechQueue.按钮购买",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9cca74564c77"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_69624e26dccb",
+      "DRAFT_42d6bc5e943b",
+      "DRAFT_e3218759524b",
+      "DRAFT_9cca74564c77"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

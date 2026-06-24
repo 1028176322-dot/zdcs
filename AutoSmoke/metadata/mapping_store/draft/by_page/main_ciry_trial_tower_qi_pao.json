@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_trial_tower_qi_pao",
+  "displayName": "main_ciry_trial_tower_qi_pao",
+  "drafts": {
+    "DRAFT_4cb238672b68": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTrialTowerQiPao.prefab",
+      "prefabRoot": "MainCiryTrialTowerQiPao",
+      "path": "MainCiryTrialTowerQiPao/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_4",
+      "clickable": true,
+      "pageId": "main_ciry_trial_tower_qi_pao",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryTrialTowerQiPao的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryTrialTowerQiPao.prefab」中的MainCiryTrialTowerQiPaotipsdi",
+      "suggestedTestId": "MainCiryTrialTowerQiPao.tips_di",
+      "suggestedSemanticId": "MainCiryTrialTowerQiPao.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4cb238672b68"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4cb238672b68"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

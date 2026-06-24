@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "btn_green_m1",
+  "displayName": "btn_green_m1",
+  "drafts": {
+    "DRAFT_651833ca0af4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnGreenM1.prefab",
+      "prefabRoot": "BtnGreenM1",
+      "path": "BtnGreenM1",
+      "nodeName": "BtnGreenM1",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "btn_green_m1",
+      "displayName": "按钮GreenM1",
+      "chineseDescription": "BtnGreenM1的按钮GreenM1，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/Common/BtnGreenM1.prefab」中的BtnGreenM1按钮GreenM1",
+      "suggestedTestId": "BtnGreenM1.BtnGreenM1",
+      "suggestedSemanticId": "BtnGreenM1.按钮GreenM1",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_651833ca0af4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_651833ca0af4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

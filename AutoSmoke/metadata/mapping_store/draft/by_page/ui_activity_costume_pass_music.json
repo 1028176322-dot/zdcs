@@ -1,0 +1,152 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_music",
+  "displayName": "ui_activity_costume_pass_music",
+  "drafts": {
+    "DRAFT_52b04159e786": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab",
+      "prefabRoot": "UIActivityCostumePass_Music",
+      "path": "UIActivityCostumePass_Music/ScrollView/Touch/content/Items",
+      "nodeName": "Items",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "UIDragScrollView",
+        "HorizontalLayoutGroup"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_music",
+      "displayName": "Items",
+      "chineseDescription": "UIActivityCostumePass_Music的Items",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab」中的UIActivityCostumePass_MusicItems",
+      "suggestedTestId": "UIActivityCostumePass_Music.Items",
+      "suggestedSemanticId": "UIActivityCostumePass_Music.Items",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_52b04159e786"
+    },
+    "DRAFT_ca7d57402444": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab",
+      "prefabRoot": "UIActivityCostumePass_Music",
+      "path": "UIActivityCostumePass_Music/Top/Right/Node2",
+      "nodeName": "Node2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "UI_Img_21",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_music",
+      "displayName": "Node2",
+      "chineseDescription": "UIActivityCostumePass_Music的Node2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab」中的UIActivityCostumePass_MusicNode2",
+      "suggestedTestId": "UIActivityCostumePass_Music.Node2",
+      "suggestedSemanticId": "UIActivityCostumePass_Music.Node2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ca7d57402444"
+    },
+    "DRAFT_36a42879b5c4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab",
+      "prefabRoot": "UIActivityCostumePass_Music",
+      "path": "UIActivityCostumePass_Music/Top/Right/Node3",
+      "nodeName": "Node3",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "LayoutElement",
+        "Animator"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_music",
+      "displayName": "Node3",
+      "chineseDescription": "UIActivityCostumePass_Music的Node3",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab」中的UIActivityCostumePass_MusicNode3",
+      "suggestedTestId": "UIActivityCostumePass_Music.Node3",
+      "suggestedSemanticId": "UIActivityCostumePass_Music.Node3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_36a42879b5c4"
+    },
+    "DRAFT_0b28f3d96206": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab",
+      "prefabRoot": "UIActivityCostumePass_Music",
+      "path": "UIActivityCostumePass_Music/Level/Buy/AddBtn",
+      "nodeName": "AddBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "UI_Btn_Common_plus_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_music",
+      "displayName": "Add按钮",
+      "chineseDescription": "UIActivityCostumePass_Music的Add按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab」中的UIActivityCostumePass_MusicAdd按钮",
+      "suggestedTestId": "UIActivityCostumePass_Music.AddBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Music.Add按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0b28f3d96206"
+    },
+    "DRAFT_c918987ba0ef": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab",
+      "prefabRoot": "UIActivityCostumePass_Music",
+      "path": "UIActivityCostumePass_Music/Level/Buy/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "LayoutElement"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_music",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_Music的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_Music.prefab」中的UIActivityCostumePass_Music购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_Music.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_Music.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c918987ba0ef"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_52b04159e786",
+      "DRAFT_ca7d57402444",
+      "DRAFT_36a42879b5c4",
+      "DRAFT_0b28f3d96206",
+      "DRAFT_c918987ba0ef"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

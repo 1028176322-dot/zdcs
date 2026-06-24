@@ -1,0 +1,119 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "selection_dialog_ui",
+  "displayName": "selection_dialog_ui",
+  "drafts": {
+    "DRAFT_18b67189e7b0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab",
+      "prefabRoot": "SelectionDialogUI",
+      "path": "SelectionDialogUI/centre_other/BlackMask",
+      "nodeName": "BlackMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "selection_dialog_ui",
+      "displayName": "BlackMask",
+      "chineseDescription": "SelectionDialogUI的BlackMask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab」中的SelectionDialogUIBlackMask",
+      "suggestedTestId": "SelectionDialogUI.BlackMask",
+      "suggestedSemanticId": "SelectionDialogUI.BlackMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_18b67189e7b0"
+    },
+    "DRAFT_00651b6ceb89": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab",
+      "prefabRoot": "SelectionDialogUI",
+      "path": "SelectionDialogUI/centre_other/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "selection_dialog_ui",
+      "displayName": "mask",
+      "chineseDescription": "SelectionDialogUI的mask",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab」中的SelectionDialogUImask",
+      "suggestedTestId": "SelectionDialogUI.mask",
+      "suggestedSemanticId": "SelectionDialogUI.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_00651b6ceb89"
+    },
+    "DRAFT_42092b1d96c8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab",
+      "prefabRoot": "SelectionDialogUI",
+      "path": "SelectionDialogUI/centre_other/BG/bg/Option1",
+      "nodeName": "Option1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_bg_3",
+      "clickable": true,
+      "pageId": "selection_dialog_ui",
+      "displayName": "Option1",
+      "chineseDescription": "SelectionDialogUI的Option1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab」中的SelectionDialogUIOption1",
+      "suggestedTestId": "SelectionDialogUI.Option1",
+      "suggestedSemanticId": "SelectionDialogUI.Option1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_42092b1d96c8"
+    },
+    "DRAFT_13a9d912b123": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab",
+      "prefabRoot": "SelectionDialogUI",
+      "path": "SelectionDialogUI/centre_other/BG/bg/Option2",
+      "nodeName": "Option2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_bg_3",
+      "clickable": true,
+      "pageId": "selection_dialog_ui",
+      "displayName": "Option2",
+      "chineseDescription": "SelectionDialogUI的Option2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Guide/SelectionDialogUI.prefab」中的SelectionDialogUIOption2",
+      "suggestedTestId": "SelectionDialogUI.Option2",
+      "suggestedSemanticId": "SelectionDialogUI.Option2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_13a9d912b123"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_18b67189e7b0",
+      "DRAFT_00651b6ceb89",
+      "DRAFT_42092b1d96c8",
+      "DRAFT_13a9d912b123"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

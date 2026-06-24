@@ -1,0 +1,118 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_bubble_tip",
+  "displayName": "ui_bubble_tip",
+  "drafts": {
+    "DRAFT_4955ac938378": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab",
+      "prefabRoot": "Ui_BubbleTip",
+      "path": "Ui_BubbleTip/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip",
+      "displayName": "Touch",
+      "chineseDescription": "Ui_BubbleTip的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab」中的Ui_BubbleTipTouch",
+      "suggestedTestId": "Ui_BubbleTip.Touch",
+      "suggestedSemanticId": "Ui_BubbleTip.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4955ac938378"
+    },
+    "DRAFT_a6ff89cb8e20": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab",
+      "prefabRoot": "Ui_BubbleTip",
+      "path": "Ui_BubbleTip/Touch/0/SpecialList/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip",
+      "displayName": "项",
+      "chineseDescription": "Ui_BubbleTip的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab」中的Ui_BubbleTip项",
+      "suggestedTestId": "Ui_BubbleTip.Item",
+      "suggestedSemanticId": "Ui_BubbleTip.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a6ff89cb8e20"
+    },
+    "DRAFT_63ab0533364c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab",
+      "prefabRoot": "Ui_BubbleTip",
+      "path": "Ui_BubbleTip/Touch/0/ItemList/Item/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_bubble_tip",
+      "displayName": "项",
+      "chineseDescription": "Ui_BubbleTip的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab」中的Ui_BubbleTip项",
+      "suggestedTestId": "Ui_BubbleTip.Item",
+      "suggestedSemanticId": "Ui_BubbleTip.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_63ab0533364c"
+    },
+    "DRAFT_9d65daa741cc": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab",
+      "prefabRoot": "Ui_BubbleTip",
+      "path": "Ui_BubbleTip/Touch/0/BtnGoto/BtnGoto",
+      "nodeName": "BtnGoto",
+      "componentTypes": [
+        "RectTransform",
+        "ButtonScale",
+        "EventTriggerListener",
+        "TFWImage",
+        "CanvasRenderer"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_bubble_tip",
+      "displayName": "按钮Goto",
+      "chineseDescription": "Ui_BubbleTip的按钮Goto，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/Ui_BubbleTip.prefab」中的Ui_BubbleTip按钮Goto",
+      "suggestedTestId": "Ui_BubbleTip.BtnGoto",
+      "suggestedSemanticId": "Ui_BubbleTip.按钮Goto",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9d65daa741cc"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_4955ac938378",
+      "DRAFT_a6ff89cb8e20",
+      "DRAFT_63ab0533364c",
+      "DRAFT_9d65daa741cc"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

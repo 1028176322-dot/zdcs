@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "emoji_text",
+  "displayName": "emoji_text",
+  "drafts": {
+    "DRAFT_bea9f214bc4d": {
+      "assetPath": "Assets/k1/Res/UI/Prefab/Chat/emojiText.prefab",
+      "prefabRoot": "emojiText",
+      "path": "emojiText/cont_text/lab",
+      "nodeName": "lab",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWRichText"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "emoji_text",
+      "displayName": "#SOCIAL_tap_here_to_enter操作按钮",
+      "chineseDescription": "emojiText的#SOCIAL_tap_here_to_enter操作按钮，文字「#SOCIAL_tap_here_to_enter」",
+      "reviewHint": "Prefab「Assets/k1/Res/UI/Prefab/Chat/emojiText.prefab」中的emojiText#SOCIAL_tap_here_to_enter操作按钮，含文字「#SOCIAL_tap_here_to_enter」",
+      "suggestedTestId": "emojiText.lab.#SOCIAL_tap_here_to_enter",
+      "suggestedSemanticId": "emojiText.lab.#SOCIAL_tap_here_to_enter",
+      "role": "action",
+      "confidence": 0.6,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_bea9f214bc4d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_bea9f214bc4d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

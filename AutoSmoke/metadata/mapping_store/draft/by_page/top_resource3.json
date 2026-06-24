@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "top_resource3",
+  "displayName": "top_resource3",
+  "drafts": {
+    "DRAFT_b5feb4390cc0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab",
+      "prefabRoot": "TopResource3",
+      "path": "TopResource3/Coin",
+      "nodeName": "Coin",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource3",
+      "displayName": "Coin",
+      "chineseDescription": "TopResource3的Coin",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab」中的TopResource3Coin",
+      "suggestedTestId": "TopResource3.Coin",
+      "suggestedSemanticId": "TopResource3.Coin",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b5feb4390cc0"
+    },
+    "DRAFT_9a6e47b2ff66": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab",
+      "prefabRoot": "TopResource3",
+      "path": "TopResource3/Coin/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource3",
+      "displayName": "Add",
+      "chineseDescription": "TopResource3的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab」中的TopResource3Add",
+      "suggestedTestId": "TopResource3.Add",
+      "suggestedSemanticId": "TopResource3.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9a6e47b2ff66"
+    },
+    "DRAFT_159842e9c7de": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab",
+      "prefabRoot": "TopResource3",
+      "path": "TopResource3/Diamond",
+      "nodeName": "Diamond",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource3",
+      "displayName": "Diamond",
+      "chineseDescription": "TopResource3的Diamond",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab」中的TopResource3Diamond",
+      "suggestedTestId": "TopResource3.Diamond",
+      "suggestedSemanticId": "TopResource3.Diamond",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_159842e9c7de"
+    },
+    "DRAFT_4b35028a23c4": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab",
+      "prefabRoot": "TopResource3",
+      "path": "TopResource3/Diamond/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "top_resource3",
+      "displayName": "Add",
+      "chineseDescription": "TopResource3的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Public/TopResource3.prefab」中的TopResource3Add",
+      "suggestedTestId": "TopResource3.Add",
+      "suggestedSemanticId": "TopResource3.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_4b35028a23c4"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b5feb4390cc0",
+      "DRAFT_9a6e47b2ff66",
+      "DRAFT_159842e9c7de",
+      "DRAFT_4b35028a23c4"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

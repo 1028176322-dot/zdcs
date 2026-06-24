@@ -1,0 +1,164 @@
+{
+  "schema_version": "reader.fact_package.v1",
+  "feature_name": "神器界面功能",
+  "generated_at": "2026-06-17T18:26:32",
+  "source_index": [
+    {
+      "source_ref": "EVD_0001",
+      "source_file": "神器界面.html",
+      "file": "神器界面.html",
+      "location": "神器界面.html",
+      "source_type": "text",
+      "confidence": 0.95,
+      "raw_text": "C\n海神三叉戟\n🔱\n⚔️\n10000\n+8000\ni\n🔱\n➜\n暴击!\n基础属性\n品质升级\n0 / 0\n💠\n进阶结晶\n0 / 10\n强 化\n进 阶\n每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。\n神器组件 · 6 孔位\n升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。\n宝物 · 激活属性\n3 件宝物（力量/灵魂/生命）在神秘海域关卡获取，集齐波塞冬三件 → 神器激活。\n⚓ 波塞冬三件装备已集齐 — 海神三叉戟完全激活！\n神器技能 · 按品质排序\n区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。\n⚒️\n属性\n🧩\n组件\n💎\n宝物\n✨\n技能",
+      "human_readable_location": "神器界面.html",
+      "human_readable": "神器界面.html",
+      "evidence_excerpt": "C\n海神三叉戟\n🔱\n⚔️\n10000\n+8000\ni\n🔱\n➜\n暴击!\n基础属性\n品质升级\n0 / 0\n💠\n进阶结晶\n0 / 10\n强 化\n进 阶\n每次强化提升属性与战力、进度条上涨，可暴击额外涨进度。进度满后可进阶，品质提升（C→B→A→S→SS），外观与色框跟着变。\n神器组件 · 6 孔位\n升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合"
+    }
+  ],
+  "fact_entries": [
+    {
+      "fact_id": "FACT_0001",
+      "fact_type": "config_value",
+      "content": "神器组件 · 6 孔位",
+      "fact_status": "CLEAR",
+      "quality_flags": [],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "fact_id": "FACT_0002",
+      "fact_type": "trigger_condition",
+      "content": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "fact_status": "CLEAR",
+      "quality_flags": [],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "fact_id": "FACT_0003",
+      "fact_type": "ui_text",
+      "content": "神器技能 · 按品质排序",
+      "fact_status": "CLEAR",
+      "quality_flags": [],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "fact_id": "FACT_0004",
+      "fact_type": "system_process",
+      "content": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+      "fact_status": "CLEAR",
+      "quality_flags": [],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "fact_id": "FACT_0005",
+      "fact_type": "ui_text",
+      "content": "技能",
+      "fact_status": "CLEAR",
+      "quality_flags": [],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "fact_objects": [
+    {
+      "object_id": "OBJ_0001",
+      "object_type": "text",
+      "object_name": "神器组件 · 6 孔位",
+      "related_fact_ids": [
+        "FACT_0001"
+      ],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95,
+      "fact_status": "CLEAR"
+    },
+    {
+      "object_id": "OBJ_0002",
+      "object_type": "config",
+      "object_name": "升阶 = 三合一",
+      "related_fact_ids": [
+        "FACT_0002"
+      ],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95,
+      "fact_status": "CLEAR"
+    },
+    {
+      "object_id": "OBJ_0003",
+      "object_type": "ui",
+      "object_name": "神器技能 · 按品质排序",
+      "related_fact_ids": [
+        "FACT_0003"
+      ],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95,
+      "fact_status": "CLEAR"
+    },
+    {
+      "object_id": "OBJ_0004",
+      "object_type": "entry",
+      "object_name": "区分 发展/军事、主动/被动",
+      "related_fact_ids": [
+        "FACT_0004"
+      ],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95,
+      "fact_status": "CLEAR"
+    },
+    {
+      "object_id": "OBJ_0005",
+      "object_type": "ui",
+      "object_name": "技能",
+      "related_fact_ids": [
+        "FACT_0005"
+      ],
+      "source_refs": [
+        "EVD_0001"
+      ],
+      "confidence": 0.95,
+      "fact_status": "CLEAR"
+    }
+  ],
+  "relation_facts": [],
+  "fact_quality": {
+    "overall_status": "PASS",
+    "total_facts": 5,
+    "avg_confidence": 0.95,
+    "low_confidence_count": 0,
+    "status_distribution": {
+      "CLEAR": 5,
+      "MISSING": 0,
+      "CONFLICT": 0,
+      "UNCERTAIN": 0
+    },
+    "summary": {
+      "conflict_count": 0,
+      "missing_count": 0,
+      "uncertain_count": 0,
+      "conflict_fact_ids": [],
+      "missing_fact_ids": [],
+      "uncertain_fact_ids": []
+    }
+  }
+}

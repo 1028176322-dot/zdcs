@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_defend_gate_fetters_add",
+  "displayName": "ui_defend_gate_fetters_add",
+  "drafts": {
+    "DRAFT_2d94101cf34d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab",
+      "prefabRoot": "UIDefendGateFettersAdd",
+      "path": "UIDefendGateFettersAdd/Root/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_defend_gate_fetters_add",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIDefendGateFettersAdd的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab」中的UIDefendGateFettersAdd关闭按钮",
+      "suggestedTestId": "UIDefendGateFettersAdd.CloseBtn",
+      "suggestedSemanticId": "UIDefendGateFettersAdd.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2d94101cf34d"
+    },
+    "DRAFT_897c62337538": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab",
+      "prefabRoot": "UIDefendGateFettersAdd",
+      "path": "UIDefendGateFettersAdd/Root/Scroll",
+      "nodeName": "Scroll",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWScrollRect",
+        "ExpandCircularScrollView",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "Background",
+      "clickable": true,
+      "pageId": "ui_defend_gate_fetters_add",
+      "displayName": "Scroll",
+      "chineseDescription": "UIDefendGateFettersAdd的Scroll",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab」中的UIDefendGateFettersAddScroll",
+      "suggestedTestId": "UIDefendGateFettersAdd.Scroll",
+      "suggestedSemanticId": "UIDefendGateFettersAdd.Scroll",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_897c62337538"
+    },
+    "DRAFT_16f06b5e7fe3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab",
+      "prefabRoot": "UIDefendGateFettersAdd",
+      "path": "UIDefendGateFettersAdd/Root/Scroll/ViewPort/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_defend_gate_fetters_add",
+      "displayName": "项",
+      "chineseDescription": "UIDefendGateFettersAdd的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Hero/UIDefendGateFettersAdd.prefab」中的UIDefendGateFettersAdd项",
+      "suggestedTestId": "UIDefendGateFettersAdd.Item",
+      "suggestedSemanticId": "UIDefendGateFettersAdd.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16f06b5e7fe3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_2d94101cf34d",
+      "DRAFT_897c62337538",
+      "DRAFT_16f06b5e7fe3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

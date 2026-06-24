@@ -1,0 +1,144 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_alliance_share_gift_red_packet_list",
+  "displayName": "ui_alliance_share_gift_red_packet_list",
+  "drafts": {
+    "DRAFT_dbf074c6f949": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketList",
+      "path": "UIAllianceShareGiftRedPacketList/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAllianceShareGiftRedPacketList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab」中的UIAllianceShareGiftRedPacketList关闭按钮",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketList.CloseBtn",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_dbf074c6f949"
+    },
+    "DRAFT_8d1837df45a0": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketList",
+      "path": "UIAllianceShareGiftRedPacketList/Root/Animation/content/Scroll/Viewport/Content/Item/items/BG1/TxtBG",
+      "nodeName": "TxtBG",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "bottom",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_list",
+      "displayName": "TxtBG",
+      "chineseDescription": "UIAllianceShareGiftRedPacketList的TxtBG",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab」中的UIAllianceShareGiftRedPacketListTxtBG",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketList.TxtBG",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketList.TxtBG",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8d1837df45a0"
+    },
+    "DRAFT_f05795bf49d8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketList",
+      "path": "UIAllianceShareGiftRedPacketList/Root/Animation/content/Scroll/Viewport/Content/Item/items/Mask/Thanks",
+      "nodeName": "Thanks",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_list",
+      "displayName": "Thanks",
+      "chineseDescription": "UIAllianceShareGiftRedPacketList的Thanks",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab」中的UIAllianceShareGiftRedPacketListThanks",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketList.Thanks",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketList.Thanks",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f05795bf49d8"
+    },
+    "DRAFT_9e4ae1e30a0a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketList",
+      "path": "UIAllianceShareGiftRedPacketList/Root/Animation/content/Scroll/Viewport/Content/Item/items/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_list",
+      "displayName": "Headk1",
+      "chineseDescription": "UIAllianceShareGiftRedPacketList的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab」中的UIAllianceShareGiftRedPacketListHeadk1",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketList.Head_k1",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketList.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9e4ae1e30a0a"
+    },
+    "DRAFT_43671ce8c80f": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab",
+      "prefabRoot": "UIAllianceShareGiftRedPacketList",
+      "path": "UIAllianceShareGiftRedPacketList/Root/Animation/content/Scroll/Viewport/Content/Item/items/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_bg_yuan",
+      "clickable": true,
+      "pageId": "ui_alliance_share_gift_red_packet_list",
+      "displayName": "按钮",
+      "chineseDescription": "UIAllianceShareGiftRedPacketList的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/AllianceShareGift/UIAllianceShareGiftRedPacketList.prefab」中的UIAllianceShareGiftRedPacketList按钮",
+      "suggestedTestId": "UIAllianceShareGiftRedPacketList.Btn",
+      "suggestedSemanticId": "UIAllianceShareGiftRedPacketList.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_43671ce8c80f"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_dbf074c6f949",
+      "DRAFT_8d1837df45a0",
+      "DRAFT_f05795bf49d8",
+      "DRAFT_9e4ae1e30a0a",
+      "DRAFT_43671ce8c80f"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

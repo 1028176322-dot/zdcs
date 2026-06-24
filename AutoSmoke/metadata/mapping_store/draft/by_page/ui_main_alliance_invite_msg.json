@@ -1,0 +1,146 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_main_alliance_invite_msg",
+  "displayName": "ui_main_alliance_invite_msg",
+  "drafts": {
+    "DRAFT_961980ecc740": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab",
+      "prefabRoot": "UIMainAllianceInviteMsg",
+      "path": "UIMainAllianceInviteMsg/Root/Msg/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "Animation"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_1",
+      "clickable": true,
+      "pageId": "ui_main_alliance_invite_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainAllianceInviteMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab」中的UIMainAllianceInviteMsgBg",
+      "suggestedTestId": "UIMainAllianceInviteMsg.Bg",
+      "suggestedSemanticId": "UIMainAllianceInviteMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_961980ecc740"
+    },
+    "DRAFT_b3247b07fc4d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab",
+      "prefabRoot": "UIMainAllianceInviteMsg",
+      "path": "UIMainAllianceInviteMsg/Root/Msg/Bg/CheckBtn",
+      "nodeName": "CheckBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "ui_main_alliance_invite_msg",
+      "displayName": "Check按钮",
+      "chineseDescription": "UIMainAllianceInviteMsg的Check按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab」中的UIMainAllianceInviteMsgCheck按钮",
+      "suggestedTestId": "UIMainAllianceInviteMsg.CheckBtn",
+      "suggestedSemanticId": "UIMainAllianceInviteMsg.Check按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b3247b07fc4d"
+    },
+    "DRAFT_1cf6f050fc10": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab",
+      "prefabRoot": "UIMainAllianceInviteMsg",
+      "path": "UIMainAllianceInviteMsg/Root/Msg/Bg/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_red_da",
+      "clickable": true,
+      "pageId": "ui_main_alliance_invite_msg",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIMainAllianceInviteMsg的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab」中的UIMainAllianceInviteMsg关闭按钮",
+      "suggestedTestId": "UIMainAllianceInviteMsg.CloseBtn",
+      "suggestedSemanticId": "UIMainAllianceInviteMsg.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1cf6f050fc10"
+    },
+    "DRAFT_3f6b47e1428d": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab",
+      "prefabRoot": "UIMainAllianceInviteMsg",
+      "path": "UIMainAllianceInviteMsg/Root/Head/Bg",
+      "nodeName": "Bg",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ButtonScale",
+        "CanvasRenderer",
+        "TFWImage"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_alliance_invite_msg",
+      "displayName": "Bg",
+      "chineseDescription": "UIMainAllianceInviteMsg的Bg",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab」中的UIMainAllianceInviteMsgBg",
+      "suggestedTestId": "UIMainAllianceInviteMsg.Bg",
+      "suggestedSemanticId": "UIMainAllianceInviteMsg.Bg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_3f6b47e1428d"
+    },
+    "DRAFT_7f669dbacdf3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab",
+      "prefabRoot": "UIMainAllianceInviteMsg",
+      "path": "UIMainAllianceInviteMsg/Root/Head/Bg/Mask/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_main_alliance_invite_msg",
+      "displayName": "Headk1",
+      "chineseDescription": "UIMainAllianceInviteMsg的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIMainAllianceInviteMsg.prefab」中的UIMainAllianceInviteMsgHeadk1",
+      "suggestedTestId": "UIMainAllianceInviteMsg.Head_k1",
+      "suggestedSemanticId": "UIMainAllianceInviteMsg.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7f669dbacdf3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_961980ecc740",
+      "DRAFT_b3247b07fc4d",
+      "DRAFT_1cf6f050fc10",
+      "DRAFT_3f6b47e1428d",
+      "DRAFT_7f669dbacdf3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

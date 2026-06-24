@@ -1,0 +1,10 @@
+{
+  "total_relations": 0,
+  "pass_count": 0,
+  "partial_count": 0,
+  "failed_count": 0,
+  "partial_or_failed_ratio": 1.0,
+  "sequence_usable_count": 0,
+  "association_only_count": 0,
+  "admission_hint": "RELATION_BLOCKED"
+}

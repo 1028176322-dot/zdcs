@@ -1,0 +1,161 @@
+{
+  "category": "clickcontent",
+  "description": "ClickContent节点",
+  "extract_time": "2026-06-12 14:34:40",
+  "game_coords": {
+    "left": 271,
+    "top": 51,
+    "right": 759,
+    "bottom": 761,
+    "width": 488,
+    "height": 710,
+    "timestamp": "2026-06-12T12:07:00"
+  },
+  "count": 4,
+  "elements": [
+    {
+      "name": "ClickContent",
+      "type": "",
+      "text": "",
+      "raw_text": "",
+      "visible": true,
+      "clickable": false,
+      "pos_normalized": {
+        "x": 0,
+        "y": 0
+      },
+      "size_normalized": {
+        "w": 0,
+        "h": 0
+      },
+      "center_pixel": {
+        "x": 271,
+        "y": 51,
+        "game_x": 0,
+        "game_y": 0
+      },
+      "bbox_pixel": {
+        "left": 271.0,
+        "top": 51.0,
+        "right": 271.0,
+        "bottom": 51.0,
+        "width": 0,
+        "height": 0,
+        "game_left": 0.0,
+        "game_top": 0.0,
+        "game_right": 0.0,
+        "game_bottom": 0.0
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "",
+      "text": "",
+      "raw_text": "",
+      "visible": true,
+      "clickable": false,
+      "pos_normalized": {
+        "x": 0,
+        "y": 0
+      },
+      "size_normalized": {
+        "w": 0,
+        "h": 0
+      },
+      "center_pixel": {
+        "x": 271,
+        "y": 51,
+        "game_x": 0,
+        "game_y": 0
+      },
+      "bbox_pixel": {
+        "left": 271.0,
+        "top": 51.0,
+        "right": 271.0,
+        "bottom": 51.0,
+        "width": 0,
+        "height": 0,
+        "game_left": 0.0,
+        "game_top": 0.0,
+        "game_right": 0.0,
+        "game_bottom": 0.0
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "",
+      "text": "",
+      "raw_text": "",
+      "visible": true,
+      "clickable": false,
+      "pos_normalized": {
+        "x": 0,
+        "y": 0
+      },
+      "size_normalized": {
+        "w": 0,
+        "h": 0
+      },
+      "center_pixel": {
+        "x": 271,
+        "y": 51,
+        "game_x": 0,
+        "game_y": 0
+      },
+      "bbox_pixel": {
+        "left": 271.0,
+        "top": 51.0,
+        "right": 271.0,
+        "bottom": 51.0,
+        "width": 0,
+        "height": 0,
+        "game_left": 0.0,
+        "game_top": 0.0,
+        "game_right": 0.0,
+        "game_bottom": 0.0
+      },
+      "depth": 13,
+      "children_count": 0
+    },
+    {
+      "name": "ClickContent",
+      "type": "",
+      "text": "",
+      "raw_text": "",
+      "visible": true,
+      "clickable": false,
+      "pos_normalized": {
+        "x": 0,
+        "y": 0
+      },
+      "size_normalized": {
+        "w": 0,
+        "h": 0
+      },
+      "center_pixel": {
+        "x": 271,
+        "y": 51,
+        "game_x": 0,
+        "game_y": 0
+      },
+      "bbox_pixel": {
+        "left": 271.0,
+        "top": 51.0,
+        "right": 271.0,
+        "bottom": 51.0,
+        "width": 0,
+        "height": 0,
+        "game_left": 0.0,
+        "game_top": 0.0,
+        "game_right": 0.0,
+        "game_bottom": 0.0
+      },
+      "depth": 13,
+      "children_count": 0
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_alliance_share_gift_banner",
+  "displayName": "ui_activity_alliance_share_gift_banner",
+  "drafts": {
+    "DRAFT_5942f53c66bb": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab",
+      "prefabRoot": "UIActivityAllianceShareGiftBanner",
+      "path": "UIActivityAllianceShareGiftBanner/Chest",
+      "nodeName": "Chest",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UIMask",
+      "clickable": true,
+      "pageId": "ui_activity_alliance_share_gift_banner",
+      "displayName": "Chest",
+      "chineseDescription": "UIActivityAllianceShareGiftBanner的Chest",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab」中的UIActivityAllianceShareGiftBannerChest",
+      "suggestedTestId": "UIActivityAllianceShareGiftBanner.Chest",
+      "suggestedSemanticId": "UIActivityAllianceShareGiftBanner.Chest",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5942f53c66bb"
+    },
+    "DRAFT_b9ff5536fc47": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab",
+      "prefabRoot": "UIActivityAllianceShareGiftBanner",
+      "path": "UIActivityAllianceShareGiftBanner/Chest/State1/Icon",
+      "nodeName": "Icon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animation"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_alliance_share_gift_banner",
+      "displayName": "图标",
+      "chineseDescription": "UIActivityAllianceShareGiftBanner的图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab」中的UIActivityAllianceShareGiftBanner图标",
+      "suggestedTestId": "UIActivityAllianceShareGiftBanner.Icon",
+      "suggestedSemanticId": "UIActivityAllianceShareGiftBanner.图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b9ff5536fc47"
+    },
+    "DRAFT_761c1a2f5815": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab",
+      "prefabRoot": "UIActivityAllianceShareGiftBanner",
+      "path": "UIActivityAllianceShareGiftBanner/CommonBtn",
+      "nodeName": "CommonBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_alliance_share_gift_banner",
+      "displayName": "Common按钮",
+      "chineseDescription": "UIActivityAllianceShareGiftBanner的Common按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab」中的UIActivityAllianceShareGiftBannerCommon按钮",
+      "suggestedTestId": "UIActivityAllianceShareGiftBanner.CommonBtn",
+      "suggestedSemanticId": "UIActivityAllianceShareGiftBanner.Common按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_761c1a2f5815"
+    },
+    "DRAFT_388ce77a5f58": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab",
+      "prefabRoot": "UIActivityAllianceShareGiftBanner",
+      "path": "UIActivityAllianceShareGiftBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip",
+      "clickable": true,
+      "pageId": "ui_activity_alliance_share_gift_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityAllianceShareGiftBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityAllianceShareGiftBanner.prefab」中的UIActivityAllianceShareGiftBannerInfo",
+      "suggestedTestId": "UIActivityAllianceShareGiftBanner.Info",
+      "suggestedSemanticId": "UIActivityAllianceShareGiftBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_388ce77a5f58"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5942f53c66bb",
+      "DRAFT_b9ff5536fc47",
+      "DRAFT_761c1a2f5815",
+      "DRAFT_388ce77a5f58"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "mail_position",
+  "displayName": "mail_position",
+  "drafts": {
+    "DRAFT_16b964a4472b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Alliance/mail_position.prefab",
+      "prefabRoot": "mail_position",
+      "path": "mail_position/sp_di/Head_k1",
+      "nodeName": "Head_k1",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "mail_position",
+      "displayName": "Headk1",
+      "chineseDescription": "mail_position的Headk1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Alliance/mail_position.prefab」中的mail_positionHeadk1",
+      "suggestedTestId": "mail_position.Head_k1",
+      "suggestedSemanticId": "mail_position.Headk1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_16b964a4472b"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_16b964a4472b"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

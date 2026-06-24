@@ -1,0 +1,95 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_lookout_tower_dialogue",
+  "displayName": "export_lookout_tower_dialogue",
+  "drafts": {
+    "DRAFT_eca76f5fa330": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab",
+      "prefabRoot": "EXPORT_LookoutTowerDialogue",
+      "path": "EXPORT_LookoutTowerDialogue/centre_other/BlackMask",
+      "nodeName": "BlackMask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_lookout_tower_dialogue",
+      "displayName": "BlackMask",
+      "chineseDescription": "EXPORT_LookoutTowerDialogue的BlackMask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab」中的EXPORT_LookoutTowerDialogueBlackMask",
+      "suggestedTestId": "EXPORT_LookoutTowerDialogue.BlackMask",
+      "suggestedSemanticId": "EXPORT_LookoutTowerDialogue.BlackMask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eca76f5fa330"
+    },
+    "DRAFT_ffe346a5b1b7": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab",
+      "prefabRoot": "EXPORT_LookoutTowerDialogue",
+      "path": "EXPORT_LookoutTowerDialogue/centre_other/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_lookout_tower_dialogue",
+      "displayName": "mask",
+      "chineseDescription": "EXPORT_LookoutTowerDialogue的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab」中的EXPORT_LookoutTowerDialoguemask",
+      "suggestedTestId": "EXPORT_LookoutTowerDialogue.mask",
+      "suggestedSemanticId": "EXPORT_LookoutTowerDialogue.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ffe346a5b1b7"
+    },
+    "DRAFT_576e70a34d55": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab",
+      "prefabRoot": "EXPORT_LookoutTowerDialogue",
+      "path": "EXPORT_LookoutTowerDialogue/centre_other/BG/bg/arrow",
+      "nodeName": "arrow",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "Animator"
+      ],
+      "spriteName": "3_ui_arrow",
+      "clickable": true,
+      "pageId": "export_lookout_tower_dialogue",
+      "displayName": "arrow",
+      "chineseDescription": "EXPORT_LookoutTowerDialogue的arrow",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/LookoutTower/EXPORT_LookoutTowerDialogue.prefab」中的EXPORT_LookoutTowerDialoguearrow",
+      "suggestedTestId": "EXPORT_LookoutTowerDialogue.arrow",
+      "suggestedSemanticId": "EXPORT_LookoutTowerDialogue.arrow",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_576e70a34d55"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_eca76f5fa330",
+      "DRAFT_ffe346a5b1b7",
+      "DRAFT_576e70a34d55"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

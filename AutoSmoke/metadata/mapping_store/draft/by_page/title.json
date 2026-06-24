@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "title",
+  "displayName": "title",
+  "drafts": {
+    "DRAFT_7dca15515522": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/Title.prefab",
+      "prefabRoot": "Title",
+      "path": "Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "title",
+      "displayName": "关闭按钮",
+      "chineseDescription": "Title的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/Title.prefab」中的Title关闭按钮",
+      "suggestedTestId": "Title.CloseBtn",
+      "suggestedSemanticId": "Title.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7dca15515522"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7dca15515522"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

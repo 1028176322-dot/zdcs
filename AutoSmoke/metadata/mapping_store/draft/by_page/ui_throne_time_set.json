@@ -1,0 +1,117 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_throne_time_set",
+  "displayName": "ui_throne_time_set",
+  "drafts": {
+    "DRAFT_d995ed6706bf": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab",
+      "prefabRoot": "UIThroneTimeSet",
+      "path": "UIThroneTimeSet/Root/BG/Top/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_throne_time_set",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIThroneTimeSet的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab」中的UIThroneTimeSet关闭按钮",
+      "suggestedTestId": "UIThroneTimeSet.CloseBtn",
+      "suggestedSemanticId": "UIThroneTimeSet.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d995ed6706bf"
+    },
+    "DRAFT_6754d7c0c293": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab",
+      "prefabRoot": "UIThroneTimeSet",
+      "path": "UIThroneTimeSet/Root/BG/Time1",
+      "nodeName": "Time1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "TFWEmpty4Raycast"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_time_set",
+      "displayName": "Time1",
+      "chineseDescription": "UIThroneTimeSet的Time1",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab」中的UIThroneTimeSetTime1",
+      "suggestedTestId": "UIThroneTimeSet.Time1",
+      "suggestedSemanticId": "UIThroneTimeSet.Time1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6754d7c0c293"
+    },
+    "DRAFT_f8c5aae6e44c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab",
+      "prefabRoot": "UIThroneTimeSet",
+      "path": "UIThroneTimeSet/Root/BG/Time2",
+      "nodeName": "Time2",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_throne_time_set",
+      "displayName": "Time2",
+      "chineseDescription": "UIThroneTimeSet的Time2",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab」中的UIThroneTimeSetTime2",
+      "suggestedTestId": "UIThroneTimeSet.Time2",
+      "suggestedSemanticId": "UIThroneTimeSet.Time2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f8c5aae6e44c"
+    },
+    "DRAFT_22c9e15f3b05": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab",
+      "prefabRoot": "UIThroneTimeSet",
+      "path": "UIThroneTimeSet/Root/BG/Button/OkBtn",
+      "nodeName": "OkBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_throne_time_set",
+      "displayName": "Ok按钮",
+      "chineseDescription": "UIThroneTimeSet的Ok按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/KingWar/UIThroneTimeSet.prefab」中的UIThroneTimeSetOk按钮",
+      "suggestedTestId": "UIThroneTimeSet.OkBtn",
+      "suggestedSemanticId": "UIThroneTimeSet.Ok按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_22c9e15f3b05"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d995ed6706bf",
+      "DRAFT_6754d7c0c293",
+      "DRAFT_f8c5aae6e44c",
+      "DRAFT_22c9e15f3b05"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 4
+}

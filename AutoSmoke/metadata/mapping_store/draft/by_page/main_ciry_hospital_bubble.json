@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_hospital_bubble",
+  "displayName": "main_ciry_hospital_bubble",
+  "drafts": {
+    "DRAFT_66a102a21c8b": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHospitalBubble.prefab",
+      "prefabRoot": "MainCiryHospitalBubble",
+      "path": "MainCiryHospitalBubble/1",
+      "nodeName": "1",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_hospital_bubble",
+      "displayName": "1",
+      "chineseDescription": "MainCiryHospitalBubble的1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHospitalBubble.prefab」中的MainCiryHospitalBubble1",
+      "suggestedTestId": "MainCiryHospitalBubble.1",
+      "suggestedSemanticId": "MainCiryHospitalBubble.1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_66a102a21c8b"
+    },
+    "DRAFT_ccfba561eb76": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHospitalBubble.prefab",
+      "prefabRoot": "MainCiryHospitalBubble",
+      "path": "MainCiryHospitalBubble/1/Gain_bg",
+      "nodeName": "Gain_bg",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_4",
+      "clickable": true,
+      "pageId": "main_ciry_hospital_bubble",
+      "displayName": "Gainbg",
+      "chineseDescription": "MainCiryHospitalBubble的Gainbg",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryHospitalBubble.prefab」中的MainCiryHospitalBubbleGainbg",
+      "suggestedTestId": "MainCiryHospitalBubble.Gain_bg",
+      "suggestedSemanticId": "MainCiryHospitalBubble.Gainbg",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_ccfba561eb76"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_66a102a21c8b",
+      "DRAFT_ccfba561eb76"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

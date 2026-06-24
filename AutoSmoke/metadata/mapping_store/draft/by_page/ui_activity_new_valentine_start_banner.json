@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_new_valentine_start_banner",
+  "displayName": "ui_activity_new_valentine_start_banner",
+  "drafts": {
+    "DRAFT_686a7a76f419": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineStartBanner.prefab",
+      "prefabRoot": "UIActivityNewValentineStartBanner",
+      "path": "UIActivityNewValentineStartBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_start_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityNewValentineStartBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineStartBanner.prefab」中的UIActivityNewValentineStartBannerInfo",
+      "suggestedTestId": "UIActivityNewValentineStartBanner.Info",
+      "suggestedSemanticId": "UIActivityNewValentineStartBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_686a7a76f419"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_686a7a76f419"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

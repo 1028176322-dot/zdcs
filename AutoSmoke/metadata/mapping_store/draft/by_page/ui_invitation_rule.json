@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_invitation_rule",
+  "displayName": "ui_invitation_rule",
+  "drafts": {
+    "DRAFT_27ab46ab933b": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationRule.prefab",
+      "prefabRoot": "UIInvitationRule",
+      "path": "UIInvitationRule/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_invitation_rule",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIInvitationRule的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationRule.prefab」中的UIInvitationRule关闭按钮",
+      "suggestedTestId": "UIInvitationRule.CloseBtn",
+      "suggestedSemanticId": "UIInvitationRule.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_27ab46ab933b"
+    },
+    "DRAFT_a1eaec9eda63": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationRule.prefab",
+      "prefabRoot": "UIInvitationRule",
+      "path": "UIInvitationRule/Root/BG/Down/Btn",
+      "nodeName": "Btn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_invitation_rule",
+      "displayName": "按钮",
+      "chineseDescription": "UIInvitationRule的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/MainCity/UIInvitationRule.prefab」中的UIInvitationRule按钮",
+      "suggestedTestId": "UIInvitationRule.Btn",
+      "suggestedSemanticId": "UIInvitationRule.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a1eaec9eda63"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_27ab46ab933b",
+      "DRAFT_a1eaec9eda63"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 2
+}

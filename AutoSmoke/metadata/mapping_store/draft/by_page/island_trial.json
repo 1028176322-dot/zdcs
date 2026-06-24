@@ -1,0 +1,43 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "island_trial",
+  "displayName": "island_trial",
+  "drafts": {
+    "DRAFT_c17abff7ba49": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/MainActivity/IslandTrial.prefab",
+      "prefabRoot": "IslandTrial",
+      "path": "IslandTrial",
+      "nodeName": "IslandTrial",
+      "componentTypes": [
+        "RectTransform",
+        "TFWImage",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale",
+        "BoxCollider2D",
+        "Animation",
+        "HomeIconBaseUI"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "island_trial",
+      "displayName": "IslandTrial",
+      "chineseDescription": "IslandTrial的IslandTrial",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/MainActivity/IslandTrial.prefab」中的IslandTrialIslandTrial",
+      "suggestedTestId": "IslandTrial.IslandTrial",
+      "suggestedSemanticId": "IslandTrial.IslandTrial",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c17abff7ba49"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c17abff7ba49"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

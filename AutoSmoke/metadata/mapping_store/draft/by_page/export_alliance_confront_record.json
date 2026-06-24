@@ -1,0 +1,136 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_alliance_confront_record",
+  "displayName": "export_alliance_confront_record",
+  "drafts": {
+    "DRAFT_513f2ab0b68e": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontRecord",
+      "path": "EXPORT_AllianceConfrontRecord/Root/Bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_alliance_confront_record",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_AllianceConfrontRecord的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab」中的EXPORT_AllianceConfrontRecord关闭按钮",
+      "suggestedTestId": "EXPORT_AllianceConfrontRecord.CloseBtn",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontRecord.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_513f2ab0b68e"
+    },
+    "DRAFT_eb3a63b43de9": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontRecord",
+      "path": "EXPORT_AllianceConfrontRecord/Root/Tab/Week_1",
+      "nodeName": "Week_1",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_alliance_confront_record",
+      "displayName": "Week1",
+      "chineseDescription": "EXPORT_AllianceConfrontRecord的Week1",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab」中的EXPORT_AllianceConfrontRecordWeek1",
+      "suggestedTestId": "EXPORT_AllianceConfrontRecord.Week_1",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontRecord.Week1",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_eb3a63b43de9"
+    },
+    "DRAFT_f790689b3f2d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontRecord",
+      "path": "EXPORT_AllianceConfrontRecord/Root/Tab/Week_2",
+      "nodeName": "Week_2",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_alliance_confront_record",
+      "displayName": "Week2",
+      "chineseDescription": "EXPORT_AllianceConfrontRecord的Week2",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab」中的EXPORT_AllianceConfrontRecordWeek2",
+      "suggestedTestId": "EXPORT_AllianceConfrontRecord.Week_2",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontRecord.Week2",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f790689b3f2d"
+    },
+    "DRAFT_acb675d16db4": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontRecord",
+      "path": "EXPORT_AllianceConfrontRecord/Root/Tab/Week_3",
+      "nodeName": "Week_3",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_alliance_confront_record",
+      "displayName": "Week3",
+      "chineseDescription": "EXPORT_AllianceConfrontRecord的Week3",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab」中的EXPORT_AllianceConfrontRecordWeek3",
+      "suggestedTestId": "EXPORT_AllianceConfrontRecord.Week_3",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontRecord.Week3",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_acb675d16db4"
+    },
+    "DRAFT_1657f8c4ff0c": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontRecord",
+      "path": "EXPORT_AllianceConfrontRecord/Root/Tab/Week_4",
+      "nodeName": "Week_4",
+      "componentTypes": [
+        "RectTransform",
+        "TFWTab"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "export_alliance_confront_record",
+      "displayName": "Week4",
+      "chineseDescription": "EXPORT_AllianceConfrontRecord的Week4",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontRecord.prefab」中的EXPORT_AllianceConfrontRecordWeek4",
+      "suggestedTestId": "EXPORT_AllianceConfrontRecord.Week_4",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontRecord.Week4",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1657f8c4ff0c"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_513f2ab0b68e",
+      "DRAFT_eb3a63b43de9",
+      "DRAFT_f790689b3f2d",
+      "DRAFT_acb675d16db4",
+      "DRAFT_1657f8c4ff0c"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 5
+}

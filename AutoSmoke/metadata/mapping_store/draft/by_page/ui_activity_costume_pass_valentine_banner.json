@@ -1,0 +1,172 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_costume_pass_valentine_banner",
+  "displayName": "ui_activity_costume_pass_valentine_banner",
+  "drafts": {
+    "DRAFT_a93edd0913d6": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/Info",
+      "nodeName": "Info",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_Common_tip2",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "Info",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的Info",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBannerInfo",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.Info",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.Info",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_a93edd0913d6"
+    },
+    "DRAFT_220456f81501": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/UseItem/Num",
+      "nodeName": "Num",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "Num",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的Num",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBannerNum",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.Num",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.Num",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_220456f81501"
+    },
+    "DRAFT_1a89ae852347": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/UseItem/Num/Add",
+      "nodeName": "Add",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_common_plus_green",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "Add",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的Add",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBannerAdd",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.Add",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.Add",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_1a89ae852347"
+    },
+    "DRAFT_823b4f79fb44": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/UseItem/ItemBtn",
+      "nodeName": "ItemBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "项按钮",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的项按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBanner项按钮",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.ItemBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.项按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_823b4f79fb44"
+    },
+    "DRAFT_0446e5c37713": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/BuyGift/BuyBtn",
+      "nodeName": "BuyBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "购买按钮",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的购买按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBanner购买按钮",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.BuyBtn",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.购买按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_0446e5c37713"
+    },
+    "DRAFT_9e522f6f1ff3": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab",
+      "prefabRoot": "UIActivityCostumePass_ValentineBanner",
+      "path": "UIActivityCostumePass_ValentineBanner/BuyGift/CityIcon",
+      "nodeName": "CityIcon",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "UI_Img_RedBG",
+      "clickable": true,
+      "pageId": "ui_activity_costume_pass_valentine_banner",
+      "displayName": "City图标",
+      "chineseDescription": "UIActivityCostumePass_ValentineBanner的City图标，点击可能打开详情",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCostumePass_ValentineBanner.prefab」中的UIActivityCostumePass_ValentineBannerCity图标",
+      "suggestedTestId": "UIActivityCostumePass_ValentineBanner.CityIcon",
+      "suggestedSemanticId": "UIActivityCostumePass_ValentineBanner.City图标",
+      "role": "interactive_icon",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_9e522f6f1ff3"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_a93edd0913d6",
+      "DRAFT_220456f81501",
+      "DRAFT_1a89ae852347",
+      "DRAFT_823b4f79fb44",
+      "DRAFT_0446e5c37713",
+      "DRAFT_9e522f6f1ff3"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 6
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "business_reading.claims.compat.v2",
+  "generated_at": "2026-06-17T18:26:35",
+  "source": "structured_business_model.json",
+  "claims": [
+    {
+      "claim_id": "CONFIG_001",
+      "stage": "config_constraint",
+      "statement": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "rendered_statement": "升阶 = 三合一：3 个同孔位同等级组件合成 1 个更高等级（上限 7 级）。点「获取」攒到 3 个即可合成。",
+      "fact_ids": [
+        "FACT_0002"
+      ],
+      "evidence_refs": [
+        "EVD_0001"
+      ]
+    },
+    {
+      "claim_id": "STEP_001",
+      "stage": "state_change",
+      "statement": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+      "rendered_statement": "区分 发展/军事、主动/被动。永久神器进入海域战斗自动生效。战斗中走能量制释放。",
+      "fact_ids": [
+        "FACT_0004"
+      ],
+      "evidence_refs": [
+        "EVD_0001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_automation_tips",
+  "displayName": "ui_automation_tips",
+  "drafts": {
+    "DRAFT_c45856de21d9": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab",
+      "prefabRoot": "UIAutomationTips",
+      "path": "UIAutomationTips/Root/BG/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "X",
+      "clickable": true,
+      "pageId": "ui_automation_tips",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIAutomationTips的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab」中的UIAutomationTips关闭按钮",
+      "suggestedTestId": "UIAutomationTips.CloseBtn",
+      "suggestedSemanticId": "UIAutomationTips.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c45856de21d9"
+    },
+    "DRAFT_b118443d106f": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab",
+      "prefabRoot": "UIAutomationTips",
+      "path": "UIAutomationTips/Root/BG/Group/Advanced/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_automation_tips",
+      "displayName": "按钮",
+      "chineseDescription": "UIAutomationTips的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab」中的UIAutomationTips按钮",
+      "suggestedTestId": "UIAutomationTips.Button",
+      "suggestedSemanticId": "UIAutomationTips.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b118443d106f"
+    },
+    "DRAFT_c38a17ee7026": {
+      "assetPath": "Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab",
+      "prefabRoot": "UIAutomationTips",
+      "path": "UIAutomationTips/Root/BG/Group/Ordinary/Button",
+      "nodeName": "Button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_automation_tips",
+      "displayName": "按钮",
+      "chineseDescription": "UIAutomationTips的按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1Demo/ResourceRoot/UI/Prefab/Level/UIAutomationTips.prefab」中的UIAutomationTips按钮",
+      "suggestedTestId": "UIAutomationTips.Button",
+      "suggestedSemanticId": "UIAutomationTips.按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_c38a17ee7026"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_c45856de21d9",
+      "DRAFT_b118443d106f",
+      "DRAFT_c38a17ee7026"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 3
+}

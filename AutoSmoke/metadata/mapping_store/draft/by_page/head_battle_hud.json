@@ -1,0 +1,67 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "head_battle_hud",
+  "displayName": "head_battle_hud",
+  "drafts": {
+    "DRAFT_d1dc4f891e78": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Battle/HeadBattleHud.prefab",
+      "prefabRoot": "HeadBattleHud",
+      "path": "HeadBattleHud/content/cont_head/sp_head_di",
+      "nodeName": "sp_head_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "head_battle_hud",
+      "displayName": "spheaddi",
+      "chineseDescription": "HeadBattleHud的spheaddi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Battle/HeadBattleHud.prefab」中的HeadBattleHudspheaddi",
+      "suggestedTestId": "HeadBattleHud.sp_head_di",
+      "suggestedSemanticId": "HeadBattleHud.spheaddi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_d1dc4f891e78"
+    },
+    "DRAFT_f95c1f9d567d": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/Battle/EXPORT_HeadBattleHud.prefab",
+      "prefabRoot": "EXPORT_HeadBattleHud",
+      "path": "EXPORT_HeadBattleHud/content/cont_head/sp_head_di",
+      "nodeName": "sp_head_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "ButtonScale",
+        "EventTriggerListener"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "head_battle_hud",
+      "displayName": "spheaddi",
+      "chineseDescription": "EXPORT_HeadBattleHud的spheaddi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/Battle/EXPORT_HeadBattleHud.prefab」中的EXPORT_HeadBattleHudspheaddi",
+      "suggestedTestId": "EXPORT_HeadBattleHud.sp_head_di",
+      "suggestedSemanticId": "EXPORT_HeadBattleHud.spheaddi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f95c1f9d567d"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_d1dc4f891e78",
+      "DRAFT_f95c1f9d567d"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}

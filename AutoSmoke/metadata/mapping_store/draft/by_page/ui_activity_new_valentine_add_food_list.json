@@ -1,0 +1,93 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_activity_new_valentine_add_food_list",
+  "displayName": "ui_activity_new_valentine_add_food_list",
+  "drafts": {
+    "DRAFT_f3a21ff88c0a": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab",
+      "prefabRoot": "UIActivityNewValentineAddFoodList",
+      "path": "UIActivityNewValentineAddFoodList/Root/Animation/content/Title/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_add_food_list",
+      "displayName": "关闭按钮",
+      "chineseDescription": "UIActivityNewValentineAddFoodList的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab」中的UIActivityNewValentineAddFoodList关闭按钮",
+      "suggestedTestId": "UIActivityNewValentineAddFoodList.CloseBtn",
+      "suggestedSemanticId": "UIActivityNewValentineAddFoodList.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_f3a21ff88c0a"
+    },
+    "DRAFT_8f9f48ac4141": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab",
+      "prefabRoot": "UIActivityNewValentineAddFoodList",
+      "path": "UIActivityNewValentineAddFoodList/Root/Animation/content/list/Viewport/Content/Item",
+      "nodeName": "Item",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_add_food_list",
+      "displayName": "项",
+      "chineseDescription": "UIActivityNewValentineAddFoodList的项",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab」中的UIActivityNewValentineAddFoodList项",
+      "suggestedTestId": "UIActivityNewValentineAddFoodList.Item",
+      "suggestedSemanticId": "UIActivityNewValentineAddFoodList.项",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_8f9f48ac4141"
+    },
+    "DRAFT_54dc5c73b2e8": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab",
+      "prefabRoot": "UIActivityNewValentineAddFoodList",
+      "path": "UIActivityNewValentineAddFoodList/Root/Animation/content/list/Viewport/Content/Item/button",
+      "nodeName": "button",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_activity_new_valentine_add_food_list",
+      "displayName": "button",
+      "chineseDescription": "UIActivityNewValentineAddFoodList的button，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityNewValentineAddFoodList.prefab」中的UIActivityNewValentineAddFoodListbutton",
+      "suggestedTestId": "UIActivityNewValentineAddFoodList.button",
+      "suggestedSemanticId": "UIActivityNewValentineAddFoodList.button",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_54dc5c73b2e8"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_f3a21ff88c0a",
+      "DRAFT_8f9f48ac4141",
+      "DRAFT_54dc5c73b2e8"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 3
+}

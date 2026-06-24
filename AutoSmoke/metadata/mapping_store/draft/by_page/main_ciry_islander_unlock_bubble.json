@@ -1,0 +1,41 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "main_ciry_islander_unlock_bubble",
+  "displayName": "main_ciry_islander_unlock_bubble",
+  "drafts": {
+    "DRAFT_b90c0abb500a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderUnlockBubble.prefab",
+      "prefabRoot": "MainCiryIslanderUnlockBubble",
+      "path": "MainCiryIslanderUnlockBubble/tips_di",
+      "nodeName": "tips_di",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale",
+        "UIFlippable"
+      ],
+      "spriteName": "3_common_ui_bg_qipao_3",
+      "clickable": true,
+      "pageId": "main_ciry_islander_unlock_bubble",
+      "displayName": "tipsdi",
+      "chineseDescription": "MainCiryIslanderUnlockBubble的tipsdi",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/MainCiryIslanderUnlockBubble.prefab」中的MainCiryIslanderUnlockBubbletipsdi",
+      "suggestedTestId": "MainCiryIslanderUnlockBubble.tips_di",
+      "suggestedSemanticId": "MainCiryIslanderUnlockBubble.tipsdi",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b90c0abb500a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_b90c0abb500a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

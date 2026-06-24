@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "talent_node",
+  "displayName": "talent_node",
+  "drafts": {
+    "DRAFT_065130a62942": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Skill/TalentNode.prefab",
+      "prefabRoot": "TalentNode",
+      "path": "TalentNode",
+      "nodeName": "TalentNode",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_bg_common",
+      "clickable": true,
+      "pageId": "talent_node",
+      "displayName": "TalentNode",
+      "chineseDescription": "TalentNode的TalentNode",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Skill/TalentNode.prefab」中的TalentNodeTalentNode",
+      "suggestedTestId": "TalentNode.TalentNode",
+      "suggestedSemanticId": "TalentNode.TalentNode",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_065130a62942"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_065130a62942"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

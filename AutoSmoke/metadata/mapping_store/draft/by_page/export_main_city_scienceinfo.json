@@ -1,0 +1,124 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_main_city_scienceinfo",
+  "displayName": "export_main_city_scienceinfo",
+  "drafts": {
+    "DRAFT_caf1c66401d1": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab",
+      "prefabRoot": "EXPORT_MainCityScienceinfo",
+      "path": "EXPORT_MainCityScienceinfo/mask",
+      "nodeName": "mask",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "BindableControl",
+        "ClickAudio"
+      ],
+      "spriteName": "bg4",
+      "clickable": true,
+      "pageId": "export_main_city_scienceinfo",
+      "displayName": "mask",
+      "chineseDescription": "EXPORT_MainCityScienceinfo的mask",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab」中的EXPORT_MainCityScienceinfomask",
+      "suggestedTestId": "EXPORT_MainCityScienceinfo.mask",
+      "suggestedSemanticId": "EXPORT_MainCityScienceinfo.mask",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_caf1c66401d1"
+    },
+    "DRAFT_2996e9c1c646": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab",
+      "prefabRoot": "EXPORT_MainCityScienceinfo",
+      "path": "EXPORT_MainCityScienceinfo/Root/sp_bg/Title/CloseBtn",
+      "nodeName": "CloseBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_main_city_scienceinfo",
+      "displayName": "关闭按钮",
+      "chineseDescription": "EXPORT_MainCityScienceinfo的关闭按钮，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab」中的EXPORT_MainCityScienceinfo关闭按钮",
+      "suggestedTestId": "EXPORT_MainCityScienceinfo.CloseBtn",
+      "suggestedSemanticId": "EXPORT_MainCityScienceinfo.关闭按钮",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2996e9c1c646"
+    },
+    "DRAFT_b4d14027269f": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab",
+      "prefabRoot": "EXPORT_MainCityScienceinfo",
+      "path": "EXPORT_MainCityScienceinfo/Root/sp_bg/button_close",
+      "nodeName": "button_close",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "TFWButton",
+        "ClickAudio",
+        "EventTriggerListener",
+        "BindableControl"
+      ],
+      "spriteName": "common_btn_close_1",
+      "clickable": true,
+      "pageId": "export_main_city_scienceinfo",
+      "displayName": "buttonclose",
+      "chineseDescription": "EXPORT_MainCityScienceinfo的buttonclose，用于关闭界面",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab」中的EXPORT_MainCityScienceinfobuttonclose",
+      "suggestedTestId": "EXPORT_MainCityScienceinfo.button_close",
+      "suggestedSemanticId": "EXPORT_MainCityScienceinfo.buttonclose",
+      "role": "close_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_b4d14027269f"
+    },
+    "DRAFT_23a75f3064ee": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab",
+      "prefabRoot": "EXPORT_MainCityScienceinfo",
+      "path": "EXPORT_MainCityScienceinfo/Root/sp_bg/ResInfo/BtnMore",
+      "nodeName": "BtnMore",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_bule_da",
+      "clickable": true,
+      "pageId": "export_main_city_scienceinfo",
+      "displayName": "按钮More",
+      "chineseDescription": "EXPORT_MainCityScienceinfo的按钮More，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/MainCity/EXPORT_MainCityScienceinfo.prefab」中的EXPORT_MainCityScienceinfo按钮More",
+      "suggestedTestId": "EXPORT_MainCityScienceinfo.BtnMore",
+      "suggestedSemanticId": "EXPORT_MainCityScienceinfo.按钮More",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_23a75f3064ee"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_caf1c66401d1",
+      "DRAFT_2996e9c1c646",
+      "DRAFT_b4d14027269f",
+      "DRAFT_23a75f3064ee"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 4
+}

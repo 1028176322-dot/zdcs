@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "export_alliance_confront_begin_1",
+  "displayName": "export_alliance_confront_begin_1",
+  "drafts": {
+    "DRAFT_6d9217f50d40": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontBegin_1.prefab",
+      "prefabRoot": "EXPORT_AllianceConfrontBegin_1",
+      "path": "EXPORT_AllianceConfrontBegin_1/Root/BtnBegin",
+      "nodeName": "BtnBegin",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "common_btn_yellw_da",
+      "clickable": true,
+      "pageId": "export_alliance_confront_begin_1",
+      "displayName": "按钮Begin",
+      "chineseDescription": "EXPORT_AllianceConfrontBegin_1的按钮Begin，点击后执行操作",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Export/AllianceConfront/EXPORT_AllianceConfrontBegin_1.prefab」中的EXPORT_AllianceConfrontBegin_1按钮Begin",
+      "suggestedTestId": "EXPORT_AllianceConfrontBegin_1.BtnBegin",
+      "suggestedSemanticId": "EXPORT_AllianceConfrontBegin_1.按钮Begin",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_6d9217f50d40"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_6d9217f50d40"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 1
+}

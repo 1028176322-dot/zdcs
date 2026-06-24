@@ -1,0 +1,40 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "zvz_build",
+  "displayName": "zvz_build",
+  "drafts": {
+    "DRAFT_7beb7c1d48c2": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/ZVZBuild.prefab",
+      "prefabRoot": "ZVZBuild",
+      "path": "ZVZBuild",
+      "nodeName": "ZVZBuild",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "zvz_build",
+      "displayName": "ZVZBuild",
+      "chineseDescription": "ZVZBuild的ZVZBuild",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Map/EntityIcon/ZVZBuild.prefab」中的ZVZBuildZVZBuild",
+      "suggestedTestId": "ZVZBuild.ZVZBuild",
+      "suggestedSemanticId": "ZVZBuild.ZVZBuild",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7beb7c1d48c2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_7beb7c1d48c2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 1
+}

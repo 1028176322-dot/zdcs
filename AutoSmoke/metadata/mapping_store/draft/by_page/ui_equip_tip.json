@@ -1,0 +1,147 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "ui_equip_tip",
+  "displayName": "ui_equip_tip",
+  "drafts": {
+    "DRAFT_5cc056d65c7e": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab",
+      "prefabRoot": "UI_EquipTip",
+      "path": "UI_EquipTip/Touch",
+      "nodeName": "Touch",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "ui_equip_tip",
+      "displayName": "Touch",
+      "chineseDescription": "UI_EquipTip的Touch",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab」中的UI_EquipTipTouch",
+      "suggestedTestId": "UI_EquipTip.Touch",
+      "suggestedSemanticId": "UI_EquipTip.Touch",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_5cc056d65c7e"
+    },
+    "DRAFT_df542d5ad27c": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab",
+      "prefabRoot": "UI_EquipTip",
+      "path": "UI_EquipTip/Touch/centre_other/Suit_title/Arrow",
+      "nodeName": "Arrow",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "UI_Btn_TabArrow",
+      "clickable": true,
+      "pageId": "ui_equip_tip",
+      "displayName": "Arrow",
+      "chineseDescription": "UI_EquipTip的Arrow",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab」中的UI_EquipTipArrow",
+      "suggestedTestId": "UI_EquipTip.Arrow",
+      "suggestedSemanticId": "UI_EquipTip.Arrow",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_df542d5ad27c"
+    },
+    "DRAFT_7dcef570a805": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab",
+      "prefabRoot": "UI_EquipTip",
+      "path": "UI_EquipTip/Touch/centre_other/Button/ChangeBtn",
+      "nodeName": "ChangeBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_blue",
+      "clickable": true,
+      "pageId": "ui_equip_tip",
+      "displayName": "Change按钮",
+      "chineseDescription": "UI_EquipTip的Change按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab」中的UI_EquipTipChange按钮",
+      "suggestedTestId": "UI_EquipTip.ChangeBtn",
+      "suggestedSemanticId": "UI_EquipTip.Change按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_7dcef570a805"
+    },
+    "DRAFT_2ae0de751e29": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab",
+      "prefabRoot": "UI_EquipTip",
+      "path": "UI_EquipTip/Touch/centre_other/Button/PromoteBtn",
+      "nodeName": "PromoteBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_equip_tip",
+      "displayName": "Promote按钮",
+      "chineseDescription": "UI_EquipTip的Promote按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab」中的UI_EquipTipPromote按钮",
+      "suggestedTestId": "UI_EquipTip.PromoteBtn",
+      "suggestedSemanticId": "UI_EquipTip.Promote按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_2ae0de751e29"
+    },
+    "DRAFT_11e5c03a0bf2": {
+      "assetPath": "Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab",
+      "prefabRoot": "UI_EquipTip",
+      "path": "UI_EquipTip/Touch/centre_other/Button/GotoBtn",
+      "nodeName": "GotoBtn",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ButtonScale"
+      ],
+      "spriteName": "Button_ye",
+      "clickable": true,
+      "pageId": "ui_equip_tip",
+      "displayName": "Goto按钮",
+      "chineseDescription": "UI_EquipTip的Goto按钮，点击后执行操作",
+      "reviewHint": "Prefab「Assets/k1/K1D1/Res/UI/Panel/Other/UI_EquipTip.prefab」中的UI_EquipTipGoto按钮",
+      "suggestedTestId": "UI_EquipTip.GotoBtn",
+      "suggestedSemanticId": "UI_EquipTip.Goto按钮",
+      "role": "primary_action_button",
+      "confidence": 0.5,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_11e5c03a0bf2"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_5cc056d65c7e",
+      "DRAFT_df542d5ad27c",
+      "DRAFT_7dcef570a805",
+      "DRAFT_2ae0de751e29",
+      "DRAFT_11e5c03a0bf2"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:49",
+  "count": 5
+}

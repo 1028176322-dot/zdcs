@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_draft.page.v1",
+  "pageId": "player_head",
+  "displayName": "player_head",
+  "drafts": {
+    "DRAFT_91880e15d0ea": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/New/PlayerHead.prefab",
+      "prefabRoot": "PlayerHead",
+      "path": "PlayerHead/Click",
+      "nodeName": "Click",
+      "componentTypes": [
+        "RectTransform",
+        "CanvasRenderer",
+        "TFWImage",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "common_click",
+      "clickable": true,
+      "pageId": "player_head",
+      "displayName": "Click",
+      "chineseDescription": "PlayerHead的Click",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/New/PlayerHead.prefab」中的PlayerHeadClick",
+      "suggestedTestId": "PlayerHead.Click",
+      "suggestedSemanticId": "PlayerHead.Click",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_91880e15d0ea"
+    },
+    "DRAFT_e4413fda294a": {
+      "assetPath": "Assets/NewGameDemo/Res/UI/Prefab/Common/PlayerHead.prefab",
+      "prefabRoot": "PlayerHead",
+      "path": "PlayerHead",
+      "nodeName": "PlayerHead",
+      "componentTypes": [
+        "RectTransform",
+        "EventTriggerListener",
+        "ClickAudio"
+      ],
+      "spriteName": "",
+      "clickable": true,
+      "pageId": "player_head",
+      "displayName": "PlayerHead",
+      "chineseDescription": "PlayerHead的PlayerHead",
+      "reviewHint": "Prefab「Assets/NewGameDemo/Res/UI/Prefab/Common/PlayerHead.prefab」中的PlayerHeadPlayerHead",
+      "suggestedTestId": "PlayerHead.PlayerHead",
+      "suggestedSemanticId": "PlayerHead.PlayerHead",
+      "role": "action",
+      "confidence": 0.3,
+      "reviewStatus": "pending",
+      "source": "project_inventory",
+      "draftId": "DRAFT_e4413fda294a"
+    }
+  },
+  "groups": {
+    "pending": [
+      "DRAFT_91880e15d0ea",
+      "DRAFT_e4413fda294a"
+    ]
+  },
+  "updated_at": "2026-06-23T17:48:48",
+  "count": 2
+}
