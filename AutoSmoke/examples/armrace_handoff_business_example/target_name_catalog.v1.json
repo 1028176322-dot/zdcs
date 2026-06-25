@@ -1,0 +1,23 @@
+{
+  "schema_version": "target_name_catalog.v1",
+  "feature_id": "armrace",
+  "targets": [
+    {
+      "target_id": "TGT_ARMRACE_TAB",
+      "target_name": "军备竞赛页签",
+      "aliases": ["军备竞赛入口"],
+      "page_name": "常规活动主界面",
+      "role": "tab",
+      "action_roles": ["click"]
+    },
+    {
+      "target_id": "TGT_ARMRACE_SCORE_TEXT",
+      "target_name": "军备竞赛积分文本",
+      "aliases": ["军备竞赛积分"],
+      "page_name": "军备竞赛主界面",
+      "role": "text",
+      "target_type": "Text",
+      "action_roles": ["assert_visible"]
+    }
+  ]
+}

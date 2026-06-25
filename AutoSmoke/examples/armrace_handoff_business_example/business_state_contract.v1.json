@@ -1,0 +1,23 @@
+{
+  "schema_version": "business_state_contract.v1",
+  "feature_id": "armrace",
+  "state_domains": [
+    {
+      "domain_id": "activity.armrace",
+      "collector": "ui_runtime_tree",
+      "description": "从当前 UI runtime tree 采集军备竞赛页面状态",
+      "state_paths": [
+        {
+          "state_path": "activity.armrace.score_text",
+          "value_type": "string",
+          "text_hint": "积分",
+          "selector": {
+            "type": "text",
+            "value": "积分"
+          },
+          "collection_timing": ["after"]
+        }
+      ]
+    }
+  ]
+}

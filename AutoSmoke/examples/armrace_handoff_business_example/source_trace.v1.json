@@ -1,0 +1,18 @@
+{
+  "schema_version": "source_trace.v1",
+  "feature_id": "armrace",
+  "sources": [
+    {
+      "source_id": "REQ-ARMRACE-BIZ-001",
+      "title": "军备竞赛积分展示校验"
+    }
+  ],
+  "links": [
+    {
+      "source_id": "REQ-ARMRACE-BIZ-001",
+      "case_id": "ARMRACE_BUSINESS_001",
+      "target_ids": ["TGT_ARMRACE_TAB", "TGT_ARMRACE_SCORE_TEXT"],
+      "assertion_ids": ["ASSERT_ARMRACE_SCORE_VISIBLE"]
+    }
+  ]
+}

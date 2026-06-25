@@ -1,0 +1,156 @@
+{
+  "schema_version": "mapping_tasks_from_handoff.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "targets": [
+    {
+      "targetId": "TGT_ARMRACE_TAB",
+      "targetName": "军备竞赛页签",
+      "aliases": [
+        "军备竞赛入口"
+      ],
+      "pageHint": "常规活动主界面",
+      "role": "tab",
+      "elementType": "Button",
+      "interactionType": "",
+      "sourceCases": [
+        "ARMRACE_BUSINESS_001"
+      ],
+      "priority": "P1",
+      "expectedBehavior": "",
+      "status": "pending_match",
+      "source": "qa_reader_handoff",
+      "handoffPackageId": "armrace_business_20260625_v1",
+      "handoffFeatureId": "armrace",
+      "handoffTargetId": "TGT_ARMRACE_TAB",
+      "semanticId": "armrace.tab.button",
+      "testId": "armrace.tab.button",
+      "displayName": "军备竞赛页签",
+      "semanticCandidate": {
+        "targetName": "ui军备竞赛页签按钮",
+        "displayName": "军备竞赛页签",
+        "semanticId": "armrace.tab.button",
+        "testId": "armrace.tab.button",
+        "pageId": "ui",
+        "role": "tab",
+        "elementType": "Button",
+        "requiresEnglishId": true,
+        "parseEvidence": {
+          "page": {
+            "id": "ui",
+            "name": "ui",
+            "source": "fallback"
+          },
+          "object": {
+            "id": "custom_6840bee813",
+            "name": "军备竞赛",
+            "names": [
+              "军备竞赛"
+            ],
+            "ids": [
+              "custom_6840bee813"
+            ]
+          },
+          "role": {
+            "id": "tab",
+            "name": "页签"
+          },
+          "type": {
+            "id": "Button",
+            "name": "按钮"
+          },
+          "normalizedDescription": "军备竞赛页签",
+          "source": {
+            "textLength": 6,
+            "currentTestId": ""
+          }
+        },
+        "warnings": [
+          "tab_button_rule",
+          "english_id_required",
+          "handoff_feature_target_id_fallback"
+        ]
+      }
+    },
+    {
+      "targetId": "TGT_ARMRACE_SCORE_TEXT",
+      "targetName": "军备竞赛积分文本",
+      "aliases": [
+        "军备竞赛积分"
+      ],
+      "pageHint": "军备竞赛主界面",
+      "role": "text",
+      "elementType": "Text",
+      "interactionType": "",
+      "sourceCases": [
+        "ARMRACE_BUSINESS_001"
+      ],
+      "priority": "P1",
+      "expectedBehavior": "",
+      "status": "pending_match",
+      "source": "qa_reader_handoff",
+      "handoffPackageId": "armrace_business_20260625_v1",
+      "handoffFeatureId": "armrace",
+      "handoffTargetId": "TGT_ARMRACE_SCORE_TEXT",
+      "semanticId": "armrace.score.text",
+      "testId": "armrace.score.text",
+      "displayName": "军备竞赛积分文本",
+      "semanticCandidate": {
+        "targetName": "ui军备竞赛积分文本",
+        "displayName": "军备竞赛积分文本",
+        "semanticId": "armrace.score.text",
+        "testId": "armrace.score.text",
+        "pageId": "ui",
+        "role": "text",
+        "elementType": "Text",
+        "requiresEnglishId": true,
+        "parseEvidence": {
+          "page": {
+            "id": "ui",
+            "name": "ui",
+            "source": "fallback"
+          },
+          "object": {
+            "id": "custom_6bf84510f7",
+            "name": "军备竞赛积分",
+            "names": [
+              "军备竞赛积分"
+            ],
+            "ids": [
+              "custom_6bf84510f7"
+            ],
+            "translation": {
+              "translated": false,
+              "reason": "untranslated_terms",
+              "misses": [
+                "军",
+                "备",
+                "竞",
+                "赛",
+                "积",
+                "分"
+              ]
+            }
+          },
+          "role": {
+            "id": "text",
+            "name": ""
+          },
+          "type": {
+            "id": "Text",
+            "name": "文本"
+          },
+          "normalizedDescription": "军备竞赛积分文本",
+          "source": {
+            "textLength": 8,
+            "currentTestId": ""
+          }
+        },
+        "warnings": [
+          "object_from_input_fallback",
+          "role_from_visual_type",
+          "handoff_feature_target_id_fallback"
+        ]
+      }
+    }
+  ]
+}

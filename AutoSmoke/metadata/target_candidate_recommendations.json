@@ -1,6 +1,6 @@
 {
   "schema_version": "target_candidate_recommendations.v1",
-  "updated_at": "2026-06-24T11:13:59",
+  "updated_at": "2026-06-25T10:09:51",
   "recommendations": {
     "runtime.647b3c9358": {
       "targetId": "runtime.647b3c9358",
@@ -16263,6 +16263,697 @@
         "candidate_already_confirmed": 4,
         "duplicate_name": 8,
         "screen_rect_missing": 5
+      }
+    },
+    "runtime.b130bc1908": {
+      "targetId": "runtime.b130bc1908",
+      "targetName": "UiMain(Clone) [UIMainPopup] BuffBtn visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "recommendedAt": "2026-06-24T15:00:14",
+      "totalCandidates": 409,
+      "topCandidates": [
+        {
+          "displayName": "BuffBtn visual check",
+          "draftPath": "__runtime__::UiMain(Clone) [UIMainPopup]::content/Left_Top/BuffLayout/BuffBtn",
+          "elementType": "display_region",
+          "pageId": "UiMain(Clone) [UIMainPopup]",
+          "reasons": [
+            "runtime_path_exact",
+            "runtime_node_current",
+            "assert_visible"
+          ],
+          "reviewStatus": "runtime_node",
+          "risks": [],
+          "role": "visual_assert",
+          "runtimeMatched": true,
+          "score": 1.0,
+          "semanticId": "",
+          "testId": "__runtime__.UiMain(Clone) [UIMainPopup].content.Left_Top.BuffLayout.BuffBtn"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/Left_Top/BuffLayout/BuffBtn/Button",
+          "displayName": "UiMain-普通操作-未知可点击",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "auto_draft",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/BuffLayout/BuffBtn/Button",
+          "displayName": "Button",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.85,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/Head/Bg",
+          "displayName": "Bg",
+          "pageId": "UiMain",
+          "role": "action",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Bg",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/SettingBtn",
+          "displayName": "Setting按钮",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.SettingBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/Btn_layout/GrowthScoreBtn",
+          "displayName": "GrowthScore按钮",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.GrowthScoreBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/BuffLayout/BuffIcon/Button",
+          "displayName": "Button",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UITroopArenaData/Root/Animation/content/BuffBtn",
+          "displayName": "Buff按钮",
+          "pageId": "UITroopArenaData",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.25,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UITroopArenaData.BuffBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/kingdom_task_Root_new/EctypeBtn",
+          "displayName": "UiMain-普通操作-未知可点击",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "auto_draft",
+          "score": 0.3,
+          "reasons": [
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "runtime_path_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.EctypeBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/kingdom_task_Root_new/root/BG/Icon1",
+          "displayName": "UiMain-普通操作-可交互图标",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 0.3,
+          "reasons": [
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "runtime_path_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Icon1",
+          "semanticId": ""
+        }
+      ],
+      "riskSummary": {
+        "screen_rect_missing": 9,
+        "duplicate_name": 6,
+        "page_mismatch": 1,
+        "runtime_path_mismatch": 2
+      }
+    },
+    "runtime.1c5f94332e": {
+      "targetId": "runtime.1c5f94332e",
+      "targetName": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain] ReturnBtn entry icon",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "recommendedAt": "2026-06-24T15:09:37",
+      "totalCandidates": 52,
+      "topCandidates": [
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ReturnBtn",
+          "displayName": "UiPlayerMain-普通操作-可交互图标",
+          "pageId": "UiPlayerMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiPlayerMain/Content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UiPlayerMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.85,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemBatchIdentify.prefab::UIGemBatchIdentify/Root/BG/top_content/ReturnBtn",
+          "displayName": "UIGemBatchIdentify-普通操作-可交互图标",
+          "pageId": "UIGemBatchIdentify",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemBatchIdentify.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemLuckyTip.prefab::UIGemLuckyTip/Root/BG/top_content/ReturnBtn",
+          "displayName": "UIGemLuckyTip-普通操作-可交互图标",
+          "pageId": "UIGemLuckyTip",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemLuckyTip.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab::1202UI_resource_supplement/Root/BG/top_content/ReturnBtn",
+          "displayName": "1202UI_resource_supplement-普通操作-可交互图标",
+          "pageId": "1202UI_resource_supplement",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "1202UI_resource_supplement.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiOtherPlayerMain.prefab::UiOtherPlayerMain/Content/ReturnBtn",
+          "displayName": "UiOtherPlayerMain-普通操作-可交互图标",
+          "pageId": "UiOtherPlayerMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiOtherPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UIGemBatchIdentify/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UIGemBatchIdentify",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemBatchIdentify.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UIGemLuckyTip/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UIGemLuckyTip",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemLuckyTip.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "1202UI_resource_supplement/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "1202UI_resource_supplement",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "1202UI_resource_supplement.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiOtherPlayerMain/Content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UiOtherPlayerMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiOtherPlayerMain.ReturnBtn",
+          "semanticId": ""
+        }
+      ],
+      "riskSummary": {
+        "screen_rect_missing": 10,
+        "duplicate_name": 6,
+        "page_mismatch": 8
+      }
+    },
+    "runtime.c8456875f8": {
+      "targetId": "runtime.c8456875f8",
+      "targetName": "UIShop(Clone)_UIShopPop [UIShopPop] Buttom_Other visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "recommendedAt": "2026-06-25T10:09:51",
+      "totalCandidates": 579,
+      "topCandidates": [
+        {
+          "displayName": "Buttom_Other visual check",
+          "draftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/Buttom_Other",
+          "elementType": "display_region",
+          "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+          "reasons": [
+            "runtime_path_exact",
+            "runtime_node_current",
+            "assert_visible"
+          ],
+          "reviewStatus": "runtime_node",
+          "risks": [],
+          "role": "visual_assert",
+          "runtimeMatched": true,
+          "score": 1.0,
+          "semanticId": "",
+          "testId": "__runtime__.UIShop(Clone)_UIShopPop [UIShopPop].Root.Shop.Content.Bag.Buttom_Other"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/DeleteBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.DeleteBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Slider/BtnReduce",
+          "displayName": "UIShop-普通操作-未知可点击",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.BtnReduce",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Slider/BtnAdd",
+          "displayName": "UIShop-普通操作-未知可点击",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.BtnAdd",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Button",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "displayName": "背包道具使用按钮",
+          "pageId": "bag",
+          "role": "use",
+          "elementType": "Button",
+          "reviewStatus": "click_confirmed",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "candidate_already_confirmed",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "bag.use.button",
+          "semanticId": "bag.use.button",
+          "formalRef": "formal://bag/bag.use.button",
+          "evidenceRef": "EVIDENCE_bag.use.button"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/ArtifactGotoBtn",
+          "displayName": "UIShop-前往-可交互图标",
+          "pageId": "UIShop",
+          "role": "go_to",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.ArtifactGotoBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/MergeBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.MergeBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/GotoBtn",
+          "displayName": "UIShop-前往-可交互图标",
+          "pageId": "UIShop",
+          "role": "go_to",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.GotoBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/MergeAndUse/MergeBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.MergeBtn",
+          "semanticId": ""
+        }
+      ],
+      "riskSummary": {
+        "screen_rect_missing": 9,
+        "duplicate_name": 9,
+        "candidate_already_confirmed": 1
       }
     }
   }

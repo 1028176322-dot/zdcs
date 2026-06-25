@@ -1,0 +1,10 @@
+{
+  "renderer_version": "deterministic_renderer@0.7.1",
+  "renderer_mode": "deterministic",
+  "ai_used_in_rendering": false,
+  "ai_calls": 0,
+  "input_json": "输出/wiki_armrace_reviewable/candidate_feature_flow.json",
+  "input_json_sha256": "6fe46c3f821d2bf45a04d2976cd92239fd438057a2ed113cf153e2aca7ece68b",
+  "output": "输出/wiki_armrace_reviewable/review_pack.md",
+  "output_sha256": "0636671b4ceba9bb3e7b0ddd15e076b8c36efb60fc3990e24ca3fdc3238d9a19"
+}

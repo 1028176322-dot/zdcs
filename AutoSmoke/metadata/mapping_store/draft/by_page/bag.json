@@ -5218,8 +5218,8 @@
         "type": "runtimePath",
         "value": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1"
       },
-      "source": "manual_corrected",
-      "reviewStatus": "manual",
+      "source": "target_workbench",
+      "reviewStatus": "click_confirmed",
       "verify_status": "click_confirmed",
       "confidence": 0.4,
       "chineseDescription": "背包界面的金币途径按钮",
@@ -5519,30 +5519,6 @@
       "semanticSyncedBy": "target_workbench_repair",
       "draftId": "DRAFT_91bc6500e907",
       "evidenceRef": "EVIDENCE_bag.hero.tab.button"
-    },
-    "DRAFT_cf94a97f1a0d": {
-      "path": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
-      "elementPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/Content/Buttom/BagBtn",
-      "targetId": "runtime.98e348ebd1",
-      "targetName": "角色信息界面增益按钮",
-      "semanticId": "character_info.buff.button",
-      "testId": "character_info.buff.button",
-      "displayName": "角色信息-增益按钮",
-      "pageId": "character_info",
-      "role": "button",
-      "elementType": "Button",
-      "locator": {
-        "type": "runtimePath",
-        "value": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn"
-      },
-      "source": "target_workbench",
-      "reviewStatus": "click_confirmed",
-      "verify_status": "click_confirmed",
-      "confidence": 0.5,
-      "draftId": "DRAFT_cf94a97f1a0d",
-      "evidenceRef": "EVIDENCE_character_info.buff.button",
-      "semanticSyncedAt": "2026-06-24T10:00:32",
-      "semanticSyncedBy": "target_workbench_repair"
     }
   },
   "groups": {

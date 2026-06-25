@@ -1,0 +1,42 @@
+{
+  "schema_version": "autosmoke_handoff_import_report.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "feature_id": "armrace",
+  "validation": {
+    "schema_version": "autosmoke_handoff_validation_report.v1",
+    "package_id": "armrace_business_20260625_v1",
+    "feature_id": "armrace",
+    "status": "READY_UI_AND_BUSINESS",
+    "automation_level": "UI_AND_BUSINESS",
+    "errors": [],
+    "warnings": [],
+    "blockers": [],
+    "summary": {
+      "case_count": 1,
+      "target_count": 2,
+      "page_count": 2,
+      "business_state_count": 1,
+      "business_assertion_count": 1
+    },
+    "validated_at": "2026-06-25T12:40:36"
+  },
+  "outputs": {
+    "cases": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\autosmoke_cases.json",
+    "mapping_tasks": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\mapping_tasks_from_handoff.json",
+    "execution_plan": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+    "queue_import": {
+      "skipped": true
+    },
+    "semantic_pending": {
+      "skipped": true,
+      "reason": "semantic pending write disabled"
+    }
+  },
+  "summary": {
+    "converted_cases": 1,
+    "converted_targets": 2,
+    "queue_imported": 0,
+    "semantic_pending_updates": 0
+  },
+  "imported_at": "2026-06-25T12:40:36"
+}

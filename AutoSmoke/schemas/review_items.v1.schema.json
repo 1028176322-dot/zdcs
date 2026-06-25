@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review_items.v1.schema.json",
+  "title": "Review items and blockers",
+  "type": "object",
+  "required": ["schema_version", "feature_id", "items"],
+  "properties": {
+    "schema_version": { "const": "review_items.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "items": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

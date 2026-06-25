@@ -127,6 +127,28 @@ def _read_json_if_exists(path):
         return None
 
 
+def _handoff_package_dir(value):
+    text = _coerce_str(value)
+    if not text:
+        return ""
+    path = os.path.abspath(text)
+    if os.path.isfile(path):
+        return os.path.dirname(path)
+    return path
+
+
+def _handoff_report_paths():
+    report_dir = os.path.join(_CONF_DIR, "metadata", "handoff", "reports")
+    if not os.path.isdir(report_dir):
+        return []
+    out = []
+    for name in os.listdir(report_dir):
+        if name.endswith(".json"):
+            p = os.path.join(report_dir, name)
+            out.append(p)
+    return sorted(out, key=lambda p: os.path.getmtime(p), reverse=True)
+
+
 def _safe_check_item(name, ok, detail=None, blocker=False, quick_fix=None):
     item = {
         "name": name,
@@ -1326,6 +1348,74 @@ def _dedupe_confirmed_targets(tasks):
     return out
 
 
+def _target_scope_value(task):
+    if not isinstance(task, dict):
+        return ""
+    runtime_hint = task.get("runtimeHint") if isinstance(task.get("runtimeHint"), dict) else {}
+    return _coerce_str(
+        task.get("pageHint"),
+        _coerce_str(
+            task.get("pageId"),
+            _coerce_str(runtime_hint.get("ownerPageId"), _coerce_str(runtime_hint.get("pageId"))),
+        ),
+    )
+
+
+def _target_scope_aliases(scope_owner):
+    text = _coerce_str(scope_owner).replace("\\", "/").strip()
+    if not text:
+        return set()
+    aliases = {text, text.replace("(Clone)", "").strip()}
+    for separator in ("(Clone)", " [", "/", "::"):
+        if separator in text:
+            head = text.split(separator, 1)[0].strip()
+            if head:
+                aliases.add(head)
+    return {alias for alias in aliases if alias}
+
+
+def _target_scope_matches(task, scope_owner):
+    scope_owner = _coerce_str(scope_owner)
+    if not scope_owner:
+        return True
+    scope = _target_scope_value(task)
+    selected_path = _coerce_str(
+        task.get("selectedDraftPath"),
+        _coerce_str(task.get("elementPath"), _coerce_str(task.get("path"), _coerce_str(task.get("draftPath")))),
+    )
+    runtime_hint = task.get("runtimeHint") if isinstance(task.get("runtimeHint"), dict) else {}
+    path_text = " ".join([
+        selected_path,
+        _coerce_str(runtime_hint.get("runtimePath")),
+        _coerce_str(runtime_hint.get("clickTargetNode")),
+        _coerce_str(task.get("formalRef")),
+        _coerce_str(task.get("evidenceRef")),
+        _coerce_str(task.get("testId")),
+        _coerce_str(task.get("confirmedTestId")),
+    ]).replace("\\", "/")
+    scope_aliases = _target_scope_aliases(scope_owner)
+    if any(alias and (alias in path_text or f"{alias}/" in path_text) for alias in scope_aliases):
+        return True
+    if not scope:
+        return False
+    if scope == scope_owner:
+        return True
+    scope_values = _target_scope_aliases(scope)
+    if "UIShop" in scope_aliases and scope in {"bag", "shop"}:
+        if scope in path_text.lower() or f"formal://{scope}/" in path_text.lower():
+            return True
+    return bool(scope_values.intersection(scope_aliases))
+
+
+def _target_current_scope_tasks(scope_owner, limit=200):
+    tasks = _target_catalog().list_tasks(status="", limit=5000).get("tasks", [])
+    tasks = [
+        task for task in _dedupe_confirmed_targets(tasks)
+        if _target_scope_matches(task, scope_owner)
+    ]
+    return tasks[:max(1, min(int(limit or 200), 1000))]
+
+
 def _audit_target_identity_conflicts(tasks=None, formal=None):
     tasks = tasks if isinstance(tasks, list) else _target_catalog().list_tasks(limit=5000).get("tasks", [])
     formal = formal if isinstance(formal, dict) else _formal_records()
@@ -1434,6 +1524,80 @@ def _audit_target_identity_conflicts(tasks=None, formal=None):
                     "rightPath": right_path,
                 })
     return {"success": True, "passed": len(issues) == 0, "issueCount": len(issues), "issues": issues}
+
+
+_REVIEW_STATUS_RANK = {
+    "": 0,
+    "pending": 0,
+    "auto_draft": 0,
+    "manual": 1,
+    "confirmed": 1,
+    "manual_confirmed": 2,
+    "runtime_matched": 3,
+    "highlight_generated": 3,
+    "visual_confirmed": 4,
+    "click_confirmed": 5,
+    "collection_confirmed": 5,
+    "case_verified": 6,
+    "template": 6,
+}
+
+
+def _target_status_from_evidence(evidence):
+    if not isinstance(evidence, dict):
+        return ""
+    click = evidence.get("click") if isinstance(evidence.get("click"), dict) else {}
+    visual = evidence.get("visual") if isinstance(evidence.get("visual"), dict) else {}
+    runtime = evidence.get("runtime") if isinstance(evidence.get("runtime"), dict) else {}
+    if click.get("confirmed") is True or _coerce_str(click.get("result")).upper() == "PASS":
+        return "click_confirmed"
+    if visual.get("confirmed") is True:
+        return "visual_confirmed"
+    if runtime.get("matched") is True:
+        return "runtime_matched"
+    return ""
+
+
+def _audit_review_status_consistency(store=None, queue_tasks=None):
+    store = store or MappingStore(project_root=_project_root)
+    queue_tasks = queue_tasks if isinstance(queue_tasks, list) else _target_catalog().list_tasks(limit=5000).get("tasks", [])
+    issues = []
+    for test_id, item in _formal_records().items():
+        if not isinstance(item, dict):
+            continue
+        status = _coerce_str(item.get("reviewStatus"))
+        if status == "template":
+            continue
+        evidence = store.get_evidence(evidence_ref=item.get("evidenceRef", ""), test_id=test_id)
+        evidence_status = _target_status_from_evidence(evidence)
+        if evidence_status and _REVIEW_STATUS_RANK.get(status, 0) < _REVIEW_STATUS_RANK.get(evidence_status, 0):
+            issues.append({
+                "kind": "formal_status_below_evidence",
+                "testId": test_id,
+                "reviewStatus": status,
+                "evidenceStatus": evidence_status,
+                "formalRef": f"formal://{item.get('pageId') or 'unknown'}/{test_id}",
+            })
+    for task in queue_tasks or []:
+        if not isinstance(task, dict):
+            continue
+        test_id = _coerce_str(task.get("confirmedTestId"), _coerce_str(task.get("testId")))
+        if not test_id:
+            continue
+        status = _coerce_str(task.get("status"))
+        if status in {"ignored", "modified"}:
+            continue
+        evidence = store.get_evidence(evidence_ref=task.get("evidenceRef", ""), test_id=test_id)
+        evidence_status = _target_status_from_evidence(evidence)
+        if evidence_status and _REVIEW_STATUS_RANK.get(status, 0) < _REVIEW_STATUS_RANK.get(evidence_status, 0):
+            issues.append({
+                "kind": "target_status_below_evidence",
+                "targetId": task.get("targetId", ""),
+                "testId": test_id,
+                "status": status,
+                "evidenceStatus": evidence_status,
+            })
+    return {"success": True, "passed": not issues, "issueCount": len(issues), "issues": issues[:100]}
 
 
 def _target_recommendation_path():
@@ -3114,6 +3278,21 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
   </div>
   <div id="browserArea" style="display:none;border:1px solid #ddd;border-radius:4px;font-size:11px;max-height:160px;overflow:auto;background:#fff;"></div>
   <div id="importSummary" style="font-size:10px;color:#666;margin-top:2px;"></div>
+  <div style="border-top:1px solid #eee;margin-top:6px;padding-top:6px;">
+    <div style="font-size:10px;color:#666;margin-bottom:3px;">QA_Reader handoff</div>
+    <div style="display:flex;gap:3px;margin-bottom:3px;">
+      <input id="handoffPath" class="inp" value="AutoSmoke/examples/armrace_handoff_example" placeholder="handoff包目录或manifest.json" style="flex:1;font-size:10px;">
+      <button class="btn btn-sm" onclick="handoffUseSelected()">使用选择</button>
+    </div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="handoffValidate()">准入校验</button>
+      <button class="btn btn-sm" style="background:#00695C;color:#fff;" onclick="handoffImport(true)">导入目标队列</button>
+      <button class="btn btn-sm" onclick="handoffImport(false)">只转换</button>
+      <button class="btn btn-sm" onclick="handoffPlan()">执行计划</button>
+      <button class="btn btn-sm" onclick="handoffBusinessRun()">业务断言</button>
+    </div>
+    <div id="handoffSummary" style="font-size:10px;color:#666;margin-top:3px;max-height:140px;overflow:auto;"></div>
+  </div>
 </details>
 
 </div>
@@ -4240,7 +4419,7 @@ function targetGenerateRuntime(){
         ml('已生成当前页目标: '+(d.generated||0)+' 个；page='+(d.currentBusinessPageId||d.runtimePageId||'-'));
         targetState.selected=null;
         if(Array.isArray(d.tasks)){
-          targetRenderListItems(d.tasks, d.generated||d.tasks.length, d.tasks.length, '当前页未生成目标。请确认 Unity 当前界面存在可点击元素。');
+          targetRenderListItems(d.tasks, d.total||d.tasks.length, d.returned||d.tasks.length, '当前页未生成目标。请确认 Unity 当前界面存在可点击元素。');
         }else{
           targetRenderListItems([], 0, 0, '当前页未返回目标列表，请重新生成或刷新。');
         }
@@ -4530,8 +4709,7 @@ function targetCall(url,label){
   fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({targetId:t.targetId})})
     .then(function(r){return r.json();}).then(function(d){
       targetSetResult(d.success?(label+'完成'):('失败: '+(d.error||d.status||'')),!!d.success);
-      if(d.success){ targetLoad(); }
-      else { targetRefreshSelected(); }
+      targetRefreshSelected();
     });
 }
 function targetIgnore(){
@@ -5413,6 +5591,105 @@ function doImport(){
       document.getElementById("importSummary").innerHTML="<span style=\"color:red;\">✖ "+d.error+"</span>";
     }
   }).catch(function(e){ml("导入失败","e");});
+}
+function handoffPathValue(){
+  var el=document.getElementById('handoffPath');
+  return el?el.value.trim():'';
+}
+function handoffUseSelected(){
+  var p=document.getElementById('browsePath');
+  var h=document.getElementById('handoffPath');
+  if(!p||!h)return;
+  var text=(p.textContent||'').trim();
+  if(!text||text==='点击选择目录...'){ml('请先在上方选择 handoff 包目录或 manifest.json','w');return;}
+  h.value=text;
+  ml('已填入 handoff 路径');
+}
+function handoffRender(data){
+  var el=document.getElementById('handoffSummary');
+  if(!el)return;
+  var obj=data&&data.result?data.result:(data&&data.report?data.report:data);
+  var validation=obj&&obj.validation?obj.validation:obj;
+  var summary=obj&&obj.summary?obj.summary:(validation&&validation.summary?validation.summary:{});
+  var status=validation&&validation.status?validation.status:(data&&data.success?'OK':'FAILED');
+  var level=validation&&validation.automation_level?validation.automation_level:'';
+  var color=(status==='BLOCKED'||data.success===false)?'#f44336':'#4CAF50';
+  var html='<div><span style="color:'+color+';">'+status+'</span> '+level+'</div>';
+  html+='<div>case '+(summary.case_count||summary.converted_cases||0)+' | target '+(summary.target_count||summary.converted_targets||0)+' | queue '+(summary.queue_imported||0)+'</div>';
+  var warnings=(validation&&validation.warnings)||[];
+  var errors=(validation&&validation.errors)||[];
+  var blockers=(validation&&validation.blockers)||[];
+  if(warnings.length){html+='<div style="color:#ff8f00;">warnings: '+warnings.map(function(x){return x.code||x.message;}).join(', ')+'</div>';}
+  if(errors.length||blockers.length){html+='<div style="color:#f44336;">issues: '+errors.concat(blockers).map(function(x){return x.code||x.message;}).join(', ')+'</div>';}
+  if(obj&&obj.outputs){
+    html+='<div style="color:#888;">'+Object.keys(obj.outputs).map(function(k){return k+': '+(typeof obj.outputs[k]==='string'?obj.outputs[k]:'ok');}).join('<br>')+'</div>';
+  }
+  el.innerHTML=html;
+}
+function handoffValidate(){
+  var path=handoffPathValue();
+  if(!path){ml('请输入 handoff 包目录','w');return;}
+  ml('handoff 准入校验...');
+  fetch('/api/handoff/validate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageDir:path,writeReport:true})}).then(function(r){return r.json();}).then(function(d){
+    handoffRender(d);
+    ml(d.success?'handoff 校验通过':'handoff 校验未通过',d.success?'':'w');
+  }).catch(function(e){ml('handoff 校验失败','e');});
+}
+function handoffImport(writeQueue){
+  var path=handoffPathValue();
+  if(!path){ml('请输入 handoff 包目录','w');return;}
+  ml(writeQueue?'handoff 导入目标队列...':'handoff 转换...');
+  fetch('/api/handoff/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageDir:path,writeQueue:!!writeQueue,writeSemanticPending:!!writeQueue})}).then(function(r){return r.json();}).then(function(d){
+    handoffRender(d);
+    if(d.success&&writeQueue&&typeof targetLoad==='function')targetLoad();
+    ml(d.success?'handoff 处理完成':'handoff 处理失败',d.success?'':'w');
+  }).catch(function(e){ml('handoff 导入失败','e');});
+}
+function handoffPlan(){
+  var el=document.getElementById('handoffSummary');
+  fetch('/api/handoff/plan').then(function(r){return r.json();}).then(function(d){
+    if(!el)return;
+    if(!d.success){el.innerHTML='<span style="color:#f44336;">'+(d.error||'execution plan missing')+'</span>';return;}
+    var p=d.plan||{};
+    var cases=p.cases||[];
+    var rows=[];
+    cases.forEach(function(c){rows.push((c.case_id||'case')+' '+(c.status||''));});
+    el.innerHTML='<div><b>'+p.plan_status+'</b> '+(p.automation_level||'')+'</div><div>unresolved: '+((p.unresolved_targets||[]).join(', ')||'-')+'</div><div>'+rows.join('<br>')+'</div>';
+    ml('执行计划已加载');
+  }).catch(function(e){ml('执行计划加载失败','e');});
+}
+function handoffBusinessRun(){
+  var path=handoffPathValue();
+  var packageId='';
+  if(path.indexOf('armrace_handoff_business_example')>=0)packageId='armrace_business_20260625_v1';
+  if(!packageId){
+    fetch('/api/handoff/reports').then(function(r){return r.json();}).then(function(d){
+      var reps=d.reports||[];
+      for(var i=0;i<reps.length;i++){
+        if((reps[i].automationLevel||'')==='UI_AND_BUSINESS'){packageId=reps[i].packageId;break;}
+      }
+      _handoffBusinessRunPackage(packageId);
+    }).catch(function(){_handoffBusinessRunPackage(packageId);});
+    return;
+  }
+  _handoffBusinessRunPackage(packageId);
+}
+function _handoffBusinessRunPackage(packageId){
+  var el=document.getElementById('handoffSummary');
+  if(!packageId){if(el)el.innerHTML='<span style="color:#f44336;">未找到 UI_AND_BUSINESS 包，请先导入业务包</span>';return;}
+  ml('执行业务断言...');
+  fetch('/api/handoff/business/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId})}).then(function(r){return r.json();}).then(function(d){
+    var res=d.result||{};
+    var assertions=res.assertion_results||[];
+    var states=res.state_results||[];
+    var passed=assertions.filter(function(a){return a.passed;}).length;
+    var html='<div><b style="color:'+(res.success?'#4CAF50':'#f44336')+';">'+(res.success?'PASS':'FAIL')+'</b> '+packageId+'</div>';
+    html+='<div>assertions '+passed+'/'+assertions.length+' | states '+states.length+'</div>';
+    assertions.forEach(function(a){html+='<div style="color:'+(a.passed?'#4CAF50':'#f44336')+';">'+(a.assertion_id||'assertion')+': '+(a.passed?'PASS':'FAIL')+'</div>';});
+    states.forEach(function(s){if(!s.success){html+='<div style="color:#ff8f00;">'+(s.state_path||'state')+': '+(s.error||'missing')+'</div>';}}); 
+    if(el)el.innerHTML=html;
+    ml(res.success?'业务断言通过':'业务断言未通过',res.success?'':'w');
+  }).catch(function(e){ml('业务断言执行失败','e');});
 }
 
 // ===== 环境初始化 =====
@@ -6595,6 +6872,99 @@ def api_ui_import_report():
         return jsonify({"success": False, "error": str(e)})
 
 
+@app.route("/api/handoff/reports")
+def api_handoff_reports():
+    try:
+        reports = []
+        for path in _handoff_report_paths()[:50]:
+            data = _read_json_if_exists(path) or {}
+            reports.append({
+                "name": os.path.basename(path),
+                "path": os.path.abspath(path),
+                "packageId": data.get("package_id", ""),
+                "featureId": data.get("feature_id", ""),
+                "schemaVersion": data.get("schema_version", ""),
+                "status": (data.get("validation") or data).get("status", ""),
+                "automationLevel": (data.get("validation") or data).get("automation_level", ""),
+                "summary": data.get("summary", {}),
+                "mtime": datetime.fromtimestamp(os.path.getmtime(path)).isoformat(timespec="seconds"),
+            })
+        return jsonify({"success": True, "reports": reports, "total": len(reports)})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/validate", methods=["POST"])
+def api_handoff_validate():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_dir = _handoff_package_dir(payload.get("packageDir") or payload.get("path"))
+        if not package_dir:
+            return jsonify({"success": False, "error": "packageDir/path is required"})
+        from tools.handoff_pipeline import validate_package, write_json, REPORT_ROOT
+        report = validate_package(Path(package_dir))
+        if payload.get("writeReport", True):
+            write_json(REPORT_ROOT / f"{report['package_id']}.validation_report.json", report)
+        return jsonify({"success": report.get("status") != "BLOCKED", "packageDir": package_dir, "report": report})
+    except Exception as e:
+        logger.exception("handoff validate failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/import", methods=["POST"])
+def api_handoff_import():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_dir = _handoff_package_dir(payload.get("packageDir") or payload.get("path"))
+        if not package_dir:
+            return jsonify({"success": False, "error": "packageDir/path is required"})
+        write_queue = _coerce_bool(payload.get("writeQueue"), True)
+        write_semantic_pending = _coerce_bool(payload.get("writeSemanticPending"), write_queue)
+        from tools.handoff_pipeline import import_package
+        result = import_package(Path(package_dir), write_queue=write_queue, write_semantic_pending=write_semantic_pending)
+        return jsonify({"success": bool(result.get("success")), "packageDir": package_dir, "result": result})
+    except Exception as e:
+        logger.exception("handoff import failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/plan")
+def api_handoff_plan():
+    try:
+        package_id = _coerce_str(request.args.get("packageId") or request.args.get("package_id"))
+        if not package_id:
+            report_paths = [p for p in _handoff_report_paths() if p.endswith(".import_report.json")]
+            if report_paths:
+                latest = _read_json_if_exists(report_paths[0]) or {}
+                package_id = _coerce_str(latest.get("package_id"))
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        plan_path = os.path.join(_CONF_DIR, "metadata", "handoff", "imports", package_id, "execution_plan.json")
+        plan = _read_json_if_exists(plan_path)
+        if not isinstance(plan, dict):
+            return jsonify({"success": False, "error": "execution_plan_not_found", "packageId": package_id, "path": os.path.abspath(plan_path)})
+        return jsonify({"success": True, "packageId": package_id, "path": os.path.abspath(plan_path), "plan": plan})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/business/run", methods=["POST", "GET"])
+def api_handoff_business_run():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = _coerce_str(payload.get("packageId") or payload.get("package_id") or request.args.get("packageId") or request.args.get("package_id"))
+        runtime_file = _coerce_str(payload.get("runtimeFile") or payload.get("runtime_file") or request.args.get("runtimeFile") or request.args.get("runtime_file"))
+        manual_values = payload.get("manualValues") if isinstance(payload.get("manualValues"), dict) else {}
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        from tools.business_runtime import run_business_plan
+        result = run_business_plan(package_id, Path(runtime_file) if runtime_file else None, write_result=True, manual_values=manual_values)
+        return jsonify({"success": bool(result.get("success")), "result": result})
+    except Exception as e:
+        logger.exception("handoff business run failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
 @app.route("/api/prepare/init_environment", methods=["POST", "GET"])
 def api_prepare_init_environment():
     try:
@@ -7561,6 +7931,11 @@ def api_mapping_store_validate():
             formal=_formal_records(),
         )
         identity_conflicts = identity_audit.get("issues", []) if isinstance(identity_audit, dict) else []
+        review_status_audit = _audit_review_status_consistency(
+            store=store,
+            queue_tasks=queue_data.get("tasks", []) if isinstance(queue_data, dict) else [],
+        )
+        review_status_issues = review_status_audit.get("issues", []) if isinstance(review_status_audit, dict) else []
         passed = (
             bool(indexes.get("success"))
             and not absolute_hits
@@ -7568,6 +7943,7 @@ def api_mapping_store_validate():
             and not missing_required
             and not any(old_field_counts.values())
             and not identity_conflicts
+            and not review_status_issues
         )
         report = {
             "success": True,
@@ -7584,6 +7960,8 @@ def api_mapping_store_validate():
             "missingRequiredFiles": missing_required,
             "identityAudit": identity_audit,
             "identityConflictCount": len(identity_conflicts),
+            "reviewStatusAudit": review_status_audit,
+            "reviewStatusIssueCount": len(review_status_issues),
         }
         report_path = store.store_dir / "validation_report.json"
         try:
@@ -9341,6 +9719,12 @@ def api_target_generate_from_runtime_current():
             result["runtimeRefresh"] = rt
             result["runtimeCapturedAt"] = rt.get("capturedAt", "")
             result["runtimeNodeCount"] = rt.get("nodeCount", 0)
+            scope_owner = _coerce_str(result.get("scopeOwner"), _coerce_str(rt.get("currentBusinessPageId"), rt.get("pageId", "")))
+            scoped_tasks = _target_current_scope_tasks(scope_owner, limit=max(limit, 200))
+            result["tasks"] = scoped_tasks[:limit]
+            result["returned"] = len(result["tasks"])
+            result["total"] = len(scoped_tasks)
+            result["displayScopeOwner"] = scope_owner
         return jsonify(result)
     except Exception as e:
         return jsonify({"success": False, "error": str(e)})

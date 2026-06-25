@@ -1,0 +1,53 @@
+{
+  "schema_version": "autosmoke_business_assertion_result.v1",
+  "success": true,
+  "package_id": "armrace_business_20260625_v1",
+  "plan_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+  "runtime_path": "E:\\zdcs\\AutoSmoke\\examples\\armrace_handoff_business_example\\runtime_ui_tree_score_example.json",
+  "state_results": [
+    {
+      "success": true,
+      "state_path": "activity.armrace.score_text",
+      "value": "积分 1200",
+      "node": {
+        "runtimePath": "Activity/ArmRace/ScoreText",
+        "nodeName": "ScoreText",
+        "text": "积分 1200",
+        "pageId": "activity_armrace",
+        "screenRect": [
+          100,
+          100,
+          300,
+          140
+        ]
+      },
+      "collector": "ui_runtime_tree"
+    }
+  ],
+  "state_values": {
+    "activity.armrace.score_text": "积分 1200"
+  },
+  "assertion_results": [
+    {
+      "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
+      "passed": true,
+      "operator": "not_empty",
+      "actual": {
+        "activity.armrace.score_text": "积分 1200"
+      },
+      "expected": true,
+      "missing": [],
+      "source_trace": [
+        {
+          "source_id": "REQ-ARMRACE-BIZ-001",
+          "case_id": "ARMRACE_BUSINESS_001",
+          "target_ids": [
+            "TGT_ARMRACE_TAB",
+            "TGT_ARMRACE_SCORE_TEXT"
+          ]
+        }
+      ]
+    }
+  ],
+  "executed_at": "2026-06-25T12:41:31"
+}

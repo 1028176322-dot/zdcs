@@ -1,0 +1,10 @@
+{
+  "schema_version": "value_assets.v1",
+  "feature_id": "armrace",
+  "assets": [
+    {
+      "asset_id": "ARM_SCORE_TEXT_RULE",
+      "description": "积分文本应可被采集为非空字符串"
+    }
+  ]
+}

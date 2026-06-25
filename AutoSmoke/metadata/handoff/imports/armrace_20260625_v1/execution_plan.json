@@ -1,0 +1,50 @@
+{
+  "schema_version": "autosmoke_execution_plan.v1",
+  "package_id": "armrace_20260625_v1",
+  "feature_id": "armrace",
+  "automation_level": "UI_ONLY",
+  "admission_status": "READY_UI_ONLY",
+  "plan_status": "READY_TO_RUN",
+  "unresolved_targets": [],
+  "cases": [
+    {
+      "case_id": "ARMRACE_UI_001",
+      "name": "进入军备竞赛主界面",
+      "automation_level": "UI_ONLY",
+      "status": "READY_TO_RUN",
+      "steps": [
+        {
+          "step_order": 1,
+          "action": "click",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "semantic_id": "armrace.tab.button",
+          "test_id": "armrace.tab.button",
+          "page_hint": "常规活动主界面",
+          "value": "进入军备竞赛主界面",
+          "binding_required": false,
+          "assertion_refs": [],
+          "source_node_ids": [
+            "NODE-ARMRACE-ENTRY"
+          ]
+        },
+        {
+          "step_order": 2,
+          "action": "assert_visible",
+          "target_id": "TGT_ARMRACE_TITLE",
+          "target_name": "军备竞赛标题",
+          "semantic_id": "armrace.title.text",
+          "test_id": "armrace.title.text",
+          "page_hint": "军备竞赛主界面",
+          "value": "军备竞赛标题可见",
+          "binding_required": false,
+          "assertion_refs": [],
+          "source_node_ids": [
+            "NODE-ARMRACE-TITLE"
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-25T12:15:49"
+}

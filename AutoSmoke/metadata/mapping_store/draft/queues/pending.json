@@ -1,7 +1,7 @@
 {
   "schema_version": "draft_queue.v1",
   "status": "pending",
-  "updated_at": "2026-06-24T11:40:48",
+  "updated_at": "2026-06-25T11:59:09",
   "items": [
     {
       "draftId": "DRAFT_feb898870518",
@@ -4457,12 +4457,6 @@
     },
     {
       "draftId": "DRAFT_91bc6500e907",
-      "pageId": "bag",
-      "draftPath": "mapping_store/draft/by_page/bag.json",
-      "reason": ""
-    },
-    {
-      "draftId": "DRAFT_cf94a97f1a0d",
       "pageId": "bag",
       "draftPath": "mapping_store/draft/by_page/bag.json",
       "reason": ""

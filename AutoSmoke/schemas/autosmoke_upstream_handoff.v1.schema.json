@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "autosmoke_upstream_handoff.v1.schema.json",
+  "title": "AutoSmoke upstream handoff package manifest",
+  "type": "object",
+  "required": ["schema_version", "package_id", "feature_id"],
+  "properties": {
+    "schema_version": { "const": "autosmoke_upstream_handoff.v1" },
+    "package_id": { "type": "string", "minLength": 1 },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "feature_name": { "type": "string" },
+    "producer": { "type": "string" },
+    "created_at": { "type": "string" },
+    "files": { "type": "object" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "autosmoke_cases_from_handoff.v1",
+  "package_id": "armrace_20260625_v1",
+  "cases": [
+    {
+      "case_id": "ARMRACE_UI_001",
+      "name": "进入军备竞赛主界面",
+      "description": "",
+      "automation_level": "UI_ONLY",
+      "source": "qa_reader_handoff",
+      "source_package": "armrace_20260625_v1",
+      "steps": [
+        {
+          "step_order": 1,
+          "action": "click",
+          "target": "TGT_ARMRACE_TAB",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "page_name": "常规活动主界面",
+          "page_id": "",
+          "value": "进入军备竞赛主界面",
+          "timeout": 10,
+          "source_node_ids": [
+            "NODE-ARMRACE-ENTRY"
+          ],
+          "assertion_refs": [],
+          "raw": {
+            "step_order": 1,
+            "action": "click",
+            "page_name": "常规活动主界面",
+            "target_id": "TGT_ARMRACE_TAB",
+            "target_name": "军备竞赛页签",
+            "expected": "进入军备竞赛主界面",
+            "source_node_ids": [
+              "NODE-ARMRACE-ENTRY"
+            ]
+          }
+        },
+        {
+          "step_order": 2,
+          "action": "assert_visible",
+          "target": "TGT_ARMRACE_TITLE",
+          "target_id": "TGT_ARMRACE_TITLE",
+          "target_name": "军备竞赛标题",
+          "page_name": "军备竞赛主界面",
+          "page_id": "",
+          "value": "军备竞赛标题可见",
+          "timeout": 10,
+          "source_node_ids": [
+            "NODE-ARMRACE-TITLE"
+          ],
+          "assertion_refs": [],
+          "raw": {
+            "step_order": 2,
+            "action": "assert_visible",
+            "page_name": "军备竞赛主界面",
+            "target_id": "TGT_ARMRACE_TITLE",
+            "target_name": "军备竞赛标题",
+            "expected": "军备竞赛标题可见",
+            "source_node_ids": [
+              "NODE-ARMRACE-TITLE"
+            ]
+          }
+        }
+      ],
+      "result": null,
+      "error_message": ""
+    }
+  ]
+}

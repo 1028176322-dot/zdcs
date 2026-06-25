@@ -2,7 +2,7 @@
   "schema_version": "mapping_store.v1",
   "store_version": 1,
   "layout": "page_sharded_mapping_store",
-  "updated_at": "2026-06-24T11:40:46",
+  "updated_at": "2026-06-25T11:59:06",
   "files": {
     "page_index": "mapping_store/indexes/page.index.json",
     "draft_index": "mapping_store/indexes/draft.index.json",

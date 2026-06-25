@@ -1,0 +1,35 @@
+
+==================================================
+  AutoSmoke 环境检查
+==================================================
+
+--- 基础环境 ---
+  Python: 3.11.9 (✅)
+
+--- 核心依赖 ---
+  flask: ✅ 3.1.3
+  pillow: ✅ 12.2.0
+  numpy: ✅ 1.26.4
+  pywin32: ✅ ?
+
+--- 功能依赖（可选） ---
+  opencv-python: ✅ 4.11.0
+  openpyxl: ✅ 3.1.5
+  Tesseract-OCR: ✅ tesseract v5.4.0.20240606
+
+--- 配置 ---
+  Unity 项目: ✅ E:/s1/k3client/client
+  AutoSmoke 根目录: ✅ E:\zdcs\AutoSmoke
+
+✅ 环境检查通过 — 可以启动 IDE
+
+🚀 AutoSmoke Web IDE 启动中...
+   地址: http://localhost:5000
+   调试: 关闭
+   💡 调试模式下修改代码后自动加载，刷新页面即可
+
+📌 PID=33236 (锁文件: runtime/web_ide.pid)
+✅ IDE 面板已加载
+
+ * Serving Flask app 'IDE.debug_panel'
+ * Debug mode: off

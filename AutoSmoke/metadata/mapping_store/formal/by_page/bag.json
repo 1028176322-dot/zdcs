@@ -125,8 +125,8 @@
           "value": []
         }
       ],
-      "reviewStatus": "manual",
-      "source": "manual_corrected",
+      "reviewStatus": "click_confirmed",
+      "source": "target_workbench",
       "revalidateStatus": "ok",
       "revalidatedAt": "2026-06-18T15:10:20",
       "revalidateRuntimePath": "ResItem_1",

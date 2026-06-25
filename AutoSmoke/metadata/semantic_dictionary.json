@@ -1,6 +1,6 @@
 {
   "schema_version": "semantic_dictionary.v1",
-  "updated_at": "2026-06-24T10:02:17",
+  "updated_at": "2026-06-25T09:58:12",
   "pages": {
     "背包": "bag",
     "商店": "shop",
@@ -234,6 +234,15 @@
       ],
       "source": "targetName_input_fallback",
       "fedAt": "2026-06-24T10:02:17"
+    },
+    "uishop clone  uishoppop  uishoppop  背包 visual check": {
+      "id": "uishop_clone_uishoppop_uishoppop_visual_check",
+      "name": "uishop clone  uishoppop  uishoppop  背包 visual check",
+      "keywords": [
+        "uishop clone  uishoppop  uishoppop  背包 visual check"
+      ],
+      "source": "targetName_input_fallback",
+      "fedAt": "2026-06-25T09:58:12"
     }
   },
   "roles": {

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source_trace.v1.schema.json",
+  "title": "Source trace",
+  "type": "object",
+  "required": ["schema_version", "feature_id"],
+  "properties": {
+    "schema_version": { "const": "source_trace.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "sources": { "type": "array" },
+    "links": { "type": "array" }
+  },
+  "additionalProperties": true
+}

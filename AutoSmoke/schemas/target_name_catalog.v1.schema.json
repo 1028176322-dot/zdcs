@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "target_name_catalog.v1.schema.json",
+  "title": "Target names supplied by upstream",
+  "type": "object",
+  "required": ["schema_version", "feature_id", "targets"],
+  "properties": {
+    "schema_version": { "const": "target_name_catalog.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target_id", "target_name"],
+        "properties": {
+          "target_id": { "type": "string", "minLength": 1 },
+          "target_name": { "type": "string", "minLength": 1 },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "page_name": { "type": "string" },
+          "page_id": { "type": "string" },
+          "role": { "type": "string" },
+          "action_roles": { "type": "array", "items": { "type": "string" } }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

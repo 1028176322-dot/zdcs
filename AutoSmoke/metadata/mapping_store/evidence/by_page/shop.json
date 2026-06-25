@@ -1,0 +1,8 @@
+{
+  "schema_version": "mapping_evidence.page.v1",
+  "pageId": "shop",
+  "items": {
+    "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action": "mapping_store/evidence/by_testid/shop/shop.uishop_clone_uishoppop_uishoppop_visual_check.action.json"
+  },
+  "updated_at": "2026-06-25T09:58:17"
+}

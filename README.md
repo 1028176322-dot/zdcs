@@ -138,3 +138,15 @@ zdcs/
 - 代码中 **不要提交公司敏感信息**（密钥、密码等）
 - 推送前先 `git pull` 拉取最新代码，避免冲突
 - `AutoSmoke/元数据/project_ui_inventory.json` 和 `AutoSmoke/metadata/ui_code_semantics_test.json` 文件过大（>100MB），已排除在 Git 追踪之外，需要单独拷贝
+---
+
+## 备份与提交策略
+
+本仓库已经接入远程 Git，后续以 Git 作为主要备份与回滚方案。
+
+- 已纳入 Git 跟踪的源码、配置、脚本和关键元数据，不再额外创建 `.bak` 或 `.bak.时间戳` 文件。
+- 修改前先看 `git status` 和必要的 `git diff`，确认当前工作区里哪些改动已经存在。
+- 小改动直接在当前分支修改，完成后用 `git diff` 复核。
+- 风险较高或跨度较大的改动，优先新建 `codex/` 前缀分支，或在修改前后做清晰的 checkpoint commit。
+- 运行时快照、Unity bridge 请求/响应、heartbeat、截图、临时备份文件等生成物不作为备份提交。
+- 如果需要清理历史上已经被 Git 跟踪的 `.bak` 或运行时生成物，单独执行一次索引清理，不和功能修改混在一起。

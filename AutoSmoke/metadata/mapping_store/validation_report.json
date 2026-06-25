@@ -1,24 +1,24 @@
 {
   "success": true,
   "passed": true,
-  "validatedAt": "2026-06-24T11:40:49",
+  "validatedAt": "2026-06-25T11:59:10",
   "indexes": {
     "success": true,
     "pages": 1156,
     "drafts": 14072,
-    "formal": 37,
-    "evidence": 36
+    "formal": 38,
+    "evidence": 37
   },
   "legacyExport": {
     "success": true,
-    "drafts": 14082,
-    "formal": 37,
-    "evidence": 36
+    "drafts": 14081,
+    "formal": 38,
+    "evidence": 37
   },
   "legacyCounts": {
-    "draft": 14082,
-    "formal": 37,
-    "evidence": 36
+    "draft": 14081,
+    "formal": 38,
+    "evidence": 37
   },
   "oldFieldCounts": {
     "formalPath": 0,
@@ -36,5 +36,12 @@
     "issueCount": 0,
     "issues": []
   },
-  "identityConflictCount": 0
+  "identityConflictCount": 0,
+  "reviewStatusAudit": {
+    "success": true,
+    "passed": true,
+    "issueCount": 0,
+    "issues": []
+  },
+  "reviewStatusIssueCount": 0
 }

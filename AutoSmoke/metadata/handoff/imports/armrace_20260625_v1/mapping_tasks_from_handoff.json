@@ -1,0 +1,143 @@
+{
+  "schema_version": "mapping_tasks_from_handoff.v1",
+  "package_id": "armrace_20260625_v1",
+  "targets": [
+    {
+      "targetId": "TGT_ARMRACE_TAB",
+      "targetName": "军备竞赛页签",
+      "aliases": [
+        "军备竞赛入口"
+      ],
+      "pageHint": "常规活动主界面",
+      "role": "tab",
+      "elementType": "Button",
+      "interactionType": "",
+      "sourceCases": [
+        "ARMRACE_UI_001"
+      ],
+      "priority": "P1",
+      "expectedBehavior": "",
+      "status": "pending_match",
+      "source": "qa_reader_handoff",
+      "handoffPackageId": "armrace_20260625_v1",
+      "handoffFeatureId": "armrace",
+      "handoffTargetId": "TGT_ARMRACE_TAB",
+      "semanticId": "armrace.tab.button",
+      "testId": "armrace.tab.button",
+      "displayName": "军备竞赛页签",
+      "semanticCandidate": {
+        "targetName": "ui军备竞赛页签按钮",
+        "displayName": "军备竞赛页签",
+        "semanticId": "armrace.tab.button",
+        "testId": "armrace.tab.button",
+        "pageId": "ui",
+        "role": "tab",
+        "elementType": "Button",
+        "requiresEnglishId": true,
+        "parseEvidence": {
+          "page": {
+            "id": "ui",
+            "name": "ui",
+            "source": "fallback"
+          },
+          "object": {
+            "id": "custom_6840bee813",
+            "name": "军备竞赛",
+            "names": [
+              "军备竞赛"
+            ],
+            "ids": [
+              "custom_6840bee813"
+            ]
+          },
+          "role": {
+            "id": "tab",
+            "name": "页签"
+          },
+          "type": {
+            "id": "Button",
+            "name": "按钮"
+          },
+          "normalizedDescription": "军备竞赛页签",
+          "source": {
+            "textLength": 6,
+            "currentTestId": ""
+          }
+        },
+        "warnings": [
+          "tab_button_rule",
+          "english_id_required",
+          "handoff_feature_target_id_fallback"
+        ]
+      }
+    },
+    {
+      "targetId": "TGT_ARMRACE_TITLE",
+      "targetName": "军备竞赛标题",
+      "aliases": [],
+      "pageHint": "军备竞赛主界面",
+      "role": "title",
+      "elementType": "unknown",
+      "interactionType": "",
+      "sourceCases": [
+        "ARMRACE_UI_001"
+      ],
+      "priority": "P1",
+      "expectedBehavior": "",
+      "status": "pending_match",
+      "source": "qa_reader_handoff",
+      "handoffPackageId": "armrace_20260625_v1",
+      "handoffFeatureId": "armrace",
+      "handoffTargetId": "TGT_ARMRACE_TITLE",
+      "semanticId": "armrace.title.text",
+      "testId": "armrace.title.text",
+      "displayName": "军备竞赛标题",
+      "semanticCandidate": {
+        "targetName": "ui标题操作组件",
+        "displayName": "军备竞赛标题",
+        "semanticId": "armrace.title.text",
+        "testId": "armrace.title.text",
+        "pageId": "ui",
+        "role": "action",
+        "elementType": "unknown",
+        "requiresEnglishId": false,
+        "parseEvidence": {
+          "page": {
+            "id": "ui",
+            "name": "ui",
+            "source": "fallback"
+          },
+          "object": {
+            "id": "label",
+            "name": "标题",
+            "names": [
+              "标题"
+            ],
+            "ids": [
+              "label"
+            ],
+            "translation": {}
+          },
+          "role": {
+            "id": "action",
+            "name": "操作"
+          },
+          "type": {
+            "id": "unknown",
+            "name": "组件"
+          },
+          "normalizedDescription": "军备竞赛标题",
+          "source": {
+            "textLength": 6,
+            "currentTestId": ""
+          }
+        },
+        "warnings": [
+          "role_not_found_fallback",
+          "type_not_found_fallback",
+          "handoff_feature_target_id_fallback"
+        ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "mapping_task_queue.v1",
   "generated_at": "2026-06-17T18:01:18",
-  "updated_at": "2026-06-24T11:41:50",
+  "updated_at": "2026-06-25T10:28:36",
   "tasks": [
     {
       "targetId": "demo.bag.use.button",
@@ -1338,12 +1338,12 @@
           "formalRef": "formal://bag/bag.food.source_button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_2",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
-        "instanceId": -9752842,
+        "instanceId": -4451594,
         "nodeName": "ResItem_2",
         "text": "",
         "screenRect": [
@@ -1354,7 +1354,7 @@
         ],
         "pageId": "TopRes",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 76,
@@ -1644,12 +1644,12 @@
           "recordedAt": "2026-06-17T20:34:30"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_2/add",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_2",
-        "instanceId": -9752870,
+        "instanceId": -4451622,
         "nodeName": "add",
         "text": "",
         "screenRect": [
@@ -1660,7 +1660,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 166,
@@ -1959,12 +1959,12 @@
           "formalRef": "formal://bag/bag.wood.source_button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_3",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
-        "instanceId": -9752878,
+        "instanceId": -4451630,
         "nodeName": "ResItem_3",
         "text": "",
         "screenRect": [
@@ -1975,7 +1975,7 @@
         ],
         "pageId": "TopRes",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 76,
@@ -2269,12 +2269,12 @@
           "recordedAt": "2026-06-18T12:12:06"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_3/add",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_3",
-        "instanceId": -9752906,
+        "instanceId": -4451658,
         "nodeName": "add",
         "text": "",
         "screenRect": [
@@ -2285,7 +2285,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 166,
@@ -2591,12 +2591,12 @@
           "formalRef": "formal://bag/bag.iron.source_button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_4",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4",
-        "instanceId": -9752914,
+        "instanceId": -4451666,
         "nodeName": "ResItem_4",
         "text": "",
         "screenRect": [
@@ -2607,7 +2607,7 @@
         ],
         "pageId": "TopRes",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 76,
@@ -2900,12 +2900,12 @@
           "recordedAt": "2026-06-18T12:14:21"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_4/add",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_4",
-        "instanceId": -9752942,
+        "instanceId": -4451694,
         "nodeName": "add",
         "text": "",
         "screenRect": [
@@ -2916,7 +2916,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 166,
@@ -3255,14 +3255,14 @@
           "evidenceRef": "EVIDENCE_uishop_clone_uishoppop_uishoppop.propitem.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)",
         "nodeName": "PropItemCollection",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 944,
@@ -3634,12 +3634,12 @@
           "formalRef": "formal://bag/bag.prop_item_1.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1",
         "clickTargetNode": "",
-        "instanceId": -9754732,
+        "instanceId": -4453482,
         "nodeName": "PropItem_1",
         "text": "",
         "screenRect": [
@@ -3650,7 +3650,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 1172,
@@ -3707,7 +3707,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click opens target panel",
-      "status": "visual_confirmed",
+      "status": "click_confirmed",
       "candidates": [
         {
           "draftPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
@@ -3966,12 +3966,12 @@
           "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/ClickContent",
-        "instanceId": -9755460,
+        "instanceId": -4454210,
         "nodeName": "ClickContent",
         "text": "",
         "screenRect": [
@@ -3982,7 +3982,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 783,
@@ -4015,7 +4015,10 @@
       ],
       "confirmedTestId": "bag.prop_item_1.click_area",
       "formalRef": "formal://bag/bag.prop_item_1.click_area",
-      "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area"
+      "evidenceRef": "EVIDENCE_bag.prop_item_1.click_area",
+      "statusSyncedFromEvidence": true,
+      "statusSyncedAt": "2026-06-25T10:10:00",
+      "statusSyncReason": "formal evidence click confirmed"
     },
     {
       "targetId": "runtime.ae95e31409",
@@ -4326,12 +4329,12 @@
           "formalRef": "formal://bag/bag.prop_item_2.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2",
         "clickTargetNode": "",
-        "instanceId": -9755472,
+        "instanceId": -4454222,
         "nodeName": "PropItem_2",
         "text": "",
         "screenRect": [
@@ -4342,7 +4345,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 1172,
@@ -4390,7 +4393,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click opens target panel",
-      "status": "highlight_generated",
+      "status": "click_confirmed",
       "candidates": [
         {
           "draftPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
@@ -4646,12 +4649,12 @@
           "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/ClickContent",
-        "instanceId": -9756200,
+        "instanceId": -4454950,
         "nodeName": "ClickContent",
         "text": "",
         "screenRect": [
@@ -4662,7 +4665,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 783,
@@ -4686,7 +4689,10 @@
       "itemIndex": 2,
       "confirmedTestId": "bag.prop_item_2.click_area",
       "formalRef": "formal://bag/bag.prop_item_2.click_area",
-      "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area"
+      "evidenceRef": "EVIDENCE_bag.prop_item_2.click_area",
+      "statusSyncedFromEvidence": true,
+      "statusSyncedAt": "2026-06-25T10:10:00",
+      "statusSyncReason": "formal evidence click confirmed"
     },
     {
       "targetId": "runtime.91846a2d51",
@@ -4997,12 +5003,12 @@
           "formalRef": "formal://bag/bag.prop_item_3.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3",
         "clickTargetNode": "",
-        "instanceId": -9756212,
+        "instanceId": -4454962,
         "nodeName": "PropItem_3",
         "text": "",
         "screenRect": [
@@ -5013,7 +5019,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 1172,
@@ -5061,7 +5067,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click opens target panel",
-      "status": "highlight_generated",
+      "status": "click_confirmed",
       "candidates": [
         {
           "draftPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
@@ -5316,12 +5322,12 @@
           "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/ClickContent",
-        "instanceId": -9756940,
+        "instanceId": -4455690,
         "nodeName": "ClickContent",
         "text": "",
         "screenRect": [
@@ -5332,7 +5338,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 783,
@@ -5356,7 +5362,10 @@
       "itemIndex": 3,
       "confirmedTestId": "bag.prop_item_3.click_area",
       "formalRef": "formal://bag/bag.prop_item_3.click_area",
-      "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area"
+      "evidenceRef": "EVIDENCE_bag.prop_item_3.click_area",
+      "statusSyncedFromEvidence": true,
+      "statusSyncedAt": "2026-06-25T10:10:00",
+      "statusSyncReason": "formal evidence click confirmed"
     },
     {
       "targetId": "runtime.81872812db",
@@ -5667,12 +5676,12 @@
           "formalRef": "formal://bag/bag.prop_item_4.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4",
         "clickTargetNode": "",
-        "instanceId": -9756952,
+        "instanceId": -4455702,
         "nodeName": "PropItem_4",
         "text": "",
         "screenRect": [
@@ -5683,7 +5692,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 1172,
@@ -5730,7 +5739,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click opens target panel",
-      "status": "highlight_generated",
+      "status": "click_confirmed",
       "candidates": [
         {
           "draftPath": "__runtime__::UIShop::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
@@ -5984,12 +5993,12 @@
           "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/ClickContent",
-        "instanceId": -9757680,
+        "instanceId": -4456430,
         "nodeName": "ClickContent",
         "text": "",
         "screenRect": [
@@ -6000,7 +6009,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 783,
@@ -6021,7 +6030,10 @@
       "semanticSyncedAt": "2026-06-18T14:59:59",
       "confirmedTestId": "bag.prop_item_4.click_area",
       "formalRef": "formal://bag/bag.prop_item_4.click_area",
-      "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area"
+      "evidenceRef": "EVIDENCE_bag.prop_item_4.click_area",
+      "statusSyncedFromEvidence": true,
+      "statusSyncedAt": "2026-06-25T10:10:00",
+      "statusSyncReason": "formal evidence click confirmed"
     },
     {
       "targetId": "runtime.3fbe683923",
@@ -6333,12 +6345,12 @@
           "formalRef": "formal://bag/bag.use.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
-        "instanceId": -9752008,
+        "instanceId": -4450760,
         "nodeName": "UsedBtn",
         "text": "",
         "screenRect": [
@@ -6349,7 +6361,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 350,
@@ -6362,7 +6374,7 @@
         "recommendationRef": "recommendation://97b132b85fb2"
       },
       "blockedReason": "",
-      "selectedAt": "2026-06-18T14:56:20",
+      "selectedAt": "2026-06-25T10:12:49",
       "testId": "bag.use.button",
       "displayName": "背包-使用按钮",
       "semanticId": "bag.use.button",
@@ -6385,7 +6397,28 @@
       "evidenceRef": "EVIDENCE_bag.use.button",
       "targetNameEditedAt": "2026-06-18T15:46:03",
       "targetNameEditedBy": "target_workbench",
-      "formalRef": "formal://bag/bag.use.button"
+      "formalRef": "formal://bag/bag.use.button",
+      "lastTransientStatus": "candidate_found",
+      "statusGuards": [
+        {
+          "from": "click_confirmed",
+          "to": "candidate_found",
+          "reason": "confirmed_status_regression_blocked",
+          "blockedAt": "2026-06-25T10:09:55"
+        },
+        {
+          "from": "click_confirmed",
+          "to": "candidate_found",
+          "reason": "confirmed_status_regression_blocked",
+          "blockedAt": "2026-06-25T10:12:49"
+        }
+      ],
+      "ignoredReason": "",
+      "ignoredAt": "",
+      "restoredAt": "2026-06-25T10:11:49",
+      "statusSyncedFromEvidence": true,
+      "statusSyncedAt": "2026-06-25T10:15:00",
+      "statusSyncReason": "formal evidence click confirmed"
     },
     {
       "targetId": "runtime.4376a2432d",
@@ -6640,12 +6673,12 @@
           "recordedAt": "2026-06-18T14:56:41"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_1",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
-        "instanceId": -9752806,
+        "instanceId": -4451558,
         "nodeName": "ResItem_1",
         "text": "",
         "screenRect": [
@@ -6656,7 +6689,7 @@
         ],
         "pageId": "TopRes",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 76,
@@ -6923,12 +6956,12 @@
           "recordedAt": "2026-06-18T14:56:51"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/TopRes/ResItem_1/add",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/TopRes/ResItem_1",
-        "instanceId": -9752834,
+        "instanceId": -4451586,
         "nodeName": "add",
         "text": "",
         "screenRect": [
@@ -6939,7 +6972,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 108,
@@ -7588,12 +7621,12 @@
           "formalRef": "formal://bag/bag.back.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/BtnClose",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/BtnClose",
-        "instanceId": -9752950,
+        "instanceId": -4451702,
         "nodeName": "BtnClose",
         "text": "",
         "screenRect": [
@@ -7604,7 +7637,7 @@
         ],
         "pageId": "BtnClose",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 231,
@@ -7920,12 +7953,12 @@
           "formalRef": "formal://bag/bag.special.tab.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Tab/Tab/View/Content/0",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/0",
-        "instanceId": -9748576,
+        "instanceId": -4447328,
         "nodeName": "0",
         "text": "",
         "screenRect": [
@@ -7936,7 +7969,7 @@
         ],
         "pageId": "View",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 412,
@@ -8250,12 +8283,12 @@
           "formalRef": "formal://bag/bag.resource.tab.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Tab/Tab/View/Content/1",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/1",
-        "instanceId": -9754370,
+        "instanceId": -4453122,
         "nodeName": "1",
         "text": "",
         "screenRect": [
@@ -8266,7 +8299,7 @@
         ],
         "pageId": "View",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 409,
@@ -8580,12 +8613,12 @@
           "formalRef": "formal://bag/bag.speedup.tab.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Tab/Tab/View/Content/2",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/2",
-        "instanceId": -9754456,
+        "instanceId": -4453208,
         "nodeName": "2",
         "text": "",
         "screenRect": [
@@ -8596,7 +8629,7 @@
         ],
         "pageId": "View",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 409,
@@ -8910,12 +8943,12 @@
           "formalRef": "formal://bag/bag.hero.tab.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Tab/Tab/View/Content/3",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/3",
-        "instanceId": -9754542,
+        "instanceId": -4453294,
         "nodeName": "3",
         "text": "",
         "screenRect": [
@@ -8926,7 +8959,7 @@
         ],
         "pageId": "View",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 409,
@@ -9242,12 +9275,12 @@
           "formalRef": "formal://bag/bag.equipment.tab.button"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "runtimeHint": {
         "runtimePath": "Root/Shop/Tab/Tab/View/Content/4",
         "clickTargetNode": "DeepUI/LayerUI/UIShop(Clone)_UIShopPop [UIShopPop]/Root/Shop/Tab/Tab/View/Content/4",
-        "instanceId": -9754628,
+        "instanceId": -4453380,
         "nodeName": "4",
         "text": "",
         "screenRect": [
@@ -9258,7 +9291,7 @@
         ],
         "pageId": "View",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 408,
@@ -10955,12 +10988,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/kingdom_task_Root_new/root/BG/Icon1",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/kingdom_task_Root_new/root/BG/Icon1",
-        "instanceId": -6071068,
+        "instanceId": -13451632,
         "nodeName": "Icon1",
         "text": "",
         "screenRect": [
@@ -10971,7 +11004,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "interactionType": "click"
     },
@@ -10990,8 +11023,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "availability": {
         "type": "conditional",
         "dependsOn": "state://uimain_clone_uimainpopup/current_context",
@@ -11005,18 +11038,18 @@
       "runtimeHint": {
         "runtimePath": "content/LeftDown/LeftContent_1/RewardHint",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/RewardHint",
-        "instanceId": -6071450,
+        "instanceId": -13452010,
         "nodeName": "RewardHint",
         "text": "",
         "screenRect": [
           10,
-          1774,
+          1639,
           129,
-          1893
+          1758
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.leftcontent_1.rewardhint",
       "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_1 RewardHint",
@@ -11039,23 +11072,23 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/LeftDown/LeftContent_1/MarineExploration/icon",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/MarineExploration",
-        "instanceId": -6071556,
+        "instanceId": -13452116,
         "nodeName": "icon",
         "text": "",
         "screenRect": [
           27,
-          1932,
+          1797,
           112,
-          2004
+          1870
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.leftcontent_1.icon",
       "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_1 icon",
@@ -11078,12 +11111,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/LeftDown/LeftContent_2/Treasure/icon",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/Treasure",
-        "instanceId": -6072148,
+        "instanceId": -13452708,
         "nodeName": "icon",
         "text": "",
         "screenRect": [
@@ -11094,7 +11127,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.leftcontent_2.icon",
       "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_2 icon",
@@ -11117,12 +11150,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/LeftDown/LeftContent_2/Treasure/Progress",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/Treasure",
-        "instanceId": -6072156,
+        "instanceId": -13452716,
         "nodeName": "Progress",
         "text": "",
         "screenRect": [
@@ -11133,7 +11166,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.leftcontent_2.progress",
       "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_2 Progress",
@@ -11156,12 +11189,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/LeftDown/LeftContent_2/Treasure/TextBg",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/Treasure",
-        "instanceId": -6072164,
+        "instanceId": -13452724,
         "nodeName": "TextBg",
         "text": "",
         "screenRect": [
@@ -11172,7 +11205,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.leftcontent_2.textbg",
       "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_2 TextBg",
@@ -11195,12 +11228,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/Right_Top_other/islander",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top_other/islander",
-        "instanceId": -6072818,
+        "instanceId": -13453378,
         "nodeName": "islander",
         "text": "",
         "screenRect": [
@@ -11211,7 +11244,7 @@
         ],
         "pageId": "Right_Top_other",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "interactionType": "click"
     },
@@ -11230,12 +11263,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/Right_Top_other/stone",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top_other/stone",
-        "instanceId": -6072940,
+        "instanceId": -13453500,
         "nodeName": "stone",
         "text": "",
         "screenRect": [
@@ -11246,7 +11279,7 @@
         ],
         "pageId": "Right_Top_other",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "interactionType": "click"
     },
@@ -11265,12 +11298,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head/Bg/Mask/Head_k1/Mask/Icon",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Head/Bg/Mask/Head_k1",
-        "instanceId": -6073450,
+        "instanceId": -13454010,
         "nodeName": "Icon",
         "text": "",
         "screenRect": [
@@ -11281,7 +11314,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "semanticId": "uimain_clone_uimainpopup.head_k_1.icon",
       "displayName": "UiMain(Clone) [UIMainPopup]-Head_k_1 Icon",
@@ -11339,12 +11372,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "runtimeHint": {
         "runtimePath": "content/Left_Top/BuffLayout/BuffBtn/Button/Icon",
         "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/BuffLayout/BuffBtn/Button",
-        "instanceId": -6073812,
+        "instanceId": -13454372,
         "nodeName": "Icon",
         "text": "",
         "screenRect": [
@@ -11355,7 +11388,7 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       },
       "interactionType": "click"
     },
@@ -11963,12 +11996,12 @@
           "evidenceRef": "EVIDENCE_character_info.player_power.text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Img",
         "clickTargetNode": "",
-        "instanceId": -8557898,
+        "instanceId": -14145480,
         "nodeName": "Img",
         "text": "",
         "screenRect": [
@@ -11979,7 +12012,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "matchSummary": {
         "totalCandidates": 42,
@@ -12276,12 +12309,12 @@
       ],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/SetBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/SetBtn",
-        "instanceId": -8557922,
+        "instanceId": -14145504,
         "nodeName": "SetBtn",
         "text": "",
         "screenRect": [
@@ -12292,7 +12325,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "ignoredReason": "debug_ignore_test",
       "ignoredAt": "2026-06-18T17:36:01",
@@ -12601,12 +12634,12 @@
           "formalRef": "formal://character_info/character_info.customer_service.button"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/ServiceButton",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ServiceButton",
-        "instanceId": -8557964,
+        "instanceId": -14145546,
         "nodeName": "ServiceButton",
         "text": "",
         "screenRect": [
@@ -12617,7 +12650,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -12921,12 +12954,12 @@
           "recordedAt": "2026-06-23T17:39:09"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/Head/Head_k1/Mask/Icon",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
-        "instanceId": -8558072,
+        "instanceId": -14145654,
         "nodeName": "Icon",
         "text": "",
         "screenRect": [
@@ -12937,7 +12970,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "semanticId": "character_info.personalization_settings.button",
@@ -13249,23 +13282,23 @@
           "recordedAt": "2026-06-23T18:54:56"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/TxtSex/man_button",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/TxtSex/man_button",
-        "instanceId": -8558218,
+        "instanceId": -14145800,
         "nodeName": "man_button",
         "text": "",
         "screenRect": [
-          528,
+          538,
           2116,
-          559,
+          569,
           2164
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -13600,12 +13633,12 @@
           "recordedAt": "2026-06-23T19:48:59"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/RenameBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/RenameBtn",
-        "instanceId": -8558242,
+        "instanceId": -14145824,
         "nodeName": "RenameBtn",
         "text": "",
         "screenRect": [
@@ -13616,7 +13649,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -13969,12 +14002,12 @@
           "recordedAt": "2026-06-23T20:28:34"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/ID/CopyBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/ID/CopyBtn",
-        "instanceId": -8558618,
+        "instanceId": -14146200,
         "nodeName": "CopyBtn",
         "text": "",
         "screenRect": [
@@ -13985,7 +14018,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -14315,23 +14348,23 @@
           "elementType": "Button"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/Country/text/Flag",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Right/Country/text/Flag",
-        "instanceId": -8558784,
+        "instanceId": -14146366,
         "nodeName": "Flag",
         "text": "",
         "screenRect": [
-          542,
+          540,
           2238,
-          593,
+          591,
           2276
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -14644,12 +14677,12 @@
           "elementType": "Button"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Buttom/RankBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/RankBtn",
-        "instanceId": -8558938,
+        "instanceId": -14146520,
         "nodeName": "RankBtn",
         "text": "",
         "screenRect": [
@@ -14660,7 +14693,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -14968,12 +15001,12 @@
           "elementType": "Button"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Buttom/FriendBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/FriendBtn",
-        "instanceId": -8558966,
+        "instanceId": -14146548,
         "nodeName": "FriendBtn",
         "text": "",
         "screenRect": [
@@ -14984,7 +15017,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -15281,12 +15314,12 @@
           "recordedAt": "2026-06-24T09:48:59"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Buttom/BagBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/BagBtn",
-        "instanceId": -8559016,
+        "instanceId": -14146598,
         "nodeName": "BagBtn",
         "text": "",
         "screenRect": [
@@ -15297,7 +15330,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -15332,7 +15365,7 @@
       "sourceCases": [
         "RUNTIME_CURRENT_PAGE"
       ],
-      "pageHint": "character_info",
+      "pageHint": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
       "role": "button",
       "elementType": "Button",
       "priority": "P1",
@@ -15613,12 +15646,12 @@
           "recordedAt": "2026-06-24T10:41:54"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:53",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Buttom/SkinBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Buttom/SkinBtn",
-        "instanceId": -8559066,
+        "instanceId": -14146648,
         "nodeName": "SkinBtn",
         "text": "",
         "screenRect": [
@@ -15629,7 +15662,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click",
       "matchSummary": {
@@ -15708,16 +15741,250 @@
       "elementType": "interactive_icon",
       "priority": "P1",
       "expectedBehavior": "click opens target panel",
-      "status": "pending_match",
-      "candidates": [],
-      "selectedDraftPath": "",
-      "evidence": {},
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "status": "highlight_generated",
+      "candidates": [
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ReturnBtn",
+          "displayName": "UiPlayerMain-普通操作-可交互图标",
+          "pageId": "UiPlayerMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiPlayerMain/Content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UiPlayerMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.85,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemBatchIdentify.prefab::UIGemBatchIdentify/Root/BG/top_content/ReturnBtn",
+          "displayName": "UIGemBatchIdentify-普通操作-可交互图标",
+          "pageId": "UIGemBatchIdentify",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemBatchIdentify.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Artifact/UIGemLuckyTip.prefab::UIGemLuckyTip/Root/BG/top_content/ReturnBtn",
+          "displayName": "UIGemLuckyTip-普通操作-可交互图标",
+          "pageId": "UIGemLuckyTip",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemLuckyTip.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/1202UI_resource_supplement.prefab::1202UI_resource_supplement/Root/BG/top_content/ReturnBtn",
+          "displayName": "1202UI_resource_supplement-普通操作-可交互图标",
+          "pageId": "1202UI_resource_supplement",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "1202UI_resource_supplement.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiOtherPlayerMain.prefab::UiOtherPlayerMain/Content/ReturnBtn",
+          "displayName": "UiOtherPlayerMain-普通操作-可交互图标",
+          "pageId": "UiOtherPlayerMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.8,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiOtherPlayerMain.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UIGemBatchIdentify/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UIGemBatchIdentify",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemBatchIdentify.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UIGemLuckyTip/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UIGemLuckyTip",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIGemLuckyTip.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "1202UI_resource_supplement/Root/BG/top_content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "1202UI_resource_supplement",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "1202UI_resource_supplement.ReturnBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiOtherPlayerMain/Content/ReturnBtn",
+          "displayName": "Return按钮",
+          "pageId": "UiOtherPlayerMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "runtime_path_match",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiOtherPlayerMain.ReturnBtn",
+          "semanticId": ""
+        }
+      ],
+      "selectedDraftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ReturnBtn",
+      "evidence": {
+        "visual": {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Player/UiPlayerMain.prefab::UiPlayerMain/Content/ReturnBtn",
+          "highlightImage": "screenshots/mapping_review/20260624_150944_highlight.png",
+          "screenRectUsed": [
+            21,
+            2397,
+            132,
+            2493
+          ],
+          "imageSize": [
+            1170,
+            2532
+          ],
+          "rectSource": "param→clipped",
+          "recordedAt": "2026-06-24T15:09:45"
+        }
+      },
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:45",
       "runtimeHint": {
         "runtimePath": "Content/ReturnBtn",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/ReturnBtn",
-        "instanceId": -8559128,
+        "instanceId": -14146710,
         "nodeName": "ReturnBtn",
         "text": "",
         "screenRect": [
@@ -15728,9 +15995,21 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
-      "interactionType": "click"
+      "interactionType": "click",
+      "matchSummary": {
+        "totalCandidates": 52,
+        "matchedAt": "2026-06-24T15:09:37",
+        "recommendationRef": "recommendation://34e19a949e21",
+        "riskSummary": {
+          "screen_rect_missing": 10,
+          "duplicate_name": 6,
+          "page_mismatch": 8
+        }
+      },
+      "blockedReason": "",
+      "selectedAt": "2026-06-24T15:09:39"
     },
     {
       "targetId": "runtime.0db094e4a8",
@@ -15747,12 +16026,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/Head",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head",
-        "instanceId": -8558020,
+        "instanceId": -14145602,
         "nodeName": "Head",
         "text": "",
         "screenRect": [
@@ -15763,7 +16042,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click"
     },
@@ -15782,12 +16061,12 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/Head/Head_k1",
         "clickTargetNode": "DeepUI/LayerUI/UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]/Content/Content/Info/Head/Head_k1",
-        "instanceId": -8558038,
+        "instanceId": -14145620,
         "nodeName": "Head_k1",
         "text": "",
         "screenRect": [
@@ -15798,7 +16077,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "click"
     },
@@ -16063,8 +16342,8 @@
           "evidenceRef": "EVIDENCE_character_info.main_character_model.model"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -16076,7 +16355,7 @@
       "runtimeHint": {
         "runtimePath": "Content/HeroSpine",
         "clickTargetNode": "",
-        "instanceId": -8557906,
+        "instanceId": -14145488,
         "nodeName": "HeroSpine",
         "text": "",
         "screenRect": [
@@ -16087,7 +16366,7 @@
         ],
         "pageId": "HeroSpine",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -16378,8 +16657,8 @@
           "recordedAt": "2026-06-18T17:49:55"
         }
       },
-      "createdAt": "2026-06-23T17:34:28",
-      "updatedAt": "2026-06-23T17:34:28",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -16391,7 +16670,7 @@
       "runtimeHint": {
         "runtimePath": "Content/HeroSpine/Hero_LH_2301(Clone)",
         "clickTargetNode": "",
-        "instanceId": -6442620,
+        "instanceId": -14146754,
         "nodeName": "Hero_LH_2301(Clone)",
         "text": "",
         "screenRect": [
@@ -16402,7 +16681,7 @@
         ],
         "pageId": "HeroSpine",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-23T17:34:28"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -16664,8 +16943,8 @@
           "recordedAt": "2026-06-23T17:34:48"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -16677,7 +16956,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Info",
         "clickTargetNode": "",
-        "instanceId": -8558006,
+        "instanceId": -14145588,
         "nodeName": "Info",
         "text": "",
         "screenRect": [
@@ -16688,7 +16967,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -16966,8 +17245,8 @@
           "confirmedAt": "2026-06-23T18:28:39"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -16979,7 +17258,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/NameBG",
         "clickTargetNode": "",
-        "instanceId": -8558126,
+        "instanceId": -14145708,
         "nodeName": "NameBG",
         "text": "",
         "screenRect": [
@@ -16990,7 +17269,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -17286,22 +17565,22 @@
           "semanticSyncedBy": "target_workbench_repair"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "Player205",
+        "text": "Player1",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/Name",
         "clickTargetNode": "",
-        "instanceId": -8558134,
+        "instanceId": -14145716,
         "nodeName": "Name",
-        "text": "Player205",
+        "text": "Player1",
         "screenRect": [
           378,
           1944,
@@ -17310,7 +17589,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -17476,8 +17755,8 @@
           "evidenceRef": "EVIDENCE_character_info.level.text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -17489,7 +17768,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/LevelText",
         "clickTargetNode": "",
-        "instanceId": -8558170,
+        "instanceId": -14145752,
         "nodeName": "LevelText",
         "text": "Lv:18",
         "screenRect": [
@@ -17500,7 +17779,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -17788,31 +18067,31 @@
           "semanticSyncedBy": "target_workbench_repair"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "性别：",
+        "text": "Gender:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/TxtSex",
         "clickTargetNode": "",
-        "instanceId": -8558208,
+        "instanceId": -14145790,
         "nodeName": "TxtSex",
-        "text": "性别：",
+        "text": "Gender:",
         "screenRect": [
           354,
           2098,
-          513,
+          523,
           2172
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -18093,8 +18372,8 @@
           "elementType": "Text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -18106,7 +18385,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/ServerMSG",
         "clickTargetNode": "",
-        "instanceId": -8558296,
+        "instanceId": -14145878,
         "nodeName": "ServerMSG",
         "text": "",
         "screenRect": [
@@ -18117,7 +18396,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -18388,8 +18667,8 @@
           "recordedAt": "2026-06-23T19:55:49"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -18401,7 +18680,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Info/ServerMSG/Txt",
         "clickTargetNode": "",
-        "instanceId": -8558304,
+        "instanceId": -14145886,
         "nodeName": "Txt",
         "text": "#1",
         "screenRect": [
@@ -18412,7 +18691,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -18694,8 +18973,8 @@
           "recordedAt": "2026-06-23T19:56:18"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -18707,7 +18986,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Left",
         "clickTargetNode": "",
-        "instanceId": -8558318,
+        "instanceId": -14145900,
         "nodeName": "Left",
         "text": "",
         "screenRect": [
@@ -18718,7 +18997,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -18985,8 +19264,8 @@
           "recordedAt": "2026-06-23T19:56:40"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -18998,18 +19277,18 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Left/Damage",
         "clickTargetNode": "",
-        "instanceId": -8558382,
+        "instanceId": -14145964,
         "nodeName": "Damage",
         "text": "",
         "screenRect": [
-          318,
+          311,
           1373,
-          852,
+          859,
           1481
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -19281,8 +19560,8 @@
           "evidenceRef": "EVIDENCE_ui.playermain_clone_playermain_playermain_icon_visual_check.icon"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -19294,18 +19573,18 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Left/Damage/Icon",
         "clickTargetNode": "",
-        "instanceId": -8558402,
+        "instanceId": -14145984,
         "nodeName": "Icon",
         "text": "",
         "screenRect": [
-          345,
+          338,
           1383,
-          443,
+          435,
           1481
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -19582,8 +19861,8 @@
           "recordedAt": "2026-06-23T19:58:15"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -19595,18 +19874,18 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Left/Damage/Icon/img",
         "clickTargetNode": "",
-        "instanceId": -8558412,
+        "instanceId": -14145994,
         "nodeName": "img",
         "text": "",
         "screenRect": [
-          351,
+          343,
           1379,
-          448,
+          441,
           1477
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -19875,31 +20154,31 @@
           "recordedAt": "2026-06-23T19:58:39"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "168,922",
+        "text": "168,907",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Left/Damage/Num",
         "clickTargetNode": "",
-        "instanceId": -8558430,
+        "instanceId": -14146012,
         "nodeName": "Num",
-        "text": "168,922",
+        "text": "168,907",
         "screenRect": [
-          473,
+          466,
           1389,
-          819,
+          827,
           1475
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -20160,8 +20439,8 @@
           "recordedAt": "2026-06-23T19:59:03"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -20173,7 +20452,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Right",
         "clickTargetNode": "",
-        "instanceId": -8558446,
+        "instanceId": -14146028,
         "nodeName": "Right",
         "text": "",
         "screenRect": [
@@ -20184,7 +20463,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -20452,22 +20731,22 @@
           "elementType": "Text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "联盟:",
+        "text": "Alliance:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/Alliance/Txt",
         "clickTargetNode": "",
-        "instanceId": -8558514,
+        "instanceId": -14146096,
         "nodeName": "Txt",
-        "text": "联盟:",
+        "text": "Alliance:",
         "screenRect": [
           357,
           2156,
@@ -20476,7 +20755,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -20745,22 +21024,22 @@
           "recordedAt": "2026-06-23T20:00:48"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "<color=#FDE547>[223]</color> 1231",
+        "text": "<color=#FDE547>[1111]</color> 1111",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/Alliance/AllianceNameTitle",
         "clickTargetNode": "",
-        "instanceId": -8558526,
+        "instanceId": -14146108,
         "nodeName": "AllianceNameTitle",
-        "text": "<color=#FDE547>[223]</color> 1231",
+        "text": "<color=#FDE547>[1111]</color> 1111",
         "screenRect": [
           528,
           2156,
@@ -20769,7 +21048,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -21039,31 +21318,31 @@
           "elementType": "Text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "ID：",
+        "text": "ID:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/ID/IDTitle",
         "clickTargetNode": "",
-        "instanceId": -8558574,
+        "instanceId": -14146156,
         "nodeName": "IDTitle",
-        "text": "ID：",
+        "text": "ID:",
         "screenRect": [
           353,
           2040,
-          455,
+          414,
           2114
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -21340,31 +21619,31 @@
           "evidenceRef": "EVIDENCE_ui.playermain_clone_playermain_playermain_205_visual_check.action"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "205",
+        "text": "1",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/ID/IDTitle/ID",
         "clickTargetNode": "",
-        "instanceId": -8558586,
+        "instanceId": -14146168,
         "nodeName": "ID",
-        "text": "205",
+        "text": "1",
         "screenRect": [
-          484,
+          443,
           2040,
-          574,
+          471,
           2114
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -21651,31 +21930,31 @@
           "elementType": "Text"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "国家：",
+        "text": "Nation:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Content/Content/Right/Country/text",
         "clickTargetNode": "",
-        "instanceId": -8558774,
+        "instanceId": -14146356,
         "nodeName": "text",
-        "text": "国家：",
+        "text": "Nation:",
         "screenRect": [
           356,
           2214,
-          515,
+          513,
           2288
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -21946,8 +22225,8 @@
           "recordedAt": "2026-06-23T20:31:32"
         }
       },
-      "createdAt": "2026-06-24T10:50:36",
-      "updatedAt": "2026-06-24T10:50:36",
+      "createdAt": "2026-06-24T15:09:12",
+      "updatedAt": "2026-06-24T15:09:12",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
@@ -21959,7 +22238,7 @@
       "runtimeHint": {
         "runtimePath": "Content/Content/Buttom",
         "clickTargetNode": "",
-        "instanceId": -8558804,
+        "instanceId": -14146386,
         "nodeName": "Buttom",
         "text": "",
         "screenRect": [
@@ -21970,7 +22249,7 @@
         ],
         "pageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
         "ownerPageId": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
-        "capturedAt": "2026-06-24T10:50:35"
+        "capturedAt": "2026-06-24T15:09:12"
       },
       "interactionType": "assert_visible",
       "matchSummary": {
@@ -22002,8 +22281,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22016,7 +22295,7 @@
       "runtimeHint": {
         "runtimePath": "content/kingdom_task_Root_new",
         "clickTargetNode": "",
-        "instanceId": -6070888,
+        "instanceId": -13451452,
         "nodeName": "kingdom_task_Root_new",
         "text": "",
         "screenRect": [
@@ -22027,7 +22306,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22045,8 +22324,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22059,7 +22338,7 @@
       "runtimeHint": {
         "runtimePath": "content/kingdom_task_Root_new/root",
         "clickTargetNode": "",
-        "instanceId": -6070950,
+        "instanceId": -13451514,
         "nodeName": "root",
         "text": "",
         "screenRect": [
@@ -22070,7 +22349,7 @@
         ],
         "pageId": "UiMain(Clone) [UIMainPopup]",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22088,8 +22367,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22102,7 +22381,7 @@
       "runtimeHint": {
         "runtimePath": "content/Right_Top_other/time",
         "clickTargetNode": "",
-        "instanceId": -6072756,
+        "instanceId": -13453316,
         "nodeName": "time",
         "text": "",
         "screenRect": [
@@ -22113,7 +22392,7 @@
         ],
         "pageId": "Right_Top_other",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22131,8 +22410,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22145,7 +22424,7 @@
       "runtimeHint": {
         "runtimePath": "content/Right_Top_other/time/icon",
         "clickTargetNode": "",
-        "instanceId": -6072790,
+        "instanceId": -13453350,
         "nodeName": "icon",
         "text": "",
         "screenRect": [
@@ -22156,12 +22435,12 @@
         ],
         "pageId": "Right_Top_other",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
       "targetId": "runtime.512714f378",
-      "targetName": "UiMain(Clone) [UIMainPopup] 12:45 visual check",
+      "targetName": "UiMain(Clone) [UIMainPopup] 06-28 12:16:57 visual check",
       "sourceCases": [
         "RUNTIME_CURRENT_PAGE"
       ],
@@ -22174,23 +22453,23 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "12:45",
+        "text": "06-28 12:16:57",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "content/Right_Top_other/time/Text",
         "clickTargetNode": "",
-        "instanceId": -6072798,
+        "instanceId": -13453358,
         "nodeName": "Text",
-        "text": "12:45",
+        "text": "06-28 12:16:57",
         "screenRect": [
           226,
           34,
@@ -22199,7 +22478,7 @@
         ],
         "pageId": "Right_Top_other",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22217,8 +22496,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22231,7 +22510,7 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head",
         "clickTargetNode": "",
-        "instanceId": -6073380,
+        "instanceId": -13453940,
         "nodeName": "Head",
         "text": "",
         "screenRect": [
@@ -22242,7 +22521,7 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22260,8 +22539,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22274,7 +22553,7 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head/headbg",
         "clickTargetNode": "",
-        "instanceId": -6073526,
+        "instanceId": -13454086,
         "nodeName": "headbg",
         "text": "",
         "screenRect": [
@@ -22285,7 +22564,7 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22303,8 +22582,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22317,23 +22596,23 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head/Power",
         "clickTargetNode": "",
-        "instanceId": -6073532,
+        "instanceId": -13454092,
         "nodeName": "Power",
         "text": "",
         "screenRect": [
           200,
           110,
-          468,
+          476,
           174
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
       "targetId": "runtime.4e8ab496c6",
-      "targetName": "UiMain(Clone) [UIMainPopup] 168,922 visual check",
+      "targetName": "UiMain(Clone) [UIMainPopup] 168,907 visual check",
       "sourceCases": [
         "RUNTIME_CURRENT_PAGE"
       ],
@@ -22346,32 +22625,32 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "168,922",
+        "text": "168,907",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head/Power/Text",
         "clickTargetNode": "",
-        "instanceId": -6073544,
+        "instanceId": -13454104,
         "nodeName": "Text",
-        "text": "168,922",
+        "text": "168,907",
         "screenRect": [
           258,
           123,
-          430,
+          438,
           167
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22389,8 +22668,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22403,7 +22682,7 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Head/Power/Text/Icon",
         "clickTargetNode": "",
-        "instanceId": -6073556,
+        "instanceId": -13454116,
         "nodeName": "Icon",
         "text": "",
         "screenRect": [
@@ -22414,7 +22693,7 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22432,8 +22711,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22446,7 +22725,7 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/Btn_layout/VipBtn",
         "clickTargetNode": "",
-        "instanceId": -6073694,
+        "instanceId": -13454254,
         "nodeName": "VipBtn",
         "text": "",
         "screenRect": [
@@ -22457,7 +22736,7 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -22471,12 +22750,237 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "pending_match",
-      "candidates": [],
-      "selectedDraftPath": "",
-      "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "status": "highlight_generated",
+      "candidates": [
+        {
+          "displayName": "BuffBtn visual check",
+          "draftPath": "__runtime__::UiMain(Clone) [UIMainPopup]::content/Left_Top/BuffLayout/BuffBtn",
+          "elementType": "display_region",
+          "pageId": "UiMain(Clone) [UIMainPopup]",
+          "reasons": [
+            "runtime_path_exact",
+            "runtime_node_current",
+            "assert_visible"
+          ],
+          "reviewStatus": "runtime_node",
+          "risks": [],
+          "role": "visual_assert",
+          "runtimeMatched": true,
+          "score": 1.0,
+          "semanticId": "",
+          "testId": "__runtime__.UiMain(Clone) [UIMainPopup].content.Left_Top.BuffLayout.BuffBtn"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/Left_Top/BuffLayout/BuffBtn/Button",
+          "displayName": "UiMain-普通操作-未知可点击",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "auto_draft",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/BuffLayout/BuffBtn/Button",
+          "displayName": "Button",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.85,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/Head/Bg",
+          "displayName": "Bg",
+          "pageId": "UiMain",
+          "role": "action",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Bg",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/SettingBtn",
+          "displayName": "Setting按钮",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.SettingBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/Btn_layout/GrowthScoreBtn",
+          "displayName": "GrowthScore按钮",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.GrowthScoreBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UiMain/content/Left_Top/BuffLayout/BuffIcon/Button",
+          "displayName": "Button",
+          "pageId": "UiMain",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.7,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match",
+            "page_match"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "UITroopArenaData/Root/Animation/content/BuffBtn",
+          "displayName": "Buff按钮",
+          "pageId": "UITroopArenaData",
+          "role": "primary_action_button",
+          "elementType": "",
+          "reviewStatus": "pending",
+          "score": 0.25,
+          "reasons": [
+            "runtime_path_similar",
+            "name_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UITroopArenaData.BuffBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/kingdom_task_Root_new/EctypeBtn",
+          "displayName": "UiMain-普通操作-未知可点击",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "auto_draft",
+          "score": 0.3,
+          "reasons": [
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "runtime_path_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.EctypeBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/MainCity/UiMain.prefab::UiMain/content/kingdom_task_Root_new/root/BG/Icon1",
+          "displayName": "UiMain-普通操作-可交互图标",
+          "pageId": "UiMain",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 0.3,
+          "reasons": [
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "runtime_path_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UiMain.Icon1",
+          "semanticId": ""
+        }
+      ],
+      "selectedDraftPath": "__runtime__::UiMain(Clone) [UIMainPopup]::content/Left_Top/BuffLayout/BuffBtn",
+      "evidence": {
+        "visual": {
+          "draftPath": "__runtime__::UiMain(Clone) [UIMainPopup]::content/Left_Top/BuffLayout/BuffBtn",
+          "highlightImage": "screenshots/mapping_review/20260624_150020_highlight.png",
+          "screenRectUsed": [
+            4,
+            150,
+            91,
+            290
+          ],
+          "imageSize": [
+            1170,
+            2532
+          ],
+          "rectSource": "param→clipped",
+          "recordedAt": "2026-06-24T15:00:21"
+        }
+      },
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:21",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22489,7 +22993,7 @@
       "runtimeHint": {
         "runtimePath": "content/Left_Top/BuffLayout/BuffBtn",
         "clickTargetNode": "",
-        "instanceId": -6073786,
+        "instanceId": -13454346,
         "nodeName": "BuffBtn",
         "text": "",
         "screenRect": [
@@ -22500,8 +23004,21 @@
         ],
         "pageId": "Left_Top",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
-      }
+        "capturedAt": "2026-06-24T15:00:09"
+      },
+      "matchSummary": {
+        "totalCandidates": 409,
+        "matchedAt": "2026-06-24T15:00:14",
+        "recommendationRef": "recommendation://34e19a949e21",
+        "riskSummary": {
+          "screen_rect_missing": 9,
+          "duplicate_name": 6,
+          "page_mismatch": 1,
+          "runtime_path_mismatch": 2
+        }
+      },
+      "selectedAt": "2026-06-24T15:00:16",
+      "blockedReason": ""
     },
     {
       "targetId": "runtime.24e3ce720b",
@@ -22518,8 +23035,8 @@
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-23T16:12:48",
-      "updatedAt": "2026-06-23T16:12:48",
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -22532,7 +23049,7 @@
       "runtimeHint": {
         "runtimePath": "content/Right_Buttom",
         "clickTargetNode": "",
-        "instanceId": -6077758,
+        "instanceId": -13458318,
         "nodeName": "Right_Buttom",
         "text": "",
         "screenRect": [
@@ -22543,7 +23060,7 @@
         ],
         "pageId": "Right_Buttom",
         "ownerPageId": "UiMain(Clone) [UIMainPopup]",
-        "capturedAt": "2026-06-23T16:12:48"
+        "capturedAt": "2026-06-24T15:00:09"
       }
     },
     {
@@ -23547,7 +24064,7 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "highlight_generated",
+      "status": "ignored",
       "candidates": [
         {
           "displayName": "背包 visual check",
@@ -23773,11 +24290,16 @@
             2532
           ],
           "rectSource": "param→clipped",
-          "recordedAt": "2026-06-24T11:01:21"
+          "recordedAt": "2026-06-24T11:01:21",
+          "confirmed": true,
+          "confirmedAt": "2026-06-25T09:58:12",
+          "confirmedTestId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+          "formalRef": "formal://shop/shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+          "evidenceRef": "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -23790,7 +24312,7 @@
       "runtimeHint": {
         "runtimePath": "Root/BG/TopBg/Title",
         "clickTargetNode": "",
-        "instanceId": -9748374,
+        "instanceId": -4447126,
         "nodeName": "Title",
         "text": "背包",
         "screenRect": [
@@ -23801,7 +24323,7 @@
         ],
         "pageId": "BG",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 1039,
@@ -23814,7 +24336,13 @@
         }
       },
       "selectedAt": "2026-06-24T11:01:20",
-      "blockedReason": ""
+      "blockedReason": "",
+      "confirmedTestId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "formalRef": "formal://shop/shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "evidenceRef": "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "testIdSource": "business_semantic_visual_confirmed",
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:09:30"
     },
     {
       "targetId": "runtime.0e05f8f851",
@@ -24069,8 +24597,8 @@
           "recordedAt": "2026-06-24T11:02:35"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -24083,7 +24611,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag",
         "clickTargetNode": "",
-        "instanceId": -9748674,
+        "instanceId": -4447426,
         "nodeName": "Bag",
         "text": "",
         "screenRect": [
@@ -24094,7 +24622,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 578,
@@ -24365,8 +24893,8 @@
           "recordedAt": "2026-06-24T11:03:18"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -24379,7 +24907,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort",
         "clickTargetNode": "",
-        "instanceId": -9748692,
+        "instanceId": -4447444,
         "nodeName": "ViewPort",
         "text": "",
         "screenRect": [
@@ -24390,7 +24918,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 946,
@@ -24662,8 +25190,8 @@
           "recordedAt": "2026-06-24T11:04:48"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "semanticId": "uishop_clone_uishoppop_uishoppop.propitem_1.count",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-PropItem_1 Count",
       "collectionRef": "collection.uishop_clone_uishoppop_uishoppop.propitem.count",
@@ -24680,7 +25208,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/Count",
         "clickTargetNode": "",
-        "instanceId": -9754752,
+        "instanceId": -4453502,
         "nodeName": "Count",
         "text": "1",
         "screenRect": [
@@ -24691,7 +25219,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 580,
@@ -24959,8 +25487,8 @@
           "recordedAt": "2026-06-24T11:05:12"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -24973,18 +25501,18 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/Select/icon_1",
         "clickTargetNode": "",
-        "instanceId": -9755444,
+        "instanceId": -4454194,
         "nodeName": "icon_1",
         "text": "",
         "screenRect": [
-          -13,
+          -12,
           246,
           92,
           598
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 580,
@@ -25252,8 +25780,8 @@
           "recordedAt": "2026-06-24T11:05:24"
         }
       },
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -25266,7 +25794,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_1/Select/icon_2",
         "clickTargetNode": "",
-        "instanceId": -9755452,
+        "instanceId": -4454202,
         "nodeName": "icon_2",
         "text": "",
         "screenRect": [
@@ -25277,7 +25805,7 @@
         ],
         "pageId": "ViewPort",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 580,
@@ -25305,7 +25833,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click visible collection item",
-      "status": "candidate_found",
+      "status": "ignored",
       "candidates": [
         {
           "displayName": "3 visual check",
@@ -25531,9 +26059,26 @@
         }
       ],
       "selectedDraftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/Count",
-      "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "evidence": {
+        "visual": {
+          "draftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/Count",
+          "highlightImage": "screenshots/mapping_review/20260625_100934_highlight.png",
+          "screenRectUsed": [
+            508,
+            478,
+            538,
+            524
+          ],
+          "imageSize": [
+            1170,
+            2532
+          ],
+          "rectSource": "param→clipped",
+          "recordedAt": "2026-06-25T10:09:35"
+        }
+      },
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "semanticId": "uishop_clone_uishoppop_uishoppop.propitem_2.count",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-PropItem_2 Count",
       "collectionRef": "collection.uishop_clone_uishoppop_uishoppop.propitem.count",
@@ -25550,7 +26095,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_2/Count",
         "clickTargetNode": "",
-        "instanceId": -9755492,
+        "instanceId": -4454242,
         "nodeName": "Count",
         "text": "3",
         "screenRect": [
@@ -25561,7 +26106,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 580,
@@ -25574,7 +26119,9 @@
         }
       },
       "selectedAt": "2026-06-24T11:13:39",
-      "blockedReason": ""
+      "blockedReason": "",
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:09:39"
     },
     {
       "targetId": "runtime.4952d6d633",
@@ -25587,7 +26134,7 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click visible collection item",
-      "status": "candidate_found",
+      "status": "ignored",
       "candidates": [
         {
           "displayName": "1 visual check",
@@ -25813,9 +26360,26 @@
         }
       ],
       "selectedDraftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/Count",
-      "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "evidence": {
+        "visual": {
+          "draftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/Count",
+          "highlightImage": "screenshots/mapping_review/20260625_100942_highlight.png",
+          "screenRectUsed": [
+            803,
+            478,
+            821,
+            524
+          ],
+          "imageSize": [
+            1170,
+            2532
+          ],
+          "rectSource": "param→clipped",
+          "recordedAt": "2026-06-25T10:09:43"
+        }
+      },
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "semanticId": "uishop_clone_uishoppop_uishoppop.propitem_3.count",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-PropItem_3 Count",
       "collectionRef": "collection.uishop_clone_uishoppop_uishoppop.propitem.count",
@@ -25832,7 +26396,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_3/Count",
         "clickTargetNode": "",
-        "instanceId": -9756232,
+        "instanceId": -4454982,
         "nodeName": "Count",
         "text": "1",
         "screenRect": [
@@ -25843,7 +26407,7 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
       "matchSummary": {
         "totalCandidates": 580,
@@ -25856,7 +26420,9 @@
         }
       },
       "selectedAt": "2026-06-24T11:13:59",
-      "blockedReason": ""
+      "blockedReason": "",
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:09:46"
     },
     {
       "targetId": "runtime.c8456875f8",
@@ -25869,12 +26435,232 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "pending_match",
-      "candidates": [],
-      "selectedDraftPath": "",
+      "status": "candidate_found",
+      "candidates": [
+        {
+          "displayName": "Buttom_Other visual check",
+          "draftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/Buttom_Other",
+          "elementType": "display_region",
+          "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+          "reasons": [
+            "runtime_path_exact",
+            "runtime_node_current",
+            "assert_visible"
+          ],
+          "reviewStatus": "runtime_node",
+          "risks": [],
+          "role": "visual_assert",
+          "runtimeMatched": true,
+          "score": 1.0,
+          "semanticId": "",
+          "testId": "__runtime__.UIShop(Clone)_UIShopPop [UIShopPop].Root.Shop.Content.Bag.Buttom_Other"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/DeleteBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.DeleteBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Slider/BtnReduce",
+          "displayName": "UIShop-普通操作-未知可点击",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.BtnReduce",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Slider/BtnAdd",
+          "displayName": "UIShop-普通操作-未知可点击",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "clickable_unknown",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.BtnAdd",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/Button",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.Button",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/UsedBtn",
+          "displayName": "背包道具使用按钮",
+          "pageId": "bag",
+          "role": "use",
+          "elementType": "Button",
+          "reviewStatus": "click_confirmed",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "candidate_already_confirmed",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "bag.use.button",
+          "semanticId": "bag.use.button",
+          "formalRef": "formal://bag/bag.use.button",
+          "evidenceRef": "EVIDENCE_bag.use.button"
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/ArtifactGotoBtn",
+          "displayName": "UIShop-前往-可交互图标",
+          "pageId": "UIShop",
+          "role": "go_to",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.ArtifactGotoBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/MergeBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.MergeBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/GotoBtn",
+          "displayName": "UIShop-前往-可交互图标",
+          "pageId": "UIShop",
+          "role": "go_to",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.GotoBtn",
+          "semanticId": ""
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Shop/UIShop.prefab::UIShop/Root/Shop/Content/Bag/Buttom_Other/MergeAndUse/MergeBtn",
+          "displayName": "UIShop-普通操作-可交互图标",
+          "pageId": "UIShop",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 1.0,
+          "reasons": [
+            "runtime_path_match",
+            "name_match",
+            "page_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIShop.MergeBtn",
+          "semanticId": ""
+        }
+      ],
+      "selectedDraftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/Shop/Content/Bag/Buttom_Other",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -25887,7 +26673,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/Buttom_Other",
         "clickTargetNode": "",
-        "instanceId": -9751674,
+        "instanceId": -4450426,
         "nodeName": "Buttom_Other",
         "text": "",
         "screenRect": [
@@ -25898,8 +26684,20 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
-      }
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "matchSummary": {
+        "totalCandidates": 579,
+        "matchedAt": "2026-06-25T10:09:51",
+        "recommendationRef": "recommendation://34e19a949e21",
+        "riskSummary": {
+          "screen_rect_missing": 9,
+          "duplicate_name": 9,
+          "candidate_already_confirmed": 1
+        }
+      },
+      "selectedAt": "2026-06-25T10:09:51",
+      "blockedReason": ""
     },
     {
       "targetId": "runtime.d96aa13702",
@@ -25912,12 +26710,12 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -25930,7 +26728,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/Title",
         "clickTargetNode": "",
-        "instanceId": -9751704,
+        "instanceId": -4450456,
         "nodeName": "Title",
         "text": "联盟迁城",
         "screenRect": [
@@ -25941,8 +26739,10 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
-      }
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:13:10"
     },
     {
       "targetId": "runtime.a6bf00852f",
@@ -25955,12 +26755,12 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -25973,7 +26773,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/ScrollView/Viewport",
         "clickTargetNode": "",
-        "instanceId": -9751728,
+        "instanceId": -4450480,
         "nodeName": "Viewport",
         "text": "",
         "screenRect": [
@@ -25984,8 +26784,10 @@
         ],
         "pageId": "Viewport",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
-      }
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:13:11"
     },
     {
       "targetId": "runtime.3372df03af",
@@ -25998,12 +26800,12 @@
       "elementType": "display_region",
       "priority": "P2",
       "expectedBehavior": "assert visible UI content without clicking",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "interactionType": "assert_visible",
       "assertion": {
         "type": "visual",
@@ -26016,7 +26818,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/Buttom_Other/ScrollView/Viewport/Content/Info",
         "clickTargetNode": "",
-        "instanceId": -9751746,
+        "instanceId": -4450498,
         "nodeName": "Info",
         "text": "将您的基地移动到联盟附近",
         "screenRect": [
@@ -26027,8 +26829,10 @@
         ],
         "pageId": "Viewport",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
-      }
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:13:13"
     },
     {
       "targetId": "collection.uishop_clone_uishoppop_uishoppop.resitem.text",
@@ -26041,22 +26845,41 @@
       "elementType": "interactive_icon",
       "priority": "P1",
       "expectedBehavior": "click visible collection item; scroll list when the requested item is not visible",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
-      "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
-      "testId": "uishop_clone_uishoppop_uishoppop.resitem.add",
+      "evidence": {
+        "collectionRule": {
+          "confirmedAt": "2026-06-25T10:16:24",
+          "collectionId": "collection.uishop_clone_uishoppop_uishoppop.resitem.add",
+          "containerPath": "Root/TopRes",
+          "itemPattern": "ResItem_{index}/add",
+          "semanticPattern": "uishop_clone_uishoppop_uishoppop.resitem_{index}.add",
+          "targetNamePattern": "UIShop(Clone)_UIShopPop [UIShopPop]第{index}个ResItemadd",
+          "visibleIndices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requiresScrollForMissingIndex": true,
+          "recordedAt": "2026-06-25T10:16:24",
+          "formalRef": "formal://UIShop(Clone)_UIShopPop [UIShopPop]/uishop_clone_uishoppop_uishoppop.resitem.add",
+          "evidenceRef": "EVIDENCE_uishop_clone_uishoppop_uishoppop.resitem.add"
+        }
+      },
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
+      "testId": "",
       "semanticId": "uishop_clone_uishoppop_uishoppop.resitem.add",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-ResItem add",
       "collection": {
         "type": "dynamic_list",
-        "collectionId": "collection.uishop_clone_uishoppop_uishoppop.resitem.add",
+        "collectionId": "collection.uishop_clone_uishoppop_uishoppop.resitem.icon",
         "containerPath": "Root/TopRes",
-        "itemPattern": "ResItem_{index}/add",
-        "semanticPattern": "uishop_clone_uishoppop_uishoppop.resitem_{index}.add",
-        "targetNamePattern": "UIShop(Clone)_UIShopPop [UIShopPop]第{index}个ResItemadd",
+        "itemPattern": "ResItem_{index}/Icon",
+        "semanticPattern": "uishop_clone_uishoppop_uishoppop.resitem_{index}.icon",
+        "targetNamePattern": "UIShop(Clone)_UIShopPop [UIShopPop]第{index}个ResItemIcon",
         "indexBase": 1,
         "visibleInstanceCount": 4,
         "visibleIndices": [
@@ -26066,10 +26889,10 @@
           4
         ],
         "visibleRuntimePaths": [
-          "Root/TopRes/ResItem_1/add",
-          "Root/TopRes/ResItem_2/add",
-          "Root/TopRes/ResItem_3/add",
-          "Root/TopRes/ResItem_4/add"
+          "Root/TopRes/ResItem_1/Icon",
+          "Root/TopRes/ResItem_2/Icon",
+          "Root/TopRes/ResItem_3/Icon",
+          "Root/TopRes/ResItem_4/Icon"
         ],
         "requiresScrollForMissingIndex": true,
         "rule": "runtime_repeated_indexed_path"
@@ -26079,10 +26902,15 @@
         "nodeName": "ResItemCollection",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
       },
-      "formalRef": "formal://UIShop(Clone)_UIShopPop [UIShopPop]/uishop_clone_uishoppop_uishoppop.resitem.add",
-      "evidenceRef": "EVIDENCE_uishop_clone_uishoppop_uishoppop.resitem.add"
+      "formalRef": "formal://UIShop(Clone)_UIShopPop [UIShopPop]/uishop_clone_uishoppop_uishoppop.resitem.icon",
+      "evidenceRef": "EVIDENCE_uishop_clone_uishoppop_uishoppop.resitem.icon",
+      "ignoredReason": "invalid_runtime_dynamic_collection_topres_add",
+      "ignoredAt": "2026-06-25T10:20:00",
+      "blockedReason": "",
+      "restoredAt": "2026-06-25T10:16:14",
+      "confirmedTestId": ""
     },
     {
       "targetId": "runtime.0c5e41f35d",
@@ -26095,12 +26923,12 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click visible collection item",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "semanticId": "uishop_clone_uishoppop_uishoppop.propitem_4.count",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-PropItem_4 Count",
       "collectionRef": "collection.uishop_clone_uishoppop_uishoppop.propitem.count",
@@ -26110,26 +26938,28 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "3",
+        "text": "6",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       },
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/Count",
         "clickTargetNode": "",
-        "instanceId": -9756972,
+        "instanceId": -4455722,
         "nodeName": "Count",
-        "text": "3",
+        "text": "6",
         "screenRect": [
-          1074,
+          1070,
           478,
           1104,
           524
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
-      }
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:13:24"
     },
     {
       "targetId": "runtime.ba48bc29ee",
@@ -26142,12 +26972,12 @@
       "elementType": "Button",
       "priority": "P1",
       "expectedBehavior": "click visible collection item",
-      "status": "pending_match",
+      "status": "ignored",
       "candidates": [],
       "selectedDraftPath": "",
       "evidence": {},
-      "createdAt": "2026-06-24T11:41:50",
-      "updatedAt": "2026-06-24T11:41:50",
+      "createdAt": "2026-06-25T10:28:36",
+      "updatedAt": "2026-06-25T10:28:36",
       "semanticId": "uishop_clone_uishoppop_uishoppop.propitem_4.txttop",
       "displayName": "UIShop(Clone)_UIShopPop [UIShopPop]-PropItem_4 TxtTop",
       "collectionRef": "collection.uishop_clone_uishoppop_uishoppop.propitem.txttop",
@@ -26164,7 +26994,7 @@
       "runtimeHint": {
         "runtimePath": "Root/Shop/Content/Bag/ScrollView/ViewPort/Content/Item(Clone)/PropItem_4/TopBg/TxtTop",
         "clickTargetNode": "",
-        "instanceId": -9756992,
+        "instanceId": -4455742,
         "nodeName": "TxtTop",
         "text": "8小时",
         "screenRect": [
@@ -26175,7 +27005,325 @@
         ],
         "pageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
         "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
-        "capturedAt": "2026-06-24T11:41:50"
+        "capturedAt": "2026-06-25T10:28:35"
+      },
+      "ignoredReason": "user_ignored",
+      "ignoredAt": "2026-06-25T10:13:26"
+    },
+    {
+      "targetId": "runtime.24564958d7",
+      "targetName": "UiMain(Clone) [UIMainPopup]第1个LeftContenticon",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "item_click",
+      "elementType": "Button",
+      "priority": "P1",
+      "expectedBehavior": "click visible collection item",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "semanticId": "uimain_clone_uimainpopup.leftcontent_1.icon",
+      "displayName": "UiMain(Clone) [UIMainPopup]-LeftContent_1 icon",
+      "collectionRef": "collection.uimain_clone_uimainpopup.leftcontent.icon",
+      "itemIndex": 1,
+      "interactionType": "click",
+      "runtimeHint": {
+        "runtimePath": "content/LeftDown/LeftContent_1/LookoutTower/icon",
+        "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/LookoutTower",
+        "instanceId": -13452206,
+        "nodeName": "icon",
+        "text": "",
+        "screenRect": [
+          10,
+          1908,
+          129,
+          2027
+        ],
+        "pageId": "UiMain(Clone) [UIMainPopup]",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.6108efc696",
+      "targetName": "UiMain(Clone) [UIMainPopup] diamond visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "priority": "P2",
+      "expectedBehavior": "assert visible UI content without clicking",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "assert_visible",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "common_bg_6",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "runtimeHint": {
+        "runtimePath": "content/Right_Top_other/diamond",
+        "clickTargetNode": "",
+        "instanceId": -13453834,
+        "nodeName": "diamond",
+        "text": "",
+        "screenRect": [
+          956,
+          155,
+          1194,
+          212
+        ],
+        "pageId": "Right_Top_other",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.c90d85a601",
+      "targetName": "UiMain(Clone) [UIMainPopup] icon visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "priority": "P2",
+      "expectedBehavior": "assert visible UI content without clicking",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "assert_visible",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "UI_Item_Diamond",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "runtimeHint": {
+        "runtimePath": "content/Right_Top_other/diamond/icon",
+        "clickTargetNode": "",
+        "instanceId": -13453868,
+        "nodeName": "icon",
+        "text": "",
+        "screenRect": [
+          975,
+          119,
+          1013,
+          157
+        ],
+        "pageId": "Right_Top_other",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.80b523f807",
+      "targetName": "UiMain(Clone) [UIMainPopup] 9,999,500 visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "priority": "P2",
+      "expectedBehavior": "assert visible UI content without clicking",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "assert_visible",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "9,999,500",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "runtimeHint": {
+        "runtimePath": "content/Right_Top_other/diamond/Text",
+        "clickTargetNode": "",
+        "instanceId": -13453876,
+        "nodeName": "Text",
+        "text": "9,999,500",
+        "screenRect": [
+          1032,
+          107,
+          1167,
+          164
+        ],
+        "pageId": "Right_Top_other",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.ced24028d8",
+      "targetName": "UiMain(Clone) [UIMainPopup] World_Trend_Root visual check",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "priority": "P2",
+      "expectedBehavior": "assert visible UI content without clicking",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "assert_visible",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "runtimeHint": {
+        "runtimePath": "content/ActivityHideNode/World_Trend_Root",
+        "clickTargetNode": "",
+        "instanceId": -13452794,
+        "nodeName": "World_Trend_Root",
+        "text": "",
+        "screenRect": [
+          792,
+          115,
+          900,
+          223
+        ],
+        "pageId": "UiMain(Clone) [UIMainPopup]",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.d585caa1ed",
+      "targetName": "UiMain(Clone) [UIMainPopup] arrow1 entry icon",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "entry",
+      "elementType": "interactive_icon",
+      "priority": "P1",
+      "expectedBehavior": "click opens target panel",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "click",
+      "runtimeHint": {
+        "runtimePath": "content/Left_Top/VerticalLayout/MarList/Troops_new/arrow1",
+        "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList/Troops_new/arrow1",
+        "instanceId": -13454954,
+        "nodeName": "arrow1",
+        "text": "",
+        "screenRect": [
+          6,
+          508,
+          203,
+          568
+        ],
+        "pageId": "Left_Top",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.8d6eb2df4a",
+      "targetName": "UiMain(Clone) [UIMainPopup] BtnAward entry icon",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "entry",
+      "elementType": "interactive_icon",
+      "priority": "P1",
+      "expectedBehavior": "click opens target panel",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "click",
+      "runtimeHint": {
+        "runtimePath": "content/Left_Top/VerticalLayout/MarList/Troops_new/BtnAward",
+        "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList/Troops_new/BtnAward",
+        "instanceId": -13454990,
+        "nodeName": "BtnAward",
+        "text": "",
+        "screenRect": [
+          400,
+          479,
+          487,
+          565
+        ],
+        "pageId": "Left_Top",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
+      }
+    },
+    {
+      "targetId": "runtime.b3735c63f9",
+      "targetName": "UiMain(Clone) [UIMainPopup] Slider action",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "action",
+      "elementType": "drag_area",
+      "priority": "P3",
+      "expectedBehavior": "click triggers current UI action",
+      "status": "pending_match",
+      "candidates": [],
+      "selectedDraftPath": "",
+      "evidence": {},
+      "createdAt": "2026-06-24T15:00:09",
+      "updatedAt": "2026-06-24T15:00:09",
+      "interactionType": "click",
+      "runtimeHint": {
+        "runtimePath": "content/MenuRoot/Menu/World/Selected/Slider",
+        "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/MenuRoot/Menu/World/Selected/Slider",
+        "instanceId": -13476104,
+        "nodeName": "Slider",
+        "text": "",
+        "screenRect": [
+          986,
+          2466,
+          986,
+          2466
+        ],
+        "pageId": "MenuRoot",
+        "ownerPageId": "UiMain(Clone) [UIMainPopup]",
+        "capturedAt": "2026-06-24T15:00:09"
       }
     }
   ]

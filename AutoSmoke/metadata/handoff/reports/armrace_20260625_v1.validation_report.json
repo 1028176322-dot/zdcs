@@ -1,0 +1,23 @@
+{
+  "schema_version": "autosmoke_handoff_validation_report.v1",
+  "package_id": "armrace_20260625_v1",
+  "feature_id": "armrace",
+  "status": "READY_UI_ONLY",
+  "automation_level": "UI_ONLY",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BUSINESS_ASSERTION_NOT_PROVIDED",
+      "message": "business state/assertion files are not provided; package is admitted as UI_ONLY",
+      "severity": "WARNING"
+    }
+  ],
+  "blockers": [],
+  "summary": {
+    "case_count": 1,
+    "target_count": 2,
+    "page_count": 2,
+    "business_assertion_count": 0
+  },
+  "validated_at": "2026-06-25T12:15:49"
+}

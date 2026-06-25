@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "page_flow_catalog.v1.schema.json",
+  "title": "Page flow catalog",
+  "type": "object",
+  "required": ["schema_version", "feature_id", "pages"],
+  "properties": {
+    "schema_version": { "const": "page_flow_catalog.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "pages": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

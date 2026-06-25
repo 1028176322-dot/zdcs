@@ -1,7 +1,7 @@
 {
   "schema_version": "mapping_evidence.v1",
   "feature_name": "AutoSmoke",
-  "updated_at": "2026-06-24T11:40:49",
+  "updated_at": "2026-06-25T11:59:09",
   "evidence": {
     "EVIDENCE_bag.back.button": {
       "testId": "bag.back.button",
@@ -2199,6 +2199,61 @@
       "displayName": "角色信息-排行榜按钮",
       "role": "button",
       "elementType": "Button"
+    },
+    "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action": {
+      "evidenceRef": "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "testId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "semanticId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "targetName": "UIShop(Clone)_UIShopPop [UIShopPop] 背包 visual check",
+      "displayName": "商店-uishop clone  uishoppop  uishoppop  背包 visual check组件",
+      "pageId": "shop",
+      "role": "action",
+      "elementType": "unknown",
+      "structure": {
+        "path": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/BG/TopBg/Title",
+        "pageId": "shop",
+        "elementType": "unknown"
+      },
+      "runtime": {
+        "matched": true,
+        "runtimePath": "Root/BG/TopBg/Title",
+        "screenRect": [
+          58,
+          1,
+          253,
+          135
+        ]
+      },
+      "visual": {
+        "draftPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/BG/TopBg/Title",
+        "highlightImage": "screenshots/mapping_review/20260624_110121_highlight.png",
+        "screenRectUsed": [
+          58,
+          1,
+          253,
+          135
+        ],
+        "imageSize": [
+          1170,
+          2532
+        ],
+        "rectSource": "param→clipped",
+        "recordedAt": "2026-06-24T11:01:21",
+        "confirmed": true,
+        "confirmedAt": "2026-06-25T09:58:12",
+        "confirmedTestId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+        "formalRef": "formal://shop/shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+        "evidenceRef": "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action"
+      },
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "背包",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      },
+      "updated_at": "2026-06-25T09:58:17"
     },
     "EVIDENCE_ui.skin.button": {
       "evidenceRef": "EVIDENCE_ui.skin.button",

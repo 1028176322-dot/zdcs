@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "optional_external_refs.v1.schema.json",
+  "title": "Optional external references",
+  "type": "object",
+  "required": ["schema_version", "feature_id"],
+  "properties": {
+    "schema_version": { "const": "optional_external_refs.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "refs": { "type": "array" }
+  },
+  "additionalProperties": true
+}

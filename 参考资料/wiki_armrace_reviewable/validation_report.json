@@ -1,0 +1,40 @@
+{
+  "status": "STRUCTURAL_PASS_REVIEW_REQUIRED",
+  "schema_result": {
+    "status": "PASS",
+    "errors": []
+  },
+  "graph_result": {
+    "status": "PASS",
+    "errors": [],
+    "warnings": []
+  },
+  "evidence_result": {
+    "status": "PASS",
+    "verification_mode": "structural_evidence_link",
+    "checked_refs": 100,
+    "errors": [],
+    "warnings": [],
+    "note": "This validator checks source reference existence only. Semantic entailment must be verified by AI critic or human review."
+  },
+  "render_audit": {
+    "renderer_version": "deterministic_renderer@0.7.1",
+    "renderer_mode": "deterministic",
+    "ai_used_in_rendering": false,
+    "ai_calls": 0,
+    "input_json": "输出/wiki_armrace_reviewable/candidate_feature_flow.json",
+    "input_json_sha256": "6fe46c3f821d2bf45a04d2976cd92239fd438057a2ed113cf153e2aca7ece68b",
+    "output": "输出/wiki_armrace_reviewable/review_pack.md",
+    "output_sha256": "0636671b4ceba9bb3e7b0ddd15e076b8c36efb60fc3990e24ca3fdc3238d9a19"
+  },
+  "binding_result": {
+    "status": "PASS",
+    "json_ids_count": 74,
+    "artifact_ids_count": 74,
+    "binding_coverage": 1.0,
+    "unknown_ids": [],
+    "missing_ids": [],
+    "unbound_business_blocks": 0
+  },
+  "review_pack": "输出/wiki_armrace_reviewable/review_pack.md"
+}

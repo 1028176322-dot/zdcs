@@ -615,6 +615,11 @@ class TargetCatalog:
             signature = self._runtime_collection_signature(runtime_path)
             if not signature:
                 continue
+            if (
+                _safe_text(signature.get("actionName")).lower() == "add"
+                and "topres" in _safe_text(signature.get("containerPath")).replace("\\", "/").lower()
+            ):
+                continue
             rect = node.get("screenRect", [])
             if not node.get("visible", False) or not isinstance(rect, list) or len(rect) < 4:
                 continue

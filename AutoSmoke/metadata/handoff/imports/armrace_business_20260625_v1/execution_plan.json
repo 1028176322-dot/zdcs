@@ -1,0 +1,125 @@
+{
+  "schema_version": "autosmoke_execution_plan.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "feature_id": "armrace",
+  "automation_level": "UI_AND_BUSINESS",
+  "admission_status": "READY_UI_AND_BUSINESS",
+  "plan_status": "READY_TO_RUN",
+  "unresolved_targets": [],
+  "unresolved_assertions": [],
+  "state_collection_plan": [
+    {
+      "state_path": "activity.armrace.score_text",
+      "domain_id": "activity.armrace",
+      "collector": "ui_runtime_tree",
+      "collection_timing": [
+        "after"
+      ],
+      "status": "READY",
+      "selector": {
+        "type": "text",
+        "value": "积分"
+      },
+      "text_hint": "积分",
+      "value_type": "string",
+      "description": "从当前 UI runtime tree 采集军备竞赛页面状态"
+    }
+  ],
+  "business_assertion_plan": [
+    {
+      "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
+      "state_paths": [
+        "activity.armrace.score_text"
+      ],
+      "operator": "not_empty",
+      "expected": true,
+      "status": "READY",
+      "source": {
+        "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
+        "title": "军备竞赛积分文本可见",
+        "state_paths": [
+          "activity.armrace.score_text"
+        ],
+        "operator": "not_empty",
+        "expected": true
+      }
+    }
+  ],
+  "source_trace": {
+    "schema_version": "source_trace.v1",
+    "feature_id": "armrace",
+    "sources": [
+      {
+        "source_id": "REQ-ARMRACE-BIZ-001",
+        "title": "军备竞赛积分展示校验"
+      }
+    ],
+    "links": [
+      {
+        "source_id": "REQ-ARMRACE-BIZ-001",
+        "case_id": "ARMRACE_BUSINESS_001",
+        "target_ids": [
+          "TGT_ARMRACE_TAB",
+          "TGT_ARMRACE_SCORE_TEXT"
+        ],
+        "assertion_ids": [
+          "ASSERT_ARMRACE_SCORE_VISIBLE"
+        ]
+      }
+    ]
+  },
+  "unused_business_assertions": [],
+  "cases": [
+    {
+      "case_id": "ARMRACE_BUSINESS_001",
+      "name": "进入军备竞赛并校验积分状态",
+      "automation_level": "UI_AND_BUSINESS",
+      "status": "READY_TO_RUN",
+      "steps": [
+        {
+          "step_order": 1,
+          "action": "click",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "semantic_id": "armrace.tab.button",
+          "test_id": "armrace.tab.button",
+          "page_hint": "常规活动主界面",
+          "value": "进入军备竞赛主界面",
+          "binding_required": false,
+          "assertion_refs": [],
+          "business_assertions": [],
+          "source_node_ids": [
+            "NODE-ARMRACE-ENTRY"
+          ]
+        },
+        {
+          "step_order": 2,
+          "action": "assert_visible",
+          "target_id": "TGT_ARMRACE_SCORE_TEXT",
+          "target_name": "军备竞赛积分文本",
+          "semantic_id": "armrace.score.text",
+          "test_id": "armrace.score.text",
+          "page_hint": "军备竞赛主界面",
+          "value": "积分文本可见",
+          "binding_required": false,
+          "assertion_refs": [
+            "ASSERT_ARMRACE_SCORE_VISIBLE"
+          ],
+          "business_assertions": [
+            {
+              "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
+              "status": "READY",
+              "state_paths": [
+                "activity.armrace.score_text"
+              ]
+            }
+          ],
+          "source_node_ids": [
+            "NODE-ARMRACE-SCORE"
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-25T12:40:36"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "autosmoke_cases_from_handoff.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "cases": [
+    {
+      "case_id": "ARMRACE_BUSINESS_001",
+      "name": "进入军备竞赛并校验积分状态",
+      "description": "",
+      "automation_level": "UI_AND_BUSINESS",
+      "source": "qa_reader_handoff",
+      "source_package": "armrace_business_20260625_v1",
+      "steps": [
+        {
+          "step_order": 1,
+          "action": "click",
+          "target": "TGT_ARMRACE_TAB",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "page_name": "常规活动主界面",
+          "page_id": "",
+          "value": "进入军备竞赛主界面",
+          "timeout": 10,
+          "source_node_ids": [
+            "NODE-ARMRACE-ENTRY"
+          ],
+          "assertion_refs": [],
+          "raw": {
+            "step_order": 1,
+            "action": "click",
+            "page_name": "常规活动主界面",
+            "target_id": "TGT_ARMRACE_TAB",
+            "target_name": "军备竞赛页签",
+            "expected": "进入军备竞赛主界面",
+            "source_node_ids": [
+              "NODE-ARMRACE-ENTRY"
+            ]
+          }
+        },
+        {
+          "step_order": 2,
+          "action": "assert_visible",
+          "target": "TGT_ARMRACE_SCORE_TEXT",
+          "target_id": "TGT_ARMRACE_SCORE_TEXT",
+          "target_name": "军备竞赛积分文本",
+          "page_name": "军备竞赛主界面",
+          "page_id": "",
+          "value": "积分文本可见",
+          "timeout": 10,
+          "source_node_ids": [
+            "NODE-ARMRACE-SCORE"
+          ],
+          "assertion_refs": [
+            "ASSERT_ARMRACE_SCORE_VISIBLE"
+          ],
+          "raw": {
+            "step_order": 2,
+            "action": "assert_visible",
+            "page_name": "军备竞赛主界面",
+            "target_id": "TGT_ARMRACE_SCORE_TEXT",
+            "target_name": "军备竞赛积分文本",
+            "expected": "积分文本可见",
+            "assertion_refs": [
+              "ASSERT_ARMRACE_SCORE_VISIBLE"
+            ],
+            "source_node_ids": [
+              "NODE-ARMRACE-SCORE"
+            ]
+          }
+        }
+      ],
+      "result": null,
+      "error_message": ""
+    }
+  ]
+}

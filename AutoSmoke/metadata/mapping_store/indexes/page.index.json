@@ -1,6 +1,6 @@
 {
   "schema_version": "mapping_index.page.v1",
-  "updated_at": "2026-06-24T11:40:42",
+  "updated_at": "2026-06-25T11:59:03",
   "pages": {
     "1201_ui_resource": {
       "displayName": "1201_ui_resource",
@@ -574,7 +574,7 @@
     },
     "bag": {
       "displayName": "背包界面",
-      "draftCount": 212,
+      "draftCount": 211,
       "mappingCount": 16,
       "confirmedCount": 16,
       "ignoredCount": 0,
@@ -5656,8 +5656,8 @@
     "shop": {
       "displayName": "商城界面",
       "draftCount": 349,
-      "mappingCount": 0,
-      "confirmedCount": 0,
+      "mappingCount": 1,
+      "confirmedCount": 1,
       "ignoredCount": 0,
       "draftPath": "mapping_store/draft/by_page/shop.json",
       "draftGroups": {

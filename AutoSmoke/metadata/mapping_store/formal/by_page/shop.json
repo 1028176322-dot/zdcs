@@ -1,0 +1,65 @@
+{
+  "schema_version": "element_mapping_formal.page.v1",
+  "pageId": "shop",
+  "displayName": "商城界面",
+  "mappings": {
+    "shop.uishop_clone_uishoppop_uishoppop_visual_check.action": {
+      "testId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "semanticId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "targetName": "UIShop(Clone)_UIShopPop [UIShopPop] 背包 visual check",
+      "displayName": "商店-uishop clone  uishoppop  uishoppop  背包 visual check组件",
+      "pageId": "shop",
+      "role": "action",
+      "elementType": "unknown",
+      "elementPath": "__runtime__::UIShop(Clone)_UIShopPop [UIShopPop]::Root/BG/TopBg/Title",
+      "locator": {
+        "type": "runtimePath",
+        "value": "Root/BG/TopBg/Title"
+      },
+      "fallbackLocators": [
+        {
+          "type": "screenRect",
+          "value": [
+            58,
+            1,
+            253,
+            135
+          ]
+        },
+        {
+          "type": "runtimeHint",
+          "value": {
+            "runtimePath": "Root/BG/TopBg/Title",
+            "clickTargetNode": "",
+            "instanceId": -4174280,
+            "nodeName": "Title",
+            "text": "背包",
+            "screenRect": [
+              58,
+              1,
+              253,
+              135
+            ],
+            "pageId": "BG",
+            "ownerPageId": "UIShop(Clone)_UIShopPop [UIShopPop]",
+            "capturedAt": "2026-06-25T09:55:38"
+          }
+        }
+      ],
+      "reviewStatus": "visual_confirmed",
+      "source": "target_workbench_visual_assert",
+      "evidenceRef": "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "背包",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    }
+  },
+  "groups": {},
+  "updated_at": "2026-06-25T09:58:12",
+  "count": 1
+}

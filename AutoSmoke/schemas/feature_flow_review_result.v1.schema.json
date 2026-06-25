@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feature_flow_review_result.v1.schema.json",
+  "title": "Feature flow review result",
+  "type": "object",
+  "required": ["schema_version", "feature_id", "review_status"],
+  "properties": {
+    "schema_version": { "const": "feature_flow_review_result.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "review_status": { "enum": ["APPROVED", "REVIEW_REQUIRED", "BLOCKED"] },
+    "review_items": { "type": "array" }
+  },
+  "additionalProperties": true
+}

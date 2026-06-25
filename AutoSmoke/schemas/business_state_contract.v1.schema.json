@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "business_state_contract.v1.schema.json",
+  "title": "Business state contract",
+  "type": "object",
+  "required": ["schema_version", "feature_id"],
+  "properties": {
+    "schema_version": { "const": "business_state_contract.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "state_domains": { "type": "array" }
+  },
+  "additionalProperties": true
+}

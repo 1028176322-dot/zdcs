@@ -1,0 +1,11 @@
+{
+  "schema_version": "test_data_profile.v1",
+  "feature_id": "armrace",
+  "profiles": [
+    {
+      "profile_id": "default",
+      "description": "具备进入活动页的账号，业务积分状态通过 UI runtime tree 采集"
+    }
+  ],
+  "preconditions": []
+}

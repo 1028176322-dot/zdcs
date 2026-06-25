@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "value_assets.v1.schema.json",
+  "title": "Business value assets",
+  "type": "object",
+  "required": ["schema_version", "feature_id"],
+  "properties": {
+    "schema_version": { "const": "value_assets.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "assets": { "type": "array" }
+  },
+  "additionalProperties": true
+}

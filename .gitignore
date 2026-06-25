@@ -13,3 +13,22 @@ AutoSmoke/metadata/ui_code_semantics_test.json
 # 截图
 *.png
 AutoSmoke/screenshots/
+
+# Local backup/checkpoints
+# Git is the primary backup path; do not keep timestamped .bak files in commits.
+*.bak.*
+*.orig
+*.rej
+
+# AutoSmoke runtime bridge/generated files
+AutoSmoke/runtime/bridge/requests/
+AutoSmoke/runtime/bridge/responses/
+AutoSmoke/runtime/bridge/*.json
+!AutoSmoke/runtime/bridge/.gitkeep
+
+# AutoSmoke volatile runtime metadata
+AutoSmoke/metadata/runtime_snapshots/
+AutoSmoke/metadata/current_runtime_state.json
+AutoSmoke/metadata/runtime_ui_tree_current.json
+AutoSmoke/metadata/scene_interaction_tree.json
+AutoSmoke/runtime/bridge/unity_heartbeat.json

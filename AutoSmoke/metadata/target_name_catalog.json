@@ -1,6 +1,6 @@
 {
   "schema_version": "target_name_catalog.v1",
-  "updated_at": "2026-06-24T11:41:50",
+  "updated_at": "2026-06-25T10:28:36",
   "targets": [
     {
       "targetId": "demo.bag.use.button",
@@ -1594,7 +1594,7 @@
       "targetId": "runtime.32a640fc48",
       "targetName": "角色信息界面皮肤按钮",
       "aliases": [],
-      "pageHint": "character_info",
+      "pageHint": "UiPlayerMain(Clone)_UIPlayerMain [UIPlayerMain]",
       "role": "button",
       "elementType": "Button",
       "interactionType": "click",
@@ -1782,7 +1782,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "Player205",
+        "text": "Player1",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -1832,7 +1832,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "性别：",
+        "text": "Gender:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2007,7 +2007,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "168,922",
+        "text": "168,907",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2057,7 +2057,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "联盟:",
+        "text": "Alliance:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2082,7 +2082,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "<color=#FDE547>[223]</color> 1231",
+        "text": "<color=#FDE547>[1111]</color> 1111",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2107,7 +2107,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "ID：",
+        "text": "ID:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2132,7 +2132,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "205",
+        "text": "1",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2157,7 +2157,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "国家：",
+        "text": "Nation:",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2289,7 +2289,7 @@
     },
     {
       "targetId": "runtime.512714f378",
-      "targetName": "UiMain(Clone) [UIMainPopup] 12:45 visual check",
+      "targetName": "UiMain(Clone) [UIMainPopup] 06-28 12:16:57 visual check",
       "aliases": [],
       "pageHint": "UiMain(Clone) [UIMainPopup]",
       "role": "visual_assert",
@@ -2307,7 +2307,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "12:45",
+        "text": "06-28 12:16:57",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -2389,7 +2389,7 @@
     },
     {
       "targetId": "runtime.4e8ab496c6",
-      "targetName": "UiMain(Clone) [UIMainPopup] 168,922 visual check",
+      "targetName": "UiMain(Clone) [UIMainPopup] 168,907 visual check",
       "aliases": [],
       "pageHint": "UiMain(Clone) [UIMainPopup]",
       "role": "visual_assert",
@@ -2407,7 +2407,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "168,922",
+        "text": "168,907",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -3231,11 +3231,11 @@
       "priority": "P1",
       "collection": {
         "type": "dynamic_list",
-        "collectionId": "collection.uishop_clone_uishoppop_uishoppop.resitem.add",
+        "collectionId": "collection.uishop_clone_uishoppop_uishoppop.resitem.icon",
         "containerPath": "Root/TopRes",
-        "itemPattern": "ResItem_{index}/add",
-        "semanticPattern": "uishop_clone_uishoppop_uishoppop.resitem_{index}.add",
-        "targetNamePattern": "UIShop(Clone)_UIShopPop [UIShopPop]第{index}个ResItemadd",
+        "itemPattern": "ResItem_{index}/Icon",
+        "semanticPattern": "uishop_clone_uishoppop_uishoppop.resitem_{index}.icon",
+        "targetNamePattern": "UIShop(Clone)_UIShopPop [UIShopPop]第{index}个ResItemIcon",
         "indexBase": 1,
         "visibleInstanceCount": 4,
         "visibleIndices": [
@@ -3245,10 +3245,10 @@
           4
         ],
         "visibleRuntimePaths": [
-          "Root/TopRes/ResItem_1/add",
-          "Root/TopRes/ResItem_2/add",
-          "Root/TopRes/ResItem_3/add",
-          "Root/TopRes/ResItem_4/add"
+          "Root/TopRes/ResItem_1/Icon",
+          "Root/TopRes/ResItem_2/Icon",
+          "Root/TopRes/ResItem_3/Icon",
+          "Root/TopRes/ResItem_4/Icon"
         ],
         "requiresScrollForMissingIndex": true,
         "rule": "runtime_repeated_indexed_path"
@@ -3278,7 +3278,7 @@
         "type": "visual",
         "mode": "assert_visible",
         "clickRequired": false,
-        "text": "3",
+        "text": "6",
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
@@ -3307,6 +3307,178 @@
         "spriteName": "",
         "rule": "visible_non_clickable_runtime_node"
       }
+    },
+    {
+      "targetId": "runtime.24564958d7",
+      "targetName": "UiMain(Clone) [UIMainPopup]第1个LeftContenticon",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "item_click",
+      "elementType": "Button",
+      "interactionType": "click",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P1",
+      "collection": {},
+      "collectionRef": "collection.uimain_clone_uimainpopup.leftcontent.icon",
+      "itemIndex": 1,
+      "availability": {},
+      "assertion": {}
+    },
+    {
+      "targetId": "runtime.6108efc696",
+      "targetName": "UiMain(Clone) [UIMainPopup] diamond visual check",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "interactionType": "assert_visible",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P2",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "common_bg_6",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    {
+      "targetId": "runtime.c90d85a601",
+      "targetName": "UiMain(Clone) [UIMainPopup] icon visual check",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "interactionType": "assert_visible",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P2",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "UI_Item_Diamond",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    {
+      "targetId": "runtime.80b523f807",
+      "targetName": "UiMain(Clone) [UIMainPopup] 9,999,500 visual check",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "interactionType": "assert_visible",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P2",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "9,999,500",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    {
+      "targetId": "runtime.ced24028d8",
+      "targetName": "UiMain(Clone) [UIMainPopup] World_Trend_Root visual check",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "visual_assert",
+      "elementType": "display_region",
+      "interactionType": "assert_visible",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P2",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {
+        "type": "visual",
+        "mode": "assert_visible",
+        "clickRequired": false,
+        "text": "",
+        "spriteName": "",
+        "rule": "visible_non_clickable_runtime_node"
+      }
+    },
+    {
+      "targetId": "runtime.d585caa1ed",
+      "targetName": "UiMain(Clone) [UIMainPopup] arrow1 entry icon",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "entry",
+      "elementType": "interactive_icon",
+      "interactionType": "click",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P1",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {}
+    },
+    {
+      "targetId": "runtime.8d6eb2df4a",
+      "targetName": "UiMain(Clone) [UIMainPopup] BtnAward entry icon",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "entry",
+      "elementType": "interactive_icon",
+      "interactionType": "click",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P1",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {}
+    },
+    {
+      "targetId": "runtime.b3735c63f9",
+      "targetName": "UiMain(Clone) [UIMainPopup] Slider action",
+      "aliases": [],
+      "pageHint": "UiMain(Clone) [UIMainPopup]",
+      "role": "action",
+      "elementType": "drag_area",
+      "interactionType": "click",
+      "sourceCases": [
+        "RUNTIME_CURRENT_PAGE"
+      ],
+      "priority": "P3",
+      "collection": {},
+      "collectionRef": "",
+      "itemIndex": "",
+      "availability": {},
+      "assertion": {}
     }
   ]
 }

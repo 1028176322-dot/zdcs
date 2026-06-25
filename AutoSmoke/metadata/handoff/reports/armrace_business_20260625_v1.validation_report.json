@@ -1,0 +1,18 @@
+{
+  "schema_version": "autosmoke_handoff_validation_report.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "feature_id": "armrace",
+  "status": "READY_UI_AND_BUSINESS",
+  "automation_level": "UI_AND_BUSINESS",
+  "errors": [],
+  "warnings": [],
+  "blockers": [],
+  "summary": {
+    "case_count": 1,
+    "target_count": 2,
+    "page_count": 2,
+    "business_state_count": 1,
+    "business_assertion_count": 1
+  },
+  "validated_at": "2026-06-25T12:23:09"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": "mapping_index.evidence.v1",
-  "updated_at": "2026-06-24T11:40:42",
+  "updated_at": "2026-06-25T11:59:03",
   "items": {
     "EVIDENCE_bag.back.button": {
       "pageId": "bag",
@@ -176,6 +176,11 @@
       "pageId": "character_info",
       "testId": "character_info.ranking.button",
       "evidencePath": "mapping_store/evidence/by_testid/character_info/character_info.ranking.button.json"
+    },
+    "EVIDENCE_shop.uishop_clone_uishoppop_uishoppop_visual_check.action": {
+      "pageId": "shop",
+      "testId": "shop.uishop_clone_uishoppop_uishoppop_visual_check.action",
+      "evidencePath": "mapping_store/evidence/by_testid/shop/shop.uishop_clone_uishoppop_uishoppop_visual_check.action.json"
     },
     "EVIDENCE_ui.skin.button": {
       "pageId": "unknown",

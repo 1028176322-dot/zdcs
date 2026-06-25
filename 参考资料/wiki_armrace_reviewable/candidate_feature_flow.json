@@ -1,0 +1,2158 @@
+{
+  "schema_version": "feature_flow.v1",
+  "feature": {
+    "feature_id": "feature-17751c8a",
+    "name": "系统/军备竞赛",
+    "version": "draft",
+    "summary": "Machine-drafted candidate graph. It is suitable for review, not for final QA case generation."
+  },
+  "source": {
+    "source_name": "wiki_materialized.md",
+    "source_path": "wiki:系统/军备竞赛|字典/H活动_军备竞赛配置",
+    "source_sha256": "6b54c00df7fd18335a03b8c84e30e4eb528a5d13edb02117d3a9fdc4eb6decdd"
+  },
+  "status": "REVIEW_REQUIRED",
+  "nodes": [
+    {
+      "node_id": "NODE-FEATURE-17751C8A",
+      "node_type": "FEATURE",
+      "semantic_role": "feature_anchor",
+      "content_category": "feature_anchor",
+      "title": "系统/军备竞赛",
+      "summary": "候选功能入口，需要人工审核来源事实后才能进入用例生成。",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "N/A",
+      "inputs": [
+        "来源文档"
+      ],
+      "action": "识别功能范围",
+      "target_state": "功能范围已识别",
+      "outputs": [
+        "候选功能范围"
+      ],
+      "status": "CANDIDATE",
+      "source_refs": [
+        "L1"
+      ]
+    },
+    {
+      "node_id": "NODE-01-ARMS-RACE-V1-0",
+      "node_type": "REVIEW_ITEM",
+      "title": "军备竞赛(Arms Race) · V1.0",
+      "summary": "军备竞赛(Arms Race) · V1.0；> 三层关系: H活动_军备竞赛配置(运行时实现,5 sheet) ← 本页(设计意图) ← 58-军备竞赛.xlsx(策划案原文)。；> 文档版本: V1.2(2026-06-16), 未锁定。原 6 项待补已清零, 待评审后锁定。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L3-L7"
+      ],
+      "semantic_role": "review_fact",
+      "content_category": "review_fact",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留来源事实作为参考信息",
+      "target_state": "参考信息已记录",
+      "outputs": [
+        "军备竞赛(Arms Race) · V1.0；> 三层关系: H活动_军备竞赛配置(运行时实现,5 sheet) ← 本页(设计意图) ← 58-军备竞赛.xlsx(策划案原文)。；> 文档版本: V1.2(2026-06-16), 未锁定。原 6 项待补已清零, 待评审后锁定。"
+      ],
+      "evidence_excerpt": [
+        "军备竞赛(Arms Race) · V1.0",
+        "> 三层关系: H活动_军备竞赛配置(运行时实现,5 sheet) ← 本页(设计意图) ← 58-军备竞赛.xlsx(策划案原文)。",
+        "> 文档版本: V1.2(2026-06-16), 未锁定。原 6 项待补已清零, 待评审后锁定。"
+      ]
+    },
+    {
+      "node_id": "NODE-02-SECTION-02-C8F1FBC7",
+      "node_type": "FEATURE",
+      "title": "一、一句话定位",
+      "summary": "一、一句话定位；军备竞赛是一个 7 天为一循环的长线积分玩法活动: 玩家每日参与, 完成多类养成任务获积分; 每 4 小时刷新一轮竞赛主题(共 7 阶段 x 6 轮), 按积分领取积分奖励 / 目标奖励, 并按每日积分总量与匹配池内玩家排名竞争排行奖励。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L8-L11"
+      ],
+      "semantic_role": "feature_definition",
+      "content_category": "feature_definition",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档概述"
+      ],
+      "action": "识别功能定位和可审核范围",
+      "target_state": "功能范围已识别",
+      "outputs": [
+        "功能定义候选"
+      ],
+      "evidence_excerpt": [
+        "一、一句话定位",
+        "军备竞赛是一个 7 天为一循环的长线积分玩法活动: 玩家每日参与, 完成多类养成任务获积分; 每 4 小时刷新一轮竞赛主题(共 7 阶段 x 6 轮), 按积分领取积分奖励 / 目标奖励, 并按每日积分总量与匹配池内玩家排名竞争排行奖励。"
+      ]
+    },
+    {
+      "node_id": "NODE-03-SECTION-03-CB399716",
+      "node_type": "CONFIG",
+      "title": "二、系统组成",
+      "summary": "二、系统组成；TABLE_ROW: Sheet || 行数 || 职责 || 关键字段；TABLE_ROW: CArmRaceStage || 42 || 赛程编排: 7 阶段 x 6 轮, 每轮 4 小时, 指定主题 || StageID / RoundID / Time / ArmsRaceKindID；TABLE_ROW: CArmsRaceKind || 6 || 竞赛主题: 6 类主题, 任务集合, 推荐任务, banner || ClassDes / IncludeTask / Recommend / Banner；TABLE_ROW: CArmsRaceTask || 53 || 任务定义: 完成条件, 积分, 图标 || ClassID / Count / Params / QuestDes / Point / Icon / Group；TABLE_ROW: CArmsRaceReward || 206 || 三类奖励: 目标, 积分, 排行 || RewardID / Class / CompetitionRank / Stage / Point / PointsDemand / Reward；TABLE_ROW: CArmsRaceRank || 12 || 匹配段位定义: 阶段段位 11 档 + 轮次段位 1 档 || Type / Rank；活动内容 ContentID = 6001。活动调度走 H活动配置 CActvOnline。调度行: ID=2040100, Type=67, TriggerType=2, TriggerVal=1d, Reopen=1, TriggerRept=7d, Duration=7d, LevelVal=7, MailUseActvID=18000016。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L12-L23"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "二、系统组成",
+        "| Sheet | 行数 | 职责 | 关键字段 |",
+        "| CArmRaceStage | 42 | 赛程编排: 7 阶段 x 6 轮, 每轮 4 小时, 指定主题 | StageID / RoundID / Time / ArmsRaceKindID |",
+        "| CArmsRaceKind | 6 | 竞赛主题: 6 类主题, 任务集合, 推荐任务, banner | ClassDes / IncludeTask / Recommend / Banner |",
+        "| CArmsRaceTask | 53 | 任务定义: 完成条件, 积分, 图标 | ClassID / Count / Params / QuestDes / Point / Icon / Group |",
+        "| CArmsRaceReward | 206 | 三类奖励: 目标, 积分, 排行 | RewardID / Class / CompetitionRank / Stage / Point / PointsDemand / Reward |",
+        "| CArmsRaceRank | 12 | 匹配段位定义: 阶段段位 11 档 + 轮次段位 1 档 | Type / Rank |",
+        "活动内容 ContentID = 6001。活动调度走 H活动配置 CActvOnline。调度行: ID=2040100, Type=67, TriggerType=2, TriggerVal=1d, Reopen=1, TriggerRept=7d, Duration=7d, LevelVal=7, MailUseActvID=18000016。"
+      ]
+    },
+    {
+      "node_id": "NODE-05-3-1",
+      "node_type": "RULE_GATE",
+      "title": "3.1 功能开启",
+      "summary": "3.1 功能开启；服务器达到指定开服天数后开启功能, 精确天数以 CActvOnline 实际配置为准。玩家参与条件由 CActvOnline.LevelVal 控制; CArmsRaceRank 控制匹配等级区间。文本和配置互证最低参与等级为灯塔 7 级。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L26-L29"
+      ],
+      "semantic_role": "entry_condition",
+      "content_category": "entry_condition",
+      "rule_expression": [
+        "server_open_day satisfies CActvOnline.TriggerVal (配置行当前为 TriggerVal=1d)",
+        "player_lighthouse_level >= CActvOnline.LevelVal (当前互证为 7)",
+        "player_level maps to CArmsRaceRank rank segment"
+      ],
+      "rule_terms": [
+        {
+          "name": "server_open_day",
+          "operator": ">=",
+          "value": "CActvOnline.TriggerVal / 1d",
+          "source": "rule_pack"
+        },
+        {
+          "name": "player_lighthouse_level",
+          "operator": ">=",
+          "value": "7",
+          "source": "rule_pack"
+        },
+        {
+          "name": "player_level",
+          "operator": "in",
+          "value": "CArmsRaceRank.Rank",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CActvOnline.TriggerVal",
+        "CActvOnline.LevelVal",
+        "CArmsRaceRank.Rank",
+        "玩家灯塔等级"
+      ],
+      "action": "判断功能开启与玩家参与资格",
+      "target_state": "满足条件后玩家可进入功能和后续匹配",
+      "outputs": [
+        "准入结果",
+        "玩家等级段位映射前置条件"
+      ],
+      "evidence_excerpt": [
+        "3.1 功能开启",
+        "服务器达到指定开服天数后开启功能, 精确天数以 CActvOnline 实际配置为准。玩家参与条件由 CActvOnline.LevelVal 控制; CArmsRaceRank 控制匹配等级区间。文本和配置互证最低参与等级为灯塔 7 级。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "server_open_day satisfies CActvOnline.TriggerVal (配置行当前为 TriggerVal=1d)"
+          },
+          {
+            "text": "player_lighthouse_level >= CActvOnline.LevelVal (当前互证为 7)"
+          },
+          {
+            "text": "player_level maps to CArmsRaceRank rank segment"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-06-3-2",
+      "node_type": "RULE_GATE",
+      "title": "3.2 跨服匹配分组",
+      "summary": "3.2 跨服匹配分组；跨服匹配分组由全局表 CCrossServerGroup 控制。军备竞赛当前未在 CCrossServerGroup 配置正式跨服分组, 即当前无活动专属跨服分组规则。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L30-L33"
+      ],
+      "semantic_role": "grouping_rule",
+      "content_category": "grouping_rule",
+      "rule_expression": [
+        "source states arms race has no formal activity-specific CCrossServerGroup entry"
+      ],
+      "rule_terms": [
+        {
+          "name": "CCrossServerGroup",
+          "operator": "source_states_absent_for",
+          "value": "军备竞赛",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CCrossServerGroup"
+      ],
+      "action": "判断是否存在活动专属跨服分组",
+      "target_state": "确认当前无活动专属跨服分组",
+      "outputs": [
+        "分组规则结论"
+      ],
+      "evidence_excerpt": [
+        "3.2 跨服匹配分组",
+        "跨服匹配分组由全局表 CCrossServerGroup 控制。军备竞赛当前未在 CCrossServerGroup 配置正式跨服分组, 即当前无活动专属跨服分组规则。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "source states arms race has no formal activity-specific CCrossServerGroup entry"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-07-3-3",
+      "node_type": "RULE_GATE",
+      "title": "3.3 匹配时间与池子规则",
+      "summary": "3.3 匹配时间与池子规则；功能达开启条件后, 等服务器第二天 UTC 0 点开始匹配。只有在线玩家参与匹配; 未在线者上线后再入池。池子上限 20 人。优先补未满小组, 满员后开新池; 无可匹配玩家时池内仅玩家本人。每日 UTC 0 点结算前一日并开新一轮匹配。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L34-L37"
+      ],
+      "semantic_role": "matching_rule",
+      "content_category": "matching_rule",
+      "rule_expression": [
+        "match_start_time = next_day_UTC_00_after_feature_open",
+        "player_online == true -> join matching pool; offline players join after login",
+        "pool_size <= 20",
+        "no_matchable_players -> pool = [self]",
+        "daily_UTC_00 -> settle previous day and open new matching round"
+      ],
+      "rule_terms": [
+        {
+          "name": "match_start_time",
+          "operator": "=",
+          "value": "next day UTC 0 after open",
+          "source": "rule_pack"
+        },
+        {
+          "name": "player_online",
+          "operator": "==",
+          "value": "true",
+          "source": "rule_pack"
+        },
+        {
+          "name": "pool_size",
+          "operator": "<=",
+          "value": "20",
+          "source": "rule_pack"
+        },
+        {
+          "name": "matchable_players",
+          "operator": "==",
+          "value": "0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "settlement_time",
+          "operator": "=",
+          "value": "daily UTC 0",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "功能开启状态",
+        "服务器时间",
+        "玩家在线状态",
+        "匹配池人数"
+      ],
+      "action": "按时间、在线状态和池容量分配匹配池",
+      "target_state": "玩家进入匹配池或单人池",
+      "outputs": [
+        "匹配池成员",
+        "每日新匹配轮次"
+      ],
+      "evidence_excerpt": [
+        "3.3 匹配时间与池子规则",
+        "功能达开启条件后, 等服务器第二天 UTC 0 点开始匹配。只有在线玩家参与匹配; 未在线者上线后再入池。池子上限 20 人。优先补未满小组, 满员后开新池; 无可匹配玩家时池内仅玩家本人。每日 UTC 0 点结算前一日并开新一轮匹配。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "match_start_time = next_day_UTC_00_after_feature_open"
+          },
+          {
+            "text": "player_online == true -> join matching pool; offline players join after login"
+          },
+          {
+            "text": "pool_size <= 20"
+          },
+          {
+            "text": "no_matchable_players -> pool = [self]"
+          },
+          {
+            "text": "daily_UTC_00 -> settle previous day and open new matching round"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-08-3-4",
+      "node_type": "RULE_GATE",
+      "title": "3.4 匹配段位",
+      "summary": "3.4 匹配段位；Type 1 阶段段位用于积分奖励, 共 11 档: [7,9], [10,12], [13,14], [15,16], [17,18], [19,20], [21,22], [23,24], [25,26], [27,28], [29,30]。Type 2 轮次段位用于目标奖励, 1 档 [7,30]。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L38-L41"
+      ],
+      "semantic_role": "rank_mapping",
+      "content_category": "rank_mapping",
+      "rule_expression": [
+        "Type1 stage_rank_ranges = [7,9],[10,12],[13,14],[15,16],[17,18],[19,20],[21,22],[23,24],[25,26],[27,28],[29,30]",
+        "Type2 round_rank_range = [7,30]"
+      ],
+      "rule_terms": [
+        {
+          "name": "CArmsRaceRank.Type1",
+          "operator": "ranges",
+          "value": "[7,9]...[29,30]",
+          "source": "rule_pack"
+        },
+        {
+          "name": "CArmsRaceRank.Type2",
+          "operator": "range",
+          "value": "[7,30]",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "玩家等级",
+        "CArmsRaceRank.Type",
+        "CArmsRaceRank.Rank"
+      ],
+      "action": "将玩家等级映射到阶段段位或轮次段位",
+      "target_state": "得到奖励段位档位",
+      "outputs": [
+        "Type1 段位档",
+        "Type2 段位档"
+      ],
+      "evidence_excerpt": [
+        "3.4 匹配段位",
+        "Type 1 阶段段位用于积分奖励, 共 11 档: [7,9], [10,12], [13,14], [15,16], [17,18], [19,20], [21,22], [23,24], [25,26], [27,28], [29,30]。Type 2 轮次段位用于目标奖励, 1 档 [7,30]。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "Type1 stage_rank_ranges = [7,9],[10,12],[13,14],[15,16],[17,18],[19,20],[21,22],[23,24],[25,26],[27,28],[29,30]"
+          },
+          {
+            "text": "Type2 round_rank_range = [7,30]"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-09-SECTION-09-86711CB1",
+      "node_type": "STATE",
+      "title": "四、竞赛结构",
+      "summary": "四、竞赛结构；1 循环 = 7 阶段, 每阶段 = 6 轮, 每轮持续 4 小时。第 1 阶段第 1 轮在功能开启当天 UTC 0 点开启; 第 7 阶段在功能开启后第 7 天 UTC 24 点结束。每轮在 UTC 0/4/8/12/16/20 切换主题。CArmRaceStage 共 42 行, 主题 id 1-6 乱序编排。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L42-L45"
+      ],
+      "semantic_role": "lifecycle_state",
+      "content_category": "lifecycle_state",
+      "rule_expression": [
+        "cycle = 7 stages x 6 rounds",
+        "round_duration = 4h",
+        "theme_switch_time = UTC 0/4/8/12/16/20"
+      ],
+      "rule_terms": [
+        {
+          "name": "cycle",
+          "operator": "=",
+          "value": "7 stages x 6 rounds",
+          "source": "rule_pack"
+        },
+        {
+          "name": "round_duration",
+          "operator": "=",
+          "value": "4h",
+          "source": "rule_pack"
+        },
+        {
+          "name": "theme_switch_time",
+          "operator": "in",
+          "value": "UTC 0/4/8/12/16/20",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CArmRaceStage.StageID",
+        "CArmRaceStage.RoundID",
+        "CArmRaceStage.Time"
+      ],
+      "action": "推进 7 阶段 x 6 轮赛程",
+      "target_state": "阶段、轮次、主题按 UTC 时间切换",
+      "outputs": [
+        "当前阶段",
+        "当前轮次",
+        "当前主题"
+      ],
+      "evidence_excerpt": [
+        "四、竞赛结构",
+        "1 循环 = 7 阶段, 每阶段 = 6 轮, 每轮持续 4 小时。第 1 阶段第 1 轮在功能开启当天 UTC 0 点开启; 第 7 阶段在功能开启后第 7 天 UTC 24 点结束。每轮在 UTC 0/4/8/12/16/20 切换主题。CArmRaceStage 共 42 行, 主题 id 1-6 乱序编排。"
+      ]
+    },
+    {
+      "node_id": "NODE-11-5-1",
+      "node_type": "CONFIG",
+      "title": "5.1 六大主题",
+      "summary": "5.1 六大主题；TABLE_ROW: KindID || 主题 key || 含义 || IncludeTask || Recommend；TABLE_ROW: 1 || ArmRace_text_2 || 英雄养成 || 101,102,701 || 102；TABLE_ROW: 2 || ArmRace_text_3 || 城市建设 || 201,202,701 || 202；TABLE_ROW: 3 || ArmRace_text_4 || 士兵提升 || 301,302-311,701 || 302-311；TABLE_ROW: 4 || ArmRace_text_5 || 科技研发 || 401,402,701 || 402；TABLE_ROW: 5 || ArmRace_text_6 || 船只养成 || 502,503,511-540,701 || 511-540；TABLE_ROW: 6 || ArmRace_text_7 || 无人机/神器 || 601,602,701 || 601；每主题都含通用任务 701(购买含宝石礼包, 30 积分)。士兵和船只主题使用分级任务。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L48-L60"
+      ],
+      "semantic_role": "theme_mapping",
+      "content_category": "theme_mapping",
+      "rule_expression": [
+        "theme_mapping: 1 | ArmRace_text_2 | 英雄养成 | 101,102,701 | 102",
+        "theme_mapping: 2 | ArmRace_text_3 | 城市建设 | 201,202,701 | 202",
+        "theme_mapping: 3 | ArmRace_text_4 | 士兵提升 | 301,302-311,701 | 302-311",
+        "theme_mapping: 4 | ArmRace_text_5 | 科技研发 | 401,402,701 | 402",
+        "theme_mapping: 5 | ArmRace_text_6 | 船只养成 | 502,503,511-540,701 | 511-540",
+        "theme_mapping: 6 | ArmRace_text_7 | 无人机/神器 | 601,602,701 | 601",
+        "each_theme includes common_task_701 with 30 points"
+      ],
+      "rule_terms": [
+        {
+          "name": "common_task",
+          "operator": "=",
+          "value": "701 / 30 points",
+          "source": "source_text"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CArmsRaceKind.IncludeTask",
+        "CArmsRaceKind.Recommend"
+      ],
+      "action": "映射主题到任务集合和推荐任务",
+      "target_state": "当前轮次主题确定",
+      "outputs": [
+        "主题任务集合",
+        "推荐任务"
+      ],
+      "evidence_excerpt": [
+        "5.1 六大主题",
+        "| KindID | 主题 key | 含义 | IncludeTask | Recommend |",
+        "| 1 | ArmRace_text_2 | 英雄养成 | 101,102,701 | 102 |",
+        "| 2 | ArmRace_text_3 | 城市建设 | 201,202,701 | 202 |",
+        "| 3 | ArmRace_text_4 | 士兵提升 | 301,302-311,701 | 302-311 |",
+        "| 4 | ArmRace_text_5 | 科技研发 | 401,402,701 | 402 |",
+        "| 5 | ArmRace_text_6 | 船只养成 | 502,503,511-540,701 | 511-540 |",
+        "| 6 | ArmRace_text_7 | 无人机/神器 | 601,602,701 | 601 |",
+        "每主题都含通用任务 701(购买含宝石礼包, 30 积分)。士兵和船只主题使用分级任务。"
+      ]
+    },
+    {
+      "node_id": "NODE-12-5-2",
+      "node_type": "RULE_GATE",
+      "title": "5.2 任务定义",
+      "summary": "5.2 任务定义；关键字段: ClassID 是通用任务类型 id, Count 与 Params 定义完成阈值和额外参数, Point 是完成 1 次给的积分, Group 控制折叠分组, Icon / QuestDes 控制图标和描述。；任务积分约束: 购买礼包获取宝石任务 701 不计入主题类型但可得积分; 只有通过购买礼包获取的宝石才能获取积分。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L61-L66"
+      ],
+      "semantic_role": "task_scoring_rule",
+      "content_category": "task_scoring_rule",
+      "rule_expression": [
+        "task_complete_condition = CArmsRaceTask.Count + CArmsRaceTask.Params",
+        "on_task_completion -> current_round_score += CArmsRaceTask.Point",
+        "task_701 not counted into theme type but grants points only for purchased-gem packages"
+      ],
+      "rule_terms": [
+        {
+          "name": "task_complete_condition",
+          "operator": "=",
+          "value": "Count + Params",
+          "source": "rule_pack"
+        },
+        {
+          "name": "score_delta",
+          "operator": "+=",
+          "value": "CArmsRaceTask.Point",
+          "source": "rule_pack"
+        },
+        {
+          "name": "task_701",
+          "operator": "condition",
+          "value": "purchased-gem package only",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CArmsRaceTask.Count",
+        "CArmsRaceTask.Params",
+        "CArmsRaceTask.Point"
+      ],
+      "action": "判断任务完成并累加本轮积分",
+      "target_state": "本轮积分变化",
+      "outputs": [
+        "积分增量",
+        "任务完成状态"
+      ],
+      "evidence_excerpt": [
+        "5.2 任务定义",
+        "关键字段: ClassID 是通用任务类型 id, Count 与 Params 定义完成阈值和额外参数, Point 是完成 1 次给的积分, Group 控制折叠分组, Icon / QuestDes 控制图标和描述。",
+        "任务积分约束: 购买礼包获取宝石任务 701 不计入主题类型但可得积分; 只有通过购买礼包获取的宝石才能获取积分。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "task_complete_condition = CArmsRaceTask.Count + CArmsRaceTask.Params"
+          },
+          {
+            "text": "on_task_completion -> current_round_score += CArmsRaceTask.Point"
+          },
+          {
+            "text": "task_701 not counted into theme type but grants points only for purchased-gem packages"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-13-SECTION-13-A04D6A7C",
+      "node_type": "CONFIG",
+      "title": "六、奖励体系",
+      "summary": "六、奖励体系；三类奖励由 RewardID 区分。CompetitionRank 字段语义随 RewardID 变化。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L67-L70"
+      ],
+      "semantic_role": "reward_config_reference",
+      "content_category": "reward_config_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留奖励或跨表配置关系作为参考信息",
+      "target_state": "参考关系已记录",
+      "outputs": [
+        "配置关系摘要"
+      ],
+      "evidence_excerpt": [
+        "六、奖励体系",
+        "三类奖励由 RewardID 区分。CompetitionRank 字段语义随 RewardID 变化。"
+      ]
+    },
+    {
+      "node_id": "NODE-14-6-1",
+      "node_type": "RULE_GATE",
+      "title": "6.1 积分奖励",
+      "summary": "6.1 积分奖励；RewardID=2, 结构为 6 主题 x 11 段位 x 3 档, 共 198 行。玩家本轮积分达到 PointsDemand 阈值即可领取, 领取给目标积分道具 Point 和 giftid 奖励。轮次结束未领的由系统邮件补发。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L71-L74"
+      ],
+      "semantic_role": "score_reward_rule",
+      "content_category": "score_reward_rule",
+      "rule_expression": [
+        "RewardID == 2",
+        "score_reward_rows = 6 themes x 11 rank tiers x 3 levels = 198",
+        "current_round_score >= PointsDemand -> can_claim_score_reward",
+        "on_claim -> target_point_item += Point and grant Reward(giftid)",
+        "round_end and unclaimed_reward -> system_mail_compensation"
+      ],
+      "rule_terms": [
+        {
+          "name": "RewardID",
+          "operator": "==",
+          "value": "2",
+          "source": "rule_pack"
+        },
+        {
+          "name": "score_reward_rows",
+          "operator": "=",
+          "value": "198",
+          "source": "rule_pack"
+        },
+        {
+          "name": "current_round_score",
+          "operator": ">=",
+          "value": "PointsDemand",
+          "source": "rule_pack"
+        },
+        {
+          "name": "claim_output",
+          "operator": "=",
+          "value": "Point + Reward giftid",
+          "source": "rule_pack"
+        },
+        {
+          "name": "unclaimed_score_reward",
+          "operator": "settled_by",
+          "value": "system mail",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "RewardID=2",
+        "Class",
+        "CompetitionRank",
+        "Stage",
+        "PointsDemand",
+        "Point",
+        "Reward"
+      ],
+      "action": "按本轮积分阈值判断积分奖励领取",
+      "target_state": "积分奖励可领或已补发",
+      "outputs": [
+        "目标积分道具 Point",
+        "giftid 奖励",
+        "补发邮件"
+      ],
+      "evidence_excerpt": [
+        "6.1 积分奖励",
+        "RewardID=2, 结构为 6 主题 x 11 段位 x 3 档, 共 198 行。玩家本轮积分达到 PointsDemand 阈值即可领取, 领取给目标积分道具 Point 和 giftid 奖励。轮次结束未领的由系统邮件补发。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "RewardID == 2"
+          },
+          {
+            "text": "score_reward_rows = 6 themes x 11 rank tiers x 3 levels = 198"
+          },
+          {
+            "text": "current_round_score >= PointsDemand -> can_claim_score_reward"
+          },
+          {
+            "text": "on_claim -> target_point_item += Point and grant Reward(giftid)"
+          },
+          {
+            "text": "round_end and unclaimed_reward -> system_mail_compensation"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-15-6-2",
+      "node_type": "RULE_GATE",
+      "title": "6.2 目标奖励",
+      "summary": "6.2 目标奖励；RewardID=1, 3 档, 全段位通用 CompetitionRank=2001。玩家本阶段累计目标积分道具达到 2/8/18 即可领取 giftid 1417000/1417001/1417002。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L75-L78"
+      ],
+      "semantic_role": "target_reward_rule",
+      "content_category": "target_reward_rule",
+      "rule_expression": [
+        "RewardID == 1",
+        "CompetitionRank == 2001",
+        "stage_target_point_total >= 2/8/18 -> claim giftid 1417000/1417001/1417002"
+      ],
+      "rule_terms": [
+        {
+          "name": "RewardID",
+          "operator": "==",
+          "value": "1",
+          "source": "rule_pack"
+        },
+        {
+          "name": "CompetitionRank",
+          "operator": "==",
+          "value": "2001",
+          "source": "rule_pack"
+        },
+        {
+          "name": "stage_target_point_total",
+          "operator": ">=",
+          "value": "2/8/18",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "RewardID=1",
+        "CompetitionRank=2001",
+        "目标积分道具累计值"
+      ],
+      "action": "按阶段累计目标积分判断目标奖励领取",
+      "target_state": "目标奖励可领",
+      "outputs": [
+        "giftid 1417000/1417001/1417002"
+      ],
+      "evidence_excerpt": [
+        "6.2 目标奖励",
+        "RewardID=1, 3 档, 全段位通用 CompetitionRank=2001。玩家本阶段累计目标积分道具达到 2/8/18 即可领取 giftid 1417000/1417001/1417002。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "RewardID == 1"
+          },
+          {
+            "text": "CompetitionRank == 2001"
+          },
+          {
+            "text": "stage_target_point_total >= 2/8/18 -> claim giftid 1417000/1417001/1417002"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-16-6-3",
+      "node_type": "RULE_GATE",
+      "title": "6.3 排行奖励",
+      "summary": "6.3 排行奖励；RewardID=3, 5 档排名区间: [1], [2], [3], [4,5], [6,20]。每日阶段积分总量在匹配池内排名, 每阶段 UTC 0 点结算并邮件发放。至少获得 1 积分才有排名奖励; 0 积分无排名奖励。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L79-L82"
+      ],
+      "semantic_role": "rank_reward_rule",
+      "content_category": "rank_reward_rule",
+      "rule_expression": [
+        "RewardID == 3",
+        "rank_reward_ranges = [1], [2], [3], [4,5], [6,20]",
+        "daily_stage_score >= 1 -> eligible_for_rank_reward",
+        "daily_stage_score == 0 -> no_rank_reward",
+        "daily_UTC_00 -> settle ranking and send reward mail"
+      ],
+      "rule_terms": [
+        {
+          "name": "RewardID",
+          "operator": "==",
+          "value": "3",
+          "source": "rule_pack"
+        },
+        {
+          "name": "rank",
+          "operator": "in",
+          "value": "[1],[2],[3],[4,5],[6,20]",
+          "source": "rule_pack"
+        },
+        {
+          "name": "daily_stage_score",
+          "operator": ">=",
+          "value": "1",
+          "source": "rule_pack"
+        },
+        {
+          "name": "rank_settlement_time",
+          "operator": "=",
+          "value": "daily UTC 0",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "RewardID=3",
+        "每日阶段积分总量",
+        "匹配池排名"
+      ],
+      "action": "按每日排名区间和最低积分判断排行奖励",
+      "target_state": "排行奖励结算",
+      "outputs": [
+        "排行奖励邮件",
+        "无奖励结论"
+      ],
+      "evidence_excerpt": [
+        "6.3 排行奖励",
+        "RewardID=3, 5 档排名区间: [1], [2], [3], [4,5], [6,20]。每日阶段积分总量在匹配池内排名, 每阶段 UTC 0 点结算并邮件发放。至少获得 1 积分才有排名奖励; 0 积分无排名奖励。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "RewardID == 3"
+          },
+          {
+            "text": "rank_reward_ranges = [1], [2], [3], [4,5], [6,20]"
+          },
+          {
+            "text": "daily_stage_score >= 1 -> eligible_for_rank_reward"
+          },
+          {
+            "text": "daily_stage_score == 0 -> no_rank_reward"
+          },
+          {
+            "text": "daily_UTC_00 -> settle ranking and send reward mail"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-17-SECTION-17-62A95E5B",
+      "node_type": "STATE",
+      "title": "七、邮件与结算",
+      "summary": "七、邮件与结算；积分宝箱和目标宝箱未手动领取时, 活动刷新通过 CActvOnline.MailUseActvID 邮件补发。排行榜奖励每日结算使用邮件 id 18000017。结算顺序: 积分奖励, 目标奖励, 排名奖励。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L83-L86"
+      ],
+      "semantic_role": "settlement_rule",
+      "content_category": "settlement_rule",
+      "rule_expression": [
+        "unclaimed_score_or_target_reward -> mail by CActvOnline.MailUseActvID",
+        "ranking_reward_mail_id = 18000017",
+        "settlement_order = score_reward -> target_reward -> rank_reward"
+      ],
+      "rule_terms": [
+        {
+          "name": "MailUseActvID",
+          "operator": "=",
+          "value": "CActvOnline.MailUseActvID",
+          "source": "rule_pack"
+        },
+        {
+          "name": "ranking_reward_mail_id",
+          "operator": "=",
+          "value": "18000017",
+          "source": "rule_pack"
+        },
+        {
+          "name": "settlement_order",
+          "operator": "=",
+          "value": "score,target,rank",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "未领取奖励状态",
+        "CActvOnline.MailUseActvID",
+        "排行邮件 id"
+      ],
+      "action": "按结算顺序补发或发放奖励",
+      "target_state": "奖励结算完成",
+      "outputs": [
+        "补发邮件",
+        "排行奖励邮件"
+      ],
+      "evidence_excerpt": [
+        "七、邮件与结算",
+        "积分宝箱和目标宝箱未手动领取时, 活动刷新通过 CActvOnline.MailUseActvID 邮件补发。排行榜奖励每日结算使用邮件 id 18000017。结算顺序: 积分奖励, 目标奖励, 排名奖励。"
+      ]
+    },
+    {
+      "node_id": "NODE-19-8-1-UI",
+      "node_type": "ACTION",
+      "title": "8.1 UI 导航与流转",
+      "summary": "8.1 UI 导航与流转；常规活动主界面点击军备竞赛页签进入主界面。主界面支持货币区图标跳通用货币获取弹窗、规则 tips、日历按钮打开竞赛主题说明、目标奖励宝箱领取或查看、积分奖励宝箱领取、任务跳转、查看更多任务扩展弹窗、排行榜头像查看玩家主页、排名奖励宝箱 tips、返回上级界面。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L89-L92"
+      ],
+      "semantic_role": "ui_navigation",
+      "content_category": "ui_navigation",
+      "rule_expression": [
+        "click_armrace_tab -> open_armrace_main_view",
+        "click_currency_icon -> open_common_currency_acquisition_popup",
+        "click_rule_tips -> show_rule_tips",
+        "click_calendar_button -> open_theme_description",
+        "click_target_reward_chest -> claim_or_view_target_reward",
+        "click_score_reward_chest -> claim_score_reward",
+        "click_task_jump -> navigate_to_task_target",
+        "click_more_tasks -> open_more_tasks_popup",
+        "click_rank_avatar -> open_player_profile",
+        "click_back -> return_previous_view"
+      ],
+      "rule_terms": [
+        {
+          "name": "armrace_tab_click",
+          "operator": "opens",
+          "value": "main view",
+          "source": "rule_pack"
+        },
+        {
+          "name": "currency_icon_click",
+          "operator": "opens",
+          "value": "currency acquisition popup",
+          "source": "rule_pack"
+        },
+        {
+          "name": "rule_tips_click",
+          "operator": "shows",
+          "value": "rule tips",
+          "source": "rule_pack"
+        },
+        {
+          "name": "calendar_button_click",
+          "operator": "opens",
+          "value": "theme description",
+          "source": "rule_pack"
+        },
+        {
+          "name": "target_reward_chest_click",
+          "operator": "claims_or_views",
+          "value": "target reward",
+          "source": "rule_pack"
+        },
+        {
+          "name": "score_reward_chest_click",
+          "operator": "claims",
+          "value": "score reward",
+          "source": "rule_pack"
+        },
+        {
+          "name": "task_jump_click",
+          "operator": "navigates_to",
+          "value": "task target",
+          "source": "rule_pack"
+        },
+        {
+          "name": "more_tasks_click",
+          "operator": "opens",
+          "value": "more tasks popup",
+          "source": "rule_pack"
+        },
+        {
+          "name": "rank_avatar_click",
+          "operator": "opens",
+          "value": "player profile",
+          "source": "rule_pack"
+        },
+        {
+          "name": "back_click",
+          "operator": "returns_to",
+          "value": "previous view",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "玩家点击入口/按钮",
+        "当前界面状态"
+      ],
+      "action": "执行界面跳转、弹窗、领取、查看",
+      "target_state": "界面或弹窗发生变化",
+      "outputs": [
+        "主界面",
+        "tips",
+        "奖励弹窗",
+        "任务跳转"
+      ],
+      "evidence_excerpt": [
+        "8.1 UI 导航与流转",
+        "常规活动主界面点击军备竞赛页签进入主界面。主界面支持货币区图标跳通用货币获取弹窗、规则 tips、日历按钮打开竞赛主题说明、目标奖励宝箱领取或查看、积分奖励宝箱领取、任务跳转、查看更多任务扩展弹窗、排行榜头像查看玩家主页、排名奖励宝箱 tips、返回上级界面。"
+      ],
+      "actor": "player",
+      "target": "8.1 UI 导航与流转",
+      "automation": {
+        "readiness": "NEEDS_BINDING",
+        "business_action_ids": [
+          "8-1-ui"
+        ],
+        "assertion_intent_ids": [
+          "assert_state_changed",
+          "assert_expected_output"
+        ],
+        "data_requirements": [
+          "玩家点击入口/按钮",
+          "当前界面状态"
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-20-8-2",
+      "node_type": "STATE",
+      "title": "8.2 状态机",
+      "summary": "8.2 状态机；活动整体: 未开启 -> 服务器达开服天数 + 玩家灯塔 7 级 -> 次日 UTC 0 点匹配 -> 7 阶段 x 6 轮循环 -> 第 7 天 UTC 24 点结束。每日 UTC 0 点结算前一日并开新一轮匹配。轮次刷新会切换下一轮主题并重置本轮积分奖励宝箱, 目标积分道具不重置。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L93-L96"
+      ],
+      "semantic_role": "lifecycle_state",
+      "content_category": "lifecycle_state",
+      "rule_expression": [
+        "cycle = 7 stages x 6 rounds",
+        "after_entry_condition -> next_day_UTC_00_matching",
+        "daily_UTC_00 -> settle previous day and open new matching round",
+        "round_refresh -> reset current_round_score_reward_chests",
+        "round_refresh -> target_point_item_not_reset"
+      ],
+      "rule_terms": [
+        {
+          "name": "cycle",
+          "operator": "=",
+          "value": "7 stages x 6 rounds",
+          "source": "rule_pack"
+        },
+        {
+          "name": "matching_open_time",
+          "operator": "=",
+          "value": "next day UTC 0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "daily_settlement",
+          "operator": "=",
+          "value": "UTC 0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "round_refresh",
+          "operator": "resets",
+          "value": "current round score reward chests",
+          "source": "rule_pack"
+        },
+        {
+          "name": "target_point_item",
+          "operator": "not_reset_by",
+          "value": "round refresh",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "CArmRaceStage.StageID",
+        "CArmRaceStage.RoundID",
+        "CArmRaceStage.Time"
+      ],
+      "action": "推进 7 阶段 x 6 轮赛程",
+      "target_state": "阶段、轮次、主题按 UTC 时间切换",
+      "outputs": [
+        "当前阶段",
+        "当前轮次",
+        "当前主题"
+      ],
+      "evidence_excerpt": [
+        "8.2 状态机",
+        "活动整体: 未开启 -> 服务器达开服天数 + 玩家灯塔 7 级 -> 次日 UTC 0 点匹配 -> 7 阶段 x 6 轮循环 -> 第 7 天 UTC 24 点结束。每日 UTC 0 点结算前一日并开新一轮匹配。轮次刷新会切换下一轮主题并重置本轮积分奖励宝箱, 目标积分道具不重置。"
+      ]
+    },
+    {
+      "node_id": "NODE-21-8-3",
+      "node_type": "RULE_GATE",
+      "title": "8.3 异常与边界",
+      "summary": "8.3 异常与边界；排行榜第一名积分为 0 时进度条显示 0%。积分相同时先达到者排前。多人积分均为 0 时随机排序且无排名奖励。玩家积分为 0 时无排行奖励且不显示奖励宝箱图标。玩家未加入联盟时隐藏联盟代号。未自定义头像显示默认头像。第三阶段奖励完成后目标进度条 b 锁定第三阶段值。倒计时不足 1 小时或分钟时补 00。无可匹配玩家时池内仅玩家本人。",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L97-L100"
+      ],
+      "semantic_role": "boundary_rule",
+      "content_category": "boundary_rule",
+      "rule_expression": [
+        "rank_first_score == 0 -> progress_bar = 0%",
+        "score == 0 -> no rank reward and hide reward chest icon where specified",
+        "same_score -> earlier_reach_time ranks first",
+        "no_matchable_players -> pool = [self]",
+        "multiple_players_score == 0 -> random_order and no_rank_reward",
+        "player_without_alliance -> hide_alliance_tag",
+        "no_custom_avatar -> show_default_avatar",
+        "after_stage3_target_reward_complete -> target_progress_bar_locked_to_stage3_value",
+        "countdown_under_1_hour_or_minute -> pad_missing_time_unit_with_00"
+      ],
+      "rule_terms": [
+        {
+          "name": "rank_first_score",
+          "operator": "==",
+          "value": "0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "score",
+          "operator": "==",
+          "value": "0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "same_score_rank_order",
+          "operator": "=",
+          "value": "earlier first",
+          "source": "rule_pack"
+        },
+        {
+          "name": "matchable_players",
+          "operator": "==",
+          "value": "0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "multiple_players_score",
+          "operator": "==",
+          "value": "0",
+          "source": "rule_pack"
+        },
+        {
+          "name": "alliance_state",
+          "operator": "=",
+          "value": "not joined",
+          "source": "rule_pack"
+        },
+        {
+          "name": "custom_avatar",
+          "operator": "missing",
+          "value": "show default avatar",
+          "source": "rule_pack"
+        },
+        {
+          "name": "target_progress_bar",
+          "operator": "locked_to",
+          "value": "stage 3 value",
+          "source": "rule_pack"
+        },
+        {
+          "name": "countdown_display",
+          "operator": "pads",
+          "value": "00",
+          "source": "rule_pack"
+        }
+      ],
+      "expression_status": "RULE_PACK_DERIVED",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "玩家积分",
+        "排名",
+        "头像/联盟状态",
+        "倒计时"
+      ],
+      "action": "处理边界显示和奖励资格",
+      "target_state": "边界状态得到确定结果",
+      "outputs": [
+        "0 分奖励结论",
+        "排序规则",
+        "显示隐藏结果"
+      ],
+      "evidence_excerpt": [
+        "8.3 异常与边界",
+        "排行榜第一名积分为 0 时进度条显示 0%。积分相同时先达到者排前。多人积分均为 0 时随机排序且无排名奖励。玩家积分为 0 时无排行奖励且不显示奖励宝箱图标。玩家未加入联盟时隐藏联盟代号。未自定义头像显示默认头像。第三阶段奖励完成后目标进度条 b 锁定第三阶段值。倒计时不足 1 小时或分钟时补 00。无可匹配玩家时池内仅玩家本人。"
+      ],
+      "logic": {
+        "operator": "AND",
+        "conditions": [
+          {
+            "text": "rank_first_score == 0 -> progress_bar = 0%"
+          },
+          {
+            "text": "score == 0 -> no rank reward and hide reward chest icon where specified"
+          },
+          {
+            "text": "same_score -> earlier_reach_time ranks first"
+          },
+          {
+            "text": "no_matchable_players -> pool = [self]"
+          },
+          {
+            "text": "multiple_players_score == 0 -> random_order and no_rank_reward"
+          },
+          {
+            "text": "player_without_alliance -> hide_alliance_tag"
+          },
+          {
+            "text": "no_custom_avatar -> show_default_avatar"
+          },
+          {
+            "text": "after_stage3_target_reward_complete -> target_progress_bar_locked_to_stage3_value"
+          },
+          {
+            "text": "countdown_under_1_hour_or_minute -> pad_missing_time_unit_with_00"
+          }
+        ]
+      }
+    },
+    {
+      "node_id": "NODE-22-VS",
+      "node_type": "CONFIG",
+      "title": "九、实现 vs 构想差异",
+      "summary": "九、实现 vs 构想差异；实际配置与策划案构想差异: 匹配段位使用独立 CArmsRaceRank 表; 主题数从 5 类变为 6 类; 任务数远多于示例且包含通用 701; Reward 增加 Class 字段并使用 giftid; CompetitionRank 同字段两义; Kind 增加 Banner 和 Recommend; Task 增加 Icon 和 Group; 跨服分组表不在本配置文件, 归属 CCrossServerGroup。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L101-L104"
+      ],
+      "semantic_role": "reward_config_reference",
+      "content_category": "reward_config_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留奖励或跨表配置关系作为参考信息",
+      "target_state": "参考关系已记录",
+      "outputs": [
+        "配置关系摘要"
+      ],
+      "evidence_excerpt": [
+        "九、实现 vs 构想差异",
+        "实际配置与策划案构想差异: 匹配段位使用独立 CArmsRaceRank 表; 主题数从 5 类变为 6 类; 任务数远多于示例且包含通用 701; Reward 增加 Class 字段并使用 giftid; CompetitionRank 同字段两义; Kind 增加 Banner 和 Recommend; Task 增加 Icon 和 Group; 跨服分组表不在本配置文件, 归属 CCrossServerGroup。"
+      ]
+    },
+    {
+      "node_id": "NODE-23-SECTION-23-F56DC62F",
+      "node_type": "REVIEW_ITEM",
+      "title": "十、待补清单",
+      "summary": "十、待补清单；无。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L105-L108"
+      ],
+      "semantic_role": "review_fact",
+      "content_category": "review_fact",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留来源事实作为参考信息",
+      "target_state": "参考信息已记录",
+      "outputs": [
+        "十、待补清单；无。"
+      ],
+      "evidence_excerpt": [
+        "十、待补清单",
+        "无。"
+      ]
+    },
+    {
+      "node_id": "NODE-24-SECTION-24-2109EC82",
+      "node_type": "REVIEW_ITEM",
+      "title": "十一、关联",
+      "summary": "十一、关联；实现层配置: H活动_军备竞赛配置。活动调度: H活动配置 CActvOnline。任务类型路由: R任务配置 与 任务功能。奖励反查: J奖励配置 与 Gift礼包配置。解锁中枢: CUnlockConfig。本地化: ArmRace_* 文本 key。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L109-L114"
+      ],
+      "semantic_role": "review_fact",
+      "content_category": "review_fact",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留来源事实作为参考信息",
+      "target_state": "参考信息已记录",
+      "outputs": [
+        "十一、关联；实现层配置: H活动_军备竞赛配置。活动调度: H活动配置 CActvOnline。任务类型路由: R任务配置 与 任务功能。奖励反查: J奖励配置 与 Gift礼包配置。解锁中枢: CUnlockConfig。本地化: ArmRace_* 文本 key。"
+      ],
+      "evidence_excerpt": [
+        "十一、关联",
+        "实现层配置: H活动_军备竞赛配置。活动调度: H活动配置 CActvOnline。任务类型路由: R任务配置 与 任务功能。奖励反查: J奖励配置 与 Gift礼包配置。解锁中枢: CUnlockConfig。本地化: ArmRace_* 文本 key。"
+      ]
+    },
+    {
+      "node_id": "NODE-26-H-_-V1-0",
+      "node_type": "CONFIG",
+      "title": "H活动_军备竞赛配置 · 字段字典 · V1.0",
+      "summary": "H活动_军备竞赛配置 · 字段字典 · V1.0；> 完整字段字典, 5 sheet。设计意图见 军备竞赛。字段可见性: ￥ / ￥=s 服务端, ￥=c 客户端, # 注释列。5 sheet 字段均为服务端。表头约定: row1 中文名, row2 英文 id, row3 可见性, row4 类型, row5-7 注释, r8 起为数据。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L117-L120"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "H活动_军备竞赛配置 · 字段字典 · V1.0",
+        "> 完整字段字典, 5 sheet。设计意图见 军备竞赛。字段可见性: ￥ / ￥=s 服务端, ￥=c 客户端, # 注释列。5 sheet 字段均为服务端。表头约定: row1 中文名, row2 英文 id, row3 可见性, row4 类型, row5-7 注释, r8 起为数据。"
+      ]
+    },
+    {
+      "node_id": "NODE-27-5-SHEET",
+      "node_type": "CONFIG",
+      "title": "一、5 sheet 总览",
+      "summary": "一、5 sheet 总览；TABLE_ROW: Sheet || 行列 || 用途；TABLE_ROW: CArmRaceStage || 49x6, 42 数据行 || 赛程编排: 7 阶段 x 6 轮, 每轮 4h 指定主题；TABLE_ROW: CArmsRaceKind || 13x6, 6 数据行 || 6 大竞赛主题, 各含任务 / 推荐 / banner；TABLE_ROW: CArmsRaceTask || 60x8, 53 数据行 || 任务定义: 完成条件 + 积分 + 图标 + 折叠组；TABLE_ROW: CArmsRaceReward || 213x9, 206 数据行 || 三类奖励: 目标 3 + 积分 198 + 排行 5；TABLE_ROW: CArmsRaceRank || 19x3, 12 数据行 || 匹配段位: 阶段段位 11 档 + 轮次段位 1 档；全表 ContentID = 6001。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L121-L132"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "一、5 sheet 总览",
+        "| Sheet | 行列 | 用途 |",
+        "| CArmRaceStage | 49x6, 42 数据行 | 赛程编排: 7 阶段 x 6 轮, 每轮 4h 指定主题 |",
+        "| CArmsRaceKind | 13x6, 6 数据行 | 6 大竞赛主题, 各含任务 / 推荐 / banner |",
+        "| CArmsRaceTask | 60x8, 53 数据行 | 任务定义: 完成条件 + 积分 + 图标 + 折叠组 |",
+        "| CArmsRaceReward | 213x9, 206 数据行 | 三类奖励: 目标 3 + 积分 198 + 排行 5 |",
+        "| CArmsRaceRank | 19x3, 12 数据行 | 匹配段位: 阶段段位 11 档 + 轮次段位 1 档 |",
+        "全表 ContentID = 6001。"
+      ]
+    },
+    {
+      "node_id": "NODE-28-SECTION-28-D9061E47",
+      "node_type": "CONFIG",
+      "title": "二、跨表关系",
+      "summary": "二、跨表关系；CArmRaceStage 通过 ArmsRaceKindID 指向 CArmsRaceKind。CArmsRaceKind 通过 IncludeTask 指向 CArmsRaceTask。CArmsRaceTask 通过 ClassID 指向 R任务配置任务类型枚举, Params 可能指向建筑 / 科研 / 士兵 / 货船 / 道具 id。CArmsRaceReward 中 RewardID=1 为目标奖励, CompetitionRank 指向 CArmsRaceRank id 2001; RewardID=2 为积分奖励, Class 指向主题, CompetitionRank 指向 CArmsRaceRank id 1001-1011; RewardID=3 为排行奖励, CompetitionRank 是排名区间而不是段位 id。Reward 字段指向 J奖励配置 giftid。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L133-L136"
+      ],
+      "semantic_role": "reward_config_reference",
+      "content_category": "reward_config_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "来源文档事实"
+      ],
+      "action": "保留奖励或跨表配置关系作为参考信息",
+      "target_state": "参考关系已记录",
+      "outputs": [
+        "配置关系摘要"
+      ],
+      "evidence_excerpt": [
+        "二、跨表关系",
+        "CArmRaceStage 通过 ArmsRaceKindID 指向 CArmsRaceKind。CArmsRaceKind 通过 IncludeTask 指向 CArmsRaceTask。CArmsRaceTask 通过 ClassID 指向 R任务配置任务类型枚举, Params 可能指向建筑 / 科研 / 士兵 / 货船 / 道具 id。CArmsRaceReward 中 RewardID=1 为目标奖励, CompetitionRank 指向 CArmsRaceRank id 2001; RewardID=2 为积分奖励, Class 指向主题, CompetitionRank 指向 CArmsRaceRank id 1001-1011; RewardID=3 为排行奖励, CompetitionRank 是排名区间而不是段位 id。Reward 字段指向 J奖励配置 giftid。"
+      ]
+    },
+    {
+      "node_id": "NODE-29-CARMRACESTAGE",
+      "node_type": "CONFIG",
+      "title": "三、CArmRaceStage 字段",
+      "summary": "三、CArmRaceStage 字段；字段: ID, ContentID, StageID, RoundID, Time, ArmsRaceKindID。StageID 为 1-7, RoundID 为 1-6, Time 为 UTC 开始点 0/4/8/12/16/20, ArmsRaceKindID 指向主题 id 1-6。；完整主题编排: 阶段1 = 6/3/1/6/5/4; 阶段2 = 2/1/5/3/1/6; 阶段3 = 4/5/2/1/3/2; 阶段4 = 4/6/3/4/2/5; 阶段5 = 6/3/2/4/3/1; 阶段6 = 3/4/2/6/1/5; 阶段7 = 1/6/4/2/3/5。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L137-L142"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "三、CArmRaceStage 字段",
+        "字段: ID, ContentID, StageID, RoundID, Time, ArmsRaceKindID。StageID 为 1-7, RoundID 为 1-6, Time 为 UTC 开始点 0/4/8/12/16/20, ArmsRaceKindID 指向主题 id 1-6。",
+        "完整主题编排: 阶段1 = 6/3/1/6/5/4; 阶段2 = 2/1/5/3/1/6; 阶段3 = 4/5/2/1/3/2; 阶段4 = 4/6/3/4/2/5; 阶段5 = 6/3/2/4/3/1; 阶段6 = 3/4/2/6/1/5; 阶段7 = 1/6/4/2/3/5。"
+      ]
+    },
+    {
+      "node_id": "NODE-30-CARMSRACEKIND",
+      "node_type": "CONFIG",
+      "title": "四、CArmsRaceKind 字段",
+      "summary": "四、CArmsRaceKind 字段；字段: ID, ContentID, ClassDes, IncludeTask, Recommend, Banner。主题 id 1-6 分别为英雄养成、城市建设、士兵提升、科技研发、船只养成、无人机/神器。Banner 路径模式为 Assets/NewGameDemo/Res/UI/Textures/ArmsRace/ui_activity_{hero/building/soldier/tech/ship/artifact}.png。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L143-L146"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "四、CArmsRaceKind 字段",
+        "字段: ID, ContentID, ClassDes, IncludeTask, Recommend, Banner。主题 id 1-6 分别为英雄养成、城市建设、士兵提升、科技研发、船只养成、无人机/神器。Banner 路径模式为 Assets/NewGameDemo/Res/UI/Textures/ArmsRace/ui_activity_{hero/building/soldier/tech/ship/artifact}.png。"
+      ]
+    },
+    {
+      "node_id": "NODE-31-CARMSRACETASK",
+      "node_type": "CONFIG",
+      "title": "五、CArmsRaceTask 字段",
+      "summary": "五、CArmsRaceTask 字段；字段: ID, ClassID, Count, Params, QuestDes, Point, Icon, Group。任务样本: 101 招募 1 次英雄 400 分; 102 单次最低消耗 2000 英雄经验 10 分; 201 提升 1 点建筑战力 10 分; 202 使用 1 分钟建筑加速 100 分; 301 使用 1 分钟训练加速 100 分; 302-311 训练 1 个 1-10 级士兵每级 +10 分; 401 提升 1 点科研战力 10 分; 402 使用 1 分钟科研加速 100 分; 502 消耗珍贵木材 10 分; 503 消耗船只蓝图 100 分; 511-540 发送 1 次 1-30 级货船每级 +100 分; 601 消耗海魂石; 602 消耗行动力; 701 购买包含宝石的礼包。；ClassID 速查: 206 招募英雄, 217 英雄经验, 890 提升战力, 892 加速, 410 训练士兵, 3001 发货船, 3011 发分级货船, 891 消耗道具, 895 购买礼包, 701 行动力。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L147-L152"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "五、CArmsRaceTask 字段",
+        "字段: ID, ClassID, Count, Params, QuestDes, Point, Icon, Group。任务样本: 101 招募 1 次英雄 400 分; 102 单次最低消耗 2000 英雄经验 10 分; 201 提升 1 点建筑战力 10 分; 202 使用 1 分钟建筑加速 100 分; 301 使用 1 分钟训练加速 100 分; 302-311 训练 1 个 1-10 级士兵每级 +10 分; 401 提升 1 点科研战力 10 分; 402 使用 1 分钟科研加速 100 分; 502 消耗珍贵木材 10 分; 503 消耗船只蓝图 100 分; 511-540 发送 1 次 1-30 级货船每级 +100 分; 601 消耗海魂石; 602 消耗行动力; 701 购买包含宝石的礼包。",
+        "ClassID 速查: 206 招募英雄, 217 英雄经验, 890 提升战力, 892 加速, 410 训练士兵, 3001 发货船, 3011 发分级货船, 891 消耗道具, 895 购买礼包, 701 行动力。"
+      ]
+    },
+    {
+      "node_id": "NODE-32-CARMSRACEREWARD",
+      "node_type": "CONFIG",
+      "title": "六、CArmsRaceReward 字段",
+      "summary": "六、CArmsRaceReward 字段；字段: ID, RewardID, Class, CompetitionRank, Stage, Point, PointsDemand, Reward, Value。RewardID=1 目标奖励 3 行: 1000 Stage1 PointsDemand2 Reward1417000; 1001 Stage2 PointsDemand8 Reward1417001; 1002 Stage3 PointsDemand18 Reward1417002。RewardID=2 积分奖励 198 行: 6 主题 x 11 段位 x 3 档。RewardID=3 排行奖励 5 行: 3000 [1], 3001 [2], 3002 [3], 3003 [4,5], 3004 [6,20]。",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L153-L156"
+      ],
+      "semantic_role": "configuration_reference",
+      "content_category": "configuration_reference",
+      "rule_expression": [
+        "N/A"
+      ],
+      "rule_terms": [],
+      "expression_status": "REFERENCE_ONLY",
+      "extraction_mode": "domain_rule_pack",
+      "inputs": [
+        "配置表字段",
+        "配置行"
+      ],
+      "action": "记录配置依赖，不直接推断行为",
+      "target_state": "配置依赖已列出",
+      "outputs": [
+        "配置表职责和关键字段"
+      ],
+      "evidence_excerpt": [
+        "六、CArmsRaceReward 字段",
+        "字段: ID, RewardID, Class, CompetitionRank, Stage, Point, PointsDemand, Reward, Value。RewardID=1 目标奖励 3 行: 1000 Stage1 PointsDemand2 Reward1417000; 1001 Stage2 PointsDemand8 Reward1417001; 1002 Stage3 PointsDemand18 Reward1417002。RewardID=2 积分奖励 198 行: 6 主题 x 11 段位 x 3 档。RewardID=3 排行奖励 5 行: 3000 [1], 3001 [2], 3002 [3], 3003 [4,5], 3004 [6,20]。"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "EDGE-MAIN-01",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-FEATURE-17751C8A",
+      "to": "NODE-05-3-1",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L1",
+        "L26-L29"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-02",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-05-3-1",
+      "to": "NODE-07-3-3",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L26-L29",
+        "L34-L37"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-03",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-07-3-3",
+      "to": "NODE-08-3-4",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L34-L37",
+        "L38-L41"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-04",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-08-3-4",
+      "to": "NODE-09-SECTION-09-86711CB1",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L38-L41",
+        "L42-L45"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-05",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-09-SECTION-09-86711CB1",
+      "to": "NODE-11-5-1",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L42-L45",
+        "L48-L60"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-06",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-11-5-1",
+      "to": "NODE-12-5-2",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L48-L60",
+        "L61-L66"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-07",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-12-5-2",
+      "to": "NODE-14-6-1",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L61-L66",
+        "L71-L74"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-08",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-14-6-1",
+      "to": "NODE-15-6-2",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L71-L74",
+        "L75-L78"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-09",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-15-6-2",
+      "to": "NODE-16-6-3",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L75-L78",
+        "L79-L82"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-10",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-16-6-3",
+      "to": "NODE-17-SECTION-17-62A95E5B",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L79-L82",
+        "L83-L86"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-11",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-17-SECTION-17-62A95E5B",
+      "to": "NODE-19-8-1-UI",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L83-L86",
+        "L89-L92"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-12",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-19-8-1-UI",
+      "to": "NODE-20-8-2",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L89-L92",
+        "L93-L96"
+      ]
+    },
+    {
+      "edge_id": "EDGE-MAIN-13",
+      "edge_type": "NEEDS_REVIEW",
+      "from": "NODE-20-8-2",
+      "to": "NODE-21-8-3",
+      "trigger": "configured_main_flow_candidate",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L93-L96",
+        "L97-L100"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-01",
+      "edge_type": "NEXT",
+      "from": "NODE-FEATURE-17751C8A",
+      "to": "NODE-01-ARMS-RACE-V1-0",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L3-L7"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-02",
+      "edge_type": "NEXT",
+      "from": "NODE-01-ARMS-RACE-V1-0",
+      "to": "NODE-02-SECTION-02-C8F1FBC7",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L8-L11"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-03",
+      "edge_type": "NEXT",
+      "from": "NODE-02-SECTION-02-C8F1FBC7",
+      "to": "NODE-03-SECTION-03-CB399716",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L12-L23"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-05",
+      "edge_type": "NEXT",
+      "from": "NODE-03-SECTION-03-CB399716",
+      "to": "NODE-05-3-1",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L26-L29"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-06",
+      "edge_type": "NEXT",
+      "from": "NODE-05-3-1",
+      "to": "NODE-06-3-2",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L30-L33"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-07",
+      "edge_type": "NEXT",
+      "from": "NODE-06-3-2",
+      "to": "NODE-07-3-3",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L34-L37"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-08",
+      "edge_type": "NEXT",
+      "from": "NODE-07-3-3",
+      "to": "NODE-08-3-4",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L38-L41"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-09",
+      "edge_type": "NEXT",
+      "from": "NODE-08-3-4",
+      "to": "NODE-09-SECTION-09-86711CB1",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L42-L45"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-11",
+      "edge_type": "NEXT",
+      "from": "NODE-09-SECTION-09-86711CB1",
+      "to": "NODE-11-5-1",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L48-L60"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-12",
+      "edge_type": "NEXT",
+      "from": "NODE-11-5-1",
+      "to": "NODE-12-5-2",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L61-L66"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-13",
+      "edge_type": "NEXT",
+      "from": "NODE-12-5-2",
+      "to": "NODE-13-SECTION-13-A04D6A7C",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L67-L70"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-14",
+      "edge_type": "NEXT",
+      "from": "NODE-13-SECTION-13-A04D6A7C",
+      "to": "NODE-14-6-1",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L71-L74"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-15",
+      "edge_type": "NEXT",
+      "from": "NODE-14-6-1",
+      "to": "NODE-15-6-2",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L75-L78"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-16",
+      "edge_type": "NEXT",
+      "from": "NODE-15-6-2",
+      "to": "NODE-16-6-3",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L79-L82"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-17",
+      "edge_type": "NEXT",
+      "from": "NODE-16-6-3",
+      "to": "NODE-17-SECTION-17-62A95E5B",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L83-L86"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-19",
+      "edge_type": "NEXT",
+      "from": "NODE-17-SECTION-17-62A95E5B",
+      "to": "NODE-19-8-1-UI",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L89-L92"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-20",
+      "edge_type": "NEXT",
+      "from": "NODE-19-8-1-UI",
+      "to": "NODE-20-8-2",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L93-L96"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-21",
+      "edge_type": "NEXT",
+      "from": "NODE-20-8-2",
+      "to": "NODE-21-8-3",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L97-L100"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-22",
+      "edge_type": "NEXT",
+      "from": "NODE-21-8-3",
+      "to": "NODE-22-VS",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L101-L104"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-23",
+      "edge_type": "NEXT",
+      "from": "NODE-22-VS",
+      "to": "NODE-23-SECTION-23-F56DC62F",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L105-L108"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-24",
+      "edge_type": "NEXT",
+      "from": "NODE-23-SECTION-23-F56DC62F",
+      "to": "NODE-24-SECTION-24-2109EC82",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L109-L114"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-26",
+      "edge_type": "NEXT",
+      "from": "NODE-24-SECTION-24-2109EC82",
+      "to": "NODE-26-H-_-V1-0",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L117-L120"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-27",
+      "edge_type": "NEXT",
+      "from": "NODE-26-H-_-V1-0",
+      "to": "NODE-27-5-SHEET",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L121-L132"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-28",
+      "edge_type": "NEXT",
+      "from": "NODE-27-5-SHEET",
+      "to": "NODE-28-SECTION-28-D9061E47",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L133-L136"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-29",
+      "edge_type": "NEXT",
+      "from": "NODE-28-SECTION-28-D9061E47",
+      "to": "NODE-29-CARMRACESTAGE",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L137-L142"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-30",
+      "edge_type": "NEXT",
+      "from": "NODE-29-CARMRACESTAGE",
+      "to": "NODE-30-CARMSRACEKIND",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L143-L146"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-31",
+      "edge_type": "NEXT",
+      "from": "NODE-30-CARMSRACEKIND",
+      "to": "NODE-31-CARMSRACETASK",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L147-L152"
+      ]
+    },
+    {
+      "edge_id": "EDGE-SOURCE-32",
+      "edge_type": "NEXT",
+      "from": "NODE-31-CARMSRACETASK",
+      "to": "NODE-32-CARMSRACEREWARD",
+      "trigger": "source_order",
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L153-L156"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "flow_id": "FLOW-MAIN-BEHAVIOR",
+      "title": "主干行为流程候选",
+      "flow_type": "main_behavior_flow",
+      "node_sequence": [
+        "NODE-FEATURE-17751C8A",
+        "NODE-05-3-1",
+        "NODE-07-3-3",
+        "NODE-08-3-4",
+        "NODE-09-SECTION-09-86711CB1",
+        "NODE-11-5-1",
+        "NODE-12-5-2",
+        "NODE-14-6-1",
+        "NODE-15-6-2",
+        "NODE-16-6-3",
+        "NODE-17-SECTION-17-62A95E5B",
+        "NODE-19-8-1-UI",
+        "NODE-20-8-2",
+        "NODE-21-8-3"
+      ],
+      "edge_sequence": [
+        "EDGE-MAIN-01",
+        "EDGE-MAIN-02",
+        "EDGE-MAIN-03",
+        "EDGE-MAIN-04",
+        "EDGE-MAIN-05",
+        "EDGE-MAIN-06",
+        "EDGE-MAIN-07",
+        "EDGE-MAIN-08",
+        "EDGE-MAIN-09",
+        "EDGE-MAIN-10",
+        "EDGE-MAIN-11",
+        "EDGE-MAIN-12",
+        "EDGE-MAIN-13"
+      ],
+      "start_state": "功能未开启",
+      "end_state": "奖励结算完成或边界状态已处理",
+      "ready_for_case_generation": false,
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L1"
+      ],
+      "review_note": "该流程由项目 rule pack 配置的角色顺序生成，仍需人工确认节点顺序和遗漏分支。"
+    },
+    {
+      "flow_id": "FLOW-SOURCE-ORDER",
+      "title": "来源顺序审核流程",
+      "flow_type": "source_order_review",
+      "node_sequence": [
+        "NODE-FEATURE-17751C8A",
+        "NODE-01-ARMS-RACE-V1-0",
+        "NODE-02-SECTION-02-C8F1FBC7",
+        "NODE-03-SECTION-03-CB399716",
+        "NODE-05-3-1",
+        "NODE-06-3-2",
+        "NODE-07-3-3",
+        "NODE-08-3-4",
+        "NODE-09-SECTION-09-86711CB1",
+        "NODE-11-5-1",
+        "NODE-12-5-2",
+        "NODE-13-SECTION-13-A04D6A7C",
+        "NODE-14-6-1",
+        "NODE-15-6-2",
+        "NODE-16-6-3",
+        "NODE-17-SECTION-17-62A95E5B",
+        "NODE-19-8-1-UI",
+        "NODE-20-8-2",
+        "NODE-21-8-3",
+        "NODE-22-VS",
+        "NODE-23-SECTION-23-F56DC62F",
+        "NODE-24-SECTION-24-2109EC82",
+        "NODE-26-H-_-V1-0",
+        "NODE-27-5-SHEET",
+        "NODE-28-SECTION-28-D9061E47",
+        "NODE-29-CARMRACESTAGE",
+        "NODE-30-CARMSRACEKIND",
+        "NODE-31-CARMSRACETASK",
+        "NODE-32-CARMSRACEREWARD"
+      ],
+      "edge_sequence": [
+        "EDGE-SOURCE-01",
+        "EDGE-SOURCE-02",
+        "EDGE-SOURCE-03",
+        "EDGE-SOURCE-05",
+        "EDGE-SOURCE-06",
+        "EDGE-SOURCE-07",
+        "EDGE-SOURCE-08",
+        "EDGE-SOURCE-09",
+        "EDGE-SOURCE-11",
+        "EDGE-SOURCE-12",
+        "EDGE-SOURCE-13",
+        "EDGE-SOURCE-14",
+        "EDGE-SOURCE-15",
+        "EDGE-SOURCE-16",
+        "EDGE-SOURCE-17",
+        "EDGE-SOURCE-19",
+        "EDGE-SOURCE-20",
+        "EDGE-SOURCE-21",
+        "EDGE-SOURCE-22",
+        "EDGE-SOURCE-23",
+        "EDGE-SOURCE-24",
+        "EDGE-SOURCE-26",
+        "EDGE-SOURCE-27",
+        "EDGE-SOURCE-28",
+        "EDGE-SOURCE-29",
+        "EDGE-SOURCE-30",
+        "EDGE-SOURCE-31",
+        "EDGE-SOURCE-32"
+      ],
+      "start_state": "来源文档已载入",
+      "end_state": "来源事实等待审核",
+      "ready_for_case_generation": false,
+      "status": "SUPPORTED",
+      "source_refs": [
+        "L1"
+      ]
+    }
+  ],
+  "review_items": [
+    {
+      "review_id": "REVIEW-MAIN-FLOW",
+      "review_type": "main_flow_confirmation",
+      "title": "确认主干行为流程是否成立",
+      "impact": "如果主干流程理解错误，下游用例路径会整体偏移。",
+      "owner": "human_reviewer",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L1"
+      ]
+    },
+    {
+      "review_id": "REVIEW-DERIVED-RULES",
+      "review_type": "derived_rule_confirmation",
+      "title": "确认 14 个规则/行为表达式是否符合来源文档",
+      "impact": "如果派生表达式与文档不一致，下游用例前置条件、步骤和断言会失真。",
+      "owner": "human_reviewer",
+      "status": "REVIEW_REQUIRED",
+      "source_refs": [
+        "L26-L29",
+        "L30-L33",
+        "L34-L37",
+        "L38-L41",
+        "L42-L45",
+        "L48-L60",
+        "L61-L66",
+        "L71-L74",
+        "L75-L78",
+        "L79-L82",
+        "L83-L86",
+        "L89-L92",
+        "L93-L96",
+        "L97-L100"
+      ]
+    }
+  ]
+}

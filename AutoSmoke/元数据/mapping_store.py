@@ -23,7 +23,21 @@ CONFIRMED_FORMAL_STATUSES = {
     "manual_confirmed",
     "collection_confirmed",
     "template",
-    "manual",
+}
+
+REVIEW_STATUS_RANK = {
+    "": 0,
+    "pending": 0,
+    "auto_draft": 0,
+    "manual": 1,
+    "confirmed": 1,
+    "manual_confirmed": 2,
+    "runtime_matched": 3,
+    "visual_confirmed": 4,
+    "click_confirmed": 5,
+    "collection_confirmed": 5,
+    "case_verified": 6,
+    "template": 6,
 }
 
 
@@ -33,6 +47,29 @@ def _now_text() -> str:
 
 def _safe_text(value: Any) -> str:
     return str(value or "").strip()
+
+
+def _status_from_evidence(evidence: Dict[str, Any]) -> str:
+    if not isinstance(evidence, dict):
+        return ""
+    click = _coerce_dict(evidence.get("click"))
+    visual = _coerce_dict(evidence.get("visual"))
+    runtime = _coerce_dict(evidence.get("runtime"))
+    if click.get("confirmed") is True or _safe_text(click.get("result")).upper() == "PASS":
+        return "click_confirmed"
+    if visual.get("confirmed") is True:
+        return "visual_confirmed"
+    if runtime.get("matched") is True:
+        return "runtime_matched"
+    return ""
+
+
+def _stronger_review_status(current: Any, evidence_status: Any) -> str:
+    current_text = _safe_text(current)
+    evidence_text = _safe_text(evidence_status)
+    if not evidence_text:
+        return "manual_confirmed" if current_text in {"manual", "confirmed"} else current_text
+    return evidence_text if REVIEW_STATUS_RANK.get(evidence_text, 0) > REVIEW_STATUS_RANK.get(current_text, 0) else current_text
 
 
 def _safe_file_id(value: Any, fallback: str = "item") -> str:
@@ -677,6 +714,12 @@ class MappingStore:
         saved = dict(item)
         saved["pageId"] = page_id
         saved.setdefault("evidenceRef", f"EVIDENCE_{test_id}")
+        evidence_status = _status_from_evidence(self.get_evidence(evidence_ref=saved.get("evidenceRef", ""), test_id=test_id))
+        normalized_status = _stronger_review_status(saved.get("reviewStatus"), evidence_status)
+        if normalized_status:
+            saved["reviewStatus"] = normalized_status
+            if normalized_status in {"click_confirmed", "visual_confirmed", "case_verified", "collection_confirmed"} and saved.get("source") in {"manual", "manual_corrected", "confirmed", ""}:
+                saved["source"] = "target_workbench"
         for key in ["formalPath", "evidencePath"]:
             saved.pop(key, None)
         incoming_path = saved.get("elementPath") or saved.get("path") or saved.get("draftPath") or _coerce_dict(saved.get("locator")).get("value")

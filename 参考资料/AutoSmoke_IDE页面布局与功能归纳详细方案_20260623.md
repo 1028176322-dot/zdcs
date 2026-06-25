@@ -1120,3 +1120,496 @@ AutoSmoke IDE 的最终形态应该是：
 危险操作隐藏
 原始 JSON 和路径细节不暴露给普通使用流程
 ```
+
+---
+
+## 16. 按 QA_Reader 回执后的界面更新
+
+### 16.1 是否需要更新
+
+需要更新，但不需要推翻当前设计。
+
+当前页面方案已经覆盖：
+
+```text
+项目准备
+元素映射
+用例管理
+执行中心
+业务验证
+报告中心
+问题修复
+高级工具
+```
+
+这些主模块仍然成立。QA_Reader 回执带来的变化是：IDE 不能只支持“导入用例后执行”，还必须显式承接：
+
+```text
+handoff 包导入
+handoff schema 校验
+UI_ONLY / UI_AND_BUSINESS 分级准入
+用例转换预览
+目标绑定队列
+页面流转预览
+测试数据准备状态
+业务断言覆盖
+阻断 / 降级项处理
+QA_Reader 可读回执导出
+```
+
+因此，界面设计需要从：
+
+```text
+准备 → 映射 → 用例 → 执行 → 业务验证 → 报告 → 修复
+```
+
+升级为：
+
+```text
+上游包 → 准入校验 → 转换预览 → 目标绑定 → 执行计划 → 执行 → 业务验证 → 报告 → 修复
+```
+
+### 16.2 顶部导航建议调整
+
+原导航：
+
+```text
+[总览] [项目准备] [元素映射] [用例管理] [执行中心] [业务验证] [报告中心] [问题修复] [高级工具]
+```
+
+建议调整为：
+
+```text
+[总览] [上游包] [项目准备] [用例管理] [元素映射] [执行中心] [业务验证] [报告中心] [问题修复] [高级工具]
+```
+
+如果第一阶段不想新增一级页面，也可以先把“上游包”作为“用例管理”的第一个 Tab。但长期建议独立出来，因为它负责的是准入和转换，不只是用例列表。
+
+### 16.3 新增：上游包页
+
+#### 页面目标
+
+上游包页负责导入 QA_Reader 生成的 handoff 包，并判断它能否进入 AutoSmoke 转换和执行。
+
+它回答：
+
+```text
+包是否完整？
+功能流是否已审核？
+能支持 UI_ONLY 还是 UI_AND_BUSINESS？
+哪些问题会阻断执行？
+哪些问题可以降级？
+哪些问题需要上游补充？
+哪些问题由 AutoSmoke 绑定处理？
+```
+
+#### 页面布局
+
+```text
+上游包
+├── 包导入
+├── 包信息
+├── 文件覆盖
+├── schema 校验
+├── 准入结果
+├── 阻断 / 降级项
+├── 转换入口
+└── 回执导出
+```
+
+#### 包导入
+
+普通用户只需要选择：
+
+```text
+handoff 目录
+manifest.json
+```
+
+不建议让普通用户逐个导入 JSON 文件。
+
+#### schema 校验
+
+展示：
+
+```text
+manifest 是否存在
+feature_id 是否一致
+required_files 是否齐全
+case_id 是否唯一
+target_id 是否唯一
+用例步骤 target_name 是否存在于 target_name_catalog
+assertion_refs 是否能找到对应 business_assertions
+business_assertions 引用的 state_path 是否在 business_state_contract 中声明
+source_trace 覆盖率
+review_items blocker 数量
+```
+
+#### 准入状态
+
+IDE 应展示明确准入状态：
+
+```text
+READY_UI_ONLY
+READY_UI_AND_BUSINESS
+PASS_WITH_GAP
+BLOCKED
+MANUAL_ONLY
+```
+
+示例显示：
+
+```text
+当前包可执行 UI 自动化。
+业务逻辑自动化降级：缺少 business_state_contract.v1.json 和 business_assertions.v1.json。
+```
+
+#### 转换入口
+
+按钮：
+
+```text
+生成用例转换预览
+生成目标绑定任务
+生成执行计划
+进入用例管理
+进入目标绑定队列
+进入业务验证
+```
+
+按钮受准入状态控制：
+
+```text
+BLOCKED：不允许生成正式执行计划
+PASS_WITH_GAP：允许生成降级执行计划
+READY_UI_ONLY：只生成 UI 执行计划
+READY_UI_AND_BUSINESS：生成 UI + 业务断言执行计划
+```
+
+### 16.4 总览页需要增加的状态
+
+总览页新增状态卡片：
+
+```text
+上游包：未导入 / 已导入 / 校验失败 / 校验通过
+handoff 校验：PASS / PASS_WITH_GAP / BLOCKED
+准入等级：READY_UI_ONLY / READY_UI_AND_BUSINESS / MANUAL_ONLY
+转换状态：未转换 / 已转换 / 部分转换 / 转换失败
+目标绑定：已确认数量 / 待人工确认数量 / 无候选数量
+业务断言覆盖：已覆盖 / 缺失 / 降级
+```
+
+快捷入口新增：
+
+```text
+导入上游包
+查看准入校验
+查看转换预览
+查看目标绑定队列
+导出上游补充清单
+```
+
+### 16.5 用例管理页需要调整
+
+用例管理页不再只是“导入手工用例”，而是承接上游包转换后的用例。
+
+新增 Tab：
+
+```text
+用例来源
+转换预览
+结构化步骤
+自然语言步骤解析
+目标抽取
+阻断项
+```
+
+用例来源分为：
+
+```text
+handoff 包转换
+Excel/JSON 手工导入
+IDE 临时新建
+```
+
+转换预览展示：
+
+```text
+manual_test_cases → AutoSmoke case
+steps → AutoSmoke steps
+expected → UI assertion 候选
+assertion_refs → business assertions
+preconditions → state prepare tasks
+target_name → binding tasks
+```
+
+每条用例新增状态：
+
+```text
+转换状态
+目标绑定状态
+页面流转状态
+测试数据准备状态
+业务断言状态
+自动化等级
+阻断原因
+来源追踪
+```
+
+### 16.6 元素映射页需要强化为目标绑定队列
+
+QA_Reader 不提供最终 `testId/semanticId`。所以元素映射页必须承担：
+
+```text
+targetName → semanticId 候选
+targetName → testId 候选
+候选元素匹配
+自动确认
+人工确认
+保存 MappingStore
+```
+
+左侧目标列表增加字段：
+
+```text
+targetId
+targetName
+aliases
+pageName
+pageIdHint
+role
+actionRoles
+sourceNodeIds
+caseIds
+绑定状态
+```
+
+绑定状态建议：
+
+```text
+AUTO_CONFIRMED
+NEEDS_HUMAN_CONFIRM
+AMBIGUOUS
+NO_CANDIDATE
+CONFIRMED
+IGNORED
+```
+
+中栏候选区展示：
+
+```text
+UI 树候选
+代码语义候选
+运行态候选
+历史 mapping 候选
+置信度
+高亮结果
+测试点击结果
+```
+
+右侧详情区展示：
+
+```text
+上游 target 信息
+AutoSmoke 生成的 semanticId 候选
+AutoSmoke 生成的 testId 候选
+最终确认 semanticId
+最终确认 testId
+evidence
+source_trace
+review_items
+```
+
+### 16.7 项目准备页需要增加测试数据准备视角
+
+QA_Reader 会提供 `test_data_profile`，AutoSmoke IDE 需要展示它是否可满足。
+
+新增模块：
+
+```text
+测试数据准备
+├── 账号条件
+├── 活动状态
+├── 资源状态
+├── 积分状态
+├── 奖励领取状态
+├── 邮件状态
+├── GM / 后台能力
+└── 准备结果
+```
+
+状态：
+
+```text
+READY
+NEEDS_PREPARE
+UNSUPPORTED
+BLOCKED
+MANUAL_ONLY
+```
+
+### 16.8 执行中心页需要增加执行模式
+
+执行配置新增：
+
+```text
+执行模式：UI_ONLY / UI_AND_BUSINESS
+降级策略：允许 PASS_WITH_GAP / 阻断即停止
+前置准备：自动准备 / 仅检查 / 跳过
+断言策略：UI 断言 / 业务断言 / UI+业务一致性
+```
+
+批量执行列表新增：
+
+```text
+准入状态
+目标绑定状态
+测试数据状态
+业务断言覆盖
+降级原因
+```
+
+### 16.9 业务验证页需要对接 handoff
+
+业务验证页新增：
+
+```text
+business_state_contract 覆盖
+business_assertions 覆盖
+value_assets 引用
+optional_external_refs 可用性
+state_path 未声明列表
+collector 不可用列表
+断言不可执行列表
+```
+
+如果当前是 `READY_UI_ONLY`，业务验证页应明确显示：
+
+```text
+当前仅支持 UI 自动化，业务逻辑验证未启用。
+原因：缺少 business_state_contract 或 business_assertions。
+```
+
+### 16.10 报告中心需要增加来源追踪和回执
+
+报告中心新增：
+
+```text
+handoff 消费校验报告
+转换报告
+目标绑定报告
+阻断 / 降级报告
+来源追踪
+QA_Reader 回执缺口清单
+```
+
+每条失败记录需要展示：
+
+```text
+case_id
+step_order
+target_name
+semanticId
+testId
+source_node_ids
+source_refs
+review_item
+failure_type
+suggested_action
+```
+
+### 16.11 问题修复页需要区分责任归属
+
+问题修复页需要把问题分为：
+
+```text
+上游需补充
+AutoSmoke 需绑定
+环境需支持
+可降级执行
+必须人工测试
+```
+
+新增修复任务来源：
+
+```text
+handoff validator
+converter
+target binder
+state collector
+assertion engine
+executor
+```
+
+新增动作：
+
+```text
+跳转上游包页
+重新运行 handoff 校验
+跳转目标绑定队列
+导出上游补充清单
+标记降级执行
+标记人工执行
+```
+
+### 16.12 高级工具页增加 schema 调试
+
+高级工具新增低频能力：
+
+```text
+Handoff Schema 调试
+manifest 原始查看
+schema validation 原始结果
+转换中间产物查看
+source_trace 查询
+review_items 原始编辑
+```
+
+这些不应放在主流程页面，避免普通用户被原始 JSON 淹没。
+
+### 16.13 更新后的推荐主流程
+
+#### UI 自动化流程
+
+```text
+1. 上游包：导入 handoff 包
+2. 上游包：运行 schema 校验
+3. 上游包：确认准入为 READY_UI_ONLY 或 PASS_WITH_GAP
+4. 用例管理：查看用例转换预览
+5. 元素映射：处理目标绑定队列
+6. 项目准备：检查环境和测试数据
+7. 执行中心：生成并运行 UI 执行计划
+8. 报告中心：查看执行报告和来源追踪
+9. 问题修复：处理阻断、失败、缺失绑定
+```
+
+#### UI + 业务逻辑自动化流程
+
+```text
+1. 上游包：导入 handoff 包
+2. 上游包：确认准入为 READY_UI_AND_BUSINESS
+3. 用例管理：查看用例、步骤、断言转换结果
+4. 元素映射：完成目标绑定
+5. 项目准备：准备账号、活动、资源、奖励状态
+6. 业务验证：检查 state_contract、business_assertions、value_assets、external_refs
+7. 执行中心：运行 UI + 业务断言执行计划
+8. 业务验证：查看 before/after/diff 和断言结果
+9. 报告中心：查看可追溯报告
+10. 问题修复：处理失败并导出补充清单
+```
+
+### 16.14 最终调整结论
+
+按 QA_Reader 回执，IDE 的定位要从：
+
+```text
+自动化测试执行 + 元素映射工具
+```
+
+进一步明确为：
+
+```text
+业务输入转换与自动化测试集成控制台
+```
+
+新增“上游包”页面是最清晰的设计。它能把 QA_Reader 交付包、准入校验、转换入口和阻断项统一起来，避免这些能力散落在用例管理、业务验证和高级工具里。

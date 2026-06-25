@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "runtime_ui_tree/v1",
+  "capturedAt": "2026-06-25T00:00:00",
+  "pageId": "activity_armrace",
+  "nodes": [
+    {
+      "runtimePath": "Activity/ArmRace/ScoreText",
+      "nodeName": "ScoreText",
+      "text": "积分 1200",
+      "visible": true,
+      "pageId": "activity_armrace",
+      "ownerPageId": "activity_armrace",
+      "screenRect": [100, 100, 300, 140]
+    }
+  ]
+}

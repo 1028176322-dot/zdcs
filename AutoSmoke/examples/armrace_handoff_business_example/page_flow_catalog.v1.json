@@ -1,0 +1,16 @@
+{
+  "schema_version": "page_flow_catalog.v1",
+  "feature_id": "armrace",
+  "pages": [
+    {
+      "page_id": "activity_main",
+      "page_name": "常规活动主界面",
+      "entry_hint": "从主城活动入口进入"
+    },
+    {
+      "page_id": "activity_armrace",
+      "page_name": "军备竞赛主界面",
+      "entry_hint": "点击军备竞赛页签"
+    }
+  ]
+}

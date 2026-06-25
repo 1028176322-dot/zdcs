@@ -1,0 +1,17 @@
+{
+  "schema_version": "source_trace.v1",
+  "feature_id": "armrace",
+  "sources": [
+    {
+      "source_id": "REQ-ARMRACE-001",
+      "title": "军备竞赛入口验证"
+    }
+  ],
+  "links": [
+    {
+      "source_id": "REQ-ARMRACE-001",
+      "case_id": "ARMRACE_UI_001",
+      "target_ids": ["TGT_ARMRACE_TAB", "TGT_ARMRACE_TITLE"]
+    }
+  ]
+}

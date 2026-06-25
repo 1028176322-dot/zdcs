@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "business_assertions.v1.schema.json",
+  "title": "Business assertions",
+  "type": "object",
+  "required": ["schema_version", "feature_id", "assertions"],
+  "properties": {
+    "schema_version": { "const": "business_assertions.v1" },
+    "feature_id": { "type": "string", "minLength": 1 },
+    "assertions": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

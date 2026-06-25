@@ -1,0 +1,17 @@
+{
+  "schema_version": "autosmoke_upstream_handoff.v1",
+  "package_id": "armrace_20260625_v1",
+  "feature_id": "armrace",
+  "feature_name": "军备竞赛",
+  "producer": "QA_Reader",
+  "created_at": "2026-06-25T00:00:00",
+  "files": {
+    "feature_flow_review_result": "feature_flow_review_result.v1.json",
+    "manual_test_cases": "manual_test_cases.v1.json",
+    "target_name_catalog": "target_name_catalog.v1.json",
+    "page_flow_catalog": "page_flow_catalog.v1.json",
+    "test_data_profile": "test_data_profile.v1.json",
+    "source_trace": "source_trace.v1.json",
+    "review_items": "review_items.v1.json"
+  }
+}

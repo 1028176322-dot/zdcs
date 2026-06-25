@@ -34,6 +34,7 @@ CONFIRMED_STATUSES = {
     "approved",
     "collection_confirmed",
 }
+TEMPLATE_STATUSES = {"template"}
 NON_REQUIRED_STATUSES = {"ignored", "rejected", "deprecated", "superseded"}
 TARGET_WORKBENCH_SOURCES = {
     "target_workbench",
@@ -139,6 +140,63 @@ def evidence_exists(page_id: str, test_id: str, evidence_ref: str) -> bool:
     return False
 
 
+def is_dynamic_collection_template(mapping: dict[str, Any]) -> bool:
+    collection = mapping.get("collection")
+    locator = mapping.get("locator")
+    if not isinstance(collection, dict):
+        return False
+    if safe_text(collection.get("type")) == "dynamic_list":
+        return True
+    if isinstance(locator, dict) and safe_text(locator.get("type")) == "dynamicList":
+        return True
+    return False
+
+
+def collection_instance_ids(mapping: dict[str, Any]) -> list[str]:
+    collection = mapping.get("collection")
+    if not isinstance(collection, dict):
+        return []
+    pattern = safe_text(collection.get("semanticPattern"))
+    indices = collection.get("visibleIndices")
+    if not pattern or not isinstance(indices, list):
+        return []
+    ids: list[str] = []
+    for index in indices:
+        token = safe_text(index)
+        if not token:
+            continue
+        ids.append(pattern.replace("{index}", token))
+    return ids
+
+
+def collection_template_is_covered(page_id: str, mapping: dict[str, Any], mappings: dict[str, Any]) -> tuple[bool, list[str]]:
+    missing: list[str] = []
+    instance_ids = collection_instance_ids(mapping)
+    if not instance_ids:
+        return False, ["visible instance list is empty"]
+    for instance_id in instance_ids:
+        instance = mappings.get(instance_id)
+        if not isinstance(instance, dict):
+            missing.append(f"{instance_id}: formal missing")
+            continue
+        status = safe_text(instance.get("reviewStatus"))
+        if status not in CONFIRMED_STATUSES:
+            missing.append(f"{instance_id}: reviewStatus {status or '<empty>'}")
+            continue
+        evidence_ref = safe_text(instance.get("evidenceRef")) or f"EVIDENCE_{instance_id}"
+        if not evidence_exists(page_id, instance_id, evidence_ref):
+            missing.append(f"{instance_id}: evidence missing")
+    return not missing, missing
+
+
+def formal_mapping_exists(page_id: str, test_id: str) -> bool:
+    if not page_id or not test_id:
+        return False
+    formal = read_json(METADATA / "mapping_store" / "formal" / "by_page" / f"{page_id}.json", {})
+    mappings = formal.get("mappings") if isinstance(formal, dict) else {}
+    return isinstance(mappings, dict) and test_id in mappings
+
+
 def draft_is_required(draft: dict[str, Any], strict: bool) -> bool:
     status = safe_text(draft.get("reviewStatus") or draft.get("verify_status"))
     if status in NON_REQUIRED_STATUSES:
@@ -206,10 +264,17 @@ def check_page(page_id: str, strict_drafts: bool) -> dict[str, Any]:
             issues.append(f"formal {key}: targetName/displayName missing")
         if safe_text(mapping.get("pageId")) != page_id:
             issues.append(f"formal {key}: pageId mismatch: {mapping.get('pageId')}")
-        if status not in CONFIRMED_STATUSES:
-            issues.append(f"formal {key}: reviewStatus is not confirmed: {status or '<empty>'}")
-        if not evidence_exists(page_id, test_id, evidence_ref):
-            issues.append(f"formal {key}: evidence missing for {evidence_ref}")
+        if is_dynamic_collection_template(mapping):
+            covered, missing_instances = collection_template_is_covered(page_id, mapping, mappings)
+            if status not in TEMPLATE_STATUSES | CONFIRMED_STATUSES:
+                issues.append(f"formal {key}: dynamic collection template status is invalid: {status or '<empty>'}")
+            if not covered:
+                issues.append(f"formal {key}: dynamic collection instances are not fully covered: {'; '.join(missing_instances[:8])}")
+        else:
+            if status not in CONFIRMED_STATUSES:
+                issues.append(f"formal {key}: reviewStatus is not confirmed: {status or '<empty>'}")
+            if not evidence_exists(page_id, test_id, evidence_ref):
+                issues.append(f"formal {key}: evidence missing for {evidence_ref}")
 
         if role == "button" or element_type == "Button":
             click_count += 1
@@ -227,7 +292,11 @@ def check_page(page_id: str, strict_drafts: bool) -> dict[str, Any]:
         if status not in CONFIRMED_STATUSES:
             pending_drafts.append(f"{draft_id}:{status or '<empty>'}:{safe_text(draft.get('targetName') or draft.get('displayName'))}")
         elif test_id and test_id not in formal_ids:
-            issues.append(f"draft {draft_id}: confirmed testId has no formal mapping: {test_id}")
+            draft_page_id = safe_text(draft.get("pageId"))
+            if draft_page_id and draft_page_id != page_id and formal_mapping_exists(draft_page_id, test_id):
+                warnings.append(f"draft {draft_id}: belongs to {draft_page_id}, formal mapping exists there: {test_id}")
+            else:
+                issues.append(f"draft {draft_id}: confirmed testId has no formal mapping: {test_id}")
 
     if pending_drafts:
         sample = "; ".join(pending_drafts[:12])
@@ -310,7 +379,13 @@ def replace_table_row(lines: list[str], header: str, page_id: str, new_row: str)
     return out
 
 
-def append_validation_row(lines: list[str], new_row: str) -> list[str]:
+def append_validation_row(lines: list[str], new_row: str, dedup_key: str = "") -> list[str]:
+    """Append or replace a row in the 最近校验记录 table.
+
+    If *dedup_key* (a pageId) is provided, the existing row for the same
+    pageId is replaced instead of appended.  The pageId is embedded in
+    the note column (column index 3), so we match on ``pageId=<dedup_key>``.
+    """
     out = list(lines)
     header = "## 最近校验记录"
     try:
@@ -324,13 +399,20 @@ def append_validation_row(lines: list[str], new_row: str) -> list[str]:
     while table_end < len(out) and out[table_end].lstrip().startswith("|"):
         table_end += 1
     body_start = table_start + 2
+    dedup_marker = f"pageId={dedup_key}" if dedup_key else None
+    replaced = False
     cleaned = []
     for row in out[body_start:table_end]:
         cells = [cell.strip() for cell in row.strip().strip("|").split("|")]
         if cells and all(not cell for cell in cells):
             continue
-        cleaned.append(row)
-    cleaned.append(new_row)
+        if dedup_marker and any(dedup_marker in cell for cell in cells):
+            cleaned.append(new_row)
+            replaced = True
+        else:
+            cleaned.append(row)
+    if not replaced:
+        cleaned.append(new_row)
     out[body_start:table_end] = cleaned
     return out
 
@@ -343,7 +425,7 @@ def update_progress_file(page_name: str, page_id: str, result: dict[str, Any], n
     completion_row = build_completion_row(seq, page_name, page_id, result, complete_date, note)
     validation_row = build_validation_row(complete_date, page_id, result)
     lines = replace_table_row(lines, "## 已完成界面", page_id, completion_row)
-    lines = append_validation_row(lines, validation_row)
+    lines = append_validation_row(lines, validation_row, dedup_key=page_id)
     write_text(PROGRESS_FILE, "\n".join(lines).rstrip() + "\n")
 
 
