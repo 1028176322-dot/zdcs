@@ -1,0 +1,18 @@
+{
+  "schema_version": "business_assertions.v1",
+  "feature_id": "armrace",
+  "generated_by": "AutoSmoke.handoff_candidates",
+  "generated_at": "2026-06-25T14:39:22",
+  "assertions": [
+    {
+      "assertion_id": "ASSERT_ACTIVITY_ARMRACE_SCORE_TEXT",
+      "title": "activity.armrace.score_text 状态可采集",
+      "state_paths": [
+        "activity.armrace.score_text"
+      ],
+      "operator": "contains",
+      "expected": "积分",
+      "candidate_source": "business_state_contract"
+    }
+  ]
+}

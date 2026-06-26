@@ -1,6 +1,6 @@
 {
   "schema_version": "batch_replay_status.v1",
-  "updated_at": "2026-06-18T11:19:51",
+  "updated_at": "2026-06-25T18:16:26",
   "batches": {
     "manual_import_check": {
       "batchName": "manual_import_check",
@@ -16,6 +16,78 @@
         "runtime.647b3c9358"
       ],
       "updatedAt": "2026-06-18T11:19:51"
+    },
+    "handoff_api_dryrun_verify": {
+      "batchName": "handoff_api_dryrun_verify",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\handoff_api_dryrun_verify\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 2,
+      "passedSteps": 2,
+      "failedSteps": 0,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T14:48:24"
+    },
+    "nav_api_verify": {
+      "batchName": "nav_api_verify",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\nav_api_verify\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 2,
+      "passedSteps": 2,
+      "failedSteps": 0,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T17:05:58"
+    },
+    "precondition_api_pass_verify": {
+      "batchName": "precondition_api_pass_verify",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\precondition_api_pass_verify\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 2,
+      "passedSteps": 2,
+      "failedSteps": 0,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T17:14:27"
+    },
+    "precondition_api_pass_verify2": {
+      "batchName": "precondition_api_pass_verify2",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\precondition_api_pass_verify2\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 0,
+      "failedCases": 1,
+      "totalSteps": 2,
+      "passedSteps": 0,
+      "failedSteps": 1,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T17:15:06"
+    },
+    "precondition_api_pass_verify3": {
+      "batchName": "precondition_api_pass_verify3",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\precondition_api_pass_verify3\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 2,
+      "passedSteps": 2,
+      "failedSteps": 0,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T17:16:17"
+    },
+    "final_refine_api_verify": {
+      "batchName": "final_refine_api_verify",
+      "reportPath": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\final_refine_api_verify\\batch_report.json",
+      "totalCases": 1,
+      "passedCases": 1,
+      "failedCases": 0,
+      "totalSteps": 2,
+      "passedSteps": 2,
+      "failedSteps": 0,
+      "linkedTargets": [],
+      "updatedAt": "2026-06-25T18:16:26"
     }
   }
 }

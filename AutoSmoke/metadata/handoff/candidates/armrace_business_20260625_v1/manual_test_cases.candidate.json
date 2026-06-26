@@ -1,0 +1,66 @@
+{
+  "schema_version": "manual_test_cases.v1",
+  "feature_id": "armrace",
+  "test_cases": [
+    {
+      "case_id": "CAND_ARMRACE_ENTER_ARMRACE_AND_CHECK_SCORE",
+      "title": "进入军备竞赛并校验积分状态",
+      "automation_level": "UI_AND_BUSINESS",
+      "steps": [
+        {
+          "step_order": 1,
+          "action": "click",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "page_name": "常规活动主界面",
+          "source_node_ids": [
+            "NODE-ARMRACE-ENTRY"
+          ],
+          "source": {
+            "step_order": 1,
+            "action": "click",
+            "target_id": "TGT_ARMRACE_TAB",
+            "target_name": "军备竞赛页签",
+            "page_name": "常规活动主界面",
+            "source_node_ids": [
+              "NODE-ARMRACE-ENTRY"
+            ]
+          }
+        },
+        {
+          "step_order": 2,
+          "action": "assert_visible",
+          "target_id": "TGT_ARMRACE_SCORE_TEXT",
+          "target_name": "军备竞赛积分文本",
+          "page_name": "军备竞赛主界面",
+          "expected": "积分文本可见",
+          "assertion_refs": [
+            "ASSERT_ARMRACE_SCORE_VISIBLE"
+          ],
+          "source_node_ids": [
+            "NODE-ARMRACE-SCORE"
+          ],
+          "source": {
+            "step_order": 2,
+            "action": "assert_visible",
+            "target_id": "TGT_ARMRACE_SCORE_TEXT",
+            "target_name": "军备竞赛积分文本",
+            "page_name": "军备竞赛主界面",
+            "expected": "积分文本可见",
+            "assertion_refs": [
+              "ASSERT_ARMRACE_SCORE_VISIBLE"
+            ],
+            "source_node_ids": [
+              "NODE-ARMRACE-SCORE"
+            ]
+          }
+        }
+      ],
+      "source_flow": {
+        "source_file": "feature_flow_review_result.v1.json",
+        "flow_id": "enter_armrace_and_check_score",
+        "index": 1
+      }
+    }
+  ]
+}

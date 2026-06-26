@@ -131,7 +131,21 @@ def _handoff_package_dir(value):
     text = _coerce_str(value)
     if not text:
         return ""
-    path = os.path.abspath(text)
+    raw = text
+    if not os.path.isabs(raw):
+        candidates = [
+            os.path.join(os.path.dirname(_CONF_DIR), raw),
+            os.path.join(_CONF_DIR, raw),
+            os.path.abspath(raw),
+        ]
+        path = next((p for p in candidates if os.path.exists(p)), os.path.abspath(raw))
+    else:
+        path = raw
+        doubled = f"{os.path.basename(_CONF_DIR)}{os.sep}{os.path.basename(_CONF_DIR)}"
+        if doubled in path:
+            fixed = path.replace(doubled, os.path.basename(_CONF_DIR), 1)
+            if os.path.exists(fixed):
+                path = fixed
     if os.path.isfile(path):
         return os.path.dirname(path)
     return path
@@ -147,6 +161,435 @@ def _handoff_report_paths():
             p = os.path.join(report_dir, name)
             out.append(p)
     return sorted(out, key=lambda p: os.path.getmtime(p), reverse=True)
+
+
+def _fix_task(task_id, category, severity, title, detail="", source="", action="report", path="", data=None):
+    responsibility_map = {
+        "mapping": ("AutoSmoke 需绑定", "进入目标绑定队列补齐或确认映射"),
+        "business_state": ("AutoSmoke 需补采集", "进入业务验证补 runtime state 或 collector"),
+        "business_assertion": ("AutoSmoke 需修断言", "进入业务验证检查断言输入和期望值"),
+        "precondition": ("上游需补充", "补齐账号、测试数据或确认人工前置条件"),
+        "execution_blocker": ("环境需支持", "进入执行中心重跑，必要时标记降级执行"),
+        "case_failure": ("必须人工复核", "进入报告中心查看失败步骤并决定自动化或人工处理"),
+    }
+    responsibility, suggested_action = responsibility_map.get(_coerce_str(category), ("待归类", "查看报告详情"))
+    return {
+        "taskId": _coerce_str(task_id),
+        "category": _coerce_str(category),
+        "severity": _coerce_str(severity, "P2"),
+        "title": _coerce_str(title),
+        "detail": _coerce_str(detail),
+        "source": _coerce_str(source),
+        "action": _coerce_str(action, "report"),
+        "path": _coerce_str(path),
+        "responsibility": responsibility,
+        "suggestedAction": suggested_action,
+        "data": data if isinstance(data, dict) else {},
+    }
+
+
+def _latest_json_files(root, pattern="*.json", limit=20):
+    root_path = Path(root)
+    if not root_path.exists():
+        return []
+    files = [p for p in root_path.rglob(pattern) if p.is_file()]
+    return sorted(files, key=lambda p: p.stat().st_mtime, reverse=True)[:limit]
+
+
+def _collect_fix_tasks(limit=80):
+    tasks = []
+    seen = set()
+
+    def add(item):
+        if not isinstance(item, dict):
+            return
+        key = item.get("taskId") or f"fix.{len(tasks) + 1}"
+        if key in seen:
+            return
+        seen.add(key)
+        tasks.append(item)
+
+    queue_path = Path(_CONF_DIR) / "metadata" / "mapping_task_queue.json"
+    queue = _read_json_if_exists(str(queue_path)) or {}
+    for task in queue.get("tasks", []) if isinstance(queue.get("tasks"), list) else []:
+        if not isinstance(task, dict):
+            continue
+        target_id = _coerce_str(task.get("targetId"))
+        status = _coerce_str(task.get("status"))
+        if status == "ignored":
+            continue
+        is_repair = target_id.startswith("repair.") or task.get("elementType") == "mapping_repair"
+        blocked = bool(task.get("blockedReason") or task.get("blockReason"))
+        if not is_repair and not blocked:
+            continue
+        title = task.get("targetName") or target_id or "映射修复任务"
+        detail = task.get("blockedReason") or task.get("blockReason") or task.get("expectedBehavior") or status
+        add(_fix_task(
+            f"mapping:{target_id}",
+            "mapping",
+            task.get("priority") or "P1",
+            title,
+            detail,
+            "mapping_task_queue",
+            "mapping_target",
+            str(queue_path),
+            {"targetId": target_id, "pageHint": task.get("pageHint"), "status": status},
+        ))
+
+    business_root = Path(_CONF_DIR) / "metadata" / "handoff" / "business_results"
+    for path in _latest_json_files(business_root, "*.business_result.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.stem.replace(".business_result", ""))
+        for item in payload.get("state_results", []) if isinstance(payload.get("state_results"), list) else []:
+            if isinstance(item, dict) and not item.get("success"):
+                add(_fix_task(
+                    f"business_state:{package_id}:{item.get('state_path')}",
+                    "business_state",
+                    "P1",
+                    f"业务状态缺失：{item.get('state_path')}",
+                    item.get("error") or "state collection failed",
+                    "handoff_business_result",
+                    "verify",
+                    str(path),
+                    {"packageId": package_id, "statePath": item.get("state_path")},
+                ))
+        for item in payload.get("assertion_results", []) if isinstance(payload.get("assertion_results"), list) else []:
+            if isinstance(item, dict) and not item.get("passed"):
+                add(_fix_task(
+                    f"business_assertion:{package_id}:{item.get('assertion_id')}",
+                    "business_assertion",
+                    "P1",
+                    f"业务断言失败：{item.get('assertion_id')}",
+                    item.get("error") or f"expected={item.get('expected')} actual={item.get('actual')}",
+                    "handoff_business_result",
+                    "verify",
+                    str(path),
+                    {"packageId": package_id, "assertionId": item.get("assertion_id")},
+                ))
+
+    prepare_root = Path(_CONF_DIR) / "metadata" / "handoff" / "prepare_results"
+    for path in _latest_json_files(prepare_root, "*.precondition_result.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id"))
+        for item in payload.get("results", []) if isinstance(payload.get("results"), list) else []:
+            if isinstance(item, dict) and not item.get("passed"):
+                severity = "P1" if item.get("severity") == "blocking" else "P2"
+                add(_fix_task(
+                    f"precondition:{package_id}:{item.get('precondition_id')}",
+                    "precondition",
+                    severity,
+                    f"前置条件未通过：{item.get('precondition_id')}",
+                    item.get("warning") or f"actual={item.get('actual')} expected={item.get('expected')}",
+                    "handoff_precondition_result",
+                    "verify",
+                    str(path),
+                    {"packageId": package_id, "preconditionId": item.get("precondition_id")},
+                ))
+
+    run_root = Path(_CONF_DIR) / "metadata" / "handoff" / "runs"
+    for path in _latest_json_files(run_root, "batch_report.json", 30):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id"))
+        for item in payload.get("plan_issues", []) if isinstance(payload.get("plan_issues"), list) else []:
+            if not isinstance(item, dict):
+                continue
+            severity = _coerce_str(item.get("severity"), "blocking")
+            if severity == "warning":
+                continue
+            add(_fix_task(
+                f"run_issue:{package_id}:{item.get('case_id')}:{item.get('step_order')}:{item.get('code')}",
+                "execution_blocker",
+                "P1",
+                f"执行阻断：{item.get('code') or item.get('reason')}",
+                item.get("reason") or item.get("hint") or "",
+                "handoff_run_report",
+                "execute",
+                str(path),
+                {"packageId": package_id, "caseId": item.get("case_id"), "stepOrder": item.get("step_order")},
+            ))
+        for case in payload.get("case_results", []) if isinstance(payload.get("case_results"), list) else []:
+            if isinstance(case, dict) and _coerce_str(case.get("result")).upper() not in {"", "PASS", "DRY_RUN_PASS"}:
+                add(_fix_task(
+                    f"case_failed:{package_id}:{case.get('case_id')}:{case.get('run_id')}",
+                    "case_failure",
+                    "P1",
+                    f"用例失败：{case.get('case_id')}",
+                    case.get("result") or "",
+                    "handoff_run_report",
+                    "report",
+                    str(path),
+                    {"packageId": package_id, "caseId": case.get("case_id"), "runId": case.get("run_id")},
+                ))
+
+    order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
+    tasks = sorted(tasks, key=lambda x: (order.get(x.get("severity"), 9), x.get("category", ""), x.get("title", "")))
+    return tasks[:limit]
+
+
+def _report_trace_item(kind, package_id, status, title, summary=None, path="", issues=None, data=None):
+    return {
+        "kind": _coerce_str(kind),
+        "packageId": _coerce_str(package_id),
+        "status": _coerce_str(status),
+        "title": _coerce_str(title),
+        "summary": summary if isinstance(summary, dict) else {},
+        "path": _coerce_str(path),
+        "issues": issues if isinstance(issues, list) else [],
+        "data": data if isinstance(data, dict) else {},
+    }
+
+
+def _collect_handoff_report_trace(limit=80):
+    root = Path(_CONF_DIR) / "metadata" / "handoff"
+    items = []
+    issues = []
+
+    def add_issue(kind, package_id, failure_type, suggested_action, path="", data=None):
+        payload = data if isinstance(data, dict) else {}
+        issue = {
+            "kind": _coerce_str(kind),
+            "packageId": _coerce_str(package_id),
+            "failureType": _coerce_str(failure_type),
+            "suggestedAction": _coerce_str(suggested_action),
+            "path": _coerce_str(path),
+            "caseId": _coerce_str(payload.get("case_id") or payload.get("caseId")),
+            "stepOrder": _coerce_str(payload.get("step_order") or payload.get("stepOrder") or payload.get("step_index")),
+            "targetName": _coerce_str(payload.get("target_name") or payload.get("targetName")),
+            "semanticId": _coerce_str(payload.get("semanticId") or payload.get("semantic_id")),
+            "testId": _coerce_str(payload.get("testId") or payload.get("test_id") or payload.get("target_id")),
+            "sourceNodeIds": payload.get("source_node_ids") or payload.get("sourceNodeIds") or [],
+            "sourceRefs": payload.get("source_refs") or payload.get("sourceRefs") or [],
+            "reviewItem": payload.get("review_item") or payload.get("reviewItem") or {},
+            "detail": _coerce_str(payload.get("reason") or payload.get("error") or payload.get("warning") or payload.get("hint") or payload.get("result")),
+        }
+        issues.append(issue)
+
+    for path in _latest_json_files(root / "reports", "*.validation_report.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".validation_report.json", ""))
+        blockers = payload.get("blockers", []) if isinstance(payload.get("blockers"), list) else []
+        errors = payload.get("errors", []) if isinstance(payload.get("errors"), list) else []
+        warnings = payload.get("warnings", []) if isinstance(payload.get("warnings"), list) else []
+        for err in blockers + errors:
+            add_issue("validation", package_id, "handoff_validation", "跳转上游包页重新校验或要求 QA_Reader 补齐", str(path), err if isinstance(err, dict) else {"reason": err})
+        items.append(_report_trace_item(
+            "validation",
+            package_id,
+            payload.get("status") or ("BLOCKED" if blockers or errors else "OK"),
+            "handoff 消费校验报告",
+            {"errors": len(errors), "warnings": len(warnings), "blockers": len(blockers), **(payload.get("summary") if isinstance(payload.get("summary"), dict) else {})},
+            str(path),
+            blockers + errors + warnings,
+        ))
+
+    for path in _latest_json_files(root / "reports", "*.import_report.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".import_report.json", ""))
+        validation = payload.get("validation") if isinstance(payload.get("validation"), dict) else {}
+        outputs = payload.get("outputs") if isinstance(payload.get("outputs"), dict) else {}
+        status = "OK" if payload.get("success") else "FAILED"
+        if not payload.get("success"):
+            add_issue("conversion", package_id, "conversion_failed", "跳转上游包页重新转换", str(path), payload)
+        items.append(_report_trace_item(
+            "conversion",
+            package_id,
+            status,
+            "转换报告",
+            {"validationStatus": validation.get("status"), **(payload.get("summary") if isinstance(payload.get("summary"), dict) else {})},
+            str(path),
+            validation.get("blockers", []) if isinstance(validation.get("blockers"), list) else [],
+            {"outputs": outputs},
+        ))
+
+    for path in _latest_json_files(root / "matches", "*.tri_source_match_report.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".tri_source_match_report.json", ""))
+        gaps = payload.get("gaps", []) if isinstance(payload.get("gaps"), list) else []
+        unresolved = payload.get("unresolved", []) if isinstance(payload.get("unresolved"), list) else []
+        for gap in gaps + unresolved:
+            add_issue("target_binding", package_id, "target_binding_gap", "跳转目标绑定队列处理缺失映射", str(path), gap)
+        items.append(_report_trace_item(
+            "target_binding",
+            package_id,
+            "GAPS" if gaps or unresolved else "OK",
+            "目标绑定报告",
+            payload.get("summary") if isinstance(payload.get("summary"), dict) else {"gaps": len(gaps), "unresolved": len(unresolved)},
+            str(path),
+            gaps + unresolved,
+        ))
+
+    for path in _latest_json_files(root / "prepare_results", "*.precondition_result.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".precondition_result.json", ""))
+        failed = []
+        for item in payload.get("results", []) if isinstance(payload.get("results"), list) else []:
+            if isinstance(item, dict) and not item.get("passed"):
+                failed.append(item)
+                add_issue("precondition", package_id, "precondition_failed", "补齐测试数据或标记人工前置条件", str(path), item)
+        items.append(_report_trace_item(
+            "precondition",
+            package_id,
+            "PASS" if payload.get("success") and not failed else "WARN",
+            "前置条件报告",
+            {"total": payload.get("total"), "passed": payload.get("passed"), "blocked": payload.get("blocked"), "warnings": payload.get("warnings")},
+            str(path),
+            failed,
+        ))
+
+    for path in _latest_json_files(root / "runs", "batch_report.json", 30):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.parent.parent.name)
+        run_issues = []
+        for item in payload.get("plan_issues", []) if isinstance(payload.get("plan_issues"), list) else []:
+            if isinstance(item, dict):
+                run_issues.append(item)
+                if _coerce_str(item.get("severity")) != "warning":
+                    add_issue("execution", package_id, item.get("code") or "execution_blocker", "进入执行中心重跑或降级执行", str(path), item)
+        for case in payload.get("case_results", []) if isinstance(payload.get("case_results"), list) else []:
+            if isinstance(case, dict) and _coerce_str(case.get("result")).upper() not in {"", "PASS", "DRY_RUN_PASS"}:
+                add_issue("execution", package_id, "case_failed", "进入报告中心查看失败步骤", str(path), case)
+        items.append(_report_trace_item(
+            "execution",
+            package_id,
+            "PASS" if _coerce_int(payload.get("failed_cases"), 0) == 0 else "FAILED",
+            "执行报告",
+            {"mode": payload.get("mode"), "totalCases": payload.get("total_cases"), "passedCases": payload.get("passed_cases"), "failedCases": payload.get("failed_cases"), "issues": len(run_issues)},
+            str(path),
+            run_issues,
+        ))
+
+    for path in _latest_json_files(root / "business_results", "*.business_result.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".business_result.json", ""))
+        failed = []
+        for item in payload.get("state_results", []) if isinstance(payload.get("state_results"), list) else []:
+            if isinstance(item, dict) and not item.get("success"):
+                failed.append(item)
+                add_issue("business_state", package_id, "state_collection_failed", "进入业务验证补 runtime state 或 collector", str(path), item)
+        for item in payload.get("assertion_results", []) if isinstance(payload.get("assertion_results"), list) else []:
+            if isinstance(item, dict) and not item.get("passed"):
+                failed.append(item)
+                add_issue("business_assertion", package_id, "business_assertion_failed", "进入业务验证查看断言结果", str(path), item)
+        items.append(_report_trace_item(
+            "business",
+            package_id,
+            "PASS" if payload.get("success") and not failed else "FAILED",
+            "业务验证报告",
+            {"states": len(payload.get("state_results", [])) if isinstance(payload.get("state_results"), list) else 0, "assertions": len(payload.get("assertion_results", [])) if isinstance(payload.get("assertion_results"), list) else 0, "failed": len(failed)},
+            str(path),
+            failed,
+        ))
+
+    for path in _latest_json_files(root / "feedback", "*.qa_reader_feedback.json", 20):
+        payload = _read_json_if_exists(str(path)) or {}
+        package_id = _coerce_str(payload.get("package_id") or path.name.replace(".qa_reader_feedback.json", ""))
+        feedback_gaps = []
+        for key, action in (
+            ("target_binding_gaps", "AutoSmoke 需绑定目标"),
+            ("navigation_gaps", "上游需补充入口规则或标记人工"),
+            ("test_data_gaps", "上游需补充测试数据"),
+            ("state_collection_gaps", "AutoSmoke 需补 collector"),
+            ("assertion_unexecutable_reasons", "断言需补执行条件"),
+        ):
+            values = payload.get(key, []) if isinstance(payload.get(key), list) else []
+            for value in values:
+                feedback_gaps.append({"gapType": key, "item": value})
+                add_issue("feedback", package_id, key, action, str(path), value if isinstance(value, dict) else {"reason": value})
+        items.append(_report_trace_item(
+            "feedback",
+            package_id,
+            "GAPS" if feedback_gaps else "OK",
+            "QA_Reader 回执缺口清单",
+            {"gaps": len(feedback_gaps)},
+            str(path),
+            feedback_gaps,
+            {"executionReport": payload.get("execution_report") if isinstance(payload.get("execution_report"), dict) else {}},
+        ))
+
+    items = sorted(items, key=lambda x: os.path.getmtime(x["path"]) if x.get("path") and os.path.exists(x["path"]) else 0, reverse=True)[:limit]
+    issues = issues[:limit]
+    summary = {}
+    for item in items:
+        summary[item["kind"]] = summary.get(item["kind"], 0) + 1
+    return {"items": items, "issues": issues, "summary": summary}
+
+
+def _artifact_rel(path):
+    try:
+        return os.path.relpath(str(path), _CONF_DIR).replace("\\", "/")
+    except Exception:
+        return _coerce_str(path)
+
+
+def _collect_handoff_artifacts(package_id="", limit=200):
+    package_id = _coerce_str(package_id)
+    roots = [
+        (Path(_CONF_DIR) / "metadata" / "handoff", "*.json"),
+        (Path(_CONF_DIR) / "examples", "*.json"),
+    ]
+    items = []
+    for root, pattern in roots:
+        if not root.exists():
+            continue
+        for path in root.rglob(pattern):
+            if not path.is_file():
+                continue
+            rel = _artifact_rel(path)
+            name = path.name
+            if package_id and package_id not in rel:
+                continue
+            if "qa_reader_feedback" in name:
+                kind = "feedback"
+            elif "validation_report" in name:
+                kind = "validation"
+            elif "import_report" in name:
+                kind = "conversion"
+            elif "execution_plan" in name:
+                kind = "execution_plan"
+            elif "candidate" in name:
+                kind = "candidate"
+            elif "match_report" in name:
+                kind = "source_trace_match"
+            elif "precondition_result" in name:
+                kind = "precondition"
+            elif "business_result" in name:
+                kind = "business_result"
+            elif name == "batch_report.json":
+                kind = "run_report"
+            elif "manifest" in name:
+                kind = "manifest"
+            else:
+                kind = "handoff_json"
+            items.append({
+                "kind": kind,
+                "name": name,
+                "path": str(path),
+                "relPath": rel,
+                "size": path.stat().st_size,
+                "mtime": path.stat().st_mtime,
+                "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(path.stat().st_mtime)),
+            })
+    return sorted(items, key=lambda x: x.get("mtime", 0), reverse=True)[:limit]
+
+
+def _resolve_handoff_artifact_path(value):
+    text = _coerce_str(value)
+    if not text:
+        return None
+    path = Path(text)
+    if not path.is_absolute():
+        path = Path(_CONF_DIR) / text.replace("/", os.sep)
+    try:
+        resolved = path.resolve()
+    except Exception:
+        return None
+    allowed_roots = [
+        (Path(_CONF_DIR) / "metadata" / "handoff").resolve(),
+        (Path(_CONF_DIR) / "examples").resolve(),
+    ]
+    if not any(str(resolved).startswith(str(root)) for root in allowed_roots):
+        return None
+    return resolved if resolved.is_file() else None
 
 
 def _safe_check_item(name, ok, detail=None, blocker=False, quick_fix=None):
@@ -2975,9 +3418,16 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 <div class="topbar">
   <span style="font-size:15px;font-weight:600;color:#4FC3F7;">AutoSmoke</span>
   <div class="toptabs">
-    <span class="toptab active toptab-main" onclick="swt('prepare')" data-tab="prepare">准备</span>
-    <span class="toptab toptab-main" onclick="swt('execute')" data-tab="execute">执行</span>
-    <span class="toptab toptab-main" onclick="swt('results')" data-tab="results">结果</span>
+    <span class="toptab active toptab-main" onclick="swt('overview')" data-tab="overview">总览</span>
+    <span class="toptab toptab-main" onclick="swt('handoff')" data-tab="handoff">上游包</span>
+    <span class="toptab toptab-main" onclick="swt('prepare')" data-tab="prepare">项目准备</span>
+    <span class="toptab toptab-main" onclick="swt('mapping')" data-tab="mapping">元素映射</span>
+    <span class="toptab toptab-main" onclick="swt('usecase')" data-tab="usecase">用例管理</span>
+    <span class="toptab toptab-main" onclick="swt('execute')" data-tab="execute">执行中心</span>
+    <span class="toptab toptab-main" onclick="swt('verify')" data-tab="verify">业务验证</span>
+    <span class="toptab toptab-main" onclick="swt('report')" data-tab="report">报告中心</span>
+    <span class="toptab toptab-main" onclick="swt('fix')" data-tab="fix">问题修复</span>
+    <span class="toptab toptab-main" onclick="swt('advanced')" data-tab="advanced">高级工具</span>
   </div>
   <div class="topstatus">
     <span>Unity: <span id="tsu" class="ts-warn">?</span></span>
@@ -2987,8 +3437,41 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
   </div>
 </div>
 
+<!-- ===== 总览 ===== -->
+<div id="tab-overview" class="tabcontent active">
+<div class="grid3">
+  <div class="sec">
+    <div class="sh">流程总览</div>
+    <div style="font-size:10px;color:#666;line-height:1.6;">
+      <div>当前环境：<span id="overviewBridge">检测中</span> | 状态：<span id="overviewStatus">待检测</span></div>
+      <div>截图：<span id="overviewShot">-</span> | 当前场景：<span id="overviewScene">-</span></div>
+      <div>结果：<span id="overviewResult">尚未执行用例</span> | 阻塞：<span id="overviewBlock">-</span></div>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sh">按方案快速进入</div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="swt('handoff')">上游包</button>
+      <button class="btn btn-sm" onclick="swt('prepare')">项目准备</button>
+      <button class="btn btn-sm" onclick="swt('mapping')">元素映射</button>
+      <button class="btn btn-sm" onclick="swt('execute')">执行中心</button>
+      <button class="btn btn-sm" onclick="swt('verify')">业务验证</button>
+      <button class="btn btn-sm" onclick="swt('report')">报告中心</button>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sh">高级入口</div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="swt('advanced')">高级工具</button>
+      <button class="btn btn-sm" onclick="showMeta('status');swt('mapping')">元数据状态</button>
+      <button class="btn btn-sm" onclick="handoffPlan();swt('handoff')">执行计划</button>
+    </div>
+  </div>
+</div>
+</div>
+
 <!-- ===== 准备 ===== -->
-<div id="tab-prepare" class="tabcontent active">
+<div id="tab-prepare" class="tabcontent">
 <details class="sec advanced-tools">
   <summary style="cursor:pointer;font-weight:600;color:#666;">高级工具：环境、Bridge、截图</summary>
 <div class="grid2">
@@ -3018,6 +3501,16 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
   </div>
 </div>
 
+</div>
+
+<div class="sec">
+  <div class="sh">Handoff 来源追踪 <span id="handoffTraceCount" style="font-weight:400;font-size:10px;color:#888;">-</span></div>
+  <div class="flex">
+    <button class="btn btn-sm" onclick="loadHandoffTrace()">刷新追踪</button>
+    <button class="btn btn-sm" onclick="swt('handoff')">打开上游包</button>
+    <button class="btn btn-sm" onclick="swt('fix')">处理缺口</button>
+  </div>
+  <div id="handoffTraceR" style="font-size:10px;color:#666;max-height:180px;overflow:auto;margin-top:3px;">点击“刷新追踪”汇总 handoff 校验、转换、执行、业务验证和回执报告。</div>
 </div>
 
 <div class="grid2">
@@ -3062,7 +3555,7 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
     <button class="btn btn-sm btn-p" id="prepareInitBtn" onclick="prepareInitEnvironment()">初始化环境</button>
     <button class="btn btn-sm btn-s" id="prepareSyncProjectBtn" onclick="prepareSyncProjectData()">同步项目</button>
     <button class="btn btn-sm" id="prepareSyncCurrentBtn" onclick="prepareSyncCurrentPageData()">同步当前页</button>
-    <button class="btn btn-sm btn-p" id="prepareReviewBtn" onclick="switchMetaTab('mapping');ml('进入元素审核')" style="background:#7E57C2;color:#fff;">审核元素映射</button>
+    <button class="btn btn-sm btn-p" id="prepareReviewBtn" onclick="swt('mapping');switchMetaTab('mapping');ml('进入元素审核')" style="background:#7E57C2;color:#fff;">审核元素映射</button>
   </div>
   <div style="display:flex;gap:3px;flex-wrap:wrap;margin-bottom:3px;">
     <button class="btn btn-sm" id="prepareRunAllBtn" style="background:#8BC34A;color:#fff;" onclick="prepareRunAll()">一键执行</button>
@@ -3072,6 +3565,10 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 </div>
 
 </div>
+</div>
+
+<!-- ===== 元素映射 ===== -->
+<div id="tab-mapping" class="tabcontent">
 
 <div class="sec">
   <div class="sh">UI树与元素映射 <span style="font-weight:400;font-size:10px;color:#888;"><span id="mapStats">-</span></span></div>
@@ -3254,6 +3751,11 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
    </div>
 </div>
 
+</div>
+
+<!-- ===== 高级工具 ===== -->
+<div id="tab-advanced" class="tabcontent">
+
 <div class="grid2">
 
 <details class="sec advanced-tools">
@@ -3278,20 +3780,22 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
   </div>
   <div id="browserArea" style="display:none;border:1px solid #ddd;border-radius:4px;font-size:11px;max-height:160px;overflow:auto;background:#fff;"></div>
   <div id="importSummary" style="font-size:10px;color:#666;margin-top:2px;"></div>
-  <div style="border-top:1px solid #eee;margin-top:6px;padding-top:6px;">
-    <div style="font-size:10px;color:#666;margin-bottom:3px;">QA_Reader handoff</div>
-    <div style="display:flex;gap:3px;margin-bottom:3px;">
-      <input id="handoffPath" class="inp" value="AutoSmoke/examples/armrace_handoff_example" placeholder="handoff包目录或manifest.json" style="flex:1;font-size:10px;">
-      <button class="btn btn-sm" onclick="handoffUseSelected()">使用选择</button>
-    </div>
-    <div class="flex">
-      <button class="btn btn-sm" onclick="handoffValidate()">准入校验</button>
-      <button class="btn btn-sm" style="background:#00695C;color:#fff;" onclick="handoffImport(true)">导入目标队列</button>
-      <button class="btn btn-sm" onclick="handoffImport(false)">只转换</button>
-      <button class="btn btn-sm" onclick="handoffPlan()">执行计划</button>
-      <button class="btn btn-sm" onclick="handoffBusinessRun()">业务断言</button>
-    </div>
-    <div id="handoffSummary" style="font-size:10px;color:#666;margin-top:3px;max-height:140px;overflow:auto;"></div>
+  <div style="border-top:1px solid #eee;margin-top:6px;padding-top:6px;font-size:10px;color:#666;">
+    QA_Reader handoff 已移动到顶部“上游包”页。
+    <button class="btn btn-sm" onclick="swt('handoff')">打开上游包</button>
+  </div>
+</details>
+
+<details class="sec advanced-tools">
+  <summary style="cursor:pointer;font-weight:600;color:#666;">高级工具：Handoff Schema 调试</summary>
+  <div style="display:flex;gap:3px;margin-bottom:3px;">
+    <input id="artifactPackageId" class="inp" value="armrace_business_20260625_v1" placeholder="packageId，可留空" style="flex:1;font-size:10px;">
+    <button class="btn btn-sm" onclick="loadHandoffArtifacts()">列出产物</button>
+    <button class="btn btn-sm" onclick="swt('handoff')">上游包</button>
+  </div>
+  <div style="display:flex;gap:4px;height:220px;">
+    <div id="artifactList" style="flex:1;overflow:auto;border:1px solid #eee;border-radius:4px;padding:3px;font-size:10px;color:#666;">点击“列出产物”查看 manifest、schema validation、转换中间产物、source_trace 和 review_items。</div>
+    <pre id="artifactPreview" style="flex:1;overflow:auto;margin:0;border:1px solid #eee;border-radius:4px;padding:4px;background:#fafafa;font-size:10px;color:#333;white-space:pre-wrap;">选择左侧产物后显示原始内容。</pre>
   </div>
 </details>
 
@@ -3348,6 +3852,80 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 
 </div>
 
+<!-- ===== 上游包 ===== -->
+<div id="tab-handoff" class="tabcontent">
+<div class="grid2">
+  <div class="sec">
+    <div class="sh">QA_Reader Handoff <span style="font-weight:400;font-size:10px;color:#888;">准入、转换、候选、运行、反馈</span></div>
+    <div style="display:flex;gap:3px;margin-bottom:3px;">
+      <input id="handoffPath" class="inp" value="AutoSmoke/examples/armrace_handoff_business_example" placeholder="handoff包目录或manifest.json" style="flex:1;font-size:10px;">
+      <button class="btn btn-sm" onclick="handoffUseSelected()">使用选择</button>
+    </div>
+    <div style="display:flex;gap:3px;margin-bottom:3px;">
+      <input id="handoffStateFile" class="inp" value="AutoSmoke/examples/armrace_handoff_business_example/runtime_state_example.json" placeholder="运行状态JSON，可选" style="flex:1;font-size:10px;">
+    </div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="handoffValidate()">准入校验</button>
+      <button class="btn btn-sm" onclick="handoffCandidates()">生成候选</button>
+      <button class="btn btn-sm" onclick="handoffCaseCandidates()">用例候选</button>
+      <button class="btn btn-sm" style="background:#00695C;color:#fff;" onclick="handoffImport(true)">导入目标队列</button>
+      <button class="btn btn-sm" onclick="handoffImport(false)">只转换</button>
+      <button class="btn btn-sm" onclick="handoffMatch()">三源匹配</button>
+      <button class="btn btn-sm" onclick="handoffPlan()">执行计划</button>
+      <button class="btn btn-sm" onclick="handoffRun(true)">DryRun</button>
+      <button class="btn btn-sm" onclick="handoffBusinessRun()">业务断言</button>
+      <button class="btn btn-sm" onclick="handoffBusinessResult()">结果</button>
+      <button class="btn btn-sm" onclick="handoffFeedback()">反馈</button>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sh">处理结果</div>
+    <div id="handoffSummary" style="font-size:10px;color:#666;max-height:260px;overflow:auto;">选择操作后显示结果。</div>
+  </div>
+</div>
+</div>
+
+<!-- ===== 用例管理 ===== -->
+<div id="tab-usecase" class="tabcontent">
+
+<div class="grid2">
+
+<div class="sec">
+  <div class="sh">用例执行 <span style="font-weight:400;font-size:10px;color:#888;" id="caseSt">就绪</span></div>
+  <div style="display:flex;gap:3px;margin-bottom:3px;">
+    <input id="caseFile" class="inp" placeholder="Excel/JSON 用例文件路径" style="flex:1;font-size:10px;">
+    <button class="btn btn-sm" onclick="impCase()">导入</button>
+    <button class="btn btn-sm" onclick="vldCase()">校验</button>
+  </div>
+  <div style="display:flex;gap:3px;">
+    <select id="caseSel" class="sl" style="flex:1;font-size:10px;"><option value="">选择用例...</option></select>
+    <button class="btn btn-sm" onclick="loadCases()">加载</button>
+  </div>
+  <div class="flex">
+    <button class="btn btn-s btn-sm" onclick="runCase()">运行</button>
+    <button class="btn btn-sm" onclick="batchRun()">批量</button>
+    <button class="btn btn-sm" onclick="startExplore()">探索</button>
+  </div>
+  <div id="casePreview" style="font-size:10px;color:#666;max-height:90px;overflow:auto;margin-top:3px;">用例预览</div>
+  <div class="sl-list" id="caseR" style="max-height:80px;font-size:10px;">用例结果</div>
+</div>
+
+<div class="sec">
+  <div class="sh">上游转换用例</div>
+  <div style="font-size:10px;color:#666;line-height:1.6;">
+    <div>handoff 用例候选、执行计划和 DryRun 已集中在“上游包”页。</div>
+    <div>正式用例导入后，可在本页加载并执行。</div>
+  </div>
+  <div class="flex">
+    <button class="btn btn-sm" onclick="swt('handoff')">打开上游包</button>
+    <button class="btn btn-sm" onclick="loadCases()">刷新用例</button>
+    <button class="btn btn-sm" onclick="collectCaseCtx()">刷新上下文</button>
+  </div>
+</div>
+
+</div>
+</div>
+
 <!-- ===== 执行 ===== -->
 <div id="tab-execute" class="tabcontent">
 
@@ -3370,17 +3948,12 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 </div>
 
 <div class="sec">
-  <div class="sh">用例执行 <span style="font-weight:400;font-size:10px;color:#888;" id="caseSt">就绪</span></div>
-  <div style="display:flex;gap:3px;">
-    <select id="caseSel" class="sl" style="flex:1;font-size:10px;"><option value="">选择用例...</option></select>
-    <button class="btn btn-sm" onclick="loadCases()">加载</button>
-  </div>
+  <div class="sh">用例入口</div>
+  <div style="font-size:10px;color:#666;">用例选择、加载、批量运行入口已移动到“用例管理”。</div>
   <div class="flex">
-    <button class="btn btn-s btn-sm" onclick="runCase()">运行</button>
-    <button class="btn btn-sm" onclick="batchRun()">批量</button>
-    <button class="btn btn-sm" onclick="startExplore()">探索</button>
+    <button class="btn btn-sm" onclick="swt('usecase')">打开用例管理</button>
+    <button class="btn btn-sm" onclick="batchRun()">直接批量</button>
   </div>
-  <div class="sl-list" id="caseR" style="max-height:80px;font-size:10px;">用例结果</div>
 </div>
 
 <details class="sec advanced-tools">
@@ -3464,8 +4037,35 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 
 </div>
 
-<!-- ===== 结果 ===== -->
-<div id="tab-results" class="tabcontent">
+<!-- ===== 业务验证 ===== -->
+<div id="tab-verify" class="tabcontent">
+
+<div class="grid2">
+  <div class="sec">
+    <div class="sh">业务断言 <span style="font-weight:400;font-size:10px;color:#888;">business_assertions</span></div>
+    <div style="display:flex;gap:3px;margin-bottom:3px;">
+      <input id="verifyPackageId" class="inp" value="armrace_business_20260625_v1" placeholder="packageId" style="flex:1;font-size:10px;">
+    </div>
+    <div style="display:flex;gap:3px;margin-bottom:3px;">
+      <input id="verifyRuntimeFile" class="inp" value="AutoSmoke/examples/armrace_handoff_business_example/runtime_state_example.json" placeholder="runtime state JSON，可选" style="flex:1;font-size:10px;">
+    </div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="verifyBusinessRun()">执行业务断言</button>
+      <button class="btn btn-sm" onclick="verifyBusinessResult()">加载结果</button>
+      <button class="btn btn-sm" onclick="verifyFeedback()">生成回执</button>
+      <button class="btn btn-sm" onclick="verifyStateDiff()">状态Diff</button>
+    </div>
+  </div>
+  <div class="sec">
+    <div class="sh">验证结果</div>
+    <div id="verifySummary" style="font-size:10px;color:#666;max-height:260px;overflow:auto;">选择操作后显示业务验证结果。</div>
+  </div>
+</div>
+
+</div>
+
+<!-- ===== 报告中心 ===== -->
+<div id="tab-report" class="tabcontent">
 
 <div class="grid3">
 
@@ -3572,6 +4172,51 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
   <div id="expR" style="font-size:10px;color:#666;margin-top:3px;"></div>
 </div>
 
+</div>
+
+</div>
+
+<!-- ===== 问题修复 ===== -->
+<div id="tab-fix" class="tabcontent">
+
+<div class="grid3">
+  <div class="sec">
+    <div class="sh">修复任务入口 <span style="font-weight:400;font-size:10px;color:#888;">预检、映射、失败</span></div>
+    <div class="flex">
+      <button class="btn btn-sm btn-p" onclick="loadFixTasks()">刷新任务</button>
+      <button class="btn btn-sm" onclick="preCheck()">执行预检</button>
+      <button class="btn btn-sm" onclick="swt('mapping');showMeta('target')">处理目标队列</button>
+      <button class="btn btn-sm" onclick="swt('mapping');showMeta('mapping')">处理映射草稿</button>
+      <button class="btn btn-sm" onclick="swt('report')">查看报告</button>
+    </div>
+    <div id="fixSummary" style="font-size:10px;color:#666;max-height:100px;overflow:auto;margin-top:3px;">执行预检或查看失败报告后处理问题。</div>
+  </div>
+  <div class="sec">
+    <div class="sh">阻塞处理</div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="detBlk()">检测阻塞</button>
+      <button class="btn btn-sm" onclick="resBlk()">处理阻塞</button>
+      <button class="btn btn-sm" onclick="rerunPrecheckBlocks()">重检阻塞</button>
+    </div>
+    <div id="fixBlockers" style="font-size:10px;color:#666;max-height:100px;overflow:auto;">阻塞详情仍在执行中心同步显示。</div>
+  </div>
+  <div class="sec">
+    <div class="sh">责任归类</div>
+    <div style="font-size:10px;color:#666;line-height:1.6;">
+      <div>映射缺失：进入元素映射处理目标队列。</div>
+      <div>状态缺失：进入业务验证补 runtime state 或 collector。</div>
+      <div>执行失败：进入报告中心查看失败步骤。</div>
+    </div>
+    <div class="flex">
+      <button class="btn btn-sm" onclick="swt('verify')">业务验证</button>
+      <button class="btn btn-sm" onclick="swt('execute')">执行中心</button>
+    </div>
+  </div>
+</div>
+
+<div class="sec">
+  <div class="sh">修复任务列表 <span id="fixTaskCount" style="font-weight:400;font-size:10px;color:#888;">-</span></div>
+  <div id="fixTaskList" style="font-size:10px;color:#666;max-height:260px;overflow:auto;">点击“刷新任务”汇总当前问题。</div>
 </div>
 
 </div>
@@ -3713,21 +4358,36 @@ function collectCaseCtx(){var caseFile=document.getElementById('caseFile');var p
 
 function swt(n){
   try{
-    var tabs=['prepare','execute','results'];
-    var i=tabs.indexOf(n);
-    if(i<0){ ml('主标签参数无效: '+n,'w'); return; }
+    var tabMap={
+      overview:'overview',
+      handoff:'handoff',
+      prepare:'prepare',
+      mapping:'mapping',
+      usecase:'usecase',
+      execute:'execute',
+      verify:'verify',
+      report:'report',
+      fix:'fix',
+      advanced:'advanced',
+      results:'report'
+    };
+    var target=tabMap[n]||n;
+    if(!tabMap[n]&&!document.getElementById('tab-'+target)){ ml('主标签参数无效: '+n,'w'); return; }
     var topts=document.querySelectorAll('.toptab');
     var panes=document.querySelectorAll('.tabcontent');
     topts.forEach(function(t){t.classList.remove('active');});
     panes.forEach(function(t){t.classList.remove('active');});
-    if(topts[i]){topts[i].classList.add('active');}
-    else{ml('主标签按钮不存在: '+n,'w');}
-    var p=document.getElementById('tab-'+n);
-    if(p){p.classList.add('active');}else{ml('主标签面板不存在: tab-'+n,'w');}
-    if(n==='execute'&&!precheckWarmupDone){
+    topts.forEach(function(t){if(t.getAttribute('data-tab')===n)t.classList.add('active');});
+    var p=document.getElementById('tab-'+target);
+    if(p){p.classList.add('active');}else{ml('主标签面板不存在: tab-'+target,'w');}
+    if((target==='execute')&&!precheckWarmupDone){
       precheckWarmupDone=true;
       setTimeout(function(){preCheck();},300);
     }
+    if(target==='report')setTimeout(function(){ldHist();loadHandoffTrace();},100);
+    if(n==='mapping')showMeta('mapping');
+    if(n==='advanced')showMeta('status');
+    if(n==='fix')loadFixTasks();
   }catch(e){
     ml('主标签切换异常: '+e,'e');
     console.error(e);
@@ -3998,7 +4658,7 @@ function escHtml(v){var s=String(v==null?'':v);return s.replace(/&/g,'&amp;').re
 function precheckAutoRetryEnabled(){var el=document.getElementById('precheckAutoRetry');return !!(el&&el.checked);}
 function _setPrecheckRunPlan(fn){precheckPendingRun=fn?{fn:fn,createdAt:Date.now()}:null;}
 function _takePrecheckRunPlan(){var plan=precheckPendingRun;precheckPendingRun=null;return plan&&plan.fn;}
-function doPrecheckQuickFix(action){if(!action)return;var act=typeof action==='string'?action:(action&&action.getAttribute?action.getAttribute('data-action'):'');if(!act)return;precheckState.status='RUNNING';switch(act){case 'open_config':swt('prepare');loadCfg();ml('已切换到环境配置');break;case 'refresh_case_ctx':loadCases();collectCaseCtx();ml('已刷新用例上下文');break;case 'run_deploy':depRun();ml('已触发部署脚本');break;case 'rerun_locate':refSt();break;case 'run_capture':cap();ml('已触发截图通道校验');break;case 'refresh_status':chkAll();ml('已刷新基础状态');break;case 'run_relocate':refSt();break;case 'open_case_file':loadCases();swt('prepare');if(document.getElementById('caseFile'))document.getElementById('caseFile').focus();ml('请检查用例文件输入');break;default:ml('未识别修复动作: '+act);break;}setTimeout(function(){preCheck(function(){if(precheckState&&precheckState.canExecute===false){ml('阻塞项仍存在，请继续处理','w');return;}if(!precheckAutoRetryEnabled()){ml('修复已执行，预检通过');return;}var nextRun=_takePrecheckRunPlan();if(!nextRun){ml('修复已执行，未检测到待执行任务');return;}ml('阻塞已处理，自动继续执行');nextRun();});},1200);}
+function doPrecheckQuickFix(action){if(!action)return;var act=typeof action==='string'?action:(action&&action.getAttribute?action.getAttribute('data-action'):'');if(!act)return;precheckState.status='RUNNING';switch(act){case 'open_config':swt('prepare');loadCfg();ml('已切换到环境配置');break;case 'refresh_case_ctx':loadCases();collectCaseCtx();ml('已刷新用例上下文');break;case 'run_deploy':depRun();ml('已触发部署脚本');break;case 'rerun_locate':refSt();break;case 'run_capture':cap();ml('已触发截图通道校验');break;case 'refresh_status':chkAll();ml('已刷新基础状态');break;case 'run_relocate':refSt();break;case 'open_case_file':loadCases();swt('usecase');if(document.getElementById('caseFile'))document.getElementById('caseFile').focus();ml('请检查用例文件输入');break;default:ml('未识别修复动作: '+act);break;}setTimeout(function(){preCheck(function(){if(precheckState&&precheckState.canExecute===false){ml('阻塞项仍存在，请继续处理','w');return;}if(!precheckAutoRetryEnabled()){ml('修复已执行，预检通过');return;}var nextRun=_takePrecheckRunPlan();if(!nextRun){ml('修复已执行，未检测到待执行任务');return;}ml('阻塞已处理，自动继续执行');nextRun();});},1200);}
 
 // ===== 健康 =====
 function chkAll(){ml('健康检查...');apiGet('/api/status',function(d){var h='<table class="st">';Object.keys(d).slice(0,12).forEach(function(k){var v=d[k];if(typeof v==='object')v=JSON.stringify(v).slice(0,80);h+='<tr><td style="color:#888;">'+k+'</td><td>'+v+'</td></tr>';});h+='</table>';document.getElementById('hGrid').innerHTML=h;document.getElementById('hScore').textContent=d.status==='OK'?'OK':'ERROR';document.getElementById('tsu').textContent=d.status==='OK'?'已连接':'未连接';document.getElementById('tsu').className=d.status==='OK'?'ts-ok':'ts-bad';});}
@@ -5383,9 +6043,201 @@ function batchRun(){ensurePrecheckAndRun(function(){var payload=collectCaseCtx()
 
 // ===== 结果 =====
 function ldHist(){fetch('/api/report/list').then(function(r){return r.json()}).then(function(d){var items=d.reports||[];var totalFail=0;var h='<table class="st"><tr style="background:#f5f5f5;"><td>时间</td><td>通过率</td><td>失败</td></tr>';items.slice(0,10).forEach(function(r){var fail=Math.max(0,(r.total||0)-(r.passed||0));totalFail+=fail;h+='<tr><td>'+r.time+'</td><td>'+r.passed+'/'+r.total+'</td><td>'+fail+'</td></tr>';});h+='</table>';document.getElementById('histR').innerHTML=h;document.getElementById('histCnt').textContent=items.length;document.getElementById('failCnt').textContent=totalFail;ml('历史: '+items.length+'条');}).catch(function(e){document.getElementById('histR').innerHTML='暂无报告';});}
+function traceKindLabel(kind){
+  var map={validation:'准入校验',conversion:'转换',target_binding:'目标绑定',precondition:'前置条件',execution:'执行',business:'业务验证',feedback:'回执'};
+  return map[kind]||kind||'未知';
+}
+function traceStatusColor(status){
+  status=(status||'').toUpperCase();
+  if(status==='PASS'||status==='OK'||status.indexOf('READY')===0)return '#4CAF50';
+  if(status==='WARN'||status==='GAPS')return '#FF9800';
+  if(status==='FAILED'||status==='BLOCKED')return '#f44336';
+  return '#607D8B';
+}
+function loadHandoffTrace(){
+  var box=document.getElementById('handoffTraceR');
+  if(box)box.innerHTML='正在汇总来源追踪...';
+  fetch('/api/report/handoff_trace?limit=80').then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.success){if(box)box.innerHTML='<span style="color:#f44336;">加载失败: '+escHtml(d&&d.error||'未知')+'</span>';return;}
+    var items=d.items||[];
+    var issues=d.issues||[];
+    var count=document.getElementById('handoffTraceCount');
+    if(count)count.textContent=items.length+'份 / 缺口'+issues.length;
+    var summary=d.summary||{};
+    var chips=Object.keys(summary).sort().map(function(k){return '<span class="bdg bg-b">'+escHtml(traceKindLabel(k))+': '+summary[k]+'</span>';}).join(' ');
+    var h='<div style="margin-bottom:4px;">'+(chips||'暂无 handoff 报告')+'</div>';
+    h+='<table class="st"><tr style="background:#f5f5f5;"><td>来源</td><td>状态</td><td>摘要</td><td>路径</td></tr>';
+    items.slice(0,12).forEach(function(it){
+      var status=escHtml(it.status||'-');
+      var summaryText=Object.keys(it.summary||{}).map(function(k){return k+'='+it.summary[k];}).join('；');
+      h+='<tr><td>'+escHtml(traceKindLabel(it.kind))+'</td><td><span class="bdg" style="background:'+traceStatusColor(it.status)+';color:#fff;">'+status+'</span></td><td>'+escHtml(it.title||'')+'<br><span style="color:#888;">'+escHtml(summaryText)+'</span></td><td style="font-size:9px;color:#888;word-break:break-all;">'+escHtml(it.path||'')+'</td></tr>';
+    });
+    h+='</table>';
+    if(issues.length){
+      h+='<div style="margin-top:5px;font-weight:600;color:#b36b00;">缺口 / 失败明细</div>';
+      h+='<table class="st"><tr style="background:#fff7e6;"><td>类型</td><td>用例/步骤</td><td>目标</td><td>建议动作</td></tr>';
+      issues.slice(0,12).forEach(function(x){
+        var target=x.targetName||x.semanticId||x.testId||'-';
+        h+='<tr><td>'+escHtml(traceKindLabel(x.kind))+'<br><span style="color:#888;">'+escHtml(x.failureType||'')+'</span></td><td>'+escHtml(x.caseId||'-')+'<br><span style="color:#888;">'+escHtml(x.stepOrder||'')+'</span></td><td>'+escHtml(target)+'</td><td>'+escHtml(x.suggestedAction||'')+'<br><span style="color:#888;">'+escHtml(x.detail||'')+'</span></td></tr>';
+      });
+      h+='</table>';
+    }
+    if(box)box.innerHTML=h;
+    ml('Handoff 来源追踪: '+items.length+'份报告, '+issues.length+'个缺口');
+  }).catch(function(e){if(box)box.innerHTML='<span style="color:#f44336;">加载失败: '+escHtml(String(e))+'</span>';});
+}
 function expRpt(){if(!runCtx.reportPath){ml('请先执行一批用例','w');return;}apiPost('/api/report/export/html',{batch_report:runCtx.reportPath},function(d){if(d&&d.success){document.getElementById('expR').innerHTML='<a style="color:#4CAF50;" href="'+(d.download||'')+'" target="_blank">下载HTML</a>';ml('HTML导出完成');}else{document.getElementById('expR').textContent='导出失败: '+(d&&d.error);}});}
 function expJSON(){if(!runCtx.reportPath){ml('请先执行一批用例','w');return;}apiPost('/api/report/export/json',{batch_report:runCtx.reportPath},function(d){if(d&&d.success){document.getElementById('expR').innerHTML='<a style="color:#4CAF50;" href="'+(d.download||'')+'" target="_blank">下载JSON</a>';ml('JSON导出完成');}else{document.getElementById('expR').textContent='导出失败: '+(d&&d.error);}});}
 function expFail(){if(!runCtx.reportPath){ml('请先执行一批用例','w');return;}apiPost('/api/report/export/fail_package',{batch_report:runCtx.reportPath},function(d){if(d&&d.success){document.getElementById('expR').innerHTML='<a style="color:#4CAF50;" href="'+(d.download||'')+'" target="_blank">下载失败包</a>';ml('失败包导出完成');}else{document.getElementById('expR').textContent='导出失败: '+(d&&d.error);}});}
+
+// ===== Handoff Artifact 调试 =====
+function artifactKindLabel(kind){
+  var map={manifest:'manifest',validation:'schema validation',conversion:'转换报告',execution_plan:'执行计划',candidate:'候选产物',source_trace_match:'source_trace匹配',precondition:'前置条件',business_result:'业务结果',run_report:'运行报告',feedback:'QA回执',handoff_json:'JSON'};
+  return map[kind]||kind||'JSON';
+}
+function loadHandoffArtifacts(){
+  var pkg=document.getElementById('artifactPackageId');
+  var list=document.getElementById('artifactList');
+  var preview=document.getElementById('artifactPreview');
+  if(list)list.innerHTML='正在扫描 handoff 产物...';
+  if(preview)preview.textContent='选择左侧产物后显示原始内容。';
+  var url='/api/handoff/artifacts?limit=200';
+  if(pkg&&pkg.value.trim())url+='&packageId='+encodeURIComponent(pkg.value.trim());
+  fetch(url).then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.success){if(list)list.innerHTML='<span style="color:#f44336;">加载失败: '+escHtml(d&&d.error||'未知')+'</span>';return;}
+    var items=d.items||[];
+    if(!items.length){if(list)list.innerHTML='未找到匹配的 handoff 产物。';return;}
+    var h='<table class="st"><tr style="background:#f5f5f5;"><td>类型</td><td>文件</td><td>时间</td><td>查看</td></tr>';
+    items.forEach(function(it,idx){
+      h+='<tr><td>'+escHtml(artifactKindLabel(it.kind))+'</td><td style="word-break:break-all;">'+escHtml(it.relPath||it.name||'')+'</td><td>'+escHtml(it.updatedAt||'')+'</td><td><button class="btn btn-sm" onclick="openHandoffArtifact('+idx+')">查看</button></td></tr>';
+    });
+    h+='</table>';
+    list.innerHTML=h;
+    window.handoffArtifactCache=items;
+    ml('Handoff 产物: '+items.length+'个');
+  }).catch(function(e){if(list)list.innerHTML='<span style="color:#f44336;">加载失败: '+escHtml(String(e))+'</span>';});
+}
+function openHandoffArtifact(idx){
+  var item=(window.handoffArtifactCache||[])[idx];
+  var preview=document.getElementById('artifactPreview');
+  if(!item){if(preview)preview.textContent='未找到产物。';return;}
+  if(preview)preview.textContent='读取中...';
+  fetch('/api/handoff/artifact?path='+encodeURIComponent(item.relPath||item.path||'')).then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.success){if(preview)preview.textContent='读取失败: '+(d&&d.error||'未知');return;}
+    var header=d.relPath+'\\nsize='+d.size+' updatedAt='+d.updatedAt+(d.truncated?'\\n[内容已截断]':'')+'\\n\\n';
+    var body=d.json?JSON.stringify(d.json,null,2):(d.text||'');
+    if(preview)preview.textContent=header+body;
+    ml('已打开产物: '+d.relPath);
+  }).catch(function(e){if(preview)preview.textContent='读取失败: '+String(e);});
+}
+
+// ===== 问题修复 =====
+function fixSeverityColor(sev){
+  if(sev==='P0')return '#f44336';
+  if(sev==='P1')return '#FF9800';
+  if(sev==='P2')return '#2196F3';
+  return '#9E9E9E';
+}
+function fixCategoryLabel(cat){
+  var map={
+    mapping:'映射',
+    business_state:'业务状态',
+    business_assertion:'业务断言',
+    precondition:'前置条件',
+    execution_blocker:'执行阻断',
+    case_failure:'用例失败'
+  };
+  return map[cat]||cat||'未知';
+}
+function loadFixTasks(){
+  var list=document.getElementById('fixTaskList');
+  if(list)list.innerHTML='正在汇总修复任务...';
+  apiGet('/api/fix/tasks?limit=80',function(d){
+    if(!d||!d.success){
+      if(list)list.innerHTML='<span style="color:#f44336;">加载失败: '+escHtml(d&&d.error||'未知')+'</span>';
+      return;
+    }
+    renderFixTasks(d);
+  },'fixTaskList','修复任务加载');
+}
+function renderFixTasks(d){
+  var tasks=d.tasks||[];
+  var count=document.getElementById('fixTaskCount');
+  if(count)count.textContent=tasks.length+'项';
+  var summary=d.summary||{};
+  var parts=Object.keys(summary).map(function(k){return fixCategoryLabel(k)+': '+summary[k];});
+  var resp=d.byResponsibility||{};
+  var respParts=Object.keys(resp).map(function(k){return k+': '+resp[k];});
+  var sum=document.getElementById('fixSummary');
+  if(sum)sum.innerHTML=tasks.length?('待处理 '+tasks.length+' 项；'+parts.join('；')+'<br>责任归属：'+respParts.join('；')):'当前未汇总到阻断修复任务。';
+  var list=document.getElementById('fixTaskList');
+  if(!list)return;
+  if(!tasks.length){list.innerHTML='当前未汇总到修复任务。';return;}
+  var h='<table class="st"><tr style="background:#f5f5f5;"><td>级别</td><td>类型</td><td>责任</td><td>问题</td><td>来源</td><td>操作</td></tr>';
+  tasks.forEach(function(t,idx){
+    var sev=escHtml(t.severity||'P2');
+    h+='<tr>';
+    h+='<td><span class="bdg" style="background:'+fixSeverityColor(t.severity)+';color:#fff;">'+sev+'</span></td>';
+    h+='<td>'+escHtml(fixCategoryLabel(t.category))+'</td>';
+    h+='<td><div style="font-weight:600;">'+escHtml(t.responsibility||'待归类')+'</div><div style="color:#888;max-width:180px;">'+escHtml(t.suggestedAction||'')+'</div></td>';
+    h+='<td><div style="font-weight:600;">'+escHtml(t.title||'-')+'</div><div style="color:#888;max-width:420px;word-break:break-all;">'+escHtml(t.detail||'')+'</div></td>';
+    h+='<td style="font-size:9px;color:#888;max-width:180px;word-break:break-all;">'+escHtml(t.source||'')+'<br>'+escHtml(t.path||'')+'</td>';
+    h+='<td><button class="btn btn-sm" onclick="openFixTask('+idx+')">处理</button></td>';
+    h+='</tr>';
+  });
+  h+='</table>';
+  list.innerHTML=h;
+  window.fixTaskCache=tasks;
+  ml('修复任务已刷新: '+tasks.length+'项');
+}
+function openFixTask(idx){
+  var t=(window.fixTaskCache||[])[idx];
+  if(!t){ml('未找到修复任务','w');return;}
+  var data=t.data||{};
+  if(t.action==='mapping_target'){
+    swt('mapping');showMeta('target');
+    setTimeout(function(){
+      var kw=document.getElementById('targetKw');
+      if(kw&&data.targetId){kw.value=data.targetId;}
+      fetch('/api/target/list?limit=20&includeRepair=1&keyword='+encodeURIComponent(data.targetId||'')).then(function(r){return r.json();}).then(function(d){
+        targetRenderListItems(d.tasks||[], d.total||0, d.returned||0, '未找到该修复目标。');
+        if(data.targetId)targetSelect(data.targetId);
+      }).catch(function(){targetLoad();});
+    },900);
+    ml('定位映射任务: '+(data.targetId||t.title||''));
+    return;
+  }
+  if(t.action==='verify'){
+    swt('verify');
+    var pkg=document.getElementById('verifyPackageId');
+    if(pkg&&data.packageId)pkg.value=data.packageId;
+    verifyBusinessResult();
+    ml('定位业务验证: '+(data.packageId||''));
+    return;
+  }
+  if(t.action==='execute'){
+    swt('execute');
+    ml('定位执行阻断: '+(data.caseId||t.title||''));
+    return;
+  }
+  if(t.action==='usecase'){
+    swt('usecase');
+    loadCases();
+    setTimeout(function(){var sel=document.getElementById('caseSel');if(sel&&data.caseId)sel.value=data.caseId;},500);
+    ml('定位用例: '+(data.caseId||''));
+    return;
+  }
+  swt('report');
+  ml('定位报告问题: '+(data.caseId||t.title||''));
+}
+function openFixAction(action){
+  if(action==='mapping_target'){swt('mapping');showMeta('target');return;}
+  if(action==='mapping'){swt('mapping');showMeta('mapping');return;}
+  if(action==='verify'){swt('verify');return;}
+  if(action==='execute'){swt('execute');return;}
+  if(action==='usecase'){swt('usecase');return;}
+  swt('report');
+}
 
 // ===== API调试 =====
 function callAPI(){var sel=document.getElementById('apiSel').value;var urls={'status':'/api/status','capture':'/api/capture','metadata':'/api/metadata','drafts':'/api/mapping/drafts','ui_import_report':'/api/ui/import/report','ui_scan':'/api/ui_scan?kind=current'};var url=urls[sel]||'/api/status';fetch(url).then(function(r){return r.json()}).then(function(d){document.getElementById('apiR').innerHTML=JSON.stringify(d,null,2).replace(/\n/g,'<br>').slice(0,2000);ml('API: '+url);});}
@@ -5596,6 +6448,19 @@ function handoffPathValue(){
   var el=document.getElementById('handoffPath');
   return el?el.value.trim():'';
 }
+function handoffStateFileValue(){
+  var el=document.getElementById('handoffStateFile');
+  return el?el.value.trim():'';
+}
+function handoffPackageIdFromPath(path){
+  path=(path||handoffPathValue()||'').replace(/\\/g,'/');
+  if(path.indexOf('armrace_handoff_business_example')>=0)return 'armrace_business_20260625_v1';
+  if(path.indexOf('armrace_handoff_example')>=0)return 'armrace_20260625_v1';
+  var parts=path.split('/').filter(Boolean);
+  var last=parts.length?parts[parts.length-1]:'';
+  if(last==='manifest.json'&&parts.length>1)last=parts[parts.length-2];
+  return last;
+}
 function handoffUseSelected(){
   var p=document.getElementById('browsePath');
   var h=document.getElementById('handoffPath');
@@ -5626,6 +6491,21 @@ function handoffRender(data){
   }
   el.innerHTML=html;
 }
+function handoffRenderGeneric(title,data){
+  var el=document.getElementById('handoffSummary');
+  if(!el)return;
+  var ok=data&&data.success!==false;
+  var html='<div><b style="color:'+(ok?'#4CAF50':'#f44336')+';">'+title+' '+(ok?'OK':'FAILED')+'</b></div>';
+  if(data&&data.error)html+='<div style="color:#f44336;">'+data.error+'</div>';
+  var report=data&&data.report?data.report:data;
+  if(report&&report.summary)html+='<div>summary: '+JSON.stringify(report.summary)+'</div>';
+  if(report&&report.outputs)html+='<div style="color:#888;">'+Object.keys(report.outputs).map(function(k){return k+': '+report.outputs[k];}).join('<br>')+'</div>';
+  if(report&&report.output)html+='<div style="color:#888;">output: '+report.output+'</div>';
+  if(data&&data.feedback)html+='<div>feedback: '+((data.feedback.execution_report||{}).business_result||'')+'</div>';
+  if(data&&data.result&&data.result.report_path)html+='<div style="color:#888;">report: '+data.result.report_path+'</div>';
+  if(data&&data.batch)html+='<div>cases '+(data.batch.passed_cases||0)+'/'+(data.batch.total_cases||0)+' | mode '+(data.batch.mode||'')+'</div>';
+  el.innerHTML=html;
+}
 function handoffValidate(){
   var path=handoffPathValue();
   if(!path){ml('请输入 handoff 包目录','w');return;}
@@ -5645,9 +6525,37 @@ function handoffImport(writeQueue){
     ml(d.success?'handoff 处理完成':'handoff 处理失败',d.success?'':'w');
   }).catch(function(e){ml('handoff 导入失败','e');});
 }
+function handoffCandidates(){
+  var path=handoffPathValue();
+  if(!path){ml('请输入 handoff 包目录','w');return;}
+  ml('生成 handoff 候选...');
+  fetch('/api/handoff/candidates',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageDir:path})}).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('候选生成',d);
+    ml(d.success?'候选已生成':'候选生成失败',d.success?'':'w');
+  }).catch(function(e){ml('候选生成失败','e');});
+}
+function handoffCaseCandidates(){
+  var path=handoffPathValue();
+  if(!path){ml('请输入 handoff 包目录','w');return;}
+  ml('生成用例候选...');
+  fetch('/api/handoff/case-candidates',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageDir:path})}).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('用例候选',d.report||d);
+    ml(d.success?'用例候选已生成':'用例候选生成失败',d.success?'':'w');
+  }).catch(function(e){ml('用例候选生成失败','e');});
+}
+function handoffMatch(){
+  var packageId=handoffPackageIdFromPath();
+  if(!packageId){ml('请输入 handoff 包目录或 packageId','w');return;}
+  ml('执行 handoff 三源匹配...');
+  fetch('/api/handoff/match',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId})}).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('三源匹配',d);
+    ml(d.success?'三源匹配完成':'三源匹配失败',d.success?'':'w');
+  }).catch(function(e){ml('三源匹配失败','e');});
+}
 function handoffPlan(){
   var el=document.getElementById('handoffSummary');
-  fetch('/api/handoff/plan').then(function(r){return r.json();}).then(function(d){
+  var packageId=handoffPackageIdFromPath();
+  fetch('/api/handoff/plan?packageId='+encodeURIComponent(packageId)).then(function(r){return r.json();}).then(function(d){
     if(!el)return;
     if(!d.success){el.innerHTML='<span style="color:#f44336;">'+(d.error||'execution plan missing')+'</span>';return;}
     var p=d.plan||{};
@@ -5658,10 +6566,18 @@ function handoffPlan(){
     ml('执行计划已加载');
   }).catch(function(e){ml('执行计划加载失败','e');});
 }
+function handoffRun(dryRun){
+  var packageId=handoffPackageIdFromPath();
+  if(!packageId){ml('请输入 handoff 包目录或 packageId','w');return;}
+  ml(dryRun?'handoff DryRun...':'handoff 执行...');
+  fetch('/api/handoff/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId,dryRun:dryRun!==false,stateFile:handoffStateFileValue()})}).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('Handoff运行',d);
+    ml(d.success?'handoff 运行通过':'handoff 运行未通过',d.success?'':'w');
+  }).catch(function(e){ml('handoff 运行失败','e');});
+}
 function handoffBusinessRun(){
   var path=handoffPathValue();
-  var packageId='';
-  if(path.indexOf('armrace_handoff_business_example')>=0)packageId='armrace_business_20260625_v1';
+  var packageId=handoffPackageIdFromPath(path);
   if(!packageId){
     fetch('/api/handoff/reports').then(function(r){return r.json();}).then(function(d){
       var reps=d.reports||[];
@@ -5678,7 +6594,7 @@ function _handoffBusinessRunPackage(packageId){
   var el=document.getElementById('handoffSummary');
   if(!packageId){if(el)el.innerHTML='<span style="color:#f44336;">未找到 UI_AND_BUSINESS 包，请先导入业务包</span>';return;}
   ml('执行业务断言...');
-  fetch('/api/handoff/business/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId})}).then(function(r){return r.json();}).then(function(d){
+  fetch('/api/handoff/business/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId,runtimeFile:handoffStateFileValue()})}).then(function(r){return r.json();}).then(function(d){
     var res=d.result||{};
     var assertions=res.assertion_results||[];
     var states=res.state_results||[];
@@ -5690,6 +6606,77 @@ function _handoffBusinessRunPackage(packageId){
     if(el)el.innerHTML=html;
     ml(res.success?'业务断言通过':'业务断言未通过',res.success?'':'w');
   }).catch(function(e){ml('业务断言执行失败','e');});
+}
+function handoffBusinessResult(){
+  var packageId=handoffPackageIdFromPath();
+  if(!packageId){ml('请输入 handoff 包目录或 packageId','w');return;}
+  fetch('/api/handoff/business/result?packageId='+encodeURIComponent(packageId)).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('业务结果',d);
+    ml(d.success?'业务结果已加载':'业务结果不存在',d.success?'':'w');
+  }).catch(function(e){ml('业务结果加载失败','e');});
+}
+function handoffFeedback(){
+  var packageId=handoffPackageIdFromPath();
+  if(!packageId){ml('请输入 handoff 包目录或 packageId','w');return;}
+  ml('生成 QA_Reader 反馈...');
+  fetch('/api/handoff/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId})}).then(function(r){return r.json();}).then(function(d){
+    handoffRenderGeneric('QA反馈',d);
+    ml(d.success?'QA_Reader 反馈已生成':'QA_Reader 反馈生成失败',d.success?'':'w');
+  }).catch(function(e){ml('QA_Reader 反馈生成失败','e');});
+}
+function verifyPackageIdValue(){
+  var el=document.getElementById('verifyPackageId');
+  return el?el.value.trim():'';
+}
+function verifyRuntimeFileValue(){
+  var el=document.getElementById('verifyRuntimeFile');
+  return el?el.value.trim():'';
+}
+function verifyRender(title,data){
+  var el=document.getElementById('verifySummary');
+  if(!el)return;
+  var ok=data&&data.success!==false;
+  var html='<div><b style="color:'+(ok?'#4CAF50':'#f44336')+';">'+title+' '+(ok?'OK':'FAILED')+'</b></div>';
+  if(data&&data.error)html+='<div style="color:#f44336;">'+data.error+'</div>';
+  var result=data&&data.result?data.result:data;
+  if(result&&result.state_values)html+='<div>state: '+JSON.stringify(result.state_values)+'</div>';
+  if(result&&result.assertion_results){
+    result.assertion_results.forEach(function(a){
+      html+='<div style="color:'+(a.passed?'#4CAF50':'#f44336')+';">'+(a.assertion_id||'assertion')+': '+(a.passed?'PASS':'FAIL')+'</div>';
+    });
+  }
+  if(data&&data.feedback)html+='<div>business: '+((data.feedback.execution_report||{}).business_result||'')+'</div>';
+  if(data&&data.outputs)html+='<div style="color:#888;">'+Object.keys(data.outputs).map(function(k){return k+': '+data.outputs[k];}).join('<br>')+'</div>';
+  if(data&&data.diff)html+='<div>changed: '+((data.diff.changed||[]).length)+' | added: '+((data.diff.added||[]).length)+' | removed: '+((data.diff.removed||[]).length)+'</div>';
+  el.innerHTML=html;
+}
+function verifyBusinessRun(){
+  var packageId=verifyPackageIdValue();
+  if(!packageId){ml('请输入 packageId','w');return;}
+  ml('执行业务验证...');
+  fetch('/api/handoff/business/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId,runtimeFile:verifyRuntimeFileValue()})}).then(function(r){return r.json();}).then(function(d){
+    verifyRender('业务断言',d);
+    ml(d.success?'业务验证通过':'业务验证未通过',d.success?'':'w');
+  }).catch(function(){ml('业务验证失败','e');});
+}
+function verifyBusinessResult(){
+  var packageId=verifyPackageIdValue();
+  if(!packageId){ml('请输入 packageId','w');return;}
+  fetch('/api/handoff/business/result?packageId='+encodeURIComponent(packageId)).then(function(r){return r.json();}).then(function(d){
+    verifyRender('业务结果',d);
+  }).catch(function(){ml('业务结果加载失败','e');});
+}
+function verifyFeedback(){
+  var packageId=verifyPackageIdValue();
+  if(!packageId){ml('请输入 packageId','w');return;}
+  fetch('/api/handoff/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({packageId:packageId})}).then(function(r){return r.json();}).then(function(d){
+    verifyRender('业务回执',d);
+  }).catch(function(){ml('业务回执生成失败','e');});
+}
+function verifyStateDiff(){
+  fetch('/api/state/diff').then(function(r){return r.json();}).then(function(d){
+    verifyRender('状态Diff',d);
+  }).catch(function(){ml('状态Diff加载失败','e');});
 }
 
 // ===== 环境初始化 =====
@@ -5816,7 +6803,7 @@ function switchMetaTab(tab){
 
 // ===== 初始化 =====
 chkAll();depChk();refSt();ldDrafts();ldMaps();ldMetaSt();chkAno();
-ldHist();ldVerify();anoHist();loadCases();checkLogin();loadStateDiff();loadPageGraphInfo();
+ldHist();loadHandoffTrace();ldVerify();anoHist();loadCases();checkLogin();loadStateDiff();loadPageGraphInfo();
 setTimeout(enhanceStatus,500);
 setTimeout(prepareRefreshSummary,700);
 document.getElementById('sbTime').textContent=new Date().toLocaleString();
@@ -6962,6 +7949,212 @@ def api_handoff_business_run():
         return jsonify({"success": bool(result.get("success")), "result": result})
     except Exception as e:
         logger.exception("handoff business run failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/business/result")
+def api_handoff_business_result():
+    try:
+        package_id = _coerce_str(request.args.get("packageId") or request.args.get("package_id"))
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        path = os.path.join(_CONF_DIR, "metadata", "handoff", "business_results", f"{package_id}.business_result.json")
+        result = _read_json_if_exists(path)
+        if not isinstance(result, dict):
+            return jsonify({"success": False, "error": "business_result_not_found", "packageId": package_id, "path": os.path.abspath(path)})
+        return jsonify({"success": bool(result.get("success", True)), "packageId": package_id, "path": os.path.abspath(path), "result": result})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/preconditions", methods=["POST", "GET"])
+def api_handoff_preconditions():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = _coerce_str(payload.get("packageId") or payload.get("package_id") or request.args.get("packageId") or request.args.get("package_id"))
+        state_file = _coerce_str(payload.get("stateFile") or payload.get("state_file") or request.args.get("stateFile") or request.args.get("state_file"))
+        manual_values = payload.get("manualValues") if isinstance(payload.get("manualValues"), dict) else {}
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        from tools.handoff_preconditions import evaluate_preconditions
+        result = evaluate_preconditions(package_id, Path(state_file) if state_file else None, manual_values=manual_values, write_result=True)
+        return jsonify({"success": bool(result.get("success")), "result": result})
+    except Exception as e:
+        logger.exception("handoff preconditions failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/run", methods=["POST"])
+def api_handoff_run():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = _coerce_str(payload.get("packageId") or payload.get("package_id"))
+        state_file = _coerce_str(payload.get("stateFile") or payload.get("state_file"))
+        batch_name = _coerce_str(payload.get("batchName") or payload.get("batch_name"))
+        manual_values = payload.get("manualValues") if isinstance(payload.get("manualValues"), dict) else {}
+        dry_run = _coerce_bool(payload.get("dryRun"), True)
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        from tools.handoff_runner import run_handoff_package
+        result = run_handoff_package(package_id, dry_run=dry_run, batch_name=batch_name, manual_values=manual_values, state_file=state_file or None)
+        return jsonify({"success": bool(result.get("success")), "result": result, "batch": result.get("batch", {})})
+    except Exception as e:
+        logger.exception("handoff run failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/candidates", methods=["POST"])
+def api_handoff_candidates():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_dir = _handoff_package_dir(payload.get("packageDir") or payload.get("path"))
+        runtime_file = _coerce_str(payload.get("runtimeFile") or payload.get("runtime_file"))
+        limit = int(payload.get("limit") or 200)
+        if not package_dir:
+            return jsonify({"success": False, "error": "packageDir/path is required"})
+        from tools.handoff_candidates import generate_for_package
+        report = generate_for_package(Path(package_dir), Path(runtime_file) if runtime_file else None, limit=limit)
+        return jsonify({"success": True, "packageDir": package_dir, "report": report})
+    except Exception as e:
+        logger.exception("handoff candidates failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/case-candidates", methods=["POST"])
+def api_handoff_case_candidates():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_dir = _handoff_package_dir(payload.get("packageDir") or payload.get("path") or payload.get("packageId") or payload.get("package_id"))
+        if not package_dir:
+            return jsonify({"success": False, "error": "packageDir/path is required"})
+        from tools.handoff_case_candidates import generate_case_candidates
+        result = generate_case_candidates(package_dir, write_files=True)
+        return jsonify({"success": bool(result.get("success")), "packageDir": package_dir, "candidate": result.get("candidate", {}), "report": result.get("report", {})})
+    except Exception as e:
+        logger.exception("handoff case candidates failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/match", methods=["POST"])
+def api_handoff_match():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = _coerce_str(payload.get("packageId") or payload.get("package_id"))
+        limit = int(payload.get("limit") or 10)
+        threshold = float(payload.get("threshold") or 0.72)
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        from tools.handoff_matcher import match_targets
+        report = match_targets(package_id, limit=limit, threshold=threshold, write_report=True)
+        return jsonify({"success": bool(report.get("success")), "report": report})
+    except Exception as e:
+        logger.exception("handoff match failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/handoff/feedback", methods=["POST", "GET"])
+def api_handoff_feedback():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = _coerce_str(payload.get("packageId") or payload.get("package_id") or request.args.get("packageId") or request.args.get("package_id"))
+        if not package_id:
+            return jsonify({"success": False, "error": "packageId is required"})
+        from tools.handoff_feedback import generate_feedback, FEEDBACK_ROOT
+        feedback = generate_feedback(package_id, write_files=True)
+        return jsonify({
+            "success": True,
+            "packageId": package_id,
+            "feedback": feedback,
+            "outputs": {
+                "json": str(FEEDBACK_ROOT / f"{package_id}.qa_reader_feedback.json"),
+                "markdown": str(FEEDBACK_ROOT / f"{package_id}.qa_reader_feedback.md"),
+            },
+        })
+    except Exception as e:
+        logger.exception("handoff feedback failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/fix/tasks")
+def api_fix_tasks():
+    try:
+        limit = _coerce_int(request.args.get("limit"), 80)
+        tasks = _collect_fix_tasks(limit=limit)
+        summary = {}
+        by_severity = {}
+        by_responsibility = {}
+        for item in tasks:
+            category = item.get("category") or "unknown"
+            severity = item.get("severity") or "P2"
+            responsibility = item.get("responsibility") or "待归类"
+            summary[category] = summary.get(category, 0) + 1
+            by_severity[severity] = by_severity.get(severity, 0) + 1
+            by_responsibility[responsibility] = by_responsibility.get(responsibility, 0) + 1
+        return jsonify({
+            "success": True,
+            "tasks": tasks,
+            "total": len(tasks),
+            "summary": summary,
+            "bySeverity": by_severity,
+            "byResponsibility": by_responsibility,
+        })
+    except Exception as e:
+        logger.exception("fix tasks failed")
+        return jsonify({"success": False, "error": str(e), "tasks": []})
+
+
+@app.route("/api/report/handoff_trace")
+def api_report_handoff_trace():
+    try:
+        limit = _coerce_int(request.args.get("limit"), 80)
+        trace = _collect_handoff_report_trace(limit=limit)
+        return jsonify({"success": True, **trace})
+    except Exception as e:
+        logger.exception("handoff report trace failed")
+        return jsonify({"success": False, "error": str(e), "items": [], "issues": [], "summary": {}})
+
+
+@app.route("/api/handoff/artifacts")
+def api_handoff_artifacts():
+    try:
+        package_id = request.args.get("packageId") or request.args.get("package_id") or ""
+        limit = _coerce_int(request.args.get("limit"), 200)
+        items = _collect_handoff_artifacts(package_id=package_id, limit=limit)
+        summary = {}
+        for item in items:
+            kind = item.get("kind") or "unknown"
+            summary[kind] = summary.get(kind, 0) + 1
+        return jsonify({"success": True, "items": items, "total": len(items), "summary": summary})
+    except Exception as e:
+        logger.exception("handoff artifacts failed")
+        return jsonify({"success": False, "error": str(e), "items": []})
+
+
+@app.route("/api/handoff/artifact")
+def api_handoff_artifact():
+    try:
+        path = _resolve_handoff_artifact_path(request.args.get("path") or request.args.get("relPath") or "")
+        if not path:
+            return jsonify({"success": False, "error": "artifact_not_found_or_not_allowed"})
+        text = path.read_text(encoding="utf-8-sig")
+        preview = text[:120000]
+        parsed = None
+        try:
+            parsed = json.loads(text)
+        except Exception:
+            parsed = None
+        return jsonify({
+            "success": True,
+            "path": str(path),
+            "relPath": _artifact_rel(path),
+            "size": path.stat().st_size,
+            "updatedAt": time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(path.stat().st_mtime)),
+            "truncated": len(text) > len(preview),
+            "text": preview,
+            "json": parsed if isinstance(parsed, (dict, list)) else None,
+        })
+    except Exception as e:
+        logger.exception("handoff artifact read failed")
         return jsonify({"success": False, "error": str(e)})
 
 
@@ -9330,15 +10523,16 @@ def api_target_list():
         status = request.args.get("status", "")
         keyword = request.args.get("keyword", "")
         limit = int(request.args.get("limit", "200"))
+        include_repair = _coerce_bool(request.args.get("includeRepair"), False)
         if status == "ignored":
             result = _target_catalog().list_tasks(status=status, keyword=keyword, limit=limit)
             tasks = _normalize_confirmed_target_names(result.get("tasks", []))
         else:
             result = _target_catalog().list_tasks(status="", keyword=keyword, limit=max(limit, 5000))
-            tasks = _dedupe_confirmed_targets(result.get("tasks", []))
+            tasks = result.get("tasks", []) if include_repair else _dedupe_confirmed_targets(result.get("tasks", []))
             if status:
                 tasks = [t for t in tasks if _coerce_str(t.get("status")) == status]
-                tasks = tasks[:limit]
+            tasks = tasks[:limit]
         result["rawTotal"] = result.get("total", len(result.get("tasks", [])))
         result["rawReturned"] = result.get("returned", len(result.get("tasks", [])))
         result["total"] = len(tasks)

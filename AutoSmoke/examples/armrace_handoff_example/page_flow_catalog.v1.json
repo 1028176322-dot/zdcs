@@ -5,12 +5,16 @@
     {
       "page_id": "activity_main",
       "page_name": "常规活动主界面",
-      "entry_hint": "从主城活动入口进入"
+      "entry_hint": "从主城活动入口进入",
+      "back_hint": "返回",
+      "recovery_hint": "等待 2 秒"
     },
     {
       "page_id": "activity_armrace",
       "page_name": "军备竞赛主界面",
-      "entry_hint": "点击军备竞赛页签"
+      "entry_hint": "点击军备竞赛页签",
+      "back_hint": "返回",
+      "recovery_hint": "等待 2 秒"
     }
   ]
 }

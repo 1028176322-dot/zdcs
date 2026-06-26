@@ -1,6 +1,6 @@
 {
   "schema_version": "case_replay_status.v1",
-  "updated_at": "2026-06-18T11:23:13",
+  "updated_at": "2026-06-25T18:16:26",
   "cases": {
     "P1_REPLAY_LINK": {
       "caseId": "P1_REPLAY_LINK",
@@ -256,6 +256,22 @@
         "runtime.647b3c9358",
         "case.d5979892afa5"
       ]
+    },
+    "ARMRACE_BUSINESS_001": {
+      "caseId": "ARMRACE_BUSINESS_001",
+      "runId": "final_refine_api_verify_ARMRACE_BUSINESS_001",
+      "result": "DRY_RUN_PASS",
+      "testIds": [
+        "armrace.tab.button",
+        "armrace.score.text"
+      ],
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "resultPath": "",
+      "mappingGate": {},
+      "updatedAt": "2026-06-25T18:16:26",
+      "linkedTargets": []
     }
   }
 }

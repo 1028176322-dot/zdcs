@@ -394,6 +394,55 @@ def collect_business_assertions(ctx: HandoffContext, state_contract: dict[str, d
     return out
 
 
+def collect_value_assets(ctx: HandoffContext) -> dict[str, dict[str, Any]]:
+    payload = ctx.files.get("value_assets.v1.json", {})
+    assets = payload.get("assets", [])
+    if not isinstance(assets, list):
+        add_error(ctx, "VALUE_ASSETS_INVALID", "value_assets.assets must be a list", "value_assets.v1.json")
+        return {}
+    out: dict[str, dict[str, Any]] = {}
+    for index, item in enumerate(assets):
+        if not isinstance(item, dict):
+            add_error(ctx, "VALUE_ASSET_INVALID", f"value asset at index {index} must be an object", f"value_assets.v1.json#/assets/{index}")
+            continue
+        asset_id = safe_text(item.get("asset_id") or item.get("assetId") or item.get("id"))
+        if not asset_id:
+            add_error(ctx, "VALUE_ASSET_ID_MISSING", "asset_id is required", f"value_assets.v1.json#/assets/{index}")
+            continue
+        if asset_id in out:
+            add_error(ctx, "VALUE_ASSET_ID_DUPLICATE", f"duplicate asset_id: {asset_id}", f"value_assets.v1.json#/assets/{index}")
+            continue
+        out[asset_id] = item
+    ctx.files["_value_assets"] = out
+    return out
+
+
+def collect_external_refs(ctx: HandoffContext) -> dict[str, dict[str, Any]]:
+    payload = ctx.files.get("optional_external_refs.v1.json", {})
+    refs = payload.get("refs", [])
+    if not isinstance(refs, list):
+        add_error(ctx, "OPTIONAL_EXTERNAL_REFS_INVALID", "optional_external_refs.refs must be a list", "optional_external_refs.v1.json")
+        return {}
+    out: dict[str, dict[str, Any]] = {}
+    for index, item in enumerate(refs):
+        if not isinstance(item, dict):
+            add_error(ctx, "OPTIONAL_EXTERNAL_REF_INVALID", f"external ref at index {index} must be an object", f"optional_external_refs.v1.json#/refs/{index}")
+            continue
+        ref_id = safe_text(item.get("ref_id") or item.get("refId") or item.get("id"))
+        if not ref_id:
+            add_error(ctx, "OPTIONAL_EXTERNAL_REF_ID_MISSING", "ref_id is required", f"optional_external_refs.v1.json#/refs/{index}")
+            continue
+        if ref_id in out:
+            add_error(ctx, "OPTIONAL_EXTERNAL_REF_ID_DUPLICATE", f"duplicate ref_id: {ref_id}", f"optional_external_refs.v1.json#/refs/{index}")
+            continue
+        out[ref_id] = item
+        status = safe_text(item.get("status") or item.get("availability")).lower()
+        if item.get("required") is True and status not in {"", "ok", "ready", "available", "pass"}:
+            add_blocker(ctx, "REQUIRED_EXTERNAL_REF_NOT_READY", f"required external ref is not ready: {ref_id}", f"optional_external_refs.v1.json#/refs/{index}")
+    ctx.files["_optional_external_refs"] = out
+    return out
+
+
 def validate_assertion_refs(ctx: HandoffContext, cases: list[dict[str, Any]], assertions: dict[str, dict[str, Any]]) -> None:
     if "business_assertions.v1.json" not in ctx.files:
         return
@@ -420,7 +469,21 @@ def validate_business_files(ctx: HandoffContext) -> tuple[str, str]:
     present = {name for name in BUSINESS_FILES if name in ctx.files}
     if {"business_state_contract.v1.json", "business_assertions.v1.json"}.issubset(present):
         state_contract = collect_state_contract(ctx)
+        value_assets = collect_value_assets(ctx) if "value_assets.v1.json" in ctx.files else {}
+        external_refs = collect_external_refs(ctx) if "optional_external_refs.v1.json" in ctx.files else {}
         assertions = collect_business_assertions(ctx, state_contract)
+        for assertion_id, assertion in assertions.items():
+            asset_id = safe_text(assertion.get("expected_asset_id") or assertion.get("value_asset_id") or assertion.get("asset_id"))
+            if asset_id and asset_id not in value_assets:
+                add_blocker(ctx, "BUSINESS_ASSERTION_VALUE_ASSET_UNKNOWN", f"assertion {assertion_id} references unknown value asset: {asset_id}", "business_assertions.v1.json")
+            ref_ids = assertion.get("external_ref_ids") or assertion.get("external_refs") or assertion.get("externalRefIds") or []
+            if isinstance(ref_ids, str):
+                ref_ids = [ref_ids]
+            if isinstance(ref_ids, list):
+                for ref_id_raw in ref_ids:
+                    ref_id = safe_text(ref_id_raw)
+                    if ref_id and ref_id not in external_refs:
+                        add_blocker(ctx, "BUSINESS_ASSERTION_EXTERNAL_REF_UNKNOWN", f"assertion {assertion_id} references unknown external ref: {ref_id}", "business_assertions.v1.json")
         cases = ctx.files.get("manual_test_cases.v1.json", {}).get("test_cases", [])
         validate_assertion_refs(ctx, cases if isinstance(cases, list) else [], assertions)
         missing_optional = BUSINESS_FILES - present
@@ -761,6 +824,8 @@ def convert_targets(package_dir: Path) -> list[dict[str, Any]]:
 def business_plan_from_package(package_dir: Path) -> dict[str, Any]:
     ctx = load_package(package_dir)
     state_contract = collect_state_contract(ctx) if "business_state_contract.v1.json" in ctx.files else {}
+    value_assets = collect_value_assets(ctx) if "value_assets.v1.json" in ctx.files else {}
+    external_refs = collect_external_refs(ctx) if "optional_external_refs.v1.json" in ctx.files else {}
     assertions = collect_business_assertions(ctx, state_contract) if "business_assertions.v1.json" in ctx.files else {}
     collection_plan = []
     for state_path, item in sorted(state_contract.items()):
@@ -771,34 +836,167 @@ def business_plan_from_package(package_dir: Path) -> dict[str, Any]:
             "collection_timing": item.get("collection_timing") or ["before", "after"],
             "status": "READY" if safe_text(item.get("collector")) in SUPPORTED_STATE_COLLECTORS else "BLOCKED",
         }
-        for key in ("selector", "text_hint", "target_id", "target_name", "value_type", "description"):
+        for key in ("selector", "text_hint", "target_id", "target_name", "value_type", "description", "before_path", "after_path", "diff_threshold"):
             if item.get(key) not in (None, "", [], {}):
                 plan_item[key] = item.get(key)
         collection_plan.append(plan_item)
     assertion_plan = []
     for assertion_id, item in sorted(assertions.items()):
         state_paths = item.get("state_paths", [])
-        assertion_plan.append(
-            {
-                "assertion_id": assertion_id,
-                "state_paths": state_paths,
-                "operator": safe_text(item.get("operator") or item.get("type") or item.get("check")),
-                "expected": item.get("expected"),
-                "status": "READY" if state_paths and all(sp in state_contract for sp in state_paths) else "BLOCKED",
-                "source": item,
-            }
-        )
+        asset_id = safe_text(item.get("expected_asset_id") or item.get("value_asset_id") or item.get("asset_id"))
+        ref_ids = item.get("external_ref_ids") or item.get("external_refs") or item.get("externalRefIds") or []
+        if isinstance(ref_ids, str):
+            ref_ids = [ref_ids]
+        if not isinstance(ref_ids, list):
+            ref_ids = []
+        missing_asset = bool(asset_id and asset_id not in value_assets)
+        missing_refs = [safe_text(ref_id) for ref_id in ref_ids if safe_text(ref_id) and safe_text(ref_id) not in external_refs]
+        plan_item = {
+            "assertion_id": assertion_id,
+            "state_paths": state_paths,
+            "operator": safe_text(item.get("operator") or item.get("type") or item.get("check")),
+            "expected": item.get("expected"),
+            "expected_asset_id": asset_id,
+            "external_ref_ids": [safe_text(ref_id) for ref_id in ref_ids if safe_text(ref_id)],
+            "status": "READY" if state_paths and all(sp in state_contract for sp in state_paths) and not missing_asset and not missing_refs else "BLOCKED",
+            "source": item,
+        }
+        if asset_id and asset_id in value_assets:
+            plan_item["expected_from_asset"] = value_assets[asset_id]
+        if missing_asset:
+            plan_item["blocker"] = "value_asset_not_found"
+        if missing_refs:
+            plan_item["blocker"] = "external_ref_not_found"
+            plan_item["missing_external_refs"] = missing_refs
+        assertion_plan.append(plan_item)
     return {
         "state_contract": state_contract,
         "assertions": assertions,
+        "value_assets": value_assets,
+        "optional_external_refs": external_refs,
         "state_collection_plan": collection_plan,
         "business_assertion_plan": assertion_plan,
         "source_trace": ctx.files.get("source_trace.v1.json", {}),
     }
 
 
-def build_execution_plan(package_id: str, validation: dict[str, Any], cases: list[dict[str, Any]], targets: list[dict[str, Any]], business_plan: dict[str, Any] | None = None) -> dict[str, Any]:
+def _hint_to_navigation_action(hint: str, targets: list[dict[str, Any]], action_kind: str) -> dict[str, Any]:
+    hint_text = safe_text(hint)
+    if not hint_text:
+        return {"status": "NEEDS_RULE", "action_kind": action_kind, "hint": ""}
+    lowered = hint_text.lower()
+    if "返回" in hint_text or "back" in lowered:
+        return {"status": "READY_ACTION", "action_kind": action_kind, "action": "back", "hint": hint_text, "step_text": "返回"}
+    if "等待" in hint_text or "wait" in lowered:
+        return {"status": "READY_ACTION", "action_kind": action_kind, "action": "wait", "hint": hint_text, "step_text": "等待 2 秒"}
+    click_like = any(token in hint_text for token in ("点击", "点选", "进入", "打开")) or "click" in lowered
+    if click_like:
+        for target in targets:
+            names = [safe_text(target.get("targetName")), safe_text(target.get("displayName"))]
+            aliases = target.get("aliases", []) if isinstance(target.get("aliases"), list) else []
+            names.extend(safe_text(x) for x in aliases)
+            if any(name and name in hint_text for name in names):
+                test_id = safe_text(target.get("testId") or target.get("semanticId"))
+                return {
+                    "status": "READY_ACTION" if test_id else "NEEDS_BINDING",
+                    "action_kind": action_kind,
+                    "action": "click",
+                    "hint": hint_text,
+                    "target_id": safe_text(target.get("targetId")),
+                    "target_name": safe_text(target.get("targetName")),
+                    "test_id": test_id,
+                    "step_text": f'点击 testId("{test_id}")' if test_id else "",
+                }
+    return {"status": "MANUAL_REQUIRED", "action_kind": action_kind, "action": "manual", "hint": hint_text}
+
+
+def page_flow_plan_from_package(package_dir: Path) -> dict[str, Any]:
+    ctx = load_package(package_dir)
+    payload = ctx.files.get("page_flow_catalog.v1.json", {})
+    pages = payload.get("pages", []) if isinstance(payload.get("pages"), list) else []
+    targets = convert_targets(package_dir)
+    out = []
+    for item in pages:
+        if not isinstance(item, dict):
+            continue
+        page_id = safe_text(item.get("page_id") or item.get("pageId"))
+        if not page_id:
+            continue
+        entry_hint = safe_text(item.get("entry_hint") or item.get("entryHint"))
+        back_hint = safe_text(item.get("back_hint") or item.get("backHint") or item.get("return_hint") or item.get("returnHint"))
+        recovery_hint = safe_text(item.get("recovery_hint") or item.get("recoveryHint"))
+        entry_action = _hint_to_navigation_action(entry_hint, targets, "entry")
+        back_action = _hint_to_navigation_action(back_hint, targets, "back")
+        recovery_action = _hint_to_navigation_action(recovery_hint, targets, "recovery")
+        out.append({
+            "page_id": page_id,
+            "page_name": safe_text(item.get("page_name") or item.get("pageName")),
+            "entry_hint": entry_hint,
+            "back_hint": back_hint,
+            "recovery_hint": recovery_hint,
+            "entry_status": entry_action.get("status"),
+            "back_status": back_action.get("status"),
+            "recovery_status": recovery_action.get("status"),
+            "entry_action": entry_action,
+            "back_action": back_action,
+            "recovery_action": recovery_action,
+            "source": item,
+        })
+    return {
+        "schema_version": "autosmoke_page_flow_execution_plan.v1",
+        "pages": out,
+        "unresolved_pages": [p["page_id"] for p in out if p["entry_status"] in {"NEEDS_RULE", "MANUAL_REQUIRED", "NEEDS_BINDING"}],
+    }
+
+
+def test_data_plan_from_package(package_dir: Path) -> dict[str, Any]:
+    ctx = load_package(package_dir)
+    payload = ctx.files.get("test_data_profile.v1.json", {})
+    profiles = payload.get("profiles", []) if isinstance(payload.get("profiles"), list) else []
+    preconditions = payload.get("preconditions", []) if isinstance(payload.get("preconditions"), list) else []
+    profile_plan = []
+    for item in profiles:
+        if not isinstance(item, dict):
+            continue
+        profile_plan.append({
+            "profile_id": safe_text(item.get("profile_id") or item.get("profileId") or item.get("id")) or "default",
+            "description": safe_text(item.get("description")),
+            "status": "READY_HINT",
+            "source": item,
+        })
+    precondition_plan = []
+    for index, item in enumerate(preconditions):
+        if not isinstance(item, dict):
+            precondition_plan.append({"precondition_id": f"precondition_{index + 1}", "status": "BLOCKED", "reason": "invalid_precondition"})
+            continue
+        check_type = safe_text(item.get("type") or item.get("check_type") or item.get("checkType") or "manual")
+        precondition_plan.append({
+            "precondition_id": safe_text(item.get("precondition_id") or item.get("preconditionId") or item.get("id")) or f"precondition_{index + 1}",
+            "type": check_type,
+            "description": safe_text(item.get("description")),
+            "status": "READY_HINT" if check_type in {"manual", "account_state", "resource", "feature_flag"} else "NEEDS_ADAPTER",
+            "source": item,
+        })
+    return {
+        "schema_version": "autosmoke_test_data_prepare_plan.v1",
+        "profiles": profile_plan,
+        "preconditions": precondition_plan,
+        "unresolved_preconditions": [p["precondition_id"] for p in precondition_plan if p["status"] == "NEEDS_ADAPTER"],
+    }
+
+
+def build_execution_plan(
+    package_id: str,
+    validation: dict[str, Any],
+    cases: list[dict[str, Any]],
+    targets: list[dict[str, Any]],
+    business_plan: dict[str, Any] | None = None,
+    page_flow_plan: dict[str, Any] | None = None,
+    test_data_plan: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     business_plan = business_plan if isinstance(business_plan, dict) else {}
+    page_flow_plan = page_flow_plan if isinstance(page_flow_plan, dict) else {}
+    test_data_plan = test_data_plan if isinstance(test_data_plan, dict) else {}
     target_by_id = {safe_text(t.get("targetId")): t for t in targets if isinstance(t, dict)}
     assertion_by_id = business_plan.get("assertions", {}) if isinstance(business_plan.get("assertions"), dict) else {}
     used_assertions: set[str] = set()
@@ -872,8 +1070,12 @@ def build_execution_plan(package_id: str, validation: dict[str, Any], cases: lis
         "plan_status": plan_status,
         "unresolved_targets": sorted(unresolved_targets),
         "unresolved_assertions": sorted(unresolved_assertions),
+        "navigation_plan": page_flow_plan,
+        "test_data_prepare_plan": test_data_plan,
         "state_collection_plan": business_plan.get("state_collection_plan", []),
         "business_assertion_plan": business_plan.get("business_assertion_plan", []),
+        "value_assets": business_plan.get("value_assets", {}),
+        "optional_external_refs": business_plan.get("optional_external_refs", {}),
         "source_trace": business_plan.get("source_trace", {}),
         "unused_business_assertions": sorted(set(assertion_by_id.keys()) - used_assertions),
         "cases": planned_cases,
@@ -891,7 +1093,17 @@ def import_package(package_dir: Path, write_queue: bool = True, write_semantic_p
     cases = convert_cases(package_dir)
     targets = convert_targets(package_dir)
     business_plan = business_plan_from_package(package_dir)
-    execution_plan = build_execution_plan(package_id, validation, cases, targets, business_plan=business_plan)
+    page_flow_plan = page_flow_plan_from_package(package_dir)
+    test_data_plan = test_data_plan_from_package(package_dir)
+    execution_plan = build_execution_plan(
+        package_id,
+        validation,
+        cases,
+        targets,
+        business_plan=business_plan,
+        page_flow_plan=page_flow_plan,
+        test_data_plan=test_data_plan,
+    )
     semantic_pending = (
         feed_semantic_pending_from_candidates(targets, package_id)
         if write_semantic_pending
@@ -910,6 +1122,7 @@ def import_package(package_dir: Path, write_queue: bool = True, write_semantic_p
         queue_result = TargetCatalog(metadata_dir=str(METADATA)).import_targets({"targets": targets})
 
     report = {
+        "success": True,
         "schema_version": "autosmoke_handoff_import_report.v1",
         "package_id": package_id,
         "feature_id": validation["feature_id"],

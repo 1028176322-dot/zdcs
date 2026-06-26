@@ -4,7 +4,8 @@
   "assets": [
     {
       "asset_id": "ARM_SCORE_TEXT_RULE",
-      "description": "积分文本应可被采集为非空字符串"
+      "description": "积分文本应包含积分关键词",
+      "expected": "积分"
     }
   ]
 }

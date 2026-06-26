@@ -7,6 +7,136 @@
   "plan_status": "READY_TO_RUN",
   "unresolved_targets": [],
   "unresolved_assertions": [],
+  "navigation_plan": {
+    "schema_version": "autosmoke_page_flow_execution_plan.v1",
+    "pages": [
+      {
+        "page_id": "activity_main",
+        "page_name": "常规活动主界面",
+        "entry_hint": "从主城活动入口进入",
+        "back_hint": "返回",
+        "recovery_hint": "等待 2 秒",
+        "entry_status": "MANUAL_REQUIRED",
+        "back_status": "READY_ACTION",
+        "recovery_status": "READY_ACTION",
+        "entry_action": {
+          "status": "MANUAL_REQUIRED",
+          "action_kind": "entry",
+          "action": "manual",
+          "hint": "从主城活动入口进入"
+        },
+        "back_action": {
+          "status": "READY_ACTION",
+          "action_kind": "back",
+          "action": "back",
+          "hint": "返回",
+          "step_text": "返回"
+        },
+        "recovery_action": {
+          "status": "READY_ACTION",
+          "action_kind": "recovery",
+          "action": "wait",
+          "hint": "等待 2 秒",
+          "step_text": "等待 2 秒"
+        },
+        "source": {
+          "page_id": "activity_main",
+          "page_name": "常规活动主界面",
+          "entry_hint": "从主城活动入口进入",
+          "back_hint": "返回",
+          "recovery_hint": "等待 2 秒"
+        }
+      },
+      {
+        "page_id": "activity_armrace",
+        "page_name": "军备竞赛主界面",
+        "entry_hint": "点击军备竞赛页签",
+        "back_hint": "返回",
+        "recovery_hint": "等待 2 秒",
+        "entry_status": "READY_ACTION",
+        "back_status": "READY_ACTION",
+        "recovery_status": "READY_ACTION",
+        "entry_action": {
+          "status": "READY_ACTION",
+          "action_kind": "entry",
+          "action": "click",
+          "hint": "点击军备竞赛页签",
+          "target_id": "TGT_ARMRACE_TAB",
+          "target_name": "军备竞赛页签",
+          "test_id": "armrace.tab.button",
+          "step_text": "点击 testId(\"armrace.tab.button\")"
+        },
+        "back_action": {
+          "status": "READY_ACTION",
+          "action_kind": "back",
+          "action": "back",
+          "hint": "返回",
+          "step_text": "返回"
+        },
+        "recovery_action": {
+          "status": "READY_ACTION",
+          "action_kind": "recovery",
+          "action": "wait",
+          "hint": "等待 2 秒",
+          "step_text": "等待 2 秒"
+        },
+        "source": {
+          "page_id": "activity_armrace",
+          "page_name": "军备竞赛主界面",
+          "entry_hint": "点击军备竞赛页签",
+          "back_hint": "返回",
+          "recovery_hint": "等待 2 秒"
+        }
+      }
+    ],
+    "unresolved_pages": [
+      "activity_main"
+    ]
+  },
+  "test_data_prepare_plan": {
+    "schema_version": "autosmoke_test_data_prepare_plan.v1",
+    "profiles": [
+      {
+        "profile_id": "default",
+        "description": "具备进入活动页的账号，业务积分状态通过 UI runtime tree 采集",
+        "status": "READY_HINT",
+        "source": {
+          "profile_id": "default",
+          "description": "具备进入活动页的账号，业务积分状态通过 UI runtime tree 采集"
+        }
+      }
+    ],
+    "preconditions": [
+      {
+        "precondition_id": "ARM_ACCOUNT_READY",
+        "type": "manual",
+        "description": "测试账号已登录并可进入活动入口",
+        "status": "READY_HINT",
+        "source": {
+          "precondition_id": "ARM_ACCOUNT_READY",
+          "type": "manual",
+          "description": "测试账号已登录并可进入活动入口",
+          "severity": "warning"
+        }
+      },
+      {
+        "precondition_id": "ARM_ACTIVITY_OPEN",
+        "type": "feature_flag",
+        "description": "军备竞赛活动入口已开启",
+        "status": "READY_HINT",
+        "source": {
+          "precondition_id": "ARM_ACTIVITY_OPEN",
+          "type": "feature_flag",
+          "description": "军备竞赛活动入口已开启",
+          "key": "activity.armrace.open",
+          "operator": "equals",
+          "expected": true,
+          "severity": "blocking"
+        }
+      }
+    ],
+    "unresolved_preconditions": []
+  },
   "state_collection_plan": [
     {
       "state_path": "activity.armrace.score_text",
@@ -31,8 +161,12 @@
       "state_paths": [
         "activity.armrace.score_text"
       ],
-      "operator": "not_empty",
-      "expected": true,
+      "operator": "contains",
+      "expected": null,
+      "expected_asset_id": "ARM_SCORE_TEXT_RULE",
+      "external_ref_ids": [
+        "ARM_ACTIVITY_CONFIG"
+      ],
       "status": "READY",
       "source": {
         "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
@@ -40,11 +174,35 @@
         "state_paths": [
           "activity.armrace.score_text"
         ],
-        "operator": "not_empty",
-        "expected": true
+        "operator": "contains",
+        "expected_asset_id": "ARM_SCORE_TEXT_RULE",
+        "external_ref_ids": [
+          "ARM_ACTIVITY_CONFIG"
+        ]
+      },
+      "expected_from_asset": {
+        "asset_id": "ARM_SCORE_TEXT_RULE",
+        "description": "积分文本应包含积分关键词",
+        "expected": "积分"
       }
     }
   ],
+  "value_assets": {
+    "ARM_SCORE_TEXT_RULE": {
+      "asset_id": "ARM_SCORE_TEXT_RULE",
+      "description": "积分文本应包含积分关键词",
+      "expected": "积分"
+    }
+  },
+  "optional_external_refs": {
+    "ARM_ACTIVITY_CONFIG": {
+      "ref_id": "ARM_ACTIVITY_CONFIG",
+      "type": "config",
+      "description": "军备竞赛活动配置已发布",
+      "required": true,
+      "status": "ready"
+    }
+  },
   "source_trace": {
     "schema_version": "source_trace.v1",
     "feature_id": "armrace",
@@ -121,5 +279,5 @@
       ]
     }
   ],
-  "generated_at": "2026-06-25T12:40:36"
+  "generated_at": "2026-06-25T18:14:52"
 }

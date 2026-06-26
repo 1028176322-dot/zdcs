@@ -6,8 +6,9 @@
       "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
       "title": "军备竞赛积分文本可见",
       "state_paths": ["activity.armrace.score_text"],
-      "operator": "not_empty",
-      "expected": true
+      "operator": "contains",
+      "expected_asset_id": "ARM_SCORE_TEXT_RULE",
+      "external_ref_ids": ["ARM_ACTIVITY_CONFIG"]
     }
   ]
 }

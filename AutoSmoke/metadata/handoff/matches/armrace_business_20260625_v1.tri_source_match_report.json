@@ -1,0 +1,454 @@
+{
+  "schema_version": "handoff_tri_source_match_report.v1",
+  "success": true,
+  "package_id": "armrace_business_20260625_v1",
+  "tasks_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\mapping_tasks_from_handoff.json",
+  "threshold": 0.72,
+  "summary": {
+    "target_count": 2,
+    "recommended": 0,
+    "needs_review": 2,
+    "blocked": 0
+  },
+  "results": [
+    {
+      "targetId": "TGT_ARMRACE_TAB",
+      "targetName": "军备竞赛页签",
+      "pageHint": "常规活动主界面",
+      "role": "tab",
+      "elementType": "Button",
+      "status": "NEEDS_REVIEW",
+      "bestCandidate": {
+        "draftPath": "Assets/CasualGame/Common/CommonBtn.prefab::CommonBtn/CloseButton",
+        "displayName": "CommonBtn-关闭弹窗-按钮",
+        "pageId": "CommonBtn",
+        "role": "close_popup",
+        "elementType": "button",
+        "reviewStatus": "pending",
+        "score": 0.4,
+        "reasons": [
+          "name_match",
+          "role_or_type_match",
+          "code_semantic"
+        ],
+        "risks": [
+          "page_mismatch",
+          "screen_rect_missing"
+        ],
+        "runtimeMatched": false,
+        "testId": "CommonBtn.CloseButton",
+        "semanticId": "",
+        "sourceBreakdown": {
+          "ui_tree": 0.55,
+          "code_semantics": 1.0,
+          "runtime": 0.0,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ]
+        }
+      },
+      "candidates": [
+        {
+          "draftPath": "Assets/CasualGame/Common/CommonBtn.prefab::CommonBtn/CloseButton",
+          "displayName": "CommonBtn-关闭弹窗-按钮",
+          "pageId": "CommonBtn",
+          "role": "close_popup",
+          "elementType": "button",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "CommonBtn.CloseButton",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/CasualGame/Common/CommonBtn.prefab::CommonBtn/ResetButton",
+          "displayName": "CommonBtn-普通操作-按钮",
+          "pageId": "CommonBtn",
+          "role": "normal_action",
+          "elementType": "button",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "CommonBtn.ResetButton",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommander.prefab::UIActivityCommander/Root/StageNode/DayScroll/View/StageTabContent/StageTabItem",
+          "displayName": "UIActivityCommander-切换页签-页签",
+          "pageId": "UIActivityCommander",
+          "role": "switch_tab",
+          "elementType": "tab",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIActivityCommander.StageTabItem",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGFight.prefab::UIActivityGVGFight/Pages/Detail/Tabs/Tab1",
+          "displayName": "UIActivityGVGFight-切换页签-可交互图标",
+          "pageId": "UIActivityGVGFight",
+          "role": "switch_tab",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIActivityGVGFight.Tab1",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing",
+              "duplicate_name"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityGVGFight.prefab::UIActivityGVGFight/Pages/Detail/Tabs/Tab2",
+          "displayName": "UIActivityGVGFight-切换页签-可交互图标",
+          "pageId": "UIActivityGVGFight",
+          "role": "switch_tab",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.4,
+          "reasons": [
+            "name_match",
+            "role_or_type_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIActivityGVGFight.Tab2",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing",
+              "duplicate_name"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "targetId": "TGT_ARMRACE_SCORE_TEXT",
+      "targetName": "军备竞赛积分文本",
+      "pageHint": "军备竞赛主界面",
+      "role": "text",
+      "elementType": "Text",
+      "status": "NEEDS_REVIEW",
+      "bestCandidate": {
+        "draftPath": "UIHeroNew_heroList/Content/imgSoldier",
+        "displayName": "角色信息-玩家战力文本",
+        "pageId": "character_info",
+        "role": "text",
+        "elementType": "Text",
+        "reviewStatus": "visual_confirmed",
+        "score": 0.2,
+        "reasons": [
+          "name_match",
+          "role_or_type_match"
+        ],
+        "risks": [
+          "page_mismatch",
+          "screen_rect_missing"
+        ],
+        "runtimeMatched": false,
+        "testId": "character_info.player_power.text",
+        "semanticId": "character_info.player_power.text",
+        "sourceBreakdown": {
+          "ui_tree": 0.55,
+          "code_semantics": 0.35,
+          "runtime": 0.0,
+          "reasons": [
+            "name_match",
+            "role_or_type_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ]
+        }
+      },
+      "candidates": [
+        {
+          "draftPath": "UIHeroNew_heroList/Content/imgSoldier",
+          "displayName": "角色信息-玩家战力文本",
+          "pageId": "character_info",
+          "role": "text",
+          "elementType": "Text",
+          "reviewStatus": "visual_confirmed",
+          "score": 0.2,
+          "reasons": [
+            "name_match",
+            "role_or_type_match"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "character_info.player_power.text",
+          "semanticId": "character_info.player_power.text",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 0.35,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "role_or_type_match"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/Activity/UIActivityCommander.prefab::UIActivityCommander/Root/StageNode/PhasesInfo/StageScoreSourceBtn",
+          "displayName": "UIActivityCommander-普通操作-可交互图标",
+          "pageId": "UIActivityCommander",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "pending",
+          "score": 0.2,
+          "reasons": [
+            "name_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIActivityCommander.StageScoreSourceBtn",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceSkill/UIAllianceSkillDonate.prefab::UIAllianceSkillDonate/Root/Content/StateDonate/Reward/Stone/Text/Icon",
+          "displayName": "UIAllianceSkillDonate-普通操作-可交互图标",
+          "pageId": "UIAllianceSkillDonate",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 0.2,
+          "reasons": [
+            "name_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIAllianceSkillDonate.Icon",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing",
+              "duplicate_name"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceSkill/UIAllianceSkillDonate.prefab::UIAllianceSkillDonate/Root/Content/StateDonate/Reward/Contribute/Text/Icon",
+          "displayName": "UIAllianceSkillDonate-普通操作-可交互图标",
+          "pageId": "UIAllianceSkillDonate",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 0.2,
+          "reasons": [
+            "name_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIAllianceSkillDonate.Icon",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing",
+              "duplicate_name"
+            ]
+          }
+        },
+        {
+          "draftPath": "Assets/k1/K1D1/Res/UI/Panel/AllianceSkill/UIAllianceSkillDonate.prefab::UIAllianceSkillDonate/Root/Content/StateDonate/Reward/Union/Text/Icon",
+          "displayName": "UIAllianceSkillDonate-普通操作-可交互图标",
+          "pageId": "UIAllianceSkillDonate",
+          "role": "normal_action",
+          "elementType": "interactive_icon",
+          "reviewStatus": "auto_draft",
+          "score": 0.2,
+          "reasons": [
+            "name_match",
+            "code_semantic"
+          ],
+          "risks": [
+            "page_mismatch",
+            "screen_rect_missing",
+            "duplicate_name"
+          ],
+          "runtimeMatched": false,
+          "testId": "UIAllianceSkillDonate.Icon",
+          "semanticId": "",
+          "sourceBreakdown": {
+            "ui_tree": 0.55,
+            "code_semantics": 1.0,
+            "runtime": 0.0,
+            "reasons": [
+              "name_match",
+              "code_semantic"
+            ],
+            "risks": [
+              "page_mismatch",
+              "screen_rect_missing",
+              "duplicate_name"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-25T16:59:26"
+}

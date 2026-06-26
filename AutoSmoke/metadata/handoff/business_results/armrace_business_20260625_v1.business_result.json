@@ -3,40 +3,42 @@
   "success": true,
   "package_id": "armrace_business_20260625_v1",
   "plan_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
-  "runtime_path": "E:\\zdcs\\AutoSmoke\\examples\\armrace_handoff_business_example\\runtime_ui_tree_score_example.json",
+  "runtime_path": "E:\\zdcs\\AutoSmoke\\examples\\armrace_handoff_business_example\\runtime_state_example.json",
+  "external_refs": {
+    "ARM_ACTIVITY_CONFIG": {
+      "ref_id": "ARM_ACTIVITY_CONFIG",
+      "type": "config",
+      "description": "军备竞赛活动配置已发布",
+      "required": true,
+      "status": "ready"
+    }
+  },
   "state_results": [
     {
       "success": true,
       "state_path": "activity.armrace.score_text",
-      "value": "积分 1200",
-      "node": {
-        "runtimePath": "Activity/ArmRace/ScoreText",
-        "nodeName": "ScoreText",
-        "text": "积分 1200",
-        "pageId": "activity_armrace",
-        "screenRect": [
-          100,
-          100,
-          300,
-          140
-        ]
-      },
-      "collector": "ui_runtime_tree"
+      "value": "积分 168,922",
+      "collector": "runtime_state_json",
+      "source_collector": "ui_runtime_tree"
     }
   ],
   "state_values": {
-    "activity.armrace.score_text": "积分 1200"
+    "activity.armrace.score_text": "积分 168,922"
   },
   "assertion_results": [
     {
       "assertion_id": "ASSERT_ARMRACE_SCORE_VISIBLE",
       "passed": true,
-      "operator": "not_empty",
+      "operator": "contains",
       "actual": {
-        "activity.armrace.score_text": "积分 1200"
+        "activity.armrace.score_text": "积分 168,922"
       },
-      "expected": true,
+      "expected": "积分",
       "missing": [],
+      "value_asset": {
+        "asset_id": "ARM_SCORE_TEXT_RULE",
+        "description": "积分文本应包含积分关键词"
+      },
       "source_trace": [
         {
           "source_id": "REQ-ARMRACE-BIZ-001",
@@ -49,5 +51,5 @@
       ]
     }
   ],
-  "executed_at": "2026-06-25T12:41:31"
+  "executed_at": "2026-06-26T10:16:32"
 }

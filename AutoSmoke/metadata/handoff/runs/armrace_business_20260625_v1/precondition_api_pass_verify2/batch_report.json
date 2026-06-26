@@ -1,0 +1,124 @@
+{
+  "batch_name": "precondition_api_pass_verify2",
+  "timestamp": "2026-06-25T17:15:06",
+  "mode": "dry_run",
+  "package_id": "armrace_business_20260625_v1",
+  "total_cases": 1,
+  "passed_cases": 0,
+  "failed_cases": 1,
+  "total_steps": 2,
+  "passed_steps": 0,
+  "failed_steps": 1,
+  "case_results": [
+    {
+      "case_id": "ARMRACE_BUSINESS_001",
+      "run_id": "precondition_api_pass_verify2_ARMRACE_BUSINESS_001",
+      "result": "BLOCKED",
+      "total": 2,
+      "passed": 0,
+      "failed": 1,
+      "steps": [
+        {
+          "step_index": 1,
+          "raw": "点击 testId(\"armrace.tab.button\")",
+          "result": "DRY_RUN"
+        },
+        {
+          "step_index": 2,
+          "raw": "断言存在 testId(\"armrace.score.text\")",
+          "result": "DRY_RUN"
+        }
+      ],
+      "issues": [
+        {
+          "reason": "manual_required",
+          "action_kind": "entry",
+          "hint": "从主城活动入口进入",
+          "target_id": "",
+          "code": "NAVIGATION_NOT_EXECUTABLE",
+          "severity": "warning",
+          "case_id": "ARMRACE_BUSINESS_001",
+          "step_order": "nav_1"
+        },
+        {
+          "code": "PRECONDITION_FAILED",
+          "severity": "blocking",
+          "precondition_id": "ARM_ACTIVITY_OPEN",
+          "type": "feature_flag",
+          "actual": null,
+          "expected": true,
+          "warning": ""
+        }
+      ]
+    }
+  ],
+  "plan_issues": [
+    {
+      "reason": "manual_required",
+      "action_kind": "entry",
+      "hint": "从主城活动入口进入",
+      "target_id": "",
+      "code": "NAVIGATION_NOT_EXECUTABLE",
+      "severity": "warning",
+      "case_id": "ARMRACE_BUSINESS_001",
+      "step_order": "nav_1"
+    },
+    {
+      "code": "PRECONDITION_FAILED",
+      "severity": "warning",
+      "precondition_id": "ARM_ACCOUNT_READY",
+      "type": "manual",
+      "actual": null,
+      "expected": null,
+      "warning": "manual_precondition_not_confirmed"
+    },
+    {
+      "code": "PRECONDITION_FAILED",
+      "severity": "blocking",
+      "precondition_id": "ARM_ACTIVITY_OPEN",
+      "type": "feature_flag",
+      "actual": null,
+      "expected": true,
+      "warning": ""
+    }
+  ],
+  "precondition_result": {
+    "schema_version": "autosmoke_handoff_precondition_result.v1",
+    "success": false,
+    "package_id": "armrace_business_20260625_v1",
+    "plan_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+    "state_path": "AutoSmoke\\examples\\armrace_handoff_business_example\\runtime_state_example.json",
+    "total": 2,
+    "passed": 0,
+    "blocked": 1,
+    "warnings": 1,
+    "results": [
+      {
+        "precondition_id": "ARM_ACCOUNT_READY",
+        "type": "manual",
+        "passed": false,
+        "severity": "warning",
+        "warning": "manual_precondition_not_confirmed"
+      },
+      {
+        "precondition_id": "ARM_ACTIVITY_OPEN",
+        "type": "feature_flag",
+        "passed": false,
+        "severity": "blocking",
+        "key": "activity.armrace.open",
+        "operator": "equals",
+        "actual": null,
+        "expected": true
+      }
+    ],
+    "executed_at": "2026-06-25T17:15:06"
+  },
+  "success": false,
+  "plan_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+  "generated_steps": {
+    "ARMRACE_BUSINESS_001": [
+      "点击 testId(\"armrace.tab.button\")",
+      "断言存在 testId(\"armrace.score.text\")"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "handoff_candidate_generation_report.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "feature_id": "armrace",
+  "outputs": {
+    "target_name_catalog_candidates": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\candidates\\armrace_business_20260625_v1\\target_name_catalog.candidates.json",
+    "business_assertions_candidates": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\candidates\\armrace_business_20260625_v1\\business_assertions.candidates.json"
+  },
+  "generated_at": "2026-06-25T14:39:22"
+}

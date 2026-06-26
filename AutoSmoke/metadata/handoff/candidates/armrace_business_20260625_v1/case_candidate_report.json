@@ -1,0 +1,11 @@
+{
+  "schema_version": "autosmoke_handoff_case_candidate_report.v1",
+  "success": true,
+  "package_id": "armrace_business_20260625_v1",
+  "package_dir": "E:\\zdcs\\AutoSmoke\\examples\\armrace_handoff_business_example",
+  "source_file": "feature_flow_review_result.v1.json",
+  "candidate_count": 1,
+  "skipped": [],
+  "output": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\candidates\\armrace_business_20260625_v1\\manual_test_cases.candidate.json",
+  "generated_at": "2026-06-26T10:03:42"
+}

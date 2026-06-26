@@ -1,302 +1,9 @@
 {
     "schemaVersion": "scene_interaction_tree/v1",
-    "exportedAt": "2026-06-25T12:56:38",
+    "exportedAt": "2026-06-25T18:43:31",
     "sceneId": "DemoLogo",
-    "objectCount": 86,
+    "objectCount": 87,
     "objects": [
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "building_object",
-            "name": "2_RBuildingGuildhall_11181102",
-            "gameObjectPath": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102",
-            "worldPosition": [
-                1692.0,
-                0.0,
-                4782.0
-            ],
-            "screenRect": [],
-            "clickTargetNode": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102",
-            "visualNode": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "script handler + building_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655111080009485556-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "worldPosition": [
-                1702.4300537109375,
-                0.0,
-                4772.02001953125
-            ],
-            "screenRect": [
-                1205.0,
-                -381.0,
-                1389.0,
-                -185.0
-            ],
-            "clickTargetNode": "7200_s1/7655111080009485556-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "visualNode": "7200_s1/7655111080009485556-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655126541891538642-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "worldPosition": [
-                1681.6400146484375,
-                0.0,
-                4783.97021484375
-            ],
-            "screenRect": [
-                -148.0,
-                323.0,
-                52.0,
-                480.0
-            ],
-            "clickTargetNode": "7200_s1/7655126541891538642-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "visualNode": "7200_s1/7655126541891538642-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655033770597660763-LOD-0/LoggingCamps_lv1(Clone)/LoggingCamps_lv1/Collider",
-            "worldPosition": [
-                1693.6800537109375,
-                0.10000000149011612,
-                4762.83984375
-            ],
-            "screenRect": [
-                593.0,
-                -1057.0,
-                827.0,
-                -807.0
-            ],
-            "clickTargetNode": "7200_s1/7655033770597660763-LOD-0/LoggingCamps_lv1(Clone)/LoggingCamps_lv1/Collider",
-            "visualNode": "7200_s1/7655033770597660763-LOD-0/LoggingCamps_lv1(Clone)/LoggingCamps_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655126541891541512-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "worldPosition": [
-                1680.0400390625,
-                0.0,
-                4832.5
-            ],
-            "screenRect": [
-                11.0,
-                2079.0,
-                147.0,
-                2156.0
-            ],
-            "clickTargetNode": "7200_s1/7655126541891541512-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "visualNode": "7200_s1/7655126541891541512-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)/OuterEnemy_4/Collider",
-            "worldPosition": [
-                1701.800048828125,
-                0.0,
-                4795.4599609375
-            ],
-            "screenRect": [
-                1022.0,
-                846.0,
-                1226.0,
-                1017.0
-            ],
-            "clickTargetNode": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)/OuterEnemy_4/Collider",
-            "visualNode": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)/OuterEnemy_4/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "npc_object",
-            "name": "OuterEnemy_4(Clone)",
-            "gameObjectPath": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)",
-            "worldPosition": [
-                1701.800048828125,
-                0.0,
-                4795.4599609375
-            ],
-            "screenRect": [],
-            "clickTargetNode": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)",
-            "visualNode": "7200_s1/7655157465656164452-Warship-5/OuterEnemy_4(Clone)",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "script handler + npc_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)/OuterEnemy_2/Collider",
-            "worldPosition": [
-                1684.9200439453125,
-                0.0,
-                4839.5498046875
-            ],
-            "screenRect": [
-                213.0,
-                2236.0,
-                382.0,
-                2329.0
-            ],
-            "clickTargetNode": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)/OuterEnemy_2/Collider",
-            "visualNode": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)/OuterEnemy_2/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "npc_object",
-            "name": "OuterEnemy_2(Clone)",
-            "gameObjectPath": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)",
-            "worldPosition": [
-                1684.9200439453125,
-                0.0,
-                4839.5498046875
-            ],
-            "screenRect": [],
-            "clickTargetNode": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)",
-            "visualNode": "7200_s1/7655142003773853844-Warship-0/OuterEnemy_2(Clone)",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "script handler + npc_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/102071-LOD-0/Quarry(Clone)/Quarry/Collider",
-            "worldPosition": [
-                1692.0,
-                0.0,
-                4794.0
-            ],
-            "screenRect": [
-                354.0,
-                692.0,
-                801.0,
-                1038.0
-            ],
-            "clickTargetNode": "7200_s1/102071-LOD-0/Quarry(Clone)/Quarry/Collider",
-            "visualNode": "7200_s1/102071-LOD-0/Quarry(Clone)/Quarry/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655111080009485569-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "worldPosition": [
-                1690.1600341796875,
-                0.0,
-                4831.3798828125
-            ],
-            "screenRect": [
-                441.0,
-                2051.0,
-                570.0,
-                2129.0
-            ],
-            "clickTargetNode": "7200_s1/7655111080009485569-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "visualNode": "7200_s1/7655111080009485569-LOD-0/IronOre_lv1(Clone)/IronOre_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102/CityHall_lv1(Clone)/Root/Collider",
-            "worldPosition": [
-                1692.0,
-                0.0,
-                4782.0
-            ],
-            "screenRect": [
-                426.0,
-                163.0,
-                737.0,
-                431.0
-            ],
-            "clickTargetNode": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102/CityHall_lv1(Clone)/Root/Collider",
-            "visualNode": "7200_s1/7654804655566040714/2_RBuildingGuildhall_11181102/CityHall_lv1(Clone)/Root/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Ground",
-            "gameObjectPath": "7200_s1/7654804655566040714/2_RBuildingWall_11182101/Wall_test(Clone)/Ground",
-            "worldPosition": [
-                1692.0,
-                0.0,
-                4782.0
-            ],
-            "screenRect": [
-                585.0,
-                300.0,
-                585.0,
-                300.0
-            ],
-            "clickTargetNode": "7200_s1/7654804655566040714/2_RBuildingWall_11182101/Wall_test(Clone)/Ground",
-            "visualNode": "7200_s1/7654804655566040714/2_RBuildingWall_11182101/Wall_test(Clone)/Ground",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655033770597653587-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "worldPosition": [
-                1712.22998046875,
-                0.0,
-                4817.740234375
-            ],
-            "screenRect": [
-                1467.0,
-                1672.0,
-                1588.0,
-                1765.0
-            ],
-            "clickTargetNode": "7200_s1/7655033770597653587-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "visualNode": "7200_s1/7655033770597653587-LOD-0/GoldOre_lv1(Clone)/GoldOre_lv1/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
         {
             "sceneId": "DemoLogo",
             "objectType": "scene_object",
@@ -308,10 +15,10 @@
                 -488.05999755859377
             ],
             "screenRect": [
-                3540.0,
-                6116.0,
-                3538.0,
-                6114.0
+                -590.0,
+                -4.0,
+                -588.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot22_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot22_Reward10001001_1/root/Collider",
@@ -330,10 +37,10 @@
                 -488.6300048828125
             ],
             "screenRect": [
-                3524.0,
-                6111.0,
-                3522.0,
-                6108.0
+                -579.0,
+                -1.0,
+                -577.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot22_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot22_Reward3000010_0/Collider",
@@ -352,10 +59,10 @@
                 -479.29998779296877
             ],
             "screenRect": [
-                3573.0,
-                6117.0,
-                3572.0,
-                6114.0
+                -612.0,
+                -4.0,
+                -610.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot21_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot21_Reward10001001_1/root/Collider",
@@ -374,10 +81,10 @@
                 -485.4599914550781
             ],
             "screenRect": [
-                3554.0,
-                6111.0,
-                3552.0,
-                6108.0
+                -600.0,
+                -1.0,
+                -599.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot21_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot21_Reward3000010_0/Collider",
@@ -396,10 +103,10 @@
                 -459.57000732421877
             ],
             "screenRect": [
-                3610.0,
-                6117.0,
-                3608.0,
-                6114.0
+                -631.0,
+                -4.0,
+                -630.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot20_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot20_Reward10001001_1/root/Collider",
@@ -418,10 +125,10 @@
                 -469.8299865722656
             ],
             "screenRect": [
-                3595.0,
-                6111.0,
-                3593.0,
-                6108.0
+                -625.0,
+                -1.0,
+                -624.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot20_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot20_Reward3000010_0/Collider",
@@ -440,10 +147,10 @@
                 -433.5
             ],
             "screenRect": [
-                3634.0,
-                6118.0,
-                3632.0,
-                6115.0
+                -637.0,
+                -4.0,
+                -636.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot19_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot19_Reward10001001_1/root/Collider",
@@ -462,10 +169,10 @@
                 -447.44000244140627
             ],
             "screenRect": [
-                3622.0,
-                6112.0,
-                3620.0,
-                6109.0
+                -636.0,
+                -1.0,
+                -634.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot19_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot19_Reward3000010_0/Collider",
@@ -484,10 +191,10 @@
                 -407.5899963378906
             ],
             "screenRect": [
-                3628.0,
-                6118.0,
-                3626.0,
-                6116.0
+                -621.0,
+                -4.0,
+                -620.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot18_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot18_Reward10001001_1/root/Collider",
@@ -506,10 +213,10 @@
                 -420.2699890136719
             ],
             "screenRect": [
-                3629.0,
-                6112.0,
-                3627.0,
-                6110.0
+                -629.0,
+                -1.0,
+                -627.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot18_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot18_Reward3000010_0/Collider",
@@ -528,10 +235,10 @@
                 -396.79998779296877
             ],
             "screenRect": [
-                3602.0,
-                6119.0,
-                3600.0,
-                6116.0
+                -596.0,
+                -4.0,
+                -595.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot17_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot17_Reward10001001_1/root/Collider",
@@ -550,10 +257,10 @@
                 -401.510009765625
             ],
             "screenRect": [
-                3612.0,
-                6113.0,
-                3610.0,
-                6110.0
+                -607.0,
+                -1.0,
+                -606.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot17_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot17_Reward3000010_0/Collider",
@@ -572,10 +279,10 @@
                 -402.05999755859377
             ],
             "screenRect": [
-                3566.0,
-                6118.0,
-                3564.0,
-                6116.0
+                -571.0,
+                -4.0,
+                -570.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot16_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot16_Reward10001001_1/root/Collider",
@@ -594,10 +301,10 @@
                 -399.3500061035156
             ],
             "screenRect": [
-                3576.0,
-                6113.0,
-                3574.0,
-                6110.0
+                -579.0,
+                -1.0,
+                -577.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot16_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot16_Reward3000010_0/Collider",
@@ -616,10 +323,10 @@
                 -421.94000244140627
             ],
             "screenRect": [
-                3529.0,
-                6118.0,
-                3527.0,
-                6115.0
+                -552.0,
+                -4.0,
+                -551.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot15_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot15_Reward10001001_1/root/Collider",
@@ -638,10 +345,10 @@
                 -412.19000244140627
             ],
             "screenRect": [
-                3540.0,
-                6113.0,
-                3538.0,
-                6110.0
+                -557.0,
+                -1.0,
+                -556.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot15_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot15_Reward3000010_0/Collider",
@@ -660,10 +367,10 @@
                 -439.510009765625
             ],
             "screenRect": [
-                3510.0,
-                6118.0,
-                3508.0,
-                6115.0
+                -545.0,
+                -4.0,
+                -544.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot14_Reward10001001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot14_Reward10001001_1/root/Collider",
@@ -682,10 +389,10 @@
                 -455.2699890136719
             ],
             "screenRect": [
-                3493.0,
-                6112.0,
-                3491.0,
-                6109.0
+                -540.0,
+                -1.0,
+                -539.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot14_Reward3000010_0/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot14_Reward3000010_0/Collider",
@@ -704,10 +411,10 @@
                 -462.54998779296877
             ],
             "screenRect": [
-                3498.0,
-                6117.0,
-                3496.0,
-                6114.0
+                -546.0,
+                -4.0,
+                -545.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot13_Reward10002001_1/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot13_Reward10002001_1/root/Collider",
@@ -726,79 +433,13 @@
                 -464.7900085449219
             ],
             "screenRect": [
-                3500.0,
-                6117.0,
-                3498.0,
-                6114.0
+                -548.0,
+                -4.0,
+                -547.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot13_Reward10001001_0/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityBattleLevelItemRoot/Plot13_Reward10001001_0/root/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "7200_s1/7655156104151526600-LOD-0/AllianceFlag(Clone)/AllianceFlag/Collider",
-            "worldPosition": [
-                1697.0,
-                0.0,
-                4807.0
-            ],
-            "screenRect": [
-                763.0,
-                1318.0,
-                909.0,
-                1426.0
-            ],
-            "clickTargetNode": "7200_s1/7655156104151526600-LOD-0/AllianceFlag(Clone)/AllianceFlag/Collider",
-            "visualNode": "7200_s1/7655156104151526600-LOD-0/AllianceFlag(Clone)/AllianceFlag/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_temp/ModelPar/Ship_map01(Clone)/Root/Collider",
-            "worldPosition": [
-                -585.8699951171875,
-                -2.5,
-                -478.25
-            ],
-            "screenRect": [
-                3542.0,
-                6117.0,
-                3539.0,
-                6112.0
-            ],
-            "clickTargetNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_temp/ModelPar/Ship_map01(Clone)/Root/Collider",
-            "visualNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_temp/ModelPar/Ship_map01(Clone)/Root/Collider",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_1/ModelPar/PlayerCommonShip(Clone)/ModelRoot/ShipModelSkinRoot/Root/Collider",
-            "worldPosition": [
-                -575.0499877929688,
-                -2.5,
-                -470.739990234375
-            ],
-            "screenRect": [
-                3532.0,
-                6117.0,
-                3529.0,
-                6112.0
-            ],
-            "clickTargetNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_1/ModelPar/PlayerCommonShip(Clone)/ModelRoot/ShipModelSkinRoot/Root/Collider",
-            "visualNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_1/ModelPar/PlayerCommonShip(Clone)/ModelRoot/ShipModelSkinRoot/Root/Collider",
             "interactionType": "click",
             "clickable": true,
             "clickableReason": "Collider + scene_object"
@@ -814,10 +455,10 @@
                 -473.5899963378906
             ],
             "screenRect": [
-                3538.0,
-                6115.0,
-                3531.0,
-                6107.0
+                -583.0,
+                -3.0,
+                -577.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_0/ModelPar/PlayerCommonShip(Clone)/ModelRoot/ShipModelSkinRoot/Root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/LineupShips/LinupShip_0/ModelPar/PlayerCommonShip(Clone)/ModelRoot/ShipModelSkinRoot/Root/Collider",
@@ -831,28 +472,6 @@
             "name": "PopUpGiftBtn(Clone)",
             "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
             "worldPosition": [
-                1.1699999570846558,
-                3.950000047683716,
-                1150.0
-            ],
-            "screenRect": [
-                1.0,
-                4.0,
-                1.0,
-                4.0
-            ],
-            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
-            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider2D + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "IceBreak(Clone)",
-            "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IceBreak(Clone)",
-            "worldPosition": [
                 1.899999976158142,
                 1.9500000476837159,
                 1150.0
@@ -863,8 +482,8 @@
                 2.0,
                 2.0
             ],
-            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IceBreak(Clone)",
-            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/IceBreak(Clone)",
+            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
+            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Right_Top/PopUpGiftBtn(Clone)",
             "interactionType": "click",
             "clickable": true,
             "clickableReason": "Collider2D + scene_object"
@@ -1069,50 +688,6 @@
         },
         {
             "sceneId": "DemoLogo",
-            "objectType": "guide_scene_target",
-            "name": "arrow1",
-            "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList/Troops_new/arrow1",
-            "worldPosition": [
-                -1.899999976158142,
-                2.869999885559082,
-                1150.0
-            ],
-            "screenRect": [
-                -2.0,
-                3.0,
-                -2.0,
-                3.0
-            ],
-            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList/Troops_new/arrow1",
-            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList/Troops_new/arrow1",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "script handler + guide_scene_target"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "MarList",
-            "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList",
-            "worldPosition": [
-                -2.309999942779541,
-                2.1700000762939455,
-                1150.0
-            ],
-            "screenRect": [
-                -2.0,
-                3.0,
-                -2.0,
-                1.0
-            ],
-            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList",
-            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/VerticalLayout/MarList",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider2D + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
             "objectType": "scene_object",
             "name": "Head",
             "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/Left_Top/Head",
@@ -1249,14 +824,14 @@
             "name": "Treasure",
             "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/Treasure",
             "worldPosition": [
-                -0.8399999737739563,
+                -1.350000023841858,
                 -2.609999895095825,
                 1150.0
             ],
             "screenRect": [
-                -1.0,
                 -2.0,
-                0.0,
+                -2.0,
+                -1.0,
                 -3.0
             ],
             "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/Treasure",
@@ -1267,41 +842,19 @@
         },
         {
             "sceneId": "DemoLogo",
-            "objectType": "building_object",
-            "name": "BuildingHint",
-            "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/BuildingHint",
-            "worldPosition": [
-                -1.5199999809265137,
-                -2.7699999809265138,
-                1150.0
-            ],
-            "screenRect": [
-                -2.0,
-                -3.0,
-                -1.0,
-                -3.0
-            ],
-            "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/BuildingHint",
-            "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_2/BuildingHint",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "script handler + building_object"
-        },
-        {
-            "sceneId": "DemoLogo",
             "objectType": "guide_scene_target",
             "name": "RewardHint",
             "gameObjectPath": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/RewardHint",
             "worldPosition": [
                 -2.0399999618530275,
-                -1.1799999475479127,
+                -2.240000009536743,
                 1150.0
             ],
             "screenRect": [
                 -2.0,
-                -1.0,
                 -2.0,
-                -1.0
+                -2.0,
+                -2.0
             ],
             "clickTargetNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/RewardHint",
             "visualNode": "UIRoot/UiMain(Clone) [UIMainPopup]/content/LeftDown/LeftContent_1/RewardHint",
@@ -1320,10 +873,10 @@
                 -465.5199890136719
             ],
             "screenRect": [
-                3523.0,
-                6117.0,
-                3520.0,
-                6114.0
+                -567.0,
+                -4.0,
+                -565.0,
+                -2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MainCityOnlinreRewardBox/E_baoxiang/root/Collider",
             "visualNode": "MainCityRoot_3D_2(Clone)/MainCityOnlinreRewardBox/E_baoxiang/root/Collider",
@@ -1342,35 +895,13 @@
                 -500.0
             ],
             "screenRect": [
-                3556.0,
-                6074.0,
-                3507.0,
-                6058.0
+                -606.0,
+                20.0,
+                -546.0,
+                28.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/MapSeagullController",
             "visualNode": "MainCityRoot_3D_2(Clone)/MapSeagullController",
-            "interactionType": "click",
-            "clickable": true,
-            "clickableReason": "Collider + scene_object"
-        },
-        {
-            "sceneId": "DemoLogo",
-            "objectType": "scene_object",
-            "name": "Collider",
-            "gameObjectPath": "MainCityRoot_3D_2(Clone)/FirstRecharge/ModelNode/Shipmodel_10010/Root/Collider",
-            "worldPosition": [
-                -540.760009765625,
-                -2.049999952316284,
-                -449.69000244140627
-            ],
-            "screenRect": [
-                3506.0,
-                6125.0,
-                3490.0,
-                6103.0
-            ],
-            "clickTargetNode": "MainCityRoot_3D_2(Clone)/FirstRecharge/ModelNode/Shipmodel_10010/Root/Collider",
-            "visualNode": "MainCityRoot_3D_2(Clone)/FirstRecharge/ModelNode/Shipmodel_10010/Root/Collider",
             "interactionType": "click",
             "clickable": true,
             "clickableReason": "Collider + scene_object"
@@ -1522,10 +1053,10 @@
                 -488.8999938964844
             ],
             "screenRect": [
-                3534.0,
-                6114.0,
-                3527.0,
-                6105.0
+                -587.0,
+                -2.0,
+                -582.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv10",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv10",
@@ -1544,10 +1075,10 @@
                 -479.79998779296877
             ],
             "screenRect": [
-                3570.0,
-                6114.0,
-                3564.0,
-                6105.0
+                -611.0,
+                -2.0,
+                -606.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv9",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv9",
@@ -1566,10 +1097,10 @@
                 -460.3999938964844
             ],
             "screenRect": [
-                3606.0,
-                6115.0,
-                3600.0,
-                6105.0
+                -630.0,
+                -2.0,
+                -625.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv8",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv8",
@@ -1588,10 +1119,10 @@
                 -429.3999938964844
             ],
             "screenRect": [
-                3630.0,
-                6115.0,
-                3624.0,
-                6106.0
+                -634.0,
+                -2.0,
+                -629.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv7",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv7",
@@ -1610,10 +1141,10 @@
                 -408.70001220703127
             ],
             "screenRect": [
-                3623.0,
-                6116.0,
-                3617.0,
-                6107.0
+                -619.0,
+                -2.0,
+                -614.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv6",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv6",
@@ -1632,10 +1163,10 @@
                 -397.1000061035156
             ],
             "screenRect": [
-                3599.0,
-                6116.0,
-                3592.0,
-                6107.0
+                -596.0,
+                -2.0,
+                -591.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv5",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv5",
@@ -1654,10 +1185,10 @@
                 -401.70001220703127
             ],
             "screenRect": [
-                3566.0,
-                6116.0,
-                3559.0,
-                6107.0
+                -572.0,
+                -2.0,
+                -567.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv4",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv4",
@@ -1676,10 +1207,10 @@
                 -413.20001220703127
             ],
             "screenRect": [
-                3534.0,
-                6116.0,
-                3527.0,
-                6107.0
+                -553.0,
+                -2.0,
+                -548.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv3",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv3",
@@ -1698,10 +1229,10 @@
                 -446.79998779296877
             ],
             "screenRect": [
-                3500.0,
-                6115.0,
-                3493.0,
-                6106.0
+                -542.0,
+                -2.0,
+                -537.0,
+                2.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv2",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv2",
@@ -1720,10 +1251,10 @@
                 -466.8999938964844
             ],
             "screenRect": [
-                3495.0,
-                6114.0,
-                3488.0,
-                6105.0
+                -547.0,
+                -2.0,
+                -542.0,
+                3.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv1",
             "visualNode": "MainCityRoot_3D_2(Clone)/UnchartedPorts/Port_lv1",
@@ -1742,10 +1273,10 @@
                 -448.1300048828125
             ],
             "screenRect": [
-                3662.0,
-                6113.0,
-                3460.0,
-                6120.0
+                -730.0,
+                -3.0,
+                -450.0,
+                -3.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/Envirment/E_lang/Water",
             "visualNode": "MainCityRoot_3D_2(Clone)/Envirment/E_lang/Water",
@@ -1764,10 +1295,10 @@
                 -439.2799987792969
             ],
             "screenRect": [
-                3603.0,
-                6125.0,
-                3520.0,
-                6102.0
+                -639.0,
+                -8.0,
+                -536.0,
+                5.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/Envirment/zhucheng/zhucheng_dibiao01",
             "visualNode": "MainCityRoot_3D_2(Clone)/Envirment/zhucheng/zhucheng_dibiao01",
@@ -1786,10 +1317,10 @@
                 -447.5
             ],
             "screenRect": [
-                3644.0,
-                6192.0,
-                3460.0,
-                6028.0
+                -673.0,
+                -45.0,
+                -492.0,
+                45.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/CameraBoxCollider",
             "visualNode": "MainCityRoot_3D_2(Clone)/CameraBoxCollider",
@@ -1808,13 +1339,504 @@
                 -500.0
             ],
             "screenRect": [
-                3469.0,
-                6122.0,
-                3434.0,
-                6108.0
+                -568.0,
+                -8.0,
+                -499.0,
+                1.0
             ],
             "clickTargetNode": "MainCityRoot_3D_2(Clone)/WalkableActors/QueueIslandWalkableNode/QueueBounds",
             "visualNode": "MainCityRoot_3D_2(Clone)/WalkableActors/QueueIslandWalkableNode/QueueBounds",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19/Collider",
+            "worldPosition": [
+                -550.260009765625,
+                -3.5799999237060549,
+                -430.32000732421877
+            ],
+            "screenRect": [
+                -552.0,
+                -6.0,
+                -549.0,
+                -1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "ship_object",
+            "name": "tradingship_19",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19",
+            "worldPosition": [
+                -550.260009765625,
+                -3.5799999237060549,
+                -430.32000732421877
+            ],
+            "screenRect": [],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_19",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "script handler + ship_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18/Collider",
+            "worldPosition": [
+                -548.260009765625,
+                -3.5799999237060549,
+                -434.1300048828125
+            ],
+            "screenRect": [
+                -550.0,
+                -6.0,
+                -547.0,
+                -1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "ship_object",
+            "name": "tradingship_18",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18",
+            "worldPosition": [
+                -548.260009765625,
+                -3.5799999237060549,
+                -434.1300048828125
+            ],
+            "screenRect": [],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_18",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "script handler + ship_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17/Collider",
+            "worldPosition": [
+                -546.25,
+                -3.5799999237060549,
+                -437.8800048828125
+            ],
+            "screenRect": [
+                -548.0,
+                -6.0,
+                -545.0,
+                -1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "ship_object",
+            "name": "tradingship_17",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17",
+            "worldPosition": [
+                -546.25,
+                -3.5799999237060549,
+                -437.8800048828125
+            ],
+            "screenRect": [],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/tradingship_17",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "script handler + ship_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Science and technology/Collider",
+            "worldPosition": [
+                -588.8900146484375,
+                -0.30000001192092898,
+                -453.4800109863281
+            ],
+            "screenRect": [
+                -592.0,
+                -1.0,
+                -586.0,
+                6.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Science and technology/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Science and technology/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Artifact/Collider",
+            "worldPosition": [
+                -589.22998046875,
+                0.23000000417232514,
+                -471.6199951171875
+            ],
+            "screenRect": [
+                -597.0,
+                -3.0,
+                -590.0,
+                3.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Artifact/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Artifact/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Mini_Game/Collider",
+            "worldPosition": [
+                -541.2100219726563,
+                -2.4600000381469728,
+                -428.54998779296877
+            ],
+            "screenRect": [
+                -545.0,
+                -4.0,
+                -537.0,
+                -1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Mini_Game/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Mini_Game/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Announcement/Collider",
+            "worldPosition": [
+                -607.2999877929688,
+                2.7799999713897707,
+                -452.2099914550781
+            ],
+            "screenRect": [
+                -613.0,
+                -1.0,
+                -608.0,
+                2.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Announcement/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Announcement/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Stash/Collider",
+            "worldPosition": [
+                -594.1099853515625,
+                0.47999998927116396,
+                -441.9200134277344
+            ],
+            "screenRect": [
+                -598.0,
+                -1.0,
+                -590.0,
+                4.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Stash/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Stash/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Adventure/Collider",
+            "worldPosition": [
+                -621.1699829101563,
+                -3.3499999046325685,
+                -443.54998779296877
+            ],
+            "screenRect": [
+                -626.0,
+                -4.0,
+                -617.0,
+                3.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Adventure/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Adventure/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Throne/Collider",
+            "worldPosition": [
+                -584.0399780273438,
+                -2.4000000953674318,
+                -463.6700134277344
+            ],
+            "screenRect": [
+                -588.0,
+                -4.0,
+                -581.0,
+                1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Throne/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Throne/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Barrack/Collider",
+            "worldPosition": [
+                -567.1199951171875,
+                0.4099999964237213,
+                -438.989990234375
+            ],
+            "screenRect": [
+                -571.0,
+                -1.0,
+                -564.0,
+                3.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Barrack/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Barrack/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Code/Collider",
+            "worldPosition": [
+                -572.260009765625,
+                0.8700000047683716,
+                -453.8599853515625
+            ],
+            "screenRect": [
+                -584.0,
+                -4.0,
+                -562.0,
+                2.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Code/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Code/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Ground/Collider",
+            "worldPosition": [
+                -583.2100219726563,
+                -0.3199999928474426,
+                -419.6400146484375
+            ],
+            "screenRect": [
+                -587.0,
+                -1.0,
+                -579.0,
+                7.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Ground/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Ground/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Uncharted/Collider",
+            "worldPosition": [
+                -595.1699829101563,
+                -2.7699999809265138,
+                -407.79998779296877
+            ],
+            "screenRect": [
+                -599.0,
+                -5.0,
+                -592.0,
+                0.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Uncharted/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Uncharted/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Tavern/Collider",
+            "worldPosition": [
+                -589.8699951171875,
+                -0.3199999928474426,
+                -432.989990234375
+            ],
+            "screenRect": [
+                -593.0,
+                -1.0,
+                -586.0,
+                4.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Tavern/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Tavern/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Quay/Collider",
+            "worldPosition": [
+                -573.260009765625,
+                -3.5399999618530275,
+                -413.2099914550781
+            ],
+            "screenRect": [
+                -578.0,
+                -4.0,
+                -569.0,
+                1.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Quay/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Quay/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Radar/Collider",
+            "worldPosition": [
+                -571.3499755859375,
+                -1.5099999904632569,
+                -424.07000732421877
+            ],
+            "screenRect": [
+                -575.0,
+                -1.0,
+                -568.0,
+                5.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Radar/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Radar/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Diplomatic_Mission/Collider",
+            "worldPosition": [
+                -603.6099853515625,
+                -0.30000001192092898,
+                -460.04998779296877
+            ],
+            "screenRect": [
+                -607.0,
+                -1.0,
+                -600.0,
+                4.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Diplomatic_Mission/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Diplomatic_Mission/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Hospital/Collider",
+            "worldPosition": [
+                -579.5399780273438,
+                0.23000000417232514,
+                -432.260009765625
+            ],
+            "screenRect": [
+                -583.0,
+                -1.0,
+                -576.0,
+                5.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Hospital/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Hospital/Collider",
+            "interactionType": "click",
+            "clickable": true,
+            "clickableReason": "Collider + scene_object"
+        },
+        {
+            "sceneId": "DemoLogo",
+            "objectType": "scene_object",
+            "name": "Collider",
+            "gameObjectPath": "MainCityRoot_3D_2(Clone)/Buildings/Castle/Collider",
+            "worldPosition": [
+                -603.469970703125,
+                9.350000381469727,
+                -431.1000061035156
+            ],
+            "screenRect": [
+                -609.0,
+                1.0,
+                -598.0,
+                14.0
+            ],
+            "clickTargetNode": "MainCityRoot_3D_2(Clone)/Buildings/Castle/Collider",
+            "visualNode": "MainCityRoot_3D_2(Clone)/Buildings/Castle/Collider",
             "interactionType": "click",
             "clickable": true,
             "clickableReason": "Collider + scene_object"
@@ -1830,10 +1852,10 @@
                 0.0
             ],
             "screenRect": [
-                3004.0,
-                6122.0,
-                3004.0,
-                6122.0
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ],
             "clickTargetNode": "Map Camera Collider",
             "visualNode": "Map Camera Collider",

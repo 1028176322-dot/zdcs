@@ -7,5 +7,21 @@
       "description": "具备进入活动页的账号，业务积分状态通过 UI runtime tree 采集"
     }
   ],
-  "preconditions": []
+  "preconditions": [
+    {
+      "precondition_id": "ARM_ACCOUNT_READY",
+      "type": "manual",
+      "description": "测试账号已登录并可进入活动入口",
+      "severity": "warning"
+    },
+    {
+      "precondition_id": "ARM_ACTIVITY_OPEN",
+      "type": "feature_flag",
+      "description": "军备竞赛活动入口已开启",
+      "key": "activity.armrace.open",
+      "operator": "equals",
+      "expected": true,
+      "severity": "blocking"
+    }
+  ]
 }

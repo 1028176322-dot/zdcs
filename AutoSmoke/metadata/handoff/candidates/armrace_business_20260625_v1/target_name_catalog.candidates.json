@@ -1,0 +1,31 @@
+{
+  "schema_version": "target_name_catalog.v1",
+  "feature_id": "armrace",
+  "generated_by": "AutoSmoke.handoff_candidates",
+  "generated_at": "2026-06-25T14:39:22",
+  "page_id": "activity_armrace",
+  "targets": [
+    {
+      "target_id": "TGT_ARMRACE_001",
+      "target_name": "积分 1200",
+      "page_id": "activity_armrace",
+      "role": "text",
+      "element_type": "Text",
+      "priority": "P2",
+      "candidate_source": "runtime_ui_tree",
+      "candidate_confidence": 0.55,
+      "evidence": {
+        "runtimePath": "Activity/ArmRace/ScoreText",
+        "nodeName": "ScoreText",
+        "text": "积分 1200",
+        "screenRect": [
+          100,
+          100,
+          300,
+          140
+        ],
+        "clickTargetNode": ""
+      }
+    }
+  ]
+}

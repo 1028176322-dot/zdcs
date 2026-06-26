@@ -1,0 +1,92 @@
+{
+  "schema_version": "autosmoke_qa_reader_feedback.v1",
+  "package_id": "armrace_business_20260625_v1",
+  "feature_id": "armrace",
+  "generated_at": "2026-06-26T10:03:42",
+  "handoff_consumption": {
+    "status": "READY_UI_AND_BUSINESS",
+    "automation_level": "UI_AND_BUSINESS",
+    "errors": [],
+    "warnings": [],
+    "blockers": []
+  },
+  "conversion": {
+    "success": true,
+    "outputs": {
+      "cases": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\autosmoke_cases.json",
+      "mapping_tasks": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\mapping_tasks_from_handoff.json",
+      "execution_plan": "metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+      "queue_import": {
+        "skipped": true
+      },
+      "semantic_pending": {
+        "skipped": true,
+        "reason": "semantic pending write disabled"
+      }
+    },
+    "summary": {
+      "converted_cases": 1,
+      "converted_targets": 2,
+      "queue_imported": 0,
+      "semantic_pending_updates": 0
+    },
+    "plan_status": "READY_TO_RUN"
+  },
+  "target_binding_gaps": [],
+  "navigation_gaps": [
+    {
+      "page_id": "activity_main",
+      "page_name": "常规活动主界面",
+      "reason": "entry_rule",
+      "entry_hint": "从主城活动入口进入"
+    }
+  ],
+  "test_data_gaps": [
+    {
+      "precondition_id": "ARM_ACCOUNT_READY",
+      "type": "manual",
+      "reason": "manual_precondition_not_confirmed",
+      "severity": "warning",
+      "actual": null,
+      "expected": null
+    }
+  ],
+  "state_collection_gaps": [],
+  "assertion_unexecutable_reasons": [],
+  "execution_report": {
+    "ui_result": "PASS",
+    "ui_mode": "dry_run",
+    "ui_cases_passed": 1,
+    "ui_cases_total": 1,
+    "ui_report_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\runs\\armrace_business_20260625_v1\\handoff_armrace_business_20260625_v1_20260626_100148\\batch_report.json",
+    "business_result": "PASS",
+    "assertions_passed": 1,
+    "assertions_total": 1,
+    "business_result_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\business_results\\armrace_business_20260625_v1.business_result.json",
+    "precondition_result": "PASS",
+    "precondition_result_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\prepare_results\\armrace_business_20260625_v1.precondition_result.json"
+  },
+  "source_trace": {
+    "schema_version": "source_trace.v1",
+    "feature_id": "armrace",
+    "sources": [
+      {
+        "source_id": "REQ-ARMRACE-BIZ-001",
+        "title": "军备竞赛积分展示校验"
+      }
+    ],
+    "links": [
+      {
+        "source_id": "REQ-ARMRACE-BIZ-001",
+        "case_id": "ARMRACE_BUSINESS_001",
+        "target_ids": [
+          "TGT_ARMRACE_TAB",
+          "TGT_ARMRACE_SCORE_TEXT"
+        ],
+        "assertion_ids": [
+          "ASSERT_ARMRACE_SCORE_VISIBLE"
+        ]
+      }
+    ]
+  }
+}

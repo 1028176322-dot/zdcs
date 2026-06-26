@@ -28,7 +28,7 @@
    调试: 关闭
    💡 调试模式下修改代码后自动加载，刷新页面即可
 
-📌 PID=7420 (锁文件: runtime/web_ide.pid)
+📌 PID=37936 (锁文件: runtime/web_ide.pid)
 ✅ IDE 面板已加载
 
  * Serving Flask app 'IDE.debug_panel'

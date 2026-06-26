@@ -1,0 +1,31 @@
+{
+  "schema_version": "autosmoke_handoff_precondition_result.v1",
+  "success": true,
+  "package_id": "armrace_business_20260625_v1",
+  "plan_path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\imports\\armrace_business_20260625_v1\\execution_plan.json",
+  "state_path": "E:\\zdcs\\AutoSmoke\\examples\\armrace_handoff_business_example\\runtime_state_example.json",
+  "total": 2,
+  "passed": 1,
+  "blocked": 0,
+  "warnings": 1,
+  "results": [
+    {
+      "precondition_id": "ARM_ACCOUNT_READY",
+      "type": "manual",
+      "passed": false,
+      "severity": "warning",
+      "warning": "manual_precondition_not_confirmed"
+    },
+    {
+      "precondition_id": "ARM_ACTIVITY_OPEN",
+      "type": "feature_flag",
+      "passed": true,
+      "severity": "blocking",
+      "key": "activity.armrace.open",
+      "operator": "equals",
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "executed_at": "2026-06-26T10:01:48"
+}

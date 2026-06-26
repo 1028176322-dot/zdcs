@@ -1,0 +1,16 @@
+{
+  "step_id": "visual_armrace_diff",
+  "timestamp": "2026-06-25T14:02:59",
+  "diff_ratio": 0.2327,
+  "result": "CLICK_CHANGED",
+  "description": "明显变化 (23.27%)",
+  "pixel_threshold": 10,
+  "image_size": [
+    80,
+    60
+  ],
+  "meta": {
+    "before": "before.png",
+    "after": "after.png"
+  }
+}

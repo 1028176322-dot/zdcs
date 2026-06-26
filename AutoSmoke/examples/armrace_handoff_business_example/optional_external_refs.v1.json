@@ -1,5 +1,13 @@
 {
   "schema_version": "optional_external_refs.v1",
   "feature_id": "armrace",
-  "refs": []
+  "refs": [
+    {
+      "ref_id": "ARM_ACTIVITY_CONFIG",
+      "type": "config",
+      "description": "军备竞赛活动配置已发布",
+      "required": true,
+      "status": "ready"
+    }
+  ]
 }
