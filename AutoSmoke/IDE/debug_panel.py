@@ -592,6 +592,102 @@ def _resolve_handoff_artifact_path(value):
     return resolved if resolved.is_file() else None
 
 
+def _fix_actions_dir():
+    path = Path(_CONF_DIR) / "metadata" / "fix_actions"
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def _fix_action_log_path():
+    return _fix_actions_dir() / "fix_action_log.json"
+
+
+def _load_fix_action_log():
+    path = _fix_action_log_path()
+    payload = _read_json_if_exists(str(path)) or {}
+    if not isinstance(payload, dict):
+        payload = {}
+    payload.setdefault("schema_version", "autosmoke_fix_action_log.v1")
+    payload.setdefault("actions", [])
+    if not isinstance(payload.get("actions"), list):
+        payload["actions"] = []
+    return payload
+
+
+def _write_fix_action(action, task_id="", payload=None):
+    log = _load_fix_action_log()
+    record = {
+        "actionId": "fix_" + datetime.now().strftime("%Y%m%d_%H%M%S_%f"),
+        "action": _coerce_str(action),
+        "taskId": _coerce_str(task_id),
+        "createdAt": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "payload": payload if isinstance(payload, dict) else {},
+    }
+    log["actions"].append(record)
+    log["updatedAt"] = record["createdAt"]
+    _write_json_file(str(_fix_action_log_path()), log)
+    return record
+
+
+def _find_fix_task(task_id):
+    task_id = _coerce_str(task_id)
+    if not task_id:
+        return None
+    for task in _collect_fix_tasks(limit=500):
+        if task.get("taskId") == task_id:
+            return task
+    return None
+
+
+def _export_upstream_supplement(package_id=""):
+    trace = _collect_handoff_report_trace(limit=500)
+    package_id = _coerce_str(package_id)
+    issues = []
+    for issue in trace.get("issues", []):
+        if package_id and issue.get("packageId") != package_id:
+            continue
+        action = _coerce_str(issue.get("suggestedAction"))
+        kind = _coerce_str(issue.get("kind"))
+        if "上游" in action or kind in {"validation", "feedback", "precondition"}:
+            issues.append(issue)
+    packages = sorted({x.get("packageId") for x in issues if x.get("packageId")})
+    export_id = datetime.now().strftime("%Y%m%d_%H%M%S")
+    out = {
+        "schema_version": "autosmoke_upstream_supplement.v1",
+        "generatedAt": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "packageFilter": package_id,
+        "packages": packages,
+        "total": len(issues),
+        "items": issues,
+    }
+    json_path = _fix_actions_dir() / f"upstream_supplement_{export_id}.json"
+    md_path = _fix_actions_dir() / f"upstream_supplement_{export_id}.md"
+    _write_json_file(str(json_path), out)
+    lines = [
+        "# QA_Reader 上游补充清单",
+        "",
+        f"- 生成时间: {out['generatedAt']}",
+        f"- 包过滤: {package_id or '全部'}",
+        f"- 问题数: {len(issues)}",
+        "",
+    ]
+    for idx, item in enumerate(issues, 1):
+        lines.extend([
+            f"## {idx}. {item.get('failureType') or item.get('kind')}",
+            "",
+            f"- packageId: {item.get('packageId') or '-'}",
+            f"- caseId: {item.get('caseId') or '-'}",
+            f"- stepOrder: {item.get('stepOrder') or '-'}",
+            f"- target: {item.get('targetName') or item.get('semanticId') or item.get('testId') or '-'}",
+            f"- detail: {item.get('detail') or '-'}",
+            f"- suggestedAction: {item.get('suggestedAction') or '-'}",
+            f"- source: {item.get('path') or '-'}",
+            "",
+        ])
+    md_path.write_text("\n".join(lines), encoding="utf-8")
+    return {"json": str(json_path), "markdown": str(md_path), "total": len(issues), "packages": packages}
+
+
 def _safe_check_item(name, ok, detail=None, blocker=False, quick_fix=None):
     item = {
         "name": name,
@@ -4188,6 +4284,8 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
       <button class="btn btn-sm" onclick="swt('mapping');showMeta('target')">处理目标队列</button>
       <button class="btn btn-sm" onclick="swt('mapping');showMeta('mapping')">处理映射草稿</button>
       <button class="btn btn-sm" onclick="swt('report')">查看报告</button>
+      <button class="btn btn-sm" onclick="exportUpstreamSupplement()">导出上游补充清单</button>
+      <button class="btn btn-sm" onclick="loadFixActions()">动作记录</button>
     </div>
     <div id="fixSummary" style="font-size:10px;color:#666;max-height:100px;overflow:auto;margin-top:3px;">执行预检或查看失败报告后处理问题。</div>
   </div>
@@ -4217,6 +4315,7 @@ body{font-family:-apple-system,'Microsoft YaHei',sans-serif;background:#f0f2f5;c
 <div class="sec">
   <div class="sh">修复任务列表 <span id="fixTaskCount" style="font-weight:400;font-size:10px;color:#888;">-</span></div>
   <div id="fixTaskList" style="font-size:10px;color:#666;max-height:260px;overflow:auto;">点击“刷新任务”汇总当前问题。</div>
+  <div id="fixActionResult" style="font-size:10px;color:#666;max-height:120px;overflow:auto;margin-top:4px;"></div>
 </div>
 
 </div>
@@ -6182,7 +6281,7 @@ function renderFixTasks(d){
     h+='<td><div style="font-weight:600;">'+escHtml(t.responsibility||'待归类')+'</div><div style="color:#888;max-width:180px;">'+escHtml(t.suggestedAction||'')+'</div></td>';
     h+='<td><div style="font-weight:600;">'+escHtml(t.title||'-')+'</div><div style="color:#888;max-width:420px;word-break:break-all;">'+escHtml(t.detail||'')+'</div></td>';
     h+='<td style="font-size:9px;color:#888;max-width:180px;word-break:break-all;">'+escHtml(t.source||'')+'<br>'+escHtml(t.path||'')+'</td>';
-    h+='<td><button class="btn btn-sm" onclick="openFixTask('+idx+')">处理</button></td>';
+    h+='<td><button class="btn btn-sm" onclick="openFixTask('+idx+')">处理</button><br><button class="btn btn-sm" onclick="markFixTask('+idx+',&quot;mark_degraded&quot;)">降级</button><button class="btn btn-sm" onclick="markFixTask('+idx+',&quot;mark_manual&quot;)">人工</button></td>';
     h+='</tr>';
   });
   h+='</table>';
@@ -6237,6 +6336,44 @@ function openFixAction(action){
   if(action==='execute'){swt('execute');return;}
   if(action==='usecase'){swt('usecase');return;}
   swt('report');
+}
+function setFixActionResult(html){
+  var box=document.getElementById('fixActionResult');
+  if(box)box.innerHTML=html||'';
+}
+function markFixTask(idx,action){
+  var t=(window.fixTaskCache||[])[idx];
+  if(!t){ml('未找到修复任务','w');return;}
+  var label=action==='mark_degraded'?'标记降级执行':'标记人工执行';
+  apiPost('/api/fix/action',{action:action,taskId:t.taskId,reason:label,operator:'ide'},function(d){
+    if(!d||!d.success){setFixActionResult('<span style="color:#f44336;">'+label+'失败: '+escHtml(d&&d.error||'未知')+'</span>');return;}
+    setFixActionResult(label+'完成：'+escHtml(t.title||t.taskId)+'<br><span style="color:#888;">actionId='+escHtml((d.action||{}).actionId||'')+'</span>');
+    ml(label+'完成');
+    loadFixActions();
+  },'fixActionResult',label);
+}
+function exportUpstreamSupplement(){
+  var pkg=document.getElementById('verifyPackageId');
+  var packageId=pkg?(pkg.value||''):'';
+  apiPost('/api/fix/export_upstream_supplement',{packageId:packageId},function(d){
+    if(!d||!d.success){setFixActionResult('<span style="color:#f44336;">导出失败: '+escHtml(d&&d.error||'未知')+'</span>');return;}
+    var r=d.result||{};
+    setFixActionResult('上游补充清单已导出：'+escHtml(r.total||0)+'项<br>JSON: '+escHtml(r.json||'')+'<br>Markdown: '+escHtml(r.markdown||''));
+    ml('上游补充清单已导出: '+(r.total||0)+'项');
+  },'fixActionResult','导出上游补充清单');
+}
+function loadFixActions(){
+  fetch('/api/fix/actions').then(function(r){return r.json();}).then(function(d){
+    if(!d||!d.success){setFixActionResult('<span style="color:#f44336;">动作记录加载失败: '+escHtml(d&&d.error||'未知')+'</span>');return;}
+    var actions=d.actions||[];
+    if(!actions.length){setFixActionResult('暂无修复动作记录。');return;}
+    var h='<table class="st"><tr style="background:#f5f5f5;"><td>时间</td><td>动作</td><td>任务</td><td>记录</td></tr>';
+    actions.slice(0,20).forEach(function(a){
+      h+='<tr><td>'+escHtml(a.createdAt||'')+'</td><td>'+escHtml(a.action||'')+'</td><td style="word-break:break-all;">'+escHtml(a.taskId||'-')+'</td><td style="word-break:break-all;">'+escHtml(a.actionId||'')+'</td></tr>';
+    });
+    h+='</table>';
+    setFixActionResult(h);
+  }).catch(function(e){setFixActionResult('<span style="color:#f44336;">动作记录加载失败: '+escHtml(String(e))+'</span>');});
 }
 
 // ===== API调试 =====
@@ -8156,6 +8293,60 @@ def api_handoff_artifact():
     except Exception as e:
         logger.exception("handoff artifact read failed")
         return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/fix/export_upstream_supplement", methods=["POST", "GET"])
+def api_fix_export_upstream_supplement():
+    try:
+        payload = request.get_json(silent=True) or {}
+        package_id = payload.get("packageId") or payload.get("package_id") or request.args.get("packageId") or request.args.get("package_id") or ""
+        result = _export_upstream_supplement(package_id)
+        record = _write_fix_action("export_upstream_supplement", "", {"packageId": package_id, **result})
+        return jsonify({"success": True, "result": result, "action": record})
+    except Exception as e:
+        logger.exception("export upstream supplement failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/fix/action", methods=["POST"])
+def api_fix_action():
+    try:
+        payload = request.get_json(silent=True) or {}
+        action = _coerce_str(payload.get("action"))
+        task_id = _coerce_str(payload.get("taskId"))
+        if action not in {"mark_degraded", "mark_manual", "rerun_handoff_validate"}:
+            return jsonify({"success": False, "error": "unsupported_action", "actions": ["mark_degraded", "mark_manual", "rerun_handoff_validate"]})
+        task = _find_fix_task(task_id)
+        if task_id and not task:
+            return jsonify({"success": False, "error": "task_not_found"})
+        if action == "rerun_handoff_validate":
+            package_id = _coerce_str(payload.get("packageId") or ((task or {}).get("data") or {}).get("packageId"))
+            if not package_id:
+                return jsonify({"success": False, "error": "packageId_required"})
+            report = None
+            report_paths = [p for p in _handoff_report_paths() if package_id in p and p.endswith(".validation_report.json")]
+            if report_paths:
+                report = _read_json_if_exists(report_paths[0]) or {}
+            record = _write_fix_action(action, task_id, {"packageId": package_id, "task": task or {}, "latestValidation": report})
+            return jsonify({"success": True, "action": record, "validation": report or {}})
+        record = _write_fix_action(action, task_id, {
+            "task": task or {},
+            "reason": _coerce_str(payload.get("reason")),
+            "operator": _coerce_str(payload.get("operator"), "ide"),
+        })
+        return jsonify({"success": True, "action": record})
+    except Exception as e:
+        logger.exception("fix action failed")
+        return jsonify({"success": False, "error": str(e)})
+
+
+@app.route("/api/fix/actions")
+def api_fix_actions():
+    try:
+        log = _load_fix_action_log()
+        return jsonify({"success": True, "log": log, "actions": list(reversed(log.get("actions", [])))[:100]})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e), "actions": []})
 
 
 @app.route("/api/prepare/init_environment", methods=["POST", "GET"])

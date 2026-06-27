@@ -1,0 +1,90 @@
+{
+  "schema_version": "autosmoke_fix_action_log.v1",
+  "actions": [
+    {
+      "actionId": "fix_20260626_144254_682388",
+      "action": "mark_degraded",
+      "taskId": "mapping:repair.9c295339349d",
+      "createdAt": "2026-06-26T14:42:54",
+      "payload": {
+        "task": {
+          "taskId": "mapping:repair.9c295339349d",
+          "category": "mapping",
+          "severity": "P0",
+          "title": "Repair mapping for missing.test.id",
+          "detail": "formal_mapping_missing",
+          "source": "mapping_task_queue",
+          "action": "mapping_target",
+          "path": "E:\\zdcs\\AutoSmoke\\metadata\\mapping_task_queue.json",
+          "responsibility": "AutoSmoke 需绑定",
+          "suggestedAction": "进入目标绑定队列补齐或确认映射",
+          "data": {
+            "targetId": "repair.9c295339349d",
+            "pageHint": "",
+            "status": "pending_match"
+          }
+        },
+        "reason": "api_verify",
+        "operator": "codex"
+      }
+    },
+    {
+      "actionId": "fix_20260626_144254_694547",
+      "action": "export_upstream_supplement",
+      "taskId": "",
+      "createdAt": "2026-06-26T14:42:54",
+      "payload": {
+        "packageId": "armrace_business_20260625_v1",
+        "json": "E:\\zdcs\\AutoSmoke\\metadata\\fix_actions\\upstream_supplement_20260626_144254.json",
+        "markdown": "E:\\zdcs\\AutoSmoke\\metadata\\fix_actions\\upstream_supplement_20260626_144254.md",
+        "total": 3,
+        "packages": [
+          "armrace_business_20260625_v1"
+        ]
+      }
+    },
+    {
+      "actionId": "fix_20260626_144339_099851",
+      "action": "export_upstream_supplement",
+      "taskId": "",
+      "createdAt": "2026-06-26T14:43:39",
+      "payload": {
+        "packageId": "armrace_business_20260625_v1",
+        "json": "E:\\zdcs\\AutoSmoke\\metadata\\fix_actions\\upstream_supplement_20260626_144339.json",
+        "markdown": "E:\\zdcs\\AutoSmoke\\metadata\\fix_actions\\upstream_supplement_20260626_144339.md",
+        "total": 3,
+        "packages": [
+          "armrace_business_20260625_v1"
+        ]
+      }
+    },
+    {
+      "actionId": "fix_20260626_144340_358115",
+      "action": "mark_manual",
+      "taskId": "mapping:repair.9c295339349d",
+      "createdAt": "2026-06-26T14:43:40",
+      "payload": {
+        "task": {
+          "taskId": "mapping:repair.9c295339349d",
+          "category": "mapping",
+          "severity": "P0",
+          "title": "Repair mapping for missing.test.id",
+          "detail": "formal_mapping_missing",
+          "source": "mapping_task_queue",
+          "action": "mapping_target",
+          "path": "E:\\zdcs\\AutoSmoke\\metadata\\mapping_task_queue.json",
+          "responsibility": "AutoSmoke 需绑定",
+          "suggestedAction": "进入目标绑定队列补齐或确认映射",
+          "data": {
+            "targetId": "repair.9c295339349d",
+            "pageHint": "",
+            "status": "pending_match"
+          }
+        },
+        "reason": "标记人工执行",
+        "operator": "ide"
+      }
+    }
+  ],
+  "updatedAt": "2026-06-26T14:43:40"
+}

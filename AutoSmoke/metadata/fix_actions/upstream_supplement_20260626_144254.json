@@ -1,0 +1,59 @@
+{
+  "schema_version": "autosmoke_upstream_supplement.v1",
+  "generatedAt": "2026-06-26T14:42:54",
+  "packageFilter": "armrace_business_20260625_v1",
+  "packages": [
+    "armrace_business_20260625_v1"
+  ],
+  "total": 3,
+  "items": [
+    {
+      "kind": "precondition",
+      "packageId": "armrace_business_20260625_v1",
+      "failureType": "precondition_failed",
+      "suggestedAction": "补齐测试数据或标记人工前置条件",
+      "path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\prepare_results\\armrace_business_20260625_v1.precondition_result.json",
+      "caseId": "",
+      "stepOrder": "",
+      "targetName": "",
+      "semanticId": "",
+      "testId": "",
+      "sourceNodeIds": [],
+      "sourceRefs": [],
+      "reviewItem": {},
+      "detail": "manual_precondition_not_confirmed"
+    },
+    {
+      "kind": "feedback",
+      "packageId": "armrace_business_20260625_v1",
+      "failureType": "navigation_gaps",
+      "suggestedAction": "上游需补充入口规则或标记人工",
+      "path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\feedback\\armrace_business_20260625_v1.qa_reader_feedback.json",
+      "caseId": "",
+      "stepOrder": "",
+      "targetName": "",
+      "semanticId": "",
+      "testId": "",
+      "sourceNodeIds": [],
+      "sourceRefs": [],
+      "reviewItem": {},
+      "detail": "entry_rule"
+    },
+    {
+      "kind": "feedback",
+      "packageId": "armrace_business_20260625_v1",
+      "failureType": "test_data_gaps",
+      "suggestedAction": "上游需补充测试数据",
+      "path": "E:\\zdcs\\AutoSmoke\\metadata\\handoff\\feedback\\armrace_business_20260625_v1.qa_reader_feedback.json",
+      "caseId": "",
+      "stepOrder": "",
+      "targetName": "",
+      "semanticId": "",
+      "testId": "",
+      "sourceNodeIds": [],
+      "sourceRefs": [],
+      "reviewItem": {},
+      "detail": "manual_precondition_not_confirmed"
+    }
+  ]
+}
