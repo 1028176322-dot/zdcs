@@ -1,0 +1,380 @@
+{
+  "expected_total": 418,
+  "actual_runtime_total_including_bg_jpg": 418,
+  "matched_total": 418,
+  "missing_total": 0,
+  "extra_total": 0,
+  "missing": [],
+  "extra": [],
+  "issues_total": 36,
+  "issues": [
+    {
+      "path": "monsters/abyss/monster_abyss_abyssarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.9,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_abyssarcher_idle.png"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_abysslordelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 36.4,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_abysslordelite_idle.png"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_shadowdemon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.1,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_shadowdemon_idle.png"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_shadowgolem_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.6,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_shadowgolem_idle.png"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_voidrift_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_voidrift_idle.png"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_voidwraith_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.7,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\abyss\\monster_abyss_voidwraith_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_batswarm_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_batswarm_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_deathknight_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "64x64",
+      "expected": "128x128",
+      "kb": 6.7,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_deathknight_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_ghost_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.6,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_ghost_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_ghoul_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_ghoul_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_skeleton_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_skeleton_idle.png"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_skeletonarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\catacombs\\monster_catacombs_skeletonarcher_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_boar_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_boar_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_deerelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 30.5,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_deerelite_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_elfarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_elfarcher_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_mushroom_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.8,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_mushroom_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_slime_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_slime_idle.png"
+    },
+    {
+      "path": "monsters/forest/monster_forest_treant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\forest\\monster_forest_treant_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_gianttoad_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 26.8,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_gianttoad_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_rottreant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.9,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_rottreant_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_slimepoison_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_slimepoison_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_swampdragon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 32.5,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_swampdragon_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_swampspider_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_swampspider_idle.png"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_viper_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.9,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\swamp\\monster_swamp_viper_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_frostgiant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 38.5,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_frostgiant_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_frostmage_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_frostmage_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_iceskeleton_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.5,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_iceskeleton_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_penguinsoldier_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "64x64",
+      "expected": "128x128",
+      "kb": 5.9,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_penguinsoldier_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_snowman_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.7,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_snowman_idle.png"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_snowwolf_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\tundra\\monster_tundra_snowwolf_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_ashwraith_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_ashwraith_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_demon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.2,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_demon_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_fireelemental_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.5,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_fireelemental_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_infernoelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 36.2,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_infernoelite_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_lavaspider_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.4,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_lavaspider_idle.png"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_suicidegolem_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA",
+      "source": "E:\\game\\回到地面\\art_source\\textures_export\\runtime_replace\\monsters\\volcano\\monster_volcano_suicidegolem_idle.png"
+    }
+  ],
+  "expected_by_category": {
+    "ui": 92,
+    "monsters": 36,
+    "tiles": 24,
+    "backgrounds": 17,
+    "bosses": 120,
+    "icons": 67,
+    "effects": 27,
+    "characters": 35
+  },
+  "actual_by_category": {
+    "backgrounds": 17,
+    "bosses": 120,
+    "characters": 35,
+    "effects": 27,
+    "icons": 67,
+    "monsters": 36,
+    "tiles": 24,
+    "ui": 92
+  },
+  "source_by_category": {
+    "backgrounds:jpg_candidate": 17,
+    "bosses:png_runtime": 120,
+    "characters:png_runtime": 35,
+    "effects:png_runtime": 27,
+    "icons:png_runtime": 67,
+    "monsters:png_runtime": 36,
+    "tiles:png_runtime": 24,
+    "ui:png_runtime": 92
+  },
+  "mode_count": {
+    "RGB": 41,
+    "RGBA": 377
+  },
+  "size_by_category_kb": {
+    "backgrounds": 2601.6,
+    "bosses": 6104.1,
+    "characters": 5211.4,
+    "effects": 158.0,
+    "icons": 1050.0,
+    "monsters": 327.5,
+    "tiles": 39.2,
+    "ui": 3263.7
+  }
+}

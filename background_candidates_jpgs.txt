@@ -1,0 +1,17 @@
+﻿E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_abyss.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_catacombs.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_forest.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_swamp.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_tundra.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_combat_volcano.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_abyss.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_catacombs.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_forest.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_swamp.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_tundra.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_event_volcano.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_room_healing.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_room_rest.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_room_shop.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_room_treasure.jpg
+E:\game\回到地面\art_source\textures_review\runtime_candidates\backgrounds\bg_room_upgrade.jpg

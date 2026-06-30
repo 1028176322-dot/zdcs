@@ -1,0 +1,577 @@
+{
+  "expected_total": 418,
+  "actual_png_total": 401,
+  "matched_total": 401,
+  "missing_total": 17,
+  "extra_total": 0,
+  "missing": [
+    "backgrounds/bg_combat_abyss.png",
+    "backgrounds/bg_combat_catacombs.png",
+    "backgrounds/bg_combat_forest.png",
+    "backgrounds/bg_combat_swamp.png",
+    "backgrounds/bg_combat_tundra.png",
+    "backgrounds/bg_combat_volcano.png",
+    "backgrounds/bg_event_abyss.png",
+    "backgrounds/bg_event_catacombs.png",
+    "backgrounds/bg_event_forest.png",
+    "backgrounds/bg_event_swamp.png",
+    "backgrounds/bg_event_tundra.png",
+    "backgrounds/bg_event_volcano.png",
+    "backgrounds/bg_room_healing.png",
+    "backgrounds/bg_room_rest.png",
+    "backgrounds/bg_room_shop.png",
+    "backgrounds/bg_room_treasure.png",
+    "backgrounds/bg_room_upgrade.png"
+  ],
+  "extra": [],
+  "issues_total": 64,
+  "issues": [
+    {
+      "path": "effects/combat/fx_crit.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x1152",
+      "expected": "192x192",
+      "kb": 10.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/combat/fx_dash.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 2.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/combat/fx_dodge.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/combat/fx_heal.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x1152",
+      "expected": "192x192",
+      "kb": 5.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/combat/fx_hit_normal.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 8.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/combat/fx_shield.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x1152",
+      "expected": "192x192",
+      "kb": 8.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_burn.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 5.9,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_conduct.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 5.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_corrode.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_decay.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 5.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_freeze.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_melt.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 7.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_overload.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_radiance.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 7.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_shatter.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_vaporize.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.2,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/reactions/fx_reaction_void.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_blink_stone.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_decoy_scroll.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_flame_ring.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 7.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_frost_amulet.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 6.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_gravity_stone.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_life_link.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 4.2,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_shadow_dagger.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 2.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/relics/fx_relic_time_hourglass.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x768",
+      "expected": "192x192",
+      "kb": 10.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/ui/fx_ui_glow.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x576",
+      "expected": "192x192",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "effects/ui/fx_ui_loading.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x576",
+      "expected": "192x192",
+      "kb": 3.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_abyssarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.9,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_abysslordelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 36.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_shadowdemon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_shadowgolem_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_voidrift_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/abyss/monster_abyss_voidwraith_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_batswarm_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_deathknight_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "64x64",
+      "expected": "128x128",
+      "kb": 6.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_ghost_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_ghoul_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_skeleton_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/catacombs/monster_catacombs_skeletonarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_boar_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_deerelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 30.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_elfarcher_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_mushroom_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.8,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_slime_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/forest/monster_forest_treant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_gianttoad_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 26.8,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_rottreant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.9,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_slimepoison_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.0,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_swampdragon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 32.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_swampspider_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/swamp/monster_swamp_viper_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.9,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_frostgiant_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 38.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_frostmage_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_iceskeleton_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_penguinsoldier_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "64x64",
+      "expected": "128x128",
+      "kb": 5.9,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_snowman_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.7,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/tundra/monster_tundra_snowwolf_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.1,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_ashwraith_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.3,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_demon_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.2,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_fireelemental_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 3.5,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_infernoelite_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "192x192",
+      "expected": "128x128",
+      "kb": 36.2,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_lavaspider_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.4,
+      "mode": "RGBA"
+    },
+    {
+      "path": "monsters/volcano/monster_volcano_suicidegolem_idle.png",
+      "issue": "dimension_mismatch",
+      "actual": "48x48",
+      "expected": "128x128",
+      "kb": 4.6,
+      "mode": "RGBA"
+    },
+    {
+      "path": "ui/map/map_line.png",
+      "issue": "suspicious_tiny_file",
+      "actual": "2x16",
+      "expected": [
+        2,
+        16
+      ],
+      "kb": 0.1,
+      "mode": "RGBA"
+    }
+  ],
+  "expected_by_category": {
+    "bosses": 120,
+    "characters": 35,
+    "icons": 67,
+    "backgrounds": 17,
+    "ui": 92,
+    "effects": 27,
+    "tiles": 24,
+    "monsters": 36
+  },
+  "actual_by_category": {
+    "bosses": 120,
+    "characters": 35,
+    "effects": 27,
+    "icons": 67,
+    "monsters": 36,
+    "tiles": 24,
+    "ui": 92
+  },
+  "mode_count": {
+    "RGBA": 377,
+    "RGB": 24
+  },
+  "size_by_category_kb": {
+    "bosses": 6104.1,
+    "characters": 5211.4,
+    "effects": 158.0,
+    "icons": 1050.0,
+    "monsters": 327.5,
+    "tiles": 39.2,
+    "ui": 3263.7
+  }
+}

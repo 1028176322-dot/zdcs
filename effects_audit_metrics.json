@@ -1,0 +1,623 @@
+[
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_crit.png",
+    "name": "fx_crit.png",
+    "size": [
+      192,
+      1152
+    ],
+    "kb": 323.9,
+    "alpha_fill_pct": 34.45,
+    "semi_alpha_pct": 69.2,
+    "opaque_alpha_pct": 30.8,
+    "alpha_unique": 227,
+    "bbox": [
+      7,
+      41,
+      186,
+      1113
+    ],
+    "bbox_size": [
+      179,
+      1072
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_dash.png",
+    "name": "fx_dash.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 224.4,
+    "alpha_fill_pct": 37.16,
+    "semi_alpha_pct": 76.5,
+    "opaque_alpha_pct": 23.5,
+    "alpha_unique": 227,
+    "bbox": [
+      10,
+      29,
+      181,
+      741
+    ],
+    "bbox_size": [
+      171,
+      712
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_dodge.png",
+    "name": "fx_dodge.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 260.6,
+    "alpha_fill_pct": 42.29,
+    "semi_alpha_pct": 63.1,
+    "opaque_alpha_pct": 36.9,
+    "alpha_unique": 227,
+    "bbox": [
+      10,
+      20,
+      187,
+      749
+    ],
+    "bbox_size": [
+      177,
+      729
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_heal.png",
+    "name": "fx_heal.png",
+    "size": [
+      192,
+      1152
+    ],
+    "kb": 265.7,
+    "alpha_fill_pct": 27.32,
+    "semi_alpha_pct": 75.1,
+    "opaque_alpha_pct": 24.9,
+    "alpha_unique": 227,
+    "bbox": [
+      14,
+      22,
+      183,
+      1086
+    ],
+    "bbox_size": [
+      169,
+      1064
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_hit_normal.png",
+    "name": "fx_hit_normal.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 211.4,
+    "alpha_fill_pct": 29.8,
+    "semi_alpha_pct": 58.1,
+    "opaque_alpha_pct": 41.9,
+    "alpha_unique": 227,
+    "bbox": [
+      13,
+      28,
+      181,
+      734
+    ],
+    "bbox_size": [
+      168,
+      706
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\combat\\fx_shield.png",
+    "name": "fx_shield.png",
+    "size": [
+      192,
+      1152
+    ],
+    "kb": 371.0,
+    "alpha_fill_pct": 50.09,
+    "semi_alpha_pct": 75.7,
+    "opaque_alpha_pct": 24.3,
+    "alpha_unique": 227,
+    "bbox": [
+      7,
+      34,
+      185,
+      1118
+    ],
+    "bbox_size": [
+      178,
+      1084
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_burn.png",
+    "name": "fx_reaction_burn.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 216.5,
+    "alpha_fill_pct": 29.62,
+    "semi_alpha_pct": 54.5,
+    "opaque_alpha_pct": 45.5,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      21,
+      192,
+      737
+    ],
+    "bbox_size": [
+      192,
+      716
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_conduct.png",
+    "name": "fx_reaction_conduct.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 278.0,
+    "alpha_fill_pct": 38.57,
+    "semi_alpha_pct": 72.9,
+    "opaque_alpha_pct": 27.1,
+    "alpha_unique": 227,
+    "bbox": [
+      12,
+      18,
+      183,
+      736
+    ],
+    "bbox_size": [
+      171,
+      718
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_corrode.png",
+    "name": "fx_reaction_corrode.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 243.6,
+    "alpha_fill_pct": 39.84,
+    "semi_alpha_pct": 73.5,
+    "opaque_alpha_pct": 26.5,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      0,
+      192,
+      768
+    ],
+    "bbox_size": [
+      192,
+      768
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_decay.png",
+    "name": "fx_reaction_decay.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 265.6,
+    "alpha_fill_pct": 39.37,
+    "semi_alpha_pct": 94.8,
+    "opaque_alpha_pct": 5.2,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      17,
+      190,
+      753
+    ],
+    "bbox_size": [
+      190,
+      736
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_freeze.png",
+    "name": "fx_reaction_freeze.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 273.6,
+    "alpha_fill_pct": 47.35,
+    "semi_alpha_pct": 54.2,
+    "opaque_alpha_pct": 45.8,
+    "alpha_unique": 227,
+    "bbox": [
+      11,
+      20,
+      184,
+      748
+    ],
+    "bbox_size": [
+      173,
+      728
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_melt.png",
+    "name": "fx_reaction_melt.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 220.8,
+    "alpha_fill_pct": 30.99,
+    "semi_alpha_pct": 71.3,
+    "opaque_alpha_pct": 28.7,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      32,
+      183,
+      748
+    ],
+    "bbox_size": [
+      183,
+      716
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_overload.png",
+    "name": "fx_reaction_overload.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 329.1,
+    "alpha_fill_pct": 48.37,
+    "semi_alpha_pct": 76.7,
+    "opaque_alpha_pct": 23.3,
+    "alpha_unique": 227,
+    "bbox": [
+      10,
+      14,
+      181,
+      761
+    ],
+    "bbox_size": [
+      171,
+      747
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_radiance.png",
+    "name": "fx_reaction_radiance.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 244.5,
+    "alpha_fill_pct": 36.19,
+    "semi_alpha_pct": 68.7,
+    "opaque_alpha_pct": 31.3,
+    "alpha_unique": 227,
+    "bbox": [
+      4,
+      1,
+      188,
+      768
+    ],
+    "bbox_size": [
+      184,
+      767
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_shatter.png",
+    "name": "fx_reaction_shatter.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 237.2,
+    "alpha_fill_pct": 35.95,
+    "semi_alpha_pct": 56.3,
+    "opaque_alpha_pct": 43.7,
+    "alpha_unique": 227,
+    "bbox": [
+      14,
+      39,
+      178,
+      730
+    ],
+    "bbox_size": [
+      164,
+      691
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_vaporize.png",
+    "name": "fx_reaction_vaporize.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 204.6,
+    "alpha_fill_pct": 39.04,
+    "semi_alpha_pct": 56.9,
+    "opaque_alpha_pct": 43.1,
+    "alpha_unique": 227,
+    "bbox": [
+      9,
+      20,
+      177,
+      746
+    ],
+    "bbox_size": [
+      168,
+      726
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\reactions\\fx_reaction_void.png",
+    "name": "fx_reaction_void.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 254.0,
+    "alpha_fill_pct": 49.34,
+    "semi_alpha_pct": 83.4,
+    "opaque_alpha_pct": 16.6,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      0,
+      192,
+      768
+    ],
+    "bbox_size": [
+      192,
+      768
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_blink_stone.png",
+    "name": "fx_relic_blink_stone.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 247.0,
+    "alpha_fill_pct": 40.29,
+    "semi_alpha_pct": 76.1,
+    "opaque_alpha_pct": 23.9,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      0,
+      192,
+      768
+    ],
+    "bbox_size": [
+      192,
+      768
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_decoy_scroll.png",
+    "name": "fx_relic_decoy_scroll.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 235.4,
+    "alpha_fill_pct": 42.5,
+    "semi_alpha_pct": 65.2,
+    "opaque_alpha_pct": 34.8,
+    "alpha_unique": 227,
+    "bbox": [
+      11,
+      32,
+      182,
+      738
+    ],
+    "bbox_size": [
+      171,
+      706
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_flame_ring.png",
+    "name": "fx_relic_flame_ring.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 236.2,
+    "alpha_fill_pct": 33.34,
+    "semi_alpha_pct": 63.8,
+    "opaque_alpha_pct": 36.2,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      21,
+      192,
+      768
+    ],
+    "bbox_size": [
+      192,
+      747
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_frost_amulet.png",
+    "name": "fx_relic_frost_amulet.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 277.6,
+    "alpha_fill_pct": 44.1,
+    "semi_alpha_pct": 55.8,
+    "opaque_alpha_pct": 44.2,
+    "alpha_unique": 227,
+    "bbox": [
+      10,
+      23,
+      180,
+      744
+    ],
+    "bbox_size": [
+      170,
+      721
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_gravity_stone.png",
+    "name": "fx_relic_gravity_stone.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 241.7,
+    "alpha_fill_pct": 34.26,
+    "semi_alpha_pct": 87.2,
+    "opaque_alpha_pct": 12.8,
+    "alpha_unique": 227,
+    "bbox": [
+      1,
+      8,
+      192,
+      760
+    ],
+    "bbox_size": [
+      191,
+      752
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_life_link.png",
+    "name": "fx_relic_life_link.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 232.0,
+    "alpha_fill_pct": 32.86,
+    "semi_alpha_pct": 71.1,
+    "opaque_alpha_pct": 28.9,
+    "alpha_unique": 227,
+    "bbox": [
+      18,
+      39,
+      178,
+      740
+    ],
+    "bbox_size": [
+      160,
+      701
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_shadow_dagger.png",
+    "name": "fx_relic_shadow_dagger.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 198.6,
+    "alpha_fill_pct": 32.85,
+    "semi_alpha_pct": 86.6,
+    "opaque_alpha_pct": 13.4,
+    "alpha_unique": 227,
+    "bbox": [
+      18,
+      42,
+      176,
+      732
+    ],
+    "bbox_size": [
+      158,
+      690
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\relics\\fx_relic_time_hourglass.png",
+    "name": "fx_relic_time_hourglass.png",
+    "size": [
+      192,
+      768
+    ],
+    "kb": 249.1,
+    "alpha_fill_pct": 52.4,
+    "semi_alpha_pct": 77.2,
+    "opaque_alpha_pct": 22.8,
+    "alpha_unique": 227,
+    "bbox": [
+      11,
+      32,
+      179,
+      749
+    ],
+    "bbox_size": [
+      168,
+      717
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\ui\\fx_ui_glow.png",
+    "name": "fx_ui_glow.png",
+    "size": [
+      192,
+      576
+    ],
+    "kb": 159.5,
+    "alpha_fill_pct": 45.95,
+    "semi_alpha_pct": 62.7,
+    "opaque_alpha_pct": 37.3,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      0,
+      192,
+      576
+    ],
+    "bbox_size": [
+      192,
+      576
+    ]
+  },
+  {
+    "path": "E:\\game\\回到地面\\art_source\\textures_review\\master\\effects\\ui\\fx_ui_loading.png",
+    "name": "fx_ui_loading.png",
+    "size": [
+      192,
+      576
+    ],
+    "kb": 180.3,
+    "alpha_fill_pct": 39.64,
+    "semi_alpha_pct": 59.8,
+    "opaque_alpha_pct": 40.2,
+    "alpha_unique": 227,
+    "bbox": [
+      0,
+      34,
+      192,
+      576
+    ],
+    "bbox_size": [
+      192,
+      542
+    ]
+  }
+]
