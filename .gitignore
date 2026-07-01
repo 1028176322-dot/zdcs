@@ -32,3 +32,6 @@ AutoSmoke/metadata/current_runtime_state.json
 AutoSmoke/metadata/runtime_ui_tree_current.json
 AutoSmoke/metadata/scene_interaction_tree.json
 AutoSmoke/runtime/bridge/unity_heartbeat.json
+
+# WorkBuddy local metadata
+.workbuddy/
